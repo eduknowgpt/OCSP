@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This report applies the **Competency Specification Process (CSP)** to the Problem-Based Learning (PBL) scenario entitled **"The Farmer Robot"**, which engages students in developing a prototype system for **herd identification** in extensive livestock farming environments. The scenario is based on a real-world challenge proposed by the company *Farmer Robot*, which seeks a low-cost solution to automate the classification of animals—bovines, caprines, and swine—using a robotic system equipped with a visual identification module.
+Building on the foundational CSP methodology, this report presents the application of the **Competency Authoring phase** within the Problem-Based Learning (PBL) scenario entitled **"The Farmer Robot"**, which engages students in developing a prototype system for **herd identification** in extensive livestock farming environments. The scenario is based on a real-world challenge proposed by the company *Farmer Robot*, which seeks a low-cost solution to automate the classification of animals—bovines, caprines, and swine—using a robotic system equipped with a visual identification module.
 
 Students are required to model and simulate the robot’s decision-making process using **Finite State Machines (FSMs)** and **Regular Expressions**, producing a functional prototype in the **JFLAP** environment. The task fosters the integration of formal languages, computational modeling, and analytical reasoning within a collaborative development setting.
 
@@ -191,7 +191,7 @@ This step maps **knowledge areas to the corresponding skills** required to succe
 **A.5.1 Mapping Knowledge to Skills**
 To demonstrate this competency, students must show the ability to:
 
-* **Apply** knowledge of **Finite Automata** to design models that reflect real-world behaviors through structured state transitions.
+* Apply knowledge of **Finite Automata** to **design** models that reflect real-world behaviors through structured state transitions.
 
 * **Apply** **Requirements Analysis** to understand the user’s expectations and translate them into clear formal specifications that guide FSM design.
 
@@ -201,14 +201,13 @@ To demonstrate this competency, students must show the ability to:
 
 **A.5.2 Bloom’s Taxonomy Alignment**
 
-* *Apply* is used for all three knowledge areas to assess students’ ability to transfer theoretical knowledge into practice.
-
+- Create level is used to assess students’ ability to employ the concept of Finite Automata in modeling and developing a solution to the Farm Robot problem.
 
 
 **A.5.3 Verb Annotation**
 To provide clarity on competency expectations, the following verb annotations define the required actions:
 
-* **Apply** → Finite State Machines → *Use, Implement, Create*
+* **Create** → Finite State Machines → *Design, Develop, Construct*
 * **Apply** → Requirements Analysis → *Interpret, Specify, Translate*
 
 
@@ -219,7 +218,7 @@ To provide clarity on competency expectations, the following verb annotations de
 
 | **Competency**                                                    | **Dispositions**                                           | **Knowledge**                          | **Skill**                                 |
 | ----------------------------------------------------------------- | ---------------------------------------------------------- | -------------------------------------- | ----------------------------------------- |
-| **Develop Problem-Solving Solutions Using Finite State Machines** | Inventive, Collaborative, Responsible, Proactive, Creative | Finite Automata                  | **Apply (Use, Implement, Create)**                        |
+| **Develop Problem-Solving Solutions Using Finite State Machines** | Inventive, Collaborative, Responsible, Proactive, Creative | Finite Automata                  | **Create (Design, Develop, Construct)**                        |
 |                                                                   |                                                            | Requirements Analysis                  | **Apply (Interpret, Specify, Translate)** |
 |                                                                   |                                                            | Analytical and Critical Thinking (FPK) | **Apply**    |
 
@@ -487,7 +486,7 @@ To provide clarity on competency expectations, the following verb annotations de
 
 | **Competency**                                                    | **Dispositions**                                           | **Knowledge**                          | **Skill**                                 |
 | ----------------------------------------------------------------- | ---------------------------------------------------------- | -------------------------------------- | ----------------------------------------- |
-| **Develop Problem-Solving Solutions Using Finite State Machines** | Inventive, Collaborative, Responsible, Proactive, Creative | Finite Automata                        | **Apply (Use, Implement, Create)**        |
+| **Develop Problem-Solving Solutions Using Finite State Machines** | Inventive, Collaborative, Responsible, Proactive, Creative | Finite Automata                        | **Create (Design, Develop, Construct)**        |
 |                                                                   |                                                            | Requirements Analysis                  | **Apply (Interpret, Specify, Translate)** |
 |                                                                   |                                                            | Analytical and Critical Thinking (FPK) | **Apply (Analyze, Justify, Evaluate)**    |
 |                          |                                                    |

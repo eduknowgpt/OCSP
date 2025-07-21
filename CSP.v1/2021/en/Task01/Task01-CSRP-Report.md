@@ -1,10 +1,30 @@
-# CSRP-Based Competency Specification Review Report: Task1 – The Vending Machine for Sodas and Snacks
+# Expert Review: Task1 – The Vending Machine for Sodas and Snacks
 
 ## 1. Introduction
 
-This report documents the review of the competency specifications associated with the Problem-Based Learning (PBL) task "The Vending Machine for Sodas and Snacks." The review was conducted using the structured Competency Specification Review Process (CSRP), with the objective of evaluating the clarity, accuracy, pedagogical alignment, and relevance of the defined competencies, including their associated knowledge, skills, and dispositions.
+Building on the **Competency Specification Process (CSP) framework**, this report documents **Phase 2 – Competency Expert Review** for the PBL task “The Vending Machine for Sodas and Snacks.” The purpose of this phase is to systematically and collaboratively validate the competency specifications—encompassing their knowledge, skills, and dispositions—for:
 
-The analysis was informed by interviews conducted with two experienced instructors, using a structured interview protocol. Rather than presenting a full transcription of the interview guide, this report summarizes the structure of the instrument and synthesizes the reviewers’ insights. The review findings are organized according to the main stages of the CSRP, highlighting strengths, inconsistencies, and suggestions for improvement in the competency specification process.
+- Accuracy and theoretical soundness, reflecting domain expertise
+
+- Clarity and internal consistency, ensuring precise and unambiguous competencies
+
+- Pedagogical alignment, confirming relevance to intended learning outcomes
+
+- Contextual applicability, evaluating real-world feasibility and educational value
+
+Two experienced subject-matter experts conducted structured interviews guided by a Review Guide, assessing each competency against a prescribed protocol. Rather than including raw transcripts, this report outlines the review instrument and synthesizes key insights.
+
+The findings follow the stages of the Competency Specification Protocol:
+
+- Instructional-context analysis: Validating task complexity and competency requirements
+
+- Item-level evaluation: Identifying strengths, inconsistencies, and areas needing clarification
+
+- Compreensive synthesis: Integrating findings across clarity, accuracy, alignment, and relevance
+
+- Recommendations: Offering concrete enhancements to optimize the competency model
+
+By anchoring the review in Phase 2 of CSP, this report ensures that the competency specifications are theoretically rigorous, pedagogically robust, and educationally effective.
 
 
 ## 2. Summary of Recommendations

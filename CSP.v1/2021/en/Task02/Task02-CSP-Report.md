@@ -2,13 +2,13 @@
 
 ## Introduction
 
-This report applies the **Competency Specification Process (CSP)** to the Problem-Based Learning (PBL) scenario entitled **"Traffic Control"**, which engages students in designing a computational solution using **Turing Machines** to address vehicle monitoring and classification on highways. The task integrates formal methods and systems thinking to model a real-world problem posed by the Bahia Department of Transport Infrastructure (DERBA).
+Building on the foundational CSP methodology, this report presents the application of the **Competency Authoring phase** in the Problem-Based Learning (PBL) scenario entitled **"Traffic Control"**, which engages students in designing a computational solution using **Turing Machines** to address vehicle monitoring and classification on highways. The task integrates formal methods and systems thinking to model a real-world problem posed by the Bahia Department of Transport Infrastructure (DERBA).
 
 Through the CSP methodology, competencies are extracted and structured based on the analysis of the task description, relevant knowledge domains, learning objectives, and behavioral dispositions. The goal is to define a robust competency framework aligned with both **technical skill development** and **collaborative problem solving**.
 
 
 
-## 1. Task Description Analysis
+## 1. Task Analysis
 
 The *Traffic Control* task challenges students to develop a formal computational solution that addresses a real-world issue identified by the **Bahia Department of Transport Infrastructure (DERBA)**: the deterioration of highways due to excessive pressure from nighttime heavy vehicle traffic.
 
@@ -179,7 +179,7 @@ To achieve this competency, students must demonstrate the ability to:
 
 - **Apply** *Analytical and Critical Thinking* along with knowledge of *Turing Machines* to develop a computational solution that processes and classifies traffic data. This includes modeling sensor behavior and vehicle categorization within the formal structure of a Turing Machine.
 
-- **Use** *Turing Machines* to represent and simulate the logic of counting and categorizing vehicles, ensuring that the model correctly processes the data and delivers an efficient solution to the problem.
+- **Construct** *Turing Machines* to represent and simulate the logic of counting and categorizing vehicles, ensuring that the model correctly processes the data and delivers an efficient solution to the problem.
 
 - **Apply** *Requirements Analysis* to correctly identify and specify the essential requirements of the system. Students must elicit DERBA’s needs, interpret sensor data, and define criteria for traffic analysis, ensuring that user requirements are translated into practical functionalities in the developed solution.
 
@@ -188,8 +188,8 @@ To achieve this competency, students must demonstrate the ability to:
 
 To ensure a structured and progressive learning approach, each knowledge component is aligned with Bloom’s Revised Taxonomy, providing a clear framework for competency assessment.
 
-- **MTuring Machines - Apply**
-- Apply level is used to assess students’ ability to employ the concept of Turing Machines in modeling and solving the traffic control problem.
+- **MTuring Machines - Create**
+- Create level is used to assess students’ ability to employ the concept of Turing Machines in modeling and developing a solution to the traffic control problem.
 
 - **Requirements Analysis - Apply**
 - Apply level is used to evaluate whether students can interpret and structure system requirements based on the problem’s needs.
@@ -197,16 +197,17 @@ To ensure a structured and progressive learning approach, each knowledge compone
 - **Analytical and Critical Thinking (FPK) - Apply**
 - Apply level is selected to assess students’ ability to break down the problem into manageable components and develop effective strategies for solving it.
 
+
 **A.5.3 Verb Annotation**  
 To provide clarity on competency expectations, the following verb annotations define the required actions:  
 
-#### **Turing Machines – Apply**
+**Develop** a formal Turing Machine: states, tape alphabet, head movements, and transition function.
+**Construct** and simulate the TM to model realistic traffic light or vehicle queue behaviors.
+**Invent** enhancements to demonstrate adaptability and originality.
 
-* **Use** a Turing machine model to represent system behavior.
-* **Implement** configurations and transitions in a simulation environment.
-* **Execute** processes defined by the machine to solve structured problems.
+#### **Turing Machines – Create**
 
- **Verbs**: *Use*, *Implement*, *Execute*
+  **Verbs**: *Develop*, *Invent*, *Construct*
 
 
 #### **Requirements Analysis – Apply**
@@ -232,7 +233,7 @@ To provide clarity on competency expectations, the following verb annotations de
 
 | **Competency** | **Dispositions** | **Knowledge** | **Skill** |
 |------------|-----------|------------|----|
-|  |   | Turing Machines  | **Apply (Use, Implement, Execute)** |
+|  |   | Turing Machines  | **Create (Develop, Invent, Construct)** |
 | **Develop Problem-Solving Solutions Using Turing Machines** | **Collaborative, Responsible, Proactive, Creative, Inventive** | Requirements Analysis | **Apply (interpret, Organize)** |
 | | | Analytical and Critical Thinking (FPK) | **Apply (Decompose, Identify)** |
 
@@ -507,7 +508,7 @@ To clarify learning expectations, the following verb annotations highlight key a
 
 | **Competency**                                     | **Dispositions**                                               | **Knowledge**                          | **Skill**                                          |
 |----------------------------------------------------|----------------------------------------------------------------|----------------------------------------|----------------------------------------------------|
-| **Develop Problem-Solving Solutions Using Turing Machines** | Collaborative, Responsible, Proactive, Creative, Inventive | Turing Machines                        | **Apply (Use, Implement, Execute)**                |
+| **Develop Problem-Solving Solutions Using Turing Machines** | Collaborative, Responsible, Proactive, Creative, Inventive | Turing Machines                        | **Create (Develop, Invent, Construct)**                |
 |                                                    |                                                                | Requirements Analysis                  | **Apply (Interpret, Organize)**                    |
 |                                                    |                                                                | Analytical and Critical Thinking | **Apply (Decompose, Identify)**                    |
 |                                                    |                                                                |                                        |                                                    |

@@ -158,7 +158,7 @@ Students must demonstrate the ability to:
 
 | **ID**  | **Competency** | **Dispositions** | **Knowledge** | **Skill** |
 |---------|--------|-----------|-----------|-------------------|
-| (A) | **Develop problem solutions using Automata** | Collaborative, Responsible, Proactive, Creative | Finite State Machines | **Apply (Construct, Develop, Design)** |
+| (A) | **Develop problem solutions using Automata** | Collaborative, Responsible, Proactive, Creative | Finite State Machines | **Create (Construct, Develop, Design)** |
 |         |                                   |                                 | Requirements Engineering | **Apply (Interpret, Implement, Organize)** |
 |         |                                   |                                 | Analytical and Critical Thinking (FPK) | **Apply** |
 |  |  |                                        |       |       
