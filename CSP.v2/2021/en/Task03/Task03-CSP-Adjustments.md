@@ -147,7 +147,7 @@ The following action verbs, aligned with Bloom’s Taxonomy, illustrate how each
 
 | **Competency**                                                    | **Dispositions**                                           | **Knowledge**                          | **Skill**                                     |
 | ----------------------------------------------------------------- | ---------------------------------------------------------- | -------------------------------------- | --------------------------------------------- |
-| **Develop Problem-Solving Solutions Using Finite State Machines** | Inventive, Collaborative, Responsible, Proactive, Creative | Finite State Machines                  | **Apply (Use, Implement, Create)**            |
+| **Develop Problem-Solving Solutions Using Finite State Machines** | Inventive, Collaborative, Responsible, Proactive, Creative | Finite State Machines                  | **Create (Design, Develop, Construct)**            |
 |                                                                   |                                                            | Requirements Engineering                  | **Apply (Interpret, Specify, Translate)**     |
 |                                                                   |                                                            | Analytical and Critical Thinking (FPK) | **Apply (Analyze, Justify, Evaluate)**        |
 |                                        |                                                    |

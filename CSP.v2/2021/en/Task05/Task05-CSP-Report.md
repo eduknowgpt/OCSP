@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This report applies the **Competency Specification Process (CSP)** to the Problem-Based Learning (PBL) scenario entitled **"The Farmer Robot and the Feeder Robot"**, which expands on previous challenges by integrating new functionalities and a second robotic agent. In this scenario, students are required to design computational solutions using **Turing Machines** to model the behavior of both the Farmer Robot and the newly introduced Feeder Robot.
+Building on the foundational CSP methodology, this report presents the application of the **Competency Authoring phase** within the Problem-Based Learning (PBL) scenario entitled **"The Farmer Robot and the Feeder Robot"**, which expands on previous challenges by integrating new functionalities and a second robotic agent. In this scenario, students are required to design computational solutions using **Turing Machines** to model the behavior of both the Farmer Robot and the newly introduced Feeder Robot.
 
 The core challenge is to ensure that, during herd traversal and food delivery signaling, the Farmer Robot also communicates the path the Feeder Robot must follow. Furthermore, a unified abstract machine—capable of sequential read and write operations over unlimited memory—must be employed to implement the navigation modules of both robots. This decision aims to support system documentation standardization and simplify maintenance training.
 
@@ -104,18 +104,18 @@ As a result, Task 05 leverages an established and validated set of competencies 
 
 | **Competency**                                     | **Dispositions**                                               | **Knowledge**                          | **Skill**                                          |
 |----------------------------------------------------|----------------------------------------------------------------|----------------------------------------|----------------------------------------------------|
-| **Develop Problem-Solving Solutions Using Turing Machines** | Collaborative, Responsible, Proactive, Creative, Inventive | Turing Machines                        | **Apply (Use, Implement, Execute)**                |
-|                                                    |                                                                | Requirements Analysis                  | **Apply (Interpret, Organize)**                    |
+| **Develop Problem-Solving Solutions Using Turing Machines** | Collaborative, Responsible, Proactive, Creative, Inventive | Turing Machines                        | **Create (Develop, Invent, Construct)**                |
+|                                                    |                                                                | Requirements Engineering                  | **Apply (Interpret, Organize)**                    |
 |                                                    |                                                                | Analytical and Critical Thinking (FPK) | **Apply (Decompose, Identify)**                    |
 |                                                    |                                                                |                                        |                                                    |
 | **Identify Turing Machine Variants**               | Investigative, Collaborative, Responsible, Proactive           | Turing Machines                 | **Understand (Differentiate, Recognize, Explain)** |              |                                      
-|                                                    |                                                                | Analytical and Critical Thinking (FPK) | **Apply (Evaluate, Decide, Justify)**              |
+|                                                    |                                                                | Analytical and Critical Thinking (FPK) | **Apply**              |
 |                                                    |                                                                |                                        |                                                    |
 | **Apply Turing Machine Variants**            | Inventive, Responsible, Proactive, Collaborative, Creative     | Turing Machines                 | **Apply (Use, Adapt, Implement)**                  |
-|                                                    |                                                                | Analytical and Critical Thinking (FPK) | **Apply (Evaluate, Decide, Select)**               |
-|  |                                        |       |       
-| **Write a technical report.** | Collaborative, Meticulous, Responsible | Written Communication (FPK) | **Apply** |
-|  |  |                                        |       |       
+|                                                    |                                                                | Analytical and Critical Thinking (FPK) | **Apply**               |
+|                                        |                                                    |
 | **Testing Turing Machines Using Simulators** | Collaborative, Responsible, Proactive, Creative | Turing Machines                           | **Apply (Simulate, Evaluate, Verify)** |
 |                                              |                                                     | Problem Solving and Troubleshooting | **Apply (Diagnose, Debug, Refine)**    |
 |         |                                 | Modeling and Simulation | **Apply** |
+|  |                                        |       |       
+| **Write a technical report** | Collaborative, Meticulous, Responsible | Written Communication | Apply |

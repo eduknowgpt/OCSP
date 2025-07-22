@@ -38,8 +38,8 @@ The application of PDAs may span domains such as robotic control, language parsi
 
 | **Competency**                                            | **Dispositions**                                               | **Knowledge**                          | **Skill**                  |
 | --------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------- | -------------------------- |
-| Develop problem-solving solutions using Pushdown Automata | Inventive, Collaborative, Responsible, Proactive, Creative | Pushdown Automata                      | **Apply (Develop, Model)** |
-|                                                           |                                                                | Requirements Engineering               | **Apply**             |
+| Develop problem-solving solutions using Pushdown Automata | Inventive, Collaborative, Responsible, Proactive, Creative | Pushdown Automata                      | **Create (Design, Develop, Construct)** |
+|                                                           |                                                                | Requirements Engineering               | **Apply (Interpret, Specify, Translate)**             |
 |                                                           |                                                                | Analytical and Critical Thinking | **Apply**                  |
 
 
@@ -167,8 +167,8 @@ Claro! Aqui está a **tabela unificada** com todas as informações combinadas d
 
 | **Competency**                                            | **Dispositions**                                           | **Knowledge**                    | **Skill**                                             |
 | --------------------------------------------------------- | ---------------------------------------------------------- | -------------------------------- | ----------------------------------------------------- |
-| **Develop problem-solving solutions using Pushdown Automata** | Inventive, Collaborative, Responsible, Proactive, Creative | Pushdown Automata                | **Apply** (*Develop, Model*)                          |
-|                                                           |                                                            | Requirements Engineering         | **Apply** (*Specify, Structure*)                      |
+| **Develop problem-solving solutions using Pushdown Automata** | Inventive, Collaborative, Responsible, Proactive, Creative | Pushdown Automata                | **Create (Design, Develop, Construct)**                          |
+|                                                           |                                                            | Requirements Engineering         | **Apply (Interpret, Specify, Translate)**                      |
 |                                                           |                                                            | Analytical and Critical Thinking | **Apply** (*Decompose, Evaluate*)                     |
 |                                        |                                                    |
 | **Interpret rule-based notation**                             | Inventive, Collaborative, Responsible, Proactive, Creative | Pushdown Automata                | **Understand** (*Recognize, Explain, Compare*)        |

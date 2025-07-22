@@ -2,11 +2,12 @@
 
 ## Introduction
 
-Building on the general structure defined in the CSP methodology, this report presents the application of the **Competency Specification Process** to the **Task1 – The Vending Machine for Sodas and Snacks**, a Problem-Based Learning (PBL) scenario that explores the use of **finite automata and regular expressions** in the design of vending machine software and hardware solutions.
+Building on the foundational CSP methodology, this report presents the application of the **Competency Authoring phase** in **Task1 – The Vending Machine for Sodas and Snacks**, a Problem-Based Learning (PBL) scenario that explores the use of **finite automata and regular expressions** in the design of vending machine software and hardware solutions.
 
-## 1. Task Description Analysis
 
-The PBL task titled **"The Vending Machine for Sodas and Snacks"** presents a problem related to **change calculation in vending machine transactions**, where payments are made using coins and banknotes. The task requires students to design a solution that enables the vending machine to accept payments, dispense change accurately, and operate according to predefined functional requirements.
+## 1. Task Analysis
+
+The PBL case titled **"The Vending Machine for Sodas and Snacks"** presents a problem related to **change calculation in vending machine transactions**, where payments are made using coins and banknotes. The task requires students to design a solution that enables the vending machine to accept payments, dispense change accurately, and operate according to predefined functional requirements.
 
 To successfully address this problem, students must demonstrate their ability to:
 - **Apply finite automata** concepts to model the vending machine’s behavior.
@@ -188,8 +189,8 @@ To ensure a structured and progressive learning approach, each knowledge compone
   - Evaluates the ability to **analyze relationships, identify patterns, and formulate logical strategies** for problem-solving.  
   - Ensures students can effectively **bridge theoretical knowledge with practical implementation**.  
 
-- **Automata over Infinite Objects – Apply**  
-  - Measures the student's capability to **design and implement automata-based solutions** for a defined problem.  
+- **Automata over Infinite Objects – Create**  
+  - Measures the student's capability to **design and implement a automata-based solutions** for a abstract problem. 
   - Assesses the ability to **translate real-world system constraints into automata models** using states and transitions.  
   - Ensures that students can effectively **apply computational modeling techniques** to solve vending machine transaction issues.  
 
@@ -214,7 +215,7 @@ To provide clarity on competency expectations, the following verb annotations de
 
 | **Competency** | **Dispositions** | **Knowledge** | **Skill** |
 |------------|-----------|------------|----|
-|  |   | Automata over Infinite Objects | **Apply (Construct, Develop, Design)** |
+|  |   | Automata over Infinite Objects | **Create (Construct, Develop, Design)** |
 | **Develop problem solutions using Automata** | Collaborative, Responsible, Proactive, Creative | Requirements Analysis | **Apply (Interpret, Implement, Organize)** |
 | | | Analytical and Critical Thinking (FPK) | **Apply** |
 
@@ -586,7 +587,7 @@ To clarify expected learning outcomes, the following action verbs define key stu
 
 | **Competency** | **Dispositions** | **Knowledge** | **Skill** |
 |----------------|------------------|---------------|-----------|
-| **Develop problem solutions using Automata** | Collaborative, Responsible, Proactive, Creative | Automata over Infinite Objects | Apply (Construct, Develop, Design) |
+| **Develop problem solutions using Automata** | Collaborative, Responsible, Proactive, Creative | Automata over Infinite Objects | Create (Construct, Develop, Design) |
 |  |  | Requirements Analysis | Apply (Interpret, Implement, Organize) |
 |  |  | Analytical and Critical Thinking (FPK) | Apply |
 |  |  |                                        |       |       

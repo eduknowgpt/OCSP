@@ -35,7 +35,7 @@ This refinement illustrates the iterative nature of the CSP, where **post-review
 
 | **Competency** | **Dispositions** | **Knowledge** | **Skill** |
 |--------|-----------|-----------|-------------------|
-| **Develop Problem-Solving Solutions Using Finite State Machines** | Inventive, Collaborative, Responsible, Proactive, Creative | Finite State Machines                  | **Apply (Use, Implement, Create)**            |
+| **Develop Problem-Solving Solutions Using Finite State Machines** | Inventive, Collaborative, Responsible, Proactive, Creative | Finite State Machines                  | **Create (Construct, Develop, Design)**           |
 |                | |                  Requirements Engineering | **Apply (Interpret, Implement, Organize)** |
 |         |                                   |                                 Analytical and Critical Thinking (FPK) | **Apply** |
 |  |  |                                        |       |       

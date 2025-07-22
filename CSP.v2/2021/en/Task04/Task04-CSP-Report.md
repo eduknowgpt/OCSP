@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This report applies the **Competency Specification Process (CSP)** to the Problem-Based Learning (PBL) scenario titled **"The Return of the Farmer Robot"**. The task challenges students to design a navigation module that allows the robot to autonomously return to its initial location after issuing food delivery alerts. The module must be implemented using computational models and validated through simulation.
+Building on the foundational CSP methodology, this report presents the application of the **Competency Authoring phase** within the Problem-Based Learning (PBL) scenario titled **"The Return of the Farmer Robot"**. The task challenges students to design a navigation module that allows the robot to autonomously return to its initial location after issuing food delivery alerts. The module must be implemented using computational models and validated through simulation.
 
 This scenario is rooted in a real-world agricultural context and emphasizes the application of **formal methods**, including **automata theory** and **context-free grammars**, to address autonomous navigation problems. The proposed solution must be developed in **JFLAP**, with results documented in a formal technical report following SBC (Brazilian Computing Society) standards.
 
@@ -144,7 +144,7 @@ Effective engagement with this task requires the following behavioral dispositio
 
 To demonstrate this competency, students must be able to:
 
-* **Apply** knowledge of **Pushdown Automata** to model navigation strategies that require memory and backtracking, simulating return paths using stack-based logic.
+* Apply knowledge of **Pushdown Automata** to **develop** navigation strategies that require memory and backtracking, simulating return paths using stack-based logic.
 
 * **Apply** knowledge of **Requirements Analysis** to extract, structure, and prioritize behavioral specifications aligned with the robot’s goals.
 
@@ -156,15 +156,15 @@ To demonstrate this competency, students must be able to:
 
 The primary cognitive processes involved in this competency are aligned with the following Bloom’s levels:
 
-* **Apply** – For using PDA concepts in system modeling and requirements-driven design.
+* **Create** – For using PDA concepts in system modeling developing a solution to the Return of the Farm Robot problem.
 
 
 #### **A.5.3 Verb Annotation**
 
-Representative action verbs associated with this competency include:
+To provide clarity on competency expectations, the following verb annotations define the required actions:
 
-* *Develop*, *Apply*, *Model*, *Simulate*, *Interpret*, *Construct*, *Refine*, *Justify*
-
+* **Create** → Pushdown Automata → *Design, Develop, Construct*
+* **Apply** → Requirements Analysis → *Interpret, Specify, Translate*
 
 
 
@@ -172,8 +172,8 @@ Representative action verbs associated with this competency include:
 
 | **Competency**                                            | **Dispositions**                                               | **Knowledge**                          | **Skill**                  |
 | --------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------- | -------------------------- |
-| Develop problem-solving solutions using Pushdown Automata | Inventive, Collaborative, Responsible, Proactive, Creative | Finite Automata                      | **Apply (Develop, Model)** |
-|                                                           |                                                                | Requirements Analysis               | **Apply**             |
+| Develop problem-solving solutions using Pushdown Automata | Inventive, Collaborative, Responsible, Proactive, Creative | Finite Automata                      | **Create (Design, Develop, Construct)** |
+|                                                           |                                                                | Requirements Analysis               | **Apply (Interpret, Specify, Translate)**             |
 |                                                           |                                                                | Analytical and Critical Thinking (FPK) | **Apply**                  |
 
 
@@ -321,8 +321,8 @@ Differentiate, Classify, Compare, Contrast, Identify, Justify
 
 | **Competency**                                                | **Dispositions**                                           | **Knowledge**                          | **Skill**                                         |
 | ------------------------------------------------------------- | ---------------------------------------------------------- | -------------------------------------- | ------------------------------------------------- |
-| **Develop problem-solving solutions using Pushdown Automata** | Inventive, Collaborative, Responsible, Proactive, Creative | Pushdown Automata                      | **Apply (Develop, Model)**                        |
-|                                                               |                                                            | Requirements Analysis                  | **Apply**                                         |
+| **Develop problem-solving solutions using Pushdown Automata** | Inventive, Collaborative, Responsible, Proactive, Creative | Pushdown Automata                  | **Create (Design, Develop, Construct)**                      |
+|                                                               |                                                            | Requirements Analysis                  | **Apply (Interpret, Specify, Translate)**                                         |
 |                                                               |                                                            | Analytical and Critical Thinking (FPK) | **Apply**                                         |
 | **Interpret rule-based notation**                             | Inventive, Collaborative, Responsible, Proactive, Creative | Pushdown Automata                      | **Understand**                                    |
 |                                                               |                                                            | Regular Languages                      | **Apply (Utilize, Solve)**                        |

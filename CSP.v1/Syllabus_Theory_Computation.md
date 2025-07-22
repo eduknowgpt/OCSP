@@ -3,6 +3,12 @@
 
 ## **Course Overview**
 
+Institute of Computing – UFBA
+Bachelor’s Degree in Computer Science
+Course: Theory of Computation
+4th semester – 2nd year
+Assessments use a grading scale from 0 to 10
+
 The course **Introduction to Formal Languages and Theory of Computation** was delivered remotely, using a modern and interactive approach to learning. With the **PBL (Problem-Based Learning)** methodology. The central goal was to stimulate critical thinking and problem-solving through practical situations that bridge theory and real-world applications.
 
 Various tools were employed to create a rich and collaborative learning experience:
