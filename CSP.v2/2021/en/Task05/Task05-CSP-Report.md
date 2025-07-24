@@ -4,30 +4,78 @@
 
 Building on the foundational CSP methodology, this report presents the application of the **Competency Authoring phase** within the Problem-Based Learning (PBL) scenario entitled **"The Farmer Robot and the Feeder Robot"**, which expands on previous challenges by integrating new functionalities and a second robotic agent. In this scenario, students are required to design computational solutions using **Turing Machines** to model the behavior of both the Farmer Robot and the newly introduced Feeder Robot.
 
+
+## 1. Instructional Entity Analysis
+
+### Title
+
+* The Farmer Robot and the Feeder Robot
+
+
+### Description
+
+- The **The Farmer Robot and the Feeder Robot** task extends the company’s prior automation modules. A new **Feeder Robot** must collaborate with the **Farmer Robot**, combining herd-location alerts with path encoding to deliver supplies efficiently. Alongside this integration, the existing signaling module must be updated to accept a minimum herd-size threshold before activation.
+
 The core challenge is to ensure that, during herd traversal and food delivery signaling, the Farmer Robot also communicates the path the Feeder Robot must follow. Furthermore, a unified abstract machine—capable of sequential read and write operations over unlimited memory—must be employed to implement the navigation modules of both robots. This decision aims to support system documentation standardization and simplify maintenance training.
 
-Through the CSP methodology, competencies are extracted and structured from the task description, relevant knowledge domains, learning objectives, and behavioral dispositions. The result is a structured framework for competency-based learning that integrates computational modeling, tool application, and collaborative problem-solving in real-world-inspired scenarios.
+
+### Solution Development Process
+
+Students are expected to:
+
+* **Analyze inter-robot coordination**, identifying data transfer needs between modules.
+* **Revise the signaling module** to include herd threshold input logic.
+* **Design a unified computational model** using a **Turing Machine** with unbounded, sequential read/write memory to encode path and signaling data.
+* **Implement and simulate both modules** in **JFLAP**, verifying correct herd detection, path encoding, and threshold behavior.
+* **Document the combined solution** through a technical report following SBC standards, including logic, design rationale, path examples, and coordination flow.
+* **Collaborate using PBL tools**, maintaining structured whiteboard diagrams and logbook entries to track design decisions.
 
 
 
-## 1. Task Description Analysis
+### Expected Outcomes
 
-The *Farmer Robot and Feeder Robot* task addresses the ongoing innovation efforts of the Farmer Robot company. After successful deployments of previous modules for signaling and navigation, the company aims to introduce a new robot, the **Feeder Robot**, that works in coordination with the **Farmer Robot** to deliver supplies to herds efficiently.
+Learners should submit:
 
-The main goal is to integrate the identification and navigation logic of both robots using a unified computational model—a **Turing Machine** with sequential read/write access to unbounded memory. The Farmer Robot must not only alert the herd's location but also encode and transmit the path that the Feeder Robot should follow. Additionally, the Farmer Robot's previous signaling module must be revised to allow input of a minimum threshold for herd member count.
+* A **JFLAP Turing Machine file** representing the signaling and feeding modules, including path encoding and herd threshold logic.
 
-The expected deliverables are:
+* A **technical report** (SBC format) containing:
 
-* A **JFLAP file** implementing both robots' navigation modules using the shared abstract machine model.
-* A **technical report** following the SBC article format, documenting the logic, design choices, and execution of the developed modules with examples.
+  * Module interaction logic and coordination narrative
+  * Turing Machine state and tape definitions
+  * Examples demonstrating system execution (e.g., path and threshold scenarios)
+  * Justification of design choices and system scalability considerations
 
-This task requires students to:
 
-* Understand the interaction and coordination between multiple robot modules.
-* Revise and enhance existing computational solutions.
-* Investigate abstract computational models and apply them to new design scenarios.
-* Use **JFLAP** to simulate and validate system behavior.
-* Collaborate effectively and maintain structured documentation through PBL tools such as the Whiteboard and Logbook.
+### Acquisition Context
+
+* **Environment:** Access to JFLAP or equivalent simulation tools
+* **Application:** Useful for teaching computation theory, automata, data processing in CS curricula or infrastructure monitoring contexts
+
+
+
+## Target Audience Profile
+
+
+* **Academic Level**: 2nd–3rd year undergraduate CS students.
+
+* **Domain Background:**
+  * Knowledgeable in automata theory and Turing Machines
+  * Familiar with programming, state modeling, and data simulation
+
+* **Task Roles:**
+
+  * Formal model designers and simulators
+  * Data processors and classification system implementers
+  * Technical report authors explaining computational rationale
+
+
+## Proficiency Scale
+
+| **Level**     | **Descriptor**                                                                                                          | **Grade Range (0–10)** |
+| ------------- | ----------------------------------------------------------------------------------------------------------------------- | ---------------------- |
+| **Novice**    | Partial or incorrect TM model; fails to correctly process or count categories                                           | 0–5                    |
+| **Competent** | Correct TM model with clear classification and counting; successfully simulated and validated                           | >5–9                    |
+| **Advanced**  | TM model optimized with multi-tape or nondeterministic features; includes comparative analysis and strong justification | > 9                   |
 
 
 
@@ -85,19 +133,47 @@ These learning objectives ensure that students combine theoretical and applied k
 
 ## **4. Competency Specification**
 
-To support the learning objectives of Task 05, the **competency set defined for Task 02 (*Traffic Control*) is intentionally reused**, as both tasks involve the design, simulation, and documentation of systems modeled using **Turing Machines**. This strategic reuse ensures alignment between instructional goals and promotes coherence across the curriculum.
+To support the learning objectives of **Task 05 – Farmer & Feeder Robots**, the reviewed competency set originally defined for **Task 02 – Traffic Control** has been intentionally reused. This decision is grounded in strong pedagogical alignment across both tasks and ensures instructional coherence through several key parallels:
 
-The decision not to revise or generate a new Competency Specification Review Process (CSRP) for Task 05 is justified by the following pedagogical and methodological considerations:
+### 1. Shared Computational Modeling with Turing Machines
 
-* **Consistency**: Reinforces key cognitive processes and technical proficiencies—such as formal modeling, symbolic representation, and systematic problem-solving—through repeated application in varied contexts.
+Both tasks require learners to design, implement, and validate **Turing Machine (TM)** models. Task 02 focuses on vehicle classification and counting, while Task 05 extends TM usage to manage multi-agent coordination, path encoding, and threshold logic. The underlying computational concepts—state transitions, tape management, and machine variants—are consistent across both contexts, making the Turing Machine-based competencies directly applicable.
 
-* **Efficiency**: Eliminates redundancy in the specification process, allowing instructional focus to shift from redefinition to deeper engagement with the same competency framework.
+### 2. Common Simulation and Validation Process
 
-* **Scalability**: Demonstrates the applicability of well-structured competencies across multiple problem domains, fostering the transfer of learning and strengthening their instructional relevance.
+Both tasks utilize **JFLAP** or equivalent TM simulators for model execution and correctness testing. Students must demonstrate proficiency in constructing, running, and debugging Turing Machines, reflecting a shared technical skill set emphasized in the reused competencies.
 
-* **Traceability**: Enhances the visibility and continuity of learner progress by preserving competency alignment across tasks, thereby supporting a competency-based education model rooted in transparent and cumulative achievement tracking.
+### 3. Uniform Technical Reporting Standards
 
-As a result, Task 05 leverages an established and validated set of competencies without the need for additional review or adjustment.
+Both tasks require a **structured technical report** following SBC format. Report expectations—such as system logic, model justification, results, and design rationale—are identical, reinforcing the competencies related to technical communication and documentation.
+
+### 4. Consistent Cognitive Demands
+
+The tasks engage learners in higher-order cognitive activities aligned with Bloom’s taxonomy:
+
+* *Analyze* task requirements
+* *Construct* TM models
+* *Simulate* and test system behavior
+* *Evaluate* and justify design decisions
+  This shared cognitive framework further supports competency reuse.
+
+
+
+### Pedagogical Benefits of Reuse
+
+* **Curriculum Coherence & Sequencing**
+  Reusing competencies creates a clear, scaffolded progression in the curriculum. Students revisit and extend core TM skills from Task 02 in a more complex Task 05 scenario, reinforcing mastery and deepening understanding.
+
+* **Efficiency in Design & Assessment**
+  Maintaining consistent competency definitions streamlines instructional design and evaluation. Learners benefit from familiar criteria, reducing cognitive load and providing a stable basis for performance expectations.
+
+* **Enhanced Transferability**
+  By applying similar competencies in varied contexts, students demonstrate transfer of learning—a key indicator of skilled computational thinking and flexible problem-solving.
+
+
+The reuse of Task 02 competencies for Task 05 is therefore not only justified but strategically sound. It aligns the instructional intent, supports deeper skill development, and provides a cohesive learning trajectory centered on formal computational modeling with Turing Machines.
+
+These competencies will be integrated as-is into the Task 05 specification, ensuring alignment and continuity across both tasks.
 
 
 ## 5. Competency Reuse Table

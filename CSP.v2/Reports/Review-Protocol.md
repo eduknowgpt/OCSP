@@ -1,4 +1,4 @@
-# Competency Specification Review Protocol
+# CSP Review Protocol
 
 
 ## Introduction
@@ -81,6 +81,10 @@ These criteria are used across review stages to ensure consistency:
 
 > **Tip:** Note how each task element supports or limits the competencies (e.g., vague descriptions may hide essential required knowledge/skills).
 
+**Decision Thresholds**
+- Approved → All items rated Clear, Appropriate, Well Specified.
+
+- Needs Revision → Any item rated Needs Revision/Clarification, Incomplete, Misaligned
 
 
 ## Review of Enumerated Knowledge

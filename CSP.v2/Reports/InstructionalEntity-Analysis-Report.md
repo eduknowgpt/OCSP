@@ -75,8 +75,8 @@ Include: Learning stage (academic level as 2nd or 3rd year), roles in task (writ
 
 Example Scale:
 
-- Novice – Creates partial FSM diagrams with missing transitions
+- Novice – Limited or partial task execution; misses key components or handles only simple cases ((grade range <= 5))
 
-- Competent – Designs complete FSMs and validates via regex tests
+- Competent – Fully addresses core task requirements with accurate, complete performance on typical scenarios (grade range > 5 and <= 9)
 
-- Advanced – Extends system to hardware prototype and edge-case scenarios
+- Advanced – Demonstrates all task requirements plus enhancements, edge-case handling, and well-reasoned design (grade range > 9)

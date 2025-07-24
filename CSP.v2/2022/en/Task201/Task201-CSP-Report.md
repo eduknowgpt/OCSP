@@ -3,12 +3,76 @@
 **Team Members**: Lais Salvador, Edeyson A. Gomes, Luiz Gavaza
 **Date**: March 21, 2022
 
+## Introduction
 
-## 1. Task Description Analysis
+Building on the foundational CSP methodology, this report presents the application of the **Competency Authoring phase** in **Task201 - Surveillance Drone Prototype**.
 
-The problem scenario presented by SOS Florestal involves the development of a prototype surveillance module for a drone used in forest monitoring. The module must be capable of detecting and reporting deforestation, river siltation, and forest fires using optical, thermal, and positional data. The real-time transmission of photos and videos, enriched with GPS coordinates and sensor readings, enables the system to identify critical events and respond accordingly.
 
-Given the functional requirements and limited budget, students proposed modeling the system behavior using a **Finite State Machine (FSM)**. This approach allows for representing the system's states and transitions triggered by input events, ensuring a deterministic and transparent operation model. The use of FSM also aligns with the learning objectives of the course, enabling students to apply theoretical concepts to a practical, real-world problem.
+## 1. Instructional Entity Analysis
+
+### Title
+
+* **SOS Florestal Drone Surveillance Module**
+
+### Description
+
+Learners are challenged to design a **drone-based surveillance module** that supports forest monitoring activities. The module must be capable of detecting and reporting environmental events such as **deforestation**, **river siltation**, and **forest fires**, using input from **optical**, **thermal**, and **GPS-based positional sensors**.
+
+The system should transmit **photos and videos in real time**, enriched with **location and sensor data**, enabling accurate and timely identification of critical situations in remote forest areas. This prototype is commissioned under **budget and technical constraints** by the organization *SOS Florestal*.
+
+
+
+### Solution Development Process
+
+Students are expected to:
+
+* Analyze sensor input structures and define event detection criteria
+* Model the surveillance behavior using a **Finite State Machine (FSM)**, defining states and transitions linked to environmental triggers
+* Simulate and validate the FSM using **JFLAP** or other appropriate tools
+* Design the system logic for **data capture and transmission**, incorporating environmental metadata
+* Produce a **technical report** outlining the FSM logic, event-detection rules, and transmission specifications
+* Optionally explore optimizations for power-efficient operation and modular integration with existing drone control software
+
+
+
+### Expected Outcomes
+
+Students must submit:
+
+* A **JFLAP FSM file** that models surveillance behavior
+* Sample output files (e.g., simulated logs or data packets) for each environmental event
+* A **technical report** detailing:
+
+  * FSM states and transition logic
+  * Criteria used for event detection
+  * Data transmission structure and metadata formats
+  * Justification of design decisions and implementation strategy
+
+
+
+### Acquisition Context
+
+* **Environment**: CS laboratory equipped with JFLAP and tools for FSM simulation
+* **Application**: Appropriate for courses on **automata theory**, **embedded systems**, or **environmental monitoring technologies**
+
+
+### Target Audience Profile
+
+- Academic Level: 2nd–3rd year undergraduate CS students.
+
+- Domain Experience: Solid grounding in programming, data structures, and basic automata; minimal experience in hardware or complex system modeling.
+
+- Roles: Design FSMs covering payment, change calculation, and product dispensing; debug and simulate behavior; document technical decisions.
+
+
+### Proficiency Scale
+
+- **Novice**: 	Partial FSM representation; handles limited scenarios; lacks handling of edge cases (grade range <= 5>).
+- **Competent**:	Complete FSM that covers all payment and change scenarios; simulated and validated correctly (grade range > 5 and <= 9).
+- **Advanced**:	Includes stochastic bonus implementation; clearly justified in logic; detailed technical explanation provided (grade range > 9).
+
+
+
 
 
 ## 2. Knowledge Enumeration

@@ -2,7 +2,7 @@
 
 ## Introduction  
 
-The review process, informed by the expert feedback from **P1 and P2**, identified **key areas for improvement** in the competency specification framework. These insights were categorized into **five major themes**:  
+The review process, informed by the expert feedback, identified **key areas for improvement** in the competency specification framework. These insights were categorized into **five major themes**:  
 - **Knowledge Granularity** → Ensuring an appropriate level of detail.  
 - **Knowledge Appropriateness** → Aligning competencies with relevant and applicable knowledge.  
 - **Controlled Vocabulary** → Standardizing terminology to enhance consistency.  
@@ -16,9 +16,18 @@ Based on these recommendations, **several refinements were implemented** to impr
 
 ### Competency Reuse 
 
-    > Testing Automata Using Simulators 
+Two competencies:
 
-    > Write a Technical Report
+  - **Testing Automata Using Simulators** and 
+  - **Write a Technical Report**
+  
+are proposed for reuse within this task context. Reviewers concur that these competencies are highly applicable to Task 04, as they address essential skills shared by the same Target Audience Profile:
+
+- Testing Automata Using Simulators: Validates students’ ability to implement and verify PDA-based navigation models using tools like JFLAP—a core requirement for this task.
+
+- Write a Technical Report: Reflects the expectation that learners document their modeling decisions, formal notations, and system logic in structured formats (SBC).
+
+Given that both competencies emerge naturally from the instructional entity’s environment and are directly relevant to task execution, reviewers recommend reusing them verbatim. This approach promotes consistency, efficiency in competency modeling, and alignment with students’ applied work and assessment context.
 
 
 ### Competency A Specification

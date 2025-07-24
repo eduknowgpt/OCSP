@@ -2,7 +2,7 @@
 
 ## Introduction  
 
-The review process, informed by the expert feedback from **P1 and P2**, identified **key areas for improvement** in the competency specification framework. These insights were categorized into **five major themes**:  
+The review process, informed by the expert feedback, identified **key areas for improvement** in the competency specification framework. These insights were categorized into **five major themes**:  
 - **Knowledge Granularity** → Ensuring an appropriate level of detail.  
 - **Knowledge Appropriateness** → Aligning competencies with relevant and applicable knowledge.  
 - **Controlled Vocabulary** → Standardizing terminology to enhance consistency.  
@@ -31,7 +31,9 @@ Following the reviewers' insights, **the knowledge classification system was upd
 
 The competency “Define Regular Expressions for Finite Automata,” originally specified in Task 01, was revised for enhanced clarity and comprehension.
 
-During the review process, it was observed that Tasks 01 and 03 share the competency *"Define Regular Expressions for Finite Automata"*. This competency focuses on the student's ability to translate finite automata into equivalent regular expressions, emphasizing a solid understanding of the relationship between state-based computational models and formal language representations. Students are expected to demonstrate the skill of accurately converting automata into regular expressions that preserve the original machine’s behavior and structure, thereby reinforcing both theoretical knowledge and its practical application in language recognition.  
+During the review process, it was observed that Tasks 01 and 03 share the competency *"Define Regular Expressions for Finite Automata"*. This competency focuses on the student's ability to translate finite automata into equivalent regular expressions, emphasizing a solid understanding of the relationship between state-based computational models and formal language representations. 
+
+Students are expected to demonstrate the skill of accurately converting automata into regular expressions that preserve the original machine’s behavior and structure, thereby reinforcing both theoretical knowledge and its practical application in language recognition.  
 
 
 ### Competency Specification  
@@ -65,12 +67,12 @@ The following knowledge areas are critical for this competency:
 * **Analytical and Critical Thinking**
   Break down the problem, assess constraints and goals, and select appropriate modeling strategies to guide the design process.
 
+
 ### 4 Knowledge-Skill Pairing
 
+* Apply knowledge of **Finite Automata** to **design** models that reflect real-world behaviors through structured state transitions.
 
-* **Apply** knowledge of **Finite State Machines** to design models that reflect real-world behaviors through structured state transitions.
-
-* **Apply** **Requirements Analysis (Engineering)** to understand the user’s expectations and translate them into clear formal specifications that guide FSM design.
+* **Apply** **Requirements Analysis** to understand the user’s expectations and translate them into clear formal specifications that guide FSM design.
 
 * **Apply** **Analytical and Critical Thinking (FPK)** to interpret the problem, analyze possible design paths, and justify modeling decisions based on logic and feasibility.
 
@@ -79,7 +81,7 @@ The following knowledge areas are critical for this competency:
 
 | **Competency**                                                    | **Dispositions**                                           | **Knowledge**                          | **Skill**                                 |
 | ----------------------------------------------------------------- | ---------------------------------------------------------- | -------------------------------------- | ----------------------------------------- |
-| **Develop Problem-Solving Solutions Using Finite State Machines** | Inventive, Collaborative, Responsible, Proactive, Creative | Finite State Machines                  | **Apply (Use, Implement, Create)**                        |
+| **Develop Problem-Solving Solutions Using Finite State Machines** | Inventive, Collaborative, Responsible, Proactive, Creative | Finite State Machines                  | **Create (Design, Develop, Construct)** **                        |
 |                                                                   |                                                            | Requirements Engineering                  | **Apply (Interpret, Specify, Translate)** |
 |                                                                   |                                                            | Analytical and Critical Thinking (FPK) | **Apply**    |
 
@@ -158,7 +160,7 @@ The following action verbs, aligned with Bloom’s Taxonomy, illustrate how each
 |         |                                   |      Problem Solving and Troubleshooting (FPK) | Apply |
 |         |                                   |     Modeling and Simulation | Apply |
 |  |  |                                        |       |       
-|   *Define Regular Expressions for Finite Automata (REUSED* | Investigative, Collaborative, Responsible, Proactive, Creative | Finite State Machines | Understand |
+|   *Define Regular Expressions for Finite Automata (REUSED)* | Investigative, Collaborative, Responsible, Proactive, Creative | Finite State Machines | Understand |
 |         |                                   |   Regular Expressions | Apply |
 |         |                                   |   Analytical and Critical Thinking (FPK) | Apply |
 |  |  |                                        |       |       

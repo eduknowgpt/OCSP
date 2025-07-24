@@ -2,7 +2,7 @@
 
 ## Introduction  
 
-The review process, informed by the expert feedback from **P1 and P2**, identified **key areas for improvement** in the competency specification framework. These insights were categorized into **five major themes**:  
+The review process, informed by the expert feedback, identified **key areas for improvement** in the competency specification framework. These insights were categorized into **five major themes**:  
 - **Knowledge Granularity** → Ensuring an appropriate level of detail.  
 - **Knowledge Appropriateness** → Aligning competencies with relevant and applicable knowledge.  
 - **Controlled Vocabulary** → Standardizing terminology to enhance consistency.  
@@ -61,7 +61,7 @@ This competency requires learners to analyze the demands of a computational task
 
 Through the use of critical reasoning and modeling skills, students are expected to justify the use of specific Turing Machine variants and effectively implement them to represent or simulate solutions to formal problems in computer science.
 
----
+
 
 ## Table of Competencies for Task: *Traffic Control*
 

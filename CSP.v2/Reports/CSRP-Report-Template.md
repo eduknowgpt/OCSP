@@ -1,8 +1,8 @@
-# Competency Specification Review Report
+# CSP Phase 2 - Expert Review Template Report
 
 ## 1. Introduction
 
-As part of the **Competency Specification Review Process**, a series of **guided interviews** were conducted with expert reviewers to evaluate the accuracy, clarity, and alignment of competency specifications within the PBL cases.
+As part of the CSP, a series of **guided interviews** were conducted with expert reviewers to evaluate the accuracy, clarity, and alignment of competency specifications within the PBL cases.
 
 The primary goal of these interviews was to **identify inconsistencies, ambiguities, and areas for improvement** in the definition of competencies, ensuring that they align with **learning objectives, knowledge elements, and skill applications**. The discussions were structured around key aspects of the competency specification process, including:  
 

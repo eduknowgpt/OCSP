@@ -6,32 +6,78 @@ Building on the foundational CSP methodology, this report presents the applicati
 
 Students are required to model and simulate the robot’s decision-making process using **Finite State Machines (FSMs)** and **Regular Expressions**, producing a functional prototype in the **JFLAP** environment. The task fosters the integration of formal languages, computational modeling, and analytical reasoning within a collaborative development setting.
 
-Through the CSP methodology, competencies are **derived and structured** from the analysis of the task description, required knowledge domains, specific learning objectives, and behavioral dispositions. The goal is to define a reusable and context-aware competency framework that supports both **technical development** and **educational relevance**.
 
 
-## 1. Task Description Analysis
+## 1. Instructional Entity Analysis
 
-The *Farmer Robot* task challenges students to prototype a decision-making module capable of identifying the presence and quantity of specific herds (bovines, caprines, and swine) within farm enclosures. This capability is crucial for automating feed request logistics and optimizing farm management practices.
+### Title
 
-To meet the company's operational needs and budget constraints, students must design a **finite state machine** capable of:
+- Farmer Robot
 
-* **Classifying animals** into distinct herd categories based on visual input;
-* **Detecting minimum herd thresholds**, which trigger feed delivery requests;
-* **Representing the module behavior** through a JFLAP simulation;
-* **Producing regular expressions** that formalize the system logic;
-* **Investigating correlations** between herd thresholds and the minimum number of states and transitions required.
+### Description
 
-In addition to the technical solution, students are required to produce a **technical report** in the SBC article format. This report must explain the system design, provide usage examples, and address company inquiries related to **documentation clarity** and **cost estimation** based on machine complexity.
+- Learners are challenged to prototype a **decision-making module** that identifies the presence and counts specific herds—**bovines, caprines, and swine**—inside farm enclosures. This capability is essential for automating feed request logistics and optimizing farm management, all within operational needs and budget constraints.
 
-This task requires learners to:
 
-* **Apply theoretical knowledge** of FSMs and regular expressions to design a computationally expressive and efficient solution;
-* **Translate stakeholder requirements** into formal specifications and logical representations;
-* **Analyze patterns and structure** within FSMs to optimize design;
-* **Simulate and validate** the solution using appropriate tools (JFLAP);
-* **Collaborate effectively**, documenting the design process through structured PBL artifacts such as logbooks and whiteboards.
+## Solution Development Process
 
-Through this problem-based scenario, students are expected to integrate **computational theory**, **formal modeling**, and **practical reasoning** into a unified, functional prototype aligned with the needs of a real-world stakeholder.
+Learners are expected to:
+
+* **Classify animals** from visual or sensor input into herd categories.
+* **Detect herd thresholds**, triggering feed requests when minimum herd sizes are reached.
+* **Model module behavior** using Finite State Machines (FSM) in JFLAP.
+* **Generate regular expressions** that formalize the system’s logic.
+* **Analyze FSM complexity**, investigating how thresholds affect the required number of states and transitions.
+* **Simulate and validate** the FSM design using JFLAP.
+* **Produce a technical report** (SBC article format) detailing design decisions, usage examples, documentation clarity, and cost estimations (based on FSM complexity).
+* **Collaborate and document** the design process through artifacts like logbooks and whiteboard notes.
+
+
+
+## Expected Outcomes
+
+Learners should submit:
+
+* A **JFLAP FSM file** representing the module logic.
+* A **regular expression set** capturing classification and threshold logic.
+* A **technical report** (SBC format) including:
+
+  * FSM diagrams and transition logic.
+  * Regular expression formulation.
+  * Cost analysis linked to FSM complexity.
+  * Explanation of design decisions and documentation clarity.
+
+
+## Acquisition Context
+
+* **Environment:** Use of computational tools like JFLAP and collaborative spaces (lab or workshop).
+* **Application:** Suitable for applications in feed request automation and formal language modules within CS curricula.
+
+
+## Target Audience Profile
+
+* **Academic Level:** 2nd–3rd year undergraduate CS students.
+* **Domain Background:**
+
+  * Familiar with finite state machines and regular expressions.
+  * Experienced in algorithm design, modeling, and simulation.
+
+* **Task Roles:**
+
+  * Designers of FSMs and regular expressions.
+  * Model analysts optimizing FSM structure.
+  * Report authors detailing logic, cost, and reasoning.
+
+
+
+## Proficiency Scale
+
+| **Level**     | **Descriptor**                                                                                                          | **Grade Range (0–10)** |
+| ------------- | ----------------------------------------------------------------------------------------------------------------------- | ---------------------- |
+| **Novice**    | FSM or regex is incomplete/incorrect; fails to detect herd thresholds or classify correctly                             | 0–5                    |
+| **Competent** | Accurate FSM and regex that detects herd thresholds and operates correctly; validated in JFLAP                          | >5–9                   |
+| **Advanced**  | FSM optimized for minimal complexity; includes threshold analysis and FSM cost estimation; strong explanation in report | >9                     |
+
 
 
 

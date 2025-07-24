@@ -2,26 +2,68 @@
 
 ## Introduction
 
-Building on the foundational CSP methodology, this report presents the application of the **Competency Authoring phase** in **Task1 – The Vending Machine for Sodas and Snacks**, a Problem-Based Learning (PBL) scenario that explores the use of **finite automata and regular expressions** in the design of vending machine software and hardware solutions.
+Building on the foundational CSP methodology, this report presents the application of the **Competency Authoring phase** in **Task01 – The Vending Machine for Sodas and Snacks**, a Problem-Based Learning (PBL) scenario that explores the use of **finite automata and regular expressions** in the design of vending machine software and hardware solutions.
 
 
-## 1. Task Analysis
+## 1. Instructional Entity Analysis
 
-The PBL case titled **"The Vending Machine for Sodas and Snacks"** presents a problem related to **change calculation in vending machine transactions**, where payments are made using coins and banknotes. The task requires students to design a solution that enables the vending machine to accept payments, dispense change accurately, and operate according to predefined functional requirements.
+### Title
 
-To successfully address this problem, students must demonstrate their ability to:
-- **Apply finite automata** concepts to model the vending machine’s behavior.
-- **Simulate and validate** the automaton’s functionality using computational tools.
-- **Document the development process** in a structured and technical manner.
+- The Vending Machine for Sodas and Snacks
 
-This task not only assesses students’ understanding of **automata theory** but also evaluates their ability to:
-1. **Analyze real-world constraints** and translate them into a formal computational model.
-2. **Design and implement** an automaton that meets functional requirements.
-3. **Justify and explain** design decisions through a well-structured technical report.
+### Description
+- Learners face the problem of designing a vending machine system that accepts payments (coins/banknotes), calculates correct change, and dispenses products reliably under defined functional requirements.
 
-Additionally, the task introduces an optional challenge: implementing a **randomized bonus change feature**, where the vending machine occasionally provides an extra R$1.00 when the exact product price is paid. This adds a **stochastic element** to the system, encouraging students to consider **probabilistic behaviors** within their automaton design.
 
-Through this structured **Problem-Based Learning (PBL) scenario**, students engage with a **real-world problem**, bridging theoretical knowledge with **practical computational modeling**, simulation, and technical documentation.
+### Solution Development Process
+
+Describe the expected learner approach:
+
+- Analyze problem constraints (accepted currency, pricing, change calculation).
+
+- Model the machine’s behavior as a finite-state automaton (states, transitions, actions).
+
+- Simulate & validate using computational tools (e.g., JFLAP).
+
+- Document and report design choices and formal representation.
+
+- (Optional challenge) Integrate a stochastic random bonus feature for extra R$1.00 change.
+
+
+### Expected Outcomes
+Learners should produce:
+
+- A finite-state diagram accurately modeling transaction flows.
+
+- Simulation results demonstrating correct handling of various payment and change scenarios.
+
+- A technical report explaining state definitions, transition logic, change calculation, and optional stochastic behavior.
+
+
+### Acquisition Context
+
+- Setting: Access to JFLAP or equivalent simulation tools
+
+- Reusability: Suitable for courses in automata theory
+
+
+
+### Target Audience Profile
+
+- Academic Level: 2nd–3rd year undergraduate CS students.
+
+- Domain Experience: Solid grounding in programming, data structures, and basic automata; minimal experience in hardware or complex system modeling.
+
+- Roles: Design FSMs covering payment, change calculation, and product dispensing; debug and simulate behavior; document technical decisions.
+
+
+### Proficiency Scale
+
+- **Novice**: 	Partial FSM representation; handles limited scenarios; lacks handling of edge cases (grade range <= 5>).
+- **Competent**:	Complete FSM that covers all payment and change scenarios; simulated and validated correctly (grade range > 5 and <= 9).
+- **Advanced**:	Includes stochastic bonus implementation; clearly justified in logic; detailed technical explanation provided (grade range > 9).
+
+
 
 
 ## 2. Knowledge Enumeration
@@ -68,6 +110,7 @@ Based on the **task description**, the following set of required knowledge compo
 This **knowledge enumeration** serves as the foundation for competency specification, ensuring that students acquire both **theoretical and practical expertise** necessary to complete the task successfully.
 
 
+
 ## 3. Learning Objectives Identification
 
 The **general objective** of this task is to develop **finite automata and regular expressions** to solve **real-world problems** by modeling a vending machine system. This objective emphasizes the practical application of **automata theory** in computational problem-solving.
@@ -110,6 +153,7 @@ These learning objectives provide a **structured pathway** for competency develo
 - **Technical communication skills**, essential for conveying solutions in professional and academic contexts.
 
 By achieving these objectives, students will be equipped with both the **computational and analytical skills** necessary for modeling real-world systems using **finite automata and regular expressions**.
+
 
 
 ## 4. Competency Definition
@@ -177,7 +221,8 @@ This step maps **knowledge areas to the corresponding skills** required to succe
 **A.5.1 Mapping Knowledge to Skills**  
 To achieve this competency, students must demonstrate the ability to:  
 
-- **Apply** Analytical and Critical Thinking along with knowledge of **Automata over Infinite Objects** to **solve the vending machine’s change calculation problem**.  
+- **Apply** Analytical and Critical Thinking along with knowledge of **Automata over Infinite Objects** to **solve the vending machine’s change calculation problem**.
+
 - **Identify and interpret** system requirements, demonstrating proficiency in **Requirements Analysis**.  
 
 

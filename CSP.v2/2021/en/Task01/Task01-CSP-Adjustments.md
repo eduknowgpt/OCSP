@@ -2,7 +2,7 @@
 
 ## **Introduction**  
 
-The review process, informed by the expert feedback from **P1 and P2**, identified **key areas for improvement** in the competency specification framework. These insights were categorized into **five major themes**:  
+The review process, informed by the expert feedback, identified **key areas for improvement** in the competency specification framework. These insights were categorized into **five major themes**:  
 - **Knowledge Granularity** → Ensuring an appropriate level of detail.  
 - **Knowledge Appropriateness** → Aligning competencies with relevant and applicable knowledge.  
 - **Controlled Vocabulary** → Standardizing terminology to enhance consistency.  
@@ -153,7 +153,7 @@ Students must demonstrate the ability to:
 * **Revise and polish the report collaboratively**, integrating peer feedback and adhering to presentation standards.
 
 
-----
+
  ## Table of Competencies for Task: *The Vending Machine for Sodas and Snacks*
 
 | **ID**  | **Competency** | **Dispositions** | **Knowledge** | **Skill** |
@@ -182,7 +182,7 @@ Students must demonstrate the ability to:
 
 ## **Conclusion**  
 
-The **competency specification review process** has resulted in **substantial improvements**, incorporating expert recommendations to refine competency definitions, increase specificity, standardize terminology, and improve textual clarity.  
+The review peocess has resulted in **substantial improvements**, incorporating expert recommendations to refine competency definitions, increase specificity, standardize terminology, and improve textual clarity.  
 
 By adopting a more fine-grained knowledge taxonomy (CS2013), competencies have become more precise and reusable. Additionally, the introduction of controlled vocabulary and structured terminology mapping ensures greater consistency in competency descriptions.  
 

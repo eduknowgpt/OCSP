@@ -2,6 +2,7 @@
 
 ## Introduction
 
+
 Building on the foundational CSP methodology, this report presents the application of the **Competency Authoring phase** within the Problem-Based Learning (PBL) scenario titled **"The Return of the Farmer Robot"**. The task challenges students to design a navigation module that allows the robot to autonomously return to its initial location after issuing food delivery alerts. The module must be implemented using computational models and validated through simulation.
 
 This scenario is rooted in a real-world agricultural context and emphasizes the application of **formal methods**, including **automata theory** and **context-free grammars**, to address autonomous navigation problems. The proposed solution must be developed in **JFLAP**, with results documented in a formal technical report following SBC (Brazilian Computing Society) standards.
@@ -9,22 +10,93 @@ This scenario is rooted in a real-world agricultural context and emphasizes the 
 Through the application of CSP, this report identifies and structures the competencies needed to complete the task, focusing on the integration of theoretical knowledge, analytical reasoning, and collaborative problem-solving practices.
 
 
-
 ## 1. Task Description Analysis
 
-The *Return of the Farmer Robot* task was proposed by the company **Farmer Robot**, following the successful implementation of a previous food delivery signaling module. The new challenge is to enable the robot to autonomously return to its starting point once the alert has been issued.
+### Title
 
-The student team from UFBA identified that a **finite state machine (FSM)** alone is insufficient to solve the problem. By analyzing the navigation requirements, they concluded that an **auxiliary memory component**—such as a **stack**—was necessary to allow the robot to track its path and reverse its trajectory. This led to the adoption of **Pushdown Automata (PDA)** as the modeling solution.
+* **Return of the Farmer Robot**
 
-The solution must simulate the robot’s navigation using **JFLAP**, and document the rules or notations used for path definition and return logic. Additionally, the task encourages teams to consider extending the original Food Delivery Module or designing a parallel solution capable of inter-module communication.
+### Description
 
-To solve this task, students must:
+This task was introduced by the company **Farmer Robot** following successful implementation of a food-delivery signaling module. The new objective requires the robot to **autonomously return to its starting point** after completing a delivery.
 
-* Analyze the problem of robotic return navigation and identify the associated computational challenges;
-* Use automata theory and memory-augmented machines (e.g., PDA) to model the return behavior;
-* Investigate **formal notations** to express location-based rules;
-* Implement and test the navigation logic using JFLAP;
-* Produce a structured report detailing the solution and reflecting on modeling decisions.
+During initial task analysis, students at UFBA found that a basic **Finite State Machine (FSM)** was insufficient to address the navigation problem. Through deeper investigation, they concluded that an **auxiliary memory mechanism**—specifically a **stack**—is required to track the path and enable reverse navigation. Consequently, the task now employs **Pushdown Automata (PDA)** as the appropriate computational model.
+
+Learners are expected to implement a PDA-based navigation model in **JFLAP**, define formal notations for both outbound and return steps, and optionally explore system extensions such as:
+
+* Integrating with the original Food Delivery Module
+* Enabling inter-module communication between subsystems
+
+
+### Solution Development Process
+
+Students are expected to:
+
+* **Analyze navigation requirements** to identify memory needs for reversing the path.
+* **Model a Pushdown Automaton**, incorporating stack logic for path recording and playback.
+* **Define formal notations** (e.g., rules or grammars) to represent location-based transitions.
+* **Simulate and test** the PDA in JFLAP, verifying correct return behavior.
+* **Document the solution**, detailing modeling choices, formal definitions, and reasoning.
+* *(Optional)* Extend or integrate the PDA with existing modules to explore communication and modularity.
+
+
+## Expected Outcomes
+
+Learners are expected to submit:
+
+- A JFLAP PDA file modeling outbound navigation and return-to-base logic
+
+- A set of formal notations, such as transition rules or grammars, defining movement and stack operations
+
+- A technical report (SBC format) documenting:
+
+  - PDA diagrams and transition logic, including stack operations
+
+  - Formal notations and language representations
+
+  - Analysis of PDA complexity (states, stack use, design choices)
+
+  - Clear rationale behind modeling decisions and system documentation
+
+
+## Acquisition Context
+
+- **Environment**: Computational labs equipped with JFLAP (or similar), collaborative workshop settings
+
+- **Application Domains**: Suitable for coursework in automata and formal languages, robotics, embedded systems, or interactive agent design
+
+
+
+
+## Target Audience Profile
+
+**Academic Level:** 2nd–3rd year undergraduate CS students.
+
+**Domain Background:**
+
+  * Solid understanding of automata theory, including FSMs and Pushdown Automata.
+  * Experienced in algorithm design, modeling, and simulation.
+
+**Task Roles:**
+
+- PDA Designers: Architecting and implementing pushdown automata
+
+- Model Analysts: Evaluating state-stack design and efficiency
+
+- Technical Communicators: Crafting structured, precise reports detailing PDA logic, formal notation, and rationale
+
+
+
+## Proficiency Scale
+
+| **Level**     | **Descriptor**                                                                                                          | **Grade Range (0–10)** |
+| ------------- | ----------------------------------------------------------------------------------------------------------------------- | ---------------------- |
+| **Novice**    | FSM or regex is incomplete/incorrect; fails to detect herd thresholds or classify correctly                             | 0–5                    |
+| **Competent** | Accurate FSM and regex that detects herd thresholds and operates correctly; validated in JFLAP                          | >5–9                   |
+| **Advanced**  | FSM optimized for minimal complexity; includes threshold analysis and FSM cost estimation; strong explanation in report | >9                     |
+
+
+
 
 
 

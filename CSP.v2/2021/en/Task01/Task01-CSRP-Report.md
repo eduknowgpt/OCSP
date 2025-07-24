@@ -12,7 +12,7 @@ Building on the **Competency Specification Process (CSP) framework**, this repor
 
 - Contextual applicability, evaluating real-world feasibility and educational value
 
-Two experienced subject-matter experts conducted structured interviews guided by a Review Guide, assessing each competency against a prescribed protocol. Rather than including raw transcripts, this report outlines the review instrument and synthesizes key insights.
+The review draws on expert judgment and is supported by a structured set of evaluation criteria. Feedback was collected from experienced instructors through guided interviews, enabling a detailed appraisal of the competency elements—knowledge, skills, and dispositions—mapped to the task. This report synthesizes the findings and offers recommendations to improve the coherence, clarity, and instructional value of the competency specifications.
 
 The findings follow the stages of the Competency Specification Protocol:
 
@@ -27,47 +27,43 @@ The findings follow the stages of the Competency Specification Protocol:
 By anchoring the review in Phase 2 of CSP, this report ensures that the competency specifications are theoretically rigorous, pedagogically robust, and educationally effective.
 
 
-## 2. Summary of Recommendations
 
-### 2.1 Knowledge Granularity
+## 2. Instructional Entity Summary
+
+Context: A concise recap of Phase 1A findings to anchor the review.
+
+- Title: The Vending Machine for Sodas and Snacks
+
+- Description: Learners face the problem of designing a vending machine system that accepts payments (coins/banknotes), calculates correct change, and dispenses products reliably under defined functional requirements.
+
+| **Aspect**               | **Rating Options**              | **Evaluator Notes**                                                      |
+| ------------------------ | ------------------------------- | ------------------------------------------------------------------------ |
+| **Task Title**           | ✅ Clear | The title accurately reflect the task’s focus and scope            |
+| **Problem Description**  | ✅ Clear | The problem statement is explicit, complete, and contextually relevant  |
+| **Solution Development** |  ✅ Appropriate    | Solution steps are actionable and aligned with defined competencies     |
+| **Expected Outcomes**    | ✅ Well Specified | Outcomes clearly relate to the tasks and competencies being assessed |
+
+
+### Decision Threshold
+
+According to protocol guidelines:
+
+- Approved → All aspects rated ✅
+
+
+
+## 3. Knowledge Component Review
+
+**Objective:** Confirm that knowledge components are comprehensive, relevant, and properly scoped.
+
+### 3.1 Knowledge Granularity
 
 **P1:**  *"Regarding the knowledge covered in the task, it would be beneficial to adjust it to a lower level of granularity. The current granularity is too high, making comprehension difficult. For example, in the knowledge about finite automata, deterministic automata were not specified, only finite automata were mentioned, which created confusion. Therefore, I suggest modifying the knowledge taxonomy."*  
 
 **P2:** *"The main issue for me is the granularity of knowledge. The taxonomy used is ACM CCS 2012, but the granularity level is too broad. When comparing the knowledge listed in the tasks, most of them are not explicitly listed in the taxonomy, making it impossible to annotate them properly. For example, in Task 1 ('The Vending Machine for Sodas and Snacks'), deterministic and non-deterministic finite automata, as well as regular expressions, are not included in the taxonomy—it only lists 'regular languages.' Thus, all these annotations need to be revised."*
 
 
-
-### 2.2 Controlled Vocabulary
-
-**P1:** *"It is necessary to ensure the standardization of competency descriptions to maintain consistency in the documentation of educational competencies."*  
-
-**P2:** *"When analyzing the described competencies, I noticed a lack of standardization in the terms used in the annotated resources. To ensure that they can be easily understood and reused, a term mapping system should be implemented."*  
-
-
-
-### 2.3 Bloom’s Taxonomy Verbs
-
-**P1:** *"I found the use of multiple verbs interesting, as it allows for a clearer description of the expected actions for each knowledge-skill pair."*  
-
-**P2:** *"The selected verbs effectively enhance the clarity of skills and are well-aligned with the task and learning objectives."*  
-
-
-
-### 2.4 Textual Clarity in Competency Descriptions
-
-**P1:** *"Some competency descriptions and knowledge-skill pairs need to be reevaluated to ensure they are more direct and free from ambiguity. For example, in Competency 'Determine Regular Expressions that Represent Automata,' I suggest rewording the title, as it is not sufficiently clear."*  
-
-**P2:** *"Several competencies need to be reformulated. Some descriptions are overly directive, while others are too generic. Greater clarity is needed so that readers fully understand what the task is asking.*  
-
-- *In **Competencies C and D**, the descriptive text about knowledge is unnecessary; I suggest removing the explanation regarding 'The Purpose of Modeling and Simulation' and 'Review of Regular Expressions.'*  
-
-- *Regarding **Competency D**, I suggest modifying the competency title from **'Determining Regular Expressions that Represent Automata'** to **'How to Relate Regular Expressions and Their Equivalent Automata.'** I believe this wording makes the competency clearer.*  
-
-- *Additionally, I recommend merging **Competencies D and E**, as they are identical."*  
-
-
-
-### 2.5 Knowledge Relevance and Appropriateness
+### 3.2 Knowledge Relevance and Appropriateness
 
 **P1:** *"The knowledge described in the task must be better aligned. The specific objectives mention certain knowledge elements that are expected to be applied, but I could not identify where students would actually use them. For example, knowledge about equivalence seems unnecessary, as students may only need to respond regarding deterministic automata.*  
 
@@ -88,7 +84,67 @@ By anchoring the review in Phase 2 of CSP, this report ensures that the competen
 - *Likewise, in **Competency B ('Equivalence of DFAs and NFAs - Understand (Compare)'),** the knowledge suggested is not covered in the **PBL case description**, so it should be removed."*  
 
 
-## 2.6 Review Suggestions
+| **Criterion**         | **Yes / Maybe / No** | **Evaluator Notes**                                                        |
+| --------------------- | -------------------- | -------------------------------------------------------------------------- |
+| **Comprehensiveness** |  No                    | Are all essential knowledge areas present?                                  |
+| **Relevance**         |  Maybe                 | Does each knowledge element directly support task or competency goals?     |
+| **Appropriateness**   |  No                    | Is the level of detail correctly balanced—not too general or too granular? |
+
+
+### **Decision Thresholds**
+
+- Needs Revision 
+
+
+
+## 4. Learning Objectives Review
+
+**Objective:** Ensure that the learning objectives are explicit, aligned, and pedagogically sound. 
+
+| **Criterion**       | **Yes / Maybe / No** | **Evaluator Notes**                                                         |
+| ------------------- | -------------------- | --------------------------------------------------------------------------- |
+| **Completeness**    |  Yes                 | Do the LOs cover both explicit and implicit learning goals?           |
+| **Relevance**       |  Yes                 | Are all LOs essential within the context of the task?               |
+
+### **Decision Thresholds**
+
+- Approved
+
+
+## 5. Competency Definitions Review
+
+### 5.1 Competency Title & Description
+
+**P1:** *"Some competency descriptions and knowledge-skill pairs need to be reevaluated to ensure they are more direct and free from ambiguity. For example, in Competency 'Determine Regular Expressions that Represent Automata,' I suggest rewording the title, as it is not sufficiently clear."*  
+
+**P2:** *"Several competencies need to be reformulated. Some descriptions are overly directive, while others are too generic. Greater clarity is needed so that readers fully understand what the task is asking.*  
+
+- *In **Competencies C and D**, the descriptive text about knowledge is unnecessary; I suggest removing the explanation regarding 'The Purpose of Modeling and Simulation' and 'Review of Regular Expressions.'*  
+
+- *Regarding **Competency D**, I suggest modifying the competency title from **'Determining Regular Expressions that Represent Automata'** to **'How to Relate Regular Expressions and Their Equivalent Automata.'** I believe this wording makes the competency clearer.*  
+
+- *Additionally, I recommend merging **Competencies D and E**, as they are identical."* 
+
+
+**P1:** *"It is necessary to ensure the standardization of competency descriptions to maintain consistency in the documentation of educational competencies."*  
+
+**P2:** *"When analyzing the described competencies, I noticed a lack of standardization in the terms used in the annotated resources. To ensure that they can be easily understood and reused, a term mapping system should be implemented."* 
+
+
+
+
+### 5.2 Knowledge–Skill Pairing & Bloom Alignment
+
+**P1:** *"I found the use of multiple verbs interesting, as it allows for a clearer description of the expected actions for each knowledge-skill pair."*  
+
+**P2:** *"The selected verbs effectively enhance the clarity of skills and are well-aligned with the task and learning objectives."*  
+
+### **Decision Thresholds**
+
+- Needs Revision
+
+
+## 6 Recommendations Synthesis
 
 ### P1 Suggestions
 - **Knowledge Granularity** → The current level is too high and should be adjusted to provide more specificity.  
@@ -118,11 +174,11 @@ By anchoring the review in Phase 2 of CSP, this report ensures that the competen
 
 
 
-## 3. Conclusion and Next Steps
+## 7. Conclusion & Decision
 
-The **competency specification review process** yielded critical insights into areas requiring improvement, particularly regarding **knowledge granularity, textual precision, and the alignment of competencies with the task's learning objectives**. Guided by reviewer feedback, a series of targeted refinements will be implemented to improve the **clarity, relevance, and educational value** of the competency specifications.
+Guided by reviewer feedback, a series of targeted refinements will be implemented to improve the **clarity, relevance, and educational value** of the competency specifications.
 
-A central takeaway from the review is that **the current level of knowledge granularity is excessively broad**, limiting the effectiveness of annotation and reducing conceptual precision. To address this, a **more structured and fine-grained knowledge taxonomy** will be adopted, allowing for greater specificity and better alignment with the actual scope of the task. As part of this adjustment, **concepts related to Non-Deterministic Finite Automata (NFA)**—which are not present in the PBL scenario—will be revised or removed.
+A central takeaway from the review is that **the current level of knowledge granularity is excessively broad**, limiting the effectiveness of annotation and reducing conceptual precision. To address this, a **more structured and fine-grained knowledge taxonomy** will be adopted, allowing for greater specificity and better alignment with the actual scope of the task. As part of this adjustment, **concepts related to Non-Deterministic Finite Automata (NFA)**—which are not present in the task scenario—will be revised or removed.
 
 In addition, **textual clarity will be significantly improved** by refining vague formulations and eliminating overly prescriptive descriptions. Some competency statements were found to be either too generic or too directive. To enhance coherence and usability, **competency titles will be reformulated**, **redundant entries (e.g., Competencies D and E) will be merged**, and **explanatory content not anchored in the task will be removed**. Competency B, in particular, will be restructured to more accurately reflect its intended focus.
 

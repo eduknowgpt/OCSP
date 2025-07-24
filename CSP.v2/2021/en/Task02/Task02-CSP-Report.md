@@ -2,36 +2,82 @@
 
 ## Introduction
 
-Building on the foundational CSP methodology, this report presents the application of the **Competency Authoring phase** in the Problem-Based Learning (PBL) scenario entitled **"Traffic Control"**, which engages students in designing a computational solution using **Turing Machines** to address vehicle monitoring and classification on highways. The task integrates formal methods and systems thinking to model a real-world problem posed by the Bahia Department of Transport Infrastructure (DERBA).
-
-Through the CSP methodology, competencies are extracted and structured based on the analysis of the task description, relevant knowledge domains, learning objectives, and behavioral dispositions. The goal is to define a robust competency framework aligned with both **technical skill development** and **collaborative problem solving**.
+Building on the foundational CSP methodology, this report presents the application of the **Competency Authoring phase** in **Task02 – Traffic Control**, a Problem-Based Learning (PBL) scenario that engages students in designing a computational solution using **Turing Machines** to address vehicle monitoring and classification on highways. The task integrates formal methods and systems thinking to model a real-world problem posed by the Bahia Department of Transport Infrastructure (DERBA).
 
 
 
-## 1. Task Analysis
-
-The *Traffic Control* task challenges students to develop a formal computational solution that addresses a real-world issue identified by the **Bahia Department of Transport Infrastructure (DERBA)**: the deterioration of highways due to excessive pressure from nighttime heavy vehicle traffic.
-
-To support pavement wear prevention efforts, students must design a system capable of:
-
-* **Processing sensor data** collected from vehicle entries and exits on the Aratu highway;
-* **Classifying vehicles** into three weight categories (light, heavy, and very heavy);
-* **Counting occurrences** for each category during the previous night; and
-* **Identifying the most frequent category**, enabling DERBA to prioritize interventions.
-
-The system must be modeled using **Turing Machines**, reflecting a theoretical yet expressive model of computation. Deliverables include one or more **JFLAP-based Turing Machine files** and a **technical report** compliant with SBC formatting standards, clearly explaining the classification logic, design rationale, and simulation process.
-
-This task requires learners to:
-
-* **Translate user-defined goals** into formal system specifications based on computability theory;
-* **Model real-world constraints** (e.g., sensor input structure, weight classification logic) using Turing Machines;
-* **Evaluate the use of Turing Machine variants** (e.g., multi-tape, non-deterministic) when standard models are insufficient;
-* **Simulate and test** the model using appropriate tools to ensure functional correctness;
-* **Collaborate effectively** during the problem-solving process, documenting all steps and decisions in a structured and reflective manner.
-
-Through this problem-based learning scenario, students are expected to integrate **theoretical knowledge of computation** with **practical modeling and simulation**, producing a solution that is both educationally rigorous and socially relevant.
+## 1. Instructional Entity Analysis
 
 
+### Title
+
+  - Traffic Control
+
+### Description
+
+- Learners are challenged to design a **formal computational system**, based on a real-world requirement from the **Bahia Department of Transport Infrastructure (DERBA)**:
+
+  * Address highway pavement degradation caused by nighttime heavy-vehicle traffic
+  * Process sensor data from vehicle entries and exits
+  * Classify vehicles into **light**, **heavy**, and **very heavy** categories
+  * Count category frequencies from the previous night
+  * Identify the most frequent category to support DERBA’s intervention planning
+
+
+## Solution Development Process
+
+Learners are expected to proceed as follows:
+
+  * Analyze sensor data formats and classification criteria (e.g., weight thresholds)
+  * Translate user requirements into formal specifications using Turing Machines (TM)
+  * Model the system in TM, considering single-tape or multi-tape and nondeterministic variants when needed
+  * Simulate and test the machine(s) using tools such as JFLAP for coverage and correctness
+  * Document and report*, following SBC standards—detailing classification logic, design rationale, TM variants used, and simulation results
+  * *(Optional)* Compare usability and performance among TM variants (e.g., efficiency trade-offs)
+
+
+## Expected Outcomes
+
+Learners should submit:
+
+* One or more **JFLAP TM files**, modeling the classification and counting system
+* A **technical report** (SBC format) presenting:
+
+  * Formal specification and classification logic
+  * Justification for TM variant selection
+  * Simulation data and results
+  * Reflective insights into design challenges
+
+
+## Acquisition Context
+
+* **Environment:** Access to JFLAP or equivalent simulation tools
+* **Application:** Useful for teaching computation theory, automata, data processing in CS curricula or infrastructure monitoring contexts
+
+
+## Target Audience Profile
+
+
+* **Academic Level**: 2nd–3rd year undergraduate CS students.
+
+* **Domain Background:**
+  * Knowledgeable in automata theory and Turing Machines
+  * Familiar with programming, state modeling, and data simulation
+
+* **Task Roles:**
+
+  * Formal model designers and simulators
+  * Data processors and classification system implementers
+  * Technical report authors explaining computational rationale
+
+
+## Proficiency Scale
+
+| **Level**     | **Descriptor**                                                                                                          | **Grade Range (0–10)** |
+| ------------- | ----------------------------------------------------------------------------------------------------------------------- | ---------------------- |
+| **Novice**    | Partial or incorrect TM model; fails to correctly process or count categories                                           | 0–5                    |
+| **Competent** | Correct TM model with clear classification and counting; successfully simulated and validated                           | >5–9                    |
+| **Advanced**  | TM model optimized with multi-tape or nondeterministic features; includes comparative analysis and strong justification | > 9                   |
 
 
 ## 2. Knowledge Enumeration
@@ -530,6 +576,6 @@ To clarify learning expectations, the following verb annotations highlight key a
 
 ## Conclusion
 
-The application of the Competency Specification Process (CSP) to Task 2 illustrates how competencies can be systematically derived, structured, and contextualized to bridge the gap between theoretical knowledge and practical problem-solving in computing education. The competencies defined in this report provide a foundation for a competency-based learning model that promotes not only conceptual understanding and technical proficiency, but also the development of essential skills such as simulation, modeling, analytical reasoning, and collaborative reporting.
+The application of the Competency Specification Process (CSP) to Task02 illustrates how competencies can be systematically derived, structured, and contextualized to bridge the gap between theoretical knowledge and practical problem-solving in computing education. The competencies defined in this report provide a foundation for a competency-based learning model that promotes not only conceptual understanding and technical proficiency, but also the development of essential skills such as simulation, modeling, analytical reasoning, and collaborative reporting.
 
 By aligning learning objectives with real-world tasks, the CSP fosters meaningful and transferable learning experiences, equipping students with the competencies needed to tackle authentic challenges in the field of computer science.
