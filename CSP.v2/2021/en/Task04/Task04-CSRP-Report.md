@@ -1,4 +1,4 @@
-# Competency Specification Review Report: Task04 –  The Return of the Farmer Robot
+# Expert Review: Task04 –  The Return of the Farmer Robot
 
 ## **1. Introduction**
 
@@ -55,7 +55,7 @@ According to protocol guidelines:
 
 ## 3. Knowledge Component Review
 
-### 3.1. Knowledge Granularity and Relevance
+### Knowledge Granularity and Relevance
 
 | **Criterion**         | **Yes / Maybe / No** | **Evaluator Notes**                                                        |
 | --------------------- | -------------------- | -------------------------------------------------------------------------- |
@@ -91,7 +91,7 @@ According to protocol guidelines:
 
 ## 5. Competency Definitions Review
 
-### 5.1 Knowledge Evaluation
+### Knowledge Evaluation
 
 The list below summarizes specific refinements recommended for each competency associated with Task 04:
 
@@ -140,7 +140,7 @@ The list below summarizes specific refinements recommended for each competency a
 
 
 
-### 5.2 Knowledge–Skill Pairing & Bloom Alignment
+### Knowledge–Skill Pairing & Bloom Alignment
 
 **Objective:** Verify that each knowledge–skill pairing is logically justified and aligned with the correct cognitive level per Bloom’s Revised Taxonomy. 
 

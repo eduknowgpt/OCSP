@@ -1,4 +1,4 @@
-# Competency Specification Review Findings and Adjustments Report: Task01 - The Vending Machine for Sodas and Snacks
+# CSP Review Adjustments Report: Task01 - The Vending Machine for Sodas and Snacks
 
 ## **Introduction**  
 
@@ -68,7 +68,7 @@ To further enhance clarity, a **structured vocabulary mapping** will be establis
 
 ### A.2 Competency Description
 
-This competency refers to the ability to **design, construct, and validate automaton-based solutions** that address well-defined computational problems. Students are expected to interpret system requirements and model behavior using **finite state machines**, applying formal methods to ensure **logical consistency and operational correctness**.
+This competency refers to the ability to **design, construct, and validate automaton-based solutions** that address well-defined computational problems. Students are expected to interpret system requirements and model behavior using **automata**, applying formal methods to ensure **logical consistency and operational correctness**.
 
 Students must:
 
@@ -158,23 +158,23 @@ Students must demonstrate the ability to:
 
 | **ID**  | **Competency** | **Dispositions** | **Knowledge** | **Skill** |
 |---------|--------|-----------|-----------|-------------------|
-| (A) | **Develop problem solutions using Automata** | Collaborative, Responsible, Proactive, Creative | Finite State Machines | **Create (Construct, Develop, Design)** |
+| (C01) | **Develop problem solutions using Automata** | Collaborative, Responsible, Proactive, Creative | Finite State Machines | **Create (Construct, Develop, Design)** |
 |         |                                   |                                 | Requirements Engineering | **Apply (Interpret, Implement, Organize)** |
 |         |                                   |                                 | Analytical and Critical Thinking (FPK) | **Apply** |
 |  |  |                                        |       |       
-| (B) | **Justify the use of Deterministic Finite Automata (DFAs)** | Investigative, Collaborative, Responsible, Proactive | Deterministic Finite Automata (DFAs) | **Understand (Compare)** |
+| (C02) | **Justify the use of Deterministic Finite Automata (DFAs)** | Investigative, Collaborative, Responsible, Proactive | Deterministic Finite Automata (DFAs) | **Understand (Compare)** |
 |         |                                   |                                 | Requirements Engineering | **Apply** |
 |         |                                   |                                 | Analytical and Critical Thinking (FPK) | **Apply** |
 |  |  |                                        |       |       
-| (C) | **Test automata using simulators** | Investigative, Collaborative, Responsible, Proactive, Creative | Finite State Machines | **Apply (Experiment, Relate, Simulate)** |
+| (C03) | **Test automata using simulators** | Investigative, Collaborative, Responsible, Proactive, Creative | Finite State Machines | **Apply (Experiment, Relate, Simulate)** |
 |         |                                   |                                 | Problem Solving and Troubleshooting (FPK) | **Apply** |
 |         |                                   |                                 | Modeling and Simulation | **Apply** |
 |  |  |                                        |       |       
-| (D+E) | **Define Regular Expressions for Finite Automata** | Investigative, Collaborative, Responsible, Proactive, Creative | Finite State Machines | **Understand** |
+| (C04) | **Define Regular Expressions for Finite Automata** | Investigative, Collaborative, Responsible, Proactive, Creative | Finite State Machines | **Understand** |
 |         |                                   |                                 | Regular Expressions | **Apply** |
 |         |                                   |                                 | Analytical and Critical Thinking (FPK) | **Apply** |
 |  |  |                                        |       |       
-| (F) | **Write a technical report** | Collaborative, Meticulous, Responsible | Written Communication (FPK) | **Apply** |
+| (C05) | **Write a technical report** | Collaborative, Meticulous, Responsible | Written Communication (FPK) | **Apply** |
 
 
 
@@ -182,10 +182,10 @@ Students must demonstrate the ability to:
 
 ## **Conclusion**  
 
-The review peocess has resulted in **substantial improvements**, incorporating expert recommendations to refine competency definitions, increase specificity, standardize terminology, and improve textual clarity.  
+The review process has resulted in **substantial improvements**, incorporating expert recommendations to refine competency definitions, increase specificity, standardize terminology, and improve textual clarity.  
 
 By adopting a more fine-grained knowledge taxonomy (CS2013), competencies have become more precise and reusable. Additionally, the introduction of controlled vocabulary and structured terminology mapping ensures greater consistency in competency descriptions.  
 
 The merging of redundant competencies and adjustments to knowledge elements and skills have led to a more coherent and structured competency framework.   
 
-Moving forward, *ontinuous iterative refinements and structured peer evaluations will remain essential to maintaining a high-quality competency specification model. These refinements will contribute to a more effective competency-based learning approach, ensuring that competencies remain clear, applicable, and aligned with educational objectives. 🚀  
+Moving forward, *ontinuous iterative refinements and structured peer evaluations will remain essential to maintaining a high-quality competency specification model. These refinements will contribute to a more effective competency-based learning approach, ensuring that competencies remain clear, applicable, and aligned with educational objectives.  

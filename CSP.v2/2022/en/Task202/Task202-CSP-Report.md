@@ -22,49 +22,52 @@ This task extends the system designed in Task201 by introducing new behavioral r
 
 ### C. Learning Objectives and Expected Outcomes
 
-* Identify limits of FSM and justify the use of PDA for memory-based control.
-* Design and implement a PDA that enforces the "volunteers > non-volunteers" rule.
-* Simulate and test the behavior of the PDA using JFLAP.
-* Explain the formal mechanisms (e.g., grammar rules or stacks) required for compliance.
-* Report technical decisions and implementation details clearly and collaboratively.
+- Analyze the limitations of Finite State Machines (FSMs) and justify the need for memory-based models, particularly Pushdown Automata (PDAs), in solving context-sensitive problems.
+
+- Design and implement a PDA capable of enforcing constraints involving state and memory conditions (e.g., ensuring the number of volunteers exceeds non-volunteers).
+
+- Simulate and validate the PDA's behavior using JFLAP, ensuring operational correctness and alignment with problem-specific constraints and institutional rules.
+
+- Explain the formal mechanisms employed—such as context-free grammars, stack operations, and state transitions—that underpin the automaton's behavior and compliance.
+
+- Document technical decisions and system implementation through a clear, structured, and collaborative report, using the SBC academic format.
 
 
 
 ### D. Competency Specification
 
-Based on the analysis of **Task202 – Team Control** and the available **Reusable Competences** from the EdukNow Competence Project, the following competencies have been selected as directly aligned with the task’s learning objectives, required knowledge domains, and expected deliverables. Each selected competence includes a justification for its reuse, grounded in the specific demands of the task:
+Based on the analysis of the available **Reusable Competences** from the EdukNow Competence Project, the following competencies have been selected as directly aligned with the task’s learning objectives, required knowledge domains, and expected deliverables. Each selected competence includes a justification for its reuse, grounded in the specific demands of the task:
 
 
-
-* **EdukNow\_C14 – Develop problem-solving solutions using Pushdown Automata**
+* **C12 - Develop problem-solving solutions using Pushdown Automata**
 
 **Justification for Reuse:**
 The core requirement of Task202 is to model a system that ensures the volunteer-to-non-volunteer ratio complies with institutional rules. This behavior cannot be represented by a simple Finite State Machine (FSM), as it requires stack-based memory to track dynamic input sequences. The use of Pushdown Automata (PDA) is essential to handle this logic, and this competence directly supports the design and implementation of memory-based computational models tailored to real-world control problems.
 
 
 
-* **EdukNow\_C07 – Test Automata Using Simulators**
+* **C03 - Test Automata Using Simulators**
 
 **Justification for Reuse:**
 Task202 mandates the use of simulation tools, specifically JFLAP, to validate the behavior of automata models under realistic conditions. This competence addresses the ability to systematically test and refine automaton implementations, ensuring that the modeled PDA meets operational requirements, including the enforcement of team composition rules and the correct issuance of alerts.
 
 
 
-* **EdukNow\_C15 – Interpret rule-based notation**
+* **C13 - Interpret rule-based notation**
 
 **Justification for Reuse:**
 The task includes a request from the company *SOS Florestal* for a formal and structured representation of the rules that govern team formation. This competence focuses on understanding and interpreting rule-based formal notations, such as context-free grammars, which are well-suited to defining the symbolic structure and constraints associated with stack-based automata behavior.
 
 
 
-* **EdukNow\_C04 – Write a Technical Report**
+* **C05 - Write a Technical Report**
 
 **Justification for Reuse:**
 One of the required deliverables is a technical report formatted according to SBC guidelines. This competence supports the collaborative writing of structured technical documentation that clearly communicates system design decisions, implementation strategies, simulation results, and compliance with regulatory specifications—an essential component of the project’s final assessment.
 
 
 
-* **EdukNow\_C16 – Differentiate classifications of formal grammars**
+* **C14 - Differentiate classifications of formal grammars**
 
 **Justification for Reuse:**
 A critical aspect of the task is to justify the inadequacy of FSMs and the necessity of PDAs based on the expressive power of different formal language classes. This competence develops the ability to distinguish between regular and context-free languages and supports theoretical justification grounded in the Chomsky hierarchy. It enables students to make informed decisions about which computational models best suit the problem context.

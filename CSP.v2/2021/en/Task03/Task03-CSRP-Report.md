@@ -1,4 +1,4 @@
-# Competency Specification Review Report: Task03 –  The Farmer Robot
+# Expert Review: Task03 –  The Farmer Robot
 
 ## 1. Introduction
 
@@ -53,7 +53,7 @@ According to protocol guidelines:
 
 ## 3. Knowledge Component Review
 
-### 3.1. Knowledge Granularity and Relevance
+### Knowledge Granularity and Relevance
 
 * Adjust the level of granularity of knowledge elements, which are currently too abstract or broad. The focus should shift toward **more specific and directly task-relevant knowledge**.
 
@@ -93,7 +93,7 @@ In the competency “Determine Regular Expressions that represent automata,” s
 
 ## 5. Competency Definitions Review
 
-### 5.1 Competency Title & Description
+### Competency Title & Description
 
 
 | **Subcomponent**           | **Yes / Maybe / No** | **Evaluator Notes**                                        |
@@ -123,7 +123,7 @@ In the competency “Determine Regular Expressions that represent automata,” s
 - Needs Revision
 
 
-### 5.2 Knowledge Evaluation
+### Knowledge Evaluation
 
 **Objective:** Ensure that each competency’s knowledge components are robust, accurate, and contextually relevant. 
 
@@ -152,7 +152,7 @@ In the competency “Determine Regular Expressions that represent automata,” s
 
 
 
-### 5.3 Knowledge–Skill Pairing & Bloom Alignment
+### Knowledge–Skill Pairing & Bloom Alignment
 
 **Objective:** Verify that each knowledge–skill pairing is logically justified and aligned with the correct cognitive level per Bloom’s Revised Taxonomy. 
 

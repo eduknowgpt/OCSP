@@ -1,4 +1,4 @@
-# Competency Specification Review Report: Task02 – Traffic Control
+# Expert Review: Task02 – Traffic Control
 
 
 ## 1. Introduction
@@ -54,6 +54,8 @@ According to protocol guidelines:
 
 ## 3. Knowledge Component Review
 
+### Knowledge Granularity and Relevance
+
 Reviewers recommended increasing the granularity of the listed knowledge items—transforming broad categories into precise, assessable units that directly support the task.
 
 Both reviewers agreed that the Church–Turing Thesis is not essential for the scope of Task 02. Although significant in theoretical computability, it falls outside the operational requirements for designing and simulating a Turing Machine for traffic data processing in this course. Removing it streamlines focus on task-relevant knowledge.
@@ -92,7 +94,7 @@ Reviewers agreed that the Church–Turing Thesis is not essential for Task 02 
 
 ## 5. Competency Definitions Review
 
-### 5.1 Competency Title & Description
+### Competency Title & Description
 
 | **Subcomponent**           | **Yes / Maybe / No** | **Evaluator Notes**                                        |
 | -------------------------- | -------------------- | ---------------------------------------------------------- |
@@ -114,7 +116,7 @@ Reviewers noted that the existing wording is too generic and fails to specify ob
 
 
 
-### 5.2 Knowledge Evaluation
+### Knowledge Evaluation
 
 **Objective:** Ensure that each competency’s knowledge components are robust, accurate, and contextually relevant. 
 

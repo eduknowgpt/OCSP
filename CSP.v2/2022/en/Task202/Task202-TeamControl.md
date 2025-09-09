@@ -3,7 +3,7 @@
 **Authors**: Lais Salvador, Edeyson A. Gomes, Luiz Gavaza
 **Date**: April 12, 2022
 
----
+
 
 ## 1. Problem
 
@@ -32,7 +32,7 @@ Lastly, *SOS Florestal* expressed interest in a **formal notation** that would d
 
 The suggested tool to simulate the team control module is [JFLAP](http://www.jflap.org).
 
----
+
 
 ## 2. Process
 
@@ -44,7 +44,7 @@ Additionally, a shared document will be provided for teams to fill out a **Logbo
 
 This integrated approach ensures not only organization and progress tracking, but also promotes continuous reflection and collaborative learning among participants.
 
----
+
 
 ## 3. Deliverables
 
@@ -55,7 +55,7 @@ One team member must submit, through the UFBA Virtual Learning Environment (AVA)
 
 The report must include all system operations and at least two usage examples. Additionally, it should address the company’s expectations regarding documentation and budgeting.
 
----
+
 
 ## 4. Schedule
 
@@ -66,7 +66,7 @@ The report must include all system operations and at least two usage examples. A
 | 04/27 | Tutorial Session 3 – Problem 2 |
 | 05/04 | Solution Submission            |
 
----
+
 
 ## 5. Learning Resources
 
@@ -79,7 +79,7 @@ The report must include all system operations and at least two usage examples. A
 * **VIEIRA, Newton José.**
   *Linguagens e Máquinas: Uma Introdução aos Fundamentos da Computação*, 2004.
 
----
+
 
 ## 6. Concepts Involved
 
@@ -89,7 +89,7 @@ The report must include all system operations and at least two usage examples. A
 4. Pushdown Automata
 5. Chomsky Hierarchy
 
----
+
 
 ## 7. Learning Objectives
 

@@ -1,4 +1,4 @@
-## CSP Phase 3 – Semantic Structuring Report: Enhancing Reusability and Coherence in Competency Models
+## CSP Phase 3 – Semantic Structuring Guide: Enhancing Reusability and Coherence in Competency Models
 
 
 ### Purpose and Motivation

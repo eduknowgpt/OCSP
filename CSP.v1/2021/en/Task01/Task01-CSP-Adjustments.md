@@ -68,7 +68,7 @@ To further enhance clarity, a **structured vocabulary mapping** will be establis
 
 ### A.2 Competency Description
 
-This competency refers to the ability to **design, construct, and validate automaton-based solutions** that address well-defined computational problems. Students are expected to interpret system requirements and model behavior using **finite state machines**, applying formal methods to ensure **logical consistency and operational correctness**.
+This competency refers to the ability to **design, construct, and validate automaton-based solutions** that address well-defined computational problems. Students are expected to interpret system requirements and model behavior using **automata**, applying formal methods to ensure **logical consistency and operational correctness**.
 
 Students must:
 

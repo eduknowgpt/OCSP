@@ -17,4 +17,19 @@ Additionally, given that the initial implementation of the CSP followed a relati
 These templates evolved in parallel with the CSP itself, being progressively refined as competencies were developed and validated across multiple tasks and review cycles. Each template not only supports internal consistency and methodological rigor but also promotes reuse and adaptability of the process in varied instructional contexts. Together, these refinements have contributed to transforming the CSP into a robust, transparent, and replicable framework for competency modeling in education.
 
 
+### Standardized Competency Identifiers
+
+Another key refinement that emerged during the iterative application of the Competency Specification Process (CSP) was the decision to assign a **short, unique identifier (ID)** to each competency (e.g., "C01", "C02", "C05"). Initially, competencies were encoded using alphabetic labels—such as Competency A in Task 01—which worked adequately in isolated contexts. However, as the number of competencies increased and cross-referencing became more frequent across multiple tasks and phases, this alphabetic scheme proved limiting.
+
+A **globally sequential numeric scheme** was adopted instead, offering greater scalability and simplicity. By assigning each competency a unique numerical ID in the form `CXX`, the CSP gained a more practical and consistent method of reference, independent of task origin or development phase. This change significantly improved coordination and communication among stakeholders, particularly when discussing multiple competencies in iterative review cycles or semantic integration.
+
+While full competency titles provide important descriptive context, they are often **too long or semantically dense** for frequent reference—especially in technical, interdisciplinary, or multilingual settings. In contrast, short and unambiguous IDs greatly enhance **efficiency, clarity, and traceability**, particularly during collaborative activities such as expert reviews, semantic structuring, and documentation generation. As a result, these identifiers must be **systematically included** in all CSP reporting artifacts.
+
+Beyond usability, the introduction of standardized IDs also benefits **semantic modeling**. In machine-readable formats such as RDF triples and OWL axioms within the OntoKSD ontology, consistent identifiers are essential for **automated reasoning, SPARQL querying, and cross-model alignment**.
+
+This refinement illustrates how seemingly minor procedural improvements can deliver significant gains in both **human-centered usability** and **technical interoperability** within the CSP framework.
+
+
+
+
 

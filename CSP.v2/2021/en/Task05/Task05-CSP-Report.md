@@ -178,20 +178,21 @@ These competencies will be integrated as-is into the Task 05 specification, en
 
 ## 5. Competency Reuse Table
 
-| **Competency**                                     | **Dispositions**                                               | **Knowledge**                          | **Skill**                                          |
-|----------------------------------------------------|----------------------------------------------------------------|----------------------------------------|----------------------------------------------------|
-| **Develop Problem-Solving Solutions Using Turing Machines** | Collaborative, Responsible, Proactive, Creative, Inventive | Turing Machines                        | **Create (Develop, Invent, Construct)**                |
+
+| **ID**  | **Competency**  | **Dispositions**  | **Knowledge** | **Skill**  |
+|---------|-----------------|-------------------|---------------|------------|
+| (C07) | **Develop Problem-Solving Solutions Using Turing Machines** | Collaborative, Responsible, Proactive, Creative, Inventive | Turing Machines                     | **Create (Develop, Invent, Construct)**                |
 |                                                    |                                                                | Requirements Engineering                  | **Apply (Interpret, Organize)**                    |
 |                                                    |                                                                | Analytical and Critical Thinking (FPK) | **Apply (Decompose, Identify)**                    |
 |                                                    |                                                                |                                        |                                                    |
-| **Identify Turing Machine Variants**               | Investigative, Collaborative, Responsible, Proactive           | Turing Machines                 | **Understand (Differentiate, Recognize, Explain)** |              |                                      
+| (C08) | **Identify Turing Machine Variants**               | Investigative, Collaborative, Responsible, Proactive           | Turing Machines                 | **Understand (Differentiate, Recognize, Explain)** |              |                                      
 |                                                    |                                                                | Analytical and Critical Thinking (FPK) | **Apply**              |
 |                                                    |                                                                |                                        |                                                    |
-| **Apply Turing Machine Variants**            | Inventive, Responsible, Proactive, Collaborative, Creative     | Turing Machines                 | **Apply (Use, Adapt, Implement)**                  |
+| (C09) | **Apply Turing Machine Variants**            | Inventive, Responsible, Proactive, Collaborative, Creative     | Turing Machines                 | **Apply (Use, Adapt, Implement)**                  |
 |                                                    |                                                                | Analytical and Critical Thinking (FPK) | **Apply**               |
 |                                        |                                                    |
-| **Testing Turing Machines Using Simulators** | Collaborative, Responsible, Proactive, Creative | Turing Machines                           | **Apply (Simulate, Evaluate, Verify)** |
+| (C10) | **Testing Turing Machines Using Simulators** | Collaborative, Responsible, Proactive, Creative | Turing Machines                           | **Apply (Simulate, Evaluate, Verify)** |
 |                                              |                                                     | Problem Solving and Troubleshooting | **Apply (Diagnose, Debug, Refine)**    |
 |         |                                 | Modeling and Simulation | **Apply** |
 |  |                                        |       |       
-| **Write a technical report** | Collaborative, Meticulous, Responsible | Written Communication | Apply |
+| (C05) | *Write a technical report (REUSED)* | Collaborative, Meticulous, Responsible | Written Communication | Apply |

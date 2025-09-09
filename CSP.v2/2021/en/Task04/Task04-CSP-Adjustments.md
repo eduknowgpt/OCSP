@@ -1,4 +1,4 @@
-# Competency Specification Review Findings and Adjustments Report: Task04 –  The Return of the Farmer Robot
+# CSP Review Adjustments Report: Task04 –  The Return of the Farmer Robot
 
 ## Introduction  
 
@@ -174,24 +174,24 @@ Claro! Aqui está a **tabela unificada** com todas as informações combinadas d
 
 ### **Unified Summary Table for Competencies A, B, and C**
 
-| **Competency**                                            | **Dispositions**                                           | **Knowledge**                    | **Skill**                                             |
-| --------------------------------------------------------- | ---------------------------------------------------------- | -------------------------------- | ----------------------------------------------------- |
-| **Develop problem-solving solutions using Pushdown Automata** | Inventive, Collaborative, Responsible, Proactive, Creative | Pushdown Automata                | **Create (Design, Develop, Construct)**                          |
+| **ID**  | **Competency**  | **Dispositions**  | **Knowledge** | **Skill**  |
+|---------|-----------------|-------------------|---------------|------------|
+|  (C12)  | **Develop problem-solving solutions using Pushdown Automata** | Inventive, Collaborative, Responsible, Proactive, Creative | Pushdown Automata                | **Create (Design, Develop, Construct)**                          |
 |                                                           |                                                            | Requirements Engineering         | **Apply (Interpret, Specify, Translate)**                      |
 |                                                           |                                                            | Analytical and Critical Thinking | **Apply** (*Decompose, Evaluate*)                     |
 |                                        |                                                    |
-| **Interpret rule-based notation**                             | Inventive, Collaborative, Responsible, Proactive, Creative | Pushdown Automata                | **Understand** (*Recognize, Explain, Compare*)        |
+|  (C13) | **Interpret rule-based notation**                             | Inventive, Collaborative, Responsible, Proactive, Creative | Pushdown Automata                | **Understand** (*Recognize, Explain, Compare*)        |
 |                                                           |                                                            | Context-Free Grammars            | **Understand** (*Interpret, Construct, Relate*)       |
 |                                                           |                                                            | Regular Languages                | **Understand** (*Interpret, Construct, Relate*)       |
 |                                                           |                                                            | Analytical and Critical Thinking | **Apply** (*Refine, Validate*)                        |
 |                                        |                                                    |
-| **Differentiate classifications of formal grammars**          | Inventive, Collaborative, Responsible, Proactive           | Regular Languages                | **Understand** (*Identify, Classify, Compare*)        |
+|  (C14)  | **Differentiate classifications of formal grammars**          | Inventive, Collaborative, Responsible, Proactive           | Regular Languages                | **Understand** (*Identify, Classify, Compare*)        |
 |                                                           |                                                            | Context-Free Languages           | **Understand** (*Recognize, Describe, Differentiate*) |
 |                                                           |                                                            | Analytical and Critical Thinking | **Analyze**                      |
 |  |  |                                        |       |       
-|  *Test automata using simulators (REUSED)* | Investigative, Collaborative, Responsible, Proactive, Creative | Finite State Machines | Apply (Experiment, Relate, Simulate) |
+|  (C03)  |  *Test automata using simulators (REUSED)* | Investigative, Collaborative, Responsible, Proactive, Creative | Finite State Machines | Apply (Experiment, Relate, Simulate) |
 |         |                                                                   | Problem Solving and Troubleshooting (FPK) | Apply |
 |         |                                                                   | Modeling and Simulation | Apply |
 |  |  |                                        |       |       
-| *Write a technical report (REUSED)* | Collaborative, Meticulous, Responsible | Written Communication (FPK) | Apply |
+|  (C05)  | *Write a technical report (REUSED)* | Collaborative, Meticulous, Responsible | Written Communication (FPK) | Apply |
 

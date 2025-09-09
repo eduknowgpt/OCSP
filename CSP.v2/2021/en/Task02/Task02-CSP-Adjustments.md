@@ -1,4 +1,4 @@
-# Competency Specification Review Findings and Adjustments Report: Task02 - Traffic Control
+# CSP Review Adjustments Report: Task02 - Traffic Control
 
 ## Introduction  
 
@@ -65,20 +65,20 @@ Through the use of critical reasoning and modeling skills, students are expected
 
 ## Table of Competencies for Task: *Traffic Control*
 
-| **Competency**                                     | **Dispositions**                                               | **Knowledge**                          | **Skill**                                          |
-|----------------------------------------------------|----------------------------------------------------------------|----------------------------------------|----------------------------------------------------|
-| **Develop Problem-Solving Solutions Using Turing Machines** | Collaborative, Responsible, Proactive, Creative, Inventive | Turing Machines                        | **Create (Develop, Invent, Construct)**                |
+| **ID**  | **Competency**  | **Dispositions**  | **Knowledge** | **Skill**  |
+|---------|-----------------|-------------------|---------------|------------|
+| (C07) | **Develop Problem-Solving Solutions Using Turing Machines** | Collaborative, Responsible, Proactive, Creative, Inventive | Turing Machines                     | **Create (Develop, Invent, Construct)**                |
 |                                                    |                                                                | Requirements Engineering                  | **Apply (Interpret, Organize)**                    |
 |                                                    |                                                                | Analytical and Critical Thinking (FPK) | **Apply (Decompose, Identify)**                    |
 |                                                    |                                                                |                                        |                                                    |
-| **Identify Turing Machine Variants**               | Investigative, Collaborative, Responsible, Proactive           | Turing Machines                 | **Understand (Differentiate, Recognize, Explain)** |              |                                      
+| (C08) | **Identify Turing Machine Variants**               | Investigative, Collaborative, Responsible, Proactive           | Turing Machines                 | **Understand (Differentiate, Recognize, Explain)** |              |                                      
 |                                                    |                                                                | Analytical and Critical Thinking (FPK) | **Apply**              |
 |                                                    |                                                                |                                        |                                                    |
-| **Apply Turing Machine Variants**            | Inventive, Responsible, Proactive, Collaborative, Creative     | Turing Machines                 | **Apply (Use, Adapt, Implement)**                  |
+| (C09) | **Apply Turing Machine Variants**            | Inventive, Responsible, Proactive, Collaborative, Creative     | Turing Machines                 | **Apply (Use, Adapt, Implement)**                  |
 |                                                    |                                                                | Analytical and Critical Thinking (FPK) | **Apply**               |
 |                                        |                                                    |
-| **Testing Turing Machines Using Simulators** | Collaborative, Responsible, Proactive, Creative | Turing Machines                           | **Apply (Simulate, Evaluate, Verify)** |
+| (C10) | **Testing Turing Machines Using Simulators** | Collaborative, Responsible, Proactive, Creative | Turing Machines                           | **Apply (Simulate, Evaluate, Verify)** |
 |                                              |                                                     | Problem Solving and Troubleshooting | **Apply (Diagnose, Debug, Refine)**    |
 |         |                                 | Modeling and Simulation | **Apply** |
 |  |                                        |       |       
-| *Write a technical report (REUSED)* | Collaborative, Meticulous, Responsible | Written Communication | Apply |
+| (C02) | *Write a technical report (REUSED)* | Collaborative, Meticulous, Responsible | Written Communication | Apply |

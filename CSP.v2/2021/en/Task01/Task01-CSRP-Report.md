@@ -38,17 +38,17 @@ Context: A concise recap of Phase 1A findings to anchor the review.
 
 | **Aspect**               | **Rating Options**              | **Evaluator Notes**                                                      |
 | ------------------------ | ------------------------------- | ------------------------------------------------------------------------ |
-| **Task Title**           | ✅ Clear | The title accurately reflect the task’s focus and scope            |
-| **Problem Description**  | ✅ Clear | The problem statement is explicit, complete, and contextually relevant  |
-| **Solution Development** |  ✅ Appropriate    | Solution steps are actionable and aligned with defined competencies     |
-| **Expected Outcomes**    | ✅ Well Specified | Outcomes clearly relate to the tasks and competencies being assessed |
+| **Task Title**           | Clear | The title accurately reflect the task’s focus and scope            |
+| **Problem Description**  | Clear | The problem statement is explicit, complete, and contextually relevant  |
+| **Solution Development** |  Appropriate    | Solution steps are actionable and aligned with defined competencies     |
+| **Expected Outcomes**    | Well Specified | Outcomes clearly relate to the tasks and competencies being assessed |
 
 
 ### Decision Threshold
 
 According to protocol guidelines:
 
-- Approved → All aspects rated ✅
+- Approved → All items rated Clear / Appropriate / Well Specified.
 
 
 
@@ -56,14 +56,14 @@ According to protocol guidelines:
 
 **Objective:** Confirm that knowledge components are comprehensive, relevant, and properly scoped.
 
-### 3.1 Knowledge Granularity
+### Knowledge Granularity and Relevance
 
 **P1:**  *"Regarding the knowledge covered in the task, it would be beneficial to adjust it to a lower level of granularity. The current granularity is too high, making comprehension difficult. For example, in the knowledge about finite automata, deterministic automata were not specified, only finite automata were mentioned, which created confusion. Therefore, I suggest modifying the knowledge taxonomy."*  
 
 **P2:** *"The main issue for me is the granularity of knowledge. The taxonomy used is ACM CCS 2012, but the granularity level is too broad. When comparing the knowledge listed in the tasks, most of them are not explicitly listed in the taxonomy, making it impossible to annotate them properly. For example, in Task 1 ('The Vending Machine for Sodas and Snacks'), deterministic and non-deterministic finite automata, as well as regular expressions, are not included in the taxonomy—it only lists 'regular languages.' Thus, all these annotations need to be revised."*
 
 
-### 3.2 Knowledge Relevance and Appropriateness
+### Knowledge Appropriateness
 
 **P1:** *"The knowledge described in the task must be better aligned. The specific objectives mention certain knowledge elements that are expected to be applied, but I could not identify where students would actually use them. For example, knowledge about equivalence seems unnecessary, as students may only need to respond regarding deterministic automata.*  
 
@@ -113,7 +113,7 @@ According to protocol guidelines:
 
 ## 5. Competency Definitions Review
 
-### 5.1 Competency Title & Description
+### Competency Title & Description
 
 **P1:** *"Some competency descriptions and knowledge-skill pairs need to be reevaluated to ensure they are more direct and free from ambiguity. For example, in Competency 'Determine Regular Expressions that Represent Automata,' I suggest rewording the title, as it is not sufficiently clear."*  
 
@@ -133,7 +133,7 @@ According to protocol guidelines:
 
 
 
-### 5.2 Knowledge–Skill Pairing & Bloom Alignment
+### Knowledge–Skill Pairing & Bloom Alignment
 
 **P1:** *"I found the use of multiple verbs interesting, as it allows for a clearer description of the expected actions for each knowledge-skill pair."*  
 
@@ -144,7 +144,8 @@ According to protocol guidelines:
 - Needs Revision
 
 
-## 6 Recommendations Synthesis
+
+## 6. Recommendations Synthesis
 
 ### P1 Suggestions
 - **Knowledge Granularity** → The current level is too high and should be adjusted to provide more specificity.  

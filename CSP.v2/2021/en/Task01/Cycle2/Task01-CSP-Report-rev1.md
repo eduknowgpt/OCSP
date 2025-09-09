@@ -6,7 +6,7 @@ Following the initial application of the **Competency Specification Process (CSP
 
 ### Rationale for Refinement
 
-While the original formulation adequately captured the task's general requirement to design computational models, the term **"Automata"** was deemed **too broad and underspecified**. It could ambiguously include a variety of computational models—such as **Pushdown Automata**, **Turing Machines**, or even **Linear Bounded Automata**—which **exceed the conceptual scope** of Task01.
+While the original formulation adequately captured the task's general requirement to design computational models, the term **"Automata"** was deemed **too broad and underspecified**. It could ambiguously include a variety of computational models—such as **Pushdown Automata** or **Turing Machines** — which **exceed the conceptual scope** of Task01.
 
 In contrast, the reused competence:
 
@@ -33,22 +33,22 @@ This refinement illustrates the iterative nature of the CSP, where **post-review
 
  ## Table of Competencies for Task: *The Vending Machine for Sodas and Snacks*
 
-| **Competency** | **Dispositions** | **Knowledge** | **Skill** |
-|--------|-----------|-----------|-------------------|
-| **Develop Problem-Solving Solutions Using Finite State Machines** | Inventive, Collaborative, Responsible, Proactive, Creative | Finite State Machines                  | **Create (Construct, Develop, Design)**           |
-|                | |                  Requirements Engineering | **Apply (Interpret, Implement, Organize)** |
-|         |                                   |                                 Analytical and Critical Thinking (FPK) | **Apply** |
+ | **ID**  | **Competency** | **Dispositions** | **Knowledge** | **Skill** |
+|---------|--------|-----------|-----------|-------------------|
+| (C06) | **Develop problem solutions using  Finite State Machines** | Collaborative, Responsible, Proactive, Creative | Finite State Machines | **Create (Construct, Develop, Design)** |
+|         |                                   |                                 | Requirements Engineering | **Apply (Interpret, Implement, Organize)** |
+|         |                                   |                                 | Analytical and Critical Thinking (FPK) | **Apply** |
 |  |  |                                        |       |       
- | **Justify the use of Deterministic Finite Automata (DFAs)** | Investigative, Collaborative, Responsible, Proactive | Deterministic Finite Automata (DFAs) | **Understand (Compare)** |
+| (C02) | **Justify the use of Deterministic Finite Automata (DFAs)** | Investigative, Collaborative, Responsible, Proactive | Deterministic Finite Automata (DFAs) | **Understand (Compare)** |
 |         |                                   |                                 | Requirements Engineering | **Apply** |
 |         |                                   |                                 | Analytical and Critical Thinking (FPK) | **Apply** |
 |  |  |                                        |       |       
-| **Test automata using simulators** | Investigative, Collaborative, Responsible, Proactive, Creative | Finite State Machines | **Apply (Experiment, Relate, Simulate)** |
+| (C03) | **Test automata using simulators** | Investigative, Collaborative, Responsible, Proactive, Creative | Finite State Machines | **Apply (Experiment, Relate, Simulate)** |
 |         |                                   |                                 | Problem Solving and Troubleshooting (FPK) | **Apply** |
 |         |                                   |                                 | Modeling and Simulation | **Apply** |
 |  |  |                                        |       |       
- | **Define Regular Expressions for Finite Automata** | Investigative, Collaborative, Responsible, Proactive, Creative | Finite State Machines | **Understand** |
+| (C04) | **Define Regular Expressions for Finite Automata** | Investigative, Collaborative, Responsible, Proactive, Creative | Finite State Machines | **Understand** |
 |         |                                   |                                 | Regular Expressions | **Apply** |
 |         |                                   |                                 | Analytical and Critical Thinking (FPK) | **Apply** |
 |  |  |                                        |       |       
- | **Write a technical report** | Collaborative, Meticulous, Responsible | Written Communication (FPK) | **Apply** |
+| (C05) | **Write a technical report** | Collaborative, Meticulous, Responsible | Written Communication (FPK) | **Apply** |

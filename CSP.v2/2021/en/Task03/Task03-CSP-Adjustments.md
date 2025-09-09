@@ -1,4 +1,4 @@
-# Competency Specification Review Findings and Adjustments Report: Task03 - Farming Robot
+# CSP Review Adjustments Report: Task03 - Farming Robot
 
 ## Introduction  
 
@@ -147,22 +147,22 @@ The following action verbs, aligned with Bloom’s Taxonomy, illustrate how each
 
 ## Table of Competencies for Task: *The Farmer Robot*
 
-| **Competency**                                                    | **Dispositions**                                           | **Knowledge**                          | **Skill**                                     |
-| ----------------------------------------------------------------- | ---------------------------------------------------------- | -------------------------------------- | --------------------------------------------- |
-| **Develop Problem-Solving Solutions Using Finite State Machines** | Inventive, Collaborative, Responsible, Proactive, Creative | Finite State Machines                  | **Create (Design, Develop, Construct)**            |
+| **ID**  | **Competency**  | **Dispositions**  | **Knowledge** | **Skill**  |
+|---------|-----------------|-------------------|---------------|------------|
+| (C06) | **Develop Problem-Solving Solutions Using Finite State Machines** | Inventive, Collaborative, Responsible, Proactive, Creative | Finite State Machines                  | **Create (Design, Develop, Construct)**            |
 |                                                                   |                                                            | Requirements Engineering                  | **Apply (Interpret, Specify, Translate)**     |
 |                                                                   |                                                            | Analytical and Critical Thinking (FPK) | **Apply (Analyze, Justify, Evaluate)**        |
 |                                        |                                                    |
-| **Identify Patterns in Finite State Machines**                    | Inventive, Creative, Meticulous                            | Finite State Machines                  | **Analyze (Examine, Evaluate, Compare)**      |
+| (C11) | **Identify Patterns in Finite State Machines**                    | Inventive, Creative, Meticulous                            | Finite State Machines                  | **Analyze (Examine, Evaluate, Compare)**      |
 |                                                                   |                                                            | Analytical and Critical Thinking (FPK) | **Apply (Infer, Justify, Interpret)**         |
 |  |  |                                        |       |       
-|  *Test automata using simulators (REUSED)* | Investigative, Collaborative, Responsible, Proactive, Creative | Finite State Machines | Apply (Experiment, Relate, Simulate) |
+| (C03) |  *Test automata using simulators (REUSED)* | Investigative, Collaborative, Responsible, Proactive, Creative | Finite State Machines | Apply (Experiment, Relate, Simulate) |
 |         |                                   |      Problem Solving and Troubleshooting (FPK) | Apply |
 |         |                                   |     Modeling and Simulation | Apply |
 |  |  |                                        |       |       
-|   *Define Regular Expressions for Finite Automata (REUSED)* | Investigative, Collaborative, Responsible, Proactive, Creative | Finite State Machines | Understand |
+| (C04) |   *Define Regular Expressions for Finite Automata (REUSED)* | Investigative, Collaborative, Responsible, Proactive, Creative | Finite State Machines | Understand |
 |         |                                   |   Regular Expressions | Apply |
 |         |                                   |   Analytical and Critical Thinking (FPK) | Apply |
 |  |  |                                        |       |       
-| *Write a technical report (REUSED)* | Collaborative, Meticulous, Responsible | Written Communication (FPK) | Apply |
+| (C05) | *Write a technical report (REUSED)* | Collaborative, Meticulous, Responsible | Written Communication (FPK) | Apply |
 

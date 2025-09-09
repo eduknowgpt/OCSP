@@ -163,7 +163,7 @@ Competencies are specified based on the **Learning Objectives (LOs)** identified
 ### 4.1 Competency A Specification  
 
 ### A.1 Competency Title
-    Designing Efficient Solutions with Automata
+    Develop problem solutions using Automata
 
 ### A.2 Textual Description  
 

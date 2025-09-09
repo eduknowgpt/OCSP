@@ -46,35 +46,35 @@ Based on the competencies defined in the EdukNow Competence Project, the followi
 
 
 
-### **EdukNow_C09 – Develop Problem-Solving Solutions Using Turing Machines**
+### **C07 – Develop Problem-Solving Solutions Using Turing Machines**
 
 **Justification for Reuse:**  
 The parking control task requires modeling dynamic state transitions, tracking occupancy across multiple categories, and counting denied requests. These capabilities exceed the power of finite or pushdown automata, making the use of Turing Machines necessary. This competency covers the design and implementation of Turing Machine-based models to solve structured, memory-intensive problems, aligning directly with the requirements of Task203.
 
 
 
-### **EdukNow_C10 – Identify Turing Machines Variants**
+### **C08 – Identify Turing Machines Variants**
 
 **Justification for Reuse:**  
 The task involves evaluating alternative modeling strategies and selecting the most appropriate Turing Machine variant for efficiency or clarity. This competency supports the theoretical understanding and comparison of Turing Machine extensions—such as multi-tape machines—that may simplify or optimize the parking system’s design.
 
 
 
-### **EdukNow_C11 – Apply Turing Machine Variants**
+### **C09 – Apply Turing Machine Variants**
 
 **Justification for Reuse:**  
 This task may benefit from implementing a machine variant (e.g., multi-tape) to separately manage counters and category queues. Competence C11 ensures that students are capable of selecting and applying these variants effectively, enhancing the model’s expressiveness and alignment with operational goals.
 
 
 
-### **EdukNow_C17 – Test Turing Machines Using Simulators**
+### **EdC10- Test Turing Machines Using Simulators**
 
 **Justification for Reuse:**  
 The deliverables require simulation and validation using JFLAP. This competence emphasizes testing machine-based models to ensure correctness, completeness, and compliance with specification constraints, which are all vital for Task203.
 
 
 
-### **EdukNow_C04 – Write a Technical Report**
+### **C05 – Write a Technical Report**
 
 **Justification for Reuse:**  
 The task requires submission of a detailed technical report in SBC format. This competence supports the production of well-structured documentation that explains the modeling decisions, simulation outcomes, and theoretical justification of the implemented solution.

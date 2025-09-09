@@ -52,45 +52,40 @@ To fulfill the task objectives, the following knowledge areas are required:
 Based on the **EdukNow Competence Project**, the following competencies were reused and/or proposed to address Task204:
 
 
-### **EdukNow_C12 – Develop Problem-Solving Solutions Using Finite State Machines**
+### **C06 – Develop Problem-Solving Solutions Using Finite State Machines**
 
 **Justification for Reuse:**  
 Students are required to design and simulate a Finite State Machine representing the internal logic of the Online Judge system. This competency supports the design and implementation of FSMs that reflect real-world system behavior and decision-making processes.
 
 
 
-### **EdukNow_C06 – Justify the Use of Deterministic Finite Automata (DFAs)**
+### **C02 - Justify the Use of Deterministic Finite Automata (DFAs)**
 
 **Justification for Reuse:**  
 Part of the analysis involves evaluating the expressive power and limitations of FSMs in modeling the evaluation process. Competency C06 supports theoretical justification of FSM usage versus more expressive models, reinforcing discussions on modeling adequacy.
 
 
 
-### **EdukNow_C07 – Test Automata Using Simulators**
+### **C03 – Test Automata Using Simulators**
 
 **Justification for Reuse:**  
 The FSM model of the OJ must be validated and refined using simulation tools like JFLAP. Competency C07 focuses on simulation-based testing and iterative improvement, aligning with the task’s deliverables.
 
 
-
-### **EdukNow_C09 – Develop Problem-Solving Solutions Using Turing Machines**
-
-**Justification for Reuse:**  
-The task requires analysis of computational undecidability, especially the Halting Problem. Competency C09 supports the design and interpretation of Turing Machine-based solutions and their relevance to understanding the theoretical limits of OJ systems.
-
-
-
-### **EdukNow_C16 – Differentiate Classifications of Formal Grammars**
+### **C14 – Differentiate Classifications of Formal Grammars**
 
 **Justification for Reuse:**  
-Students must relate the behavior of Online Judge systems to the Chomsky Hierarchy, understanding the position of FSMs and Turing Machines within the broader spectrum of language classes. Competency C16 supports this comparative classification and formal reasoning.
+Students must relate the behavior of Online Judge systems to the Chomsky Hierarchy, understanding the position of FSMs and Turing Machines within the broader spectrum of language classes. Competency C14 supports this comparative classification and formal reasoning.
 
 
 
-###  **EdukNow_C04 – Write a Technical Report**
+###  **C05 – Write a Technical Report**
 
 **Justification for Reuse:**  
 Task204 requires a structured, formal report that integrates analysis, modeling, and theoretical explanation. Competency C04 ensures that students can collaboratively produce technical documentation with clarity, rigor, and completeness.
+
+
+
 
 
 
@@ -99,7 +94,7 @@ Task204 requires a structured, formal report that integrates analysis, modeling,
 
 Competencies are specified based on the **Learning Objectives (LOs)** identified in the task analysis.
 
-### 4.1 Competency B Specification
+### 4.1 Competency Specification
 
 ### A.1 Competency Title
 
@@ -217,6 +212,117 @@ The following knowledge areas are critical for this competency:
 |                                                     |                                                       | Turing Machines                  | **Apply (Use, Model, Explain)**               |
 |                                                     |                                                       | Computability                    | **Understand (Classify, Recognize, Explain)** |
 |                                                     |                                                       | Analytical and Critical Thinking | **Apply (Evaluate, Structure, Argue)**        |
+
+
+
+
+### B.1 Competency Title
+
+
+    Apply Turing Machine Concepts to Analyze Computational System Capabilities
+
+
+
+### B.2 Textual Description
+
+This competency involves the ability to apply the formal model of **Turing Machines** to analyze and evaluate the capabilities and limitations of computational systems. Students are expected to **model abstract machines**, reason about their behavior, and use this understanding to **classify problems** as computable, semi-decidable, or undecidable.
+
+In particular, learners should be able to explore how **Turing Machines provide a universal framework** for algorithmic computation, and how this relates to **practical systems** like Online Judges (OJ), compilers, and program analyzers. This includes the ability to **simulate system functionality** using Turing Machine constructs and to articulate the **boundaries of algorithmic problem solving**.
+
+In the context of the Online Judge task, students must explain how **Turing-completeness** underlies the power of programming languages and why **certain program properties (e.g., non-termination)** cannot be fully determined by any algorithmic system.
+
+
+
+### B.3 Knowledge Specification
+
+The following knowledge areas are fundamental for this competency:
+
+* **Turing Machines**
+
+  * Core abstraction for **general-purpose computation**.
+  * Basis for the definition of **computable and semi-decidable problems**.
+
+* **Computability Theory**
+
+  * Framework for reasoning about the **limits of algorithmic solvability**.
+  * Enables classification of problems and languages by decidability.
+
+* **Universal Turing Machine**
+
+  * Illustrates the concept of **programmable computation** and system simulation.
+  * Helps understand **meta-computational capabilities** of modern machines.
+
+* **Analytical and Critical Thinking (FPK)**
+
+  * Supports the evaluation of **system limitations**.
+  * Enables the construction of **logical arguments and problem classification**.
+
+
+
+### B.4 Disposition Specification
+
+**Collaboration**
+
+* Learners must engage in team-based modeling sessions, discussing theoretical constructs and aligning interpretations of Turing Machine behavior.
+* Peer exchange is essential to clarify abstract ideas and validate FSM/TM models collaboratively.
+
+**Responsibility**
+
+* Each participant must take responsibility for ensuring the **conceptual rigor** of the modeling and theoretical justification processes.
+* This includes **accurate referencing**, **logical consistency**, and **report completeness**.
+
+**Proactivity**
+
+* Proactive engagement is required to **explore theoretical challenges**, seek connections between abstract models and real-world systems, and fill knowledge gaps independently.
+* Students are expected to initiate refinement cycles and extend analyses beyond minimal expectations.
+
+**Creativity**
+
+* Creativity supports the **translation of abstract machine models into practical analogies**, especially when explaining computational limits to diverse audiences.
+* It also facilitates **original modeling strategies** using FSM or Turing Machines to simulate evaluation systems.
+
+
+
+### B.5 Knowledge–Skill Pairing
+
+#### B.5.1 Mapping Knowledge to Skills
+
+* **Apply** Turing Machine concepts to analyze computational system limitations.
+* **Understand** Computability Theory to classify problems and justify the limits of automation.
+* **Apply** Analytical and Critical Thinking (FPK) to construct sound arguments about system capabilities.
+
+#### B.5.2 Bloom’s Taxonomy Alignment
+
+* **Turing Machines – Apply**
+  Enables students to model computation formally and explain why certain tasks are algorithmically feasible or not.
+
+* **Computability – Understand**
+  Evaluates conceptual clarity in identifying decidable vs. undecidable problems.
+
+* **Analytical and Critical Thinking – Apply**
+  Supports argumentation and the synthesis of theoretical insights with real-world applications.
+
+#### B.5.3 Verb Annotation
+
+* **Apply** → Turing Machines → **Model, Use, Explain**
+* **Understand** → Computability → **Classify, Distinguish, Describe**
+* **Apply** → Analytical and Critical Thinking → **Analyze, Structure, Justify**
+
+
+
+### B.6 Summary Table for Competency B
+
+| **Competency**                                                             | **Dispositions**                                       | **Knowledge**                    | **Skill**                                        |
+| -------------------------------------------------------------------------- | ------------------------------------------------------ | -------------------------------- | ------------------------------------------------ |
+| Apply Turing Machine Concepts to Analyze Computational System Capabilities | Collaboration, Responsibility, Proactivity, Creativity | Turing Machines                  | **Apply (Model, Use, Explain)**                  |
+|                                                                            |                                                                                                      | Computability                    | **Understand (Classify, Distinguish, Describe)** |
+|                                |                                                        | Analytical and Critical Thinking | **Apply (Analyze, Structure, Justify)**          |
+
+
+
+
+
+
 
 
 
