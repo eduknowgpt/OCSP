@@ -42,7 +42,7 @@ All CSP Phase1 Report share the same structure:
       This phase lays the groundwork for identifying relevant knowledge, skills, and dispositions in the following sections.
 
 ### **3.2. Knowledge Enumeration**  
-   Identifies the theoretical and practical knowledge needed, referencing taxonomies like ACM CCS or domain-relevant standards.
+   Identifies the theoretical and practical knowledge needed, referencing taxonomies like ACM BoK CS2013, CS2023 or domain-relevant standards.
 
 ### **3.3. Learning Objectives Identification**  
    Extract and articulate the learning objectives implied in the instructional task..
