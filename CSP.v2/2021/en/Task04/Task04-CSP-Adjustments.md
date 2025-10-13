@@ -122,7 +122,7 @@ The competency supports critical understanding of the Chomsky hierarchy, enablin
 
 The following knowledge areas are essential for mastering this competency:
 
-* **Context-Free Languages*
+* **Context-Free Languages**
     * Understand the principles of context-free grammars, including their structure, derivation rules, and ability to describe hierarchical patterns. Recognize their expressive limits and the types of automata (e.g., pushdown automata) used to recognize these languages.
 
 * **Regular Languages**

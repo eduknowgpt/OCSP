@@ -41,7 +41,7 @@ This refinement illustrates the iterative nature of the CSP, where **post-review
 |  |  |                                        |       |       
 | (C02) | **Justify the use of Deterministic Finite Automata (DFAs)** | Investigative, Collaborative, Responsible, Proactive | Deterministic Finite Automata (DFAs) | **Understand (Compare)** |
 |         |                                   |                                 | Requirements Engineering | **Apply** |
-|         |                                   |                                 | Analytical and Critical Thinking (FPK) | **Apply** |
+|         |                                   |                                 | Analytical and Critical Thinking (FPK) | **Apply (justify, evaluate)** |
 |  |  |                                        |       |       
 | (C03) | **Test automata using simulators** | Investigative, Collaborative, Responsible, Proactive, Creative | Finite State Machines | **Apply (Experiment, Relate, Simulate)** |
 |         |                                   |                                 | Problem Solving and Troubleshooting (FPK) | **Apply** |
