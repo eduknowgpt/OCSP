@@ -1,0 +1,858 @@
+# Competency Specification Report: Task25.1 - Music Collection
+
+
+## Introduction
+
+Building upon the foundational **CSP methodology**, this report presents the application of the **Competency Authoring phase** in **Task25.1 – Music Collection**, a **Problem-Based Learning (PBL)** scenario that explores the use of **finite automata and regular expressions**.
+Students are required to produce a report containing **clear, coherent, and rigorous answers**, including **formal definitions, minimal examples, proofs (including induction and closure properties)**, and **counterexamples** when appropriate.
+
+
+
+## 1. Instructional Entity Analysis
+
+### Title
+
+* Music Collection
+
+### Description
+
+* Learners must analyze musical scores, represent them as sequences of symbols, and perform operations on these representations.
+
+### Solution Development Process
+
+Expected learner approach:
+
+* **Analyze problem constraints:**
+
+  * Scores may involve one or multiple instruments.
+  * Each piece of music may contain an arbitrary number of symbols.
+  * Each piece belongs to a musical genre.
+
+* **Model the scores** as **finite automata** (states, transitions, actions).
+
+* **Identify the genre** of each piece of music.
+
+* **Document and report** design decisions and formal representations with **mathematical rigor**.
+
+
+### Expected Outcomes
+
+Learners are expected to:
+
+* Define and formally describe regular expressions representing simple musical languages.
+
+* Apply algebraic notation to express and manipulate string patterns derived from musical sequences.
+
+* Classify formal grammars by expressive power and differentiate their application contexts.
+
+* Construct and analyze finite automata to recognize musical genres or structures.
+
+* Perform and justify operations on languages (union, concatenation, closure, complement).
+
+* Map real-world entities (scores, genres) onto formal symbols and evaluate their equivalence using encodings.
+
+* Simulate automata to validate correct classification of musical genres.
+
+* Produce a mathematically rigorous technical report articulating the entire reasoning process.
+
+
+### Acquisition Context
+
+* Theoretical course on **Theory of Computation**
+* **Assessment tasks** conducted as part of course evaluation
+
+
+### Target Audience Profile
+
+- Academic Level: 2nd–3rd year undergraduate CS students.
+
+- Domain Experience: Solid grounding in data structures, and basic automata.
+
+- Roles: Design FSMs; document technical decisions.
+
+
+### Proficiency Scale
+
+- Escala com notas entre 0 e 100 (representando notas como 8.5 no modelo de avaliação da disciplina, por exemplo, que corresponde a 85 na escala).
+
+
+
+## 2. Knowledge Enumeration (CSP-Aligned)
+
+To ensure consistent knowledge modeling, this enumeration draws on the **ACM CS2023 Body of Knowledge** for disciplinary content and the **CC2020 Foundational and Professional Knowledge (FPK)** for transversal competencies.  
+These knowledge components constitute the **Knowledge (K)** dimension of the OntoKSD model for Task25.1 — *Music Collection*.
+
+
+### Computer Knowledge (CS2023-Aligned)
+
+* Language Theory 
+  * Concepts of formal languages, alphabets, strings, and operations. 
+  * Provides the formal foundation for modeling music as symbolic sequences.
+
+* Regular Expressions
+  * Specification and manipulation of patterns within symbol sequences.
+  * Defines the syntax for identifying and classifying musical genres.
+
+* Regular vs. Context-Free Grammars
+  * Understanding of grammar hierarchies and expressive limits. 
+  * Supports analytical reasoning about the representational power of automata.
+  
+* String Manipulation and Pattern Matching
+  * Use of algebraic notation and symbolic operations on strings. 
+  * Enables symbolic analysis of musical fragments and patterns. 
+  
+* Regular Expression Matching
+  * Methods to verify or simulate the recognition of patterns by automata.
+  * Links theoretical regular expressions to computational testing.
+
+* Deterministic Finite Automata (DFA) 
+  Conceptual model for deterministic language recognition. 
+  Provides a rigorous framework for representing and validating musical patterns.
+
+* Finite State Machines (FSM)
+  * Generalized computational model representing sequences of states and transitions.
+  * Facilitates abstraction and modeling of musical progressions.
+  
+* Requirements Analysis
+  * Systematic identification and specification of problem constraints.
+  * Ensures formalization of the collector’s requirements as computable problems.
+
+
+
+### Professional Knowledge (CC2020 FPK-Aligned)
+
+* Analytical and Critical Thinking
+  * Ability to decompose problems, reason formally, and validate solutions. 
+  * Guides logical reasoning and justification of each formal question.
+
+* Written Communication
+  Ability to produce structured and rigorous technical documentation. 
+  Ensures clear communication of models, proofs, and formal conclusions.
+
+
+
+
+
+## 3. Learning Objectives Identification
+
+Learners will be able to:
+
+
+1. **Define and formalize Regular Expressions representing simple musical languages**  
+
+2. **Interpret and apply algebraic notation to string representations**  
+   - Use symbolic and algebraic operations to construct and manipulate strings derived from musical scores.  
+   - Represent musical compositions as sequences within a defined alphabet.  
+  
+3. **Differentiate and classify formal grammars**  
+   - Compare regular and context-free grammars based on their expressive capabilities.  
+
+4. **Identify and model patterns using Finite State Machines (FSMs)**  
+   - Construct deterministic automata that recognize patterns corresponding to musical genres or structures.  
+   - Explain transitions, states, and acceptance criteria with formal notation.  
+
+5. **Apply and justify operations on formal languages**  
+   - Perform operations such as union, concatenation, intersection, complement, and Kleene star.  
+   - Provide mathematical justification (proof or counterexample) for each operation’s validity in context.  
+
+6. **Recognize and apply homomorphisms and encodings**  
+   - Map elements from the musical domain (notes, instruments, genres) to symbolic representations in formal languages.  
+   - Demonstrate equivalence or transformation between different representations (e.g., score ↔ MP3).  
+
+7. **Simulate and validate automata behavior**  
+   - Use computational tools to verify the recognition of musical genres and operations on strings.  
+   - Interpret simulation results and explain discrepancies or limitations.  
+
+8. **Produce a technical report with mathematical rigor**  
+   - Document all modeling decisions, proofs, and results with clarity and coherence.  
+   - Include formal definitions, minimal examples, induction proofs, closure properties, and counterexamples when appropriate.  
+   *(Bloom: Create)*  
+
+
+
+
+
+## 4. Competency Definition
+
+Competencies are specified based on the **Learning Objectives (LOs)** identified in the task analysis.
+
+### 4.1 Competency CT25.1-1 Specification  
+
+  * **Code:** CT25.1.1  
+  * **Source Task:** Task25.1 – Music Collection  
+  * **Derived from:** Learning Objective 1 – Define and formalize Regular Expressions representing simple musical languages  
+
+
+### Competency Title  
+    Apply Regular Expressions to Define and Formalize Simple Musical Languages
+
+
+### Textual Description  
+
+This competency involves the ability to **define, formalize, and apply regular expressions** to represent **symbolic musical structures** (such as melodies or rhythmic sequences) as **formal languages**.  
+
+Learners must demonstrate the capacity to:
+- **Translate** musical elements (notes, patterns, and repetitions) into symbolic alphabets.  
+- **Compose** and **compare** regular expressions that describe these musical patterns.  
+- **Differentiate** between valid and invalid representations based on formal syntax and semantics.  
+
+
+
+### Knowledge Specification
+The following knowledge areas are critical for this competency:  
+
+* Language Theory
+  * Concepts of symbols, strings, alphabets, and operations in formal languages. 
+
+* Regular Expressions 
+  * Syntax, semantics, and algebraic properties of regular expressions.
+
+* Pattern Matching
+  * Construction and manipulation of symbolic patterns in string sets. 
+  
+* Analytical and Critical Thinking (FPK)
+  * Ability to reason about correctness, completeness, and consistency of formal models. 
+
+
+
+### Disposition Specification
+
+- Creativity – generating expressive and elegant regular expressions to capture complex musical forms.  
+- Persistence – engaging in iterative refinement of formal definitions until they satisfy correctness conditions.  
+- Responsibility and collaboration – validating formalizations collaboratively and documenting reasoning transparently.  
+
+
+ 
+### Knowledge-Skill Pairing and Bloom’s Taxonomy Alignment
+
+To provide clarity on competency expectations, additional action verbs from Bloom’s Revised Taxonomy are used to specify the intended cognitive processes and observable learner behaviors.
+
+* **Regular Expressions - Create** 
+  * *Design, Construct, Compose, Generate, Formalize*
+  * Design and construct regular expressions that model symbolic musical sequences; generate new expressions to represent variations in rhythm, melody, or repetition.
+
+* **Language Theory - Understand** 
+  * *Explain, Describe, Interpret, Summarize, Illustrate* 
+  *  Explain how formal symbols and strings represent musical notes, instruments, and temporal patterns in a defined alphabet. 
+
+* **Pattern Matching - Apply** 
+  * *Use, Implement, Manipulate, Operate, Demonstrate* 
+  *Apply pattern-matching techniques to manipulate symbolic sequences and test recognition of musical structures.
+
+* **Analytical and Critical Thinking (FPK) -  Analyze / Evaluate** 
+  * *Verify, Differentiate, Compare, Justify, Assess* 
+  *  Verify correctness and equivalence between musical representations and their corresponding formal models; justify reasoning through logical arguments and minimal examples.
+
+
+ 
+### Summary Table for Competency CT25.1.1
+
+| **Code**  | **Competency** | **Dispositions** | **Knowledge** | **Skill** |
+|-----------|----------------|------------------|---------------|-----------|
+|           |                |                  | Regular Expressions | **Create (Design, Construct, Compose, Generate, Formalize)** |
+| CT25.1.1  | **Apply Regular Expressions to Define and Formalize Simple Musical Languages** | Collaborative, Responsible, Creative | Language theory | **Understand (Explain, Describe, Interpret, Summarize, Illustrate)**
+|          | | | Pattern Matching | **Apply (Use, Implement, Manipulate, Operate, Demonstrate)** |
+|          | | | Analytical and Critical Thinking (FPK) | **Apply (Verify, Differentiate, Compare, Justify, Assess)** |
+
+
+
+### 4.2 Competency CT25.1-2 Specification  
+
+**Code:** CT25.1.2  
+**Source Task:** Task25.1 – Music Collection  
+**Derived from:** Learning Objective 2 – Interpret and apply algebraic notation to string representations  
+
+
+### Competency Title  
+    Interpret and Apply Algebraic Notation to Represent Musical Strings
+
+### Textual Description  
+
+This competency involves the ability to **interpret and apply algebraic notation** to represent **musical compositions as symbolic strings** within a defined alphabet.  
+Learners must demonstrate the capacity to:
+- **Use** algebraic operators to construct and manipulate symbolic representations of musical phrases and sequences.  
+- **Represent** musical compositions as ordered strings composed of defined symbols (notes, chords, rests, durations).  
+- **Analyze** the structure of these strings to identify regularities, repetitions, or hierarchical relations.  
+- **Apply** formal operations (concatenation, repetition, substitution) to transform or generate musical sequences. 
+
+
+
+### Knowledge Specification  
+
+#### Computing Knowledge
+- **Algebraic Notation for Strings:** symbolic representation and manipulation of string patterns.  
+- **Language Theory:** formal concepts of alphabets, concatenation, and closure operations.  
+- **String Operations:** concatenation, repetition, reversal, and substitution within defined alphabets.  
+
+#### Professional Knowledge (FPK)
+- **Analytical and Critical Thinking:** evaluate and justify the correctness of algebraic manipulations.  
+
+
+### Disposition Specification  
+
+- **Precision** – maintaining syntactic and semantic accuracy in symbolic representations.  
+- **Creativity** – exploring multiple equivalent formulations for the same musical structure.  
+- **Persistence** – refining symbolic models until they reflect the musical intent accurately.  
+
+
+
+### Knowledge–Skill Pairing and Bloom’s Taxonomy Alignment  
+
+* **Algebraic Notation for Strings** - **Apply** 
+  * *Use, Manipulate, Implement*
+  * Apply algebraic notation to construct and manipulate symbolic strings representing musical sequences. 
+  
+* **Language Theory** - **Understand** 
+  * *Interpret, Explain, Distinguish, Relate*
+  * Interpret the relationship between musical elements and their formal symbolic counterparts within an alphabet.
+
+ |
+* **String Operations** - **Apply** 
+  * *Combine, Modify, Transform*
+  * Perform and justify algebraic operations (concatenation, repetition, substitution) on symbolic musical strings.
+
+
+* **Analytical and Critical Thinking (FPK)** - **Apply** 
+  * *Verify, Compare, Justify*
+  * Verify correctness and logical soundness of algebraic operations applied to musical structures.
+
+
+### Summary Table for Competency CT25.1.2  
+
+| **Code** | **Competency** | **Dispositions** | **Knowledge** | **Skill (Bloom)** |
+|-----------|----------------|------------------|----------------|------------------|
+| CT25.1.2 | **Interpret and Apply Algebraic Notation to Represent Musical Strings** | Precise, Creative, Persistent | Algebraic Notation for Strings | **Apply (Use, Manipulate, Implement)** |
+| 〃 | 〃 | 〃 | Language Theory | **Understand  (Interpret, Explain, Distinguish, Relate)** |
+| 〃 | 〃 | 〃 | String Operations | **Apply  (Combine, Modify, Transform)** |
+| 〃 | 〃 | 〃 | Analytical & Critical Thinking (FPK) | **Analyze / Evaluate (Verify, Compare, Justify)** |
+
+
+
+
+
+### 4.3 Competency CT25.1-3 Specification  
+
+**Code:** CT25.1.3  
+**Source Task:** Task25.1 – Music Collection  
+**Derived from:** Learning Objective 3 – Differentiate and classify formal grammars  
+
+
+### Competency Title  
+    Differentiate and Classify Formal Grammars
+
+
+### Textual Description  
+
+This competency involves the ability to **differentiate and classify formal grammars** based on their **syntactic structure and expressive capabilities**, particularly distinguishing **regular** from **context-free grammars** within the hierarchy of formal languages.  
+
+Learners must demonstrate the capacity to:  
+- **Compare** the expressive power and limitations of different classes of grammars.  
+- **Identify** the structural properties that distinguish regular and context-free grammars.  
+- **Classify** examples of grammars according to their production rules and generative capabilities.  
+- **Explain** how these classifications relate to automata models and language recognition.  
+
+
+
+### Knowledge Specification  
+
+#### Computing Knowledge
+- **Formal Grammars:** definitions, components (terminals, non-terminals, production rules), and derivation processes.  
+- **Chomsky Hierarchy:** classification of grammars and languages (Type 0–Type 3).  
+- **Regular Grammars:** properties, forms, and equivalence with finite automata.  
+- **Context-Free Grammars (CFGs):** generative power and relation to pushdown automata.  
+- **Language Theory:** interrelations among grammar classes, automata, and formal language recognition.  
+
+#### Professional Knowledge
+- **Analytical and Critical Thinking (FPK):** evaluate the expressive scope and structural distinctions among formal grammars.  
+
+
+
+### Disposition Specification  
+
+- **Analytical** – maintaining precision in the classification and comparison of grammar types.  
+- **Clarity** – expressing reasoning and distinctions using accurate formal notation.  
+- **Persistence** – analyzing examples and counterexamples until classification is correctly justified.  
+- **Critical** – evaluating the expressive adequacy of grammar forms for specific language classes.  
+
+
+
+### Knowledge–Skill Pairing and Bloom’s Taxonomy Alignment  
+
+To provide clarity on competency expectations, additional action verbs from Bloom’s Revised Taxonomy are used to specify the intended cognitive processes and observable learner behaviors.
+
+* **Formal Grammars – Analyze**  
+  * *Differentiate, Compare, Contrast, Examine, Categorize*  
+  * Differentiate and compare grammars according to structural rules, production forms, and generative scope.  
+
+* **Chomsky Hierarchy – Analyze**  
+  * *Explain, Interpret, Distinguish, Classify*  
+  * Classify grammars according to their expressive level in the Chomsky hierarchy and identify their associated automata.  
+
+* **Regular Grammars – Understand**  
+  * *Describe, Exemplify, Summarize*  
+  * Describe the form and constraints of regular grammars and relate them to finite automata recognition.  
+
+* **Context-Free Grammars – Apply**  
+  * *Identify, Illustrate, Construct, Validate*  
+  * Identify or construct examples of context-free grammars; validate their structural differences from regular grammars.  
+
+* **Analytical & Critical Thinking (FPK) – Apply**  
+  * *Evaluate, Compare*  
+  * Evaluate the expressive adequacy of grammar classifications and justify reasoning with formal arguments.  
+
+
+
+### Summary Table for Competency CT25.1.4  
+
+| **Code** | **Competency** | **Dispositions** | **Knowledge** | **Skill (Bloom)** |
+|-----------|----------------|------------------|----------------|------------------|
+| CT25.1.4 | **Differentiate and Classify Formal Grammars** | Analytical, Clear, Persistent, Critical | Formal Grammars | **Analyze (Differentiate, Compare, Contrast, Examine, Categorize)** |
+| 〃 | 〃 | 〃 | Chomsky Hierarchy | **Analyze (Explain, Interpret, Distinguish, Classify)** |
+| 〃 | 〃 | 〃 | Regular Grammars | **Understand (Describe, Exemplify, Summarize)** |
+| 〃 | 〃 | 〃 | Context-Free Grammars | **Apply (Identify, Illustrate, Construct, Validate)** |
+| 〃 | 〃 | 〃 | Analytical & Critical Thinking (FPK) | **Analyze (Evaluate, Compare)** |
+
+
+
+
+
+
+### 4.4 Competency CT25.1-4 Specification  
+
+**Code:** CT25.1.4  
+**Source Task:** Task25.1 – Music Collection  
+**Derived from:** Learning Objective 4 – Identify and model patterns using Finite State Machines (FSMs)  
+
+
+### Competency Title  
+    Identify and Model Patterns Using Finite State Machines (FSMs)
+
+
+### Textual Description  
+
+This competency involves the ability to **identify, construct, and analyze Finite State Machines (FSMs)** that recognize patterns corresponding to **musical genres or structural features** within symbolic compositions.  
+
+Learners must demonstrate the capacity to:  
+- **Model** musical structures as deterministic or non-deterministic automata.  
+- **Explain** transitions, states, and acceptance criteria using formal notation and diagrams.  
+- **Analyze** how automaton behavior reflects musical regularities or rules.  
+- **Evaluate** and refine automata to ensure correctness, minimality, and expressiveness.  
+
+
+
+### Knowledge Specification  
+
+#### Computing Knowledge
+- **Finite State Machines (FSMs):** conceptual foundations, deterministic and non-deterministic models.  
+- **Deterministic Finite Automata (DFA):** formal definition, transition functions, acceptance states, and minimality.  
+- **Regular Languages:** recognition of patterns and structures representable by FSMs.  
+- **Language Theory:** relation between regular languages, automata, and expressions.  
+
+#### Professional Knowledge (CC2020 FPK)
+- **Analytical and Critical Thinking:** evaluate design correctness and optimize FSM structure.  
+
+
+### Disposition Specification  
+
+- **Creativity** – exploring alternative representations or simplifications of automata.  
+- **Precision** – maintaining formal correctness in the definition of states, transitions, and acceptance conditions.  
+- **Persistence** – refining automata until they achieve minimal and correct form.  
+- **Collaboration** – validating automaton models through group reasoning and peer verification.  
+
+
+
+### Knowledge–Skill Pairing and Bloom’s Taxonomy Alignment  
+
+* **Finite State Machines (FSMs) - Create**
+  * *Construct, Model, Represent, Develop, Implement*
+  * Construct FSMs that recognize symbolic musical patterns and genres; represent state transitions formally. 
+
+* **Deterministic Finite Automata (DFA) - Apply / Analyze** 
+  * *Define, Illustrate, Demonstrate, Distinguish*
+  * Define deterministic transitions and acceptance criteria; analyze how DFA structure corresponds to musical rules.
+  
+* **Regular Languages - Understand**
+  * *Explain, Interpret, Associate, Exemplify*
+  * Explain how FSMs capture regularities within musical structures. 
+
+* **Language Theory - Understand** 
+  * *Describe, Clarify, Summarize*
+  * Describe theoretical relationships between regular expressions, automata, and languages.
+
+
+* **Analytical & Critical Thinking (FPK) - Apply** 
+  * *Verify, Optimize, Compare, Validate*
+  * Verify FSM correctness, minimize redundant states, and justify equivalence among automata. 
+
+
+
+### Summary Table for Competency CT25.1.4  
+
+| **Code** | **Competency** | **Dispositions** | **Knowledge** | **Skill (Bloom)** |
+|-----------|----------------|------------------|----------------|------------------|
+| CT25.1.4 | **Identify and Model Patterns Using Finite State Machines (FSMs)** |  Creative, Precise, Persistent, Collaborative | Finite State Machines (FSMs) | **Create (Construct, Model, Represent, Develop, Implement)** |
+| 〃 | 〃 | 〃 | Deterministic Finite Automata (DFA) | **Apply / Analyze (Define, Illustrate, Demonstrate, Distinguish)** |
+| 〃 | 〃 | 〃 | Regular Languages | **Understand  (Explain, Interpret, Associate, Exemplify)** |
+| 〃 | 〃 | 〃 | Language Theory | **Understand (Describe, Clarify, Summarize)** |
+| 〃 | 〃 | 〃 | Analytical & Critical Thinking (FPK) | **Apply (Verify, Optimize, Compare, Validate)** |
+
+
+
+
+
+### 4.5 Competency CT25.1-5 Specification  
+
+**Code:** CT25.1.5  
+**Source Task:** Task25.1 – Music Collection  
+**Derived from:** Learning Objective 5 – Apply and justify operations on formal languages  
+ 
+
+
+### Competency Title  
+    Apply and Justify Operations on Formal Languages
+
+
+### Textual Description  
+
+This competency involves the ability to **apply and justify formal operations** on languages, such as **union, concatenation, intersection, complement, and Kleene star**, demonstrating mathematical rigor in proofs or counterexamples that validate these operations in context.  
+
+Learners must demonstrate the capacity to:  
+- **Perform** algebraic and set-theoretic operations on formal languages using symbolic notation.  
+- **Verify** the closure properties of languages under specific operations.  
+- **Provide** mathematical proofs or counterexamples that justify the correctness or invalidity of results.  
+- **Document** reasoning steps clearly, ensuring the consistency of formal derivations.  
+
+
+
+### Knowledge Specification  
+
+#### Computing Knowledge
+- **Formal Languages:** structure, representation, and operations over language sets.  
+- **Language Operations:** union, concatenation, intersection, complement, and Kleene star.  
+- **Closure Properties:** theoretical validation of operations over language families (regular and context-free).  
+- **Proof Techniques:** direct proof, proof by induction, and counterexamples.  
+- **Language Theory:** algebraic laws and relationships among formal language operations.  
+
+#### Professional Knowledge
+- **Analytical and Critical Thinking (FPK):** evaluate the logical soundness of proofs and the validity of operations.  
+
+
+---
+
+### Disposition Specification  
+
+- **Analytical Rigor** – maintaining logical consistency in proofs and derivations.  
+- **Precision** – ensuring formal correctness in symbolic manipulation and mathematical notation.  
+- **Perseverance** – sustaining focus through iterative testing and validation of operations.  
+- **Critical Judgment** – questioning assumptions and testing language closure properties through counterexamples.  
+- **Clarity** – articulating reasoning with coherent and mathematically precise explanations.  
+
+---
+
+### Knowledge–Skill Pairing and Bloom’s Taxonomy Alignment  
+
+To provide clarity on competency expectations, additional action verbs from Bloom’s Revised Taxonomy are used to specify the intended cognitive processes and observable learner behaviors.
+
+* **Formal Languages – Apply / Evaluate**  
+  * *Perform, Operate, Implement, Verify*  
+  * Apply formal operations (union, concatenation, intersection, complement, Kleene star) and verify results for correctness.  
+
+* **Language Operations – Apply**  
+  * *Use, Execute, Manipulate, Demonstrate*  
+  * Perform symbolic manipulations to demonstrate how operations modify or combine languages.  
+
+* **Closure Properties – Analyze / Evaluate**  
+  * *Validate, Test, Examine, Prove*  
+  * Analyze and validate whether language families remain closed under given operations.  
+
+* **Proof Techniques – Apply / Evaluate**  
+  * *Prove, Demonstrate, Construct, Refute, Justify*  
+  * Construct formal proofs or counterexamples demonstrating the correctness or limitation of each operation.  
+
+* **Analytical & Critical Thinking (FPK) – Evaluate**  
+  * *Assess, Critique, Justify, Conclude*  
+  * Evaluate reasoning quality and coherence in proofs, justifying conclusions through formal logic.  
+
+* **Written Communication (FPK) – Create**  
+  * *Document, Articulate, Synthesize, Explain*  
+  * Compose a clear and rigorous technical report presenting operations, proofs, and conclusions.  
+
+---
+
+### Summary Table for Competency CT25.1.5  
+
+| **Code** | **Competency** | **Dispositions** | **Knowledge** | **Skill (Bloom)** |
+|-----------|----------------|------------------|----------------|------------------|
+| CT25.1.5 | **Apply and Justify Operations on Formal Languages** | Analytical, Precise, Perseverant, Critical, Clear | Formal Languages | **Apply / Evaluate (Perform, Operate, Verify)** |
+| 〃 | 〃 | 〃 | Language Operations | **Apply (Use, Execute, Demonstrate)** |
+| 〃 | 〃 | 〃 | Closure Properties | **Analyze / Evaluate (Validate, Test, Prove)** |
+| 〃 | 〃 | 〃 | Proof Techniques | **Apply / Evaluate (Prove, Construct, Refute, Justify)** |
+| 〃 | 〃 | 〃 | Analytical & Critical Thinking (FPK) | **Evaluate (Assess, Justify, Conclude)** |
+| 〃 | 〃 | 〃 | Written Communication (FPK) | **Create (Document, Articulate, Explain)** |
+
+
+
+Perfeito — aqui estão as competências **CT25.1-6**, **CT25.1-7** e **CT25.1-8**, estruturadas **exatamente no formato do seu modelo validado (CT25.1-1 a CT25.1-5)**, mantendo consistência terminológica, tipográfica e semântica.
+Elas completam o conjunto de competências da tarefa *Task25.1 – Music Collection*.
+
+---
+
+```markdown
+### 4.6 Competency CT25.1-6 Specification  
+
+**Code:** CT25.1.6  
+**Source Task:** Task25.1 – Music Collection  
+**Derived from:** Learning Objective 6 – Recognize and apply homomorphisms and encodings  
+**Bloom Level:** Apply / Analyze  
+
+---
+
+### Competency Title  
+    Recognize and Apply Homomorphisms and Encodings
+
+---
+
+### Textual Description  
+
+This competency involves the ability to **recognize, define, and apply homomorphisms and symbolic encodings** that map elements from the **musical domain** (e.g., notes, instruments, genres) to corresponding representations in **formal languages**.  
+
+Learners must demonstrate the capacity to:  
+- **Map** musical features into symbolic alphabets used in automata or grammar models.  
+- **Demonstrate** equivalence or transformation between representations (e.g., *score ↔ MP3*).  
+- **Analyze** how encoding choices affect structure, expressiveness, and recognition.  
+- **Validate** transformations through proofs or systematic comparisons.  
+
+Os aprendizes devem evidenciar a capacidade de **criar e interpretar mapeamentos formais** entre domínios musicais e linguagens formais, compreendendo como diferentes representações se relacionam e preservam significado estrutural e semântico.
+
+---
+
+### Knowledge Specification  
+
+#### Computing Knowledge
+- **Homomorphisms:** definition, properties, and examples in formal languages.  
+- **Encoding Systems:** mapping between symbols, alphabets, and representations.  
+- **Equivalence and Transformation:** conditions for isomorphism and meaning preservation.  
+- **Language Representation:** interpretation of symbolic domains and transformations between them.  
+
+#### Professional Knowledge
+- **Analytical and Critical Thinking (FPK):** evaluate mapping consistency and representation validity.  
+- **Written Communication (FPK):** explain equivalence relationships and justify encoding schemes.  
+
+---
+
+### Disposition Specification  
+
+- **Analytical Rigor** – verifying structural correctness in mappings and transformations.  
+- **Creativity** – designing expressive and efficient encoding strategies.  
+- **Precision** – maintaining exact correspondence between musical and formal symbols.  
+- **Curiosity** – exploring multiple valid mappings for the same conceptual domain.  
+
+---
+
+### Knowledge–Skill Pairing and Bloom’s Taxonomy Alignment  
+
+To provide clarity on competency expectations, additional action verbs from Bloom’s Revised Taxonomy are used to specify the intended cognitive processes and observable learner behaviors.
+
+* **Homomorphisms – Apply / Analyze**  
+  * *Map, Transform, Convert, Compare, Verify*  
+  * Apply homomorphisms to translate musical elements into formal symbols; verify the correctness of transformations.  
+
+* **Encodings – Apply**  
+  * *Represent, Implement, Express, Use*  
+  * Represent musical structures using appropriate symbolic encodings; demonstrate their interpretability.  
+
+* **Equivalence and Transformation – Analyze / Evaluate**  
+  * *Examine, Validate, Justify, Assess*  
+  * Analyze how transformations preserve or alter the semantics of musical structures.  
+
+* **Analytical & Critical Thinking (FPK) – Apply**  
+  * *Compare, Verify, Reason, Validate*  
+  * Evaluate and justify the adequacy of symbolic mappings and transformations.  
+
+---
+
+### Summary Table for Competency CT25.1.6  
+
+| **Code** | **Competency** | **Dispositions** | **Knowledge** | **Skill (Bloom)** |
+|-----------|----------------|------------------|----------------|------------------|
+| CT25.1.6 | **Recognize and Apply Homomorphisms and Encodings** | Analytical, Creative, Precise, Curious | Homomorphisms | **Apply / Analyze (Map, Transform, Compare, Verify)** |
+| 〃 | 〃 | 〃 | Encodings | **Apply (Represent, Implement, Use)** |
+| 〃 | 〃 | 〃 | Equivalence and Transformation | **Analyze / Evaluate (Examine, Validate, Justify)** |
+| 〃 | 〃 | 〃 | Analytical & Critical Thinking (FPK) | **Apply (Compare, Verify, Validate)** |
+```
+
+---
+
+```markdown
+### 4.7 Competency CT25.1-7 Specification  
+
+**Code:** CT25.1.7  
+**Source Task:** Task25.1 – Music Collection  
+**Derived from:** Learning Objective 7 – Simulate and validate automata behavior  
+**Bloom Level:** Apply / Evaluate  
+
+---
+
+### Competency Title  
+    Simulate and Validate Automata Behavior
+
+---
+
+### Textual Description  
+
+This competency involves the ability to **simulate and validate the behavior of automata** through computational tools, ensuring that formal models correctly recognize **musical patterns, genres, and operations on strings**.  
+
+Learners must demonstrate the capacity to:  
+- **Use** software simulators to execute and test automata.  
+- **Verify** acceptance and rejection behaviors for given inputs.  
+- **Interpret** simulation results, identifying discrepancies and limitations.  
+- **Refine** automaton structures to correct errors and improve precision.  
+
+Os aprendizes devem evidenciar a capacidade de **validar experimentalmente modelos formais**, compreendendo a correspondência entre sua definição teórica e seu comportamento observado em simulação.
+
+---
+
+### Knowledge Specification  
+
+#### Computing Knowledge
+- **Automata Simulation:** tools, algorithms, and procedures for testing automata.  
+- **Finite State Machines (FSMs):** state transitions, acceptance criteria, and output interpretation.  
+- **Validation Techniques:** testing scenarios, trace analysis, and error detection.  
+- **Language Recognition:** verifying language membership via automata execution.  
+
+#### Professional Knowledge
+- **Problem Solving (FPK):** identify issues and implement corrections in formal models.  
+- **Analytical and Critical Thinking (FPK):** evaluate simulation outcomes and justify decisions.  
+
+---
+
+### Disposition Specification  
+
+- **Precision** – maintaining accuracy in interpretation of results and model behavior.  
+- **Persistence** – refining models iteratively based on testing feedback.  
+- **Analytical Rigor** – correlating theoretical definitions with observed performance.  
+- **Responsibility** – validating and documenting findings systematically.  
+
+---
+
+### Knowledge–Skill Pairing and Bloom’s Taxonomy Alignment  
+
+* **Automata Simulation – Apply**  
+  * *Execute, Operate, Test, Use*  
+  * Use simulation tools to execute automata and analyze their outputs.  
+
+* **Finite State Machines – Apply / Evaluate**  
+  * *Run, Observe, Compare, Validate*  
+  * Evaluate automata behaviors under multiple input cases; verify correctness.  
+
+* **Validation Techniques – Analyze / Evaluate**  
+  * *Detect, Diagnose, Correct, Refine*  
+  * Detect inconsistencies and refine models to ensure behavioral accuracy.  
+
+* **Analytical & Critical Thinking (FPK) – Evaluate**  
+  * *Assess, Interpret, Conclude, Justify*  
+  * Assess simulation outcomes and provide rational justification for observed behavior.  
+
+---
+
+### Summary Table for Competency CT25.1.7  
+
+| **Code** | **Competency** | **Dispositions** | **Knowledge** | **Skill (Bloom)** |
+|-----------|----------------|------------------|----------------|------------------|
+| CT25.1.7 | **Simulate and Validate Automata Behavior** | Precise, Persistent, Analytical, Responsible | Automata Simulation | **Apply (Execute, Operate, Test, Use)** |
+| 〃 | 〃 | 〃 | Finite State Machines | **Apply / Evaluate (Run, Observe, Compare, Validate)** |
+| 〃 | 〃 | 〃 | Validation Techniques | **Analyze / Evaluate (Detect, Diagnose, Correct, Refine)** |
+| 〃 | 〃 | 〃 | Analytical & Critical Thinking (FPK) | **Evaluate (Assess, Interpret, Conclude, Justify)** |
+```
+
+---
+
+```markdown
+### 4.8 Competency CT25.1-8 Specification  
+
+**Code:** CT25.1.8  
+**Source Task:** Task25.1 – Music Collection  
+**Derived from:** Learning Objective 8 – Produce a technical report with mathematical rigor  
+**Bloom Level:** Create  
+
+---
+
+### Competency Title  
+    Produce a Technical Report with Mathematical Rigor
+
+---
+
+### Textual Description  
+
+This competency involves the ability to **produce a coherent and mathematically rigorous technical report**, documenting all decisions, proofs, and results from formal modeling activities.  
+
+Learners must demonstrate the capacity to:  
+- **Document** all modeling processes, design decisions, and proofs.  
+- **Include** formal definitions, examples, induction proofs, closure properties, and counterexamples.  
+- **Explain** results clearly, maintaining internal consistency and logical flow.  
+- **Synthesize** the theoretical and practical outcomes into a structured written artifact.  
+
+Os aprendizes devem evidenciar a capacidade de **comunicar resultados formais com clareza e precisão**, demonstrando domínio conceitual e argumentativo na apresentação dos resultados de modelagem computacional e provas matemáticas.
+
+---
+
+### Knowledge Specification  
+
+#### Computing Knowledge
+- **Formal Documentation:** principles of technical and mathematical writing.  
+- **Proof Structure:** induction, closure, and counterexample construction.  
+- **Modeling Rationale:** justification of design choices and theoretical correspondence.  
+
+#### Professional Knowledge
+- **Written Communication (FPK):** organize and articulate complex reasoning clearly.  
+- **Ethical Responsibility (FPK):** present results accurately and transparently.  
+
+---
+
+### Disposition Specification  
+
+- **Clarity** – expressing ideas in precise and accessible language.  
+- **Rigor** – ensuring accuracy and coherence throughout documentation.  
+- **Responsibility** – presenting results transparently and with integrity.  
+- **Reflectiveness** – revising and improving articulation based on peer or instructor feedback.  
+
+---
+
+### Knowledge–Skill Pairing and Bloom’s Taxonomy Alignment  
+
+* **Formal Documentation – Create**  
+  * *Compose, Structure, Write, Integrate*  
+  * Produce structured documentation that presents reasoning and results coherently.  
+
+* **Proof Structure – Create / Evaluate**  
+  * *Demonstrate, Construct, Validate, Justify*  
+  * Develop and explain formal proofs, including induction and counterexamples.  
+
+* **Modeling Rationale – Analyze / Create**  
+  * *Explain, Justify, Synthesize*  
+  * Explain the rationale behind modeling decisions and relate theoretical concepts to implementation.  
+
+* **Written Communication (FPK) – Create**  
+  * *Document, Articulate, Refine, Present*  
+  * Communicate findings clearly and coherently, following academic and ethical standards.  
+
+---
+
+### Summary Table for Competency CT25.1.8  
+
+| **Code** | **Competency** | **Dispositions** | **Knowledge** | **Skill (Bloom)** |
+|-----------|----------------|------------------|----------------|------------------|
+| CT25.1.8 | **Produce a Technical Report with Mathematical Rigor** | Clear, Rigorous, Responsible, Reflective | Formal Documentation | **Create (Compose, Structure, Write, Integrate)** |
+| 〃 | 〃 | 〃 | Proof Structure | **Create / Evaluate (Demonstrate, Construct, Validate, Justify)** |
+| 〃 | 〃 | 〃 | Modeling Rationale | **Analyze / Create (Explain, Justify, Synthesize)** |
+| 〃 | 〃 | 〃 | Written Communication (FPK) | **Create (Document, Articulate, Refine, Present)** |
+
+
+
+
+
+
+
+
+---
+## Table of Competencies for Task: *The Vending Machine for Sodas and Snacks*

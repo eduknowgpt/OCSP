@@ -3,7 +3,7 @@
 **Authors**: Lais Salvador, Edeyson A. Gomes, Luiz Gavaza
 **Date**: May 11, 2022
 
----
+
 
 ## 1. Problem
 
@@ -28,7 +28,7 @@ The analysis and presentation of the solution must reflect not only its practica
 
 The suggested tool for simulating the parking control system is [JFLAP](http://www.jflap.org).
 
----
+
 
 ## 2. Deliverables
 
@@ -37,7 +37,7 @@ You must upload the following to UFBA Moodle by **11:59 PM on 06/06/2022**, in t
 1. A file containing a machine model that solves the problem.
 2. **A report in SBC (Brazilian Computer Society) article format**, describing in detail the design and functioning of the parking control system, with support for identifying the number of denied requests per category each day. The report should also include a justification for the choice of the machine model used.
 
----
+
 
 ## 3. Schedule
 
@@ -49,7 +49,7 @@ You must upload the following to UFBA Moodle by **11:59 PM on 06/06/2022**, in t
 | 01/06    | Tutorial Session 4 – Problem 3 |
 | 06/06    | Solution Submission            |
 
----
+
 
 ## 4. Learning Resources
 
@@ -62,7 +62,7 @@ You must upload the following to UFBA Moodle by **11:59 PM on 06/06/2022**, in t
 * **VIEIRA, Newton José.**
   *Linguagens e Máquinas: Uma Introdução aos Fundamentos da Computação*, 2004.
 
----
+
 
 ## 5. Concepts Involved
 
@@ -71,7 +71,7 @@ You must upload the following to UFBA Moodle by **11:59 PM on 06/06/2022**, in t
 3. Turing Machine Variants
 4. Chomsky Hierarchy
 
----
+
 
 ## 6. Learning Objectives
 
