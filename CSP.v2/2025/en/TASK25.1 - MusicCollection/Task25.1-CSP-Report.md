@@ -657,8 +657,7 @@ To provide clarity on competency expectations, additional action verbs from Bloo
 
 
 ### 4.7 Competency CT25.1-7 Specification  
-
-- Reuse **C03 - Test Automata Using Simulators** 
+    Reuse C03 - Test Automata Using Simulators
 
 
 
@@ -671,9 +670,9 @@ To provide clarity on competency expectations, additional action verbs from Bloo
 ### Competency Title  
     Produce a Technical Report with Mathematical Rigor
 
-- Specializes **C05 - Write a Technical Report** 
+  Specializes C05 - Write a Technical Report
 
-**C05.1 - Write a Technical Report with Mathematical Rigor** 
+    C05.1 - Write a Technical Report with Mathematical Rigor
 
 ### Textual Description  
 
@@ -689,5 +688,5 @@ To provide clarity on competency expectations, additional action verbs from Bloo
 
 
 
----
-## Table of Competencies for Task: *The Vending Machine for Sodas and Snacks*
+
+## Table of Competencies for Task25.1 - Music Collection
