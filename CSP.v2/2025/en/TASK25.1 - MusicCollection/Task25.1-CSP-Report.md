@@ -507,7 +507,6 @@ Learners must demonstrate the capacity to:
 **Derived from:** Learning Objective 5 – Apply and justify operations on formal languages  
  
 
-
 ### Competency Title  
     Apply and Justify Operations on Formal Languages
 
@@ -523,7 +522,6 @@ Learners must demonstrate the capacity to:
 - **Document** reasoning steps clearly, ensuring the consistency of formal derivations.  
 
 
-
 ### Knowledge Specification  
 
 #### Computing Knowledge
@@ -537,23 +535,20 @@ Learners must demonstrate the capacity to:
 - **Analytical and Critical Thinking (FPK):** evaluate the logical soundness of proofs and the validity of operations.  
 
 
----
-
 ### Disposition Specification  
 
-- **Analytical Rigor** – maintaining logical consistency in proofs and derivations.  
+- **Analytical** – maintaining logical consistency in proofs and derivations.  
 - **Precision** – ensuring formal correctness in symbolic manipulation and mathematical notation.  
 - **Perseverance** – sustaining focus through iterative testing and validation of operations.  
 - **Critical Judgment** – questioning assumptions and testing language closure properties through counterexamples.  
 - **Clarity** – articulating reasoning with coherent and mathematically precise explanations.  
 
----
 
 ### Knowledge–Skill Pairing and Bloom’s Taxonomy Alignment  
 
 To provide clarity on competency expectations, additional action verbs from Bloom’s Revised Taxonomy are used to specify the intended cognitive processes and observable learner behaviors.
 
-* **Formal Languages – Apply / Evaluate**  
+* **Formal Languages – Apply**  
   * *Perform, Operate, Implement, Verify*  
   * Apply formal operations (union, concatenation, intersection, complement, Kleene star) and verify results for correctness.  
 
@@ -561,56 +556,41 @@ To provide clarity on competency expectations, additional action verbs from Bloo
   * *Use, Execute, Manipulate, Demonstrate*  
   * Perform symbolic manipulations to demonstrate how operations modify or combine languages.  
 
-* **Closure Properties – Analyze / Evaluate**  
+* **Closure Properties – Analyze**  
   * *Validate, Test, Examine, Prove*  
   * Analyze and validate whether language families remain closed under given operations.  
 
-* **Proof Techniques – Apply / Evaluate**  
+* **Proof Techniques – Evaluate**  
   * *Prove, Demonstrate, Construct, Refute, Justify*  
   * Construct formal proofs or counterexamples demonstrating the correctness or limitation of each operation.  
 
-* **Analytical & Critical Thinking (FPK) – Evaluate**  
+* **Analytical & Critical Thinking (FPK) – Apply**  
   * *Assess, Critique, Justify, Conclude*  
   * Evaluate reasoning quality and coherence in proofs, justifying conclusions through formal logic.  
 
-* **Written Communication (FPK) – Create**  
-  * *Document, Articulate, Synthesize, Explain*  
-  * Compose a clear and rigorous technical report presenting operations, proofs, and conclusions.  
 
----
 
 ### Summary Table for Competency CT25.1.5  
 
 | **Code** | **Competency** | **Dispositions** | **Knowledge** | **Skill (Bloom)** |
 |-----------|----------------|------------------|----------------|------------------|
-| CT25.1.5 | **Apply and Justify Operations on Formal Languages** | Analytical, Precise, Perseverant, Critical, Clear | Formal Languages | **Apply / Evaluate (Perform, Operate, Verify)** |
-| 〃 | 〃 | 〃 | Language Operations | **Apply (Use, Execute, Demonstrate)** |
-| 〃 | 〃 | 〃 | Closure Properties | **Analyze / Evaluate (Validate, Test, Prove)** |
-| 〃 | 〃 | 〃 | Proof Techniques | **Apply / Evaluate (Prove, Construct, Refute, Justify)** |
-| 〃 | 〃 | 〃 | Analytical & Critical Thinking (FPK) | **Evaluate (Assess, Justify, Conclude)** |
-| 〃 | 〃 | 〃 | Written Communication (FPK) | **Create (Document, Articulate, Explain)** |
+| CT25.1.5 | **Apply and Justify Operations on Formal Languages** | Analytical, Precise, Perseverant, Critical, Clear | Formal Languages | **Apply / Evaluate (Perform, Operate, Implement, Verifyy)** |
+| 〃 | 〃 | 〃 | Language Operations | **Apply (Use, Execute, Manipulate, Demonstrate)** |
+| 〃 | 〃 | 〃 | Closure Properties | **Analyze (Validate, Test, Examine, Prove)** |
+| 〃 | 〃 | 〃 | Proof Techniques | **Evaluate (Prove, Demonstrate, Construct, Refute, Justify)** |
+| 〃 | 〃 | 〃 | Analytical & Critical Thinking (FPK) | **Apply (Assess, Critique, Justify, Conclude)** |
 
 
 
-Perfeito — aqui estão as competências **CT25.1-6**, **CT25.1-7** e **CT25.1-8**, estruturadas **exatamente no formato do seu modelo validado (CT25.1-1 a CT25.1-5)**, mantendo consistência terminológica, tipográfica e semântica.
-Elas completam o conjunto de competências da tarefa *Task25.1 – Music Collection*.
-
----
-
-```markdown
 ### 4.6 Competency CT25.1-6 Specification  
 
 **Code:** CT25.1.6  
 **Source Task:** Task25.1 – Music Collection  
 **Derived from:** Learning Objective 6 – Recognize and apply homomorphisms and encodings  
-**Bloom Level:** Apply / Analyze  
 
----
 
 ### Competency Title  
     Recognize and Apply Homomorphisms and Encodings
-
----
 
 ### Textual Description  
 
@@ -622,9 +602,6 @@ Learners must demonstrate the capacity to:
 - **Analyze** how encoding choices affect structure, expressiveness, and recognition.  
 - **Validate** transformations through proofs or systematic comparisons.  
 
-Os aprendizes devem evidenciar a capacidade de **criar e interpretar mapeamentos formais** entre domínios musicais e linguagens formais, compreendendo como diferentes representações se relacionam e preservam significado estrutural e semântico.
-
----
 
 ### Knowledge Specification  
 
@@ -636,9 +613,6 @@ Os aprendizes devem evidenciar a capacidade de **criar e interpretar mapeamentos
 
 #### Professional Knowledge
 - **Analytical and Critical Thinking (FPK):** evaluate mapping consistency and representation validity.  
-- **Written Communication (FPK):** explain equivalence relationships and justify encoding schemes.  
-
----
 
 ### Disposition Specification  
 
@@ -647,13 +621,12 @@ Os aprendizes devem evidenciar a capacidade de **criar e interpretar mapeamentos
 - **Precision** – maintaining exact correspondence between musical and formal symbols.  
 - **Curiosity** – exploring multiple valid mappings for the same conceptual domain.  
 
----
 
 ### Knowledge–Skill Pairing and Bloom’s Taxonomy Alignment  
 
 To provide clarity on competency expectations, additional action verbs from Bloom’s Revised Taxonomy are used to specify the intended cognitive processes and observable learner behaviors.
 
-* **Homomorphisms – Apply / Analyze**  
+* **Homomorphisms – Apply**  
   * *Map, Transform, Convert, Compare, Verify*  
   * Apply homomorphisms to translate musical elements into formal symbols; verify the correctness of transformations.  
 
@@ -661,7 +634,7 @@ To provide clarity on competency expectations, additional action verbs from Bloo
   * *Represent, Implement, Express, Use*  
   * Represent musical structures using appropriate symbolic encodings; demonstrate their interpretability.  
 
-* **Equivalence and Transformation – Analyze / Evaluate**  
+* **Equivalence and Transformation – Analyze**  
   * *Examine, Validate, Justify, Assess*  
   * Analyze how transformations preserve or alter the semantics of musical structures.  
 
@@ -669,183 +642,45 @@ To provide clarity on competency expectations, additional action verbs from Bloo
   * *Compare, Verify, Reason, Validate*  
   * Evaluate and justify the adequacy of symbolic mappings and transformations.  
 
----
+
 
 ### Summary Table for Competency CT25.1.6  
 
 | **Code** | **Competency** | **Dispositions** | **Knowledge** | **Skill (Bloom)** |
 |-----------|----------------|------------------|----------------|------------------|
-| CT25.1.6 | **Recognize and Apply Homomorphisms and Encodings** | Analytical, Creative, Precise, Curious | Homomorphisms | **Apply / Analyze (Map, Transform, Compare, Verify)** |
-| 〃 | 〃 | 〃 | Encodings | **Apply (Represent, Implement, Use)** |
-| 〃 | 〃 | 〃 | Equivalence and Transformation | **Analyze / Evaluate (Examine, Validate, Justify)** |
-| 〃 | 〃 | 〃 | Analytical & Critical Thinking (FPK) | **Apply (Compare, Verify, Validate)** |
-```
+| CT25.1.6 | **Recognize and Apply Homomorphisms and Encodings** | Analytical, Creative, Precise, Curious | Homomorphisms | **Apply  (Map, Transform, Convert, Compare, Verify)** |
+| 〃 | 〃 | 〃 | Encodings | **Apply (Represent, Implement, Express, Use)** |
+| 〃 | 〃 | 〃 | Equivalence and Transformation | **Analyze (Examine, Validate, Justify, Assess)** |
+| 〃 | 〃 | 〃 | Analytical & Critical Thinking (FPK) | **Apply (CCompare, Verify, Reason, Validate)** |
 
----
 
-```markdown
+
+
 ### 4.7 Competency CT25.1-7 Specification  
 
-**Code:** CT25.1.7  
-**Source Task:** Task25.1 – Music Collection  
-**Derived from:** Learning Objective 7 – Simulate and validate automata behavior  
-**Bloom Level:** Apply / Evaluate  
+- Reuse **C03 - Test Automata Using Simulators** 
 
----
 
-### Competency Title  
-    Simulate and Validate Automata Behavior
 
----
-
-### Textual Description  
-
-This competency involves the ability to **simulate and validate the behavior of automata** through computational tools, ensuring that formal models correctly recognize **musical patterns, genres, and operations on strings**.  
-
-Learners must demonstrate the capacity to:  
-- **Use** software simulators to execute and test automata.  
-- **Verify** acceptance and rejection behaviors for given inputs.  
-- **Interpret** simulation results, identifying discrepancies and limitations.  
-- **Refine** automaton structures to correct errors and improve precision.  
-
-Os aprendizes devem evidenciar a capacidade de **validar experimentalmente modelos formais**, compreendendo a correspondência entre sua definição teórica e seu comportamento observado em simulação.
-
----
-
-### Knowledge Specification  
-
-#### Computing Knowledge
-- **Automata Simulation:** tools, algorithms, and procedures for testing automata.  
-- **Finite State Machines (FSMs):** state transitions, acceptance criteria, and output interpretation.  
-- **Validation Techniques:** testing scenarios, trace analysis, and error detection.  
-- **Language Recognition:** verifying language membership via automata execution.  
-
-#### Professional Knowledge
-- **Problem Solving (FPK):** identify issues and implement corrections in formal models.  
-- **Analytical and Critical Thinking (FPK):** evaluate simulation outcomes and justify decisions.  
-
----
-
-### Disposition Specification  
-
-- **Precision** – maintaining accuracy in interpretation of results and model behavior.  
-- **Persistence** – refining models iteratively based on testing feedback.  
-- **Analytical Rigor** – correlating theoretical definitions with observed performance.  
-- **Responsibility** – validating and documenting findings systematically.  
-
----
-
-### Knowledge–Skill Pairing and Bloom’s Taxonomy Alignment  
-
-* **Automata Simulation – Apply**  
-  * *Execute, Operate, Test, Use*  
-  * Use simulation tools to execute automata and analyze their outputs.  
-
-* **Finite State Machines – Apply / Evaluate**  
-  * *Run, Observe, Compare, Validate*  
-  * Evaluate automata behaviors under multiple input cases; verify correctness.  
-
-* **Validation Techniques – Analyze / Evaluate**  
-  * *Detect, Diagnose, Correct, Refine*  
-  * Detect inconsistencies and refine models to ensure behavioral accuracy.  
-
-* **Analytical & Critical Thinking (FPK) – Evaluate**  
-  * *Assess, Interpret, Conclude, Justify*  
-  * Assess simulation outcomes and provide rational justification for observed behavior.  
-
----
-
-### Summary Table for Competency CT25.1.7  
-
-| **Code** | **Competency** | **Dispositions** | **Knowledge** | **Skill (Bloom)** |
-|-----------|----------------|------------------|----------------|------------------|
-| CT25.1.7 | **Simulate and Validate Automata Behavior** | Precise, Persistent, Analytical, Responsible | Automata Simulation | **Apply (Execute, Operate, Test, Use)** |
-| 〃 | 〃 | 〃 | Finite State Machines | **Apply / Evaluate (Run, Observe, Compare, Validate)** |
-| 〃 | 〃 | 〃 | Validation Techniques | **Analyze / Evaluate (Detect, Diagnose, Correct, Refine)** |
-| 〃 | 〃 | 〃 | Analytical & Critical Thinking (FPK) | **Evaluate (Assess, Interpret, Conclude, Justify)** |
-```
-
----
-
-```markdown
 ### 4.8 Competency CT25.1-8 Specification  
 
 **Code:** CT25.1.8  
 **Source Task:** Task25.1 – Music Collection  
 **Derived from:** Learning Objective 8 – Produce a technical report with mathematical rigor  
-**Bloom Level:** Create  
-
----
 
 ### Competency Title  
     Produce a Technical Report with Mathematical Rigor
 
----
+- Specializes **C05 - Write a Technical Report** 
+
+**C05.1 - Write a Technical Report with Mathematical Rigor** 
 
 ### Textual Description  
 
-This competency involves the ability to **produce a coherent and mathematically rigorous technical report**, documenting all decisions, proofs, and results from formal modeling activities.  
+  This competency involves the ability to **produce a coherent and mathematically rigorous technical report**, documenting all decisions, proofs, and results from formal modeling activities.  
 
-Learners must demonstrate the capacity to:  
-- **Document** all modeling processes, design decisions, and proofs.  
-- **Include** formal definitions, examples, induction proofs, closure properties, and counterexamples.  
-- **Explain** results clearly, maintaining internal consistency and logical flow.  
-- **Synthesize** the theoretical and practical outcomes into a structured written artifact.  
 
-Os aprendizes devem evidenciar a capacidade de **comunicar resultados formais com clareza e precisão**, demonstrando domínio conceitual e argumentativo na apresentação dos resultados de modelagem computacional e provas matemáticas.
 
----
-
-### Knowledge Specification  
-
-#### Computing Knowledge
-- **Formal Documentation:** principles of technical and mathematical writing.  
-- **Proof Structure:** induction, closure, and counterexample construction.  
-- **Modeling Rationale:** justification of design choices and theoretical correspondence.  
-
-#### Professional Knowledge
-- **Written Communication (FPK):** organize and articulate complex reasoning clearly.  
-- **Ethical Responsibility (FPK):** present results accurately and transparently.  
-
----
-
-### Disposition Specification  
-
-- **Clarity** – expressing ideas in precise and accessible language.  
-- **Rigor** – ensuring accuracy and coherence throughout documentation.  
-- **Responsibility** – presenting results transparently and with integrity.  
-- **Reflectiveness** – revising and improving articulation based on peer or instructor feedback.  
-
----
-
-### Knowledge–Skill Pairing and Bloom’s Taxonomy Alignment  
-
-* **Formal Documentation – Create**  
-  * *Compose, Structure, Write, Integrate*  
-  * Produce structured documentation that presents reasoning and results coherently.  
-
-* **Proof Structure – Create / Evaluate**  
-  * *Demonstrate, Construct, Validate, Justify*  
-  * Develop and explain formal proofs, including induction and counterexamples.  
-
-* **Modeling Rationale – Analyze / Create**  
-  * *Explain, Justify, Synthesize*  
-  * Explain the rationale behind modeling decisions and relate theoretical concepts to implementation.  
-
-* **Written Communication (FPK) – Create**  
-  * *Document, Articulate, Refine, Present*  
-  * Communicate findings clearly and coherently, following academic and ethical standards.  
-
----
-
-### Summary Table for Competency CT25.1.8  
-
-| **Code** | **Competency** | **Dispositions** | **Knowledge** | **Skill (Bloom)** |
-|-----------|----------------|------------------|----------------|------------------|
-| CT25.1.8 | **Produce a Technical Report with Mathematical Rigor** | Clear, Rigorous, Responsible, Reflective | Formal Documentation | **Create (Compose, Structure, Write, Integrate)** |
-| 〃 | 〃 | 〃 | Proof Structure | **Create / Evaluate (Demonstrate, Construct, Validate, Justify)** |
-| 〃 | 〃 | 〃 | Modeling Rationale | **Analyze / Create (Explain, Justify, Synthesize)** |
-| 〃 | 〃 | 〃 | Written Communication (FPK) | **Create (Document, Articulate, Refine, Present)** |
 
 
 
