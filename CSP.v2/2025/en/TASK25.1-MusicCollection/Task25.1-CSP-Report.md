@@ -322,9 +322,9 @@ Learners must demonstrate the capacity to:
 | **Code** | **Competency** | **Dispositions** | **Knowledge** | **Skill (Bloom)** |
 |-----------|----------------|------------------|----------------|------------------|
 | CT25.1.2 | **Interpret and Apply Algebraic Notation to Represent Musical Strings** | Precise, Creative, Persistent | Algebraic Notation for Strings | **Apply (Use, Manipulate, Implement)** |
-| 〃 | 〃 | 〃 | Language Theory | **Understand  (Interpret, Explain, Distinguish, Relate)** |
-| 〃 | 〃 | 〃 | String Operations | **Apply  (Combine, Modify, Transform)** |
-| 〃 | 〃 | 〃 | Analytical & Critical Thinking (FPK) | **Analyze / Evaluate (Verify, Compare, Justify)** |
+|   |   |   | Language Theory | **Understand  (Interpret, Explain, Distinguish, Relate)** |
+|   |   |   | String Operations | **Apply  (Combine, Modify, Transform)** |
+|   |   |   | Analytical & Critical Thinking (FPK) | **Analyze / Evaluate (Verify, Compare, Justify)** |
 
 
 
@@ -402,15 +402,15 @@ To provide clarity on competency expectations, additional action verbs from Bloo
 
 
 
-### Summary Table for Competency CT25.1.4  
+### Summary Table for Competency CT25.1.3  
 
 | **Code** | **Competency** | **Dispositions** | **Knowledge** | **Skill (Bloom)** |
 |-----------|----------------|------------------|----------------|------------------|
-| CT25.1.4 | **Differentiate and Classify Formal Grammars** | Analytical, Clear, Persistent, Critical | Formal Grammars | **Analyze (Differentiate, Compare, Contrast, Examine, Categorize)** |
-| 〃 | 〃 | 〃 | Chomsky Hierarchy | **Analyze (Explain, Interpret, Distinguish, Classify)** |
-| 〃 | 〃 | 〃 | Regular Grammars | **Understand (Describe, Exemplify, Summarize)** |
-| 〃 | 〃 | 〃 | Context-Free Grammars | **Apply (Identify, Illustrate, Construct, Validate)** |
-| 〃 | 〃 | 〃 | Analytical & Critical Thinking (FPK) | **Analyze (Evaluate, Compare)** |
+| CT25.1.3 | **Differentiate and Classify Formal Grammars** | Analytical, Clear, Persistent, Critical | Formal Grammars | **Analyze (Differentiate, Compare, Contrast, Examine, Categorize)** |
+|   |   |   | Chomsky Hierarchy | **Analyze (Explain, Interpret, Distinguish, Classify)** |
+|   |   |   | Regular Grammars | **Understand (Describe, Exemplify, Summarize)** |
+|   |   |   | Context-Free Grammars | **Apply (Identify, Illustrate, Construct, Validate)** |
+|   |   |   | Analytical & Critical Thinking (FPK) | **Analyze (Evaluate, Compare)** |
 
 
 
@@ -491,10 +491,10 @@ Learners must demonstrate the capacity to:
 | **Code** | **Competency** | **Dispositions** | **Knowledge** | **Skill (Bloom)** |
 |-----------|----------------|------------------|----------------|------------------|
 | CT25.1.4 | **Identify and Model Patterns Using Finite State Machines (FSMs)** |  Creative, Precise, Persistent, Collaborative | Finite State Machines (FSMs) | **Create (Construct, Model, Represent, Develop, Implement)** |
-| 〃 | 〃 | 〃 | Deterministic Finite Automata (DFA) | **Apply / Analyze (Define, Illustrate, Demonstrate, Distinguish)** |
-| 〃 | 〃 | 〃 | Regular Languages | **Understand  (Explain, Interpret, Associate, Exemplify)** |
-| 〃 | 〃 | 〃 | Language Theory | **Understand (Describe, Clarify, Summarize)** |
-| 〃 | 〃 | 〃 | Analytical & Critical Thinking (FPK) | **Apply (Verify, Optimize, Compare, Validate)** |
+|   |   |   | Deterministic Finite Automata (DFA) | **Apply / Analyze (Define, Illustrate, Demonstrate, Distinguish)** |
+|   |   |   | Regular Languages | **Understand  (Explain, Interpret, Associate, Exemplify)** |
+|   |   |   | Language Theory | **Understand (Describe, Clarify, Summarize)** |
+|   |   |   | Analytical & Critical Thinking (FPK) | **Apply (Verify, Optimize, Compare, Validate)** |
 
 
 
@@ -575,10 +575,10 @@ To provide clarity on competency expectations, additional action verbs from Bloo
 | **Code** | **Competency** | **Dispositions** | **Knowledge** | **Skill (Bloom)** |
 |-----------|----------------|------------------|----------------|------------------|
 | CT25.1.5 | **Apply and Justify Operations on Formal Languages** | Analytical, Precise, Perseverant, Critical, Clear | Formal Languages | **Apply / Evaluate (Perform, Operate, Implement, Verifyy)** |
-| 〃 | 〃 | 〃 | Language Operations | **Apply (Use, Execute, Manipulate, Demonstrate)** |
-| 〃 | 〃 | 〃 | Closure Properties | **Analyze (Validate, Test, Examine, Prove)** |
-| 〃 | 〃 | 〃 | Proof Techniques | **Evaluate (Prove, Demonstrate, Construct, Refute, Justify)** |
-| 〃 | 〃 | 〃 | Analytical & Critical Thinking (FPK) | **Apply (Assess, Critique, Justify, Conclude)** |
+|   |   |   | Language Operations | **Apply (Use, Execute, Manipulate, Demonstrate)** |
+|   |   |   | Closure Properties | **Analyze (Validate, Test, Examine, Prove)** |
+|   |   |   | Proof Techniques | **Evaluate (Prove, Demonstrate, Construct, Refute, Justify)** |
+|   |   |   | Analytical & Critical Thinking (FPK) | **Apply (Assess, Critique, Justify, Conclude)** |
 
 
 
@@ -649,9 +649,9 @@ To provide clarity on competency expectations, additional action verbs from Bloo
 | **Code** | **Competency** | **Dispositions** | **Knowledge** | **Skill (Bloom)** |
 |-----------|----------------|------------------|----------------|------------------|
 | CT25.1.6 | **Recognize and Apply Homomorphisms and Encodings** | Analytical, Creative, Precise, Curious | Homomorphisms | **Apply  (Map, Transform, Convert, Compare, Verify)** |
-| 〃 | 〃 | 〃 | Encodings | **Apply (Represent, Implement, Express, Use)** |
-| 〃 | 〃 | 〃 | Equivalence and Transformation | **Analyze (Examine, Validate, Justify, Assess)** |
-| 〃 | 〃 | 〃 | Analytical & Critical Thinking (FPK) | **Apply (CCompare, Verify, Reason, Validate)** |
+|   |   |   | Encodings | **Apply (Represent, Implement, Express, Use)** |
+|   |   |   | Equivalence and Transformation | **Analyze (Examine, Validate, Justify, Assess)** |
+|   |   |   | Analytical & Critical Thinking (FPK) | **Apply (CCompare, Verify, Reason, Validate)** |
 
 
 
@@ -690,3 +690,38 @@ To provide clarity on competency expectations, additional action verbs from Bloo
 
 
 ## Table of Competencies for Task25.1 - Music Collection
+
+| **Code**  | **Competency** | **Dispositions** | **Knowledge** | **Skill** |
+|-----------|----------------|------------------|---------------|-----------|
+|           |                |                  | Regular Expressions | **Create (Design, Construct, Compose, Generate, Formalize)** |
+| CT25.1.1  | **Apply Regular Expressions to Define and Formalize Simple Musical Languages** | Collaborative, Responsible, Creative | Language theory | **Understand (Explain, Describe, Interpret, Summarize, Illustrate)**
+|          | | | Pattern Matching | **Apply (Use, Implement, Manipulate, Operate, Demonstrate)** |
+|          | | | Analytical and Critical Thinking (FPK) | **Apply (Verify, Differentiate, Compare, Justify, Assess)** |
+| | | | | |
+| CT25.1.2 | **Interpret and Apply Algebraic Notation to Represent Musical Strings** | Precise, Creative, Persistent | Algebraic Notation for Strings | **Apply (Use, Manipulate, Implement)** |
+|   |   |   | Language Theory | **Understand  (Interpret, Explain, Distinguish, Relate)** |
+|   |   |   | String Operations | **Apply  (Combine, Modify, Transform)** |
+|   |   |   | Analytical & Critical Thinking (FPK) | **Analyze / Evaluate (Verify, Compare, Justify)** |
+| | | | | |
+| CT25.1.3 | **Differentiate and Classify Formal Grammars** | Analytical, Clear, Persistent, Critical | Formal Grammars | **Analyze (Differentiate, Compare, Contrast, Examine, Categorize)** |
+|   |   |   | Chomsky Hierarchy | **Analyze (Explain, Interpret, Distinguish, Classify)** |
+|   |   |   | Regular Grammars | **Understand (Describe, Exemplify, Summarize)** |
+|   |   |   | Context-Free Grammars | **Apply (Identify, Illustrate, Construct, Validate)** |
+|   |   |   | Analytical & Critical Thinking (FPK) | **Analyze (Evaluate, Compare)** |
+| | | | | |
+| CT25.1.4 | **Identify and Model Patterns Using Finite State Machines (FSMs)** |  Creative, Precise, Persistent, Collaborative | Finite State Machines (FSMs) | **Create (Construct, Model, Represent, Develop, Implement)** |
+|   |   |   | Deterministic Finite Automata (DFA) | **Apply / Analyze (Define, Illustrate, Demonstrate, Distinguish)** |
+|   |   |   | Regular Languages | **Understand  (Explain, Interpret, Associate, Exemplify)** |
+|   |   |   | Language Theory | **Understand (Describe, Clarify, Summarize)** |
+|   |   |   | Analytical & Critical Thinking (FPK) | **Apply (Verify, Optimize, Compare, Validate)** |
+| | | | | |
+| CT25.1.5 | **Apply and Justify Operations on Formal Languages** | Analytical, Precise, Perseverant, Critical, Clear | Formal Languages | **Apply / Evaluate (Perform, Operate, Implement, Verifyy)** |
+|   |   |   | Language Operations | **Apply (Use, Execute, Manipulate, Demonstrate)** |
+|   |   |   | Closure Properties | **Analyze (Validate, Test, Examine, Prove)** |
+|   |   |   | Proof Techniques | **Evaluate (Prove, Demonstrate, Construct, Refute, Justify)** |
+|   |   |   | Analytical & Critical Thinking (FPK) | **Apply (Assess, Critique, Justify, Conclude)** |
+| | | | | |
+| CT25.1.6 | **Recognize and Apply Homomorphisms and Encodings** | Analytical, Creative, Precise, Curious | Homomorphisms | **Apply  (Map, Transform, Convert, Compare, Verify)** |
+|   |   |   | Encodings | **Apply (Represent, Implement, Express, Use)** |
+|   |   |   | Equivalence and Transformation | **Analyze (Examine, Validate, Justify, Assess)** |
+|   |   |   | Analytical & Critical Thinking (FPK) | **Apply (CCompare, Verify, Reason, Validate)** |
