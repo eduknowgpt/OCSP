@@ -112,9 +112,9 @@ These simple resources support tangible manipulation of problems and collaborati
 
 
 
-## **6. Example of a Problem Solved Step by Step**
+## 6. Example of a Problem Solved Step by Step
 
-### **Statement**
+### Statement
 
 In the distant **Realm of the Magic Mirrors**, a mathematical oracle revealed the following challenge:
 
@@ -129,7 +129,7 @@ Find the distinct digits A, B, C, D, and E that make the equation true.
 
 ---
 
-### **Step 1: Finding the First Digits**
+### Step 1: Finding the First Digits
 
 Digit **A** cannot be 0.  
 Since 4 × A = E and E ≤ 9, we have:
@@ -142,7 +142,7 @@ Thus, **A = 2** and **E = 8**.
 
 ---
 
-### **Step 2: Determining Digit C**
+### Step 2: Determining Digit C
 
 | Number        | Operation | Result       |
 |--------------|-----------|--------------|
@@ -156,9 +156,8 @@ Testing:
 
 C can be 6 or 9.
 
----
 
-### **Case 1: C = 6**
+### Case 1: C = 6
 
 | Number        | Operation | Result       |
 |--------------|-----------|--------------|
@@ -170,7 +169,7 @@ Therefore, **C ≠ 6**.
 
 ---
 
-### **Case 2: C = 9**
+### Case 2: C = 9
 
 | Number        | Operation | Result       |
 |--------------|-----------|--------------|
@@ -186,7 +185,7 @@ A = 2, B = 1, C = 9, D = 7, E = 8
 
 
 
-## **7. Assessment**
+## 7. Assessment
 
 Assessment will be **process-based and formative**, grounded on:
 
@@ -199,7 +198,7 @@ This approach makes it possible to evaluate **conceptual understanding**, the **
 
 
 
-## **References**
+## References
 
 * Abbasian, G. (2010). *Cryptarithms and Logical Thinking in Mathematics Education.*  
 * BNCC (2017). *Base Nacional Comum Curricular.* Ministério da Educação.  
