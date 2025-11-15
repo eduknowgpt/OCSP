@@ -7,11 +7,7 @@ O(a) professor(a) de Física da escola convidou você para desenvolver uma ativi
 
 A ideia é criar um **programa interativo** que auxilie os alunos a explorar a relação entre **distância (Δs)**, **tempo (Δt)** e **velocidade média (Vₘ)**.
 
-A fórmula de referência é:
-
-[
-V_m = \dfrac{\Delta s}{\Delta t}
-]
+A fórmula de referência é: [ Vₘ = Δs / Δt ]
 
 em que:
 
