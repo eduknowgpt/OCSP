@@ -159,87 +159,101 @@ Scores range from **0.0 to 10.0**, in increments of **0.1**, based on:
 
 
 
+## **4. Competency Definition**
+
+## **General Competency (BNCC – Computing in Basic Education)**
+
+* **Understand, analyze, design, and implement computational solutions** for everyday problems, mobilizing concepts of algorithms, data representation, and control structures in an ethical, collaborative, and reflective manner.
 
 
-## 4. Competency Definition
+### **Competency CT25.2.1 Specification**
+
+### **Competency Title**
+
+    Define solution requirements by critically analyzing real-world situations.
 
 
-## Competência Geral (BNCC – Computação na Educação Básica)
+### **Textual Description**
 
-* **Compreender, analisar, projetar e implementar soluções computacionais** para problemas do cotidiano, mobilizando conceitos de algoritmos, representação de dados e estruturas de controle, de forma ética, colaborativa e reflexiva.
+This competency involves the ability to **analyze a concrete computational problem**—in this case, the Tic-Tac-Toe game—in order to identify, interpret, and specify its **functional and non-functional requirements** prior to implementation.
 
+The learner must observe the logical functioning of the game, recognize its rules and constraints, and translate them into clear requirements that guide program development.
 
-
-###  Competency CT25.2.1 Specification  
-
-### Competency Title
-    Definir os requisitos da solução analisando criticamente situações do mundo real.
-
-### Textual Description  
-
-Esta competência envolve a capacidade de **analisar um problema computacional concreto** — neste caso, o jogo da velha — para identificar, compreender e especificar seus **requisitos funcionais e não funcionais** antes da implementação. 
-
-O estudante deve observar o funcionamento lógico do jogo, reconhecer suas regras e restrições, e traduzi-las em requisitos claros que orientem o desenvolvimento do programa.
-
-O processo inclui a **colaboração** entre os integrantes da dupla, o **raciocínio analítico** para decompor o problema e a **documentação organizada** das observações, de forma a garantir uma base sólida para o código a ser produzido.
+The process includes **collaboration** between group members, **analytical reasoning** to decompose the problem, and **organized documentation** of observations to ensure a solid foundation for the code to be produced.
 
 
-### Knowledge Specification
+### **Knowledge Specification**
+
 The following knowledge areas are critical for this competency:
 
-- **Pensamento Analítico (FPK)**
-    - O estudante deve ser capaz de **aplica** o **pensamento analítico** para decompor o funcionamento do jogo em componentes lógicos observáveis, como jogadas, condições de vitória e controle de fluxo. Esse raciocínio permite compreender as relações de causa e efeito no comportamento do jogo e antecipar as decisões de projeto que deverão ser implementadas.
+* **Analytical Thinking (FPK)**
 
-    - **Bloom’s Taxonomy Alignment**: Apply
-    - **Knowledge-Skill Pairing**: Pensamento Analítico / Apply
-    - **Verb Annotation**: Use, Employ
+  * The learner must be able to **apply** analytical thinking to decompose the functioning of the game into observable logical components—such as moves, winning conditions, and flow control. This reasoning enables understanding of cause-and-effect relationships in game behavior and anticipating design decisions that must be implemented.
 
-- **Colaboração (FPK)**
-    - O estudante deve ser capaz de aplicar **estratégias colaborativas** para discutir, comparar e validar interpretações sobre o problema com o colega de dupla. Essa cooperação contribui para a construção coletiva dos requisitos e para a resolução de ambiguidades, simulando práticas profissionais de coautoria em engenharia de software.
+  * **Bloom’s Taxonomy Alignment:** Apply
 
-    - **Bloom’s Taxonomy Alignment**: Apply
-    - **Knowledge-Skill Pairing**: Colaboração / Apply
-    - **Verb Annotation**: Use, Employ, Demonstrate
+  * **Knowledge-Skill Pairing:** Analytical Thinking / Apply
 
-- **Especificação de Requisitos**
-    - O estudante deve ser capaz de **realizar** a especificação de requisitos para expressar, de forma organizada e compreensível, as funcionalidades esperadas (ex.: entrada de jogadas, detecção de vitória, mensagem de empate) e restrições (ex.: jogadas válidas, limite de turnos) da solução. O foco é transformar observações empíricas do jogo em descrições estruturadas que servirão de guia para a codificação.
+  * **Verb Annotation:** Use, Employ
 
-    - **Bloom’s Taxonomy Alignment**: Apply
-    - **Knowledge-Skill Pairing**: Especificação de Requisitos / Apply
-    - **Verb Annotation**: Execute, Perform
+* **Collaboration (FPK)**
 
+  * The learner must be able to apply **collaborative strategies** to discuss, compare, and validate interpretations of the problem with a partner. This cooperation contributes to the collective construction of requirements and resolution of ambiguities, simulating professional co-authoring practices in software engineering.
 
-### Disposition Specification
+  * **Bloom’s Taxonomy Alignment:** Apply
 
-* **Meticuloso** — demonstra atenção à organização e clareza ao representar dados, requisitos e observações, cuidando para que nenhum aspecto essencial do problema seja negligenciado.
+  * **Knowledge-Skill Pairing:** Collaboration / Apply
 
-* **Colaborativo** — contribui ativamente nas discussões, respeitando e integrando as ideias do parceiro, buscando um entendimento comum sobre os requisitos e a forma de expressá-los.
+  * **Verb Annotation:** Use, Employ, Demonstrate
 
+* **Requirements Specification**
 
-#### Competências associadas - BNCC
+  * The learner must be able to **perform** requirements specification by expressing, in an organized and comprehensible way, the expected functionalities (e.g., input of moves, win detection, draw messages) and constraints (e.g., valid moves, turn limits) of the solution. The focus is to transform empirical observations of the game into structured descriptions that will serve as a guide for coding.
 
-**Competência geral 1 – Computação (Ensino Médio)**
+  * **Bloom’s Taxonomy Alignment:** Apply
 
-> “Compreender as possibilidades e os limites da Computação para resolver problemas (...), propondo e analisando soluções computacionais para diversos domínios do conhecimento” – C1 envolve exatamente analisar o problema (jogo da velha), levantar requisitos e pensar a solução computacional adequada.
+  * **Knowledge-Skill Pairing:** Requirements Specification / Apply
 
-**Competência geral 5 – Computação (Ensino Médio)**
-
-> “Desenvolver projetos para investigar desafios do mundo contemporâneo, construir soluções (...), preferencialmente de maneira colaborativa” – a definição de requisitos é a etapa inicial do projeto de software em dupla, articulando análise, discussão e documentação.
-
-**Competências específicas:**
-
-* **EM13CO01** – “Explorar e construir a solução de problemas por meio da reutilização de partes de soluções existentes” – ao analisar o jogo, os estudantes podem se apoiar em padrões de solução já conhecidos (ex.: exemplos de pseudocódigo para jogos de tabuleiro) e adaptá-los.
-* **EM13CO02** – “Explorar e construir a solução de problemas por meio de refinamentos, utilizando diversos níveis de abstração desde a especificação até a implementação” – C1 está no nível de especificação de requisitos, que depois será refinado em algoritmos e código.
+  * **Verb Annotation:** Execute, Perform
 
 
+### **Disposition Specification**
 
-### Summary Table for Competency CT25.2.1
+* **Meticulous** — demonstrates attention to organization and clarity when representing data, requirements, and observations, ensuring that no essential aspect of the problem is neglected.
 
-| **Code**  | **Competency** | **Dispositions** | **Knowledge** | **Skill** |
-|-----------|----------------|------------------|---------------|-----------|
-|           |                |                  | Pensamento Analítico (FPK) | **Apply (Use, Employ)** |
-| CT25.1.1  | **Definir os requisitos da solução analisando criticamente situações do mundo real.** | Collaborative, Responsible, Creative | Colaboração (FPK) | **Apply (Use, Employ, Demonstrate)**
-|          | | | Especificação de Requisitos | **Apply (Execute, Perform)** |
+* **Collaborative** — actively contributes to discussions, respecting and integrating the partner’s ideas, seeking a shared understanding of the requirements and how to express them.
+
+
+#### **BNCC-Aligned Competencies**
+
+**General Competency 1 – Computing (High School)**
+
+> “Understand the possibilities and limits of Computing to solve problems (...), proposing and analyzing computational solutions for various domains of knowledge.”
+> C1 directly involves analyzing the problem (Tic-Tac-Toe), identifying requirements, and reasoning about the appropriate computational solution.
+
+**General Competency 5 – Computing (High School)**
+
+> “Develop projects to investigate contemporary challenges, build solutions (...), preferably in a collaborative manner.”
+> Requirements definition is the initial stage of a software project in pairs, involving analysis, discussion, and documentation.
+
+**Specific Competencies:**
+
+* **EM13CO01** – “Explore and construct problem solutions through the reuse of parts of existing solutions.”
+  When analyzing the game, learners may rely on known solution patterns (e.g., pseudocode examples for board games) and adapt them.
+
+* **EM13CO02** – “Explore and construct problem solutions through refinements, using multiple levels of abstraction from specification to implementation.”
+  C1 operates at the requirements-specification level, which will later be refined into algorithms and code.
+
+
+
+### **Summary Table for Competency CT25.2.1**
+
+| **Code** | **Competency**                                                                  | **Dispositions**                     | **Knowledge**              | **Skill**                            |
+| -------- | ------------------------------------------------------------------------------- | ------------------------------------ | -------------------------- | ------------------------------------ |
+|          |                                                                                 |                                      | Analytical Thinking (FPK)  | **Apply (Use, Employ)**              |
+| CT25.2.1 | **Define solution requirements by critically analyzing real-world situations.** | Collaborative, Responsible, Creative | Collaboration (FPK)        | **Apply (Use, Employ, Demonstrate)** |
+|          |                                                                                 |                                      | Requirements Specification | **Apply (Execute, Perform)**         |
+
 
 
 

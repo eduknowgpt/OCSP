@@ -143,18 +143,16 @@ By the end of the task, the learner should be able to:
 
 
 
+### 4. Competency Definition
 
+### General Competency (BNCC – Computing in Basic Education)
 
-## 4. Competency Definition
+* **Understand the possibilities and limits of Computing to solve problems**, proposing and analyzing computational solutions across different domains.
+* **Build knowledge using computational techniques and technologies**, producing artifacts creatively and with respect for ethical and legal considerations.
+* **Express and share information and computational solutions** in a creative, critical, and meaningful manner.
 
+These general competencies are mobilized in the cryptarithm activity by addressing symbolic problems, information encoding, and basic cryptography concepts.
 
-## Competência Geral (BNCC – Computação na Educação Básica)
-
-* **Compreender as possibilidades e os limites da Computação para resolver problemas**, propondo e analisando soluções computacionais em diferentes domínios. 
-* **Construir conhecimento usando técnicas e tecnologias computacionais**, produzindo artefatos de forma criativa, com respeito a questões éticas e legais. 
-* **Expressar e partilhar informações e soluções computacionais** de forma criativa, crítica e significativa. 
-
-Essas competências gerais são mobilizadas na atividade de criptoaritmética ao tratar problemas simbólicos, codificação de informação e conceitos básicos de criptografia.
 
 
 ### CT25.3.1 – Solve Cryptarithmic Challenges by Applying Logical Reasoning and Problem Decomposition
@@ -497,7 +495,7 @@ This articulates the foundations of designing systematic, rule-based procedures 
 
 
 
-## **Summary Table for Competency CT25.3.4**
+### Summary Table for Competency CT25.3.4
 
 | **Code** | **Competency**                                                                                                      | **Dispositions**                             | **Knowledge**          | **Skill**                                                      |
 | -------- | ------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- | ---------------------- | -------------------------------------------------------------- |
