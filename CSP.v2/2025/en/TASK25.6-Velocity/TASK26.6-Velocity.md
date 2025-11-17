@@ -1,5 +1,7 @@
 ### Tarefa: Programa para Explorar a Fórmula da Velocidade Média
 
+	Tarefa adaptada da proposta do Prof. Margeylson Graça, do IFBA, Campus Valença
+
 #### 1. Contexto Pedagógico
 
 Você atua como professor(a) de Computação em uma escola de Ensino Médio.
