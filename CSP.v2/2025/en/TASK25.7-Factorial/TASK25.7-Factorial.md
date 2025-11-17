@@ -6,7 +6,7 @@ Cálculo de Fatoriais com Funções e Estruturas de Repetição
 
 ## **Descrição da Situação-Problema**
 
-Em um sistema de apoio ao laboratório de matemática da escola, é necessário desenvolver um módulo que calcule o **fatorial de uma série de valores** informados pelo usuário. O laboratório costuma testar algoritmos com diferentes conjuntos de dados, então o sistema deve permitir que o usuário informe **quantos valores serão avaliados** e, em seguida, solicitar cada valor individualmente.
+Na disciplina de **Introdução a Programação** os alunos foram desafiados a desenvolver um módulo que calcule o **fatorial de uma série de valores** informados pelo usuário. 
 
 Para garantir a clareza e modularidade do código, o cálculo do fatorial **deve obrigatoriamente ser implementado como uma função** separada, que receba o número como parâmetro e retorne o resultado.
 
