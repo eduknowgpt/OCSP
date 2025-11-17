@@ -1,10 +1,6 @@
-# ✅ **Tarefa Aprimorada (versão pronta para CSP)**
+TASK25.7 : Cálculo de Fatoriais com Funções e Estruturas de Repetição
 
-## **Título da Tarefa**
-
-Cálculo de Fatoriais com Funções e Estruturas de Repetição
-
-## **Descrição da Situação-Problema**
+## 1. Problema
 
 Na disciplina de **Introdução a Programação** os alunos foram desafiados a desenvolver um módulo que calcule o **fatorial de uma série de valores** informados pelo usuário. 
 
@@ -17,6 +13,7 @@ O programa deve:
 3. Para cada valor, calcular e exibir o **fatorial** correspondente utilizando a função implementada.
 
 O sistema deve validar entradas negativas, exibindo mensagem de erro e solicitando nova entrada quando necessário.
+
 
 ## **Requisitos Funcionais da Tarefa**
 
@@ -35,9 +32,9 @@ O sistema deve validar entradas negativas, exibindo mensagem de erro e solicitan
 
 Isso permite **progressão cognitiva** e **reuso de competências**, atendendo ao CSP.
 
----
 
-# 🎯 **Conhecimentos relacionados (OntoKSD — Knowledge)**
+
+# Conhecimentos relacionados
 
 ## **Fundamentos de Programação**
 
@@ -60,9 +57,9 @@ Isso permite **progressão cognitiva** e **reuso de competências**, atendendo a
 * Tratamento de erros e entradas inválidas.
 * Organização lógica de programas.
 
----
 
-# 🎯 **Objetivos de Aprendizagem (LOs)**
+
+# **Objetivos de Aprendizagem (LOs)**
 
 A seguir, alinhados à BNCC Computação e à Taxonomia de Bloom (níveis de *Aplicar*, *Analisar*, *Criar*):
 
@@ -81,9 +78,9 @@ A seguir, alinhados à BNCC Computação e à Taxonomia de Bloom (níveis de *Ap
 * **Criar** uma função que calcule o fatorial de um número utilizando raciocínio lógico estruturado.
 * **Construir** um programa modular que coordena entrada de dados, processamento e saída.
 
----
 
-# 🧠 **Operações Cognitivas (Bloom – verbos da Computação)**
+
+# **Operações Cognitivas (Bloom – verbos da Computação)**
 
 * **Identificar** (valores inválidos, fluxo de repetição).
 * **Implementar** (função de fatorial).
@@ -92,31 +89,6 @@ A seguir, alinhados à BNCC Computação e à Taxonomia de Bloom (níveis de *Ap
 * **Testar** (valores variados).
 * **Depurar** (erros de entrada e cálculo).
 
----
 
-# 📦 **Competências Potenciais (modelo KSD — prévias para CSP)**
-
-### **Exemplo de Competência Derivada (rascunho)**
-
-> **Implementar algoritmos modulares que realizam cálculos matemáticos recorrentes**, utilizando funções, estruturas de repetição e validação de dados para resolver problemas sistemáticos de forma clara e eficiente.
-
-### **Conhecimento (K)**
-
-* Estruturas de repetição.
-* Funções e modularização.
-* Operações matemáticas básicas.
-* I/O e validação.
-
-### **Habilidade (S)**
-
-* Implementar e testar funções computacionais.
-* Organizar lógica algorítmica de forma modular.
-* Controlar fluxo e validação de entradas.
-
-### **Disposições (D)**
-
-* Rigor no teste de entradas incorretas.
-* Clareza na organização do código.
-* Persistência para depurar e validar.
 
 
