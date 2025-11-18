@@ -1,38 +1,3 @@
-# Inferências Realizadas (preenchimento automático de lacunas)
-
-Para produzir uma descrição didática completa, equivalente em profundidade ao arquivo *TASK25.7-Factorial.md*, algumas lacunas presentes no enunciado original foram preenchidas por inferência pedagógica:
-
-1. **Suposição de faixa de domínio dos valores**  
-   Admitiu-se que o número de lados deve ser um inteiro positivo ≥ 3, pois polígonos regulares não existem abaixo desse limite.
-
-2. **Cálculo da área de triângulo e quadrado**  
-   O enunciado não detalhava as fórmulas de área. Inferiu-se que:
-   - Para **triângulo equilátero**: \( A = \frac{l^2\sqrt{3}}{4} \)  
-   - Para **quadrado**: \( A = l^2 \)
-
-3. **Tratamento padronizado para o pentágono**  
-   A atividade solicita apenas “escrever PENTÁGONO”, sem área. Foi inferido que:
-   - A tarefa pretende trabalhar *classificação condicional*, não cálculos geométricos avançados.
-   - Portanto, o programa apenas identifica o pentágono, sem calcular área.
-
-4. **Uso de condicionais estruturadas**  
-   O enunciado não explicita a estrutura de controle. Inferiu-se que o propósito pedagógico envolve prática com estruturas condicionais (if/elif/else).
-
-5. **Validação de entradas inválidas**  
-   Embora não mencionada, foi inferida a necessidade de rejeitar valores abaixo de 3, como ocorre em atividades padrão do 1º semestre.
-
-6. **Unidade de medida**  
-   A área deve ser expressa em cm², inferência direta da unidade fornecida no lado.
-
-7. **Nível cognitivo dos estudantes**  
-   Assumi que se trata de alunos iniciantes, portanto a tarefa deve trabalhar:
-   - Leitura de dados,
-   - Seleção (condicional),
-   - Aplicação de fórmulas básicas,
-   - Impressão formatada.
-
----
-
 # Título da Tarefa
 
 Classificação e Cálculo de Áreas de Polígonos Regulares a partir do Número de Lados e Medida do Lado
