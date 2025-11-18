@@ -1,12 +1,10 @@
-# Título da Tarefa
+# TASK25.8: Classificação e Cálculo de Áreas de Polígonos Regulares a partir do Número de Lados e Medida do Lado
 
-Classificação e Cálculo de Áreas de Polígonos Regulares a partir do Número de Lados e Medida do Lado
 
----
 
-# Descrição da Situação-Problema
+## 1. Problema
 
-Na disciplina **Introdução à Programação**, estudantes iniciantes são apresentados a problemas que combinam raciocínio geométrico elementar com implementação de estruturas condicionais. Para fortalecer a habilidade de interpretar entradas e produzir diferentes comportamentos conforme o tipo de dado recebido, os alunos devem implementar um programa que **classifica um polígono regular** a partir do número de lados informado e, quando aplicável, calcula sua área utilizando a medida do lado fornecida.
+Na disciplina **Introdução à Programação**, os estudantes são apresentados a problemas que combinam raciocínio geométrico elementar com implementação de estruturas condicionais. Para fortalecer a habilidade de interpretar entradas e produzir diferentes comportamentos conforme o tipo de dado recebido, os alunos devem implementar um programa que **classifica um polígono regular** a partir do número de lados informado e, quando aplicável, calcula sua área utilizando a medida do lado fornecida.
 
 O programa deve:
 
