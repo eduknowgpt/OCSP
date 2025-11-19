@@ -9,13 +9,7 @@ O(a) professor(a) de Física da escola convidou você para desenvolver uma ativi
 
 A ideia é criar um **programa interativo** que auxilie os alunos a explorar a relação entre **distância (Δs)**, **tempo (Δt)** e **velocidade média (Vₘ)**.
 
-A fórmula de referência é: [ Vₘ = Δs / Δt ]
-
-em que:
-
-* **Vₘ** = velocidade média de um veículo em um percurso;
-* **Δs** = deslocamento (distância total percorrida);
-* **Δt** = intervalo de tempo gasto para percorrer essa distância.
+A fórmula de referência deve ser investigada pelos alunos, assim como o cálculo de uma das variáveis pode ser feita sabendo-se as outras duas. Como isso é possível matematicamente?
 
 ---
 
@@ -35,11 +29,6 @@ Você aceitou a parceria com a seguinte condição:
 
 > *O programa deve permitir que o aluno informe apenas dois dos três valores (velocidade média, distância ou tempo), e o sistema deve calcular de forma correta o valor que ficou em branco.*
 
-Exemplo:
-
-* Se o aluno informar a **velocidade média** e o **tempo**, o programa deve calcular a **distância**.
-* Se o aluno informar a **distância** e o **tempo**, o programa deve calcular a **velocidade média**.
-* Se o aluno informar a **distância** e a **velocidade média**, o programa deve calcular o **tempo**.
 
 ---
 
@@ -54,7 +43,7 @@ Antes de implementar o programa, o(a) estudante deve:
 
    * Δs em função de Vₘ e Δt;
    * Δt em função de Δs e Vₘ;
-   * Vₘ em função de Δs e Δt (forma original).
+   * Vₘ em função de Δs e Δt.
 
 Esses rearranjos devem ser documentados (por escrito ou em comentários no código).
 
@@ -121,7 +110,7 @@ O programa deve permitir que o aluno realize **vários experimentos** sem precis
 
 #### 5. Entregáveis Esperados
 
-Para fins de avaliação (incluindo o CSP), o(a) estudante deve entregar:
+Para fins de avaliação, o(a) estudante deve entregar:
 
 1. **Código-fonte do programa**, com comentários explicando:
 
