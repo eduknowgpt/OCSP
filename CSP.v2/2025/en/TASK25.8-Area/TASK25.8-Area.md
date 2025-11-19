@@ -1,6 +1,6 @@
 # **TASK25.8: Classificação e Cálculo de Áreas de Polígonos Regulares**
 
-## **1. Problema **
+## **1. Problema**
 
 Os aprendizes devem desenvolver um **programa** que, a partir de duas entradas do usuário:
    1. O **número de lados** de um polígono regular;
