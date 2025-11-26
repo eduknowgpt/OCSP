@@ -1,4 +1,5 @@
 # TASK – Sistema de Notificação de Poluição Industrial
+> Criador: Prof. MS. Marcos Bião, Univasf – Campus Salgueiro
 
 ## 1. Problema
 

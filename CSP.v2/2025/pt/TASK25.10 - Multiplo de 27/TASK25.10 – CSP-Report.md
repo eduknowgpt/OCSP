@@ -64,7 +64,7 @@ A competência consiste em utilizar corretamente o operador módulo (%) na lingu
 - Competência Geral de Computação 3  
 
 ## Tabela Resumo
-| Code        | Competency                                           | Dispositions                 | Conhecimento                        | Habilidade                          |
+| Código        | Competência                                           | Disposição                 | Conhecimento                        | Habilidade                          |
 |-------------|-------------------------------------------------------|-------------------------------|----------------------------------|--------------------------------|
 | 25.10.1 | Aplicar operadores aritméticos para verificar múltiplos | Precisão, Rigor lógico, Clareza | Operador Módulo e Propriedades | Aplicar (Calcular, Aplicar)   |
 | . |  |  | Aritmética Inteira             | Compreender (Interpretar, Explicar) |
@@ -100,7 +100,7 @@ A competência refere-se à habilidade de construir decisões computacionais usa
 - Competência Geral de Computação 4  
 
 ## Tabela Resumo
-| Code         | Competency                                             | Dispositions                       | Conhecimento               | Habilidade                                    |
+| Código         | Competência                                             | Disposição                       | Conhecimento               | Habilidade                                    |
 |--------------|---------------------------------------------------------|-------------------------------------|-------------------------|-------------------------------------------|
 | 25.10.2 | Implementar estruturas condicionais para tomada de decisão | Pensamento estruturado, Consistência, Responsabilidade | Estruturas Condicionais | Aplicar (Decidir, Implementar)            |
 | . |  |  | Expressões Booleanas   | Analisar (Avaliar, Determinar)            |
@@ -136,7 +136,7 @@ Esta competência refere-se à capacidade de analisar entradas fornecidas pelo u
 - Competência Geral de Computação 5  
 
 ## Tabela Resumo
-| Code           | Competency                                   | Dispositions                           | Knowledge            | Skill                                |
+| Código           | Competência                                   | Disposição                           | Conhecimento            | Habilidade                                |
 |----------------|-----------------------------------------------|-----------------------------------------|-----------------------|----------------------------------------|
 | 25.10.3 | Validar entradas numéricas conforme requisitos | Responsabilidade, Atenção, Perseverança | Validação de Entrada | Avaliar (Verificar, Detectar)         |
 | . |  |  | Controle de Fluxo    | Aplicar (Executar, Selecionar)        |
@@ -172,7 +172,7 @@ A competência consiste em projetar e implementar algoritmos lineares simples, a
 - Competência Geral de Computação 2  
 
 ## Tabela Resumo
-| Code            | Competency                                          | Dispositions                         | Knowledge                       | Skill                                 |
+| Código            | Competência                                          | Disposição                         | Conhecimento                       | Habilidade                                 |
 |------------------|------------------------------------------------------|---------------------------------------|----------------------------------|-----------------------------------------|
 | 25.10.4  | Construir algoritmos sequenciais simples             | Organização, Clareza, Autonomia       | Estrutura Sequencial            | Compreender (Descrever, Explicar)       |
 | .   |              |        | Modelagem Algorítmica           | Criar (Elaborar, Planejar, Estruturar)  |
