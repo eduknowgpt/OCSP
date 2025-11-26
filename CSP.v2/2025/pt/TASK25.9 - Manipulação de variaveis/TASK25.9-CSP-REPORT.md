@@ -2,11 +2,9 @@
 # TASK25.9 – Manipulação de Variáveis  
 ## Relatório CSP – Competency Specification Protocol
 
----
 
 ## Introdução
 Este relatório apresenta a aplicação do Competency Specification Protocol (CSP) à tarefa **TASK25.9 – Manipulação de Variáveis**, desenvolvida no contexto da formação inicial em programação do curso Técnico Integrado em Informática. A tarefa envolve a análise e o rastreio da execução de um código em linguagem C, exigindo do estudante a compreensão de manipulação de variáveis, atribuições sucessivas e operações aritméticas.  
-Assim como nos relatórios **TASK25.2** e **TASK25.4**, este documento segue a mesma estrutura formal, descrevendo os elementos instrucionais, os conhecimentos mobilizados, os objetivos de aprendizagem e a especificação das competências de computação.
 
 ---
 
@@ -38,15 +36,16 @@ A atividade exige domínio de rastreio de execução, análise de dependências 
 A tarefa pertence à unidade curricular de Lógica de Programação, focada em princípios fundamentais da programação imperativa. O objetivo é consolidar habilidades de rastreio, acompanhamento de estados e compreensão de expressões aritméticas.
 
 ### Perfil do Público-Alvo  
-- Estudantes do 1º ano do curso Técnico Integrado em Informática.  
+- Estudantes do 1º semestre de curso superior na área de computação.  
 - Conhecimentos prévios: variáveis, entrada/saída, atribuição simples.  
 - Necessidades: exercícios guiados, demonstração de execução sequencial e feedback imediato.
 
 ### Escala de Proficiência  
-- Rastreamento correto (0–4 pontos)  
-- Precisão nos cálculos (0–3 pontos)  
-- Clareza de justificativas (0–2 pontos)  
-- Organização e rigor (0–1 ponto)
+Avaliação de 0,0 a 10,0 considerando:
+- Rastreamento correto   
+- Precisão nos cálculos   
+- Clareza de justificativas 
+- Organização e rigor
 
 ---
 

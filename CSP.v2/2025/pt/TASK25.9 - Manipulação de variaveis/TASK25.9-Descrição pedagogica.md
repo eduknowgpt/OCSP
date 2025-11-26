@@ -65,7 +65,7 @@ A tarefa integra o processo formativo de estudantes iniciantes na programação,
 
 Ela pode ser aplicada como atividade individual em sala, exercício avaliativo ou tarefa para casa.
 
-##4. Perfil do Público-Alvo
+## 4. Perfil do Público-Alvo
 
 - Nível educacional: Alunos de 1º semestre do nível superior de cursos de computação.
 
@@ -79,7 +79,7 @@ Ela pode ser aplicada como atividade individual em sala, exercício avaliativo o
 
 ## 5. Escala de Proficiência
 
-- Avaliação de 0,0 a 10,0 considerando:
+Avaliação de 0,0 a 10,0 considerando:
 
 - Precisão dos valores finais.
 
