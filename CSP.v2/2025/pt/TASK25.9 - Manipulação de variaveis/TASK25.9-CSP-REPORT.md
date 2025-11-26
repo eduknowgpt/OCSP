@@ -111,7 +111,7 @@ Esta competência envolve acompanhar, documentar e interpretar a execução line
 
 ### Tabela Resumo
 
-Code | Competency | Dispositions | Knowledge | Skill  
+Code | Competency | Dispositions | Conhecimento | Habilidade  
 ---|---|---|---|---  
 25.9.1 | Rastrear a execução sequencial de algoritmos imperativos | Atencioso, Persistente, Organizado | Execução Sequencial | Analisar (Rastrear, Identificar, Registrar)  
 . |  |  | Modelo de Memória e Estado de Variáveis | Compreender (Descrever, Explicar)  
@@ -148,7 +148,7 @@ Trata-se de compreender como valores fluem entre variáveis por meio de atribui�
 
 ### Tabela Resumo
 
-Code | Competency | Dispositions | Knowledge | Skill  
+Code | Competency | Dispositions | Conhecimento | Habilidade  
 ---|---|---|---|---  
 25.9.2 | Interpretar atribuições e dependências entre variáveis | Rigoroso, Reflexivo, Responsável | Atribuição e Encadeamento de Valores | Aplicar (Aplicar, Utilizar, Atualizar)  
 . |  |  | Dependências e Propagação de Variáveis | Analisar (Comparar, Inferir, Relacionar)  
@@ -185,7 +185,7 @@ Esta competência refere-se à habilidade de verificar se o estado final obtido 
 
 ### Tabela Resumo
 
-Code | Competency | Dispositions | Knowledge | Skill  
+Code | Competency | Dispositions | Conhecimento | Habilidade  
 ---|---|---|---|---  
 25.9.3 | Validar estados finais de execução | Crítico, Preciso, Responsável | Operadores Aritméticos e Precedência | Aplicar (Calcular, Operar, Resolver)  
 .|  |  | Validação Lógica de Resultados | Avaliar (Verificar, Justificar, Confirmar)  
