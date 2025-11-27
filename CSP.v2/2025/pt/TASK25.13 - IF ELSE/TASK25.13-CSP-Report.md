@@ -106,7 +106,7 @@ Envolve a habilidade de fundamentar tecnicamente a seleção de um tipo de estru
 Código | Competência | Disposição | Conhecimento | Habilidade  
 ------ | ----------- |----------- |--------------|------------  
 25.13.2 | Justificar a escolha de estruturas condicionais | Crítico, Comunicativo, Ético | Comparação entre IF…ELSE e IF…IF | Avaliar (Comparar, Discriminar, Justificar)  
- |  |  | Eficiência Algorítmica | Avaliar (Justificar, Analisar, Argumentar)  
+. |  |  | Eficiência Algorítmica | Avaliar (Justificar, Analisar, Argumentar)  
 
 ---
 
