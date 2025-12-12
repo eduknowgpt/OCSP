@@ -3,7 +3,10 @@
 
 ## Introduction
 
-Building on the foundational CSP methodology, this report presents the application of the **Competency Authoring phase** in **Task25.1 – Coleção de Músicas**, a Problem-Based Learning (PBL) scenario that explores the use of **finite automata and regular expressions** e produzir um relatório com respostas claras, coerentes e rigorosas, com definições formais, exemplos mínimos, demonstrações (incluindo indução e fechos), e contraexemplos quando apropriado.
+Este relatório aplica a metodologia do **Competency Specification Process (CSP)** à **Task25.00 – Coleção de Músicas**, uma atividade da disciplina **MATC94 – Introdução às Linguagens Formais e Teoria da Computação**. A tarefa propõe a modelagem do domínio musical por meio de **linguagens formais**, tratando **notas como símbolos**, **músicas como cadeias** e **coleções de músicas como linguagens**, permitindo o uso rigoroso de operações clássicas como concatenação, fecho, reversão, união, interseção e complemento.
+
+O problema exige respostas **formalmente justificadas**, mobilizando definições precisas, propriedades de fecho, exemplos mínimos e contraexemplos, quando apropriado. No contexto do CSP, a atividade favorece a especificação de competências relacionadas à **abstração de domínios reais**, **análise estrutural de linguagens** e **argumentação matemática rigorosa**, integrando conhecimento teórico, habilidades formais e postura analítica própria da Teoria da Computação.
+
 
 
 ## 1. Instructional Entity Analysis
@@ -13,56 +16,78 @@ Building on the foundational CSP methodology, this report presents the applicati
 - Coleção de Músicas
 
 ### Description
-- Os aprendizes devem analisar partituras e representá-as como sequencias de símbolos e fazer operações sobre estas.
+- Os aprendizes devem **modelar partituras musicais como objetos formais**, representando notas como símbolos, músicas como cadeias (strings) e coleções de músicas como linguagens, a fim de analisar propriedades estruturais e **aplicar operações clássicas sobre linguagens formais**. 
+
+- A tarefa enfatiza a produção de **respostas matematicamente justificadas**, evitando interpretações intuitivas não formalizadas.
+
 
 
 ### Solution Development Process
 
-Describe the expected learner approach:
+**Abordagem esperada do aprendiz:**
 
-- Analyze problem constraints:
-    - As partituras podem ter 1 ou vários instrumentos.
-    - Cada música pode ter um número arbitrário de símbolos.
-    - Cada música tem um gênero.
+- **Analisar as restrições do problema**, considerando que:
+  - partituras podem envolver **um ou múltiplos instrumentos**, resultando em símbolos simples ou compostos;
+  - cada música corresponde a uma **cadeia finita de comprimento arbitrário**;
+  - músicas podem pertencer a **gêneros definidos extensionais** (conjuntos finitos) ou **intensionais** (por propriedades formais, como padrão rítmico).
 
-- Modelar as partituras como autômatos finitos (states, transitions, actions).
+- **Definir formalmente o modelo**, identificando:
+  - o **alfabeto** de símbolos musicais;
+  - a noção de **música** como string sobre esse alfabeto;
+  - coleções de músicas como **linguagens** (subconjuntos de Σ\*).
 
-- Precisa identificar o gênero de cada música.
+- **Aplicar operações formais sobre linguagens**, tais como:
+  - concatenação, prefixo, sufixo e subcadeias;
+  - reversão;
+  - união, interseção, complemento;
+  - fecho de Kleene e linguagem vazia.
 
-- Document and report design choices and formal representation com rigor matemático.
+- **Analisar propriedades estruturais e de fecho**, utilizando:
+  - definições formais;
+  - exemplos mínimos;
+  - demonstrações (incluindo raciocínio indutivo, quando pertinente);
+  - contraexemplos para refutar afirmações incorretas.
+
+- **Explorar equivalências e codificações**, discutindo:
+  - homomorfismos entre diferentes representações (partitura ↔ gravação);
+  - limites formais da intercambialidade entre codificações simbólicas.
+
+- **Documentar rigorosamente** todas as escolhas de modelagem e conclusões, empregando notação matemática precisa e linguagem técnica adequada.
+
 
 
 
 
 ### Expected Outcomes
-Learners should produce:
+Os aprendizes devem produzir:
 
-- Definições de Regular Expressions
-- Interpretação e aplicação de algebraic notation for strings
-- Differentiate classifications of formal grammars
-- Identify Patterns in Finite State Machines
-- Aplicar Operações com Linguagens Formais
-- Modelelar real-world problems using formal language concepts
-- Reconhecer e aplicar Homomorfismos / Codificações
-- Simulation results demonstrating a correta determinação de gêneros e operações sobre strings.
-- Elaborar um relatório técnico com explicações claras, coerentes e matematicamente rigorosas, com definições formais, exemplos mínimos, demonstrações (incluindo indução e fechos), e contraexemplos quando apropriado.
+- Definições formais de **alfabeto, string, linguagem, linguagem vazia e fecho**;
+- Interpretação e aplicação correta de **operações algébricas sobre cadeias e linguagens**;
+- Análise da **finitude ou infinitude** de linguagens definidas no problema;
+- Identificação de padrões estruturais e **argumentação sobre propriedades de linguagens**;
+- Uso consistente de **homomorfismos e codificações** entre representações simbólicas;
+- Modelagem de um problema do mundo real por meio de **conceitos de linguagens formais**;
+- Elaboração de um **relatório técnico** com explicações claras, coerentes e matematicamente rigorosas, contendo:
+  - definições formais;
+  - exemplos mínimos;
+  - demonstrações (incluindo indução e propriedades de fecho);
+  - contraexemplos, quando apropriado.
 
 
 ### Acquisition Context
 
 - Disciplina teórica de Teoria da Computação
 
-- Tarefas avaliativas
+- Tarefa avaliativa com foco em **argumentação formal e modelagem abstrata**
 
 
 
 ### Target Audience Profile
 
-- Academic Level: 2nd–3rd year undergraduate CS students.
+- **Nível acadêmico:** 2º–3º ano da graduação em Computação  
+- **Experiência prévia:** fundamentos de estruturas de dados e introdução a autômatos  
+- **Papéis esperados:** modelar linguagens formais; analisar propriedades; justificar formalmente decisões conceituais
 
-- Domain Experience: Solid grounding in data structures, and basic automata.
-
-- Roles: Design FSMs; document technical decisions.
 
 
 ### Proficiency Scale
@@ -73,111 +98,139 @@ Learners should produce:
 
 ## 2. Knowledge Enumeration
 
-To systematically enumerate the computing knowledge required for this task, the **ACM CS2023** was used as a controlled vocabulary. This Body of Knowledge is widely adopted by ACM CS2023 report, ensuring standardization and consistency in the categorization of computing knowledge.  
+Para a enumeração sistemática dos conhecimentos de Computação requeridos nesta tarefa, foi adotado o **ACM CS2023** como **vocabulário controlado**, por se tratar do Body of Knowledge mais recente e amplamente aceito pela ACM, garantindo **padronização, rastreabilidade e consistência semântica** na categorização do conhecimento computacional.
 
-For **professional knowledge (FPK)**, we referenced the **ACM Computing Curriculum 2020 (CC2020)**, which provides a structured framework for essential professional competencies.  
+Para o **Conhecimento Profissional Fundamental (FPK)**, utilizou-se como referência o **ACM Computing Curricula 2020 (CC2020)**, que oferece um arcabouço consolidado para competências profissionais transversais, tais como comunicação técnica, pensamento analítico e rigor conceitual.
 
-Based on the **task description**, the following set of required knowledge components was identified:  
-
-
-cs2023:Topic/FPL-Syntax_6 a cs2023:Topic,  
-    skos:definition "Language theory"
-
-cs2023:Topic/AL-Models_2_a_i a cs2023:Topic,      skos:definition "Regular Expressions"
-
-cs2023:Topic/FPL-Syntax_1 a cs2023:Topic,  
-    skos:definition "Regular grammars vs context-free grammars (See also: AL-Models)" ;
-
-cs2023:Topic/FPL-Constructs_8 a cs2023:Topic,  
-    skos:definition "String manipulation via pattern-matching (regular expressions)" ;
-    skos:broader cs2023:KU/FPL-Constructs ;
-
-cs2023:Topic/AL-Foundational_16_c a cs2023:Topic,  
-    skos:definition "Regular expression matching" ;
-
-cs2023:Topic/AL-Models_7 a cs2023:Topic,  
-    skos:definition "Deterministic and nondeterministic automata" ;
-
-cs2023:Topic/SF-Foundations_5 a cs2023:Topic,  ontoksd:Knowledge ;
-    skos:definition "Finite state machines (e.g., NFA, DFA) (See also: AL-Models)" ;
+Com base na **descrição da tarefa “Coleção de Músicas”**, que exige modelagem formal, argumentação matemática e aplicação de operações sobre linguagens, foram identificados os seguintes **componentes de conhecimento essenciais**.
+ 
 
 
 
 ### **Computing Knowledge**  
-- Finite State Machines 
-- Deterministic Finite Automata (DFAs)
-- Linguagens Formais
-- Homomorfismos 
-- **Regular Languages (Regular Expressions)**  
-  - Requires understanding and applying **formal techniques** to represent and manipulate string sets.  
-  - Used primarily in **text processing, lexical analysis, and pattern matching** within the vending machine’s operational logic.  
+- **Linguagens Formais**
+  - Alfabetos, cadeias, linguagens e linguagem vazia.
+  - Linguagens finitas e infinitas.
 
-- **Requirements Analysis**  
-  - A systematic process for **collecting, analyzing, and specifying system requirements**.  
-  - Ensures that **user needs and system expectations** are clearly understood and documented.  
+- **Linguagens Regulares**
+  - Expressões regulares e suas propriedades.
+  - Relação entre expressões regulares, autômatos finitos e gramáticas regulares.
+
+- **Máquinas de Estados Finitos**
+  - DFA e NFA como reconhecedores de linguagens.
+  - Noções de equivalência e poder expressivo.
+
+- **Operações sobre Linguagens**
+  - Concatenação, união, interseção e complemento.
+  - Fecho de Kleene e propriedades de fechamento.
+  - Reversão de cadeias.
+
+- **Homomorfismos e Codificações**
+  - Transformações formais entre representações simbólicas.
+  - Discussão sobre equivalência e limites da intercambialidade entre codificações (ex.: partitura e gravação).
+
+- **Raciocínio Formal**
+  - Uso de definições matemáticas, exemplos mínimos, indução e contraexemplos para validação de afirmações.
+
 
 
 ### **Professional Knowledge (FPK)**  
-- **Analytical and Critical Thinking**  
-  - The ability to **break down complex problems into fundamental components**, evaluate results, and make well-reasoned decisions based on rigorous analysis.  
+Além do conhecimento técnico, a tarefa mobiliza competências profissionais fundamentais:
 
-- **Written Communication**  
-  - The ability to **compose clear and structured technical reports** detailing the design, implementation, and validation processes.  
-  - Ensures that findings and decisions are effectively communicated to stakeholders.  
+- **Pensamento Analítico e Crítico**
+  - Capacidade de abstrair um domínio real (música) para um modelo formal.
+  - Avaliação rigorosa da validade de afirmações e construções formais.
 
-This **knowledge enumeration** serves as the foundation for competency specification, ensuring that students acquire both **theoretical and practical expertise** necessary to complete the task successfully.
+- **Comunicação Escrita Técnica**
+  - Produção de textos claros, estruturados e semanticamente precisos.
+  - Uso adequado de notação matemática e terminologia da Teoria da Computação.
+
+- **Rigor Epistêmico**
+  - Compromisso com justificativas formais, evitando respostas meramente intuitivas.
+  - Clareza na distinção entre exemplos, definições, propriedades gerais e exceções.
+
+
 
 
 
 ## 3. Learning Objectives Identification
 
-The **general objective** of this task is to develop **finite automata and regular expressions** to solve **real-world problems** by modeling músicas como strings.
-
-### **Specific Learning Objectives**
-
-- Definições de Regular Expressions
-- Interpretação e aplicação de algebraic notation for strings
-- Differentiate classifications of formal grammars
-- Identify Patterns in Finite State Machines
-- Aplicar Operações com Linguagens Formais
-
-- Reconhecer e aplicar Homomorfismos / Codificações
-- Simulation results demonstrating a correta determinação de gêneros e operações sobre strings.
-- Elaborar um relatório técnico com explicações claras, coerentes e matematicamente rigorosas, com definições formais, exemplos mínimos, demonstrações (incluindo indução e fechos), e contraexemplos quando apropriado.
+Com base no enunciado da tarefa **Coleção de Músicas**, os objetivos de aprendizagem foram definidos para refletir com precisão as **exigências conceituais**, o **nível de rigor matemático** e o **tipo de competência esperada** na disciplina **MATC94 – Introdução às Linguagens Formais e Teoria da Computação**.
 
 
 
-1. **Identify system functionalities**  
-   - Analyze the user’s conceptual model de músicas em múltiplos gêneros.
+### 3.1 General Learning Objective
 
-2. Modelelar real-world problems using formal language concepts
-
-2. **Align user requirements with automaton functionalities**  
-   - Reconcile the desired functionalities do músico with the constraints and capabilities of the automaton being developed.
-
-5. **Understand the equivalence between Finite Automata (FA) and Regular Expressions (RE)**  
-   - Establish connections between **finite automata representations** and **regular expressions**, reinforcing their theoretical and practical interchangeability.
-
-6. **Apply FA-to-RE equivalence in the development of regular expressions**  
-   - Utilize existing finite automata to derive **corresponding regular expressions**, applying formal methods to convert automata into equivalent regex patterns.
-
-7. **Associate músicas with alphabet symbols**  
-   - Map real-world elements  onto the **formal alphabet** used in automaton design.
-
-8. **Develop technical reports**  
-   - Document the **design, implementation, and validation** of the automaton, ensuring clarity and precision in technical writing.
+O **objetivo geral** desta tarefa é capacitar o estudante a **modelar um domínio do mundo real (músicas e coleções musicais) como linguagens formais**, utilizando **conceitos fundamentais de linguagens, autômatos e expressões regulares**, e a **responder questões conceituais com rigor matemático**, por meio de definições formais, propriedades estruturais e argumentação lógica.
 
 
 
-### **Importance of These Objectives**
-These learning objectives provide a **structured pathway** for competency development, ensuring that students acquire:
-- **A strong theoretical foundation** in automata and formal languages.
-- **The ability to bridge theory and practice**, applying formal methods to solve computational problems.
-- **Hands-on experience with simulation tools**, reinforcing practical problem-solving skills.
-- **Technical communication skills**, essential for conveying solutions in professional and academic contexts.
+### 3.2 Specific Learning Objectives 
+
+#### LO1 — Formal Abstraction of the Domain
+1.1 Definir formalmente um **alfabeto (Σ)** a partir do conjunto de símbolos musicais relevantes.  
+1.2 Modelar uma **música como uma cadeia (string) sobre Σ**.  
+1.3 Modelar uma **coleção de músicas como uma linguagem (L ⊆ Σ\*)**.  
+
+#### LO2 — Structural Analysis of Strings
+2.1 Identificar e definir formalmente **prefixos, sufixos e subcadeias** de uma música.  
+2.2 Determinar se um trecho de música pode ser formalmente considerado uma música válida.  
+2.3 Justificar a validade (ou não) de trechos posicionados no início, meio ou fim de uma música.
+
+#### LO3 — Operations over Languages
+3.1 Aplicar a **concatenação** de cadeias para modelar a composição de músicas.  
+3.2 Analisar se o resultado da concatenação pertence à mesma linguagem original.  
+3.3 Aplicar **união, interseção e diferença** para combinar coleções musicais.  
+3.4 Avaliar o **complemento** de uma linguagem em relação a um universo definido.  
+
+#### LO4 — Kleene Closure and Language Cardinality
+4.1 Aplicar o **fecho de Kleene (L\*)** a uma linguagem musical.  
+4.2 Interpretar o papel da **cadeia vazia (ε)** em coleções musicais.  
+4.3 Classificar linguagens como **finitas ou infinitas**, justificando formalmente.
+
+#### LO5 — Reversal and String Transformations
+5.1 Definir formalmente a **reversão de cadeias**.  
+5.2 Aplicar a operação de reversão a uma música e analisar sua validade formal.  
+5.3 Discutir implicações semânticas versus estruturais da reversão.
+
+#### LO6 — Regular Languages and Formal Expressiveness
+6.1 Reconhecer quando uma coleção de músicas pode ser descrita por uma **linguagem regular**.  
+6.2 Especificar linguagens musicais por meio de **expressões regulares**.  
+6.3 Diferenciar **gramáticas regulares** de **gramáticas livres de contexto**, indicando limites expressivos.  
+
+#### LO7 — Automata and Model Equivalence (Conceptual Level)
+7.1 Explicar a equivalência teórica entre **autômatos finitos, expressões regulares e gramáticas regulares**.  
+7.2 Relacionar padrões estruturais de músicas a **estados e transições conceituais** de um autômato.  
+
+#### LO8 — Homomorphisms and Codifications
+8.1 Definir formalmente **homomorfismos de cadeias**.  
+8.2 Analisar se duas representações (partitura e gravação) podem ser vistas como **codificações equivalentes**.  
+8.3 Justificar limites formais da intercambialidade entre representações simbólicas.
+
+#### LO9 — Formal Reasoning and Proof
+9.1 Utilizar **definições formais** para sustentar respostas conceituais.  
+9.2 Construir **exemplos mínimos** para ilustrar propriedades de linguagens.  
+9.3 Empregar **contraexemplos** para refutar afirmações incorretas.  
+9.4 Aplicar **raciocínio indutivo** quando apropriado (por exemplo, em propriedades de fecho).
+
+#### LO10 — Technical Communication
+10.1 Elaborar um **relatório técnico** com estrutura lógica e terminologia adequada.  
+10.2 Apresentar justificativas claras, coerentes e matematicamente rigorosas.  
+10.3 Distinguir explicitamente entre **intuição informal**, **exemplo** e **prova**.
 
 
-By achieving these objectives, students will be equipped with both the **computational and analytical skills** necessary for modeling real-world systems using **finite automata and regular expressions**.
+### 3.3 Importance of These Objectives
+
+Esses objetivos estabelecem um **caminho estruturado de desenvolvimento de competências**, assegurando que o estudante:
+
+- construa uma **base teórica sólida** em linguagens formais e teoria da computação;
+- desenvolva a capacidade de **abstrair domínios reais** para modelos matemáticos precisos;
+- compreenda **propriedades estruturais e limites formais** das linguagens;
+- exercite **pensamento analítico e rigor epistêmico**, fundamentais para a área;
+- adquira habilidades de **comunicação técnica**, essenciais em contextos acadêmicos e profissionais.
+
+Ao atingir esses objetivos, o estudante estará apto a **conectar teoria e prática**, utilizando conceitos de **Linguagens Formais e Autômatos** para analisar, justificar e resolver problemas conceituais complexos com clareza e rigor.
+
 
 
 
