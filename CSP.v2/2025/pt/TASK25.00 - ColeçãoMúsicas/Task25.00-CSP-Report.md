@@ -236,7 +236,149 @@ Ao atingir esses objetivos, o estudante estará apto a **conectar teoria e prát
 
 ## 4. Competency Definition
 
+Competências Reutilizadas do Conjunto de Referência
+
+### C02 – Justify the use of Deterministic Finite Automata (DFAs)
+- Relevância: Justificar propriedades de linguagens por meio de DFAs
+
+- LO3.2, LO3.4, LO4.3, LO7.1
+
+### C04 — Define Regular Expressions for Finite Automata
+
+- Relevância: Definição formal de conjuntos de músicas (ex.: músicas com “amor”, música vazia, repetição de músicas).
+
+- LO6.1, LO6.2, LO7.1
+
+
+### C11 — Identify Patterns in Finite State Machines
+
+- Relevância: Identificação de padrões como prefixos fixos (“20 primeiras notas”), repetições (Kleene) e substrings.
+
+- LO3.2, LO4.1, LO6.1, LO7.2
+
+
+### C14 — Differentiate classifications of formal grammars
+
+- Relevância: Diferenciação entre linguagens regulares e possíveis limites expressivos.
+
+- LO6.1, LO6.3
+
+
+### C13′ — Interpret and apply algebraic notation for strings and languages
+
+- Especialização de: C13 – Interpret rule-based notation
+
+- Descrição : Interpretar, aplicar e justificar o uso de notações algébricas formais de strings (ε, Σ, |x|, concatenação, potência, reverso, subcadeias) e de linguagens (∪, ∩, complemento, concatenação, Lⁿ, L*, prefixos/sufixos, homomorfismos).
+
+- Verbos observáveis: explain, apply, compute, derive, justify
+
+- Disposições: meticulous, responsible
+
+- LO1.1, LO1.2, LO1.3, LO2.1, LO2.2, LO3.1, LO3.3, LO4.2, LO5.1, LO6.2, LO8.1
+
+
+### C05′ — Write mathematically rigorous answers
+
+- Especialização de: C05 – Write a technical report
+
+- Descrição: Produzir respostas matematicamente rigorosas, com definições formais, exemplos mínimos, demonstrações, uso explícito de propriedades (ex.: fecho) e contraexemplos, quando apropriado.
+
+- Verbos observáveis: define, justify, prove, exemplify, refute
+
+- Disposições: meticulous, responsible
+
+- LO2.3, LO5.2, LO5.3, LO8.3, LO9.1, LO9.2, LO9.3, LO9.4, LO10.2, LO10.3
+
+
+### C17 — Apply operations on formal languages
+
+- Descrição: Aplicar e analisar operações formais sobre linguagens — concatenação, união, interseção, complemento, reversão e fecho de Kleene — avaliando seus efeitos estruturais e propriedades de fechamento.
+
+- Alinhamento CS2023: TC.FLR — Formal Languages and Recognizers
+
+- LO2.1, LO2.2, LO3.1, LO3.2, LO3.3, LO3.4, LO4.1, LO4.2, LO4.3, LO5.1, LO5.2, LO9.4
+
+
+### C18 — Model real-world problems using formal language concepts
+
+- Descrição: Abstrair elementos de um domínio concreto em símbolos, cadeias e linguagens, modelando problemas do mundo real por meio de conceitos formais da Teoria da Computação.
+
+- Justificativa: Esta é a competência integradora da tarefa — sem ela, os demais conhecimentos ficam fragmentados.
+
+- Observação OntoKSD: Esta competência é composta por natureza e frequentemente atua como competência de nível de tarefa.
+
+- LO1.1, LO1.2, LO1.3, LO5.3, LO8.2
+
+
+### C19 — Apply homomorphisms in formal languages
+
+- Descrição: Reconhecer, definir e aplicar homomorfismos e codificações formais para traduzir símbolos e cadeias entre diferentes representações, analisando limites de equivalência estrutural.
+
+- Justificativa: A questão partitura ↔ MP3 não é decorativa: ela mobiliza um conceito clássico pouco explorado em tarefas introdutórias.
+
+- LO8.1, LO8.2, LO8.3
+
+
+## CT25.00 — Formal Modeling and Analysis of Musical Collections as Languages
+
+Composição: C18 + C17 + C13′ + C04 + C05′
+
+Descrição: Modelar coleções musicais como linguagens formais, aplicar operações algébricas, especificar conjuntos por expressões regulares e justificar propriedades estruturais por meio de argumentação matemática rigorosa.
+
+Esta competência é: avaliável, reutilizável, publicável e perfeitamente alinhada à OntoKSD e CS2023 (TC.FLR).
+
+
+
 Competencies are specified based on the **Learning Objectives (LOs)** identified in the task analysis.
+
+
+| LO         | Descrição sintética do LO                                         | Competências atendidas |
+| ---------- | ----------------------------------------------------------------- | ---------------------- |
+| **LO1.1**  | Definir formalmente um alfabeto (Σ) a partir de símbolos musicais | **C18**, C13′          |
+| **LO1.2**  | Modelar uma música como cadeia sobre Σ                            | **C18**, C13′          |
+| **LO1.3**  | Modelar coleção de músicas como linguagem L ⊆ Σ*                  | **C18**, C13′          |
+| **LO2.1**  | Identificar prefixos, sufixos e subcadeias                        | **C13′**, C17          |
+| **LO2.2**  | Determinar se um trecho é música válida                           | **C13′**, C17          |
+| **LO2.3**  | Justificar validade estrutural de trechos                         | **C05′**, C13′         |
+| **LO3.1**  | Aplicar concatenação de cadeias                                   | **C17**, C13′          |
+| **LO3.2**  | Avaliar se concatenação preserva linguagem                        | **C17**, **C02**, C11  |
+| **LO3.3**  | Aplicar união, interseção e diferença                             | **C17**, C13′          |
+| **LO3.4**  | Avaliar complemento de linguagem                                  | **C17**, **C02**       |
+| **LO4.1**  | Aplicar fecho de Kleene (L*)                                      | **C17**, C11           |
+| **LO4.2**  | Interpretar papel da cadeia vazia (ε)                             | **C13′**, C17          |
+| **LO4.3**  | Classificar linguagem como finita ou infinita                     | **C17**, **C02**       |
+| **LO5.1**  | Definir formalmente reversão de cadeias                           | **C13′**, C17          |
+| **LO5.2**  | Aplicar reversão e analisar validade                              | **C17**, C05′          |
+| **LO5.3**  | Distinguir validade estrutural vs. semântica                      | **C05′**, C18          |
+| **LO6.1**  | Reconhecer linguagens regulares                                   | **C04**, **C14**, C11  |
+| **LO6.2**  | Especificar linguagens por expressões regulares                   | **C04**, C13′          |
+| **LO6.3**  | Distinguir gramáticas regulares e CF                              | **C14**                |
+| **LO7.1**  | Explicar equivalência FA–RE–Gramáticas                            | **C04**, **C02**       |
+| **LO7.2**  | Relacionar padrões a estados/transições                           | **C11**, C02           |
+| **LO8.1**  | Definir homomorfismos de cadeias                                  | **C19**, C13′          |
+| **LO8.2**  | Analisar partitura ↔ gravação como codificação                    | **C19**, **C18**       |
+| **LO8.3**  | Justificar limites da intercambialidade                           | **C19**, **C05′**      |
+| **LO9.1**  | Usar definições formais corretamente                              | **C05′**               |
+| **LO9.2**  | Construir exemplos mínimos                                        | **C05′**               |
+| **LO9.3**  | Construir contraexemplos                                          | **C05′**               |
+| **LO9.4**  | Aplicar raciocínio indutivo                                       | **C05′**, C17          |
+| **LO10.1** | Elaborar relatório técnico estruturado                            | **C05**                |
+| **LO10.2** | Produzir justificativas claras e rigorosas                        | **C05′**               |
+| **LO10.3** | Distinguir intuição, exemplo e prova                              | **C05′**               |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### 4.1 Competency C17 Specification  
 
