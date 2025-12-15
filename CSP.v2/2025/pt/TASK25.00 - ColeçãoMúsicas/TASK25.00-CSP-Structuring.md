@@ -142,6 +142,7 @@ This structure enables:
 
 ## 8. Conceptual Structure Overview
 
+````
 TASK25-00
    └── targetsCompetence
         └── C20 — Model and analyze real-world domains as formal languages
@@ -152,6 +153,7 @@ TASK25-00
               ├── composes C13′ (Formal Justification)
               └── composes C05′ (Technical Communication)
 
+````
 
 ## 9. Specialization of Catalog Competencies (C05′ and C13′)
 
