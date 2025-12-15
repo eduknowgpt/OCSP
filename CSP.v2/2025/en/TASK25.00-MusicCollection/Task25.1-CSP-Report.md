@@ -37,23 +37,23 @@ Expected learner approach:
 
 ### Expected Outcomes
 
-Learners are expected to:
+Upon completion of this task, learners will be able to:
 
-* Define and formally describe regular expressions representing simple musical languages.
+> Formally define and use the notions of alphabet, string, language, empty language, and language closure within a precise mathematical framework.
 
-* Apply algebraic notation to express and manipulate string patterns derived from musical sequences.
+> Apply algebraic operations on strings and languages, including concatenation, union, intersection, complement, reversal, and Kleene closure, interpreting their effects in concrete problem settings.
 
-* Classify formal grammars by expressive power and differentiate their application contexts.
+> Analyze and justify properties of languages, such as finiteness or infiniteness, using formal arguments and counterexamples when appropriate.
 
-* Construct and analyze finite automata to recognize musical genres or structures.
+> Identify structural patterns in symbolic sequences and reason about language properties induced by real-world constraints.
 
-* Perform and justify operations on languages (union, concatenation, closure, complement).
+> Model real-world musical artifacts (scores, recordings, genres) as formal languages through suitable symbol encodings and homomorphisms.
 
-* Map real-world entities (scores, genres) onto formal symbols and evaluate their equivalence using encodings.
+> Construct and analyze finite automata to recognize languages defined by musical structures or classification criteria.
 
-* Simulate automata to validate correct classification of musical genres.
+> Simulate automata and language operations to validate recognition and classification results.
 
-* Produce a mathematically rigorous technical report articulating the entire reasoning process.
+> Produce a mathematically rigorous technical report that clearly articulates definitions, examples, proofs, and formal reasoning, adhering to standards of precision and coherence.
 
 
 ### Acquisition Context
@@ -77,58 +77,59 @@ Learners are expected to:
 
 
 
-## 2. Knowledge Enumeration (CSP-Aligned)
+## 2. Knowledge Enumeration
 
-To ensure consistent knowledge modeling, this enumeration draws on the **ACM CS2023 Body of Knowledge** for disciplinary content and the **CC2020 Foundational and Professional Knowledge (FPK)** for transversal competencies.  
-These knowledge components constitute the **Knowledge (K)** dimension of the OntoKSD model for Task25.1 — *Music Collection*.
+To ensure systematic and semantically consistent knowledge modeling, this enumeration adopts the **ACM CS2023 Body of Knowledge** as a controlled vocabulary for disciplinary computing knowledge, and the **ACM Computing Curricula 2020 (CC2020)** for Foundational and Professional Knowledge (FPK).
+Together, these elements constitute the Knowledge (K) dimension of the OntoKSD model for the task Music Collection.
 
+The following knowledge components were identified based on the formal modeling, mathematical reasoning, and language-theoretic analysis required by the task.
 
-### Computer Knowledge (CS2023-Aligned)
+### Computing Knowledge (CS2023-Aligned)
 
-* Language Theory 
-  * Concepts of formal languages, alphabets, strings, and operations. 
-  * Provides the formal foundation for modeling music as symbolic sequences.
+- Formal Languages
+  - Alphabets, strings, languages, and the empty language.
+  - Finite and infinite languages.
+  - Substrings, prefixes, and suffixes of strings.
 
-* Regular Expressions
-  * Specification and manipulation of patterns within symbol sequences.
-  * Defines the syntax for identifying and classifying musical genres.
+- Operations on Languages
+  - Union, intersection, and complement.
+  - Concatenation and Kleene closure.
+  - Reversal of strings and languages.
+  - Closure properties of language classes.
 
-* Regular vs. Context-Free Grammars
-  * Understanding of grammar hierarchies and expressive limits. 
-  * Supports analytical reasoning about the representational power of automata.
-  
-* String Manipulation and Pattern Matching
-  * Use of algebraic notation and symbolic operations on strings. 
-  * Enables symbolic analysis of musical fragments and patterns. 
-  
-* Regular Expression Matching
-  * Methods to verify or simulate the recognition of patterns by automata.
-  * Links theoretical regular expressions to computational testing.
+- Regular Languages
+  - Regular expressions and their formal semantics.
+  - Equivalence between regular expressions and finite automata.
 
-* Deterministic Finite Automata (DFA) 
-  Conceptual model for deterministic language recognition. 
-  Provides a rigorous framework for representing and validating musical patterns.
+- Finite Automata
+  - Deterministic and nondeterministic finite automata (DFA/NFA).
+  - Language recognition and automata equivalence.
+  - Expressive power and limitations of finite automata.
 
-* Finite State Machines (FSM)
-  * Generalized computational model representing sequences of states and transitions.
-  * Facilitates abstraction and modeling of musical progressions.
-  
-* Requirements Analysis
-  * Systematic identification and specification of problem constraints.
-  * Ensures formalization of the collector’s requirements as computable problems.
+- Homomorphisms and Encodings
+  - Formal mappings between symbolic representations.
+  - Preservation of language properties under homomorphisms.
+  - Limits of representational equivalence (e.g., musical scores vs. recordings).
 
+- Formal Reasoning and Proof Techniques
+  - Use of precise definitions and minimal examples.
+  - Construction of formal arguments and counterexamples.
+  - Justification of language properties and operations.
 
 
 ### Professional Knowledge (CC2020 FPK-Aligned)
 
-* Analytical and Critical Thinking
-  * Ability to decompose problems, reason formally, and validate solutions. 
-  * Guides logical reasoning and justification of each formal question.
+- Analytical and Critical Thinking
+  - Abstraction of real-world domains into formal models.
+  - Rigorous evaluation of claims using formal reasoning.
 
-* Written Communication
-  Ability to produce structured and rigorous technical documentation. 
-  Ensures clear communication of models, proofs, and formal conclusions.
+- Technical Written Communication
+  - Production of clear, structured, and mathematically precise texts.
+  - Proper use of formal notation and terminology from Language Theory.
 
+- Epistemic Rigor
+  - Commitment to formal justification over intuitive reasoning.
+  - Clear distinction between definitions, examples, general properties, and exceptions.
 
 
 
