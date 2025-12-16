@@ -2,13 +2,13 @@
 
 Following the initial application of the **Competency Specification Process (CSP)** and the **Competency Specification Review Process (CSRP)** to Task01, a new refinement cycle was conducted to reassess the granularity and terminological accuracy of the defined competencies. This post-CSRP iteration resulted in a **targeted adjustment** to the core competency title previously labeled as:
 
-> **Develop problem solutions using Automata**
+> **Develop problem solutions using Finite Automata**
 
 ### Rationale for Refinement
 
 While the original formulation adequately captured the task's general requirement to design computational models, the term **"Automata"** was deemed **too broad and underspecified**. It could ambiguously include a variety of computational models—such as **Pushdown Automata** or **Turing Machines** — which **exceed the conceptual scope** of Task01.
 
-In contrast, the reused competence:
+In contrast, the competence:
 
 > **Develop Problem-Solving Solutions Using Finite State Machines**
 

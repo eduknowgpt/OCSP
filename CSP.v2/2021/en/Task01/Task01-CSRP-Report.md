@@ -72,7 +72,7 @@ According to protocol guidelines:
     - Identifying the equivalence between **Finite Automata (FA) and Regular Expressions (RE)**.  
     - Applying the equivalence between **FA and RE** to develop **RE based on existing FA**.  
 
-- *Similarly, in **Competency B ('Equivalence of DFAs and NFAs - Understand (Compare)'),** the knowledge about DFAs and NFAs is not included in the task description. The other competencies are correctly aligned."*  
+- *Similarly, in **'Equivalence of DFAs and NFAs - Understand (Compare)',** the knowledge about DFAs and NFAs is not included in the task description. The other competencies are correctly aligned."*  
 
 **P2:** *"When defining a competency or skill, it is essential to ensure that the associated knowledge is **relevant and applicable** to the educational context. However, in the knowledge elements listed in the task, there is a mention of **Non-Deterministic Finite Automata (NFA)**, but I could not find any reference to this knowledge in the problem to be solved.*  
 
@@ -81,7 +81,7 @@ According to protocol guidelines:
     - Identifying the equivalence between **FA and RE**.  
     - Applying the equivalence between **FA and RE** to develop **RE based on existing FA**.  
 
-- *Likewise, in **Competency B ('Equivalence of DFAs and NFAs - Understand (Compare)'),** the knowledge suggested is not covered in the **PBL case description**, so it should be removed."*  
+- *Likewise, in **'Equivalence of DFAs and NFAs - Understand (Compare)',** the knowledge suggested is not covered in the **PBL case description**, so it should be removed."*  
 
 
 | **Criterion**         | **Yes / Maybe / No** | **Evaluator Notes**                                                        |

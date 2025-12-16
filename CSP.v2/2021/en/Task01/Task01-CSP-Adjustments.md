@@ -1,6 +1,6 @@
 # CSP Review Adjustments Report: Task01 - The Vending Machine for Sodas and Snacks
 
-## **Introduction**  
+## Introduction  
 
 The review process, informed by the expert feedback, identified **key areas for improvement** in the competency specification framework. These insights were categorized into **five major themes**:  
 - **Knowledge Granularity** → Ensuring an appropriate level of detail.  

@@ -442,7 +442,9 @@ To achieve this, students will:
 The following knowledge areas are essential for this competency:  
 
 - **Automata over Infinite Objects** - Provides foundational knowledge on automaton structure and behavior, serving as a prerequisite for expressing automata through regular languages.  
+
 - **Regular Languages** - Covers formal methods for defining and manipulating sets of strings using **regular expressions**, ensuring students can construct **accurate representations** of automata.  
+
 - **Problem Solving and Troubleshooting (FPK)** - Develops the ability to **identify, analyze, and correct errors** in the **transformation process from automata to regular expressions**.  
 
 

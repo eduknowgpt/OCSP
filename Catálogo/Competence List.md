@@ -1,57 +1,6 @@
-## **Competency C01 Specification**
-
-### Competency Title
-
-    Develop problem solutions using Automata
-
-### Competency Description
-
-This competency refers to the ability to **design, construct, and validate automaton-based solutions** that address well-defined computational problems. Students are expected to interpret system requirements and model behavior using **automata**, applying formal methods to ensure **logical consistency and operational correctness**.
-
-Students must:
-
-* **Translate problem specifications into automaton models** using states and transitions.
-* **Implement automata using appropriate tools**, ensuring their behavior aligns with the intended system logic.
-* **Refine and test the automaton** through simulation, addressing edge cases and improving robustness.
-* **Integrate constraints or extensions** when needed, demonstrating flexibility and adaptive problem-solving.
-
-
-### Table of Competency C01
-
-| **ID**  | **Competency** | **Dispositions** | **Knowledge** | **Skill** |
-|---------|--------|-----------|-----------|-------------------|
-| (C01) | **Develop problem solutions using Automata** | Collaborative, Responsible, Proactive, Creative | Finite State Machines | **Create (Construct, Develop, Design)** |
-|         |                                   |                                 | Requirements Engineering | **Apply (Interpret, Implement, Organize)** |
-|         |                                   |                                 | Analytical and Critical Thinking | **Apply** |
   
 
 
-
-
-
-## **Competency C02 Specification**
-
-### Competency Title
-
-    Justify the use of Deterministic Finite Automata (DFAs)
-
-### Competency Description
-
-This competency focuses on students' ability to **distinguish between deterministic and non-deterministic finite automata**, and **evaluate which model is best suited** to a given problem. Emphasis is placed on understanding the implications of determinism in automata design and on making reasoned decisions based on system constraints and complexity.
-
-Students must be able to:
-
-* **Compare DFA and NFA models** based on structural and behavioral differences.
-* **Analyze task requirements** to identify whether determinism is essential or optional.
-* **Select and justify** the most appropriate model for implementation.
-
-### Table of Competency C02
-
-| **ID**  | **Competency** | **Dispositions** | **Knowledge** | **Skill** |
-|---------|--------|-----------|-----------|-------------------|
-| (C02) | **Justify the use of Deterministic Finite Automata (DFAs)** | Investigative, Collaborative, Responsible, Proactive | Deterministic Finite Automata (DFAs) | **Understand (Compare)** |
-|         |                                   |                                 | Requirements Engineering | **Apply** |
-|         |                                   |                                 | Analytical and Critical Thinking | **Apply** |
 
 
 
