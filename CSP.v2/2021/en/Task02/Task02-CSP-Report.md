@@ -547,7 +547,6 @@ To clarify learning expectations, the following verb annotations highlight key a
 |         |                                 | Modeling and Simulation | **Apply** |
 
 
----
 
 
 ## Table of Competencies for Task: *Traffic Control*

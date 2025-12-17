@@ -1,30 +1,35 @@
 # Expert Review: Task1 – The Vending Machine for Sodas and Snacks
 
+
 ## 1. Introduction
 
-Building on the **Competency Specification Process (CSP) framework**, this report documents **Phase 2 – Competency Expert Review** for the PBL task “The Vending Machine for Sodas and Snacks.” The purpose of this phase is to systematically and collaboratively validate the competency specifications—encompassing their knowledge, skills, and dispositions—for:
+Building on the **Competency Specification Process (CSP) framework**, this report documents **Phase 2 — Competency Expert Review** for the PBL task *“The Vending Machine for Sodas and Snacks.”* This phase is dedicated to the **technical validation of the competency specifications** associated with the task, encompassing their **knowledge, skills, and dispositions (K–S–D)** components.
 
-- Accuracy and theoretical soundness, reflecting domain expertise
+The primary objective of this review is to assess the competency specifications with respect to:
 
-- Clarity and internal consistency, ensuring precise and unambiguous competencies
+* **Theoretical accuracy and conceptual soundness**, ensuring alignment with established foundations in Computing Education and Automata Theory;
+* **Clarity and internal consistency**, promoting precise, unambiguous, and reusable competency descriptions;
+* **Pedagogical alignment**, verifying coherence with the intended learning objectives and instructional context;
+* **Contextual applicability**, evaluating the feasibility and educational relevance of the competencies within a realistic problem-based learning scenario.
 
-- Pedagogical alignment, confirming relevance to intended learning outcomes
+The review is grounded in **qualified expert judgment** and follows a **structured, artifact-centered evaluation guide**. Domain specialists were invited to conduct a **technical review of the competency specifications**, applying predefined evaluation criteria to examine the adequacy, relevance, and coherence of the K–S–D elements mapped to the task. No personal, behavioral, or sensitive data were collected; the focus of the analysis remains exclusively on the **educational artifact** under review.
 
-- Contextual applicability, evaluating real-world feasibility and educational value
+This report synthesizes the results of the expert review and formulates **actionable recommendations** aimed at improving the clarity, alignment, and instructional value of the competency specifications.
 
-The review draws on expert judgment and is supported by a structured set of evaluation criteria. Feedback was collected from experienced instructors through guided interviews, enabling a detailed appraisal of the competency elements—knowledge, skills, and dispositions—mapped to the task. This report synthesizes the findings and offers recommendations to improve the coherence, clarity, and instructional value of the competency specifications.
+The analysis is organized according to the stages of the **Competency Specification Protocol**, comprising:
 
-The findings follow the stages of the Competency Specification Protocol:
+* **Instructional-context analysis**, validating task complexity and the scope of the targeted competencies;
 
-- Instructional-context analysis: Validating task complexity and competency requirements
+* **Item-level evaluation**, identifying strengths, inconsistencies, and elements requiring refinement;
 
-- Item-level evaluation: Identifying strengths, inconsistencies, and areas needing clarification
+* **Cross-criterion synthesis**, integrating findings related to accuracy, clarity, pedagogical alignment, and contextual relevance;
 
-- Compreensive synthesis: Integrating findings across clarity, accuracy, alignment, and relevance
+* **Recommendations**, proposing concrete adjustments to enhance the robustness and reusability of the competency model.
 
-- Recommendations: Offering concrete enhancements to optimize the competency model
+By situating this review within **Phase 2 of the CSP**, the report contributes to the iterative refinement of competency specifications, ensuring that they are **theoretically rigorous, pedagogically sound, and suitable for reuse** in competency-based and problem-based Computing Education contexts.
 
-By anchoring the review in Phase 2 of CSP, this report ensures that the competency specifications are theoretically rigorous, pedagogically robust, and educationally effective.
+
+
 
 
 
@@ -52,48 +57,55 @@ According to protocol guidelines:
 
 
 
+
 ## 3. Knowledge Component Review
 
-**Objective:** Confirm that knowledge components are comprehensive, relevant, and properly scoped.
+**Objective:** To evaluate whether the knowledge components associated with the task are **comprehensive, relevant, and appropriately scoped** with respect to the problem description and the targeted competencies.
 
 ### Knowledge Granularity and Relevance
 
-**P1:**  *"Regarding the knowledge covered in the task, it would be beneficial to adjust it to a lower level of granularity. The current granularity is too high, making comprehension difficult. For example, in the knowledge about finite automata, deterministic automata were not specified, only finite automata were mentioned, which created confusion. Therefore, I suggest modifying the knowledge taxonomy."*  
+The technical review identified **systematic issues related to the level of knowledge granularity** adopted in the competency specifications. The current representation relies on a **high-level taxonomy (ACM CCS 2012)** whose abstraction level proved insufficient to precisely annotate the knowledge elements required by the task.
 
-**P2:** *"The main issue for me is the granularity of knowledge. The taxonomy used is ACM CCS 2012, but the granularity level is too broad. When comparing the knowledge listed in the tasks, most of them are not explicitly listed in the taxonomy, making it impossible to annotate them properly. For example, in Task 1 ('The Vending Machine for Sodas and Snacks'), deterministic and non-deterministic finite automata, as well as regular expressions, are not included in the taxonomy—it only lists 'regular languages.' Thus, all these annotations need to be revised."*
+In particular, the category *regular languages* was found to be **too broad** to support explicit references to key concepts implicitly required by the task, such as **Deterministic Finite Automata (DFA)**, **Non-Deterministic Finite Automata (NFA)**, and **Regular Expressions (RE)**. This mismatch hindered accurate annotation and introduced conceptual ambiguity, especially where the task implicitly assumes DFA-based reasoning but does not require formal treatment of NFA or equivalence results.
+
+As a consequence, the review indicates that the current knowledge taxonomy **does not provide sufficient granularity** to support clear mapping between task requirements and competency elements. A refinement of the knowledge representation—either through a more fine-grained taxonomy or through task-specific specialization of existing categories—is therefore necessary.
+
 
 
 ### Knowledge Appropriateness
 
-**P1:** *"The knowledge described in the task must be better aligned. The specific objectives mention certain knowledge elements that are expected to be applied, but I could not identify where students would actually use them. For example, knowledge about equivalence seems unnecessary, as students may only need to respond regarding deterministic automata.*  
+The review further revealed **misalignment between certain declared knowledge elements and the actual demands of the PBL task**. Several knowledge components included in the competency specifications are **not explicitly required** to solve the problem as described, nor are they operationalized in the expected student outputs.
 
-- *I recommend **removing the following knowledge elements**, as they are not reflected in the task description:*  
-    - Identifying the equivalence between **Deterministic Finite Automata (DFA) and Non-Deterministic Finite Automata (NFA)**.  
-    - Identifying the equivalence between **Finite Automata (FA) and Regular Expressions (RE)**.  
-    - Applying the equivalence between **FA and RE** to develop **RE based on existing FA**.  
+In particular, the following knowledge elements were identified as **out of scope** for the task:
 
-- *Similarly, in **'Equivalence of DFAs and NFAs - Understand (Compare)',** the knowledge about DFAs and NFAs is not included in the task description. The other competencies are correctly aligned."*  
+* Equivalence between **Deterministic Finite Automata (DFA)** and **Non-Deterministic Finite Automata (NFA)**;
+* Equivalence between **Finite Automata (FA)** and **Regular Expressions (RE)**;
+* Application of FA–RE equivalence to derive **regular expressions from existing automata**.
 
-**P2:** *"When defining a competency or skill, it is essential to ensure that the associated knowledge is **relevant and applicable** to the educational context. However, in the knowledge elements listed in the task, there is a mention of **Non-Deterministic Finite Automata (NFA)**, but I could not find any reference to this knowledge in the problem to be solved.*  
+The task scenario focuses on the **construction and validation of automata-based solutions** for a vending machine system, without requiring formal reasoning about model equivalence or transformations across representational formalisms. Consequently, the inclusion of equivalence-related knowledge introduces unnecessary complexity and weakens alignment between **learning objectives**, **competency specifications**, and **task requirements**.
 
-- Additionally, some of the **learning objectives include knowledge elements that are not addressed in the task description**. Therefore, I suggest removing the following knowledge elements:  
-    - Identifying the equivalence between **DFA and NFA**.  
-    - Identifying the equivalence between **FA and RE**.  
-    - Applying the equivalence between **FA and RE** to develop **RE based on existing FA**.  
-
-- *Likewise, in **'Equivalence of DFAs and NFAs - Understand (Compare)',** the knowledge suggested is not covered in the **PBL case description**, so it should be removed."*  
+Additionally, one knowledge–skill pair explicitly associated with *“Equivalence of DFAs and NFAs – Understand (Compare)”* was found to be unsupported by the task description and should therefore be removed to preserve conceptual coherence.
 
 
-| **Criterion**         | **Yes / Maybe / No** | **Evaluator Notes**                                                        |
-| --------------------- | -------------------- | -------------------------------------------------------------------------- |
-| **Comprehensiveness** |  No                    | Are all essential knowledge areas present?                                  |
-| **Relevance**         |  Maybe                 | Does each knowledge element directly support task or competency goals?     |
-| **Appropriateness**   |  No                    | Is the level of detail correctly balanced—not too general or too granular? |
+
+### Evaluation Summary
+
+| **Criterion**         | **Assessment** | **Rationale**                                                                                          |
+| --------------------- | -------------- | ------------------------------------------------------------------------------------------------------ |
+| **Comprehensiveness** | No             | Essential knowledge is present, but its representation is overly coarse.                               |
+| **Relevance**         | Maybe          | Some knowledge elements support the task, while others are not operationalized.                        |
+| **Appropriateness**   | No             | The level of detail is misaligned with task demands, being both too broad and, in places, unnecessary. |
 
 
-### **Decision Thresholds**
 
-- Needs Revision 
+### Decision Threshold
+
+* **Needs Revision**
+
+The knowledge component requires **refinement of granularity**, **removal of non-essential elements**, and **stronger alignment with the explicit scope of the PBL task**, in order to function effectively within the CSP and OntoKSD frameworks.
+
+
+
 
 
 
@@ -111,83 +123,122 @@ According to protocol guidelines:
 - Approved
 
 
+
+
 ## 5. Competency Definitions Review
 
-### Competency Title & Description
+This section examines the **clarity, consistency, and pedagogical adequacy** of the competency titles and descriptions, as well as the alignment between **knowledge–skill (K–S) pairings** and **Bloom’s Revised Taxonomy**.
 
-**P1:** *"Some competency descriptions and knowledge-skill pairs need to be reevaluated to ensure they are more direct and free from ambiguity. For example, in Competency 'Determine Regular Expressions that Represent Automata,' I suggest rewording the title, as it is not sufficiently clear."*  
+### Competency Titles and Descriptions
 
-**P2:** *"Several competencies need to be reformulated. Some descriptions are overly directive, while others are too generic. Greater clarity is needed so that readers fully understand what the task is asking.*  
+The technical review identified the need for **systematic refinement of competency titles and textual descriptions** in order to improve clarity, reduce ambiguity, and ensure consistency across the competency set.
 
-- *In **Competencies C and D**, the descriptive text about knowledge is unnecessary; I suggest removing the explanation regarding 'The Purpose of Modeling and Simulation' and 'Review of Regular Expressions.'*  
+Several competency descriptions were found to be **either overly directive or excessively generic**, which may hinder interpretability and reuse in other instructional contexts. In particular, explanatory passages describing background concepts (e.g., general discussions on the *purpose of modeling and simulation* or *reviews of regular expressions*) were identified as **redundant** within competency definitions and should be removed. Such conceptual explanations are more appropriately located in instructional materials rather than in competency statements, which should remain **action-oriented and outcome-focused**.
 
-- *Regarding **Competency D**, I suggest modifying the competency title from **'Determining Regular Expressions that Represent Automata'** to **'How to Relate Regular Expressions and Their Equivalent Automata.'** I believe this wording makes the competency clearer.*  
+One competency related to regular expressions exhibited **insufficiently precise wording** in its title. The formulation *“Determine Regular Expressions that Represent Automata”* was found to be ambiguous with respect to the intended cognitive operation. A reformulation emphasizing the **relationship between representational formalisms**—for example, *relating regular expressions to their equivalent automata*—was identified as more explicit and pedagogically transparent.
 
-- *Additionally, I recommend merging **Competencies D and E**, as they are identical."* 
+Additionally, the analysis revealed **redundancy among competency definitions**, with two competencies (originally labeled D and E) expressing equivalent intent and scope. These entries should therefore be **merged into a single, consolidated competency** to avoid duplication and improve structural coherence.
 
-
-**P1:** *"It is necessary to ensure the standardization of competency descriptions to maintain consistency in the documentation of educational competencies."*  
-
-**P2:** *"When analyzing the described competencies, I noticed a lack of standardization in the terms used in the annotated resources. To ensure that they can be easily understood and reused, a term mapping system should be implemented."* 
+Beyond individual cases, the review highlighted a broader issue of **terminological inconsistency** across competency descriptions and annotated resources. To enhance clarity, interoperability, and reuse—particularly within the OntoKSD framework—a **standardized terminology and explicit term-mapping strategy** should be adopted.
 
 
 
+### Knowledge–Skill Pairing and Bloom Alignment
 
-### Knowledge–Skill Pairing & Bloom Alignment
+The review confirmed that the **knowledge–skill pairing strategy** is generally sound and that the use of **multiple Bloom-aligned action verbs** contributes positively to the explicitness of expected learner actions.
 
-**P1:** *"I found the use of multiple verbs interesting, as it allows for a clearer description of the expected actions for each knowledge-skill pair."*  
+The selected verbs were found to be **appropriately aligned with the task context and learning objectives**, supporting clear differentiation between knowledge components and observable skills. This aspect of the competency specification represents a **strength of the current model** and should be preserved in the revised version.
 
-**P2:** *"The selected verbs effectively enhance the clarity of skills and are well-aligned with the task and learning objectives."*  
 
-### **Decision Thresholds**
 
-- Needs Revision
+### Decision Threshold
+
+* **Needs Revision**
+
+While the overall structure of the competency definitions is robust, **textual refinement, terminological standardization, and removal of redundancies** are required to ensure conceptual clarity, internal consistency, and effective reuse within competency-based and ontology-driven educational settings.
+
 
 
 
 ## 6. Recommendations Synthesis
 
-### P1 Suggestions
-- **Knowledge Granularity** → The current level is too high and should be adjusted to provide more specificity.  
-- **Knowledge and Concepts**  
-  - Remove **Non-Deterministic Finite Automata (NFA)** as it is not covered in the task description.  
-  - Remove **learning objectives** that are not explicitly addressed in the task description:  
-    - Identifying the equivalence between **Deterministic Finite Automata (DFA) and Non-Deterministic Finite Automata (NFA)**.  
-    - Identifying the equivalence between **Finite Automata (FA) and Regular Expressions (RE)**.  
-    - Applying the equivalence between **FA and RE** to develop **RE based on existing FA**.  
-- **Competency B**  
-  - Review and reword the title regarding **when to use DFA or NFA**.  
-  - Remove the **knowledge-skill pair "Equivalence of DFAs and NFAs - Understand (Compare)"**, as it is not relevant to the task.  
-  - Remove references to **NFA knowledge**, as it is not addressed in the task.  
+Based on the technical review, a set of **coherent and convergent recommendations** was identified to address issues of granularity, alignment, clarity, and structural consistency across the competency specifications. These recommendations are organized below according to their primary focus.
 
-### P2 Suggestions
-- **Knowledge Granularity** → The level is too high and needs refinement.  
-- **Textual Refinement** → Some descriptions are **too directive**, while others are **too generic**. Adjustments should improve clarity and precision.  
-- **Competency B**  
-  - Agrees with P1 on removing the **knowledge-skill pair "Equivalence of DFAs and NFAs - Understand (Compare)"**.  
-- **Competency C**  
-  - Remove the explanation of the **purpose of modeling and simulation**, including optimization, decision-making, safety considerations, and training.  
-- **Competency D**  
-  - Remove the **explanation of regular expressions review and their equivalence to finite automata**.  
-  - Modify the title of Competency D from **"Determine Regular Expressions that Represent Automata"** to **"How to Relate Regular Expressions and Their Equivalent Automata"** for better clarity.  
-- **Competency E**  
-  - Merge **Competency E with Competency D**, as they are essentially the same.  
+
+### 6.1 Knowledge Representation and Granularity
+
+The current level of abstraction adopted for the knowledge components was found to be **excessively coarse**, limiting conceptual precision and hindering accurate annotation. To address this issue, the following actions are recommended:
+
+* **Refine the level of knowledge granularity**, introducing more specific categories that directly reflect the concepts operationalized in the task;
+* **Remove Non-Deterministic Finite Automata (NFA)** from the knowledge specification, as this concept is not required by the task description nor by the expected student outputs;
+* **Eliminate learning objectives and knowledge elements not explicitly exercised by the task**, including:
+
+  * Equivalence between **Deterministic Finite Automata (DFA)** and **Non-Deterministic Finite Automata (NFA)**;
+  * Equivalence between **Finite Automata (FA)** and **Regular Expressions (RE)**;
+  * Application of FA–RE equivalence to derive **regular expressions from existing automata**.
+
+These adjustments aim to restore alignment between **task requirements**, **learning objectives**, and **competency specifications**, ensuring that each knowledge element has a clear instructional function.
 
 
 
-## 7. Conclusion & Decision
+### 6.2 Competency-Specific Revisions
 
-Guided by reviewer feedback, a series of targeted refinements will be implemented to improve the **clarity, relevance, and educational value** of the competency specifications.
+Several competency definitions require targeted refinement to improve clarity, relevance, and internal consistency:
 
-A central takeaway from the review is that **the current level of knowledge granularity is excessively broad**, limiting the effectiveness of annotation and reducing conceptual precision. To address this, a **more structured and fine-grained knowledge taxonomy** will be adopted, allowing for greater specificity and better alignment with the actual scope of the task. As part of this adjustment, **concepts related to Non-Deterministic Finite Automata (NFA)**—which are not present in the task scenario—will be revised or removed.
+* **Competency B**
 
-In addition, **textual clarity will be significantly improved** by refining vague formulations and eliminating overly prescriptive descriptions. Some competency statements were found to be either too generic or too directive. To enhance coherence and usability, **competency titles will be reformulated**, **redundant entries (e.g., Competencies D and E) will be merged**, and **explanatory content not anchored in the task will be removed**. Competency B, in particular, will be restructured to more accurately reflect its intended focus.
+  * Review and reword the title to avoid references to decision-making between DFA and NFA, which exceeds the scope of the task;
+  * Remove the knowledge–skill pair *“Equivalence of DFAs and NFAs – Understand (Compare)”*, as it is not supported by the task context;
+  * Eliminate all references to **NFA-related knowledge**.
 
-Several **learning objectives and competency descriptions** will also be revised to ensure they map directly to the task's demands. Knowledge items that are not **explicitly required** by the PBL case will be removed, thus avoiding misalignment between expected outcomes and the actual competencies developed.
+* **Competency C**
 
-Looking ahead, the integration of a **standardized vocabulary and a structured knowledge taxonomy** will support greater consistency, reusability, and alignment across PBL tasks. The **iterative nature of the CSRP** will continue to be a valuable tool for refining and validating competencies as learning contexts evolve.
+  * Remove explanatory content related to the *general purpose of modeling and simulation* (e.g., optimization, decision-making, safety, training), as this material is not directly tied to observable task outcomes.
 
-By implementing these enhancements, the competency framework will become **more robust, pedagogically sound, and reusable**, offering greater support to students, instructors, and curriculum designers engaged in **competency-based computing education**.
+* **Competency D**
 
-> These revisions will ensure that the competency specification functions not only as a valid assessment instrument but also as a reusable and instructional model for future PBL-based learning experiences.
+  * Remove background explanations reviewing **regular expressions** and their theoretical equivalence to finite automata;
+  * Reformulate the competency title to explicitly emphasize the **relationship between representational formalisms**, improving semantic clarity (e.g., *relating regular expressions to their equivalent automata*).
+
+* **Competency E**
+
+  * Merge this competency with **Competency D**, as both express overlapping scope and intent.
+
+
+
+### 6.3 Textual Consistency and Terminology
+
+In addition to content-level revisions, the review highlights the need for broader **textual and terminological harmonization**:
+
+* Revise competency descriptions to avoid formulations that are either **overly directive** or **excessively generic**;
+* Standardize terminology across competency titles, descriptions, and annotated resources;
+* Adopt a **controlled vocabulary or explicit term-mapping strategy**, particularly to support reuse within the **OntoKSD** framework.
+
+
+
+### Summary
+
+Collectively, these recommendations aim to enhance the **conceptual precision**, **pedagogical alignment**, and **reusability** of the competency specifications. By refining knowledge granularity, removing non-essential elements, consolidating redundant competencies, and standardizing terminology, the revised model will better reflect the actual scope of the PBL task and support consistent application within competency-based and ontology-driven educational contexts.
+
+
+
+## 7. Conclusion and Decision
+
+Based on the technical review, a set of **targeted and well-defined revisions** will be implemented to enhance the **clarity, relevance, and instructional adequacy** of the competency specifications associated with the task.
+
+A central outcome of the review is the identification of **excessive abstraction in the current knowledge representation**, which limits conceptual precision and weakens the effectiveness of competency annotation. To address this issue, the knowledge component will be **restructured using a more fine-grained and task-aligned taxonomy**, enabling clearer differentiation of concepts explicitly required by the PBL scenario. As part of this refinement, knowledge elements related to **Non-Deterministic Finite Automata (NFA)**—which are not exercised by the task—will be revised or removed.
+
+Further improvements will focus on **textual and structural refinement of competency definitions**. Several competency statements exhibited formulations that were either overly generic or excessively directive. To improve coherence and usability, **competency titles will be reformulated to emphasize observable outcomes**, **redundant competencies will be consolidated**, and **explanatory content not directly anchored in task requirements will be eliminated**. In particular, competencies whose scope exceeded the problem context will be restructured to ensure tighter alignment with the intended learning outcomes.
+
+In addition, **learning objectives and associated knowledge elements** will be revised to ensure a **direct and explicit mapping to task demands**, avoiding the inclusion of concepts that are not operationalized in the expected student solutions. This alignment is essential to preserve the internal consistency of the CSP model and to support reliable reuse of the competency specifications.
+
+Looking forward, the adoption of a **standardized terminology and a structured knowledge representation** will strengthen consistency and interoperability across PBL tasks, particularly within the **OntoKSD** framework. The **iterative character of the CSRP** remains a key mechanism for continuously validating and refining competency specifications as instructional contexts evolve.
+
+### Decision
+
+* **Approved with Revisions**
+
+Upon implementation of the revisions identified in this report, the competency specifications will constitute a **theoretically sound, pedagogically aligned, and reusable artifact**, suitable for application in competency-based and problem-based Computing Education. These refinements ensure that the competency model functions not only as an assessment reference but also as a **reusable instructional and design instrument** for future learning scenarios.
+
+
 

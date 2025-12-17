@@ -1,22 +1,30 @@
-# CSP Review Adjustments Report: Task02 - Traffic Control
+# **CSP Review Adjustments Report: Task 02 – *Traffic Control***
 
-## Introduction  
+## **Introduction**
 
-The review process, informed by the expert feedback, identified **key areas for improvement** in the competency specification framework. These insights were categorized into **five major themes**:  
-- **Knowledge Granularity** → Ensuring an appropriate level of detail.  
-- **Knowledge Appropriateness** → Aligning competencies with relevant and applicable knowledge.  
-- **Controlled Vocabulary** → Standardizing terminology to enhance consistency.  
-- **Bloom’s Taxonomy Verbs** → Improving clarity in skill descriptions.  
-- **Textual Clarity** → Refining descriptions to avoid ambiguities.  
+The expert review process identified a set of **systematic improvement opportunities** in the competency specification associated with *Task 02 – Traffic Control*. These opportunities were derived from a structured analysis of the competency model and were consolidated into **five core adjustment dimensions**, each addressing a specific aspect of conceptual, pedagogical, or representational quality:
 
-Based on these recommendations, **several refinements were implemented** to improve the specificity, clarity, and reusability of competencies.
+* **Knowledge Granularity** — calibrating the level of detail to ensure conceptual precision without unnecessary abstraction;
+* **Knowledge Appropriateness** — ensuring that all knowledge elements are directly relevant to, and exercised by, the task requirements;
+* **Controlled Vocabulary** — standardizing terminology to promote consistency, interoperability, and reuse across competency specifications;
+* **Bloom’s Taxonomy Verbs** — refining action verbs to clearly express observable skills and intended cognitive levels;
+* **Textual Clarity** — improving wording to eliminate ambiguity, redundancy, and overly prescriptive formulations.
+
+In response to these findings, a set of **targeted revisions** was implemented to strengthen the **specificity, coherence, and reusability** of the competency specifications. These adjustments ensure tighter alignment between the problem context, learning objectives, and competency definitions, while reinforcing the role of the CSP as a systematic and iterative process for developing high-quality, reusable competency artifacts.
 
 
-## **Review Findings and Implemented Adjustments**  
+## **Review Findings and Implemented Adjustments**
 
-### **Knowledge Granularity Refinement**  
-Following the reviewers' insights, **the knowledge classification system was updated from CC2012 to CS2013**, which offers a more **fine-grained** and **hierarchical** taxonomy. This change ensures **greater specificity**, making competencies **more reusable** and **better aligned with educational tasks**.  
-  - **"Requirements Analysis"** was **redefined** as **"Requirements Engineering"**.  
+### **Knowledge Granularity Refinement**
+
+In accordance with the expert recommendations, the **knowledge classification system was updated from CC2012 to CS2013**, which provides a **more fine-grained, hierarchical, and education-oriented taxonomy**. This transition enables more precise annotation of knowledge elements, supports clearer differentiation among concepts, and enhances the **reusability and interoperability** of competencies across instructional contexts.
+
+As part of this refinement, terminology was also aligned with standard usage in software and systems engineering. Specifically:
+
+* **“Requirements Analysis”** was **refined to “Requirements Engineering”**, reflecting a more precise and widely accepted designation for activities involving elicitation, specification, and validation of system requirements.
+
+These adjustments collectively improve the **conceptual precision** and **instructional alignment** of the competency specifications, ensuring that knowledge elements are both **explicitly exercised by the task** and **clearly assessable**.
+
 
 
 
@@ -60,6 +68,8 @@ Demonstrate the ability to select and apply appropriate **variants of Turing Mac
 This competency requires learners to analyze the demands of a computational task and assess whether a standard Turing Machine suffices or if an extended variant offers greater efficiency or expressiveness. It also involves articulating the connection between formal computational models and the intuitive notion of algorithmic solvability, as outlined by the **Church-Turing Thesis**.
 
 Through the use of critical reasoning and modeling skills, students are expected to justify the use of specific Turing Machine variants and effectively implement them to represent or simulate solutions to formal problems in computer science.
+
+
 
 
 

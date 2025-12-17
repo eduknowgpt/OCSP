@@ -1,58 +1,76 @@
-# CSP Review Adjustments Report: Task01 - The Vending Machine for Sodas and Snacks
+# CSP Review Adjustments Report: Task 01 – *The Vending Machine for Sodas and Snacks*
 
-## Introduction  
+## Introduction
 
-The review process, informed by the expert feedback, identified **key areas for improvement** in the competency specification framework. These insights were categorized into **five major themes**:  
-- **Knowledge Granularity** → Ensuring an appropriate level of detail.  
-- **Knowledge Appropriateness** → Aligning competencies with relevant and applicable knowledge.  
-- **Controlled Vocabulary** → Standardizing terminology to enhance consistency.  
-- **Bloom’s Taxonomy Verbs** → Improving clarity in skill descriptions.  
-- **Textual Clarity** → Refining descriptions to avoid ambiguities.  
+The expert review process identified a set of **systematic improvement opportunities** within the competency specification associated with Task 01. These opportunities emerged from a structured technical analysis of the competency model and were consolidated into **five core adjustment dimensions**, each addressing a distinct aspect of conceptual, pedagogical, or representational quality:
 
-Based on these recommendations, **several refinements were implemented** to improve the specificity, clarity, and reusability of competencies.  
+* **Knowledge Granularity** — calibrating the level of detail to ensure conceptual precision without unnecessary abstraction;
+* **Knowledge Appropriateness** — ensuring that all knowledge elements are directly relevant to, and operationalized by, the task requirements;
+* **Controlled Vocabulary** — standardizing terminology to promote consistency, interoperability, and reuse across competency specifications;
+* **Bloom’s Taxonomy Verbs** — refining action verbs to clearly express observable skills and intended cognitive levels;
+* **Textual Clarity** — improving wording to eliminate ambiguity, redundancy, and overly prescriptive formulations.
 
-
-
-## **Review Findings and Implemented Adjustments**  
-
-### **Knowledge Granularity Refinement**  
-Following the reviewers' insights, **the knowledge classification system was updated from CC2012 to CS2013**, which offers a more **fine-grained** and **hierarchical** taxonomy. This change ensures **greater specificity**, making competencies **more reusable** and **better aligned with educational tasks**.  
-
-### **Competency-Specific Adjustments**  
-
-- **Competency A: "Developing Problem Solutions Using Automata"**  
-  - The knowledge element **"Finite Automaton"** was **redefined** as **"Finite State Machines"**.  
-  - **"Requirements Analysis"** was **redefined** as **"Requirements Engineering"**.  
- 
-
-- **Competency B: "Determining When to Use a DFA or an NFA"**  
-  - The competency title was **redefined** as **"Justifying the Use of Deterministic Finite Automata (DFA)"**.  
-  - The knowledge **"Finite Automaton"** was **redefined** as **"Deterministic Finite Automata (DFA)"**.  
-  - **"Requirements Analysis"** was **redefined** as **"Requirements Engineering"**.  
-  - A new **knowledge-skill pair** was added: **"Analytical and Critical Thinking (FPK) - Apply"**, enhancing the clarity and depth of the competency.  
-
-- **Competency C: "Testing Automata Using Simulators"**  
-  - The **knowledge element "Automata over Infinite Objects" was replaced with "Finite State Machines"** to improve clarity. 
-  - A **new knowledge-skill pair was introduced** → **"Modeling and Simulation - Apply"**, ensuring that learners must apply their modeling knowledge when testing automata using simulators.  
-
-- **Competencies D and E: Merging and Refinement**  
-   - The competencies **"Determining Regular Expressions that Represent Automata"** and **"Relating Regular Expressions to Finite Automata"** were **merged** into a **single competency**: **"Defining Regular Expressions for Finite Automata."**  
-  - Knowledge refinements included:  
-    - **"Finite Automaton - Understand"** was **redefined** as **"Finite State Machines - Understand."**  
-    - **"Regular Languages - Understand"** was **redefined** as **"Regular Expressions - Apply."**  
-    - **"Analytical and Critical Thinking (FPK)"** remained **unchanged**.  
-
-- **Competency F: "Collaborative Technical Report Writing"**  
-  - The competency was **redefined** as **"Writing a Technical Report."**  
-  - The knowledge **"Technical Report"** was **redefined** as **"Written Communication (FPK)."**  
-  - The Bloom’s Taxonomy level remained **"Apply" (Write, Structure, Revise, Refine).**  
+In response to these findings, a set of **targeted revisions** was implemented to strengthen the **specificity, coherence, and reusability** of the competency specifications. These adjustments ensure tighter alignment between the problem context, learning objectives, and competency definitions, while reinforcing the role of the CSP as a systematic and iterative process for developing high-quality, reusable competency artifacts.
 
 
 
-### **Controlled Vocabulary Standardization**  
-Both P1 and P2 emphasized that the **use of multiple verbs** in competency descriptions is **beneficial**, as it **clarifies expected actions** for each knowledge-skill pair. The standardization of **controlled vocabulary** ensures **greater consistency** and **alignment with predefined learning objectives**.  
 
-To further enhance clarity, a **structured vocabulary mapping** will be established, defining **preferred terms and synonyms** to **maintain coherence across different competency specifications**.  
+## **Review Findings and Implemented Adjustments**
+
+This section summarizes the **key findings of the expert review** and the **adjustments effectively implemented** in response to the identified issues. The revisions aim to improve **conceptual precision**, **pedagogical alignment**, and **reusability** of the competency specifications associated with Task 01.
+
+
+
+### **Knowledge Granularity Refinement**
+
+In response to the limitations identified in the initial knowledge representation, the **knowledge classification system was updated from CC2012 to CS2013**, which provides a **more fine-grained, hierarchical, and education-oriented taxonomy**. This transition enables more precise annotation of knowledge elements, supports clearer differentiation among concepts, and enhances the **reusability and interoperability** of competencies across instructional contexts.
+
+
+### **Competency-Specific Adjustments**
+
+The following refinements were applied at the individual competency level to ensure tighter alignment between **task requirements**, **knowledge components**, and **skill descriptors**.
+
+* **Competency A — *Developing Problem Solutions Using Automata***
+
+  * The knowledge element **“Finite Automaton”** was refined to **“Finite State Machines”**, improving conceptual specificity and alignment with the task scope.
+  * The knowledge element **“Requirements Analysis”** was refined to **“Requirements Engineering”**, reflecting a more precise and standardized terminology.
+
+* **Competency B — *Justifying the Use of Deterministic Finite Automata (DFA)***
+
+  * The competency title was reformulated to remove references to non-deterministic models and to emphasize justification within the task scope.
+  * The knowledge element **“Finite Automaton”** was refined to **“Deterministic Finite Automata (DFA)”**, ensuring conceptual coherence.
+  * The knowledge element **“Requirements Analysis”** was refined to **“Requirements Engineering.”**
+  * A new **knowledge–skill pairing**, **“Analytical and Critical Thinking (FPK) — Apply,”** was introduced to explicitly capture the reasoning and justification processes required by the competency.
+
+* **Competency C — *Testing Automata Using Simulators***
+
+  * The knowledge element **“Automata over Infinite Objects”** was replaced with **“Finite State Machines”**, eliminating conceptual mismatch and improving clarity.
+  * A new **knowledge–skill pairing**, **“Modeling and Simulation — Apply,”** was introduced to ensure that learners actively apply modeling concepts when validating automata behavior using simulation tools.
+
+* **Competencies D and E — Merging and Refinement**
+
+  * The competencies *“Determining Regular Expressions that Represent Automata”* and *“Relating Regular Expressions to Finite Automata”* were **merged** into a single competency: **“Defining Regular Expressions for Finite Automata.”**
+  * Associated knowledge refinements included:
+
+    * **“Finite Automaton — Understand”** refined to **“Finite State Machines — Understand”;**
+    * **“Regular Languages — Understand”** refined to **“Regular Expressions — Apply”;**
+    * **“Analytical and Critical Thinking (FPK)”** remained unchanged, as it continues to support reasoning across representations.
+
+* **Competency F — *Writing a Technical Report***
+
+  * The competency title was refined from *“Collaborative Technical Report Writing”* to **“Writing a Technical Report,”** emphasizing the observable outcome rather than the collaboration mode.
+  * The knowledge element **“Technical Report”** was refined to **“Written Communication (FPK),”** aligning the competency with transversal professional knowledge.
+  * The Bloom’s Taxonomy level was maintained at **Apply**, with action verbs such as *write, structure, revise,* and *refine*.
+
+
+
+### **Controlled Vocabulary Standardization**
+
+The review confirmed that the use of **multiple Bloom-aligned action verbs** within competency descriptions enhances the explicitness of expected learner actions. To support consistency and reuse, a **controlled vocabulary strategy** was adopted, ensuring alignment between competency descriptions, knowledge elements, and learning objectives.
+
+To further strengthen semantic coherence, a **structured vocabulary-mapping mechanism** will be established, defining **preferred terms and accepted synonyms**. This approach supports interoperability across competency specifications and facilitates integration within the **OntoKSD** framework.
+
+
 
 
 
@@ -179,13 +197,15 @@ Students must demonstrate the ability to:
 
 
 
+## **Conclusion**
 
-## **Conclusion**  
+The expert review process resulted in **substantial and well-founded improvements** to the competency specification associated with Task 01. The implemented adjustments refined competency definitions, increased conceptual specificity, standardized terminology, and enhanced overall textual clarity, thereby strengthening the internal coherence of the competency framework.
 
-The review process has resulted in **substantial improvements**, incorporating expert recommendations to refine competency definitions, increase specificity, standardize terminology, and improve textual clarity.  
+The adoption of a **more fine-grained knowledge taxonomy (CS2013)** enabled more precise representation of domain concepts and improved the **reusability and interoperability** of competencies across instructional contexts. In parallel, the introduction of a **controlled vocabulary and structured terminology mapping** ensured greater consistency and semantic alignment among competency titles, descriptions, and associated knowledge–skill pairings.
 
-By adopting a more fine-grained knowledge taxonomy (CS2013), competencies have become more precise and reusable. Additionally, the introduction of controlled vocabulary and structured terminology mapping ensures greater consistency in competency descriptions.  
+The consolidation of redundant competencies, along with targeted refinements to knowledge elements and skill descriptors, contributed to a **more coherent, structured, and pedagogically aligned competency model**. These revisions improved the correspondence between task requirements, learning objectives, and observable outcomes, reinforcing the role of the CSP as a systematic mechanism for competency design.
 
-The merging of redundant competencies and adjustments to knowledge elements and skills have led to a more coherent and structured competency framework.   
+Looking forward, **continuous iterative refinement and structured expert validation** will remain essential to maintaining the quality and relevance of the competency specification model. Through successive review cycles, the framework can adapt to evolving instructional contexts while preserving conceptual clarity and alignment with educational objectives. Collectively, these practices support a more effective and sustainable **competency-based learning approach**, grounded in precise, applicable, and reusable competency definitions.
 
-Moving forward, *ontinuous iterative refinements and structured peer evaluations will remain essential to maintaining a high-quality competency specification model. These refinements will contribute to a more effective competency-based learning approach, ensuring that competencies remain clear, applicable, and aligned with educational objectives.  
+
+ 

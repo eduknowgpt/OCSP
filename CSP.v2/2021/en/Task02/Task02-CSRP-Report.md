@@ -3,29 +3,29 @@
 
 ## 1. Introduction
 
-Building on the **Competency Specification Process (CSP) framework**, this report documents **Phase 2 – Competency Expert Review** for the PBL task “Traffic Control”. The purpose of this phase is to systematically and collaboratively validate the competency specifications—encompassing their knowledge, skills, and dispositions—for:
+Building on the **Competency Specification Process (CSP) framework**, this report documents **Phase 2 — Competency Expert Review** for the PBL task *“Traffic Control.”* This phase is dedicated to the **technical validation of the competency specifications** associated with the task, encompassing their **knowledge, skills, and dispositions (K–S–D)** components.
 
-- Accuracy and theoretical soundness, reflecting domain expertise
+The primary objective of this review is to assess the competency specifications with respect to:
 
-- Clarity and internal consistency, ensuring precise and unambiguous competencies
+* **Theoretical accuracy and conceptual soundness**, ensuring alignment with established foundations in Computability Theory and formal models of computation;
+* **Clarity and internal consistency**, promoting precise, unambiguous, and reusable competency descriptions;
+* **Pedagogical alignment**, confirming coherence with the intended learning objectives and assessment expectations;
+* **Contextual applicability**, evaluating the feasibility and instructional relevance of the competencies within a realistic problem-based learning scenario.
 
-- Pedagogical alignment, confirming relevance to intended learning outcomes
+The review is grounded in **qualified expert judgment** and follows a **structured, artifact-centered evaluation protocol**. Domain specialists were invited to conduct a **technical review of the competency specifications**, applying predefined criteria to examine the adequacy, relevance, and coherence of the K–S–D elements mapped to the task. The analysis focuses exclusively on the **educational artifact** and does not involve the collection or interpretation of personal or behavioral data.
 
-- Contextual applicability, evaluating real-world feasibility and educational value
+This report synthesizes the outcomes of the expert review and formulates **actionable recommendations** aimed at improving the clarity, alignment, and instructional value of the competency specifications.
 
-The review draws on expert judgment and is supported by a structured set of evaluation criteria. Feedback was collected from experienced instructors through guided interviews, enabling a detailed appraisal of the competency elements—knowledge, skills, and dispositions—mapped to the task. This report synthesizes the findings and offers recommendations to improve the coherence, clarity, and instructional value of the competency specifications.
+The findings are organized according to the stages of the **Competency Specification Protocol**, comprising:
 
-The findings follow the stages of the Competency Specification Protocol:
+* **Instructional-context analysis**, validating task complexity and the scope of the targeted competencies;
+* **Item-level evaluation**, identifying strengths, inconsistencies, and elements requiring refinement;
+* **Cross-criterion synthesis**, integrating findings related to accuracy, clarity, pedagogical alignment, and contextual relevance;
+* **Recommendations**, proposing concrete adjustments to optimize the competency model.
 
-- Instructional-context analysis: Validating task complexity and competency requirements
+By situating this review within **Phase 2 of the CSP**, the report contributes to the iterative refinement of competency specifications, ensuring that they are **theoretically rigorous, pedagogically robust, and suitable for reuse** in competency-based and problem-based Computing Education contexts.
 
-- Item-level evaluation: Identifying strengths, inconsistencies, and areas needing clarification
 
-- Compreensive synthesis: Integrating findings across clarity, accuracy, alignment, and relevance
-
-- Recommendations: Offering concrete enhancements to optimize the competency model
-
-By anchoring the review in Phase 2 of CSP, this report ensures that the competency specifications are theoretically rigorous, pedagogically robust, and educationally effective.
 
 
 ## 2. Instructional Entity Summary
@@ -54,11 +54,15 @@ According to protocol guidelines:
 
 ## 3. Knowledge Component Review
 
-### Knowledge Granularity and Relevance
+### **Knowledge Granularity and Relevance**
 
-Reviewers recommended increasing the granularity of the listed knowledge items—transforming broad categories into precise, assessable units that directly support the task.
+The expert review identified the need to **increase the granularity of the knowledge components** associated with the competency specifications. Broad or overly abstract knowledge categories were found to limit assessability and weaken the explicit connection between declared knowledge and the actions required to solve the task. The review therefore recommends **refining these categories into more precise, task-aligned knowledge units** that can be clearly observed and evaluated in student performance.
 
-Both reviewers agreed that the Church–Turing Thesis is not essential for the scope of Task 02. Although significant in theoretical computability, it falls outside the operational requirements for designing and simulating a Turing Machine for traffic data processing in this course. Removing it streamlines focus on task-relevant knowledge.
+In addition, the review reached a consensus that the **Church–Turing Thesis**, while foundational in theoretical computability, is **not operationally required** within the scope of *Task 02*. The task focuses on the **design, application, and simulation of Turing Machines** to process traffic data, without requiring metatheoretical justification of computational models. As such, the inclusion of the Church–Turing Thesis does not directly support the intended learning outcomes and introduces unnecessary conceptual overhead.
+
+Accordingly, the removal of this element was recommended to **streamline the knowledge specification**, reinforce alignment with task requirements, and maintain focus on **knowledge that is directly exercised and assessable** within the instructional context.
+
+
 
 
 | **Criterion**         | **Yes / Maybe / No** | **Evaluator Notes**                                                        |
@@ -75,11 +79,17 @@ Both reviewers agreed that the Church–Turing Thesis is not essential for the s
 
 
 
-## 4. Learning Objectives Review
+## **4. Learning Objectives Review**
 
-**Objective:** Ensure that the learning objectives are explicit, aligned, and pedagogically sound. 
+**Objective:** To verify that the learning objectives are **explicit, coherent, and pedagogically aligned** with the task requirements and the associated competency specifications.
 
-Reviewers agreed that the Church–Turing Thesis is not essential for Task 02 and should not be included among the learning objectives.
+The expert review confirmed that the learning objectives are generally consistent with the intended instructional scope of *Task 02*. However, the analysis identified a **misalignment between certain objectives and the operational demands of the task**.
+
+In particular, the inclusion of the **Church–Turing Thesis** among the learning objectives was deemed **unnecessary for achieving the intended outcomes** of the activity. Although the thesis plays a central role in the theoretical foundations of computability, it is **not directly exercised** in the design, application, or simulation of Turing Machines required by the task. As such, its presence among the learning objectives does not contribute to observable or assessable student performance within this instructional context.
+
+The review therefore recommends **removing the Church–Turing Thesis from the set of learning objectives**, thereby strengthening the alignment between objectives, task activities, and competency specifications, and ensuring that all objectives correspond to **explicitly practiced and assessable learning outcomes**.
+
+
 
 
 | **Criterion**       | **Yes / Maybe / No** | **Evaluator Notes**                                                         |
@@ -104,14 +114,19 @@ Reviewers agreed that the Church–Turing Thesis is not essential for Task 02 
 | **Scope Coverage**         |  Maybe                    | Does it include all necessary elements without redundancy? |
 
 
-The same enhancements suggested for Task 01 apply here—competency descriptions should be more detailed and explicit. This aligns with best practices that call for behavior- and outcome-focused descriptions to improve clarity and instructional usability 
+The expert review indicated that the **same refinements previously identified for Task 01 are equally applicable to Task 02**. In particular, competency descriptions should be **expanded and made more explicit**, adopting a behavior- and outcome-oriented formulation that supports clear interpretation, assessment, and instructional reuse.
 
-Reviewers noted that the existing wording is too generic and fails to specify observable behaviors or criteria for success. 
+The current wording of several competencies was found to be **overly generic**, lacking explicit references to **observable actions, expected performance, or criteria for success**. This level of abstraction limits both instructional usability and reliable assessment, as it obscures what constitutes satisfactory demonstration of the competency within the task context.
 
-#### Action Items
-- Revise all competency descriptions to include specific, measurable language and action verbs reflecting task requirements.
+To address these issues, the review emphasizes the need to **strengthen the operational character of competency descriptions**, ensuring that each competency clearly communicates what learners are expected to do and how their performance can be evaluated.
 
-- Review the scope across competencies to prevent redundancy and ensure each has a distinct focus.
+#### **Action Items**
+
+* **Revise all competency descriptions** to incorporate **specific, measurable language** and **Bloom-aligned action verbs** that directly reflect the task requirements and expected learner performance;
+
+* **Review the scope and boundaries of the competency set** to eliminate redundancy and ensure that each competency maintains a **distinct and non-overlapping instructional focus**.
+
+
 
 
 
@@ -128,39 +143,60 @@ Reviewers noted that the existing wording is too generic and fails to specify ob
 | **Granularity & Scope**  |  No                    | Is the content scoped correctly—not too broad nor overly detailed?              |
 
 
-#### Reviewer Recommendations
-- Omit Church–Turing Thesis: Remove this knowledge item, as it does not support the modeling or simulation of TMs for traffic data (agreed by both reviewers).
 
-- Refine knowledge granularity
+#### **Reviewer Recommendations**
+
+Based on the expert review, the following recommendations were identified as necessary to improve alignment between the task, the competency specifications, and the intended learning outcomes:
+
+* **Remove the Church–Turing Thesis**
+  Omit this knowledge element from the competency specifications, as it is **not operationally required** for the modeling, application, or simulation of Turing Machines in the context of traffic data processing. Both reviewers agreed that its inclusion introduces theoretical overhead without contributing to observable task performance.
+
+* **Refine knowledge granularity**
+  Increase the level of specificity of the knowledge components, replacing broad or abstract categories with **precise, task-aligned knowledge units** that directly support assessment and instructional clarity.
 
 
-### **Decision Thresholds**
 
-- Needs Revision
+### **Decision Threshold**
 
+* **Needs Revision**
 
-
-## 6. Recommendations Synthesis
-
-Based on the reviewer’s feedback, several key changes are recommended to improve the competency specification for Task 02. These recommendations address issues of overly fine detail, unnecessary theoretical content, and inconsistent tone in the current document:
-
-- **Knowledge Granularity** 
-    * Decompose broad topics into specific knowledge elements aligned with task steps.
-
-* **Eliminate Irrelevant Theoretical Knowledge in Competencies B and C:** 
-    * Ensure that the knowledge elements listed for Competencies B and C are directly relevant to what the task requires the student to do. 
-    
-    * In practice, this means removing concepts like the *Church-Turing Thesis* from the knowledge lists, since Task 02 does not actually address or require working knowledge of this theory. All listed knowledge points should reflect topics the task genuinely covers or reinforces, so that the competency specification remains tightly aligned with the task’s content.
-
-* **Reformulate Wording for Clarity and Appropriateness:** 
-    * Rewrite sections of the competency descriptions to strike a better balance between being too generic and too directive. The language should be specific enough to give clear guidance on the expected outcomes (avoiding vague generalities), yet not so prescriptive that it reads like step-by-step instructions for the task. 
-    
-Implementing the above recommendations will result in a more concise and relevant set of competencies for Task 02. The changes focus the competency specification on essential skills and knowledge actually practiced in the task, and they improve the clarity of expectations for learners. 
+The competency specifications require targeted revisions to address the identified issues before being considered fully aligned with the task scope and instructional objectives.
 
 
 
 
 
-## 7. Conclusion & Decision
 
-In conclusion, addressing the issues identified by the reviewer will significantly strengthen the Competency Specification for Task 02. By removing extraneous theoretical content and reducing the level of unnecessary detail, the competencies become more closely tailored to the task’s actual learning outcomes. Likewise, the reformulated wording provides clearer guidance without over-constraining how students achieve the task, thereby maintaining flexibility in implementation. Overall, these refinements ensure that Task 02’s competency definitions are **appropriately scoped, relevant, and clearly articulated**, which will help both instructors and students focus on the intended learning goals.
+
+## **6. Recommendations Synthesis**
+
+Based on the expert review, a set of **focused and convergent recommendations** was identified to improve the competency specification for *Task 02*. These recommendations address issues related to **knowledge granularity**, **the inclusion of non-operational theoretical content**, and **the clarity and appropriateness of competency descriptions**.
+
+* **Knowledge Granularity**
+
+  * Refine broad or aggregated knowledge categories by **decomposing them into specific, task-aligned knowledge elements** that directly support the steps and decisions required by the activity. This refinement enhances assessability and strengthens the link between declared knowledge and observable performance.
+
+* **Elimination of Non-Essential Theoretical Knowledge**
+
+  * Review the knowledge components associated with **Competencies B and C** to ensure that all listed elements are **directly exercised by the task**.
+  * In particular, remove references to the **Church–Turing Thesis**, as *Task 02* does not require students to engage with this theory in an applied or assessable manner. All retained knowledge elements should correspond to concepts that are explicitly addressed, practiced, or reinforced through the task activities.
+
+* **Reformulation of Competency Descriptions**
+
+  * Revise competency descriptions to achieve a more appropriate balance between **generality and prescription**. Descriptions should be sufficiently explicit to communicate **expected outcomes and observable behaviors**, while avoiding language that constrains students to a single procedural path or reads as step-by-step task instructions.
+
+Collectively, these recommendations aim to **streamline and sharpen the competency specification**, ensuring that it remains tightly aligned with the actual instructional scope of *Task 02* and supports clear communication of expectations to both instructors and learners.
+
+
+
+## **7. Conclusion and Decision**
+
+Addressing the issues identified during the expert review will substantially strengthen the competency specification for *Task 02*. By **removing extraneous theoretical content**, refining knowledge granularity, and improving the clarity of competency descriptions, the revised specification becomes more closely aligned with the task’s **intended learning outcomes and assessment practices**.
+
+The proposed refinements also preserve instructional flexibility, providing clear guidance on expected performance without over-constraining how learners approach the task. As a result, the competency definitions become **appropriately scoped, relevant, and clearly articulated**, supporting effective teaching, learning, and assessment within the CSP framework.
+
+### **Decision**
+
+* **Approved with Revisions**
+
+Upon implementation of the recommended adjustments, the competency specification for *Task 02* will constitute a **coherent, task-aligned, and reusable artifact**, suitable for application in competency-based and problem-based Computing Education contexts.
