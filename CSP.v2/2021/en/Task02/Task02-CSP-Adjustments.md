@@ -69,8 +69,25 @@ This competency requires learners to analyze the demands of a computational task
 
 Through the use of critical reasoning and modeling skills, students are expected to justify the use of specific Turing Machine variants and effectively implement them to represent or simulate solutions to formal problems in computer science.
 
+### Competency D Specification
+
+### Competency Title
+
+  Test Turing Machines Using Simulators
 
 
+### **Competency Description — Revised **
+
+Demonstrate the ability to **test, validate, and refine Turing Machine models** through **formal simulation tools** such as **JFLAP** or equivalent environments. This competency focuses on verifying whether a Turing Machine behaves as specified, ensuring **correctness, completeness, and conformity with formal problem requirements**.
+
+Learners must be able to:
+
+* **Execute Turing Machines using simulation tools**, systematically testing configurations, transitions, and halting conditions;
+* **Analyze and interpret machine behavior**, comparing observed execution traces and outputs with expected results derived from the formal specification;
+* **Identify and diagnose modeling errors or inconsistencies**, including incorrect transitions, missing states, or improper tape handling;
+* **Iteratively refine the model** through structured testing and debugging, improving reliability and functional adequacy.
+
+This competency emphasizes the **operational validation of formal computational models**, highlighting simulation as a critical mechanism for ensuring the correctness and robustness of Turing Machine–based solutions.
 
 
 ## Table of Competencies for Task: *Traffic Control*

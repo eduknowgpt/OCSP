@@ -1,145 +1,242 @@
-# CSP Review Adjustments Report: Task03 - Farming Robot
+# **CSP Review Adjustments Report: Task 03 – *The Farmer Robot***
 
-## Introduction  
+## **Introduction**
 
-The review process, informed by the expert feedback, identified **key areas for improvement** in the competency specification framework. These insights were categorized into **five major themes**:  
-- **Knowledge Granularity** → Ensuring an appropriate level of detail.  
-- **Knowledge Appropriateness** → Aligning competencies with relevant and applicable knowledge.  
-- **Controlled Vocabulary** → Standardizing terminology to enhance consistency.  
-- **Bloom’s Taxonomy Verbs** → Improving clarity in skill descriptions.  
-- **Textual Clarity** → Refining descriptions to avoid ambiguities.   
+The expert review process identified a set of **systematic improvement opportunities** in the competency specification associated with *Task 03 – The Farmer Robot*. These opportunities were derived from a structured evaluation of the competency model and were consolidated into **five core adjustment dimensions**, each addressing a specific aspect of conceptual precision, pedagogical alignment, and representational consistency:
 
-Based on these recommendations, **several refinements were implemented** to improve the specificity, clarity, and reusability of competencies.
+* **Knowledge Granularity** — calibrating the level of detail to ensure conceptual precision without unnecessary abstraction;
+* **Knowledge Appropriateness** — ensuring that all knowledge elements are directly relevant to, and exercised by, the task requirements;
+* **Controlled Vocabulary** — standardizing terminology to promote consistency, interoperability, and reuse across competency specifications;
+* **Bloom’s Taxonomy Verbs** — refining action verbs to clearly express observable skills and intended cognitive levels;
+* **Textual Clarity** — improving wording to eliminate ambiguity, redundancy, and overly prescriptive formulations.
 
-## **Review Findings and Implemented Adjustments**  
-
-### **Knowledge Granularity Refinement**  
-Following the reviewers' insights, **the knowledge classification system was updated from CC2012 to CS2013**, which offers a more **fine-grained** and **hierarchical** taxonomy. This change ensures **greater specificity**, making competencies **more reusable** and **better aligned with educational tasks**.  
-  - **"Requirements Analysis"** was **redefined** as **"Requirements Engineering"**.  
-  - **"Finite Automata"** was **redefined** as **"Finite State Machines"**.  
+In response to these findings, a set of **targeted revisions** was implemented to strengthen the **specificity, coherence, and reusability** of the competency specifications. These adjustments ensure tighter alignment between the task scenario, learning objectives, and competency definitions, reinforcing the role of the CSP as an **iterative and systematic process** for developing high-quality competency artifacts.
 
 
-## Revised Competency Specification for Task 03
 
-### Competency Reuse 
+## **Review Findings and Implemented Adjustments**
 
-    > Testing Automata Using Simulators 
+### **Knowledge Granularity Refinement**
 
-    > Write a technical report
+In line with the expert recommendations, the **knowledge classification system was updated from CC2012 to CS2013**, which provides a **more fine-grained, hierarchical, and education-oriented taxonomy**. This transition enables more precise annotation of knowledge elements, supports clearer differentiation among concepts, and enhances the **reusability and interoperability** of competencies across instructional contexts.
 
-    > Define Regular Expressions for Finite Automata
+As part of this refinement, terminology was also aligned with established usage in Computing and Systems Engineering:
 
-The competency “Define Regular Expressions for Finite Automata,” originally specified in Task 01, was revised for enhanced clarity and comprehension.
+* **“Requirements Analysis”** was refined to **“Requirements Engineering”**, reflecting a more precise and widely accepted designation for activities involving requirements elicitation, specification, and validation;
 
-During the review process, it was observed that Tasks 01 and 03 share the competency *"Define Regular Expressions for Finite Automata"*. This competency focuses on the student's ability to translate finite automata into equivalent regular expressions, emphasizing a solid understanding of the relationship between state-based computational models and formal language representations. 
+* **“Finite Automata”** was refined to **“Finite State Machines”**, improving conceptual specificity and aligning the knowledge representation with the operational focus of the task.
 
-Students are expected to demonstrate the skill of accurately converting automata into regular expressions that preserve the original machine’s behavior and structure, thereby reinforcing both theoretical knowledge and its practical application in language recognition.  
-
-
-### Competency Specification  
-
-### 1 Competency Title
-
-    Develop Problem-Solving Solutions Using Finite State Machines
-
-### 2 Textual Description
-
-Design and implement computational solutions using **Finite State Machines (FSMs)** to model systems characterized by states and transitions, in both real-world and instructional contexts. This competency emphasizes the ability to translate system requirements into formal models that are logically consistent, verifiable, and aligned with the principles of automata theory.
-
-Students are expected to demonstrate proficiency in:
-- Analyzing and interpreting system specifications;
-- Applying theoretical knowledge of FSMs to construct accurate behavioral models;
-- Ensuring that the resulting models are functionally correct, logically sound, and suitable for the intended purpose.
-
-This competency fosters the integration of formal methods and problem-solving skills, preparing students to approach system modeling tasks with both rigor and practical insight.
+Together, these adjustments improve the **conceptual accuracy**, **instructional relevance**, and **assessability** of the knowledge components, ensuring that all retained elements are explicitly exercised by learners and clearly aligned with the task’s expected outcomes.
 
 
-### 3 Knowledge Specification
 
-The following knowledge areas are critical for this competency:
+## **Revised Competency Specification for Task 03**
+
+### **Competency Reuse**
+
+The following competencies, previously specified and validated in earlier tasks, are **reused in Task 03** to ensure curricular coherence and cumulative learning:
+
+* **Testing Automata Using Simulators**
+* **Writing a Technical Report**
+* **Define Regular Expressions for Finite Automata**
+
+The competency **“Define Regular Expressions for Finite Automata,”** originally specified in *Task 01*, was **revisited and refined** to improve clarity and instructional transparency prior to its reuse in *Task 03*.
+
+During the expert review, it was observed that *Tasks 01 and 03* share this competency, as both require learners to **establish formal equivalence between finite automata and regular expressions**. This competency emphasizes the ability to translate **state-based computational models** into **formal language representations**, reinforcing the conceptual connection between automata theory and regular language specification.
+
+Learners are expected to **construct regular expressions that are behaviorally equivalent to given finite automata**, preserving accepted transitions, accepted languages, and structural constraints. This activity consolidates theoretical understanding while promoting its **practical application** in language recognition and formal modeling tasks.
+
+By reusing this competency, *Task 03* benefits from an already validated and refined specification, while reinforcing **instructional coherence, competency reuse, and cumulative skill development** across the CSP.
+
+
+
+
+
+
+
+## Competency C06 Specification
+
+### Competency Title
+
+  Develop Problem-Solving Solutions Using Finite State Machines
+
+
+
+### Textual Description
+
+Design and implement computational solutions using **Finite State Machines (FSMs)** as formal models for systems governed by discrete states and transitions. This competency focuses on translating system requirements into **precise, verifiable, and logically consistent FSM representations**, grounded in the principles of automata theory.
+
+Learners are expected to:
+
+* Analyze and interpret functional system requirements;
+* Construct FSMs that accurately model system behavior through well-defined states and transitions;
+* Validate that the resulting models are logically sound, functionally correct, and appropriate to the intended context.
+
+This competency integrates **formal modeling techniques** with **structured problem-solving**, enabling students to approach system design tasks with rigor, clarity, and practical relevance.
+
+
+
+### Knowledge Specification
+
+The following knowledge areas are essential for demonstrating this competency:
 
 * **Finite State Machines**
-  Understand and apply the structure, behavior, and applications of deterministic and non-deterministic automata to model sequential systems.
+  Understanding the structure, semantics, and behavior of deterministic and non-deterministic FSMs, and their application in modeling sequential systems.
 
-* **Requirements Analysis (Engineering)**
-  Identify, interpret, and translate system requirements into formal specifications for FSM design.
+* **Requirements Engineering**
+  Identifying, interpreting, and formalizing system requirements to support systematic FSM design.
 
-* **Analytical and Critical Thinking**
-  Break down the problem, assess constraints and goals, and select appropriate modeling strategies to guide the design process.
-
-
-### 4 Knowledge-Skill Pairing
-
-* Apply knowledge of **Finite Automata** to **design** models that reflect real-world behaviors through structured state transitions.
-
-* **Apply** **Requirements Analysis** to understand the user’s expectations and translate them into clear formal specifications that guide FSM design.
-
-* **Apply** **Analytical and Critical Thinking (FPK)** to interpret the problem, analyze possible design paths, and justify modeling decisions based on logic and feasibility.
-
-
-### 5 Summary Table for Competency 
-
-| **Competency**                                                    | **Dispositions**                                           | **Knowledge**                          | **Skill**                                 |
-| ----------------------------------------------------------------- | ---------------------------------------------------------- | -------------------------------------- | ----------------------------------------- |
-| **Develop Problem-Solving Solutions Using Finite State Machines** | Inventive, Collaborative, Responsible, Proactive, Creative | Finite State Machines                  | **Create (Design, Develop, Construct)** **                        |
-|                                                                   |                                                            | Requirements Engineering                  | **Apply (Interpret, Specify, Translate)** |
-|                                                                   |                                                            | Analytical and Critical Thinking (FPK) | **Apply**    |
+* **Analytical and Critical Thinking (FPK)**
+  Decomposing problems, evaluating constraints and objectives, and selecting appropriate modeling strategies to justify design decisions.
 
 
 
-### **Competency Specification**
+### **Disposition Specification**
 
-### **1 Competency Title**
+The execution of FSM-based problem-solving tasks requires the following behavioral dispositions:
 
-    Identify Patterns in Finite State Machines
+* **Analytical** — systematically reason about states, transitions, and constraints;
+* **Responsible** — ensure correctness, consistency, and traceability of models;
+* **Proactive** — anticipate modeling issues and refine solutions iteratively;
+* **Collaborative** — discuss and validate models with peers when applicable.
+
+
+
+### **Knowledge–Skill Pairing**
+
+To demonstrate this competency, learners must be able to:
+
+* **Apply** knowledge of **Finite State Machines** to **design** formal models that represent system behavior through structured state transitions.
+
+* **Apply** principles of **Requirements Engineering** to elicit and translate stakeholder needs into formal specifications that guide FSM construction.
+
+* **Apply** **Analytical and Critical Thinking (FPK)** to analyze constraints, evaluate alternative designs, and justify modeling decisions based on correctness and feasibility.
+
+
+
+### **Bloom’s Taxonomy Alignment**
+
+This competency is primarily aligned with **Bloom’s Revised Taxonomy** at the **Apply** level:
+
+* **Finite State Machines — Apply**
+  Learners apply theoretical knowledge to construct and validate FSM models.
+
+* **Requirements Engineering — Apply**
+  Learners apply requirement analysis techniques to structure FSM specifications.
+
+* **Analytical and Critical Thinking (FPK) — Apply**
+  Learners apply structured reasoning to select and justify modeling strategies.
+
+
+
+### **Verb Annotation**
+
+The following verbs define the expected observable actions:
+
+* **Apply → Finite State Machines**
+  *Design, Construct, Model, Validate*
+
+* **Apply → Requirements Engineering**
+  *Interpret, Specify, Translate*
+
+* **Apply → Analytical and Critical Thinking (FPK)**
+  *Analyze, Evaluate, Justify*
+
+
+
+### **Summary Table — Competency**
+
+| **ID** | **Competency**                                                | **Dispositions**                                  | **Knowledge**                          | **Skill (Bloom)**                       |
+| ------ | ------------------------------------------------------------- | ------------------------------------------------- | -------------------------------------- | --------------------------------------- |
+| C06    | Develop Problem-Solving Solutions Using Finite State Machines | Analytical, Responsible, Proactive, Collaborative | Finite State Machines                  | **Apply (Design, Construct, Validate)** |
+|        |                                                               |                                                   | Requirements Engineering               | **Apply (Interpret, Specify)**          |
+|        |                                                               |                                                   | Analytical and Critical Thinking (FPK) | **Apply (Analyze, Justify)**            |
+
+
+
+
+## **Competency C11 Specification**
+
+### **Competency Title**
+
+  Identify Patterns in Finite State Machines
+
 
 
 ### **Textual Description**
 
-This competency focuses on the ability to **analyze the structure and behavior of Finite State Machines (FSMs)** to identify recurring patterns, regularities, or redundancies that influence model complexity, efficiency, and expressiveness. It involves recognizing how input categories, transition logic, and state configurations impact the design and performance of computational models.
+This competency addresses the ability to **analyze the structure and behavior of Finite State Machines (FSMs)** in order to identify recurring patterns, regularities, and redundancies that affect **model complexity, efficiency, and expressiveness**. It involves recognizing how input classifications, transition structures, and state configurations influence both the behavior and the optimization potential of FSM-based models.
 
-Students are expected to demonstrate proficiency in examining FSMs, detecting structural patterns, and applying **analytical and critical thinking** to interpret system behavior, optimize models, and justify design decisions grounded in formal reasoning.
+Learners are expected to examine FSM representations, detect **structural and behavioral patterns**, and apply **analytical and critical reasoning** to interpret system behavior, support simplification or refinement decisions, and justify design choices based on formal modeling principles.
+
+This competency supports the development of **model abstraction skills**, enabling students to reason beyond individual states and transitions and to recognize higher-level regularities that inform effective FSM design.
 
 
-### **3 Knowledge Specification**
 
-The following knowledge areas are essential for this competency:
+### **Knowledge Specification**
+
+The following knowledge areas are essential for demonstrating this competency:
 
 * **Finite State Machines (FSMs)**
-  *Understand the structural characteristics of FSMs—including states, transitions, determinism, and minimization—and how these features impact the representation and optimization of computational behaviors.*
+  Understanding the structural properties of FSMs—including states, transitions, determinism, equivalence, and minimization—and how these elements influence the representation and optimization of computational behavior.
 
-* **Analytical and Critical Thinking**
-  *Apply logical reasoning and pattern recognition to detect underlying structures, draw evidence-based inferences, and make informed decisions about FSM design and refinement.*
-
-
-### **5.1 Mapping Knowledge to Skills**
-
-To demonstrate this competency, students must be able to:
-
-* **Analyze** knowledge of **Finite State Machines** to examine state architectures, identify emerging patterns, and evaluate how input classifications influence transitions and model complexity.
-
-* **Apply** knowledge of **Analytical and Critical Thinking** to detect structural regularities, formulate reasoned inferences, and refine FSM representations based on task-specific requirements and logical coherence.
-
-
-### **5.3 Verb Annotation**
-
-The following action verbs, aligned with Bloom’s Taxonomy, illustrate how each knowledge area supports the development of relevant skills:
-
-* **Analyze** → *Finite State Machines*
-  → *Examine*, *Evaluate*, *Compare*
-
-* **Apply** → *Analytical and Critical Thinking*
-  → *Infer*, *Justify*, *Interpret*
+* **Analytical and Critical Thinking (FPK)**
+  Applying logical reasoning and pattern recognition to identify underlying structures, draw evidence-based inferences, and support informed decisions about FSM analysis and refinement.
 
 
 
+### **Disposition Specification**
 
-### 6 Summary Table for Competency C
+The identification of patterns in FSMs requires the following behavioral dispositions:
 
-| **Competency**                                           | **Dispositions**                | **Knowledge**                          | **Skill**                              |
-| -------------------------------------------------------- | ------------------------------- | -------------------------------------- | -------------------------------------- |
-| **Identify Patterns in Finite State Machines** | Inventive, Creative, Meticulous | Finite State Machines                  | **Analyze (Examine, Evaluate, Compare)** |
-|                                                          |                                 | Analytical and Critical Thinking (FPK) | **Apply (Infer, Justify, Interpret)**  |
+* **Analytical** — systematically examine state-transition structures and behavioral regularities;
+* **Meticulous** — attend to detail when comparing states, transitions, and input patterns;
+* **Creative** — recognize alternative abstractions or simplifications of FSM structures;
+* **Inventive** — propose refined or optimized representations based on identified patterns.
+
+
+
+### **Knowledge–Skill Pairing**
+
+To demonstrate this competency, learners must be able to:
+
+* **Analyze** knowledge of **Finite State Machines** to examine state architectures, identify recurring transition patterns, and evaluate how input classifications affect model structure and complexity.
+
+* **Apply** **Analytical and Critical Thinking (FPK)** to infer structural regularities, justify interpretations of FSM behavior, and support refinement or optimization decisions grounded in formal reasoning.
+
+
+### **Bloom’s Taxonomy Alignment**
+
+This competency is aligned with **Bloom’s Revised Taxonomy** at two complementary cognitive levels:
+
+* **Finite State Machines — Analyze**
+  Learners analyze FSM structures to compare states, transitions, and behavioral patterns.
+
+* **Analytical and Critical Thinking (FPK) — Apply**
+  Learners apply structured reasoning to interpret identified patterns and justify modeling decisions.
+
+
+
+### **Verb Annotation**
+
+The following verbs define the expected observable actions associated with this competency:
+
+* **Analyze → Finite State Machines**
+  *Examine, Evaluate, Compare*
+
+* **Apply → Analytical and Critical Thinking (FPK)**
+  *Infer, Interpret, Justify*
+
+
+
+### **Summary Table — Competency**
+
+| **Competency**                                 | **Dispositions**                            | **Knowledge**                          | **Skill (Bloom)**                        |
+| ---------------------------------------------- | ------------------------------------------- | -------------------------------------- | ---------------------------------------- |
+| **Identify Patterns in Finite State Machines** | Analytical, Meticulous, Creative, Inventive | Finite State Machines                  | **Analyze (Examine, Evaluate, Compare)** |
+|                                                |                                             | Analytical and Critical Thinking (FPK) | **Apply (Infer, Interpret, Justify)**    |
+
+
 
 
 
