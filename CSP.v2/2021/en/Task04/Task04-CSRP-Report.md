@@ -1,30 +1,31 @@
-# Expert Review: Task04 –  The Return of the Farmer Robot
+# **Expert Review: Task 04 – *The Return of the Farmer Robot***
 
 ## **1. Introduction**
 
-Building on the **Competency Specification Process (CSP) framework**, this report documents **Phase 2 – Competency Expert Review** for the PBL task “The Return of the Farmer Robot”. The purpose of this phase is to systematically and collaboratively validate the competency specifications—encompassing their knowledge, skills, and dispositions—for:
+Building on the **Competency Specification Process (CSP)** framework, this report documents **Phase 2 — Competency Expert Review** for the Problem-Based Learning (PBL) task *“The Return of the Farmer Robot.”* This phase is dedicated to the **systematic technical validation** of the competency specifications associated with the task, focusing on their **Knowledge, Skills, and Dispositions (K–S–D)** structure.
 
-- Accuracy and theoretical soundness, reflecting domain expertise
+The primary objective of this review is to evaluate the competency specifications according to the following quality dimensions:
 
-- Clarity and internal consistency, ensuring precise and unambiguous competencies
+* **Theoretical accuracy and conceptual soundness**, ensuring alignment with formal foundations in Automata Theory, Formal Languages, and Computational Modeling;
+* **Clarity and internal consistency**, promoting precise, unambiguous, and reusable competency definitions;
+* **Pedagogical alignment**, verifying coherence between competencies, learning objectives, expected deliverables, and assessment practices;
+* **Contextual applicability**, assessing the feasibility and instructional relevance of the competencies within the task’s problem-based scenario.
 
-- Pedagogical alignment, confirming relevance to intended learning outcomes
+The review is grounded in **qualified expert judgment** and follows a **structured, artifact-centered evaluation protocol**. Domain specialists examined the competency specifications using predefined criteria to assess the adequacy, relevance, and coherence of the associated K–S–D elements. The analysis focuses exclusively on the **educational artifact**—namely, the task description and its competency model—and does not involve the collection or interpretation of personal, behavioral, or identifiable participant data.
 
-- Contextual applicability, evaluating real-world feasibility and educational value
+This report synthesizes the outcomes of the expert review and formulates **actionable recommendations** aimed at improving the conceptual precision, pedagogical coherence, and instructional usability of the competency specifications.
 
-The review draws on expert judgment and is supported by a structured set of evaluation criteria. Feedback was collected from experienced instructors through guided interviews, enabling a detailed appraisal of the competency elements—knowledge, skills, and dispositions—mapped to the task. This report synthesizes the findings and offers recommendations to improve the coherence, clarity, and instructional value of the competency specifications.
+The findings are organized according to the stages of the **Competency Specification Protocol**, comprising:
 
-The findings follow the stages of the Competency Specification Protocol:
+* **Instructional-context analysis**, validating task scope, complexity, and competency coverage;
+* **Item-level evaluation**, identifying strengths, inconsistencies, and elements requiring refinement;
+* **Cross-criterion synthesis**, integrating findings related to accuracy, clarity, alignment, and relevance;
+* **Recommendations**, proposing concrete adjustments to optimize the competency framework.
 
-- Instructional-context analysis: Validating task complexity and competency requirements
+By situating this analysis within **Phase 2 of the CSP**, the report contributes to the **iterative refinement and stabilization** of competency specifications, ensuring that they are **theoretically rigorous, pedagogically robust, and suitable for reuse** across similar instructional contexts in Computing Education.
 
-- Item-level evaluation: Identifying strengths, inconsistencies, and areas needing clarification
 
-- Compreensive synthesis: Integrating findings across clarity, accuracy, alignment, and relevance
 
-- Recommendations: Offering concrete enhancements to optimize the competency model
-
-By anchoring the review in Phase 2 of CSP, this report ensures that the competency specifications are theoretically rigorous, pedagogically robust, and educationally effective.
 
 
 ## 2. Instructional Entity Summary
@@ -64,13 +65,21 @@ According to protocol guidelines:
 | **Appropriateness**   |  No                    | Is the level of detail correctly balanced—not too general or too granular? |
 
 
-### Reviewer Recommendations
+### **Reviewer Recommendations**
 
-* The current knowledge components were found to be **too broad or misaligned** with the specific learning goals of this task.
+Based on the expert review, the following recommendations were identified to improve the alignment between the competency specifications and the instructional demands of *Task 04 – The Return of the Farmer Robot*:
 
-* The use of **“Finite Automata”** as a knowledge item should be replaced with **“Pushdown Automata (PDAs)”**, which more accurately reflects the complexity and requirements of the modeled behavior.
+* **Refine knowledge components for task alignment**
+  The current knowledge elements were found to be **overly broad or insufficiently aligned** with the specific learning objectives of the task. It is recommended to refine these components to better reflect the conceptual and operational demands of the problem scenario.
 
-* Knowledge elements should be explicitly tied to **context-specific modeling demands**, particularly where memory-based state transitions are critical (e.g., return navigation).
+* **Replace “Finite Automata” with “Pushdown Automata (PDAs)”**
+  The use of **Finite Automata** was deemed inadequate to model the behaviors required by the task, particularly those involving **memory-dependent state transitions**. Replacing this knowledge element with **Pushdown Automata (PDAs)** more accurately captures the computational power and structural features necessary to represent the task’s requirements.
+
+* **Strengthen contextual linkage of knowledge elements**
+  Knowledge components should be explicitly tied to **context-specific modeling requirements**, especially in aspects where **stack-based memory** is essential, such as navigation, backtracking, or return-path behavior. This linkage reinforces the relevance and assessability of the competency specifications.
+
+
+
 
 
 
@@ -89,52 +98,75 @@ According to protocol guidelines:
 
 
 
-## 5. Competency Definitions Review
+Perfeito. Segue a **versão aprimorada apenas dessa primeira parte**, com **menos redundância**, **maior objetividade** e **tom mais técnico**, mantendo o conteúdo decisório intacto.
 
-### Knowledge Evaluation
 
-The list below summarizes specific refinements recommended for each competency associated with Task 04:
+
+## **5. Competency Definitions Review**
+
+### **Knowledge Evaluation**
+
+The expert review identified the need for **focused refinements** in the knowledge components associated with the competencies of *Task 04 – The Return of the Farmer Robot*. These refinements are required to ensure **conceptual adequacy**, **cognitive coherence**, and **alignment between the declared computational models and the task’s operational demands**.
+
+
+Following the knowledge misalignment identified in Section 3, the following competency-level adjustments were required:
 
 #### **Develop Problem-Solving Solutions Using Automata**
 
-* **Replace knowledge**:
+* **Knowledge Update**
 
-  * From: *Finite Automata*
-  * To: *Pushdown Automata (PDAs)*
-* Justification: PDAs better reflect the stack-based memory needed for modeling return paths in robotic navigation.
+  * **Replace:** *Finite Automata*
+  * **With:** *Pushdown Automata (PDAs)*
+
+* **Rationale**
+  The task involves behaviors that rely on **memory-dependent navigation**, such as returning to previously visited locations. **Pushdown Automata**, through their stack-based memory, provide the minimal expressive power required to model these behaviors, whereas Finite Automata are insufficient for this purpose.
+
+
 
 #### **Interpret Rule-Based Notation**
 
-* **Replace knowledge**:
+* **Knowledge Update**
 
-  * From: *Finite Automata*
-  * To: *Pushdown Automata (PDAs)*
-* **Update language knowledge**:
+  * **Replace:** *Finite Automata*
+  * **With:** *Pushdown Automata (PDAs)*
 
-  * From: *Regular Languages*
-  * To: *Context-Free Grammars* and *Context-Free Languages*
-* **Bloom level**:
+* **Language Knowledge Update**
 
-  * Align with *Understand* — focusing on interpreting and relating symbolic rule structures.
+  * **Replace:** *Regular Languages*
+  * **With:** *Context-Free Grammars (CFGs)* and *Context-Free Languages (CFLs)*
+
+* **Bloom Alignment**
+
+  * **Understand** — focused on interpreting, recognizing, and relating symbolic rule structures to their corresponding grammatical and automata representations.
+
+* **Rationale**
+  The interpretation of rule-based notation in this task depends on **hierarchical and nested structures**, which exceed the expressive power of Finite Automata. Aligning this competency with **PDAs and context-free formalisms** ensures conceptual and pedagogical coherence.
+
+
 
 #### **Differentiate Classifications of Formal Grammars**
 
-* **Replace knowledge**:
+* **Knowledge Update**
 
-  * From: *Finite Automata*
-  * To: *Pushdown Automata (PDAs)*
-* **Update language knowledge**:
+  * **Replace:** *Finite Automata*
+  * **With:** *Pushdown Automata (PDAs)*
 
-  * From: *Regular Languages*
-  * To: *Context-Free Grammars* and *Context-Free Languages*
-* **Bloom level**:
+* **Language Knowledge Update**
 
-  * Align with *Understand* — supporting learners in recognizing distinctions across grammar types and their corresponding automata.
+  * **Replace:** *Regular Languages*
+  * **With:** *Context-Free Grammars (CFGs)* and *Context-Free Languages (CFLs)*
+
+* **Bloom Alignment**
+
+  * **Understand** — supporting conceptual comparison and differentiation across grammar classes and their associated automata.
+
+* **Rationale**
+  This competency emphasizes **conceptual classification rather than construction or execution**. The proposed alignment ensures engagement with the **appropriate abstraction level** and the formal models actually required by the task.
 
 
-### Decision Thresholds
+### **Decision Threshold**
 
-- Needs Revision 
+* **Needs Revision**
 
 
 
@@ -151,91 +183,57 @@ The list below summarizes specific refinements recommended for each competency a
 | **Verb Effectiveness**      |   Yes                   | Are verbs specific and action-oriented (e.g., “construct,” “analyze,” “evaluate”)                   |
 | **Pairing Justification**   |   No                   | Is it clear how the knowledge element supports the skill?                          |
 
-#### Reviewer Recommendations
+These results indicate that competency descriptions must be reformulated to explicitly reflect PDA-based reasoning and its corresponding cognitive demands.
 
-#### **Interpret Rule-Based Notation**
+## **6. Recommendations Synthesis**
 
-* **Replace knowledge**:
+Based on the expert review and the criteria established by the **Competency Specification Process (CSP)**, the following **prioritized recommendations** are proposed to strengthen the competency framework for *Task 04 – The Return of the Farmer Robot*:
 
-  * From: *Finite Automata*
-  * To: *Pushdown Automata (PDAs)*
-* **Update language knowledge**:
+1. **Realign Knowledge Components to PDA-Based Modeling**
 
-  * From: *Regular Languages*
-  * To: *Context-Free Grammars* and *Context-Free Languages*
-* **Bloom level**:
+   * Replace all references to **Finite Automata** with **Pushdown Automata (PDAs)** to accurately reflect the **stack-based memory requirements** inherent to return-path and navigation behaviors.
+   * Replace **Regular Languages** with **Context-Free Grammars (CFGs)** and **Context-Free Languages (CFLs)** to ensure consistency between grammatical formalisms and the selected computational model.
+   * Explicitly relate knowledge components to **stack operations, nested structures, and path-reversal mechanisms** exercised by the task.
 
-  * Align with *Understand* — focusing on interpreting and relating symbolic rule structures.
+2. **Clarify Cognitive Scope at the Competency Level**
 
-#### **Differentiate Classifications of Formal Grammars**
+   * Standardize **Bloom’s Taxonomy levels** at **Understand** for competencies focused on **interpretation, recognition, and conceptual differentiation** (e.g., grammar classes, rule-based notation).
+   * Review and refine action verbs to ensure they accurately reflect the **intended depth of cognitive engagement** and avoid ambiguity between conceptual understanding and procedural execution.
 
-* **Replace knowledge**:
+3. **Strengthen Knowledge–Skill Pairing Justification**
 
-  * From: *Finite Automata*
-  * To: *Pushdown Automata (PDAs)*
-* **Update language knowledge**:
+   * For each knowledge–skill pairing, include a **concise rationale** explaining how the selected knowledge (e.g., PDAs) supports the expected skill.
+   * Ensure that the relationship between **computational model, learner action, and task requirement** is explicit and logically grounded.
 
-  * From: *Regular Languages*
-  * To: *Context-Free Grammars* and *Context-Free Languages*
-* **Bloom level**:
+4. **Refine Bloom Alignment and Verb Usage**
 
-  * Align with *Understand* — supporting learners in recognizing distinctions across grammar types and their corresponding automata.
+   * Maintain **Understand** for interpretation-oriented competencies.
+   * Where competencies involve **implementation, extension, or modeling activities**, consider higher-order verbs (e.g., *Design*, *Construct*) aligned with **Apply** or **Create**, provided these actions are genuinely required by the task.
 
+5. **Validate Scope Consistency Across the Competency Set**
 
-### Decision Thresholds
-
-- Needs Revision 
+   * Verify that all competencies consistently reference **PDAs and context-free formalisms** where required.
+   * Eliminate any residual references to **Finite Automata** or theoretical constructs not exercised within the task.
 
 
 
+## **7. Conclusion and Decision**
 
-## 6. Recommendations Synthesis
+The current competency framework for *Task 04 – The Return of the Farmer Robot* **requires revision prior to approval** due to:
 
-Based on expert review and CSP criteria, the following prioritized recommendations are proposed to strengthen the competency framework for **Task 04 – The Return of the Farmer Robot**:
+* Inconsistent alignment between declared knowledge and task requirements (PDAs vs. Finite Automata);
+* Insufficient justification in some **knowledge–skill pairings**;
+* Residual inconsistencies in **terminology, Bloom alignment, and model scope**.
 
-1. **Align Knowledge to PDA Usage**
+### **Next Steps**
 
-   * Replace all references to “Finite Automata” with “Pushdown Automata (PDAs)” to reflect stack-based navigation logic.
-   * Replace “Regular Languages” with “Context-Free Grammars/Context-Free Languages” to match PDA modeling.
-   * Ensure domain knowledge is directly tied to stack operations and path reversal behaviors.
+1. Implement the recommended adjustments within the competency specification.
+2. Conduct a **follow-up expert review** with the original panel or additional reviewers.
+3. Prepare the revised specification for **Phase 3 – Semantic Structuring**.
 
-2. **Clarify Competency-Level Understanding**
-
-   * Prestable Bloom levels at *Understand* for concept-related competencies—e.g., interpreting grammars and automaton design rules.
-   * Adjust skill verbs to reflect deeper cognitive engagement where appropriate.
-
-3. **Improve Knowledge–Skill Justification**
-
-   * For each pairing, include a brief rationale linking PDAs to the required skill (e.g., “Understanding PDAs enables modeling of recursion-free return paths”).
-   * Ensure alignment is logical and explicitly stated.
-
-4. **Revise Bloom Alignment and Verbs**
-
-   * Maintain *Understand* for interpretation tasks.
-   * Consider higher-level verbs (e.g., *Design*, *Construct*) for competencies that involve implementing or extending PDAs.
-
-5. **Validate Scope and Coverage Consistency**
-
-   * Confirm that all competencies now reference PDAs and context-free grammars where required.
-   * Eliminate any residual references to finite automata or unrelated theory.
+Once these revisions are completed, the competency framework will be **conceptually coherent, pedagogically sound, and methodologically consistent**, effectively supporting the instructional objectives of *The Return of the Farmer Robot* within a competency-based and problem-based learning context.
 
 
-
-## 7. Conclusion & Decision
-
-The current competency framework for Task 04 requires **Revision** before approval, due to:
-
-* Inconsistent knowledge-task alignment (PDAs vs FSMs)
-* Weak justification in Bloom-aligned skill pairings
-* Misalignment in terminology and model scope
-
-**Next Steps:**
-
-1. Implement the outlined recommendations in the competency specification.
-2. Conduct a follow-up review with the original expert panel or additional reviewers.
-3. Prepare the refined version for Phase 3 – Semantic Structuring.
-
-With these adjustments, the competencies will be both rigorous and pedagogically appropriate, ensuring they effectively support the instructional goals of the “Return of the Farmer Robot” task.
 
 
 

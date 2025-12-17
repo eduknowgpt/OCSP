@@ -1,49 +1,60 @@
-# CSP Review Adjustments Report: Task04 –  The Return of the Farmer Robot
+# **CSP Review Adjustments Report: Task 04 – *The Return of the Farmer Robot***
 
-## Introduction  
+## **Introduction**
 
-The review process, informed by the expert feedback, identified **key areas for improvement** in the competency specification framework. These insights were categorized into **five major themes**:  
-- **Knowledge Granularity** → Ensuring an appropriate level of detail.  
-- **Knowledge Appropriateness** → Aligning competencies with relevant and applicable knowledge.  
-- **Controlled Vocabulary** → Standardizing terminology to enhance consistency.  
-- **Bloom’s Taxonomy Verbs** → Improving clarity in skill descriptions.  
-- **Textual Clarity** → Refining descriptions to avoid ambiguities.   
+Based on the outcomes of the **expert review (CSRP – Phase 2)**, this report documents the **adjustments implemented during the CSP-Adjustments stage** for *Task 04 – The Return of the Farmer Robot*. The purpose of this report is to explicitly register the **concrete modifications applied to the competency specifications**, ensuring traceability between expert recommendations and the finalized competency model.
 
-Based on these recommendations, **several refinements were implemented** to improve the specificity, clarity, and reusability of competencies.
+The review process identified **key improvement dimensions** that guided the implemented changes:
 
+* **Knowledge Granularity** — refining broad concepts into task-relevant and assessable knowledge units;
+* **Knowledge Appropriateness** — aligning declared knowledge with the computational models genuinely required by the task;
+* **Controlled Vocabulary** — standardizing terminology to ensure conceptual precision and reuse across tasks;
+* **Bloom’s Taxonomy Verbs** — refining action verbs to accurately reflect intended cognitive engagement;
+* **Textual Clarity** — revising descriptions to eliminate ambiguity and improve instructional readability.
 
-## Revised Competency Specification for Task 04
-
-### Competency Reuse 
-
-Two competencies:
-
-  - **Testing Automata Using Simulators** and 
-  - **Write a Technical Report**
-  
-are proposed for reuse within this task context. Reviewers concur that these competencies are highly applicable to Task 04, as they address essential skills shared by the same Target Audience Profile:
-
-- Testing Automata Using Simulators: Validates students’ ability to implement and verify PDA-based navigation models using tools like JFLAP—a core requirement for this task.
-
-- Write a Technical Report: Reflects the expectation that learners document their modeling decisions, formal notations, and system logic in structured formats (SBC).
-
-Given that both competencies emerge naturally from the instructional entity’s environment and are directly relevant to task execution, reviewers recommend reusing them verbatim. This approach promotes consistency, efficiency in competency modeling, and alignment with students’ applied work and assessment context.
+In response to these findings, **targeted refinements were implemented** to enhance the **conceptual coherence, pedagogical alignment, and reusability** of the competency specifications. These adjustments ensure that the competencies are **faithfully aligned with the task’s computational demands**—particularly those involving **memory-dependent navigation and return behavior**—and are ready for **Phase 3 – Semantic Structuring** within the CSP.
 
 
-### Competency A Specification
 
-#### A.1 Competency Title
+## **Revised Competency Specification for Task 04**
+
+### **Competency Reuse**
+
+Two previously specified competencies are **reused without modification** in the context of *Task 04 – The Return of the Farmer Robot*:
+
+* **Testing Automata Using Simulators**
+* **Write a Technical Report**
+
+The expert review confirmed that both competencies remain **fully applicable** to Task 04 and are aligned with the same **Target Audience Profile**. Their reuse is justified as follows:
+
+* **Testing Automata Using Simulators**
+  This competency supports learners’ ability to **implement, execute, and verify PDA-based navigation models** using simulation tools such as *JFLAP*. Simulation and validation of automata behavior constitute a **core activity** of Task 04, particularly in evaluating stack-based return-path logic.
+
+* **Write a Technical Report**
+  This competency reflects the requirement that learners **document modeling decisions, formal notations, and system behavior** using structured technical formats (e.g., SBC standards). Clear and systematic reporting is integral to both the learning process and the assessment strategy of the task.
+
+Given that these competencies **naturally emerge from the instructional context** and directly support the task’s execution and evaluation, the reviewers recommended their **verbatim reuse**. This decision promotes **consistency across tasks**, **efficiency in competency modeling**, and **alignment between competency definitions, learner activities, and assessment practices**.
+
+
+
+
+
+### Competency C12 Specification
+
+#### Competency Title
 
   Develop problem-solving solutions using Pushdown Automata
 
-#### A.2 Textual Description
+#### Textual Description
 
-This competency involves the ability to design and implement computational models using Pushdown Automata (PDAs) to represent behaviors that require memory-based decision-making. Learners are expected to model and simulate systems in which stack-based memory is essential for tasks such as backtracking, nested structure recognition, or sequential navigation.
+This competency addresses the ability to design, construct, and validate computational models based on Pushdown Automata (PDAs) to represent behaviors that require stack-based memory and context-sensitive control. Learners are expected to model systems in which memory is essential for tasks such as backtracking, recognition of nested structures, and sequential navigation.
 
-The application of PDAs may span domains such as robotic control, language parsing, or symbolic computation, and requires understanding how transitions, inputs, and stack operations interact to produce context-aware responses. Students should demonstrate the ability to apply formal concepts to construct models that are both theoretically sound and practically effective for solving problems involving structured or hierarchical processes.
+Demonstrating this competency requires understanding how state transitions, input symbols, and stack operations interact to govern system behavior. Students must apply formal principles to construct PDA models that are logically correct, computationally adequate, and aligned with task-specific requirements.
+
+Through this competency, learners develop the capacity to apply formal automata-based reasoning to practical problem scenarios—such as robotic navigation, language parsing, or symbolic processing—bridging theoretical foundations with effective computational solutions.
 
 
-#### A.2 Table for Competency A
+#### Table for Competency C12
 
 | **Competency**                                            | **Dispositions**                                               | **Knowledge**                          | **Skill**                  |
 | --------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------- | -------------------------- |
@@ -53,19 +64,21 @@ The application of PDAs may span domains such as robotic control, language parsi
 
 
 
-### Competency B Specification
 
-#### B.1 Competency Title
+
+### Competency C13 Specification
+
+#### Competency Title
 
   Interpret rule-based notation
 
-#### B.2 Textual Description
+#### Textual Description
 
 This competency involves the ability to understand and interpret formal rule-based notations, such as context-free grammars, used to define and control system behavior through structured symbol sequences. Learners are expected to analyze how production rules govern valid sequences of operations, enabling the representation of decision-making logic, procedural flows, or communication protocols.
 
 This competency is applicable across domains that require symbolic modeling, such as language processing, robotic control, and formal specification. It emphasizes the comprehension of syntax and rule hierarchies, and the capacity to interpret how such notations define constraints and guide execution within computational systems.
 
-#### B.3 Knowledge Specification
+#### Knowledge Specification
 
 The following knowledge areas are essential for mastering this competency:
 
@@ -79,9 +92,9 @@ The following knowledge areas are essential for mastering this competency:
   * Apply reasoning skills to interpret rule sets, validate symbolic behavior representations, and refine grammars for clarity, completeness, and correctness.
 
 
-#### B.5 Knowledge-Skill Pairing
+#### Knowledge-Skill Pairing
 
-**B.5.1 Mapping Knowledge to Skills**
+#### Mapping Knowledge to Skills
 To demonstrate this competency, students must be able to:
 
 * **Understand** knowledge of Context-Free Grammars and Regular Languages to interpret and construct rule-based representations that define valid symbol sequences governing system behavior.
@@ -93,7 +106,7 @@ To demonstrate this competency, students must be able to:
 * **Apply** Analytical and Critical Thinking to examine rule sets, detect inconsistencies or ambiguities, and refine grammar structures to enhance correctness, clarity, and applicability in the system’s domain.
     * Verbs: Analyze, Refine, Validate
 
-#### B.6 Table for Competency B
+#### B.6 Table for Competency C13
 
 | **Competency**                | **Dispositions**                                               | **Knowledge**                          | **Skill**                  |
 | ----------------------------- | -------------------------------------------------------------- | -------------------------------------- | -------------------------- |
@@ -105,20 +118,20 @@ To demonstrate this competency, students must be able to:
 
 
 
-### Competency C Specification
+### Competency C14 Specification
 
-#### C.1 Competency Title
+#### Competency Title
 
   Differentiate classifications of formal grammars
 
-#### C.2 Textual Description
+#### Textual Description
 
 This competency focuses on the ability to understand and differentiate between formal grammar classes, such as regular and context-free grammars, along with their respective computational models (e.g., finite automata and pushdown automata). Learners are expected to analyze the structural characteristics and expressive power of each grammar type and to evaluate their suitability for modeling different types of symbolic control systems or language-based behaviors.
 
 The competency supports critical understanding of the Chomsky hierarchy, enabling students to classify problems according to their grammatical complexity and to make informed decisions when selecting formal representations for system design or analysis.
 
 
-#### C.3 Knowledge Specification
+#### Knowledge Specification
 
 The following knowledge areas are essential for mastering this competency:
 
