@@ -216,6 +216,9 @@ The following knowledge areas are critical for this competency:
 
 
 
+
+
+
 ### B.1 Competency Title
 
 

@@ -216,42 +216,48 @@ These adjustments will contribute to clearer competency definitions and more rel
 
 ## **6. Recommendations Synthesis**
 
-Based on expert feedback and the standards defined by the CSP protocol, a set of **action-oriented recommendations** was formulated to enhance the competency framework associated with *Task 03 – The Farmer Robot*. These recommendations address issues of scope, clarity, cognitive alignment, and instructional relevance.
+Based on the expert review and the criteria established by the **Competency Specification Process (CSP)**, a set of **action-oriented recommendations** was formulated to enhance the competency framework associated with *Task 03 – The Farmer Robot*. These recommendations focus exclusively on the **instructional artifact**—namely, the task description and its competency specifications—and address issues of **scope, clarity, cognitive alignment, and instructional relevance**.
 
 * **Refine Knowledge Components**
 
-  * Decompose broad or aggregated topics into **discrete, task-relevant knowledge units** that directly support learner actions (e.g., refining “Finite State Machine theory” into elements such as **state-transition representations**, **pattern recognition**, or **minimization concepts**, where applicable).
-  * Replace **“Regular Languages”** with **“Regular Expressions”** to ensure alignment with the **concrete artifacts and deliverables** expected from learners.
-  * Remove **irrelevant theoretical topics**, such as the **Chomsky Hierarchy**, which are not addressed by the task description or exercised through student performance.
+  * Decompose broad or aggregated topics into **discrete, task-relevant knowledge elements** that directly support observable learner actions (e.g., refining *Finite State Machine theory* into elements such as **state–transition representations**, **pattern identification**, or **minimization concepts**, where applicable).
+  * Replace **“Regular Languages”** with **“Regular Expressions”** to ensure alignment with the **concrete artifacts and formal representations** expected as task deliverables.
+  * Remove **theoretical topics not exercised by the task**, such as the **Chomsky Hierarchy**, thereby maintaining focus on knowledge that is both instructionally relevant and assessable.
 
 * **Clarify Competency Titles and Descriptions**
 
-  * Adopt **precise, Bloom-aligned action verbs** (e.g., *Design*, *Construct*, *Formulate*) in place of generic terms such as *Determine*, thereby improving the expressiveness and cognitive accuracy of competency titles.
-  * Ensure that each competency title and description clearly reflects the **Task 03 scenario** and the **intended learner outcomes**, avoiding ambiguity or misinterpretation.
-  * Review the competency set holistically to **eliminate redundancy** and maintain clear differentiation of scope and instructional intent across competencies.
+  * Adopt **precise, Bloom-aligned action verbs** (e.g., *Design*, *Construct*, *Formulate*) in place of generic terms such as *Determine*, improving the expressiveness and cognitive accuracy of competency titles.
+  * Ensure that each competency title and description explicitly reflects the **Task 03 problem scenario** and the **intended learning outcomes**, avoiding vague or overly prescriptive formulations.
+  * Review the competency set as a whole to **eliminate redundancy** and preserve clear differentiation of instructional scope and intent.
 
-* **Align Knowledge–Skill Pairings with Bloom Levels**
+* **Align Knowledge–Skill Pairings with Bloom’s Taxonomy**
 
-  * Reassess the cognitive levels associated with each knowledge–skill pairing to ensure consistency with the **complexity and nature of the task activities** (e.g., *Apply*, *Analyze*, *Create*).
-  * Where appropriate, include brief justifications explaining how specific knowledge elements support the demonstration of the corresponding competency.
+  * Reassess the cognitive levels associated with each knowledge–skill pairing to ensure consistency with the **nature and complexity of the task activities** (e.g., *Apply*, *Analyze*, *Create*).
+  * Where appropriate, include **concise justifications** explaining how specific knowledge elements support the demonstration of the associated competency.
 
 * **Enhance Learning Objective Specificity**
 
-  * Exclude **non-essential theoretical content**, such as the **Church–Turing Thesis**, to ensure that learning objectives remain **directly tied to observable and assessable task performance**.
+  * Exclude **non-essential theoretical content**, such as the **Church–Turing Thesis**, to ensure that learning objectives remain **directly connected to observable and assessable task performance**, rather than abstract theoretical discussion.
 
-Collectively, these recommendations aim to produce a **more focused, coherent, and instructionally effective competency specification**, tightly aligned with the actual demands of *The Farmer Robot* task.
-
+Collectively, these recommendations aim to produce a **more focused, coherent, and instructionally effective competency specification**, tightly aligned with the actual cognitive and practical demands of *The Farmer Robot* task.
 
 
 ## **7. Conclusion and Decision**
 
-Implementing the recommended adjustments will significantly enhance the **quality, clarity, and instructional value** of the competency specification for *Task 03 – The Farmer Robot*. By refining knowledge granularity, removing non-relevant theoretical content, and improving the expressiveness of competency descriptions, the revised framework becomes more closely aligned with the task’s **intended learning outcomes and assessment practices**.
+Implementing the recommended adjustments will significantly enhance the **quality, clarity, and instructional robustness** of the competency specification for *Task 03 – The Farmer Robot*. By refining knowledge granularity, removing non-relevant theoretical content, and improving the precision of competency descriptions, the revised framework becomes more closely aligned with the task’s **intended learning outcomes and assessment practices**.
 
-Furthermore, improved alignment with **Bloom’s Revised Taxonomy** and clearer knowledge–skill mappings provide more explicit guidance for both instructors and learners, while preserving flexibility in how the task is approached and solved. These refinements ensure that the competencies are **appropriately scoped, relevant, and clearly articulated**, supporting effective implementation within a competency-based and problem-based learning context.
+Moreover, improved alignment with **Bloom’s Revised Taxonomy** and clearer justification of knowledge–skill pairings provide more explicit guidance for instructors and learners, while preserving flexibility in how solutions are conceived and implemented. These refinements ensure that the competencies are **appropriately scoped, pedagogically sound, and clearly articulated**, supporting effective implementation within a **competency-based and problem-based learning** context.
 
 ### **Decision**
 
 * **Approved with Revisions**
 
-As a next step, the proposed adjustments should be incorporated into the official version of the competency specification, followed by a **follow-up validation cycle** with the same or additional reviewers. This iterative refinement process reinforces the robustness, consistency, and educational effectiveness of the final competency framework.
+### **Next Steps**
+
+1. Incorporate the proposed adjustments into the official competency specification for Task 03.
+2. Conduct a **follow-up expert validation cycle**, if necessary, focusing on the revised artifact.
+3. Prepare the refined specification for **subsequent CSP phases**, including semantic structuring and reuse analysis.
+
+This iterative, artifact-centered refinement process reinforces the **methodological rigor, consistency, and educational validity** of the competency framework, in full alignment with the ethical and procedural boundaries defined by the thesis TCLE.
+
 
