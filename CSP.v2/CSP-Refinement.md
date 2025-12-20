@@ -57,6 +57,7 @@ Contribuição ao CSP:
 Alinhamento direto com os requisitos ontológicos da OntoKSD (competências atômicas, compostas e relações de generalização).
 
 
+
 ## Reuse Analysis Implications for CSP Refinement
 
 The expert review of the CSP application in **Task201** contributed to the identification of **methodological refinements** that emerged from the **iterative application of the CSP in authentic instructional contexts**. Rather than motivating structural modifications to the process, these refinements clarify how existing CSP phases and artifacts can be **more explicitly and consistently operationalized** when competencies are reused across tasks.
@@ -66,7 +67,4 @@ First, the review revealed the importance of **explicitly documenting the mode o
 Second, the application of the CSP highlighted the value of **systematically recording scope tensions** observed in broadly defined competencies, particularly those involving **symbolic or analytical reasoning**. The review indicated that such tensions do not signal deficiencies in the competency framework; instead, they constitute valuable empirical evidence for refining competency descriptions and reuse guidelines, without resorting to unnecessary fragmentation or proliferation of new competencies.
 
 Together, these reuse-related refinements illustrate how the CSP **progressively matures through repeated application and expert review**, strengthening both its procedural clarity and its capacity to support **consistent, transparent, and reusable competency specifications**.
-
-
-
 

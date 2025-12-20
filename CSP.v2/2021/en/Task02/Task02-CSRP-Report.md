@@ -167,36 +167,40 @@ The competency specifications require targeted revisions to address the identifi
 
 
 
-
 ## **6. Recommendations Synthesis**
 
-Based on the expert review, a set of **focused and convergent recommendations** was identified to improve the competency specification for *Task 02*. These recommendations address issues related to **knowledge granularity**, **the inclusion of non-operational theoretical content**, and **the clarity and appropriateness of competency descriptions**.
+Based on the expert review, a set of **focused, convergent, and methodologically grounded recommendations** was identified to improve the competency specification for *Task 02*. These recommendations address issues related to **knowledge granularity**, **the inclusion of non-operational theoretical content**, and the **clarity and functional adequacy of competency descriptions**, while preserving the instructional intent and scope of the task.
 
-* **Knowledge Granularity**
+* **Refinement of Knowledge Granularity**
 
-  * Refine broad or aggregated knowledge categories by **decomposing them into specific, task-aligned knowledge elements** that directly support the steps and decisions required by the activity. This refinement enhances assessability and strengthens the link between declared knowledge and observable performance.
+  * Refine broad or aggregated knowledge categories by **decomposing them into specific, task-aligned knowledge elements** that directly support the actions, decisions, and modeling steps required by the activity. This refinement improves assessability and strengthens the traceability between declared knowledge and **observable learner performance**.
 
 * **Elimination of Non-Essential Theoretical Knowledge**
 
-  * Review the knowledge components associated with **Competencies B and C** to ensure that all listed elements are **directly exercised by the task**.
-  * In particular, remove references to the **Church–Turing Thesis**, as *Task 02* does not require students to engage with this theory in an applied or assessable manner. All retained knowledge elements should correspond to concepts that are explicitly addressed, practiced, or reinforced through the task activities.
+  * Review the knowledge components associated with competencies involving Turing Machines (e.g., **C07–C09**) to ensure that all listed elements are **directly exercised within the task context**.
+  * In particular, remove references to the **Church–Turing Thesis**, as *Task 02* does not require learners to engage with this metatheoretical construct in an applied, observable, or assessable manner. Retained knowledge elements should correspond exclusively to concepts that are explicitly addressed, practiced, or reinforced through task activities.
 
-* **Reformulation of Competency Descriptions**
+* **Reformulation and Stabilization of Competency Descriptions**
 
-  * Revise competency descriptions to achieve a more appropriate balance between **generality and prescription**. Descriptions should be sufficiently explicit to communicate **expected outcomes and observable behaviors**, while avoiding language that constrains students to a single procedural path or reads as step-by-step task instructions.
+  * Revise competency descriptions to achieve a more appropriate balance between **generality and operational clarity**. Descriptions should be sufficiently explicit to communicate **expected outcomes and observable behaviors**, while avoiding overly prescriptive language that constrains learners to a single procedural solution or reads as task instructions.
+  * Ensure that each competency maintains a **distinct instructional focus**, minimizing overlap while preserving reusability across related tasks.
 
-Collectively, these recommendations aim to **streamline and sharpen the competency specification**, ensuring that it remains tightly aligned with the actual instructional scope of *Task 02* and supports clear communication of expectations to both instructors and learners.
+Collectively, these recommendations aim to **stabilize the core semantic scope** of the competency specifications associated with *Task 02*, ensuring alignment with the task’s instructional demands without inflating their cognitive or architectural reach.
+
+Importantly, the expert review recognizes that competencies involving **Turing Machines (C07–C09)** are **intentionally specified at a foundational level** in *Task 02*, focusing on **direct modeling and simulation activities in a single-agent context**. The proposed refinements are therefore intended to improve **clarity, granularity, and assessability within this scope**, rather than to exhaust all possible applications of Turing Machines. More complex scenarios—such as **architectural decision-making, multi-module integration, or comparative use of machine variants**—are explicitly acknowledged as candidates for **future refinement or specialization** in subsequent tasks.
 
 
 
 ## **7. Conclusion and Decision**
 
-Addressing the issues identified during the expert review will substantially strengthen the competency specification for *Task 02*. By **removing extraneous theoretical content**, refining knowledge granularity, and improving the clarity of competency descriptions, the revised specification becomes more closely aligned with the task’s **intended learning outcomes and assessment practices**.
+Addressing the issues identified during the expert review will substantially strengthen the competency specification for *Task 02*. By **removing non-operational theoretical content**, refining the **granularity and relevance of knowledge components**, and improving the **clarity and functional precision of competency descriptions**, the revised specification becomes more closely aligned with the task’s **intended learning outcomes, activities, and assessment practices**.
 
-The proposed refinements also preserve instructional flexibility, providing clear guidance on expected performance without over-constraining how learners approach the task. As a result, the competency definitions become **appropriately scoped, relevant, and clearly articulated**, supporting effective teaching, learning, and assessment within the CSP framework.
+These refinements preserve **instructional flexibility**, providing clear guidance on expected performance while avoiding unnecessary prescriptiveness. As a result, the competency definitions become **appropriately scoped, pedagogically robust, and semantically stable**, supporting effective teaching, learning, assessment, and future reuse within the CSP framework.
 
 ### **Decision**
 
 * **Approved with Revisions**
 
-Upon implementation of the recommended adjustments, the competency specification for *Task 02* will constitute a **coherent, task-aligned, and reusable artifact**, suitable for application in competency-based and problem-based Computing Education contexts.
+Upon implementation of the recommended adjustments, the competency specification for *Task 02* will constitute a **coherent, task-aligned, and reusable artifact**, and will serve as a **stable foundation** for subsequent competency refinement and specialization in more complex instructional contexts.
+
+

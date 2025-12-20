@@ -3,73 +3,93 @@
 **Team Members**: Lais Salvador, Edeyson A. Gomes, Luiz Gavaza
 **Date**: March 21, 2022
 
+
 ## Introduction
 
-Building on the foundational CSP methodology, this report presents the application of the **Competency Authoring phase** in **Task201 - Surveillance Drone Prototype**.
+Building on the foundational principles of the **Competency Specification Process (CSP)**, this report documents the application of the **Competency Authoring phase** to **Task201 – Surveillance Drone Prototype**. This task is situated in a **Problem-Based Learning (PBL)** context and challenges learners to address a realistic surveillance scenario through the **formal modeling of system behavior using Finite State Machines (FSMs)**.
+
+Within the scope of this activity, FSMs are employed to represent the **logical and reactive aspects** of the drone’s surveillance behavior—such as event detection, state transitions, and data transmission—rather than low-level physical control or continuous dynamics. This deliberate abstraction ensures conceptual coherence between the problem context and the chosen formalism.
+
+By grounding competency specification in an authentic, constraint-driven scenario, Task201 provides a concrete setting for examining how competencies related to **formal modeling, justification of computational models, simulation, and technical documentation** can be explicitly articulated, reused, and aligned with observable learning outcomes. The report thus illustrates both the practical application of the CSP and the methodological refinements that emerge from its iterative use in complex instructional contexts.
+
 
 
 ## 1. Instructional Entity Analysis
 
 ### Title
 
-* **SOS Florestal Drone Surveillance Module**
+  SOS Florestal Drone Surveillance Module
+
 
 ### Description
 
-Learners are challenged to design a **drone-based surveillance module** that supports forest monitoring activities. The module must be capable of detecting and reporting environmental events such as **deforestation**, **river siltation**, and **forest fires**, using input from **optical**, **thermal**, and **GPS-based positional sensors**.
+Learners are tasked with designing a **drone-based surveillance module** to support forest monitoring activities in a realistic and constraint-driven context. The module is required to detect and report environmental events—such as **deforestation**, **river siltation**, and **forest fires**—based on inputs from **optical**, **thermal**, and **GPS-based positional sensors**.
 
-The system should transmit **photos and videos in real time**, enriched with **location and sensor data**, enabling accurate and timely identification of critical situations in remote forest areas. This prototype is commissioned under **budget and technical constraints** by the organization *SOS Florestal*.
+For the purposes of this task, the surveillance module is explicitly framed as a **logical and reactive system**, whose behavior can be formally represented through **discrete states and transitions**. This abstraction enables the use of **Finite State Machines (FSMs)** to model how the system responds to environmental events, manages state changes, and triggers data transmission, without addressing low-level physical control or continuous dynamics.
+
+The system must support the **real-time transmission of photos and videos**, enriched with relevant **geolocation and sensor metadata**, allowing timely identification and assessment of critical situations in remote forest areas. All design decisions are made under explicit **budgetary and technical constraints**, as defined by the commissioning organization *SOS Florestal*. These constraints encourage reasoned trade-offs and highlight the importance of **formal modeling, justified architectural choices, and systematic technical documentation**, which are central to the competency-oriented approach adopted in this task.
+
 
 
 
 ### Solution Development Process
 
-Students are expected to:
+Students are expected to engage in a structured solution development process that emphasizes **formal modeling**, **systematic validation**, and **technical justification**. Specifically, they should:
 
-* Analyze sensor input structures and define event detection criteria
-* Model the surveillance behavior using a **Finite State Machine (FSM)**, defining states and transitions linked to environmental triggers
-* Simulate and validate the FSM using **JFLAP** or other appropriate tools
-* Design the system logic for **data capture and transmission**, incorporating environmental metadata
-* Produce a **technical report** outlining the FSM logic, event-detection rules, and transmission specifications
-* Optionally explore optimizations for power-efficient operation and modular integration with existing drone control software
+* **Analyze sensor input structures** and explicitly define criteria for detecting relevant environmental events (e.g., deforestation, fire, siltation), identifying which inputs trigger state changes in the system.
+* **Model the surveillance behavior using a Finite State Machine (FSM)**, specifying discrete states and transitions that represent event detection, data transmission, and control actions in response to environmental triggers.
+* **Simulate and validate the FSM** using **JFLAP** or equivalent tools, ensuring that the modeled behavior is logically consistent, complete with respect to the specified events, and robust across representative input scenarios.
+* **Design the system logic for data capture and transmission**, incorporating geolocation and sensor metadata into the transmitted artifacts (e.g., photos, videos, logs), in alignment with the modeled FSM behavior.
+* **Produce a structured technical report** that documents the FSM design, event-detection rules, simulation results, and transmission specifications, providing clear justification for modeling and design decisions.
+* **Optionally explore optimization strategies**, such as state minimization, power-efficient operation, or modular integration with existing drone control software, demonstrating the ability to abstract, generalize, and refine formal models under practical constraints.
+
 
 
 
 ### Expected Outcomes
 
-Students must submit:
+Upon completion of the task, students must submit the following artifacts, which collectively provide evidence of competency acquisition through observable and verifiable outcomes:
 
-* A **JFLAP FSM file** that models surveillance behavior
-* Sample output files (e.g., simulated logs or data packets) for each environmental event
-* A **technical report** detailing:
+* A **JFLAP FSM file** that formally models the surveillance behavior of the system, including states, transitions, and event-triggered responses.
+* **Sample output artifacts** (e.g., simulated logs, message traces, or data packets) corresponding to each monitored environmental event, demonstrating correct system behavior under representative scenarios.
+* A **technical report**, structured according to the SBC format, that documents and justifies the proposed solution. The report must include:
+  * A clear description of the **FSM structure**, including states, transitions, and their semantic interpretation.
+  * The **criteria adopted for environmental event detection** and their relation to sensor inputs.
+  * The **data transmission model**, detailing the structure of transmitted information and associated metadata.
+  * A **justification of design and modeling decisions**, including assumptions, constraints, and trade-offs considered during implementation.
 
-  * FSM states and transition logic
-  * Criteria used for event detection
-  * Data transmission structure and metadata formats
-  * Justification of design decisions and implementation strategy
 
 
 
 ### Acquisition Context
 
-* **Environment**: CS laboratory equipped with JFLAP and tools for FSM simulation
-* **Application**: Appropriate for courses on **automata theory**, **embedded systems**, or **environmental monitoring technologies**
+* **Environment**: Computer Science laboratory equipped with **JFLAP** and complementary tools for **Finite State Machine (FSM) modeling and simulation**.
+* **Application**: Suitable for courses addressing **automata theory**, **formal methods**, **introductory system modeling**, or **computational aspects of environmental monitoring**, where abstract behavioral modeling is emphasized over physical implementation.
+
 
 
 ### Target Audience Profile
 
-- Academic Level: 2nd–3rd year undergraduate CS students.
+* **Academic Level**: 2nd–3rd year undergraduate Computer Science students.
+* **Domain Experience**: Solid background in programming fundamentals, data structures, and introductory automata concepts; limited or no prior experience with hardware integration or complex cyber-physical systems.
+* **Expected Roles**:
+  * Design and formalize FSMs representing surveillance and monitoring behavior.
+  * Simulate and debug state-based models using appropriate tools.
+  * Analyze system behavior under different event scenarios.
+  * Document modeling choices, assumptions, and formal justifications in a technical report.
 
-- Domain Experience: Solid grounding in programming, data structures, and basic automata; minimal experience in hardware or complex system modeling.
-
-- Roles: Design FSMs covering payment, change calculation, and product dispensing; debug and simulate behavior; document technical decisions.
 
 
 ### Proficiency Scale
 
-- **Novice**: 	Partial FSM representation; handles limited scenarios; lacks handling of edge cases (grade range <= 5>).
-- **Competent**:	Complete FSM that covers all payment and change scenarios; simulated and validated correctly (grade range > 5 and <= 9).
-- **Advanced**:	Includes stochastic bonus implementation; clearly justified in logic; detailed technical explanation provided (grade range > 9).
+* **Novice**:  
+  Produces a partial FSM that captures only a subset of the required surveillance events; limited state coverage and incomplete handling of transitions or edge cases.
+
+* **Competent**:  
+  Develops a complete and coherent FSM that models all specified environmental events; successfully simulates and validates system behavior across representative scenarios.
+
+* **Advanced**:  
+  Presents an optimized FSM with justified state and transition minimization; articulates abstraction strategies or general rules (e.g., estimating FSM size based on monitored events) and provides a clear, well-structured technical justification.
 
 
 
@@ -77,58 +97,78 @@ Students must submit:
 
 ## 2. Knowledge Enumeration
 
-To solve the problem effectively, the following core knowledge areas are required:
+To address the task effectively, students are expected to mobilize the following **task-relevant knowledge areas**, directly supporting the modeling, analysis, and validation activities required by the surveillance module:
 
-* **Finite State Machines**: Understanding states, transitions, determinism, and simulation in tools like JFLAP.
-* **Regular Languages**: Grasping the class of languages recognizable by FSMs.
-* **Regular Expressions**: Using concise notation to describe language patterns that can be accepted by FSMs.
+* **Finite State Machines (FSMs)**:  
+  Understanding states, transitions, determinism, and behavioral abstraction, as well as the use of simulation tools such as **JFLAP** to validate state-based models.
 
-* **Chomsky Hierarchy**: Positioning FSMs and regular languages in the broader hierarchy of language classes.
+* **Regular Languages**:  
+  Comprehending the class of languages recognizable by FSMs and their role in characterizing admissible sequences of events and system behaviors.
 
-This knowledge will be mobilized to model the system's behavior, validate it using simulation tools, and evaluate the feasibility of minimizing the number of states and transitions based on the number of monitored events.
+* **Regular Expressions**:  
+  Employing symbolic representations to describe event patterns and transition conditions that can be mapped to FSM structures.
+
+These knowledge components are mobilized to **formally model the surveillance behavior**, **validate system logic through simulation**, and **reason about structural properties** of the FSM—such as estimating or justifying the number of states and transitions required as a function of the monitored events.
+
+Concepts related to broader classifications of formal languages (e.g., higher levels of the Chomsky hierarchy) are considered **background theoretical knowledge** and are not directly required for task execution or performance evaluation.
+
 
 
 ## 3. Learning Objectives and Expected Outcomes
 
 ### General Objective
 
-Develop and consolidate the ability to model, implement, and document computational systems grounded in formal language theory—particularly Finite State Machines—through the resolution of real-world problems.
+Develop and consolidate the ability to **formally model, validate, and document computational systems** grounded in formal language theory—particularly **Finite State Machines (FSMs)**—by applying these concepts to the resolution of a realistic, context-driven problem.
 
 ### Specific Learning Objectives
 
-* Model the system’s behavior using Finite State Machines (FSMs) to represent event monitoring, transmission, and control actions of the drone.
+* **Model surveillance behavior using Finite State Machines (FSMs)**, representing environmental event detection, state transitions, and control or transmission actions of the drone in a formally consistent manner.
 
-* Simulate and validate the FSM using tools such as JFLAP, demonstrating correct operation and consistent handling of input scenarios (e.g., zoom level changes, new coordinates, transmission triggers).
+* **Simulate and validate FSM models** using tools such as **JFLAP**, demonstrating correct and complete system behavior across representative input scenarios (e.g., event detection, repositioning commands, transmission triggers).
 
-* Apply the concept of Regular Languages and Regular Expressions to express behavior rules and transitions within the FSM.
+* **Express behavioral rules and event patterns** through concepts from **Regular Languages and Regular Expressions**, relating symbolic representations to corresponding FSM transitions and structures.
 
-* Design a rule or formula that estimates the minimum number of states and transitions in the FSM, based on the number of monitored events (e.g., deforestation, fire, siltation).
+* **Derive and justify a rule or formula** for estimating the **minimum number of states and transitions** required in the FSM as a function of the number and type of monitored events (e.g., deforestation, fire, siltation).
 
-* Produce a technical report in SBC format that documents the design rationale, formal modeling process, simulation results, and mathematical justifications for decisions (e.g., budget estimations, modeling choices).
+* **Produce a structured technical report**, following the **SBC format**, that documents the formal modeling process, simulation results, and analytical justifications for design decisions, assumptions, and trade-offs considered during system development.
+
 
 
 
 ## 4. Competency Definition
 
-
 ### Reusability Note
 
-To address the learning objectives of Task201, we reused the following competencies:
+To address the learning objectives of **Task201**, the following competencies were **reused from the reference competency set**. Their selection reflects a deliberate alignment between the task’s formal modeling requirements, expected artifacts, and the observable actions performed by learners.
 
-- **C06 - Develop problem solutions using Finite Finite State Machines**  
-  *Justification:* Task201 requires the development of a real-world prototype that models the surveillance behavior of a drone using Finite State Machines (FSMs). Students must analyze system requirements and construct a formal FSM that represents event detection, control actions, and data transmission. This competence directly supports the ability to design, implement, and validate FSM-based computational solutions that are logically consistent and verifiable. Its specific focus on FSMs makes it highly aligned with the learning objectives and deliverables of the task, including simulation, rule derivation, and formal justification of state minimization strategies.
+- **C06 – Develop problem solutions using Finite State Machines**  
+  *Justification:* Task201 requires learners to design and validate a surveillance module whose behavior is formally modeled using **Finite State Machines (FSMs)**. Students must analyze system requirements and construct an FSM that represents environmental event detection, state transitions, and data transmission logic. This competency directly supports the development of **logically consistent, verifiable, and formally grounded solutions**, aligning with key task deliverables such as FSM simulation, structural reasoning, and justification of modeling choices.
 
-- **C02 - Justify the use of Deterministic Finite Automata (DFAs)**  
-  *Justification:* The task challenges students to evaluate and justify the suitability of FSMs in representing drone behavior. This involves comparing different automaton models (DFA vs. NFA), understanding trade-offs, and selecting the most appropriate model for a real-world application—core aspects of this competency.
+- **C02 – Justify the use of Deterministic Finite Automata (DFAs)**  
+  *Justification:* The task implicitly requires learners to reason about the **appropriateness of deterministic state-based models** for representing reactive surveillance behavior. This involves comparing alternative automaton models (e.g., DFA vs. NFA), understanding trade-offs, and justifying the selection of a DFA as a suitable abstraction for the problem context.
 
-- **C03 - Test Automata Using Simulators**  
-  *Justification:* One of the deliverables includes simulated executions of the automaton model using JFLAP. This aligns perfectly with the competency, which emphasizes systematic testing, verification, and iterative refinement of FSMs through simulation tools.
+- **C03 – Test Automata Using Simulators**  
+  *Justification:* Simulation and validation of the FSM using **JFLAP** are explicit task requirements. This competency supports the systematic testing of formal models, enabling learners to verify correctness, identify inconsistencies, and iteratively refine state transitions based on observed behavior.
 
-- **C04 - Define Regular Expressions for Finite Automata**  
-  *Justification:* The task includes the design of a mathematical expression or formula to estimate states and transitions, which supports abstraction and reasoning about FSM structure. Though not directly requesting a regular expression, this activity aligns with the analytical dimension of mapping behavior to symbolic representations.
+- **C04 – Define Regular Expressions for Finite Automata**  
+  *Justification:* Although the task does not explicitly require the construction of regular expressions, learners are expected to reason symbolically about **event patterns and transition structures**. This competency supports the analytical abstraction of system behavior and underpins the derivation of rules or formulas relating FSM structure to the number of monitored events.
 
-- **C05 - Write a Technical Report**  
-  *Justification:* Students are required to produce a structured technical report in SBC format that documents system modeling, simulation, and analysis. This aligns with the competency’s focus on effective written communication of technical artifacts.
+- **C05 – Write a Technical Report**  
+  *Justification:* The production of a structured technical report in **SBC format** is a core deliverable. This competency addresses the ability to document formal models, simulation results, assumptions, and design justifications in a clear, coherent, and professional manner.
 
-- **C11 - Identify Patterns in Finite State Machines** 
-  *Justification:* The estimation of minimal states and transitions requires identifying patterns or regularities in FSM behavior. This competency supports structural analysis to simplify or optimize models, which is a key step in abstracting general rules from specific models.
+- **C11 – Identify Patterns in Finite State Machines**  
+  *Justification:* Estimating the minimum number of states and transitions required by the surveillance module demands the identification of **structural patterns and regularities** in FSM design. This competency supports abstraction, optimization, and generalization from specific models to broader rules or design principles.
+
+
+### Professional Dispositions (Non-Evaluative)
+
+In addition to the technical competencies explicitly targeted by Task201, the activity implicitly fosters a set of **professional dispositions** that are relevant to the problem context and to computing practice more broadly. These dispositions are not directly assessed as standalone outcomes; rather, they emerge naturally from engagement with the task and support effective competency development.
+
+In particular, Task201 encourages learners to demonstrate:
+
+* **Analytical responsibility**, by carefully interpreting problem constraints and selecting appropriate levels of abstraction when modeling complex real-world scenarios using formal methods.
+* **Attention to correctness and rigor**, reflected in the systematic validation of FSM models and the justification of design decisions based on formal reasoning rather than ad hoc solutions.
+* **Context awareness**, as students must consider environmental, operational, and budgetary constraints when proposing and documenting surveillance solutions.
+* **Technical communication awareness**, manifested in the clear and structured documentation of assumptions, models, and results for an external stakeholder (*SOS Florestal*).
+
+These dispositions complement the specified knowledge and skills by reinforcing professional attitudes aligned with formal modeling, problem-based learning, and responsible system design, without introducing additional evaluative requirements into the CSP framework.

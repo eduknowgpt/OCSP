@@ -106,7 +106,7 @@ To demonstrate this competency, students must be able to:
 * **Apply** Analytical and Critical Thinking to examine rule sets, detect inconsistencies or ambiguities, and refine grammar structures to enhance correctness, clarity, and applicability in the system’s domain.
     * Verbs: Analyze, Refine, Validate
 
-#### B.6 Table for Competency C13
+#### Table for Competency C13
 
 | **Competency**                | **Dispositions**                                               | **Knowledge**                          | **Skill**                  |
 | ----------------------------- | -------------------------------------------------------------- | -------------------------------------- | -------------------------- |
@@ -144,9 +144,9 @@ The following knowledge areas are essential for mastering this competency:
 * **Analytical and Critical Thinking**
     * Apply logical reasoning to compare grammar classes based on structure, expressiveness, and computational requirements. Evaluate which grammar type is most appropriate for modeling specific system behaviors and justify the classification based on formal criteria.
 
-#### C.4 Knowledge–Skill Pairing
+#### Knowledge–Skill Pairing
 
-#### C.4.1 Mapping Knowledge to Skills
+#### Mapping Knowledge to Skills
 
 To effectively demonstrate this competency, students must be able to:
 
@@ -162,7 +162,7 @@ To effectively demonstrate this competency, students must be able to:
     * Learners should analyze the suitability of different grammar types for specific modeling scenarios, contrast their structural and computational properties, and justify the selection of a grammar class based on system requirements.
 
 
-#### C.5.2 Bloom’s Taxonomy Alignment
+#### Bloom’s Taxonomy Alignment
 This competency engages the following levels of cognitive processing:
 
 * **Understand** – For identifying, describing, and classifying grammar types and their structural features.
@@ -170,7 +170,7 @@ This competency engages the following levels of cognitive processing:
 * **Apply** – For analyzing modeling needs and selecting appropriate grammar classes based on formal criteria and system constraints.
 
 
-#### C.6 Summary Table for Competency D
+#### Summary Table for Competency D
 
 | **Competency**                                   | **Dispositions**                                     | **Knowledge**                          | **Skill**                          |
 | ------------------------------------------------ | ---------------------------------------------------- | -------------------------------------- | ---------------------------------- |
@@ -179,11 +179,12 @@ This competency engages the following levels of cognitive processing:
 |                                                  |                                                      | Analytical and Critical Thinking | **Apply**                          |
 
 
+
+
+
+
 ### **Unified Summary Table for Competencies A, B, and C**
 
-Claro! Aqui está a **tabela unificada** com todas as informações combinadas das competências A, B e C. Ela mantém uma estrutura consistente, evitando duplicações de competências ou conhecimentos, e alinhando claramente **disposições**, **conhecimentos** e **habilidades com verbos anotados** segundo a Taxonomia de Bloom.
-
----
 
 ### **Unified Summary Table for Competencies A, B, and C**
 
