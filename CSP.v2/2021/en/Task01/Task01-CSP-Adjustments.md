@@ -192,12 +192,12 @@ Students must demonstrate the ability to:
 |         |                                   |                                 | Regular Expressions | **Apply** |
 |         |                                   |                                 | Analytical and Critical Thinking (FPK) | **Apply** |
 |  |  |                                        |       |       
-| (C05) | **Write a technical report** | Collaborative, Meticulous, Responsible | Written Communication (FPK) | **Apply** |
+| (C05) | **Write a technical report** | Collaborative, Meticulous, Responsible | Written Communication (FPK) | **Apply (Write, Structure, Revise, Refine)** |
 
 
 
 
-## **Conclusion**
+## Conclusion
 
 The expert review process resulted in **substantial and well-founded improvements** to the competency specification associated with Task 01. The implemented adjustments refined competency definitions, increased conceptual specificity, standardized terminology, and enhanced overall textual clarity, thereby strengthening the internal coherence of the competency framework.
 

@@ -1,9 +1,9 @@
-# Competency Specification Report: Task25.4 - School Census and Computational Thinking in Natural Language
+# Competency Specification Report: Task25.22 - School Census and Computational Thinking in Natural Language
 
 
 ## Introduction
 
-Building on the foundational CSP methodology, this report presents the **Competency Authoring phase** applied to *Task25.4 – School Census and Computational Thinking in Natural Language*.
+Building on the foundational CSP methodology, this report presents the **Competency Authoring phase** applied to *Task25.22 – School Census and Computational Thinking in Natural Language*.
 
 This learning task engages students in the design of **algorithmic descriptions using natural language** to process structured data records. Through a sequence of **four progressively complex steps**, learners develop core dimensions of **Computational Thinking**, including decomposition, abstraction, generalization, and logical reasoning.
 

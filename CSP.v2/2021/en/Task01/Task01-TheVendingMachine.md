@@ -6,9 +6,9 @@ Contributors: Edeyson Gomes &nbsp;  Jéssica Santana
 
 21 de September de 2020
 
-## **Task: Machine for sodas and snacks**
+## Task: Machine for sodas and snacks
 
-### **1.  Problem**
+### 1.  Problem
 
 The company **Refrigerantes e Salgados S.A.** decided to develop new solutions for their vending machines for soft drinks and snacks, based on well-structured hardware and software designs, accompanied by precise and user-friendly documentation.
 
@@ -21,7 +21,7 @@ The students also mentioned a tool called **JFLAP** for testing/simulating solut
 **CHALLENGE**: The IT technician promised an additional bonus if the students could help promote the new machines by implementing a modification that allows the machines to randomly provide a bonus change of R$1.00 if the amount inserted by the customer matches the exact price of the selected product.
 
 
-### **2. Process**
+### 2. Process
 
 The solution will be developed using the **Problem-Based Learning (PBL)** methodology, which leverages real-world problems to stimulate critical thinking, teamwork, and problem-solving skills. This approach also aids in the construction of knowledge on a specific topic. 
 
@@ -30,7 +30,7 @@ The process must be documented using the **PBL Whiteboard**, composed of the fol
 Additionally, a shared document will be provided to record the **Logbook**, as demonstrated during a synchronous session. This log will serve as a complementary record of the team’s progress and decisions throughout the project.
 
 
-### **3. Deliverable**
+### 3. Deliverable
 
 You must submit your deliverable on the **UFBA LMS (Moodle)** platform by **20:20 on October 13, 2020**, in the designated space. The submission should include:
 
@@ -49,7 +49,7 @@ By fulfilling these requirements, the submission will provide the necessary tool
 
 
 
-### **4 Knowledge/Concepts Involved** 
+### 4 Knowledge/Concepts Involved 
     1. Deterministic Finite Automata (DFA)
 
     2. Non-Deterministic Finite Automata  (NFA ou NDFA)
@@ -58,12 +58,12 @@ By fulfilling these requirements, the submission will provide the necessary tool
 
 
 
-### **5. Learning objectives** 
+### 5. Learning objectives 
 
-#### **5.1 General objective** 
+#### 5.1 General objective 
 Develop finite automata and regular expressions to solve “real” problems, as is the case with the machine project of the he company **Refrigerantes e Salgados S.A.*** 
 
-#### **5.2 Specific objectives** 
+#### 5.2 Specific objectives 
 
 
    1. **Identify** the functionalities of the system designed by the user.
@@ -79,8 +79,9 @@ Develop finite automata and regular expressions to solve “real” problems, as
    6. **Use** simulation tools for AF
 
 
-### </a> References 
-This problem is based on the lecture notes of Professor Martin Musicante 2</sup> do DIMAP - UFRN. <sup>2<https://sigaa.ufrn.br/sigaa/public/docente/portal.jsf?siape=12212512></sup>
+### References 
+
+This problem is based on the lecture notes by Prof. Martin Musicante, Department of Informatics and Applied Mathematics (DIMAp), Federal University of Rio Grande do Norte (UFRN). 
 
 RAMOS, M. V. M.; JOSE NETO, J.; VEGA, I. S. **Linguagens Formais: Teoria, Modelagem e Implementação**. Editora Bookman, 2009.
 

@@ -9,7 +9,7 @@ Building on the foundational CSP methodology, this report presents the applicati
 
 ### Title
 
-- The Vending Machine for Sodas and Snacks
+    The Vending Machine for Sodas and Snacks
 
 ### Description
 - Learners face the problem of designing a vending machine system that accepts payments (coins/banknotes), calculates correct change, and dispenses products reliably under defined functional requirements.
@@ -59,9 +59,20 @@ Learners should produce:
 
 ### Proficiency Scale
 
-- **Novice**: 	Partial FSM representation; handles limited scenarios; lacks handling of edge cases (grade range <= 5>).
-- **Competent**:	Complete FSM that covers all payment and change scenarios; simulated and validated correctly (grade range > 5 and <= 9).
-- **Advanced**:	Includes stochastic bonus implementation; clearly justified in logic; detailed technical explanation provided (grade range > 9).
+Competency performance is evaluated on a **continuous numeric scale from 0.0 to 10.0**, with increments of 0.1.  
+Based on the assigned grade, the competency is subsequently classified into one of the proficiency levels described below.
+
+- **Novice (0.0 ≤ grade ≤ 5.0)**
+Demonstrates a partial FSM representation, covering only basic or isolated scenarios.
+The solution shows limited completeness, lacks systematic handling of edge cases, and may contain logical gaps or inconsistencies.
+
+- **Competent (5.0 < grade ≤ 9.0)**
+Presents a complete and coherent FSM, correctly modeling all required payment and change scenarios.
+The solution is properly simulated and validated, with consistent behavior across expected cases and acceptable technical justification.
+
+- **Advanced (9.0 < grade ≤ 10.0)**
+Extends the complete FSM with additional stochastic or bonus mechanisms, implemented correctly and integrated coherently into the model.
+Provides a clear, well-founded logical justification and a detailed technical explanation, demonstrating mastery beyond baseline task requirements.
 
 
 
@@ -341,8 +352,8 @@ To accurately assess the required skills for this competency, each knowledge com
 
 | **Competency** | **Dispositions** | **Knowledge** | **Skill** |
 |---------------|-----------------|--------------|-----------|
-| **Determine when to use a DFA or NFA** | **Investigative, Collaborative, Responsible, Proactive, Creative** | **Automata over Infinite Objects** | **Understand (Compare)** |
-| | | **Analytical and Critical Thinking (FPK)** | **Apply (Evaluate, Decide)** |
+| Determine when to use a DFA or NFA | **Investigative, Collaborative, Responsible, Proactive, Creative** | Automata over Infinite Objects | **Understand (Compare)** |
+| | | Analytical and Critical Thinking (FPK) | **Apply (Evaluate, Decide)** |
 
 
 
@@ -628,7 +639,7 @@ To clarify expected learning outcomes, the following action verbs define key stu
 |---------------|-----------------|--------------|-----------|
 | **Collaborative Technical Report Writing** | Collaborative, Meticulous, Responsible | **Written Communication (FPK)** | **Apply (Write, Structure, Revise, Refine)** |
 
----
+
 
 ## Table of Competencies for Task: *The Vending Machine for Sodas and Snacks*
 

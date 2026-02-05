@@ -1,5 +1,105 @@
 # **Competency Lifecycle — C15: Understand the Halting Problem and its Implications**
 
+
+## 1. Original Definition — *CSP-Report (Cycle 1)*
+
+### Competency Title
+
+    Understand the Halting Problem and its Implications
+
+
+### Original Intent
+
+The original definition of C15 was introduced to support **theoretical explanation of system limitations** in tasks involving **program analysis and automated evaluation**, particularly within the context of **Online Judges**.
+
+At this stage, the competency aimed to:
+
+* Introduce the **Halting Problem** as a foundational result of Computation Theory;
+* Enable students to explain why **infinite loops cannot be detected algorithmically**;
+* Provide theoretical grounding for observed system behaviors such as **Time Limit Exceeded (TLE)**.
+
+
+
+### Identified Characteristics (Cycle 1)
+
+* Strong theoretical relevance to the task narrative;
+* Broad reference to **Turing Machines** and **computability theory**;
+* Implicit assumption that students would *apply* TM concepts, without clear evidence requirements;
+* Risk of **overlap** with a second newly introduced competency focused on Turing Machines.
+
+
+
+## 2. Expert Review — *CSRP-Report (Cycle 1)*
+
+### Key Reviewer Findings
+
+During the Expert Review phase, reviewers identified the following points:
+
+* **Conceptual necessity**
+  The Halting Problem was considered **unavoidable** for explaining the impossibility of general loop detection in Online Judges.
+
+* **Scope misalignment risk**
+  Reviewers noted that the competency could be **misinterpreted as requiring formal proofs or machine constructions**, which are not demanded by the task.
+
+* **Redundancy with TM-focused competency**
+  Much of the evidence supporting this competency overlapped with that of *Apply Turing Machine Concepts to Analyze Computational System Capabilities*.
+
+* **Evidence observability**
+  The competency is primarily demonstrated through **explanatory and justificatory text**, not through formal artifacts.
+
+
+
+### **Reviewer Recommendations**
+
+Experts recommended that C15 should:
+
+* Be retained as the **single core theoretical competency** of the task;
+* Be explicitly constrained to **conceptual understanding and justification**;
+* Avoid formal modeling or construction requirements;
+* Serve as the **anchor competency**, with TM-related reasoning treated as supporting knowledge.
+
+
+### Decision Threshold
+
+**CSRP Outcome (Cycle 1):**
+**Approved with Scope Refinement**
+
+
+
+## 3. Implemented Adjustments — *CSP-Adjustments*
+
+### Declared Changes
+
+Based on the CSRP recommendations, the following adjustments were applied:
+
+* **Scope refinement**
+
+  * Emphasis shifted from *applying* or *modeling* Turing Machines to **conceptual interpretation**.
+
+* **Clarification of cognitive level**
+
+  * Core Bloom level fixed at **Understand**, with **Apply** restricted to argumentation via Analytical and Critical Thinking (FPK).
+
+* **Role consolidation**
+
+  * C15 confirmed as the **single core theoretical competency** introduced for TASK204.
+
+* **Redundancy control**
+
+  * TM-focused competency (C16) downgraded to supporting / extension role.
+
+
+
+### **Final Activation (Adjusted)**
+
+* **ActivationConstraint**: `mandatory`
+* **ActivationMode**: `analytical`, `justificatory`
+* **ActivationRole**: `core`
+
+
+
+## **4. Final Version — *Cycle 2 (Approved State)***
+
 ### Competency Title
 
     Understand the Halting Problem and its Implications

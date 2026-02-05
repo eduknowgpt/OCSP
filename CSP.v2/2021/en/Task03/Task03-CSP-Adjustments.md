@@ -54,6 +54,7 @@ By reusing this competency, *Task 03* benefits from an already validated and ref
 
 
 
+
 ## Competency C06 Specification
 
 ### Competency Title
@@ -263,3 +264,20 @@ The following verbs define the expected observable actions associated with this 
 |  |  |                                        |       |       
 | (C05) | *Write a technical report (REUSED)* | Collaborative, Meticulous, Responsible | Written Communication (FPK) | Apply |
 
+
+
+## **Historical Reflection on the CSP Maturation (Task03)**
+
+
+Task03 represents a **transitional stage in the maturation of the Competency Specification Process (CSP)**.  
+While the implemented adjustments address several issues identified during the expert review, certain conceptual tensions—particularly those related to **competency reuse** and the **distinction between target competencies and supporting theoretical knowledge**—could not yet be fully resolved within the process at that time.
+
+These residual ambiguities do not indicate methodological flaws. Rather, they **document the learning trajectory of the CSP itself**, and directly informed the development of more explicit **specialization** and **qualified reuse mechanisms** introduced in subsequent tasks.
+
+At the time of Task03, the CSP did not yet explicitly distinguish between **target competencies** and **supporting theoretical background**. Consequently, some adjustments focused on refining terminology and scope, rather than formally reclassifying or demoting competencies.
+
+Although the expert review recommended the removal of the competency related to **formal grammar classification**, this element was implicitly re-positioned as **supporting conceptual background**, rather than as an explicit target competency. At this stage of the CSP, no formal mechanism yet existed to demote a competency to background knowledge without fully removing it from the specification.
+
+Similarly, in Task03, competency reuse was still treated primarily as a **direct carry-over mechanism**. The absence of explicit reuse qualification or specialization reflects the early stage of the CSP, and directly motivated the more formal reuse and specialization strategies adopted in subsequent tasks.
+
+Finally, Bloom’s Taxonomy was applied primarily at the level of **individual competencies**. Cross-competency cognitive progression was not yet explicitly modeled, which explains residual overlaps between analytical and operational competencies observed in this task.

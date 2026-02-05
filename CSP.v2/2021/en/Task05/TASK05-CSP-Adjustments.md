@@ -80,24 +80,55 @@ This realignment ensures coherence between **task demands**, **competency expect
 
 ### **Issue Identified (CSRP)**
 
-Competencies reused from **Task 02 (C07–C09)** were applied in a **broader and more complex context** without explicit acknowledgment of scope expansion.
+Competencies reused from **Task 02 (C07–C09)** were enacted in **Task 05** within a **broader, more integrated, and cognitively demanding context**, without explicit acknowledgment of this scope expansion.  
+As a result, the instructional demands of Task 05 risked being **under-specified**, particularly with respect to system-level reasoning, coordination, and integration.
 
 ### **Adjustments Implemented**
 
-The CSP documentation now explicitly states that competencies reused in Task 05 are **not reused “as-is”**, but rather:
+To address this issue, the CSP documentation now explicitly states that competencies reused in Task 05 are **not applied “as-is”**, but rather **re-enacted under expanded cognitive and contextual conditions**, characterized by:
 
-* **enacted with expanded cognitive and contextual scope**, due to:
+- **multi-agent coordination**, requiring the orchestration of interacting subsystems;
+- **integration of multiple behavioral modules** into a unified computational architecture;
+- reliance on a **universal computational model**, supporting generality and system-level abstraction.
 
-  * multi-agent coordination;
-  * integration of multiple behavioral modules;
-  * reliance on a universal computational model.
+This qualification of reuse preserves **CSP transparency**, prevents implicit escalation of expectations, and establishes a **formal and defensible basis** for distinguishing between baseline reuse and advanced enactment.
 
-This qualification preserves **CSP transparency**, avoids under-specification of expected performance, and provides a formal basis for:
+Rather than redefining or invalidating the original competencies, this refinement adopts an **additive specialization strategy**, preserving inheritance while elevating cognitive scope.  
+As a concrete outcome, the expanded enactment of competencies in Task 05 was formalized through **explicit competency specializations**, namely **C07.01, C08.01, and C09.01**, derived from their respective base competencies **C07, C08, and C09**.
 
-* competency **specialization** in subsequent tasks, or
-* interpretation of Task 05 as an **advanced enactment** of existing competencies.
+### **Clarification of Specialized Competency Scope**
 
-As a concrete outcome of this qualified reuse, the expanded enactment of competencies in Task 05 was formalized through explicit competency specializations, preserving inheritance while elevating cognitive scope. Specifically, competencies C07, C08, and C09 were specialized as C07.01, C08.01, and C09.01, respectively, to reflect system-level integration, analytical evaluation, and coordinated application.
+To ensure semantic precision and avoid overlap among the specialized competencies, the following distinctions are explicitly established:
+
+- **C07.01 — Develop Integrated Multi-Agent Solutions Using Turing Machines**  
+  This competency addresses the **construction and integration** of a multi-agent computational system, using Turing Machines as a **unified formalism** for coordinating interacting behaviors and shared control logic.
+
+- **C08.01 — Analyze the System-Level Adequacy of Turing Machine Variants**  
+  This competency focuses exclusively on the **analytical evaluation of the adequacy** of different Turing Machine variants at the **system level**, supporting informed design decisions without engaging in construction or implementation.
+
+- **C09.01 — Apply and Coordinate Turing Machine Variants in Integrated Architectures**  
+  This competency concerns the **applied coordination and assignment** of Turing Machine variants within an integrated architecture, operationalizing prior analytical judgments through structured configuration and adaptation.
+
+Together, these competencies form a **non-overlapping and complementary progression**, moving from **analysis (C08.01)**, through **applied coordination (C09.01)**, to **integrated system construction (C07.01)**.
+
+### **Cognitive and Conceptual Progression**
+
+From a cognitive-process perspective, the specialization sequence in Task 05 follows a deliberate and explicit progression aligned with **Bloom’s Revised Taxonomy**:
+
+> **Analyze (C08.01) → Apply (C09.01) → Create (C07.01)**
+
+Conceptually, the three specializations operate at distinct but interrelated levels:
+
+- **C08.01 — Decision Support**  
+  *Which Turing Machine variant is adequate for the system requirements?*
+
+- **C09.01 — Architectural Application**  
+  *How are selected variants coordinated and assigned within the system architecture?*
+
+- **C07.01 — System Realization**  
+  *How is the integrated multi-agent solution constructed and validated as a whole?*
+
+This explicit articulation reinforces the CSP’s capacity to support **qualified reuse, formal specialization, and progressive cognitive elevation**, while maintaining traceability and conceptual coherence across tasks.
 
 
 ## **7. Consolidated Status After Adjustments**
@@ -132,9 +163,9 @@ In accordance with the qualified reuse strategy and the expanded cognitive deman
 | **C07.01** | **Develop Integrated Multi-Agent Solutions Using Turing Machines** | Collaborative, Responsible, Proactive, Creative, Inventive | **Turing Machines (Universal & Integrated Use)** | **Create** (*Design, Integrate, Construct*)  |
 |            |                                                                    |                                                            | **Requirements Engineering (System-Level)**      | **Apply** (*Elicit, Formalize, Align*)       |
 |            |                                                                    |                                                            | **Analytical and Critical Thinking (FPK)**       | **Analyze** (*Decompose, Examine, Evaluate*) |
-| **C08.01** | **Analyze the Adequacy of Turing Machine Variants in Integrated Systems** | Investigative, Collaborative, Responsible, Proactive | **Turing Machine Variants (System-Level Perspective)** | **Analyze** (*Compare, Examine, Differentiate*) |
+| **C08.01** | **Analyze the System-Level Adequacy of Turing Machine Variants** | Investigative, Collaborative, Responsible, Proactive | **Turing Machine Variants (System-Level Perspective)** | **Analyze** (*Compare, Examine, Differentiate*) |
 |            |                                                                           |                                                      | **Analytical and Critical Thinking (FPK)**             | **Analyze** (*Evaluate, Justify, Relate*)       |
-| **C09.01** | **Apply and Coordinate Turing Machine Variants in Integrated Systems** | Inventive, Responsible, Proactive, Collaborative, Creative | **Turing Machine Variants (Integrated & Coordinated Use)** | **Apply** (*Select, Adapt, Coordinate*)    |
+| **C09.01** | **Apply and Coordinate Turing Machine Variants in Integrated Architectures** | Inventive, Responsible, Proactive, Collaborative, Creative | **Turing Machine Variants (Integrated & Coordinated Use)** | **Apply** (*Select, Adapt, Coordinate*)    |
 |            |                                                                        |                                                            | **System-Level Requirements Engineering**                  | **Apply** (*Interpret, Align, Constrain*)  |
 |            |                                                                        |                                                            | **Analytical and Critical Thinking (FPK)**                 | **Analyze** (*Examine, Evaluate, Justify*) |
 | (C10) | **Testing Turing Machines Using Simulators** | Collaborative, Responsible, Proactive, Creative | Turing Machines                           | **Apply (Simulate, Evaluate, Verify)** |

@@ -1,32 +1,31 @@
-# Expert Review: Task1 – The Vending Machine for Sodas and Snacks
-
+# Expert Review: Task01 – *The Vending Machine for Sodas and Snacks*
 
 ## 1. Introduction
 
-Building on the **Competency Specification Process (CSP) framework**, this report documents **Phase 2 — Competency Expert Review** for the PBL task *“The Vending Machine for Sodas and Snacks.”* This phase is dedicated to the **technical validation of the competency specifications** associated with the task, encompassing their **knowledge, skills, and dispositions (K–S–D)** components.
+Grounded in the **Competency Specification Process (CSP)** framework, this report documents **Phase 2 — Competency Expert Review** for the Problem-Based Learning (PBL) task *“The Vending Machine for Sodas and Snacks.”*  
+This phase is dedicated to the **technical and pedagogical validation of the competency specifications** associated with the task, with emphasis on their **Knowledge, Skill, and Disposition (K–S–D)** components.
 
-The primary objective of this review is to assess the competency specifications with respect to:
+The primary objective of this review is to examine the competency specifications as an **educational artifact**, assessing them with respect to:
 
-* **Theoretical accuracy and conceptual soundness**, ensuring alignment with established foundations in Computing Education and Automata Theory;
-* **Clarity and internal consistency**, promoting precise, unambiguous, and reusable competency descriptions;
-* **Pedagogical alignment**, verifying coherence with the intended learning objectives and instructional context;
-* **Contextual applicability**, evaluating the feasibility and educational relevance of the competencies within a realistic problem-based learning scenario.
+- **Theoretical accuracy and conceptual soundness**, ensuring alignment with established foundations in **Computing Education**, **Automata Theory**, and **Formal Languages**;
+- **Clarity, precision, and internal consistency**, promoting unambiguous, well-scoped, and reusable competency definitions;
+- **Pedagogical alignment**, verifying coherence between the specified competencies, the stated learning objectives, and the instructional context of the task;
+- **Contextual applicability**, evaluating whether the competencies are feasible, meaningful, and educationally relevant within a realistic PBL scenario.
 
-The review is grounded in **qualified expert judgment** and follows a **structured, artifact-centered evaluation guide**. Domain specialists were invited to conduct a **technical review of the competency specifications**, applying predefined evaluation criteria to examine the adequacy, relevance, and coherence of the K–S–D elements mapped to the task. No personal, behavioral, or sensitive data were collected; the focus of the analysis remains exclusively on the **educational artifact** under review.
+The review is based on **qualified expert judgment** and follows a **structured, artifact-centered evaluation guide**. Domain specialists were invited to perform a **technical appraisal of the competency specifications**, applying predefined analytical criteria to assess the adequacy, relevance, and coherence of the K–S–D elements associated with the task.
 
-This report synthesizes the results of the expert review and formulates **actionable recommendations** aimed at improving the clarity, alignment, and instructional value of the competency specifications.
+Importantly, this review does **not involve the evaluation of learners, instructors, or participants**, nor does it collect personal, behavioral, or sensitive data. The analysis is strictly limited to the **inspection and refinement of a curricular and methodological artifact**, namely the competency specifications produced during **Phase 1 of the CSP**. As such, the review is characterized as a **document-based expert analysis**, consistent with established practices in **curriculum design, educational modeling, and methodological validation**.
 
-The analysis is organized according to the stages of the **Competency Specification Protocol**, comprising:
+This report synthesizes the outcomes of the expert review and formulates **actionable, artifact-oriented recommendations** aimed at enhancing the clarity, coherence, and instructional robustness of the competency specifications.
 
-* **Instructional-context analysis**, validating task complexity and the scope of the targeted competencies;
+The analysis is structured according to the stages of the **Competency Specification Protocol**, comprising:
 
-* **Item-level evaluation**, identifying strengths, inconsistencies, and elements requiring refinement;
+- **Instructional context analysis**, examining the scope and complexity of the task in relation to the targeted competencies;
+- **Item-level evaluation**, identifying strengths, ambiguities, and elements requiring refinement within individual competency specifications;
+- **Cross-criterion synthesis**, integrating findings related to conceptual accuracy, pedagogical alignment, and contextual relevance;
+- **Recommendations**, proposing concrete adjustments to improve the robustness, consistency, and reusability of the competency model.
 
-* **Cross-criterion synthesis**, integrating findings related to accuracy, clarity, pedagogical alignment, and contextual relevance;
-
-* **Recommendations**, proposing concrete adjustments to enhance the robustness and reusability of the competency model.
-
-By situating this review within **Phase 2 of the CSP**, the report contributes to the iterative refinement of competency specifications, ensuring that they are **theoretically rigorous, pedagogically sound, and suitable for reuse** in competency-based and problem-based Computing Education contexts.
+By situating this expert review within **Phase 2 of the CSP**, the report supports the **iterative refinement of competency specifications**, contributing to their maturation as **theoretically grounded, pedagogically coherent, and reusable artifacts** for competency-based and problem-based Computing Education contexts.
 
 
 
@@ -35,74 +34,76 @@ By situating this review within **Phase 2 of the CSP**, the report contributes t
 
 ## 2. Instructional Entity Summary
 
-Context: A concise recap of Phase 1A findings to anchor the review.
+This section provides a **concise synthesis of the findings from Phase 1A (Instructional Entity Analysis)**, serving as an anchoring reference for the expert review.  
+The purpose of this summary is to contextualize the competency evaluation by reaffirming the **scope, intent, and instructional characteristics of the task**, without introducing new interpretative elements.
 
-- Title: The Vending Machine for Sodas and Snacks
+**Contextual Overview**
 
-- Description: Learners face the problem of designing a vending machine system that accepts payments (coins/banknotes), calculates correct change, and dispenses products reliably under defined functional requirements.
+- **Title**: *The Vending Machine for Sodas and Snacks*
 
-| **Aspect**               | **Rating Options**              | **Evaluator Notes**                                                      |
-| ------------------------ | ------------------------------- | ------------------------------------------------------------------------ |
-| **Task Title**           | Clear | The title accurately reflect the task’s focus and scope            |
-| **Problem Description**  | Clear | The problem statement is explicit, complete, and contextually relevant  |
-| **Solution Development** |  Appropriate    | Solution steps are actionable and aligned with defined competencies     |
-| **Expected Outcomes**    | Well Specified | Outcomes clearly relate to the tasks and competencies being assessed |
+- **Description**:  
+  Learners are presented with the problem of designing a vending machine system capable of accepting payments (coins and banknotes), calculating correct change, and reliably dispensing products under clearly defined functional requirements. The task emphasizes formal modeling, systematic reasoning, and technical documentation within a problem-based learning context.
 
+The table below summarizes the expert appraisal of the instructional entity as a **curricular artifact**, focusing exclusively on its clarity, coherence, and alignment with the intended instructional objectives.
+
+| **Aspect**               | **Rating Options**                    | **Evaluator Notes**                                                                 |
+|--------------------------|--------------------------------------|-------------------------------------------------------------------------------------|
+| **Task Title**           | Clear                                 | The title accurately reflects the task’s focus and instructional scope.              |
+| **Problem Description**  | Clear                                 | The problem statement is explicit, complete, and contextually grounded.              |
+| **Solution Development** | Appropriate                           | The proposed solution steps are actionable and aligned with the defined competencies.|
+| **Expected Outcomes**    | Well Specified                        | The expected outcomes are clearly articulated and directly related to the targeted competencies. |
 
 ### Decision Threshold
 
-According to protocol guidelines:
+In accordance with the CSP protocol guidelines, the instructional entity is considered **approved for competency review** when all evaluated aspects are rated as **Clear**, **Appropriate**, or **Well Specified**.
 
-- Approved → All items rated Clear / Appropriate / Well Specified.
+This evaluation is strictly limited to the **analysis of the instructional artifact** and does not involve the assessment of learners, instructional performance, or participant behavior.
 
 
 
 
 ## 3. Knowledge Component Review
 
-**Objective:** To evaluate whether the knowledge components associated with the task are **comprehensive, relevant, and appropriately scoped** with respect to the problem description and the targeted competencies.
+**Objective:**  
+To evaluate whether the knowledge components associated with the task are **comprehensive, relevant, and appropriately scoped** with respect to the problem description and the targeted competencies, considering the knowledge representation as part of an **educational modeling artifact**.
 
 ### Knowledge Granularity and Relevance
 
-The technical review identified **systematic issues related to the level of knowledge granularity** adopted in the competency specifications. The current representation relies on a **high-level taxonomy (ACM CCS 2012)** whose abstraction level proved insufficient to precisely annotate the knowledge elements required by the task.
+The expert review identified **systematic limitations related to the level of knowledge granularity** adopted in the current competency specifications. The representation relies primarily on a **high-level external taxonomy (ACM CCS 2012)**, whose degree of abstraction proved insufficient to precisely annotate the concrete knowledge elements mobilized by the task.
 
-In particular, the category *regular languages* was found to be **too broad** to support explicit references to key concepts implicitly required by the task, such as **Deterministic Finite Automata (DFA)**, **Non-Deterministic Finite Automata (NFA)**, and **Regular Expressions (RE)**. This mismatch hindered accurate annotation and introduced conceptual ambiguity, especially where the task implicitly assumes DFA-based reasoning but does not require formal treatment of NFA or equivalence results.
+In particular, the category *Regular Languages* was found to be **excessively broad** to support explicit references to core concepts implicitly required by the task, such as **Deterministic Finite Automata (DFA)**, **Non-Deterministic Finite Automata (NFA)**, and **Regular Expressions (RE)**. This lack of specificity introduces conceptual ambiguity, especially in cases where the task presupposes **DFA-oriented reasoning and construction**, without requiring formal treatment of non-determinism or equivalence results.
 
-As a consequence, the review indicates that the current knowledge taxonomy **does not provide sufficient granularity** to support clear mapping between task requirements and competency elements. A refinement of the knowledge representation—either through a more fine-grained taxonomy or through task-specific specialization of existing categories—is therefore necessary.
-
-
+As a result, the current knowledge taxonomy **does not provide sufficient semantic resolution** to support a clear and unambiguous mapping between task requirements and the corresponding competency elements. From an artifact-oriented perspective, this finding indicates the need for **refinement of the knowledge representation**, either through a more fine-grained taxonomy or through task-specific specialization of existing knowledge categories.
 
 ### Knowledge Appropriateness
 
-The review further revealed **misalignment between certain declared knowledge elements and the actual demands of the PBL task**. Several knowledge components included in the competency specifications are **not explicitly required** to solve the problem as described, nor are they operationalized in the expected student outputs.
+The review further identified **misalignment between some declared knowledge elements and the operational demands of the PBL task**. Several knowledge components included in the competency specifications are **not directly exercised by the task**, nor are they required to produce the expected artifacts.
 
-In particular, the following knowledge elements were identified as **out of scope** for the task:
+Specifically, the following knowledge elements were assessed as **outside the effective scope of the task**:
 
-* Equivalence between **Deterministic Finite Automata (DFA)** and **Non-Deterministic Finite Automata (NFA)**;
-* Equivalence between **Finite Automata (FA)** and **Regular Expressions (RE)**;
-* Application of FA–RE equivalence to derive **regular expressions from existing automata**.
+- Equivalence between **Deterministic Finite Automata (DFA)** and **Non-Deterministic Finite Automata (NFA)**;
+- Equivalence between **Finite Automata (FA)** and **Regular Expressions (RE)**;
+- Application of FA–RE equivalence to derive **regular expressions from existing automata**.
 
-The task scenario focuses on the **construction and validation of automata-based solutions** for a vending machine system, without requiring formal reasoning about model equivalence or transformations across representational formalisms. Consequently, the inclusion of equivalence-related knowledge introduces unnecessary complexity and weakens alignment between **learning objectives**, **competency specifications**, and **task requirements**.
+The task scenario emphasizes the **construction, simulation, and validation of automata-based solutions** for a vending machine system. It does not require formal reasoning about equivalence theorems or transformations between representational formalisms. Consequently, the inclusion of equivalence-related knowledge elements introduces unnecessary conceptual load and weakens alignment between the **learning objectives**, **competency specifications**, and the **explicit requirements of the instructional task**.
 
-Additionally, one knowledge–skill pair explicitly associated with *“Equivalence of DFAs and NFAs – Understand (Compare)”* was found to be unsupported by the task description and should therefore be removed to preserve conceptual coherence.
-
-
+Additionally, one knowledge–skill pairing explicitly associated with *“Equivalence of DFA and NFA — Understand (Compare)”* was identified as unsupported by the task description. From a modeling standpoint, its presence reduces conceptual coherence and should therefore be excluded in future refinements of the artifact.
 
 ### Evaluation Summary
 
-| **Criterion**         | **Assessment** | **Rationale**                                                                                          |
-| --------------------- | -------------- | ------------------------------------------------------------------------------------------------------ |
-| **Comprehensiveness** | No             | Essential knowledge is present, but its representation is overly coarse.                               |
-| **Relevance**         | Maybe          | Some knowledge elements support the task, while others are not operationalized.                        |
-| **Appropriateness**   | No             | The level of detail is misaligned with task demands, being both too broad and, in places, unnecessary. |
+The table below synthesizes the expert assessment of the knowledge component, strictly in terms of its adequacy as part of a **competency specification artifact**.
 
-
+| **Criterion**         | **Assessment** | **Rationale**                                                                                               |
+|-----------------------|----------------|-------------------------------------------------------------------------------------------------------------|
+| **Comprehensiveness** | No             | Core knowledge is present, but its representation lacks the necessary semantic granularity.                 |
+| **Relevance**         | Partial        | Some knowledge elements directly support the task, while others are not operationalized in expected outputs.|
+| **Appropriateness**   | No             | The knowledge scope is misaligned with task demands, being both overly abstract and, in places, unnecessary.|
 
 ### Decision Threshold
 
-* **Needs Revision**
+- **Needs Revision**
 
-The knowledge component requires **refinement of granularity**, **removal of non-essential elements**, and **stronger alignment with the explicit scope of the PBL task**, in order to function effectively within the CSP and OntoKSD frameworks.
+From an artifact-centered perspective, the knowledge component requires **refinement of granularity**, **removal of non-essential elements**, and **stronger alignment with the explicit scope of the PBL task** in order to function effectively within the CSP and OntoKSD frameworks.
 
 
 
@@ -111,51 +112,55 @@ The knowledge component requires **refinement of granularity**, **removal of non
 
 ## 4. Learning Objectives Review
 
-**Objective:** Ensure that the learning objectives are explicit, aligned, and pedagogically sound. 
+**Objective:**  
+To verify that the learning objectives are **explicitly stated, pedagogically coherent, and aligned with the instructional scope of the task**, considering them as elements of a **curricular specification artifact** rather than as indicators of learner performance.
 
-| **Criterion**       | **Yes / Maybe / No** | **Evaluator Notes**                                                         |
-| ------------------- | -------------------- | --------------------------------------------------------------------------- |
-| **Completeness**    |  Yes                 | Do the LOs cover both explicit and implicit learning goals?           |
-| **Relevance**       |  Yes                 | Are all LOs essential within the context of the task?               |
+The review focuses on the extent to which the learning objectives adequately capture both the **explicit goals articulated in the task description** and the **implicit competencies required to successfully complete the proposed activities**.
 
-### **Decision Thresholds**
+The table below summarizes the expert appraisal of the learning objectives with respect to their adequacy and instructional alignment.
 
-- Approved
+| **Criterion**    | **Assessment** | **Evaluator Notes**                                                                 |
+|------------------|----------------|-------------------------------------------------------------------------------------|
+| **Completeness** | Yes            | The learning objectives collectively cover both explicit and implicit instructional goals associated with the task. |
+| **Relevance**    | Yes            | All learning objectives are essential and appropriately scoped within the context of the task. |
+
+### Decision Threshold
+
+In accordance with the CSP evaluation guidelines, the learning objectives are considered **approved** when they are assessed as both **complete** and **relevant**.
+
+This assessment is limited to the **structural and pedagogical analysis of the learning objectives as an instructional artifact** and does not involve the evaluation of learner achievement or instructional effectiveness.
+
 
 
 
 
 ## 5. Competency Definitions Review
 
-This section examines the **clarity, consistency, and pedagogical adequacy** of the competency titles and descriptions, as well as the alignment between **knowledge–skill (K–S) pairings** and **Bloom’s Revised Taxonomy**.
+This section examines the **clarity, internal consistency, and pedagogical adequacy** of the competency titles and textual descriptions, as well as the alignment between **knowledge–skill (K–S) pairings** and **Bloom’s Revised Taxonomy**, considering the competency definitions as components of an **educational modeling artifact**.
 
 ### Competency Titles and Descriptions
 
-The technical review identified the need for **systematic refinement of competency titles and textual descriptions** in order to improve clarity, reduce ambiguity, and ensure consistency across the competency set.
+The expert review identified the need for **systematic refinement of competency titles and textual descriptions** in order to improve clarity, reduce ambiguity, and promote consistency across the competency set.
 
-Several competency descriptions were found to be **either overly directive or excessively generic**, which may hinder interpretability and reuse in other instructional contexts. In particular, explanatory passages describing background concepts (e.g., general discussions on the *purpose of modeling and simulation* or *reviews of regular expressions*) were identified as **redundant** within competency definitions and should be removed. Such conceptual explanations are more appropriately located in instructional materials rather than in competency statements, which should remain **action-oriented and outcome-focused**.
+Several competency descriptions were assessed as **either overly directive or excessively generic**, which may hinder interpretability and reuse in other instructional contexts. In particular, explanatory passages providing background information (e.g., general discussions on the *role of modeling and simulation* or *introductory explanations of regular expressions*) were identified as **redundant within competency definitions**. Such conceptual explanations are more appropriately placed in instructional or supporting materials, whereas competency statements should remain **concise, action-oriented, and outcome-focused**.
 
-One competency related to regular expressions exhibited **insufficiently precise wording** in its title. The formulation *“Determine Regular Expressions that Represent Automata”* was found to be ambiguous with respect to the intended cognitive operation. A reformulation emphasizing the **relationship between representational formalisms**—for example, *relating regular expressions to their equivalent automata*—was identified as more explicit and pedagogically transparent.
+One competency related to regular expressions exhibited **imprecise wording in its title**, potentially obscuring the intended cognitive operation. The formulation *“Determine Regular Expressions that Represent Automata”* was found to be ambiguous with respect to whether the emphasis lies on construction, identification, or conceptual understanding. A reformulation highlighting the **relationship between representational formalisms**—for example, framing the competency in terms of *relating regular expressions to their equivalent automata*—was assessed as more explicit and pedagogically transparent.
 
-Additionally, the analysis revealed **redundancy among competency definitions**, with two competencies (originally labeled D and E) expressing equivalent intent and scope. These entries should therefore be **merged into a single, consolidated competency** to avoid duplication and improve structural coherence.
+The analysis also revealed **functional redundancy among competency definitions**, with two competencies (originally identified as D and E) expressing overlapping scope and intent. From a structural modeling perspective, these competencies should be **consolidated into a single, unified definition** to eliminate duplication and improve internal coherence.
 
-Beyond individual cases, the review highlighted a broader issue of **terminological inconsistency** across competency descriptions and annotated resources. To enhance clarity, interoperability, and reuse—particularly within the OntoKSD framework—a **standardized terminology and explicit term-mapping strategy** should be adopted.
-
-
+Beyond individual cases, the review highlighted a broader issue of **terminological inconsistency** across competency descriptions and associated annotations. To support clarity, interoperability, and reuse—particularly within an ontology-driven framework such as OntoKSD—the adoption of a **standardized terminology and an explicit term-mapping strategy** is recommended.
 
 ### Knowledge–Skill Pairing and Bloom Alignment
 
-The review confirmed that the **knowledge–skill pairing strategy** is generally sound and that the use of **multiple Bloom-aligned action verbs** contributes positively to the explicitness of expected learner actions.
+The review confirmed that the adopted **knowledge–skill pairing strategy** is methodologically sound and that the systematic use of **Bloom-aligned action verbs** contributes positively to the explicitness of expected learner actions.
 
-The selected verbs were found to be **appropriately aligned with the task context and learning objectives**, supporting clear differentiation between knowledge components and observable skills. This aspect of the competency specification represents a **strength of the current model** and should be preserved in the revised version.
-
-
+The selected verbs were assessed as **appropriate to the task context and learning objectives**, enabling clear differentiation between knowledge components and observable skills. This aspect of the competency specification constitutes a **strength of the current artifact** and should be preserved in subsequent refinements.
 
 ### Decision Threshold
 
-* **Needs Revision**
+- **Needs Revision**
 
-While the overall structure of the competency definitions is robust, **textual refinement, terminological standardization, and removal of redundancies** are required to ensure conceptual clarity, internal consistency, and effective reuse within competency-based and ontology-driven educational settings.
+Although the overall structure of the competency definitions is robust, **textual refinement, terminological standardization, and the elimination of redundancies** are required to ensure conceptual clarity, internal consistency, and effective reuse within competency-based and ontology-driven educational contexts.
 
 
 
@@ -224,7 +229,7 @@ Collectively, these recommendations aim to enhance the **conceptual precision**,
 
 ## 7. Conclusion and Decision
 
-Based on the technical review, a set of **targeted and well-defined revisions** will be implemented to enhance the **clarity, relevance, and instructional adequacy** of the competency specifications associated with the task.
+Based on the expert review, a set of **targeted and well-defined revisions** will be implemented to enhance the **clarity, relevance, and instructional adequacy** of the competency specifications associated with the task.
 
 A central outcome of the review is the identification of **excessive abstraction in the current knowledge representation**, which limits conceptual precision and weakens the effectiveness of competency annotation. To address this issue, the knowledge component will be **restructured using a more fine-grained and task-aligned taxonomy**, enabling clearer differentiation of concepts explicitly required by the PBL scenario. As part of this refinement, knowledge elements related to **Non-Deterministic Finite Automata (NFA)**—which are not exercised by the task—will be revised or removed.
 

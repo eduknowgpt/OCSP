@@ -30,7 +30,7 @@ Although the task remains **well-motivated, coherent, and technically sound**, t
 
 ### **3.1 Use of Turing Machines**
 
-**Assessment:** ⚠️ *Theoretically valid, but pedagogically under-explicit*
+**Assessment:** *Theoretically valid, but pedagogically under-explicit*
 
 The selection of **Turing Machines (TM)** as the unified computational model for *Task 05* is **theoretically sound**, particularly in light of the task’s requirements for:
 

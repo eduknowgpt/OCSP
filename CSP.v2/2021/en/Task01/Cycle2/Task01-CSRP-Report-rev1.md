@@ -4,7 +4,7 @@ A second expert review cycle was conducted after the implementation of the revis
 
 During this cycle, an additional **terminological refinement** was identified and formally adopted. Specifically, the use of the term *“Automata”*, although technically correct, was considered **overly general** and potentially ambiguous, as it may refer to computational models beyond the intended instructional scope of the task—such as **Pushdown Automata, Turing Machines, or Linear Bounded Automata**.
 
-To ensure conceptual precision and prevent unintended scope expansion, the competency descriptions were refined to explicitly reference **“Finite Automata”**. This adjustment establishes a clear and unambiguous alignment between the competency framework and the actual problem context, which is centered on the design and validation of a vending machine model using finite-state representations.
+To ensure conceptual precision and prevent unintended scope expansion, the competency descriptions were refined to explicitly reference **“Finite State Machines**. This adjustment establishes a clear and unambiguous alignment between the competency framework and the actual problem context, which is centered on the design and validation of a vending machine model using finite-state representations.
 
 All agreed-upon modifications resulting from this second review cycle have been incorporated and are documented in the updated report: *Task01-CSP-Report-rev1.md*.
 

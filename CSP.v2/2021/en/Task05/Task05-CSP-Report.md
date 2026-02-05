@@ -71,11 +71,20 @@ Learners should submit:
 
 ## Proficiency Scale
 
-| **Level**     | **Descriptor**                                                                                                          | **Grade Range (0–10)** |
-| ------------- | ----------------------------------------------------------------------------------------------------------------------- | ---------------------- |
-| **Novice**    | Partial or incorrect TM model; fails to correctly process or count categories                                           | 0–5                    |
-| **Competent** | Correct TM model with clear classification and counting; successfully simulated and validated                           | >5–9                    |
-| **Advanced**  | TM model optimized with multi-tape or nondeterministic features; includes comparative analysis and strong justification | > 9                   |
+Competency performance is evaluated on a **continuous numeric scale from 0.0 to 10.0**, with increments of 0.1.  
+Based on the assigned grade, performance is mapped to one of the proficiency levels described below.
+
+- **Novice** *(0.0 ≤ grade ≤ 5.0)*  
+  Demonstrates a **partial, inconsistent, or incorrect Turing Machine (TM) model**, failing to correctly process inputs or to reliably classify and count the required categories.  
+  Typical issues include missing or incorrect transitions, improper tape manipulation, incorrect halting behavior, or logical flaws that prevent correct execution across representative cases.
+
+- **Competent** *(5.0 < grade ≤ 9.0)*  
+  Presents a **correct and complete TM model**, capable of accurately processing inputs and performing the required classification and counting tasks.  
+  The machine is **successfully simulated and validated**, exhibiting consistent behavior across expected scenarios and a clear correspondence between the problem specification and the constructed model.
+
+- **Advanced** *(9.0 < grade ≤ 10.0)*  
+  Extends the correct TM model with **advanced design features**, such as multi-tape constructions or controlled use of nondeterminism, when appropriate.  
+  The solution includes a **comparative or analytical justification** of design choices (e.g., complexity, expressiveness, or efficiency trade-offs) and demonstrates conceptual mastery beyond the baseline task requirements.
 
 
 

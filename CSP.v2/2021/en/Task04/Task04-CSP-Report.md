@@ -89,11 +89,20 @@ Learners are expected to submit:
 
 ## Proficiency Scale
 
-| **Level**     | **Descriptor**                                                                                                          | **Grade Range (0–10)** |
-| ------------- | ----------------------------------------------------------------------------------------------------------------------- | ---------------------- |
-| **Novice**    | FSM or regex is incomplete/incorrect; fails to detect herd thresholds or classify correctly                             | 0–5                    |
-| **Competent** | Accurate FSM and regex that detects herd thresholds and operates correctly; validated in JFLAP                          | >5–9                   |
-| **Advanced**  | FSM optimized for minimal complexity; includes threshold analysis and FSM cost estimation; strong explanation in report | >9                     |
+Competency performance is assessed on a **continuous numeric scale ranging from 0.0 to 10.0**, with increments of 0.1.  
+Based on the assigned grade, the performance is mapped to one of the proficiency levels defined below.
+
+- **Novice** *(0.0 ≤ grade ≤ 5.0)*  
+  Demonstrates an **incomplete or incorrect Finite State Machine (FSM) or regular expression**, failing to correctly detect herd thresholds or to reliably classify the required cases.  
+  Typical shortcomings include missing or incorrect transitions, insufficient state coverage, inconsistent correspondence between the FSM and the regular expression, or incorrect handling of threshold conditions.
+
+- **Competent** *(5.0 < grade ≤ 9.0)*  
+  Presents an **accurate and coherent FSM and corresponding regular expression**, correctly detecting herd thresholds and classifying all required scenarios.  
+  The solution is **successfully simulated and validated using JFLAP**, exhibiting consistent behavior across representative inputs and clear alignment between the automaton and the regular expression.
+
+- **Advanced** *(9.0 < grade ≤ 10.0)*  
+  Extends the correct solution with an **optimized FSM**, demonstrating reduced structural complexity (e.g., fewer states or transitions) while preserving correctness.  
+  Includes a **threshold analysis**, an explicit **FSM cost estimation**, and a **clear, well-founded technical explanation** in the report, evidencing mastery beyond the baseline task requirements.
 
 
 
