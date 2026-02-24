@@ -5,213 +5,247 @@
 
 
 
-## A. Task Description Analysis
+## 1. Task Description Analysis
 
-Task204 explores the logic behind Online Judge (OJ) systems used to evaluate algorithmic solutions submitted by programmers. It is based on a real problem faced by a startup during programming marathon training, where code submissions for a Traveling Salesman Problem (TSP) instance consistently resulted in **TLE (Time Limit Exceeded)**.
+Task204 investigates the operational logic of **Online Judge (OJ)** systems used to evaluate algorithmic solutions submitted by programmers. The task is grounded in a real scenario observed during programming marathon training at a startup, where repeated submissions for a **Traveling Salesman Problem (TSP)** instance resulted in **TLE (Time Limit Exceeded)** outcomes.
 
 The task challenges students to:
-- Analyze the computational nature of the TSP and justify its difficulty.
-- Explain why the OJ system cannot detect infinite loops.
-- Construct a **Finite State Machine (FSM)** that models the OJ's behavior across outcomes such as **AC**, **WA**, **TLE**, **CE**, and **RE**.
-- Connect the practical challenges to core concepts from Computation Theory (e.g., undecidability, the Halting Problem, and NP-completeness).
 
-Deliverables include an SBC-format report containing: team hypotheses and analysis of the TSP scenario, responses to business-level questions, and a modeled FSM with explanations of system limitations.
+- Analyze the computational characteristics of the TSP and justify its algorithmic difficulty.
+- Explain why an OJ system cannot determine whether a submitted program will halt.
+- Construct a **Finite State Machine (FSM)** that externalizes the observable behavior of the OJ across outcomes such as **AC**, **WA**, **TLE**, **CE**, and **RE**.
+- Relate the practical limitations of automated evaluation systems to fundamental concepts from Computation Theory, particularly **undecidability** and the **Halting Problem**, and to complexity-related considerations such as NP-completeness.
 
+Within the instructional scope of this task, the FSM serves as a **behavioral model of system outcomes**, enabling students to represent observable execution states while recognizing that the underlying computational limitations arise from theoretical properties of computation rather than from implementation details.
 
-
-## B. Knowledge Enumeration
-
-To fulfill the task objectives, the following knowledge areas are required:
-
-- **Finite State Machines** (FSM)
-- **Deterministic and Non-deterministic Automata**
-- **Turing Machines and Universal Turing Machines**
-- **Halting Problem**
-- **Recursively Enumerable Languages**
-- **P, NP, and NP-Complete Problems**
-- **Chomsky Hierarchy**
-- **Formal Modeling and Simulation (JFLAP)**
-- **Written Technical Communication**
-- **Analytical and Critical Thinking**
+The expected deliverables include an SBC-format technical report containing: team hypotheses and analysis of the TSP scenario, responses to business-oriented questions regarding system behavior and limitations, and a formally modeled FSM accompanied by explanations of the system’s theoretical constraints.
 
 
 
-## C. Learning Objectives and Expected Outcomes
+## 2. Knowledge Enumeration
 
-1. Model and simulate the behavior of Online Judges using FSMs.
-2. Analyze the TSP in the context of computational complexity and NP-completeness.
-3. Explain the Halting Problem and justify the impossibility of detecting infinite loops.
-4. Discuss the limits of automation in program evaluation based on formal language theory.
-5. Connect real-world evaluation systems to foundational concepts in Computation Theory.
-6. Produce a well-structured technical report in SBC format, including examples and theoretical justification.
+To fulfill the task objectives, students are expected to mobilize the following knowledge areas, organized according to their functional role within the task:
+
+### Core Theoretical Knowledge
+
+- **Halting Problem**  
+  Understanding the undecidability of program termination and its implications for automated evaluation systems.
+
+- **Computational Complexity (P, NP, NP-Complete Problems)**  
+  Understanding how problem complexity affects execution time and why certain problems, such as TSP, frequently lead to TLE outcomes.
+
+### Supporting Formal Knowledge
+
+- **Finite State Machines (FSM)**  
+  Modeling observable system behavior and representing evaluation outcomes through formal state transitions.
+
+- **Chomsky Hierarchy**  
+  Positioning computational models within a broader theoretical framework to support reasoning about expressive limitations.
+
+- **Turing Machines and Universal Turing Machines**  
+  Understanding Turing Machines as reference models for computability, supporting conceptual reasoning about undecidability rather than requiring construction or simulation.
+
+- **Recursively Enumerable Languages**  
+  Interpreting acceptance and semi-decidability in relation to program execution and termination behavior.
+
+### Supporting Technical and Transversal Knowledge
+
+- **Formal Modeling and Simulation (JFLAP)**  
+  Implementing and validating FSM representations of system behavior.
+
+- **Written Technical Communication**  
+  Producing structured documentation that explains modeling decisions, theoretical justification, and system limitations.
+
+- **Analytical and Critical Thinking**  
+  Supporting reasoning about computational limits, model adequacy, and interpretation of system behavior.
 
 
 
-## D. Competency Specification
+## 3. Learning Objectives and Expected Outcomes
 
-Based on the **EdukNow Competence Project**, the following competencies were reused and/or proposed to address Task204:
+Upon completion of this task, students are expected to demonstrate the following learning outcomes:
+
+1. **Explain the limitations of automated program evaluation**, particularly the impossibility of detecting infinite loops, based on the Halting Problem and the theoretical limits of computation.
+
+2. **Analyze the Traveling Salesman Problem (TSP)** in the context of computational complexity, relating NP-completeness to practical outcomes such as Time Limit Exceeded (TLE).
+
+3. **Model and simulate the observable behavior of Online Judge systems using Finite State Machines (FSMs)**, representing evaluation outcomes and system responses without assuming full knowledge of program execution.
+
+4. **Discuss the limits of automation in program evaluation**, relating practical system behavior to foundational concepts from Computation Theory, including undecidability and expressive limitations of computational models.
+
+5. **Relate real-world evaluation systems to core concepts in Computation Theory**, integrating theoretical reasoning with practical system analysis.
+
+6. **Produce a well-structured technical report in SBC format**, clearly documenting problem analysis, modeling decisions, theoretical justification, and examples supporting the proposed explanations.
+
+
+
+
+## 4. Competency Specification
+
+Based on the **EdukNow Competence Project**, the following competencies were reused to address Task204. Their selection reflects the distinction between **core theoretical reasoning**, **supporting modeling activities**, and **transversal communication competencies**, as validated through expert review.
 
 
 ### **C06 – Develop Problem-Solving Solutions Using Finite State Machines**
 
 **Justification for Reuse:**  
-Students are required to design and simulate a Finite State Machine representing the internal logic of the Online Judge system. This competency supports the design and implementation of FSMs that reflect real-world system behavior and decision-making processes.
+Students are required to construct a Finite State Machine representing the observable behavior of the Online Judge system across evaluation outcomes (AC, WA, TLE, CE, RE).  
+
+In Task204, FSM construction serves as a **behavioral externalization mechanism**, allowing learners to represent system responses and evaluation states without modeling internal program execution. Accordingly, C06 supports the constructive representation of system behavior while remaining secondary to the theoretical explanation of computational limits.
 
 
 
-### **C02 - Justify the Use of Deterministic Finite Automata (DFAs)**
+### **C02 – Justify the Use of Deterministic Finite Automata (DFAs)**
 
 **Justification for Reuse:**  
-Part of the analysis involves evaluating the expressive power and limitations of FSMs in modeling the evaluation process. Competency C06 supports theoretical justification of FSM usage versus more expressive models, reinforcing discussions on modeling adequacy.
+The task requires students to discuss the adequacy and limitations of FSMs as modeling tools. Competency C02 supports analytical reasoning about model selection and expressive power, enabling learners to justify why FSMs are suitable for representing observable outcomes while remaining insufficient for reasoning about program termination.
 
 
 
 ### **C03 – Test Automata Using Simulators**
 
 **Justification for Reuse:**  
-The FSM model of the OJ must be validated and refined using simulation tools like JFLAP. Competency C07 focuses on simulation-based testing and iterative improvement, aligning with the task’s deliverables.
+The FSM model must be validated through simulation using tools such as JFLAP. Competency C03 supports simulation-based verification and refinement of the model, ensuring that the represented system behavior is consistent with the defined evaluation scenarios.
+
 
 
 ### **C14 – Differentiate Classifications of Formal Grammars**
 
 **Justification for Reuse:**  
-Students must relate the behavior of Online Judge systems to the Chomsky Hierarchy, understanding the position of FSMs and Turing Machines within the broader spectrum of language classes. Competency C14 supports this comparative classification and formal reasoning.
+Students relate the behavior of Online Judge systems to the broader theoretical framework of computation by positioning FSMs and Turing Machines within the Chomsky Hierarchy. Competency C14 supports comparative reasoning about expressive power and contributes to the theoretical justification of system limitations.
 
 
 
-###  **C05 – Write a Technical Report**
+### **C05 – Write a Technical Report**
 
 **Justification for Reuse:**  
-Task204 requires a structured, formal report that integrates analysis, modeling, and theoretical explanation. Competency C04 ensures that students can collaboratively produce technical documentation with clarity, rigor, and completeness.
+Task204 requires the production of a structured technical report integrating problem analysis, FSM modeling, and theoretical justification. Competency C05 supports the clear and rigorous communication of technical reasoning and serves as a **transversal competency**, providing the primary artifact through which learning evidence is expressed.
 
 
 
+The following competencies were introduced to address Task204. While previous tasks focused on model construction and expressive adequacy (FSMs and PDAs), Task204 introduces a scenario in which the central learning objective concerns the **theoretical limits of computation itself**. The task requires learners to explain why certain system behaviors—such as detecting infinite loops in arbitrary programs—cannot be algorithmically determined. 
+
+This requirement revealed the absence of an explicit competency addressing **undecidability and its practical implications**, leading to the introduction of **C15** as a core analytical and justificatory competency. A second related competency (**C16**) emerges subsequently to support interpretative reasoning about Turing Machine concepts, without constituting an independent constructive objective.
 
 
 
+## 4.1 Competency Specification
 
-## 4. Competency Definition
+### **C15 – Understand the Halting Problem and its Implications**
 
-Competencies are specified based on the **Learning Objectives (LOs)** identified in the task analysis.
-
-### 4.1 Competency Specification
-
-### A.1 Competency Title
+#### A.1 Competency Title
 
     Understand the Halting Problem and its Implications
 
 
-### A.2 Textual Description
+#### A.2 Textual Description
 
-This competency involves the ability to understand and articulate the theoretical foundations and practical implications of the **Halting Problem**, one of the central results in Computation Theory. Students must be able to explain why it is **undecidable to determine whether an arbitrary program halts** on a given input, and how this impacts the design and limitations of **automated systems such as Online Judges**.
+This competency involves the ability to understand and articulate the theoretical foundations and practical implications of the **Halting Problem**, one of the central results in Computation Theory. Learners must be able to explain why it is **undecidable to determine whether an arbitrary program halts** on a given input and how this limitation affects the design and behavior of **automated computational systems**, such as Online Judges.
 
-Learners must demonstrate an understanding of the relationship between **Turing Machines**, **recursively enumerable languages**, and **undecidability**, and apply this knowledge to **justify the impossibility of general-purpose loop detection**. This competency also includes the ability to discuss the **boundaries of algorithmic solvability**, critically analyze the limitations of formal models, and connect abstract computational theory to real-world scenarios.
+Students demonstrate this competency by relating the Halting Problem to the broader notions of **computability**, **Turing Machines**, and **recursively enumerable languages**, and by using these concepts to justify the impossibility of general-purpose loop detection. The emphasis of this competency lies in **analytical and justificatory reasoning**, rather than in the construction or simulation of computational models.
 
-In the context of the Online Judge task, students must provide a **theoretically sound explanation** of why infinite loops cannot be detected algorithmically, and how this limitation reflects fundamental principles of Computation Theory.
+Within the context of Task204, learners are expected to provide a theoretically grounded explanation of why infinite loops cannot be detected algorithmically and to connect this limitation to observable system outcomes such as TLE. The competency therefore bridges abstract computational theory and real-world system behavior, highlighting the boundaries of algorithmic solvability.
 
 
 
-### A.3 Knowledge Specification
+#### A.3 Knowledge Specification
 
-The following knowledge areas are critical for this competency:
+The following knowledge areas are central to this competency:
 
 * **The Halting Problem**
 
-  * Central to understanding **undecidability** in computation.
-  * Explains the **limits of algorithmic detection** of program behavior.
+  * Core result establishing undecidability in computation.
+  * Explains fundamental limits of algorithmic reasoning about program behavior.
 
 * **Computability**
 
-  * Provides the formal framework for defining **general computation**.
-  * Used to model and reason about the **behavior of arbitrary programs**.
+  * Provides the formal framework for reasoning about what problems can or cannot be solved algorithmically.
+  * Supports classification of problems as decidable, semi-decidable, or undecidable.
 
 * **Turing Machines**
 
-  * Essential to understanding what **can be semi-decided** by Turing Machines.
-  * Clarifies why some problems can only be partially resolved through computation.
+  * Serve as the reference model for general computation.
+  * Support conceptual reasoning about recognizability and undecidability without requiring constructive modeling.
 
 * **Analytical and Critical Thinking (FPK)**
 
-  * Required for **evaluating complex theoretical implications**.
-  * Supports the **construction of logical arguments** and theoretical justifications.
+  * Supports the development of logically coherent explanations and theoretical argumentation.
+  * Enables learners to relate abstract theory to practical system limitations.
 
 
-### A.4 Disposition Specification
 
+#### A.4 Disposition Specification
 
-**Collaboration**
+The following dispositions support effective enactment of this competency:
 
-* The task is grounded in the **Problem-Based Learning (PBL) methodology**, which requires active and continuous interaction among team members.
-* Students must **share insights**, **analyze different perspectives**, and **coordinate decisions** related to model design, theoretical justifications, and report writing.
-* Collaboration fosters a productive learning environment that supports **peer feedback**, **joint problem-solving**, and **consensus-building** around complex computational concepts.
+**Analytical Rigor**
+
+* Encourages careful reasoning when interpreting theoretical results and their implications.
+* Supports precision and consistency in explanations involving undecidability and computational limits.
 
 **Responsibility**
 
-* Each team member must take ownership of specific deliverables, ensuring that contributions are **timely**, **accurate**, and **aligned with project goals**.
-* Responsibility includes managing task dependencies, **upholding academic rigor** in the theoretical analysis, and ensuring that the **final report adheres to SBC standards**.
-* It also involves the **ethical presentation of results**, particularly when discussing undecidability and system limitations to non-technical audiences.
+* Involves maintaining academic rigor when communicating theoretical limitations, particularly when translating technical concepts to non-technical audiences.
+* Includes ensuring conceptual correctness in written explanations and justifications.
+
+**Collaboration**
+
+* Supports collective reasoning and peer discussion within the PBL context.
+* Enables refinement of theoretical explanations through shared analysis and feedback.
 
 **Proactivity**
 
-* Proactive learners **anticipate conceptual difficulties**, such as the implications of the **Halting Problem** or **NP-completeness**, and take initiative to explore relevant literature.
-* They contribute actively during PBL sessions, **pose critical questions**, and seek clarification on abstract topics (e.g., limits of machine recognition).
-* Proactivity also involves identifying and addressing **inconsistencies** in the FSM model or the logical structure of the argumentation before submission.
-
-**Creativity**
-
-* Creativity is essential for **translating theoretical constraints** (e.g., undecidability) into **clear, illustrative FSM models** that simulate the Online Judge system behavior.
-* Students are encouraged to **explore alternative representations**, for instance by simulating error paths, integrating timeout transitions, or annotating rejection logic.
-* It also enhances the **clarity and engagement** of the report by encouraging the use of **diagrams, metaphors, and real-world analogies** to explain abstract concepts.
+* Encourages learners to engage actively with abstract concepts and seek clarification when confronting theoretical boundaries or counterintuitive results.
 
 
 
+#### A.5 Knowledge–Skill Pairing
 
-### A.5 Knowledge-Skill Pairing
+##### A.5.1 Mapping Knowledge to Skills
 
-#### A.5.1 Mapping Knowledge to Skills
-
-* **Understand** the **Halting Problem** to justify the impossibility of infinite loop detection.
-* **Apply** the concept of Turing Machines to reason about undecidability and computational boundaries.
-* **Understand** Computability, including which problems are solvable or semi-decidable.
-* **Apply** Analytical and Critical Thinking (FPK) to develop logically coherent arguments linking theory to practice.
-
-
-#### A.5.2 Bloom’s Taxonomy Alignment
-
-* **Halting Problem – Understand**
-
-    * Enables students to describe, justify, and relate the concept of undecidability to real-world evaluation systems.
-
-    * Evaluates their ability to analyze implications of non-termination in computation.
-
-* **Turing Machines – Apply**
-
-    * Assesses the ability to use the Turing Machine abstraction to explore limits of recognizability and decidability.
-
-    * Supports modeling of theoretical systems such as universal machines and online judges.
-
-* **Understand - Computability**
-    * Assesses the student’s capacity to identify and classify problems based on whether they are computable, semi-decidable, or undecidable.
-
-* **Apply - Analytical and Critical Thinking**
+* **Understand** the **Halting Problem** in order to justify the impossibility of general infinite loop detection.
+* **Understand** Computability to classify problems according to solvability and recognizability.
+* **Analyze** the role of Turing Machines as reference models for reasoning about undecidability.
+* **Apply** analytical and critical thinking to construct coherent theoretical explanations linking computation theory to system behavior.
 
 
-#### A.5.3 Verb Annotation
 
-* **Understand** → Halting Problem → **Describe, Justify, Relate**
-* **Apply** → Turing Machines → **Use, Model, Explain**
-* **Understand** → Computability → **Classify, Recognize, Explain**
-* **Apply** → Analytical and Critical Thinking → **Evaluate, Structure, Argue**
+##### A.5.2 Bloom’s Taxonomy Alignment
+
+* **Halting Problem – Understand / Analyze**
+
+  * Enables learners to explain undecidability and relate it to real-world automated evaluation systems.
+
+* **Computability – Understand**
+
+  * Assesses the ability to classify computational problems according to solvability.
+
+* **Turing Machines – Analyze**
+
+  * Supports reasoning about limits of computation without requiring model construction.
+
+* **Analytical and Critical Thinking – Apply**
+
+  * Supports the construction of logically consistent theoretical arguments.
 
 
-### A.6 Summary Table for Competency B
 
-| **Competency**                                      | **Dispositions**                                      | **Knowledge**                    | **Skill**                                     |
-| --------------------------------------------------- | ----------------------------------------------------- | -------------------------------- | --------------------------------------------- |
-| Understand the Halting Problem and its Implications | Curiosity, Rigor, Responsibility, Analytical Thinking | Halting Problem                  | **Understand (Describe, Justify, Relate)**    |
-|                                                     |                                                       | Turing Machines                  | **Apply (Use, Model, Explain)**               |
-|                                                     |                                                       | Computability                    | **Understand (Classify, Recognize, Explain)** |
-|                                                     |                                                       | Analytical and Critical Thinking | **Apply (Evaluate, Structure, Argue)**        |
+##### A.5.3 Verb Annotation
+
+* **Understand** → Halting Problem → *Describe, Explain, Justify*
+* **Analyze** → Turing Machines → *Relate, Examine, Interpret*
+* **Understand** → Computability → *Classify, Recognize, Explain*
+* **Apply** → Analytical and Critical Thinking → *Evaluate, Structure, Argue*
+
+
+
+#### A.6 Summary Table for Competency C15
+
+| **Competency**                                      | **Dispositions**                                   | **Knowledge**                    | **Skill**                                      |
+| --------------------------------------------------- | -------------------------------------------------- | -------------------------------- | ---------------------------------------------- |
+| Understand the Halting Problem and its Implications | Analytical Rigor, Responsibility, Collaboration    | Halting Problem                  | **Understand / Analyze**                       |
+|                                                     |                                                    | Turing Machines                  | **Analyze (Relate, Interpret)**                |
+|                                                     |                                                    | Computability                    | **Understand (Classify, Explain)**             |
+|                                                     |                                                    | Analytical and Critical Thinking | **Apply (Evaluate, Structure, Argue)**         |
 
 
 
@@ -219,118 +253,122 @@ The following knowledge areas are critical for this competency:
 
 
 
-### B.1 Competency Title
 
+### **C16 – Apply Turing Machine Concepts to Analyze Computational System Capabilities**
+
+
+
+#### B.1 Competency Title
 
     Apply Turing Machine Concepts to Analyze Computational System Capabilities
 
 
 
-### B.2 Textual Description
+#### B.2 Textual Description
 
-This competency involves the ability to apply the formal model of **Turing Machines** to analyze and evaluate the capabilities and limitations of computational systems. Students are expected to **model abstract machines**, reason about their behavior, and use this understanding to **classify problems** as computable, semi-decidable, or undecidable.
+This competency involves the ability to apply the conceptual framework of **Turing Machines** to analyze and interpret the capabilities and limitations of computational systems. Rather than focusing on the construction of Turing Machine artifacts, this competency emphasizes the **interpretative and analytical use** of the Turing Machine model as a reference abstraction for reasoning about computation.
 
-In particular, learners should be able to explore how **Turing Machines provide a universal framework** for algorithmic computation, and how this relates to **practical systems** like Online Judges (OJ), compilers, and program analyzers. This includes the ability to **simulate system functionality** using Turing Machine constructs and to articulate the **boundaries of algorithmic problem solving**.
+Learners are expected to understand how Turing Machines provide a **universal model of algorithmic computation**, enabling the analysis of system behavior and the classification of problems as computable, semi-decidable, or undecidable. This includes the ability to relate abstract computational models to practical systems such as Online Judges, compilers, and program analyzers, explaining how their operational limits emerge from fundamental computational principles.
 
-In the context of the Online Judge task, students must explain how **Turing-completeness** underlies the power of programming languages and why **certain program properties (e.g., non-termination)** cannot be fully determined by any algorithmic system.
+Within the context of Task204, this competency supports the explanation of how **Turing-completeness** underlies modern programming systems and why certain program properties—such as non-termination—cannot be algorithmically determined. The competency therefore operates primarily in an **analytical and interpretative mode**, complementing C15 by providing the conceptual framework through which undecidability results are understood and contextualized.
 
 
 
-### B.3 Knowledge Specification
+#### B.3 Knowledge Specification
 
 The following knowledge areas are fundamental for this competency:
 
 * **Turing Machines**
 
-  * Core abstraction for **general-purpose computation**.
-  * Basis for the definition of **computable and semi-decidable problems**.
+  * Reference abstraction for general-purpose computation.
+  * Provides the conceptual basis for reasoning about algorithmic capabilities and limitations.
 
 * **Computability Theory**
 
-  * Framework for reasoning about the **limits of algorithmic solvability**.
-  * Enables classification of problems and languages by decidability.
+  * Framework for analyzing solvability and recognizability of computational problems.
+  * Supports classification of computational phenomena observed in practical systems.
 
 * **Universal Turing Machine**
 
-  * Illustrates the concept of **programmable computation** and system simulation.
-  * Helps understand **meta-computational capabilities** of modern machines.
+  * Illustrates programmability and simulation as fundamental properties of computation.
+  * Supports understanding of how modern computational systems emulate arbitrary algorithms.
 
 * **Analytical and Critical Thinking (FPK)**
 
-  * Supports the evaluation of **system limitations**.
-  * Enables the construction of **logical arguments and problem classification**.
+  * Enables interpretation of theoretical models and evaluation of system limitations.
+  * Supports the construction of coherent explanations linking theory and practice.
 
 
 
-### B.4 Disposition Specification
+#### B.4 Disposition Specification
 
-**Collaboration**
+The following dispositions support the effective enactment of this competency:
 
-* Learners must engage in team-based modeling sessions, discussing theoretical constructs and aligning interpretations of Turing Machine behavior.
-* Peer exchange is essential to clarify abstract ideas and validate FSM/TM models collaboratively.
+**Analytical Rigor**
+
+* Encourages precise interpretation of formal models and careful reasoning about computational limits.
+* Supports conceptual consistency when relating abstract theory to system behavior.
 
 **Responsibility**
 
-* Each participant must take responsibility for ensuring the **conceptual rigor** of the modeling and theoretical justification processes.
-* This includes **accurate referencing**, **logical consistency**, and **report completeness**.
+* Involves maintaining conceptual accuracy in theoretical explanations and written argumentation.
+* Ensures that computational limitations are communicated correctly and without oversimplification.
+
+**Collaboration**
+
+* Supports collective reasoning during PBL activities, enabling clarification of abstract concepts through discussion and peer feedback.
 
 **Proactivity**
 
-* Proactive engagement is required to **explore theoretical challenges**, seek connections between abstract models and real-world systems, and fill knowledge gaps independently.
-* Students are expected to initiate refinement cycles and extend analyses beyond minimal expectations.
-
-**Creativity**
-
-* Creativity supports the **translation of abstract machine models into practical analogies**, especially when explaining computational limits to diverse audiences.
-* It also facilitates **original modeling strategies** using FSM or Turing Machines to simulate evaluation systems.
+* Encourages learners to explore conceptual connections between formal computation models and real-world systems beyond minimal task requirements.
 
 
 
-### B.5 Knowledge–Skill Pairing
+#### B.5 Knowledge–Skill Pairing
 
-#### B.5.1 Mapping Knowledge to Skills
+##### B.5.1 Mapping Knowledge to Skills
 
-* **Apply** Turing Machine concepts to analyze computational system limitations.
-* **Understand** Computability Theory to classify problems and justify the limits of automation.
-* **Apply** Analytical and Critical Thinking (FPK) to construct sound arguments about system capabilities.
+* **Apply** Turing Machine concepts to interpret computational system behavior and limitations.
+* **Understand** Computability Theory to classify problems according to solvability and recognizability.
+* **Apply** analytical and critical thinking to structure arguments relating formal models to practical systems.
 
-#### B.5.2 Bloom’s Taxonomy Alignment
 
-* **Turing Machines – Apply**
-  Enables students to model computation formally and explain why certain tasks are algorithmically feasible or not.
+
+##### B.5.2 Bloom’s Taxonomy Alignment
+
+* **Turing Machines – Apply / Analyze**
+
+  Enables learners to use the Turing Machine abstraction as an explanatory framework for computational capabilities and limits.
 
 * **Computability – Understand**
-  Evaluates conceptual clarity in identifying decidable vs. undecidable problems.
+
+  Assesses conceptual clarity in distinguishing decidable, semi-decidable, and undecidable problems.
 
 * **Analytical and Critical Thinking – Apply**
-  Supports argumentation and the synthesis of theoretical insights with real-world applications.
 
-#### B.5.3 Verb Annotation
-
-* **Apply** → Turing Machines → **Model, Use, Explain**
-* **Understand** → Computability → **Classify, Distinguish, Describe**
-* **Apply** → Analytical and Critical Thinking → **Analyze, Structure, Justify**
+  Supports argumentation and synthesis of theoretical insights with real-world computational scenarios.
 
 
 
-### B.6 Summary Table for Competency B
+##### B.5.3 Verb Annotation
 
-| **Competency**                                                             | **Dispositions**                                       | **Knowledge**                    | **Skill**                                        |
-| -------------------------------------------------------------------------- | ------------------------------------------------------ | -------------------------------- | ------------------------------------------------ |
-| Apply Turing Machine Concepts to Analyze Computational System Capabilities | Collaboration, Responsibility, Proactivity, Creativity | Turing Machines                  | **Apply (Model, Use, Explain)**                  |
-|                                                                            |                                                                                                      | Computability                    | **Understand (Classify, Distinguish, Describe)** |
-|                                |                                                        | Analytical and Critical Thinking | **Apply (Analyze, Structure, Justify)**          |
+* **Apply** → Turing Machines → *Use, Interpret, Explain*
+* **Understand** → Computability → *Classify, Distinguish, Describe*
+* **Apply** → Analytical and Critical Thinking → *Analyze, Structure, Justify*
 
 
 
+#### B.6 Summary Table for Competency C16
 
-
+| **Competency**                                                             | **Dispositions**                                   | **Knowledge**                    | **Skill**                                        |
+| -------------------------------------------------------------------------- | -------------------------------------------------- | -------------------------------- | ------------------------------------------------ |
+| Apply Turing Machine Concepts to Analyze Computational System Capabilities | Analytical Rigor, Responsibility, Collaboration    | Turing Machines                  | **Apply / Analyze (Use, Interpret, Explain)**   |
+|                                                                            |                                                    | Computability                    | **Understand (Classify, Distinguish, Describe)** |
+|                                                                            |                                                    | Analytical and Critical Thinking | **Apply (Analyze, Structure, Justify)**          |
 
 
 
 
-## Final Remarks
 
-Task204 combines practical programming challenges with deep theoretical insights, including undecidability, machine modeling, and computational complexity. The selected competencies ensure full coverage of the task's analytical, modeling, simulation, and communication dimensions. Together, they promote the development of theoretical understanding and applied problem-solving skills in real-world contexts such as Online Judge systems and NP-complete problems.
 
 

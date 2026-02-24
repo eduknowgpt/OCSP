@@ -9,54 +9,71 @@ C04 – Define Regular Expressions for Finite Automata
 
 
 
-### Identified Issue
+## Identified Issue
 
-The expert review of Task201 identified a **scope tension** in the reuse of competency **C04**. While the task did not require learners to explicitly construct regular expressions as artifacts, expert feedback indicated that students were expected to engage in **symbolic and structural reasoning** about event patterns and Finite State Machine (FSM) complexity—particularly when deriving estimation rules for states and transitions.
+The expert review conducted in Task201 identified a **scope tension** in the reuse of competency **C04**. Although the task did not require learners to explicitly construct regular expressions as formal artifacts, expert feedback indicated that students were nevertheless expected to engage in **symbolic and structural reasoning** about event patterns and Finite State Machine (FSM) complexity, particularly when deriving estimation rules for the number of states and transitions.
 
-This resulted in the activation of C04 at an **analytical and conceptual level**, rather than at a **notational or constructive level**, which is more directly suggested by the competency’s title.
+As a consequence, C04 was activated primarily at an **analytical and conceptual level**, rather than at a **notational or constructive level**, which is more directly suggested by the competency’s title and its typical artifact-oriented enactment. This observation revealed a discrepancy between the expected form of observable output and the cognitive processes effectively mobilized during task execution.
 
+Importantly, this tension does not indicate a semantic inadequacy of the competency itself. Instead, it reflects the context-dependent nature of competency enactment during reuse. The analysis demonstrated that the same competency may legitimately be activated through different cognitive modes depending on instructional intent, task constraints, and expected learner actions.
 
-
-### Adjustment Rationale
-
-The review concluded that the observed tension does **not reflect a semantic deficiency** in C04, nor does it justify the creation of a new derived competency. Instead, it reveals the need to **clarify the conditions and modes under which C04 may be legitimately activated** during task-based reuse.
-
-Creating a new competency to capture this analytical activation would introduce unnecessary fragmentation into the competency set and reduce reusability across instructional contexts.
+This adjustment should therefore be interpreted not as the introduction of a new conceptual construct within the CSP, but as the **operational clarification and empirical validation** of activation-oriented refinements that emerged in earlier CSP iterations (TASK03–TASK05). Task201 provides evidence that such activation variability naturally arises when stable competencies are reused across distinct instructional contexts and must therefore be explicitly documented to preserve interpretability and semantic stability.
 
 
 
-### CSP Adjustment
 
-The CSP is adjusted to explicitly account for **multiple activation modes** of reused competencies, particularly those involving symbolic or formal reasoning.
+## Adjustment Rationale
+
+The expert review concluded that the observed tension does **not reflect a semantic deficiency** in competency **C04**, nor does it justify the creation of a new derived competency. Instead, the tension reveals the need to **explicitly clarify the conditions and modes under which C04 may be legitimately activated** when reused across different instructional contexts.
+
+The analysis demonstrated that the competency itself remained semantically stable; the variation emerged from differences in **how the competency was enacted**, rather than from changes in its conceptual scope. In Task201, C04 supported analytical and symbolic reasoning about event structures and FSM complexity without requiring the explicit construction of regular-expression artifacts. This confirms that competency activation may occur at different cognitive and operational levels depending on task design, instructional intent, and expected learner actions.
+
+Creating a new competency to capture this analytical activation would therefore introduce unnecessary fragmentation into the competency set, weaken semantic continuity, and reduce reusability across instructional contexts. The appropriate refinement lies instead in **documenting activation characteristics at the level of competency reuse**, preserving the stability of competency definitions while allowing contextual variability in enactment.
+
+This rationale consolidates activation-oriented refinements previously identified in earlier CSP iterations (TASK03–TASK05), providing empirical validation that competency reuse requires explicit documentation of activation context rather than structural modification of the competency framework.
+
+
+
+
+## CSP Adjustment
+
+The CSP is refined to explicitly account for **multiple activation modes** when competencies are reused across distinct instructional contexts, particularly in cases involving symbolic, analytical, or formal reasoning. This adjustment does not introduce a new conceptual element to the CSP; rather, it operationalizes and formalizes activation-oriented refinements that emerged in earlier CSP iterations and were empirically validated through the analysis of Task201.
 
 Specifically, the following procedural adjustment is adopted:
 
-- When reusing competencies whose titles emphasize a concrete artifact (e.g., *Define Regular Expressions*), CSP authors should explicitly document whether the competency is being activated in:
-  - a **constructive mode** (e.g., producing formal artifacts), or
-  - an **analytical mode** (e.g., reasoning about structure, patterns, or formal properties without producing the artifact).
+- When reusing competencies whose titles emphasize the production of a concrete artifact (e.g., *Define Regular Expressions*), CSP authors must explicitly document **how the competency is activated within the instructional context**, including whether it is enacted in:
+  - a **constructive mode**, in which learners produce formal artifacts or executable representations; or
+  - an **analytical mode**, in which learners reason about structural, symbolic, or formal properties without necessarily producing the corresponding artifact.
 
-This clarification must be recorded in the **Competency Definition / Reusability Note** and, when applicable, discussed in the corresponding **CSRP-Report**.
+This clarification must be recorded in the **Competency Definition / Reusability Note** and, when relevant, explicitly discussed in the corresponding **CSRP-Report**, ensuring that variations in enactment are interpreted as contextual differences rather than as changes in competency scope.
 
-
-
-### Expected Impact
-
-This adjustment:
-- Improves transparency and interpretability of competency reuse;
-- Reduces ambiguity during expert review cycles;
-- Preserves the semantic stability and generality of existing competencies;
-- Prevents unnecessary proliferation of derived competencies.
-
-The adjustment reinforces the CSP’s role as a **flexible yet controlled process**, capable of accommodating context-sensitive competency activation while maintaining a stable and reusable competency framework.
+By relocating activation characteristics to the level of competency reuse, the CSP preserves the semantic stability of competencies while enabling context-sensitive instructional interpretation.
 
 
 
-### Status
+## Expected Impact
+
+This adjustment is expected to:
+
+- Improve transparency and interpretability of competency reuse across instructional entities;
+- Reduce ambiguity during expert review cycles by making activation context explicit;
+- Preserve the semantic stability and generality of existing competencies;
+- Prevent unnecessary proliferation of derived competencies motivated solely by contextual variation in enactment;
+- Strengthen alignment between competency definitions, instructional activities, and observable evidence.
+
+Overall, the adjustment reinforces the CSP’s role as a **flexible yet controlled process**, capable of accommodating context-sensitive competency activation while maintaining a stable, reusable, and semantically coherent competency framework.
+
+
+
+## Status
 
 **Adjustment Type:** Procedural / Documentation Refinement  
 **Structural Change to Competency Set:** None  
+
 **Ontological Impact (OntoKSD):**  
-Supports future modeling of *Competency Activation Mode* as contextual metadata, without altering competency hierarchy.
+Confirms the need to represent *Competency Activation Mode* as contextual metadata associated with the competence–instructional entity relation, without altering competency hierarchy or semantic scope.
+
+
 
 
 ### Competencies Associated with TASK201 – Surveillance Drone Prototype
@@ -87,6 +104,10 @@ Supports future modeling of *Competency Activation Mode* as contextual metadata,
 
 
 
-### Conclusion
+## Conclusion
 
-> The tension observed in the reuse of C04 does not justify the creation of a derived competency. Instead, it reveals the need to **explicitly document activation modes during competency reuse**, reinforcing the CSP’s commitment to semantic stability, reusability, and controlled refinement.
+The tension observed in the reuse of competency **C04** does not justify the creation of a derived competency or modification of the existing competency definition. Instead, it reveals the necessity of **explicitly documenting activation modes during competency reuse**, ensuring that variations in enactment are interpreted as contextual differences rather than as semantic inconsistencies.
+
+This adjustment reinforces a central principle of the CSP: competencies are treated as **stable and reusable semantic entities**, while their realization within instructional contexts may vary according to task requirements, expected learner actions, and forms of observable evidence. By making activation context explicit, the CSP preserves semantic stability while enabling flexibility in instructional design.
+
+More broadly, the adjustment illustrates how expert review contributes to the **controlled evolution of the CSP**, allowing methodological refinement without fragmentation of the competency framework. In this sense, Task201 functions as a validation point in the CSP lifecycle, demonstrating that explicit modeling of contextual activation supports consistent competency reuse while maintaining coherence, interpretability, and long-term reusability of the competency set.
