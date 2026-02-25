@@ -10,9 +10,9 @@ int main(){
     b = c;
     c = d;
     d = a;
-    b = a + b/2;
-    c = c+b;
-    d = d + (b*2) - a;
+    b = a + b / 2;
+    c = c + b;
+    d = d + (b * 2) - a;
 }
 ```
 
