@@ -114,14 +114,15 @@ Escala proposta (4 níveis) aplicada às dimensões **Técnica**, **Cognitiva** 
 Os conhecimentos foram delimitados ao **domínio de Computação**, evitando registrar como K itens que são essencialmente **habilidades** (p.ex., “implementar”, “testar”) ou **disposições** (p.ex., “ser organizado”, “ser ético”). Essa separação sustenta rastreabilidade K→S→D nas competências.
 
 
-# 3. Identificação de Objetivos de Aprendizagem
+# 3. Identificação de Objetivos de Aprendizagem (versão mais ampla e reutilizável)
 
-**LO1.** Identificar entradas, saídas, constantes e variáveis necessárias para resolver o problema.  
-**LO2.** Implementar uma **estrutura condicional** para distinguir os casos **P > 50** e **P ≤ 50**.  
-**LO3.** Calcular corretamente **E** e **M** a partir das expressões definidas no enunciado.  
-**LO4.** Garantir atribuição consistente de **E** e **M** em todas as alternativas do controle condicional.  
-**LO5.** Produzir saída verificável exibindo **E** e **M** com apresentação numérica coerente (incluindo precisão monetária plausível).  
-**LO6.** Elaborar justificativa breve conectando condição, cálculos e resultado apresentado.
+**LO1.** Interpretar um enunciado e identificar informações relevantes para a solução computacional (dados de entrada, resultados esperados e regras de decisão).  
+**LO2.** Selecionar e empregar tipos e variáveis adequados para representar dados e resultados em um programa.  
+**LO3.** Aplicar operadores relacionais e expressões booleanas para formular condições de decisão em problemas computacionais.  
+**LO4.** Utilizar estruturas condicionais para controlar o fluxo de execução e produzir resultados consistentes em cenários alternativos.  
+**LO5.** Construir expressões aritméticas coerentes com a especificação do problema e manter consistência entre cálculo e resultado produzido.  
+**LO6.** Produzir evidências verificáveis por meio de entrada/saída e justificar, de forma sucinta, a lógica adotada com base no comportamento esperado.
+
 
 ### Nota Analítica
 Os LOs são observáveis e avaliáveis por meio do **código**, da **saída** e da **justificativa**. Em Bloom revisada, predominam **Aplicar** (uso de estruturas e expressões) e **Criar** quando se exige a construção do programa; **Analisar** aparece de forma moderada na justificativa e no confronto entre regra e comportamento.

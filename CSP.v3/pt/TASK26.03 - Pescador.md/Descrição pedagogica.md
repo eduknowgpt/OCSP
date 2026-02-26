@@ -1,51 +1,30 @@
 ## Título da Atividade
-Cálculo de Excesso de Peso de Peixes e Multa (Linguagem C)
+Cálculo de Excesso de Peso e Multa (Linguagem C)
 
 ## Contexto Instrucional
-Atividade individual, típica de uma disciplina introdutória de programação em linguagem C, voltada à prática de leitura de dados, uso de variáveis e tomada de decisão com estrutura condicional. A tarefa pode ser realizada em laboratório (compilação e execução) ou como exercício escrito com entrega do algoritmo e do código-fonte.
+Atividade individual em disciplina introdutória de programação em C (nível técnico ou equivalente), voltada ao uso de **entrada/saída**, **variáveis**, **expressões aritméticas** e **estruturas condicionais**, com entrega de solução executável e resultados verificáveis.
 
 ## Objetivo da Atividade
-Desenvolver um programa que, a partir do peso total de peixes informado, determine se há excesso em relação a um limite fixo (50 kg) e calcule, quando aplicável, o valor da multa proporcional ao peso excedente.
+Desenvolver um programa que aplique uma regra de decisão para identificar **excesso** em relação a um limite estabelecido e calcular a **multa proporcional** ao excedente, produzindo saída consistente e conferível.
 
 ## Descrição da Tarefa
-O estudante deve elaborar um programa em C que:
-- Leia um valor **P** correspondente ao **peso de peixes** (em quilogramas).
-- Verifique se **P > 50**.
-  - Se houver excesso, registre em **E** o valor do **excesso** (isto é, *P − 50*) e em **M** o valor da **multa** correspondente, calculada como **4,00 reais por quilograma excedente** (*M = E × 4,00*).
-  - Caso contrário, registre **E = 0** e **M = 0**.
-- Apresente ao final os valores calculados de **E** e **M** (com zero quando não houver excesso).
+A partir do peso total de peixes informado pelo usuário (**P**, em quilogramas), o estudante deve construir um programa em C que:
+- determine se o peso ultrapassa o limite definido no enunciado;
+- quando houver ultrapassagem, **registre o excedente** na variável **E** e **calcule a multa** correspondente na variável **M**, conforme a taxa por quilograma excedente descrita no enunciado;
+- ao final, exiba os valores de **E** e **M** de forma verificável.
 
-> Observação técnica (para reduzir ambiguidade de correção): como o enunciado não explicita se **P** é inteiro ou real, o programa deve aceitar **P como número real** (em kg), mantendo coerência aritmética no cálculo de **E** e **M**. Para **M**, por se tratar de valor monetário, recomenda-se exibição com **duas casas decimais**.
-
-## Processo de Desenvolvimento
-1. Interpretar o enunciado e identificar entradas (**P**), processamento (comparação com 50; cálculo de **E** e **M**) e saídas (**E** e **M**).
-2. Definir as variáveis necessárias (**P**, **E**, **M**) e inicializar **E** e **M** conforme o caso.
-3. Implementar a decisão usando uma estrutura condicional:
-   - Caso **P > 50**, calcular **E = P − 50** e **M = E × 4,00**.
-   - Caso contrário, atribuir **E = 0** e **M = 0**.
-4. Exibir os resultados de modo verificável (valores numéricos de **E** e **M**), garantindo consistência de unidades (kg) e moeda (R$).
+## Condições de Execução
+- Utilizar **estrutura condicional** para tratar explicitamente os cenários “com excesso” e “sem excesso”.
+- Garantir que **E** e **M** recebam valores definidos em qualquer caminho de execução.
+- Adotar tipos numéricos compatíveis com a leitura do peso e com o cálculo do valor monetário, assegurando consistência entre cálculo e saída.
+- Recomenda-se validar a solução com entradas que cubram os dois cenários (abaixo/igual ao limite e acima do limite).
 
 ## Evidências Esperadas
-- Código-fonte em C que compila e executa sem erros.
-- Saída do programa apresentando **E** (excesso em kg) e **M** (multa em R$), com **zero** quando **P ≤ 50**.
-- Justificativa breve (2–5 linhas) explicando:
-  - a condição usada para detectar excesso;
-  - como foram obtidas as expressões de **E** e **M**.
+- Código-fonte em C que realiza: leitura de **P**, decisão por **estrutura condicional**, atribuição de **E** e **M**, e impressão dos resultados.
+- Registros de execução (saídas) que permitam verificar o comportamento do programa nos cenários “sem excesso” e “com excesso”.
+- Justificativa breve (2–5 linhas) descrevendo a condição utilizada e a lógica geral do cálculo (sem reescrever o código).
 
 ## Critérios de Avaliação
-**a) Dimensão Técnica (correção do raciocínio/solução)**
-- Leitura correta de **P** e uso apropriado de variáveis.
-- Condição de excesso corretamente aplicada (**P > 50**).
-- Cálculo correto de **E = P − 50** quando houver excesso e **E = 0** caso contrário.
-- Cálculo correto de **M = E × 4,00** e atribuição de **M = 0** quando não houver excesso.
-- Apresentação de **E** e **M** coerente com o caso (excesso vs. não excesso).
-
-**b) Dimensão Cognitiva (compreensão e explicação)**
-- Explicação clara da relação entre limite, excesso e multa.
-- Capacidade de justificar a estrutura condicional e as fórmulas utilizadas.
-- Coerência entre a justificativa e o comportamento observado na execução.
-
-**c) Dimensão Atitudinal (postura acadêmica na entrega)**
-- Entrega organizada (código legível, nomes de variáveis coerentes e saída compreensível).
-- Resultado verificável: valores exibidos de forma consistente, permitindo conferência objetiva.
-- Responsabilidade na apresentação: ausência de omissões relevantes (por exemplo, não deixar variáveis sem atribuição em algum ramo da condição).
+- **Correção:** identifica corretamente quando há/não há excesso e produz valores de **E** e **M** compatíveis com a regra do enunciado.
+- **Completude e consistência:** atribuições de **E** e **M** em todos os caminhos; coerência entre entrada, processamento e saída.
+- **Verificabilidade e clareza:** saída legível e suficiente para conferência; justificativa breve, objetiva e tecnicamente coerente.

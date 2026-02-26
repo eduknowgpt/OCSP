@@ -1,0 +1,1 @@
+Crie um algoritmo que leia um número de entrada (n) que indique a quantidade de valores que serão inseridos. Depois insira n números e calcule o valor de seu fatorial. O cálculo do fatorial deve ser feito por uma função.
