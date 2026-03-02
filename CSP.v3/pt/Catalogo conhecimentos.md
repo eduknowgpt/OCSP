@@ -1,6 +1,6 @@
 # Catálogo de Conhecimentos da Disciplina — Introdução à Programação (Univasf)
 
-**Objetivo:** estabelecer um *conjunto fixo e reutilizável* de conhecimentos (KDisc) para a disciplina **Introdução à Programação**, a ser usado como **limite superior** (escopo) na geração de relatórios CSP de tarefas da disciplina.  
+**Objetivo:** estabelecer um conjunto fixo e reutilizável de conhecimentos (K) para a disciplina **Introdução à Programação**, a ser usado como **limite superior** (escopo) na geração de relatórios CSP de tarefas da disciplina.  
 **Regra de uso no CSP:** em cada tarefa, o relatório CSP **seleciona um subconjunto** deste catálogo (não cria novos conhecimentos fora dele). Extensões só são aceitas se a ementa/catálogo forem revisados.
 
 
@@ -9,14 +9,14 @@
 - **Ementa da disciplina (Univasf):** tópicos listados como pré-requisitos/conteúdos (inclui: von Neumann, C11, paradigma imperativo, variáveis/constantes, tipos simples, programação estruturada, sequência, expressões, seleção/repetição, tipos estruturados, subprogramas, recursão, arquivos e diretórios).  
 - **CS2023 (ACM/IEEE):** Knowledge Unit **SDF-Fundamentals** (tópicos 1–8) e **SDF-Data-Structures** (tópico 4 para strings), usados aqui como **âncora externa**.
 
-### Convenção de códigos CS2023 (coluna “Código CS2023 curto”)
+### Convenção de códigos CS2023
 - **SDF-n** = *SDF-Fundamentals*, tópico **n**  
 - **SDFDS-n** = *SDF-Data-Structures*, tópico **n**  
-- (Opcional/apoio) **ARASM-n** = *AR-Assembly*, tópico **n**; **ARMEM-n** = *AR-Memory*, tópico **n**
 
 
 
-## Tabela-resumo do catálogo (KDisc)
+
+## Tabela-resumo do catálogo (K)
 
 | Código | Conhecimento (título reutilizável) | Rastreio na ementa (tópico) | Código CS2023 curto |
 |---|---|---|---|
@@ -155,17 +155,20 @@
 - **Evidências típicas:** persistir dados; ler entradas de arquivo; produzir saídas em arquivo; explicar a persistência.
 - **Observações de reuso:** recomendado para tarefas de processamento de dados e miniaplicações com persistência.
 
----
 
 ## Itens explicitamente fora do escopo (por padrão)
-Os tópicos abaixo aparecem no CS2023, mas **não estão explicitados na ementa** da disciplina (a menos que você decida incorporá-los formalmente):
-- **SDF-9 (erros de execução) / SDF-10 (teste e depuração) / SDF-11 (documentação/comentários) / SDF-12 (mentalidade de segurança)**  
-Se surgirem em uma tarefa, trate como **EXT (extensão)** e não crie novos KDisc sem atualizar este catálogo.
+Os tópicos abaixo aparecem no CS2023, mas **não estão explicitados na ementa** da disciplina:
+- **SDF-9 (erros de execução)**
+- **SDF-10 (teste e depuração)**
+- **SDF-11 (documentação/comentários)**
+- **SDF-12 (mentalidade de segurança)**  
 
----
+Caso surjam em alguma tarefa, elas devem ser tratadas como **EXT (extensão)**. Não crie novos K sem atualizar este catálogo.
+
+
 
 ## Política de manutenção
 - Alterações neste catálogo devem ocorrer **apenas** quando a ementa da disciplina mudar (ou quando a coordenação decidir incorporar extensões).
-- Cada tarefa deve declarar explicitamente quais **KDisc** foram mobilizados (subconjunto), para garantir rastreabilidade e reuso.
+- Cada tarefa deve declarar explicitamente quais **K** foram mobilizados (subconjunto), para garantir rastreabilidade e reuso.
 
 
