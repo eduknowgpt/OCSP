@@ -135,70 +135,81 @@ Os LOs são formulados para reuso (não dependem do enunciado específico além 
 
 ---
 
-# 4. Definição de Competências
+## 4. Definição de Competências
 
-## 4.1 Competência Geral (BNCC – quando aplicável)
+### 4.1 Competência Geral (BNCC – quando aplicável)
 **Competência geral do domínio (Computação):**  
-Mobilizar fundamentos de programação para implementar uma solução modular (com funções), processar múltiplas entradas por repetição e produzir saídas verificáveis, sustentando correção e consistência por evidências de execução e justificativa técnica breve.
+Mobilizar fundamentos de programação para implementar uma solução modular com funções, processar múltiplas entradas por repetição e produzir saídas verificáveis, sustentando correção e consistência por evidências de execução e justificativa técnica breve.
 
 **BNCC (uso = sim):**  
-Como a etapa (EF/EM) não está explicitada no contexto do curso, registra-se apenas alinhamento **em nível geral** com práticas de **pensamento computacional** e **programação/algoritmos** (formalização, decomposição e validação), **sem uso de códigos**.
+Como a etapa (EF/EM) não está explicitada no contexto do curso, registra-se apenas alinhamento **em nível geral** com práticas de **pensamento computacional** e **programação/algoritmos** (formalização, decomposição, automação e validação), **sem uso de códigos**.
 
 ---
 
-## 4.2 Especificações de Competências
+### 4.2 Especificações de Competências
 
 ### CT26.04.1
 **Título da Competência**  
 Modularizar um cálculo por função e integrá-lo ao processamento de múltiplas entradas.
 
 **Descrição Textual (reutilizável; não específica do enunciado)**  
-Definir e empregar uma **função** com responsabilidade clara (parâmetros/retorno) para realizar um cálculo, integrando-a ao fluxo principal que lê entradas, aciona o subprograma e apresenta resultados de forma conferível.
+Definir e empregar uma **função** com responsabilidade clara (parâmetros e retorno) para realizar um cálculo, integrando-a ao fluxo principal que lê entradas, aciona o subprograma e apresenta resultados de forma conferível.
 
 **Cobertura e rastreabilidade**
-- LOs cobertos: (LO2, LO1)
-- K mobilizados (Núcleo): (K10, K06, K02)
-- K mobilizados (Apoio): (K03, K04)
+- LOs cobertos: (LO1, LO2)
+- K mobilizados: (K10, K06, K02)
 
 **Especificação de Conhecimentos**
-- **K10 (Núcleo):** função com parâmetros/retorno e responsabilidade clara; evidência: definição e chamadas coerentes no artefato entregue.
-- **K06 (Núcleo):** leitura e emissão de saída compatíveis com o processamento; evidência: entradas processadas e resultados apresentados para conferência.
-- **K02 (Núcleo):** expressão do artefato em C (ou equivalente no ambiente); evidência: programa compilável/executável no contexto da disciplina.
-- **K03 (Apoio):** uso consistente de variáveis/tipos na passagem de dados e retorno; papel: sustentar integração correta entre função e fluxo.
-- **K04 (Apoio):** coerência aritmética no cálculo encapsulado; papel: garantir que o valor retornado seja obtido por operações consistentes.
+- **K10 — Subprogramas: procedimentos e funções**  
+  - Papel na competência: estrutura a decomposição da solução em uma função com responsabilidade bem definida.  
+  - Evidência na tarefa: definição e uso consistente da função para realizar o cálculo solicitado.  
+  - **Bloom associado:** Criar  
+  - **Verbo taxonômico associado:** definir
+
+- **K06 — Estrutura sequencial e E/S básica**  
+  - Papel na competência: sustenta a integração entre leitura de entradas, chamada da função e apresentação dos resultados.  
+  - Evidência na tarefa: o programa recebe os dados e apresenta saídas verificáveis para cada valor processado.  
+  - **Bloom associado:** Aplicar  
+  - **Verbo taxonômico associado:** ler
+
+- **K02 — Fundamentos práticos da linguagem C (C11) para programação introdutória**  
+  - Papel na competência: viabiliza a implementação concreta da solução no ambiente da disciplina.  
+  - Evidência na tarefa: produção de um artefato executável/compilável com estrutura mínima adequada.  
+  - **Bloom associado:** Aplicar  
+  - **Verbo taxonômico associado:** implementar
 
 **Alinhamento com a Taxonomia de Bloom (revisada)**  
-**Criar** (implementar e integrar função) + **Aplicar** (usar E/S e chamadas conforme especificação).
+Predomínio de **Criar**, pois a competência exige implementação e integração funcional de uma solução modular.
 
 **Pareamento Conhecimento–Habilidade**
-- (K10 → decompor em função e integrar por chamadas e retorno)
-- (K06 → estruturar leitura/processamento/escrita com rastreabilidade)
-- (K02 → implementar solução em C com estrutura mínima adequada)
+- **K10 / Criar / definir** → estruturar a solução em função com parâmetros e retorno coerentes.
+- **K06 / Aplicar / ler** → articular entrada, processamento e saída de forma verificável.
+- **K02 / Aplicar / implementar** → materializar a solução em linguagem de programação no padrão da disciplina.
 
 **Anotação de Verbos (lista)**
-definir, receber, retornar, chamar, ler, processar, imprimir, integrar.
+definir, ler, implementar.
 
 **Especificação de Disposições (2–4)**
-- Rigor na definição de responsabilidades da função (evitar ambiguidade de entradas/saídas).
-- Consistência ao relacionar cada entrada ao resultado correspondente.
-- Atenção a verificabilidade (saídas claras para conferência).
+- Rigor na definição da função e de sua responsabilidade.
+- Consistência na integração entre fluxo principal e subprograma.
+- Clareza na apresentação dos resultados para conferência.
 
 **Competências Alinhadas à BNCC (quando aplicável)**  
-Alinhamento geral com decomposição e formalização de solução algorítmica, sem códigos.
+Alinhamento geral com decomposição e formalização de soluções algorítmicas, sem códigos.
 
 **Tabela-Resumo**
 
-| Código | Competência | Disposições | Conhecimento | Habilidade |
-|---|---|---|---|---|
-| CT26.04.1 | Modularizar por função e integrar ao fluxo | rigor, consistência, verificabilidade | K10 | definir e integrar função com parâmetros/retorno |
-| CT26.04.1 | Modularizar por função e integrar ao fluxo | rigor, consistência, verificabilidade | K06 | ler entradas e apresentar resultados conferíveis |
-| CT26.04.1 | Modularizar por função e integrar ao fluxo | rigor, consistência, verificabilidade | K02 | implementar em C no padrão da disciplina |
+| Código | Competência | Disposições | Conhecimento | Bloom | Verbo | Habilidade |
+|---|---|---|---|---|---|---|
+| CT26.04.1 | Modularizar por função e integrar ao fluxo | rigor, consistência, clareza | K10 | Criar | definir | estruturar cálculo em função |
+| CT26.04.1 | Modularizar por função e integrar ao fluxo | rigor, consistência, clareza | K06 | Aplicar | ler | integrar E/S ao processamento |
+| CT26.04.1 | Modularizar por função e integrar ao fluxo | rigor, consistência, clareza | K02 | Aplicar | implementar | materializar a solução em C |
 
 **Definição de Ativação**
 - Restrição de ativação: **obrigatória**
 - Modo de ativação: **construtiva**
 - Função de ativação: **núcleo**
-- Justificativa: a tarefa exige explicitamente que o cálculo seja feito por função e que o programa processe entradas e produza saídas verificáveis; a evidência central é o artefato implementado com chamadas corretas e integração consistente.
+- Justificativa: a tarefa exige explicitamente que o cálculo seja encapsulado em função e integrado ao fluxo de leitura e saída do programa, constituindo evidência central da solução implementada.
 
 ---
 
@@ -211,101 +222,124 @@ Empregar **estruturas de repetição** e **expressões aritméticas** para reali
 
 **Cobertura e rastreabilidade**
 - LOs cobertos: (LO3, LO4)
-- K mobilizados (Núcleo): (K08, K04, K03)
-- K mobilizados (Apoio): (K02)
+- K mobilizados: (K08, K04, K03)
 
 **Especificação de Conhecimentos**
-- **K08 (Núcleo):** laços com contagem/condição coerentes; evidência: iteração correta para processar entradas e/ou etapas de cálculo.
-- **K04 (Núcleo):** expressões aritméticas consistentes na atualização de valores; evidência: cálculo acumulativo coerente no resultado apresentado.
-- **K03 (Núcleo):** controle de variáveis e tipos durante a repetição; evidência: variáveis inicializadas/atualizadas adequadamente ao longo das iterações.
-- **K02 (Apoio):** materialização do laço e das expressões em C; papel: viabilizar a implementação no ambiente da disciplina.
+- **K08 — Estruturas de repetição**  
+  - Papel na competência: organiza o processamento iterativo de múltiplas entradas e/ou etapas sucessivas do cálculo.  
+  - Evidência na tarefa: uso de laços para controlar a repetição necessária ao processamento.  
+  - **Bloom associado:** Aplicar  
+  - **Verbo taxonômico associado:** iterar
+
+- **K04 — Expressões aritméticas e avaliação**  
+  - Papel na competência: sustenta a atualização consistente dos valores intermediários e do resultado final.  
+  - Evidência na tarefa: operações aritméticas coerentes ao longo do cálculo.  
+  - **Bloom associado:** Aplicar  
+  - **Verbo taxonômico associado:** calcular
+
+- **K03 — Variáveis, constantes e tipos primitivos**  
+  - Papel na competência: assegura controle coerente de acumuladores, contadores e dados de entrada.  
+  - Evidência na tarefa: uso consistente de variáveis durante o processamento iterativo.  
+  - **Bloom associado:** Aplicar  
+  - **Verbo taxonômico associado:** atualizar
 
 **Alinhamento com a Taxonomia de Bloom (revisada)**  
-**Aplicar** (usar laços e expressões) + **Analisar** (assegurar consistência de atualizações ao longo das iterações, quando justificado por testes/checagens).
+Predomínio de **Aplicar**, pois a competência requer uso correto de laços, variáveis e expressões aritméticas em uma solução já delimitada.
 
 **Pareamento Conhecimento–Habilidade**
-- (K08 → construir repetição controlada e completa)
-- (K04 → formular e aplicar atualizações aritméticas consistentes)
-- (K03 → manter variáveis/tipos coerentes durante a iteração)
+- **K08 / Aplicar / iterar** → controlar a repetição necessária ao processamento.
+- **K04 / Aplicar / calcular** → produzir atualizações aritméticas coerentes.
+- **K03 / Aplicar / atualizar** → manter o estado computacional consistente ao longo das iterações.
 
 **Anotação de Verbos (lista)**
-iterar, atualizar, acumular, calcular, controlar, repetir.
+iterar, calcular, atualizar.
 
 **Especificação de Disposições (2–4)**
-- Atenção a consistência de contagem/condição (evitar iterações a mais ou a menos).
-- Rigor no controle de atualizações (evitar resultados inconsistentes por erros de estado).
-- Persistência na verificação com casos distintos.
+- Atenção à consistência do laço e da contagem.
+- Rigor no controle das atualizações sucessivas.
+- Persistência na conferência do comportamento iterativo.
 
 **Competências Alinhadas à BNCC (quando aplicável)**  
-Alinhamento geral com automatização de procedimentos e validação por casos, sem códigos.
+Alinhamento geral com automação de procedimentos e tratamento sistemático de dados, sem códigos.
 
 **Tabela-Resumo**
 
-| Código | Competência | Disposições | Conhecimento | Habilidade |
-|---|---|---|---|---|
-| CT26.04.2 | Repetição + atualização aritmética | atenção, rigor, persistência | K08 | implementar laços completos e corretos |
-| CT26.04.2 | Repetição + atualização aritmética | atenção, rigor, persistência | K04 | aplicar expressões aritméticas consistentes |
-| CT26.04.2 | Repetição + atualização aritmética | atenção, rigor, persistência | K03 | gerenciar variáveis/tipos durante iterações |
+| Código | Competência | Disposições | Conhecimento | Bloom | Verbo | Habilidade |
+|---|---|---|---|---|---|---|
+| CT26.04.2 | Repetição e atualização aritmética | atenção, rigor, persistência | K08 | Aplicar | iterar | controlar processamento repetido |
+| CT26.04.2 | Repetição e atualização aritmética | atenção, rigor, persistência | K04 | Aplicar | calcular | executar atualização aritmética coerente |
+| CT26.04.2 | Repetição e atualização aritmética | atenção, rigor, persistência | K03 | Aplicar | atualizar | manter variáveis consistentes |
 
 **Definição de Ativação**
 - Restrição de ativação: **obrigatória**
 - Modo de ativação: **construtiva**
 - Função de ativação: **núcleo**
-- Justificativa: a tarefa demanda processamento de **n** entradas e cálculo associado; isso exige repetição controlada e atualização aritmética consistente, evidenciada diretamente pelo comportamento do programa e pelas saídas produzidas.
+- Justificativa: o processamento de múltiplas entradas e a produção do resultado dependem diretamente do uso correto de repetição, variáveis e operações aritméticas, todos evidenciados no comportamento do programa.
 
 ---
 
 ### CT26.04.3
 **Título da Competência**  
-Garantir consistência de dados e saídas ao longo do processamento e das chamadas de função.
+Garantir consistência de dados e saídas ao longo do processamento.
 
 **Descrição Textual (reutilizável; não específica do enunciado)**  
-Gerenciar **variáveis, tipos e entrada/saída** de forma consistente em um programa com processamento repetido e uso de subprogramas, assegurando que os valores manipulados e apresentados correspondam ao comportamento esperado.
+Gerenciar **variáveis, tipos, entrada e saída** de forma coerente em programas com processamento repetido, assegurando que os valores manipulados e apresentados correspondam ao comportamento esperado.
 
 **Cobertura e rastreabilidade**
 - LOs cobertos: (LO1, LO4)
-- K mobilizados (Núcleo): (K03, K06, K04)
-- K mobilizados (Apoio): (K10, K02)
+- K mobilizados: (K03, K06, K04)
 
 **Especificação de Conhecimentos**
-- **K03 (Núcleo):** tipos/variáveis coerentes em leitura, processamento e saída; evidência: ausência de inconsistências observáveis entre entrada e resultado.
-- **K06 (Núcleo):** estrutura sequencial e E/S que sustentam rastreabilidade; evidência: cada valor informado tem saída correspondente e compreensível.
-- **K04 (Núcleo):** operações aritméticas coerentes com a intenção do cálculo; evidência: atualização consistente refletida no resultado final.
-- **K10 (Apoio):** estruturação por função como organização do processamento; papel: sustentar separação de responsabilidades sem confundir fluxo de dados.
-- **K02 (Apoio):** implementação em C; papel: garantir que decisões de tipos e E/S sejam expressas corretamente no ambiente adotado.
+- **K03 — Variáveis, constantes e tipos primitivos**  
+  - Papel na competência: sustenta a consistência entre dados lidos, valores processados e resultados produzidos.  
+  - Evidência na tarefa: declarações e atualizações coerentes das variáveis usadas na solução.  
+  - **Bloom associado:** Aplicar  
+  - **Verbo taxonômico associado:** declarar
+
+- **K06 — Estrutura sequencial e E/S básica**  
+  - Papel na competência: garante que a entrada e a saída sejam organizadas de forma conferível.  
+  - Evidência na tarefa: cada valor informado pode ser relacionado ao resultado apresentado.  
+  - **Bloom associado:** Aplicar  
+  - **Verbo taxonômico associado:** apresentar
+
+- **K04 — Expressões aritméticas e avaliação**  
+  - Papel na competência: assegura coerência entre operações realizadas e resultado obtido.  
+  - Evidência na tarefa: o valor final decorre de operações consistentes com o processamento proposto.  
+  - **Bloom associado:** Analisar  
+  - **Verbo taxonômico associado:** verificar
 
 **Alinhamento com a Taxonomia de Bloom (revisada)**  
-**Aplicar** (tipos, E/S, expressões) + **Analisar** (identificar e evitar inconsistências entre dados lidos, processados e exibidos).
+Predominam **Aplicar** e **Analisar**, pois além de usar adequadamente os recursos da linguagem, o estudante precisa conferir coerência entre dados, processamento e saída.
 
 **Pareamento Conhecimento–Habilidade**
-- (K03 → escolher e manter tipos/variáveis consistentes)
-- (K06 → produzir saídas rastreáveis para conferência)
-- (K04 → aplicar operações coerentes ao longo do processamento)
+- **K03 / Aplicar / declarar** → estabelecer e manter variáveis/tipos coerentes.
+- **K06 / Aplicar / apresentar** → organizar saídas rastreáveis e conferíveis.
+- **K04 / Analisar / verificar** → checar a coerência das operações e dos resultados.
 
 **Anotação de Verbos (lista)**
-declarar, inicializar, atualizar, ler, imprimir, conferir, manter.
+declarar, apresentar, verificar.
 
 **Especificação de Disposições (2–4)**
-- Cuidado com consistência e rastreabilidade (não “perder” a relação entrada→saída).
-- Rigor ao evitar estados indefinidos (valores não definidos/atualizações incoerentes).
-- Clareza na apresentação de resultados para auditoria.
+- Cuidado com a rastreabilidade entre entrada e saída.
+- Rigor na manutenção do estado do programa.
+- Clareza na apresentação dos resultados.
 
 **Competências Alinhadas à BNCC (quando aplicável)**  
-Alinhamento geral com precisão e validação de resultados em processos algorítmicos, sem códigos.
+Alinhamento geral com precisão e validação de resultados em práticas computacionais, sem códigos.
 
 **Tabela-Resumo**
 
-| Código | Competência | Disposições | Conhecimento | Habilidade |
-|---|---|---|---|---|
-| CT26.04.3 | Consistência de dados e saídas | cuidado, rigor, clareza | K03 | manter variáveis/tipos coerentes |
-| CT26.04.3 | Consistência de dados e saídas | cuidado, rigor, clareza | K06 | produzir E/S rastreável e conferível |
-| CT26.04.3 | Consistência de dados e saídas | cuidado, rigor, clareza | K04 | aplicar operações aritméticas coerentes |
+| Código | Competência | Disposições | Conhecimento | Bloom | Verbo | Habilidade |
+|---|---|---|---|---|---|---|
+| CT26.04.3 | Consistência de dados e saídas | cuidado, rigor, clareza | K03 | Aplicar | declarar | manter variáveis e tipos coerentes |
+| CT26.04.3 | Consistência de dados e saídas | cuidado, rigor, clareza | K06 | Aplicar | apresentar | produzir saídas conferíveis |
+| CT26.04.3 | Consistência de dados e saídas | cuidado, rigor, clareza | K04 | Analisar | verificar | conferir coerência aritmética |
 
 **Definição de Ativação**
 - Restrição de ativação: **obrigatória**
 - Modo de ativação: **analítica + construtiva**
 - Função de ativação: **núcleo**
-- Justificativa: como a evidência é o comportamento do programa e suas saídas, a competência exige tanto construção (implementar) quanto análise (assegurar coerência entre leitura, atualização e impressão) para que os resultados sejam verificáveis.
+- Justificativa: a tarefa só se torna verificável quando leitura, processamento e saída permanecem consistentes; por isso, a competência envolve tanto construção da solução quanto análise do comportamento produzido.
 
 ---
 
@@ -314,64 +348,74 @@ Alinhamento geral com precisão e validação de resultados em processos algorí
 Verificar o comportamento do programa por evidências de execução e justificativa técnica breve.
 
 **Descrição Textual (reutilizável; não específica do enunciado)**  
-Planejar e registrar **evidências mínimas de verificação** (execuções com casos distintos) e apresentar justificativa técnica concisa que sustente a correção do comportamento observado em um programa com repetição e funções.
+Planejar e registrar **evidências mínimas de verificação** por meio de execuções com casos distintos e apresentar justificativa técnica concisa que sustente a correção do comportamento observado em programas com repetição e funções.
 
 **Cobertura e rastreabilidade**
 - LOs cobertos: (LO5)
-- K mobilizados (Núcleo): (K06, K08, K10)
-- K mobilizados (Apoio): (K02, K03)
+- K mobilizados: (K06, K08, K10)
 
 **Especificação de Conhecimentos**
-- **K06 (Núcleo):** E/S como base de evidência; evidência: registros de execução que permitam conferência.
-- **K08 (Núcleo):** repetição corretamente exercitada em testes (incluindo n > 1); evidência: saídas que demonstram processamento repetido.
-- **K10 (Núcleo):** função exercitada por chamadas nos testes; evidência: resultados obtidos via uso efetivo da função.
-- **K02 (Apoio):** execução em ambiente C; papel: viabilizar rodar e registrar evidências.
-- **K03 (Apoio):** coerência de dados nas execuções; papel: sustentar confiabilidade dos resultados observados.
+- **K06 — Estrutura sequencial e E/S básica**  
+  - Papel na competência: fornece a base observável para registro e interpretação das execuções.  
+  - Evidência na tarefa: saídas registradas e comparáveis aos dados informados.  
+  - **Bloom associado:** Avaliar  
+  - **Verbo taxonômico associado:** registrar
+
+- **K08 — Estruturas de repetição**  
+  - Papel na competência: permite verificar se o processamento repetido ocorre conforme previsto.  
+  - Evidência na tarefa: testes com múltiplas entradas evidenciam o funcionamento iterativo.  
+  - **Bloom associado:** Analisar  
+  - **Verbo taxonômico associado:** examinar
+
+- **K10 — Subprogramas: procedimentos e funções**  
+  - Papel na competência: permite justificar que o cálculo foi corretamente encapsulado e utilizado.  
+  - Evidência na tarefa: relação entre chamadas da função e resultados apresentados.  
+  - **Bloom associado:** Avaliar  
+  - **Verbo taxonômico associado:** justificar
 
 **Alinhamento com a Taxonomia de Bloom (revisada)**  
-**Avaliar** (testar/verificar por evidências) + **Analisar** (justificar coerência do comportamento observado).
+Predominam **Analisar** e **Avaliar**, pois a competência se concentra na inspeção do comportamento produzido e na sustentação argumentativa da correção da solução.
 
 **Pareamento Conhecimento–Habilidade**
-- (K06 → registrar saídas que sustentem verificação)
-- (K08 → selecionar/usar casos que exercitem repetição)
-- (K10 → demonstrar uso efetivo de função como unidade de cálculo)
+- **K06 / Avaliar / registrar** → documentar execuções de forma verificável.
+- **K08 / Analisar / examinar** → inspecionar o comportamento iterativo em casos distintos.
+- **K10 / Avaliar / justificar** → sustentar tecnicamente o uso da função no programa.
 
 **Anotação de Verbos (lista)**
-testar, registrar, verificar, justificar, comparar, evidenciar.
+registrar, examinar, justificar.
 
 **Especificação de Disposições (2–4)**
-- Compromisso com verificabilidade (evidência acima de suposição).
-- Postura crítica ao confrontar entrada, execução e resultado.
-- Objetividade e clareza na justificativa breve.
+- Compromisso com verificabilidade.
+- Postura crítica diante dos resultados observados.
+- Objetividade na justificativa técnica.
 
 **Competências Alinhadas à BNCC (quando aplicável)**  
-Alinhamento geral com validação e comunicação de resultados em práticas de programação, sem códigos.
+Alinhamento geral com validação e comunicação de resultados em programação, sem códigos.
 
 **Tabela-Resumo**
 
-| Código | Competência | Disposições | Conhecimento | Habilidade |
-|---|---|---|---|---|
-| CT26.04.4 | Verificação por evidências | compromisso, criticidade, clareza | K06 | registrar E/S para conferência |
-| CT26.04.4 | Verificação por evidências | compromisso, criticidade, clareza | K08 | exercitar repetição com casos distintos |
-| CT26.04.4 | Verificação por evidências | compromisso, criticidade, clareza | K10 | evidenciar uso correto de função |
+| Código | Competência | Disposições | Conhecimento | Bloom | Verbo | Habilidade |
+|---|---|---|---|---|---|---|
+| CT26.04.4 | Verificação por evidências | compromisso, criticidade, objetividade | K06 | Avaliar | registrar | documentar saídas conferíveis |
+| CT26.04.4 | Verificação por evidências | compromisso, criticidade, objetividade | K08 | Analisar | examinar | inspecionar repetição em execução |
+| CT26.04.4 | Verificação por evidências | compromisso, criticidade, objetividade | K10 | Avaliar | justificar | sustentar uso correto da função |
 
 **Definição de Ativação**
 - Restrição de ativação: **obrigatória**
 - Modo de ativação: **justificatória + analítica**
 - Função de ativação: **núcleo**
-- Justificativa: a tarefa requer não apenas “ter um programa”, mas sustentar a correção com saídas e registros; a verificação é diretamente observável por execuções e pela justificativa breve que conecta evidências ao comportamento esperado.
+- Justificativa: a tarefa exige evidências observáveis de execução e uma justificativa breve; assim, a competência é ativada diretamente pela análise dos testes e pela explicação técnica do comportamento do programa.
 
 ---
 
-## Fora do Escopo/Extensão (EXT) — se houver
-- Suporte a **aritmética de precisão arbitrária** (fatorial de entradas muito grandes) e estratégias avançadas de prevenção de estouro numérico não são exigidas pela tarefa e não estão explicitadas no catálogo como conhecimento dedicado; quando desejado, deve ser tratado como extensão de escopo de disciplina/tarefa.
-- Políticas formais de **tratamento de entradas fora do domínio** (mensagens de erro, recuperação de entrada) podem ser consideradas extensão, caso se pretenda padronizar validação além do necessário para a tarefa.
-
----
-
-## Checagem Final (consistência K–LO–CT)
-- Todos os K utilizados pertencem ao **catálogo** (K02, K03, K04, K06, K08, K10).
+## Checagem Final
+- Todos os K são do catálogo (nenhum K novo criado).
 - Todo LO referencia K e é coberto por pelo menos uma CT.
-- Toda CT referencia K (com distinção **Núcleo × Apoio**) e cobre LO(s).
+- Toda CT referencia K e cobre LO(s).
+- Cada conhecimento mobilizado em cada CT possui:
+  - um **nível de Bloom associado**;
+  - um **verbo taxonômico associado ao par conhecimento/Bloom**.
 - CTs são exclusivas de Computação, reutilizáveis e não hipergranulares (4 CTs).
-- BNCC aparece apenas em alinhamento geral, **sem códigos**.
+- Bloom não está inflado.
+- BNCC aparece apenas quando defensável e sem códigos inventados.
+- O relatório analisa e especifica a tarefa sem copiar integralmente a descrição pedagógica.
