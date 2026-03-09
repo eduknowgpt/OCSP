@@ -361,14 +361,3 @@ Alinhamento geral com representação de dados, abstração de estruturas e proc
 # Fora do Escopo/Extensão (EXT)
 - **Teste e depuração formais da solução:** a descrição pedagógica recomenda testar a solução com casos simétricos e não simétricos, mas o catálogo da disciplina explicita que teste e depuração não integram, por padrão, os conhecimentos K desta disciplina. Assim, esse aspecto permanece como extensão metodológica de avaliação, sem geração de K, LO ou CT específicos.
 
----
-
-# Checagem Final
-- Todos os conhecimentos utilizados pertencem ao catálogo da disciplina.
-- Todo LO referencia explicitamente K(s) e é coberto por pelo menos uma CT.
-- Toda CT referencia K(s) e cobre LO(s).
-- A distinção entre **K Núcleo** e **K Apoio** foi aplicada em todas as competências.
-- As CTs são exclusivas de Computação, reutilizáveis e não hipergranulares.
-- A taxonomia de Bloom foi mantida em níveis compatíveis com a evidência da tarefa.
-- A BNCC aparece apenas em alinhamento geral, sem códigos não assegurados.
-- O relatório analisa a descrição pedagógica, sem reproduzi-la integralmente.
