@@ -64,7 +64,7 @@ Experts recommended that C16 should:
 
 ### **Decision Threshold**
 
-📌 **CSRP Outcome (Cycle 1):**
+**CSRP Outcome (Cycle 1):**
 **Approved with Downgrading and Scope Refinement**
 
 

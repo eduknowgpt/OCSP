@@ -1,13 +1,14 @@
-# CSP-Report — TASK25.03 — *Controle de Tráfego*
+# CSP-Report — TASK25.03 — *Controle de Tráfego* (versão 2025)
 
 ## 1. Introdução
 
-Este relatório aplica o **Competency Specification Process (CSP)** à **TASK25.03 — Controle de Tráfego**, uma tarefa cujo objetivo é **modelar, analisar e justificar computacionalmente um sistema de monitoramento de veículos pesados**, utilizando **Máquinas de Turing e seus modelos estendidos** para processar dados provenientes de sensores em uma rodovia real.
+Este relatório aplica o **Competency Specification Process (CSP)** à **TASK25.03 — Controle de Tráfego**, uma tarefa cujo objetivo é **modelar, analisar e justificar computacionalmente um sistema de monitoramento de veículos pesados**, utilizando **Máquinas de Turing** e seus conceitos associados para processar dados provenientes de sensores em uma rodovia real.  
 
-A tarefa descreve um cenário no qual sensores instalados na estrada de Aratu, em Salvador, categorizam veículos noturnos em **leves, pesados e muito pesados**, com base em seu peso, e demandam um sistema capaz de **contabilizar a quantidade de veículos por categoria** e **identificar a categoria predominante** da noite anterior, de modo a subsidiar políticas de preservação do asfaltamento.
+A tarefa descreve um cenário no qual sensores instalados na estrada de Aratu, em Salvador, categorizam veículos noturnos em **leves, pesados e muito pesados**, com base em seu peso, e demandam um sistema capaz de **contabilizar a quantidade de veículos por categoria** e **identificar a categoria predominante** da noite anterior, de modo a subsidiar políticas de preservação do asfaltamento. 
 
-A **TASK25.03** constitui uma **reformulação curricularmente atualizada da Tarefa02**, preservando o núcleo do problema — a modelagem computacional de um sistema de controle de tráfego baseado em sensores — mas alterando de forma significativa sua **organização pedagógica e epistemológica**. Enquanto a versão original estava fortemente ancorada em práticas de **PBL processual**, exigindo quadros de fatos, ideias, ações e diários de bordo como parte da avaliação, a TASK25.03 desloca o foco para **evidências formais e tecnicamente verificáveis**, consistindo essencialmente em **artefatos computacionais (máquinas em JFLAP)** e em um **relatório técnico rigoroso**. Além disso, a versão atualizada enfatiza explicitamente a **fundamentação teórica da solução**, posicionando o uso de Máquinas de Turing e da **tese de Church–Turing** não apenas como instrumentos de implementação, mas como **meios de análise e validação conceitual** do sistema proposto. Essa mudança transforma a tarefa de uma atividade predominantemente processual e narrativa em uma **atividade orientada a competências formais**, permitindo que o desempenho do estudante seja avaliado pela **qualidade do modelo computacional e de sua justificação teórica**, e não pela documentação de seu percurso colaborativo.
+A **TASK25.03** constitui uma reformulação curricularmente atualizada da **Tarefa02**, preservando o núcleo do problema — a modelagem computacional de um sistema de controle de tráfego baseado em sensores —, mas alterando de forma significativa sua **organização pedagógica e epistemológica**. Enquanto a versão original estava fortemente ancorada em práticas de **PBL processual**, exigindo quadros de fatos, ideias, ações e diários de bordo como parte da avaliação, a TASK25.03 desloca o foco para **evidências formais e tecnicamente verificáveis**, consistindo essencialmente em **artefatos computacionais** (máquinas em JFLAP) e em um **relatório técnico rigoroso**. Além disso, a versão atualizada enfatiza explicitamente a **fundamentação teórica da solução**, posicionando o uso de Máquinas de Turing e da **tese de Church–Turing** não apenas como instrumentos de implementação, mas como **meios de análise e validação conceitual** do sistema proposto. 
 
+Essa mudança transforma a tarefa de uma atividade predominantemente processual e narrativa em uma **atividade orientada a competências formais**, permitindo que o desempenho do estudante seja avaliado pela **qualidade do modelo computacional e de sua justificação teórica**, e não pela documentação de seu percurso colaborativo.
 
 
 
@@ -17,34 +18,41 @@ A **TASK25.03** constitui uma **reformulação curricularmente atualizada da Tar
 
 - **Título:** Controle de Tráfego  
 - **Tipo:** Caso PBL com ênfase em modelagem formal e análise computacional  
-- **Domínio:** Teoria da Computação — Máquinas de Turing e Computabilidade  
+- **Domínio:** Teoria da Computação — Máquinas de Turing e Computabilidade. 
 
 
 
-### 2.2 Descrição Sintética
+### 2.2 Descrição
 
 A tarefa requer que os estudantes **modelem formalmente um sistema de monitoramento de tráfego rodoviário**, no qual dados provenientes de sensores classificam veículos em diferentes categorias de peso ao longo de uma noite. Essas leituras devem ser representadas como **cadeias sobre um alfabeto simbólico**, e o comportamento do sistema deve ser descrito por uma **Máquina de Turing (MT)** capaz de **contabilizar ocorrências, comparar quantidades e decidir qual categoria de veículo foi predominante**.
 
-Os estudantes devem projetar uma MT que **leia a fita de entrada**, **processa os símbolos correspondentes aos veículos**, **mantenha contadores ou marcas auxiliares** e **produza uma decisão final** sobre o tipo de veículo que mais impactou a rodovia. A tarefa exige que esse modelo seja **formalmente especificado, executável em simulador (JFLAP)** e **teoricamente justificado** à luz da **tese de Church–Turing**, explicitando por que o problema é computável e adequadamente modelado por uma MT.
+Os estudantes devem projetar uma MT que **leia a fita de entrada**, **processe os símbolos correspondentes aos veículos**, **mantenha contadores ou marcas auxiliares** e **produza uma saída computada** correspondente à categoria predominante — ou a uma codificação equivalente dessa decisão. A tarefa exige que esse modelo seja **formalmente especificado**, **executável em simulador (JFLAP)** e **teoricamente justificado** à luz da **tese de Church–Turing**, explicitando por que o problema é computável e adequadamente modelado por uma MT.
 
-Diferentemente de versões anteriores, a TASK25.03 concentra-se na **qualidade formal do modelo computacional e de sua justificativa**, e não na documentação do processo colaborativo, alinhando a atividade ao paradigma de **avaliação por competências** em Teoria da Computação.
+Diferentemente de versões anteriores, a TASK25.03 concentra-se na **qualidade formal do modelo computacional e de sua justificativa**, e não na documentação do processo colaborativo, alinhando a atividade ao paradigma de **avaliação por competências** em Teoria da Computação. 
 
 
 
 
 ## 3. Resultados Esperados
 
-Ao final da tarefa, espera-se que os estudantes produzam **artefatos formais e justificativas teóricas** que evidenciem sua capacidade de **modelar e analisar um sistema computacional baseado em dados de sensores**. Em particular, os estudantes deverão apresentar **uma Máquina de Turing funcional**, implementada e testada em simulador, capaz de **processar a sequência de veículos registrada** e **decidir corretamente qual categoria de peso foi predominante**.
+Ao final da tarefa, espera-se que os estudantes produzam **artefatos formais e justificativas teóricas** que evidenciem sua capacidade de **modelar e analisar um sistema computacional baseado em dados de sensores**. Em particular, os estudantes deverão apresentar:
 
-Além do modelo computacional, espera-se a entrega de **simulações documentadas** que demonstrem o comportamento da máquina para diferentes entradas, bem como de um **relatório técnico matematicamente rigoroso** contendo a **especificação formal da máquina**, a **interpretação de seus estados e transições** e a **justificação teórica de sua correção e computabilidade**, fundamentada na **tese de Church–Turing** e nos princípios da Teoria da Computação.
-
+- uma **Máquina de Turing funcional**, implementada e testada em simulador, capaz de **processar a sequência de veículos registrada**, **contabilizar adequadamente as categorias** e **decidir corretamente qual categoria de peso foi predominante**;
+- **simulações documentadas** que demonstrem o comportamento da máquina para diferentes entradas;
+- um **relatório técnico matematicamente rigoroso** contendo:
+  - a **especificação formal da máquina**;
+  - a **interpretação de seus estados, transições e símbolos auxiliares**;
+  - a **descrição da forma de saída produzida**;
+  - a **justificação teórica de sua correção e computabilidade**, fundamentada na **tese de Church–Turing** e nos princípios da Teoria da Computação. 
+  
 
 
 
 
 ## 4. Enumeração de Conhecimentos
 
-A realização adequada da **TASK25.03 — Controle de Tráfego** requer a mobilização integrada de conhecimentos disciplinares em **Teoria da Computação** e de conhecimentos profissionais fundamentais, conforme os referenciais do **CS2023** e do **CC2020**. Esses conhecimentos sustentam tanto a **modelagem formal do problema** quanto a **análise de computabilidade e correção do sistema**.
+A realização adequada da **TASK25.03 — Controle de Tráfego** requer a mobilização integrada de conhecimentos disciplinares em **Teoria da Computação** e de conhecimentos profissionais fundamentais, conforme os referenciais do **CS2023** e do **CC2020**. Esses conhecimentos sustentam tanto a **modelagem formal do problema** quanto a **análise de computabilidade e correção do sistema**. 
+
 
 
 
@@ -69,7 +77,7 @@ A realização adequada da **TASK25.03 — Controle de Tráfego** requer a mobil
   - contagem, comparação e decisão sobre quantidades.
 
 - **Simulação de Modelos Computacionais**
-  - uso de ferramentas como o **JFLAP** para execução e teste de Máquinas de Turing.
+  - uso de ferramentas como o **JFLAP** para execução e teste de Máquinas de Turing. 
 
 
 
@@ -79,15 +87,18 @@ A realização adequada da **TASK25.03 — Controle de Tráfego** requer a mobil
   Capacidade de decompor o comportamento do sistema, avaliar a correção do modelo e justificar formalmente as decisões de projeto.
 
 - **Comunicação Técnica Escrita**  
-  Capacidade de produzir um **relatório claro, estruturado e matematicamente preciso**, expressando definições, argumentos e conclusões de forma coerente.
+  Capacidade de produzir um **relatório claro, estruturado e matematicamente preciso**, expressando definições, argumentos e conclusões de forma coerente. 
+
+
+
+
 
 
 ## 5. Objetivos de Aprendizagem
 
 ### Objetivo Geral
 
-Capacitar o estudante a **modelar, implementar e justificar formalmente sistemas computacionais de processamento de dados**, utilizando **Máquinas de Turing** para representar, executar e analisar **procedimentos de decisão e contagem** sobre sequências simbólicas.
-
+Capacitar o estudante a **modelar, implementar e justificar formalmente sistemas computacionais de processamento de dados**, utilizando **Máquinas de Turing** para representar, executar e analisar **procedimentos de decisão e contagem** sobre sequências simbólicas. 
 
 
 ### Objetivos Específicos
@@ -110,33 +121,20 @@ Ao concluir a tarefa, o estudante deverá ser capaz de:
   Demonstrar formalmente que o problema é **computável** e que a MT construída **resolve corretamente** o problema proposto, com base na **tese de Church–Turing**.
 
 - **LO6 — Comunicar resultados tecnicamente**  
-  Produzir um **relatório técnico rigoroso**, apresentando o modelo, as simulações e as justificativas de forma clara e matematicamente precisa.
- 
+  Produzir um **relatório técnico rigoroso**, apresentando o modelo, as simulações e as justificativas de forma clara e matematicamente precisa. 
 
 
 
 
 
 
-## 6. Competências da TASK25.03 (com Ativações OntoKSD)
+## 6. Competências da TASK25.03 (com Ativações OntoKSD)  
 
-As competências a seguir constituem o **perfil de desempenho esperado** para a **TASK25.03 — Controle de Tráfego**. Todas as competências utilizadas pertencem ao **Catálogo da OntoKSD**; aqui elas são apenas **ativadas e particularizadas** para o contexto da tarefa.
-
-
-
-### **C20 — Modelar e analisar sistemas do mundo real como linguagens formais**  
-**Tipo:** Competência composta (nível de tarefa)
-
-**ActivationRole:** `core`  
-**ActivationMode:** `integrative`  
-**ActivationConstraint:** `mandatory`
-
-**Particularização na TASK25.03:**  
-Integra a abstração dos dados de tráfego, a construção da Máquina de Turing, a análise do processo de contagem e decisão e a justificação formal da computabilidade, constituindo o **resultado cognitivo global da tarefa**.
+As competências a seguir constituem o **perfil de desempenho esperado** para a **TASK25.03 — Controle de Tráfego**. O conjunto foi elaborado com base no **catálogo atual da OntoKSD**, usando competências compatíveis com o domínio de **Máquinas de Turing, computabilidade, notação simbólica e validação por simuladores**.
 
 
 
-### **C18 — Modelar problemas do mundo real como linguagens formais**
+### **C18 — Model real-world problems using formal language concepts**
 
 **Tipo:** Competência atômica
 
@@ -145,11 +143,11 @@ Integra a abstração dos dados de tráfego, a construção da Máquina de Turin
 **ActivationConstraint:** `mandatory`
 
 **Particularização na TASK25.03:**  
-Codificar leituras de sensores e categorias de veículos em **símbolos, cadeias e linguagens**, definindo a entrada formal do sistema.
+Codificar leituras de sensores e categorias de veículos em **símbolos, cadeias e linguagens**, definindo a entrada formal do sistema. Essa competência sustenta a abstração inicial do domínio e a representação simbólica do problema computacional. 
 
 
 
-### **C17 — Aplicar operações sobre linguagens formais**
+### **C17 — Apply operations on formal languages**
 
 **Tipo:** Competência atômica
 
@@ -158,11 +156,12 @@ Codificar leituras de sensores e categorias de veículos em **símbolos, cadeias
 **ActivationConstraint:** `mandatory`
 
 **Particularização na TASK25.03:**  
-Manipular cadeias simbólicas por meio de **varredura, marcação e decomposição**, preparando-as para processamento pela Máquina de Turing.
+Analisar e reorganizar cadeias simbólicas por meio de **varredura, marcação, segmentação e comparação estrutural**, de modo a apoiar a lógica de contagem e decisão implementada pela Máquina de Turing. Nesta tarefa, C17 não representa a execução do algoritmo em si, mas a competência de tratar formalmente a estrutura da entrada simbólica que será processada pela máquina.
 
 
 
-### **C16 — Desenvolver soluções utilizando Máquinas de Turing**
+
+### **C07 — Develop problem-solving solutions using Turing Machines**
 
 **Tipo:** Competência atômica
 
@@ -171,24 +170,27 @@ Manipular cadeias simbólicas por meio de **varredura, marcação e decomposiç�
 **ActivationConstraint:** `mandatory`
 
 **Particularização na TASK25.03:**  
-Projetar e implementar uma **Máquina de Turing funcional** capaz de **contar ocorrências e decidir** qual categoria de veículo é predominante.
+Projetar e implementar uma **Máquina de Turing funcional** capaz de **contar ocorrências, comparar quantidades e decidir** qual categoria de veículo é predominante. Essa competência responde diretamente à exigência de construção da solução computacional no domínio das Máquinas de Turing.
 
 
 
-### **C02 — Justificar o uso de modelos formais de computação**
+
+### **C16 — Interpret Turing Machine concepts to analyze computational system capabilities**
 
 **Tipo:** Competência atômica
 
 **ActivationRole:** `supporting`  
-**ActivationMode:** `justificatory`  
+**ActivationMode:** `analytical`  
 **ActivationConstraint:** `mandatory`
 
 **Particularização na TASK25.03:**  
-Justificar que a Máquina de Turing é o **modelo adequado** para resolver o problema, com base na **tese de Church–Turing** e nas características do processamento exigido.
+Interpretar conceitos de **Máquinas de Turing**, computabilidade e capacidade de processamento para analisar por que esse formalismo é adequado ao problema de controle de tráfego. Essa competência apoia a reflexão conceitual sobre o alcance do modelo, distinguindo a mera construção da máquina de sua justificação teórica.
 
 
 
-### **C13′ — Interpretar e aplicar notação algébrica de strings e linguagens**
+
+
+### **C23 — Interpret and apply algebraic notation for strings and languages**
 
 **Tipo:** Competência transversal
 
@@ -197,11 +199,13 @@ Justificar que a Máquina de Turing é o **modelo adequado** para resolver o pro
 **ActivationConstraint:** `mandatory`
 
 **Particularização na TASK25.03:**  
-Utilizar notação formal para descrever **entradas, símbolos, configurações e linguagens** associadas à Máquina de Turing.
+Utilizar notação formal para descrever **entradas, símbolos, fitas, configurações e linguagens** associadas à Máquina de Turing. Essa competência substitui o uso anterior de C13′/C13.01, pois a tarefa requer **notação simbólica geral de cadeias e linguagens**, e não interpretação de regras gramaticais formais.
 
 
 
-### **C05′ — Produzir respostas matematicamente rigorosas**
+
+
+### **C05.01 — Write mathematically rigorous answers**
 
 **Tipo:** Competência transversal
 
@@ -210,11 +214,12 @@ Utilizar notação formal para descrever **entradas, símbolos, configurações 
 **ActivationConstraint:** `mandatory`
 
 **Particularização na TASK25.03:**  
-Justificar formalmente a **correção, a computabilidade e o comportamento da Máquina de Turing**, usando definições, exemplos e argumentos teóricos.
+Justificar formalmente a **correção, a computabilidade e o comportamento da Máquina de Turing**, usando definições, exemplos, argumentos teóricos e organização explícita entre afirmações, justificativas e conclusões.
 
 
 
-### **C03 — Testar modelos computacionais por simulação**
+
+### **C10 — Test Turing Machines Using Simulators**
 
 **Tipo:** Competência de apoio
 
@@ -223,37 +228,75 @@ Justificar formalmente a **correção, a computabilidade e o comportamento da M�
 **ActivationConstraint:** `mandatory`
 
 **Particularização na TASK25.03:**  
-Utilizar o **JFLAP** para executar e validar empiricamente a **Máquina de Turing construída**.
-
- 
+Utilizar o **JFLAP** para executar e validar empiricamente a **Máquina de Turing construída**, observando diferentes entradas, o comportamento da fita e a decisão final produzida.
 
 
 
 
+### **C09 — Apply Turing Machine Variants**
+
+**Tipo:** Competência atômica
+
+**ActivationRole:** `extension`  
+**ActivationMode:** `analytical`  
+**ActivationConstraint:** `conditional`
+
+**Particularização na TASK25.03:**  
+Analisar, quando pertinente, a necessidade ou a conveniência de recorrer a **variantes ou extensões de Máquinas de Turing** para representar de forma mais clara ou eficiente o processamento requerido. Sua ativação é condicional porque o problema pode ser resolvido com MT padrão, mas o próprio enunciado menciona a avaliação de extensões como objetivo de aprendizagem. 
 
 
 
-## Mapeamento entre Objetivos de Aprendizagem (LOs) e Competências — TASK25.01
+## Estrutura OntoKSD implícita (TASK25.03) 
 
-O mapeamento a seguir explicita a **rastreabilidade pedagógica** entre os Objetivos de Aprendizagem definidos para a TASK25.01 e as competências mobilizadas segundo a OntoKSD, evidenciando como cada LO contribui para o desempenho esperado na tarefa.
+```
+TASK25.03
+├── coreCompetence
+│   ├── C18 — Model real-world problems using formal language concepts
+│   ├── C17 — Apply operations on formal languages
+│   └── C07 — Develop problem-solving solutions using Turing Machines
+│
+├── transversalCompetence
+│   ├── C23 — Interpret and apply algebraic notation for strings and languages
+│   └── C05.01 — Write mathematically rigorous answers
+│
+├── supportingCompetence
+│   ├── C16 — Interpret Turing Machine concepts to analyze computational system capabilities
+│   └── C10 — Test Turing Machines Using Simulators
+│
+└── extensionCompetence
+    └── C09 — Apply Turing Machine Variants
+    
+```
+
+
+### Observações ontológicas
+- C18, C17 e C07 formam o núcleo cognitivo da abstração do domínio, do tratamento estrutural das cadeias e da construção da solução em Máquina de Turing.
+- C23 e C05.01 atravessam toda a tarefa, garantindo precisão notacional e rigor justificativo.
+- C16 fornece suporte conceitual para a análise da adequação do formalismo de Máquina de Turing ao problema.
+- C10 fornece suporte empírico por meio da simulação da máquina em JFLAP.
+- C09 permanece como competência de extensão condicional, acionada quando a solução discute explicitamente variantes ou extensões de MT.
+
+
+
+
+
+## 7. Mapeamento entre Objetivos de Aprendizagem (LOs) e Competências — TASK25.03 
+
+O mapeamento a seguir explicita a **rastreabilidade pedagógica** entre os **Objetivos de Aprendizagem** definidos para a **TASK25.03** e as competências mobilizadas segundo a OntoKSD, evidenciando como cada objetivo contribui para o desempenho esperado na tarefa.
 
 | **LO** | **Descrição do Objetivo de Aprendizagem** | **Competências Mobilizadas** |
-|------|------------------------------------------|------------------------------|
-| **LO1** | Abstrair o domínio do problema, associando produtos, moedas, bônus e ações a símbolos de um alfabeto formal | **C18**, C13′ |
-| **LO2** | Representar sequências válidas e inválidas de uso da máquina como cadeias sobre o alfabeto definido | **C17**, C13′ |
-| **LO3** | Construir um autômato finito que reconheça exatamente as sequências válidas do sistema | **C18**, **C20**, C02 |
-| **LO4** | Simular o comportamento do autômato para validar seu funcionamento em diferentes cenários | **C03**, C20 |
-| **LO5** | Justificar formalmente o reconhecimento, a correção e os limites expressivos do modelo | **C05′**, C02, C20 |
-| **LO6** | Documentar o raciocínio de forma clara, estruturada e matematicamente rigorosa | **C05′**, C20 |
-
-Esse mapeamento confirma que os LOs cobrem tanto a **construção do modelo formal** quanto sua **validação empírica** e **justificação teórica**, assegurando coerência entre objetivos, competências e evidências avaliáveis.
-
+|---|---|---|
+| **LO1** | Abstrair leituras de sensores e categorias de veículos como símbolos e cadeias de entrada | **C18**, **C23** |
+| **LO2** | Definir formalmente o problema de contagem e decisão sobre a categoria predominante | **C18**, **C17**, **C05.01** |
+| **LO3** | Construir uma Máquina de Turing capaz de processar a entrada e produzir a decisão correta | **C07**, **C18**, **C17** |
+| **LO4** | Simular e validar o comportamento da MT em diferentes entradas | **C10**, **C07**, **C05.01** |
+| **LO5** | Justificar computabilidade, adequação do modelo e correção da solução | **C16**, **C05.01**, **C07** |
+| **LO6** | Comunicar o modelo, as simulações e as justificativas em relatório técnico rigoroso | **C05.01**, **C23** |
+| **LO7** | Avaliar a necessidade de usar extensões ou variantes da Máquina de Turing | **C09**, **C16** |
 
 
-## 7. Conclusão
 
-A TASK25.01 consolida uma **reengenharia conceitual e curricular** da Tarefa01, reposicionando-a como uma atividade plenamente alinhada à **educação baseada em competências**. A especificação resultante evidencia uma competência composta de nível de tarefa (**C20**), sustentada por competências nucleares de modelagem formal, operações simbólicas e justificação matemática, além de competências de apoio relacionadas à escolha do modelo computacional e à validação por simulação.
 
-O conjunto de competências mobilizado é **adequado, completo e semanticamente controlado**, evitando inflacionar o núcleo conceitual da tarefa e preservando a coerência com a **OntoKSD**, o **CS2023** e o **CC2020**. O mapeamento explícito entre LOs e competências assegura rastreabilidade instrucional, clareza avaliativa e consistência epistemológica, justificando plenamente a elaboração de um CSP-Report específico para a TASK25.01.
+
 
 

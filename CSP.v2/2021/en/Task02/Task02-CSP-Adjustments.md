@@ -134,4 +134,4 @@ This competency emphasizes the **operational validation of formal computational 
 |                                              |                                                     | Problem Solving and Troubleshooting | **Apply (Diagnose, Debug, Refine)**    |
 |         |                                 | Modeling and Simulation | **Apply** |
 |  |                                        |       |       
-| (C02) | *Write a technical report (REUSED)* | Collaborative, Meticulous, Responsible | Written Communication | Apply |
+| (C05) | *Write a technical report (REUSED)* | Collaborative, Meticulous, Responsible | Written Communication | Apply |

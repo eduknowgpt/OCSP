@@ -1,16 +1,12 @@
-# Competency Specification Report: Task25.22 - School Census and Computational Thinking in Natural Language
-
+# TASK25.22 – CSP-Report
 
 ## Introduction
 
-Building on the foundational CSP methodology, this report presents the **Competency Authoring phase** applied to *Task25.22 – School Census and Computational Thinking in Natural Language*.
+This CSP-Report documents the competency specification of **TASK25.22 – School Census and Computational Thinking in Natural Language**, an instructional task designed for students in an **Integrated Technical Program in Informatics**.
 
-This learning task engages students in the design of **algorithmic descriptions using natural language** to process structured data records. Through a sequence of **four progressively complex steps**, learners develop core dimensions of **Computational Thinking**, including decomposition, abstraction, generalization, and logical reasoning.
+The task asks learners to describe, in natural language, algorithms for processing a school census dataset. Instead of writing code, students progressively specify how a computer could read student records, classify information, update counters, calculate proportions, and refine a solution across increasingly complex scenarios.
 
-The iterative expansion of the task—introducing new data fields, conditions, and combinations—supports **conceptual reuse**, **cognitive scaffolding**, and the gradual refinement of algorithmic structures.
-Aligned with the BNCC Computing competencies, the activity prepares learners for more formal representations such as pseudocode and programming by strengthening the foundational ability to express computational processes clearly, logically, and systematically.
-
-The following sections detail the instructional entity analysis, the knowledge components mobilized by the task, and the learning objectives that guide the formation of OntoKSD-aligned competencies.
+From the perspective of OntoKSD, the task is relevant because it supports reusable introductory competencies related to data records, algorithmic description, conditional reasoning, counting, aggregation, progressive refinement, and oral/written explanation of computational logic.
 
 
 
@@ -20,466 +16,491 @@ The following sections detail the instructional entity analysis, the knowledge c
 
     School Census and Computational Thinking in Natural Language
 
-
-
 ### Description
 
-Learners face the problem of **designing step-by-step algorithmic descriptions using natural language** to analyze simple school census records. Each record contains structured fields (e.g., *Name*, *Sex*, *Myopia*, *Hypermetropia*, *Astigmatism*), and learners must determine totals, averages, and classifications based on the attributes provided.
+Students act as “data detectives” helping the school analyze information from a small census. Each student record contains fields such as `Name`, `Sex`, `Myopia`, `Hypermetropia`, and `Astigmatism`.
 
-The task is divided into **four progressive stages**, each reusing and expanding the structure of the previous one. As the number of conditions and data attributes increases, students refine their algorithmic thinking, reorganize logical structures, and generalize earlier solutions to handle more complex scenarios.
+The task is organized into four progressive challenges. In each challenge, learners describe an algorithm in natural language to process the records, update counters, apply conditions, and calculate totals, averages, or proportions.
 
+The activity does not require programming code. Its purpose is to develop the ability to think algorithmically before implementation, using clear and structured explanations.
 
+### Development Process
 
-### Solution Development Process
+Learners are expected to:
 
-The expected learner approach includes:
+1. identify the fields required in each student record;
+2. describe how records are processed one by one;
+3. create and update counters;
+4. use simple and composite conditions;
+5. calculate totals, proportions, and averages;
+6. reuse and adapt previous solutions;
+7. review the algorithm for correctness and clarity;
+8. explain the solution orally.
 
-* **Identifying** the structure of each data record and selecting relevant fields.
-* **Planning** the sequence of steps needed to process records: reading entries, applying conditions, counting, and computing averages.
-* **Applying** logical and conditional reasoning to filter, classify, and group data.
-* **Using** accumulator variables conceptually (e.g., counters, sum totals).
-* **Refining** and **generalizing** earlier solutions to handle new fields (myopia, hypermetropia, astigmatism) and their combinations.
-* **Documenting** clear and precise algorithmic descriptions using natural language.
-* **Evaluating** the efficiency, coherence, and logical consistency of the algorithm.
+### Expected Evidence
 
+The task produces three main types of evidence:
 
-
-### Expected Outcomes
-
-Learners should produce:
-
-* Natural-language algorithm descriptions for each of the four census tasks.
-* Structured explanations of how conditions and logical operators were used.
-* Clear documentation of totals, averages, and filtering criteria.
-* Refined, more generalized algorithms capable of handling multiple attributes.
-* A final consolidated algorithm demonstrating handling of combinations and modular reasoning.
+1. **Written algorithm descriptions**, showing how each challenge is solved in natural language.
+2. **Progressive refinement notes**, showing how previous solutions were reused, extended, or improved.
+3. **Oral explanation**, demonstrating individual understanding of records, counters, conditions, calculations, and algorithmic reasoning.
 
 
 
-### **Acquisition Context**
+### Acquisition Context
 
-This learning task is developed within the *Integrated Technical Program in Informatics (1st year)*, as part of the instructional unit focusing on **Computational Thinking**, **Algorithmic Reasoning**, and **Data Representation**.
-It requires no prior exposure to formal programming languages, as the emphasis is on **conceptual algorithm design** using natural language.
+The task is situated in an introductory computing context for students in an **Integrated Technical Program in Informatics**, especially in courses related to Programming Logic, Computational Thinking, or Algorithms.
 
-The activity may be conducted during regular classes or as part of problem-based learning sessions, allowing for individual reasoning, group discussion, and collaborative refinement of solutions.
-
-
-
-### Target Audience Profile
-
-* **Educational Level:** 1st-year students of an Integrated Technical Program in Informatics.
-* **Prior Knowledge:** Basic understanding of data records, simple comparisons, and logical relationships.
-* **Programming Experience:** Beginner; no formal programming required.
-* **Learning Needs:** Clear examples, guided decomposition, practice with structured reasoning, and opportunities for explanation.
-* **Expected Dispositions:** Precision, organization, collaboration, persistence, and openness to reviewing solutions.
+The activity may be developed individually or in groups, but the oral explanation supports learner-specific evidence of understanding.
 
 
 
-### Proficiency Scale
-
-Scores range from **0.0 to 10.0**, in increments of **0.1**, based on:
-
-* Accuracy and clarity of the algorithmic description.
-* Correct use of logical conditions and data classification.
-* Coherence and organization of the solution steps.
-* Ability to refine earlier solutions in later steps.
-* Demonstrated reasoning during explanations or discussions.
-
-
-Below are the fully elaborated **Knowledge Enumeration** and **Learning Objectives Identification** sections for **Task25.4 – School Census and Computational Thinking in Natural Language**, written in **English** and following the same structure, tone, and depth as TASK25.2 and TASK25.3.
 
 
 ## 2. Knowledge Enumeration
 
-The following knowledge areas are essential for successfully completing Task25.4.
-They reflect the conceptual foundations required to describe, refine, and generalize natural-language algorithms for processing structured data records.
+### 2.1 Data Representation
 
+- **K1 – Data records**
+- **K2 – Fields and values**
+- **K3 – Structured information**
 
-### 2.1. Data Representation and Record Structure
+### 2.2 Algorithmic Description
 
-* **K1 – Structure of simple data records**
-  Understanding fields such as *Name*, *Sex*, *Myopia*, *Hypermetropia*, and *Astigmatism*, and how attributes relate to one another.
+- **K4 – Natural language algorithm description**
+- **K5 – Sequential processing**
+- **K6 – Step-by-step organization**
 
-* **K2 – Attribute identification and classification**
-  Recognizing which fields are relevant for counting, filtering, and computing statistics.
+### 2.3 Counting and Aggregation
 
+- **K7 – Counters**
+- **K8 – Accumulators**
+- **K9 – Totals, averages, and proportions**
 
-### 2.2. Logical Reasoning and Conditional Structures
+### 2.4 Conditional Reasoning
 
-* **K3 – Logical operators (AND, OR, NOT)**
-  Used to combine and refine selection criteria across multiple conditions.
+- **K10 – Simple conditions**
+- **K11 – Composite conditions**
+- **K12 – Logical operators AND / OR**
 
-* **K4 – Conditional reasoning**
-  Interpreting and applying rules such as “if the student is male and has myopia, count +1.”
+### 2.5 Solution Refinement
 
+- **K13 – Reuse and adaptation of algorithmic solutions**
+- **K14 – Generalization**
+- **K15 – Review and simplification of algorithms**
 
-### 2.3. Counting and Aggregation Mechanisms
+### 2.6 Communication and Authorship
 
-* **K5 – Accumulator variables (counters and sum totals)**
-  Understanding conceptual counters for tracking totals or sums within a dataset.
-
-* **K6 – Computation of averages and derived values**
-  Using totals and counts to compute mean values and interpret results.
-
-
-### 2.4. Algorithmic Thinking in Natural Language
-
-* **K7 – Sequential algorithm description**
-  Describing processing steps in a logical order: input → condition → action → output.
-
-* **K8 – Decomposition of problem structure**
-  Breaking down the census task into smaller subproblems: counting by sex, counting by visual condition, computing combinations.
-
-* **K9 – Generalization and reuse of previously built algorithmic structures**
-  Extending earlier solutions to accommodate new conditions or combinations without reinventing the algorithm.
+- **K16 – Explanation of computational reasoning**
+- **K17 – Technical vocabulary**
+- **K18 – Responsible authorship**
 
 
 
-### 2.5. Evaluation, Debugging, and Consistency Checking
-
-* **K10 – Identification of logical inconsistencies**
-  Detecting contradictions, redundancies, or missing cases in natural-language descriptions.
-
-* **K11 – Refinement and iterative improvement**
-  Revising the algorithm to be clearer, more efficient, or more generalizable.
 
 
-### 2.6. Ethical and Contextual Understanding
+## 3. Learning Objectives
 
-* **K12 – Interpretation of data in real-world contexts**
-  Understanding how census data is used (e.g., educational planning, diagnostics, surveys).
+By the end of TASK25.22, the learner should be able to:
 
-* **K13 – Ethical considerations in data interpretation**
-  Recognizing the importance of privacy, accuracy, and responsible handling of sensitive information.
+1. **Identify** the fields of a data record required to solve a problem.
+2. **Describe** an algorithm in natural language using clear ordered steps.
+3. **Process** records sequentially, explaining how each record affects the result.
+4. **Use** counters and accumulators to calculate totals and proportions.
+5. **Apply** simple and composite conditions using `if`, `else`, `AND`, and `OR`.
+6. **Adapt** an existing algorithm to include new fields and conditions.
+7. **Review** an algorithm to identify logical errors or unnecessary repetition.
+8. **Explain** the solution orally using appropriate computational vocabulary.
 
 
 
-## 3. Learning Objectives Identification
-
-> **By the end of this task sequence, learners should be able to:**
 
 
-### LO1 – Describe structured data records
+# 4. Competency Definition
 
-- Identify the relevant fields (*Name*, *Sex*, *Miopia*, *Hypermetropia*, *Astigmatism*) and explain their role in census computation.
+## General Competency
 
+**Describe, adapt, review, and explain natural-language algorithms for processing structured data using records, counters, conditions, and progressive refinement.**
 
-### LO2 – Construct step-by-step algorithmic descriptions in natural language
+### General BNCC Alignment
 
-- Write clear, ordered instructions for processing records, detailing inputs, conditions, and outputs.
-
-
-### LO3 – Apply logical operators and conditional reasoning
-
-- Use AND, OR, and NOT to classify and filter records according to multiple attributes.
-
-
-### LO4 – Compute totals and averages from structured data
-
-- Use conceptual counters, accumulators, and arithmetic operations to calculate totals, percentages, and averages.
-
-
-### LO5 – Generalize existing algorithmic solutions
-
-- Adapt earlier steps (sex-only census, sex + myopia) to integrate new conditions (hypermetropia, astigmatism) while maintaining coherent structure and logic.
-
-
-### LO6 – Create modular algorithm components
-
-- Refactor repeated steps (e.g., “count by sex,” “compute average”) into reusable conceptual functions within natural-language descriptions.
-
-
-### LO7 – Evaluate algorithmic consistency and efficiency
-
-- Identify redundancies, contradictions, or unnecessary operations and propose improvements to the algorithm design.
-
-
-### LO8 – Explain algorithmic reasoning clearly
-
-- Communicate the logic behind the solution, justify decisions, and articulate the rationale for conditions, counters, and generalizations.
-
-### LO9 – Relate algorithmic thinking to real-world data analysis
-
-- Connect the census task to real contexts such as school surveys, diagnostics, and ethical handling of sensitive data.
+TASK25.22 is broadly aligned with BNCC Computing competencies related to problem solving, structured data representation, algorithmic thinking, refinement of solutions, and communication of computational ideas. These broad correspondences should be treated as `GeneralFrameworkAlignment`, not as strict equivalences.
 
 
 
-## 4. Competency Definition
-
-## Competency CT25.4.1 Specification
+## Competency CT25.22.1 Specification
 
 ### Competency Title
 
-    Represent algorithms in natural language to solve problems based on structured data.
+    Identify and structure data records for algorithmic processing.
 
 ### Textual Description
 
-This competency involves the ability to **describe, step by step, an algorithm in natural language** to process information stored in structured records (simple datasets).
-Learners must identify the relevant fields, understand how the attributes relate to each other, and produce a **logical, ordered, and unambiguous sequence of actions** that leads to the desired output.
+This competency involves recognizing that information can be organized as structured records composed of fields and values. In TASK25.22, learners identify which fields are required to solve each census challenge, such as `Name`, `Sex`, `Myopia`, `Hypermetropia`, and `Astigmatism`.
 
-The competency emphasizes **data comprehension**, **logical sequencing**, and **clarity of communication**, allowing learners to articulate algorithmic thinking without requiring a programming language.
-It also supports the foundation for later transitions to pseudocode and programming.
+This competency focuses on data representation before algorithmic processing.
 
+### Knowledge–Skill Pairing
 
+| Knowledge | Bloom Level | Verbs |
+|---|---|---|
+| Data Records | Understand | Recognize, describe, identify |
+| Fields and Values | Apply | Select, organize, relate |
+| Structured Information | Apply | Represent, structure, classify |
 
-### Knowledge Specification
+### Dispositions
 
-* **Data structures and records**
+- **Meticulous**
+- **Investigative**
 
-  * Learners must understand how records are structured (Name, Sex, Myopia, etc.) and how to extract meaningful information.
+### Activation
 
-  * **Bloom’s Taxonomy Alignment:** Understand
-  * **Knowledge–Skill Pairing:** Data Records / Understand
-  * **Verb Annotation:** Identify, Recognize, Interpret
-
-* **Algorithm description in natural language**
-
-  * Learners apply natural-language descriptions to represent algorithmic processes.
-
-  * **Bloom’s Taxonomy Alignment:** Apply
-  * **Knowledge–Skill Pairing:** Algorithm Description / Apply
-  * **Verb Annotation:** Describe, Articulate, Sequence
-
-* **Logical and conditional operators**
-
-  * Learners apply simple conditionals to produce correct classifications.
-
-  * **Bloom’s Taxonomy Alignment:** Apply
-  * **Knowledge–Skill Pairing:** Logical Operators / Apply
-  * **Verb Annotation:** Use, Apply, Employ
-
-
-
-### Disposition Specification
-
-* **Organized** — maintains clear structure and coherence when describing steps.
-* **Precise** — avoids ambiguity and ensures each instruction is explicit.
-* **Analytical** — identifies relevant fields and logical relationships.
-
-
+| Dimension | Value |
+|---|---|
+| ActivationConstraint | mandatory |
+| ActivationMode | interpretative |
+| ActivationRole | core |
 
 ### BNCC Alignment
 
-* **EF04CO03** – Create and simulate algorithms using oral, written, or pictographic language.
-* **EF69CO03** – Describe problem solutions using logical structures.
-* **EM13CO01** – Explore and construct solutions using computational abstractions.
+| BNCC Reference | Alignment Type | Justification |
+|---|---|---|
+| EM13CO02 | `NarrowerThanExternalAlignment` | The competence supports the initial specification of data needed for a computational solution. |
+| EF15CO01 | `CurricularContinuityAlignment` | Prior-stage alignment with structured organization and representation of information. |
+| High School Computing Competency 1 | `GeneralFrameworkAlignment` | Supports analysis of computational solutions for a problem context. |
+
+### Summary Table
+
+| Code | Competency | Dispositions | Knowledge | Skill |
+|---|---|---|---|---|
+| CT25.22.1 | Identify and structure data records for algorithmic processing. | Meticulous, Investigative | Data Records | Understand |
+| | | | Fields and Values | Apply |
+| || | Structured Information | Apply |
 
 
 
-### Summary Table for CT25.4.1
-
-| **Code** | **Competency**                                                              | **Dispositions**               | **Knowledge**         | **Skill**                            |
-| -------- | --------------------------------------------------------------------------- | ------------------------------ | --------------------- | ------------------------------------ |
-| CT25.4.1 | Represent algorithms in natural language to solve structured-data problems. | Organized, Precise, Analytical | Data Records          | **Understand (Identify, Interpret)** |
-|          |                                                                             |                                | Algorithm Description | **Apply (Describe, Articulate)**     |
-|          |                                                                             |                                | Logical Operators     | **Apply (Use, Employ)**              |
 
 
-
-## Competency CT25.4.2 Specification
-
-### Competency Title
-
-    Apply logical operators and conditional structures to filter and classify data.
-
-### **Textual Description**
-
-This competency involves using **conditions and logical comparisons** to classify, filter, and analyze structured data records.
-Learners must understand patterns within the dataset and determine appropriate execution paths (e.g., “count students with myopia,” “filter by sex and hypermetropia”).
-
-The competency requires the ability to **abstract rules**, **recognize attributes**, and **apply conditional logic** systematically to produce correct counts and averages.
-
-
-
-### Knowledge Specification
-
-* **Conditionals and logical operators**
-
-  * Learners apply AND, OR, NOT to identify data subsets.
-
-  * **Bloom:** Apply
-  * **KS Pairing:** Logical Conditions / Apply
-  * **Verb Annotation:** Use, Apply, Operate
-
-* **Decision structures and data filtering**
-
-  * Learners analyze conditions and decide which branch to execute.
-
-  * **Bloom:** Analyze
-  * **KS Pairing:** Decision structures / Analyze
-  * **Verb Annotation:** Distinguish, Compare, Classify
-
-
-
-### Disposition Specification
-
-* **Rigorous** — applies conditions precisely.
-* **Systematic** — organizes rules logically and consistently.
-* **Pattern-oriented** — detects useful relationships between attributes.
-
-
-
-### **BNCC Alignment**
-
-* EF04CO03 – Algorithms with simple and nested repetitions.
-* EF69CO03 – Solutions using logical structures.
-* EM13CO01 – Abstractions in computational problem-solving.
-* EF69CO04 – Decomposition of complex problems.
-* EM13CO02 – Refinement at multiple abstraction levels.
-
-
-
-### Summary Table for CT25.4.2
-
-| **Code** | **Competency**                                                                  | **Dispositions**                       | **Knowledge**     | **Skill**                           |
-| -------- | ------------------------------------------------------------------------------- | -------------------------------------- | ----------------- | ----------------------------------- |
-| CT25.4.2 | Apply logical operators and conditional structures to filter and classify data. | Rigorous, Systematic, Pattern-oriented | Logical Operators | **Apply (Use, Apply)**              |
-|          |                                                                                 |                                        | Decision structures    | **Analyze (Classify, Distinguish)** |
-
-
-
-## Competency CT25.4.3 Specification
+## Competency CT25.22.2 Specification
 
 ### Competency Title
 
-    Generalize algorithmic solutions through reuse and modularization.
+    Describe algorithms in natural language using ordered steps.
 
 ### Textual Description
 
-This competency involves the ability to **reuse algorithmic structures** from earlier steps and reorganize them into **modular components**.
-Learners identify recurring patterns (e.g., calculating averages, counting conditions) and refactor them into conceptual “functions” in natural language.
+This competency involves describing an algorithm clearly in natural language, organizing actions in a logical sequence that can be understood by another person and later translated into code.
 
-The competency strengthens **abstraction**, **solution generalization**, and **structural clarity**, consolidating the learner’s ability to recognize and replicate **patterns of solution** across similar problems.
+In TASK25.22, learners explain how to process student records one by one, initialize counters, check fields, update results, and present final outputs.
 
+### Knowledge–Skill Pairing
 
-### Knowledge Specification
+| Knowledge | Bloom Level | Verbs |
+|---|---|---|
+| Natural Language Algorithm Description | Understand | Explain, describe, express |
+| Sequential Processing | Apply | Organize, order, process |
+| Step-by-Step Reasoning | Apply | Sequence, detail, structure |
 
-* **Reuse of algorithmic structures**
+### Dispositions
 
-  * Learners analyze similarities between steps and extract reusable logic.
+- **Communicative**
+- **Systematic**
 
-  * **Bloom:** Analyze
-  * **Verb Annotation:** Compare, Generalize, Abstract
+### Activation
 
-* **Solution modularization**
-
-  * Learners create conceptual modules (e.g., “function to count by sex”).
-
-  * **Bloom:** Create
-  * **Verb Annotation:** Design, Construct, Organize
-
-* **Pseudocode organization (conceptual)**
-
-  * Learners apply structure to natural-language algorithms.
-
-  * **Bloom:** Apply
-  * **Verb Annotation:** Arrange, Format, Structure
-
-
-
-### Disposition Specification
-
-* **Systematic** — organizes reusable components.
-* **Reflective** — evaluates which elements can be generalized.
-* **Collaborative** — integrates ideas and patterns jointly.
-
-
-
+| Dimension | Value |
+|---|---|
+| ActivationConstraint | mandatory |
+| ActivationMode | descriptive |
+| ActivationRole | core |
 
 ### BNCC Alignment
 
-* EM13CO01 – Reuse and refine computational abstractions.
-* EF04CO03 – Algorithmic simulation with repetitions.
-* EF69CO03 – Logical descriptions of solutions.
-* EF69CO04 – Problem decomposition.
-* EM13CO02 – Refinement across levels of abstraction.
+| BNCC Reference | Alignment Type | Justification |
+|---|---|---|
+| EF69CO03 | `CurricularContinuityAlignment` | Supports precise description of problem solutions. |
+| EM13CO02 | `NarrowerThanExternalAlignment` | Natural-language algorithm description is a specific level of abstraction in solution refinement. |
+| High School Computing Competency 6 | `GeneralFrameworkAlignment` | Supports clear communication of computational ideas. |
+
+### Summary Table
+
+| Code | Competency | Dispositions | Knowledge | Skill |
+|---|---|---|---|---|
+| CT25.22.2 | Describe algorithms in natural language using ordered steps. | Communicative, Systematic | Natural Language Algorithm Description | Understand |
+| || | Sequential Processing | Apply |
+||| | Step-by-Step Reasoning | Apply |
 
 
-### **Summary Table for CT25.4.3**
-
-| **Code** | **Competency**                                                     | **Dispositions**                      | **Knowledge**           | **Skill**                          |
-| -------- | ------------------------------------------------------------------ | ------------------------------------- | ----------------------- | ---------------------------------- |
-| CT25.4.3 | Generalize algorithmic solutions through reuse and modularization. | Systematic, Reflective, Collaborative | Algorithmic Reuse       | **Analyze (Generalize, Abstract)** |
-|          |                                                                    |                                       | Modularization          | **Create (Design, Construct)**     |
-|          |                                                                    |                                       | Pseudocode Organization | **Apply (Arrange, Structure)**     |
 
 
 
-## Competency CT25.4.4 Specification
+## Competency CT25.22.3 Specification
 
 ### Competency Title
 
-    Create complex algorithms with multiple conditions and logical combinations.
+    Count and aggregate information from structured records.
 
 ### Textual Description
 
-This competency focuses on designing **complex natural-language algorithms** capable of processing multiple attributes simultaneously (e.g., Myopia + Astigmatism).
-Learners synthesize rules, combine conditions, evaluate efficiency, and ensure logical consistency in multi-conditional scenarios.
+This competency involves using counters and accumulators to compute totals, averages, or proportions from structured data records.
 
-The competency demands **high-level abstraction**, **combinatorial logic**, and the ability to **evaluate the quality and consistency** of algorithmic solutions.
+In TASK25.22, learners describe how to count students by sex and by visual condition, as well as how to calculate proportions for groups and subgroups.
 
+### Knowledge–Skill Pairing
 
-### Knowledge Specification
+| Knowledge | Bloom Level | Verbs |
+|---|---|---|
+| Counters | Apply | Count, update, increment |
+| Accumulators | Apply | Accumulate, totalize, combine |
+| Averages and Proportions | Apply | Calculate, divide, compare |
 
-* **Conditional combinations (AND, OR, NOT)**
+### Dispositions
 
-  * **Bloom:** Analyze / Evaluate
-  * **Verb Annotation:** Analyze, Evaluate, Contrast
+- **Meticulous**
+- **Responsible**
 
-* **Nested and repetitive structures**
+### Activation
 
-  * **Bloom:** Create
-  * **Verb Annotation:** Construct, Formulate, Integrate
-
-* **Consistency and efficiency evaluation**
-
-  * **Bloom:** Evaluate
-  * **Verb Annotation:** Judge, Validate, Assess
-
-
-### Disposition Specification
-
-* **Creative** — explores structural alternatives.
-* **Persistent** — works through combinatorial complexity.
-* **Critical** — detects inconsistencies and inefficiencies.
-
+| Dimension | Value |
+|---|---|
+| ActivationConstraint | mandatory |
+| ActivationMode | constructive |
+| ActivationRole | core |
 
 ### BNCC Alignment
 
-* EM13CO01 – Refinement of abstractions.
-* EF04CO03 – Complex algorithm simulation.
-* EF69CO03 – Logical structuring.
-* EF69CO04 – Problem decomposition.
-* EM13CO02 – Multi-level refinement.
-* General Competency 4 – Computational knowledge construction.
-* General Competency 5 – Collaborative project development.
+| BNCC Reference | Alignment Type | Justification |
+|---|---|---|
+| EM13CO02 | `NarrowerThanExternalAlignment` | Counting and aggregation are specific processing steps within solution refinement. |
+| EF69CO05 | `CurricularContinuityAlignment` | Supports identifying inputs and expected outputs in problem solving. |
+| High School Computing Competency 1 | `GeneralFrameworkAlignment` | Supports analysis and construction of computational solutions. |
+
+### Summary Table
+
+| Code | Competency | Dispositions | Knowledge | Skill |
+|---|---|---|---|---|
+| CT25.22.3 | Count and aggregate information from structured records. | Meticulous, Responsible | Counters | Apply |
+| || | Accumulators | Apply |
+| || | Averages and Proportions | Apply |
 
 
 
-### Summary Table for CT25.4.4
+## Competency CT25.22.4 Specification
 
-| **Code** | **Competency**                                                               | **Dispositions**               | **Knowledge**            | **Skill**                                |
-| -------- | ---------------------------------------------------------------------------- | ------------------------------ | ------------------------ | ---------------------------------------- |
-| CT25.4.4 | Create complex algorithms with multiple conditions and logical combinations. | Creative, Persistent, Critical | Conditional Combinations | **Analyze/Evaluate (Analyze, Evaluate)** |
-|          |                                                                              |                                | Nested Structures        | **Create (Construct, Integrate)**        |
-|          |                                                                              |                                | Efficiency Evaluation    | **Evaluate (Judge, Validate)**           |
+### Competency Title
+
+    Classify records using simple and composite conditions.
+
+### Textual Description
+
+This competency involves applying simple and composite logical conditions to classify records and decide which counters or results must be updated.
+
+In TASK25.22, learners distinguish cases such as students with myopia, students with hypermetropia, students with at least one condition, and students with combined conditions using `AND` and `OR`.
+
+### Knowledge–Skill Pairing
+
+| Knowledge | Bloom Level | Verbs |
+|---|---|---|
+| Simple Conditions | Apply | Check, test, decide |
+| Composite Conditions | Apply | Combine, classify, distinguish |
+| Logical Operators | Apply | Use, compare, evaluate |
+
+### Dispositions
+
+- **Meticulous**
+- **Analytical**
+
+### Activation
+
+| Dimension | Value |
+|---|---|
+| ActivationConstraint | mandatory |
+| ActivationMode | analytical |
+| ActivationRole | core |
+
+### BNCC Alignment
+
+| BNCC Reference | Alignment Type | Justification |
+|---|---|---|
+| EF69CO02 | `CurricularContinuityAlignment` | Supports use of sequence, repetition, and selection in algorithms. |
+| EF15CO02 | `CurricularContinuityAlignment` | Prior-stage foundation for algorithms using selections and repetitions. |
+| EM13CO02 | `NarrowerThanExternalAlignment` | Conditional classification is a specific refinement of the computational solution. |
+
+### Summary Table
+
+| Code | Competency | Dispositions | Knowledge | Skill |
+|---|---|---|---|---|
+| CT25.22.4 | Classify records using simple and composite conditions. | Meticulous, Analytical | Simple Conditions | Apply |
+| || | Composite Conditions | Apply |
+| || | Logical Operators | Apply |
 
 
 
-### Coverage of Learning Objectives (LO1–LO9)
+## Competency CT25.22.5 Specification
 
-* **C1**: LO1, LO2, LO8
-* **C2**: LO3, LO4
-* **C3**: LO5, LO6
-* **C4**: LO7, LO9
+### Competency Title
 
-- **All LOs are fully and uniquely covered.**
+    Adapt and generalize natural-language algorithms across progressive requirements.
 
-### Coverage of Knowledge Enumeration (K1–K13)
+### Textual Description
 
-* **C1**: K1, K2, K7, K8
-* **C2**: K3, K4, K5, K6
-* **C3**: K8, K9, K11
-* **C4**: K3, K4, K9, K10, K11, K12, K13
+This competency involves reusing and adapting an existing algorithmic description as new fields, conditions, and expected outputs are added.
 
-- **All knowledge components are included with no gaps.**
+In TASK25.22, learners progressively extend the algorithm from sex-based counting to classification by one, two, and three visual conditions, refining the structure instead of restarting from zero.
+
+### Knowledge–Skill Pairing
+
+| Knowledge | Bloom Level | Verbs |
+|---|---|---|
+| Solution Reuse | Apply | Reuse, adapt, extend |
+| Generalization | Analyze | Generalize, compare, abstract |
+| Solution Refinement | Analyze | Refine, simplify, improve |
+
+### Dispositions
+
+- **Reflective**
+- **Persistent**
+- **Systematic**
+
+### Activation
+
+| Dimension | Value |
+|---|---|
+| ActivationConstraint | mandatory |
+| ActivationMode | constructive-analytical |
+| ActivationRole | core |
+
+### BNCC Alignment
+
+| BNCC Reference | Alignment Type | Justification |
+|---|---|---|
+| EM13CO01 | `CloseAlignment` | The task explicitly requires reuse and adaptation of previous solution structures. |
+| EM13CO02 | `CloseAlignment` | The task progresses through refinements from simpler to more complete algorithmic descriptions. |
+| EF69CO06 | `CurricularContinuityAlignment` | Supports generalization from particular cases to broader algorithmic patterns. |
+
+### Summary Table
+
+| Code | Competency | Dispositions | Knowledge | Skill |
+|---|---|---|---|---|
+| CT25.22.5 | Adapt and generalize natural-language algorithms across progressive requirements. | Reflective, Persistent, Systematic | Solution Reuse | Apply |
+| || | Generalization | Analyze |
+| ||| Solution Refinement | Analyze |
+
+
+
+## Competency CT25.22.6 Specification
+
+### Competency Title
+
+    Review and explain algorithmic solutions with technical clarity.
+
+### Textual Description
+
+This competency involves reviewing an algorithmic solution to identify logical errors, unnecessary repetitions, or opportunities for simplification, and explaining the solution clearly using appropriate technical vocabulary.
+
+In TASK25.22, learners must explain written algorithms orally, justify counters and conditions, and answer questions about the logic of their solution.
+
+### Knowledge–Skill Pairing
+
+| Knowledge | Bloom Level | Verbs |
+|---|---|---|
+| Algorithm Review | Analyze | Review, inspect, detect |
+| Technical Vocabulary | Understand | Explain, describe, name |
+| Oral Explanation | Apply | Present, justify, respond |
+
+### Dispositions
+
+- **Communicative**
+- **Responsible**
+- **Reflective**
+
+### Activation
+
+| Dimension | Value |
+|---|---|
+| ActivationConstraint | mandatory |
+| ActivationMode | justificatory |
+| ActivationRole | supporting |
+
+### BNCC Alignment
+
+| BNCC Reference | Alignment Type | Justification |
+|---|---|---|
+| High School Computing Competency 6 | `GeneralFrameworkAlignment` | Supports communication and sharing of computational ideas. |
+| EM13CO19 | `CloseAlignment` | The oral explanation requires exposition and argumentation about a solution. |
+| EM13CO21 | `PartialAlignment` | Supports clear communication of complex ideas, although not necessarily through digital objects. |
+
+### Summary Table
+
+| Code | Competency | Dispositions | Knowledge | Skill |
+|---|---|---|---|---|
+| CT25.22.6 | Review and explain algorithmic solutions with technical clarity. | Communicative, Responsible, Reflective | Algorithm Review | Analyze |
+| || | Technical Vocabulary | Understand |
+| || | Oral Explanation | Apply |
+
+
+
+## 5. External Alignment Modeling Note
+
+BNCC correspondences in this task should be represented as **qualified curricular alignments**, not as undifferentiated equivalences.
+
+Relevant `AlignmentType` values include:
+
+| Alignment Type | Meaning |
+|---|---|
+| `CloseAlignment` | Strong correspondence without strict equivalence. |
+| `PartialAlignment` | Partial overlap between OntoKSD and BNCC competence. |
+| `NarrowerThanExternalAlignment` | OntoKSD competence is more specific than the BNCC reference. |
+| `CurricularContinuityAlignment` | BNCC reference acts as a prior-stage curricular foundation. |
+| `GeneralFrameworkAlignment` | BNCC reference provides broad curricular support. |
+
+
+
+## 6. Evidence and Assessment Interpretation
+
+TASK25.22 supports three complementary evidential layers in OntoKSD.
+
+### 6.1 Artifact-Level Evidence
+
+The written natural-language algorithm descriptions constitute the main artifact produced by learners. These descriptions document how the learner organizes the solution, names counters, defines conditions, calculates totals or proportions, and progressively adapts the algorithm across the four challenges.
+
+Examples of artifact-level evidence include:
+
+- the written solution for each challenge;
+- the list of counters and variables described by the learner;
+- the explanation of conditions using `if`, `else`, `AND`, and `OR`;
+- the description of how totals, averages, or proportions are calculated;
+- the final comparison explaining what was reused and improved.
+
+### 6.2 Performance-Level Evidence
+
+The progressive structure of the task provides evidence of the learner’s reasoning process. Each challenge adds new fields, conditions, or combinations, requiring the learner to reuse and refine the previous solution instead of producing isolated answers.
+
+This layer makes visible whether the learner can:
+
+- process records sequentially;
+- classify records using simple and composite conditions;
+- update counters correctly;
+- aggregate information from multiple records;
+- adapt an algorithm to new requirements;
+- avoid incorrect double counting;
+- and improve the organization of the solution.
+
+### 6.3 Learner-Level Evidence
+
+The oral explanation provides learner-specific evidence of understanding. During the oral assessment, each student must explain the logic of the written algorithm, justify the counters and conditions used, describe how calculations were performed, and answer questions about possible errors or improvements.
+
+This is particularly important because the written artifact may be produced collaboratively or with support tools. The oral explanation helps confirm whether the learner individually understands the reasoning represented in the artifact.
+
+
+## Final Summary Table
+
+| Code | Competency Title | Main Role | Activation Mode | Main BNCC Alignment Type |
+|---|---|---|---|---|
+| CT25.22.1 | Identify and structure data records for algorithmic processing | Core | Interpretative | `NarrowerThanExternalAlignment` / `CurricularContinuityAlignment` |
+| CT25.22.2 | Describe algorithms in natural language using ordered steps | Core | Descriptive | `NarrowerThanExternalAlignment` / `CurricularContinuityAlignment` |
+| CT25.22.3 | Count and aggregate information from structured records | Core | Constructive | `NarrowerThanExternalAlignment` |
+| CT25.22.4 | Classify records using simple and composite conditions | Core | Analytical | `NarrowerThanExternalAlignment` / `CurricularContinuityAlignment` |
+| CT25.22.5 | Adapt and generalize natural-language algorithms across progressive requirements | Core | Constructive-Analytical | `CloseAlignment` |
+| CT25.22.6 | Review and explain algorithmic solutions with technical clarity | Supporting | Justificatory | `CloseAlignment` / `PartialAlignment` / `GeneralFrameworkAlignment` |
+

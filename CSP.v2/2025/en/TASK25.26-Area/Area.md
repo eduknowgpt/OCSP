@@ -2,7 +2,7 @@
 
 Classificação e Cálculo de Áreas de Polígonos Regulares a partir do Número de Lados e Medida do Lado
 
----
+Professor: Marco Bião
 
 # Descrição da Situação-Problema
 
@@ -20,7 +20,7 @@ O programa deve:
 
 Entradas inválidas (como número de lados menor que 3) devem ser rejeitadas com mensagem apropriada, solicitando nova entrada.
 
----
+
 
 # Requisitos Funcionais da Tarefa
 
@@ -41,7 +41,7 @@ Entradas inválidas (como número de lados menor que 3) devem ser rejeitadas com
   - `QUADRADO — área = Y cm²`  
   - `PENTÁGONO`
 
----
+
 
 # Variações e Extensões (progressão de complexidade)
 
@@ -57,7 +57,7 @@ Entradas inválidas (como número de lados menor que 3) devem ser rejeitadas com
 
 Essas variações ampliam gradualmente o domínio conceitual e a autonomia algorítmica do estudante.
 
----
+
 
 # Conhecimentos Relacionados (OntoKSD — Knowledge)
 
@@ -78,7 +78,7 @@ Essas variações ampliam gradualmente o domínio conceitual e a autonomia algor
 - Identificação de padrões estruturais em problemas clássicos.  
 - Conversão de expressões matemáticas para código executável.
 
----
+
 
 # Objetivos de Aprendizagem (BNCC Computação + Bloom)
 
@@ -94,7 +94,7 @@ Essas variações ampliam gradualmente o domínio conceitual e a autonomia algor
 - Projetar uma solução que integra leitura, verificação, cálculos e apresentação final formatada.  
 - Construir um programa completo que representa o raciocínio geométrico por meio de lógica computacional.
 
----
+
 
 # Operações Cognitivas (Taxonomia de Bloom para Computação)
 
@@ -106,7 +106,7 @@ Essas variações ampliam gradualmente o domínio conceitual e a autonomia algor
 * **Depurar** — erros de cálculo, lógica condicional ou formatação.  
 * **Justificar** — escolha das fórmulas e da estrutura lógica utilizada.
 
----
+
 
 # Competências Potenciais (modelo K—S—D)
 

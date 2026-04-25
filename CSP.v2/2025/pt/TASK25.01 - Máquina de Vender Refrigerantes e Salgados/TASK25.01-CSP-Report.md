@@ -5,7 +5,10 @@
 
 Este relatório aplica o **Competency Specification Process (CSP)** à **TASK25.01 — Máquina de Vender Refrigerantes e Salgados**, uma atividade cujo objetivo é **modelar, analisar e justificar o comportamento de um sistema discreto** por meio de **Linguagens Formais, Autômatos Finitos e Expressões Regulares**.
 
-A TASK25.01 constitui uma **reengenharia conceitual da Tarefa01**, que preserva o problema original — a modelagem de uma máquina de venda automática —, mas o reorganiza sob um **arcabouço formal mais rigoroso**. As principais mudanças concentram-se no **aumento da complexidade estrutural do sistema**, decorrente da atualização dos valores monetários e do impacto sobre o espaço de estados do autômato, e na **substituição de elementos processuais do PBL** (como quadros reflexivos e diários) por **artefatos formais de evidência**, em especial o **autômato no JFLAP**, a **expressão regular (ou sua justificativa formal)** e um **relatório técnico rigoroso**.
+A TASK25.01 constitui uma **reengenharia conceitual da Tarefa01**, que preserva o problema original — a modelagem de uma máquina de venda automática —, mas o reorganiza sob um **arcabouço formal mais rigoroso**. Ela não é mera repetição;
+é um caso de reuso com reconfiguração de evidências e ativações que ajuda a validar a flexibilidade do CSP e da OntoKSD.
+
+As principais mudanças concentram-se no **aumento da complexidade estrutural do sistema**, decorrente da atualização dos valores monetários e do impacto sobre o espaço de estados do autômato, e na **substituição de elementos processuais do PBL** (como quadros reflexivos e diários) por **artefatos formais de evidência**, em especial o **autômato no JFLAP**, a **expressão regular (ou sua justificativa formal)** e um **relatório técnico rigoroso**.
 
 Além disso, a TASK25.01 reforça explicitamente o **vínculo teórico entre autômatos e expressões regulares**, exigindo o método de construção ou a justificativa de impossibilidade, e integra o **bônus aleatório** como um elemento estrutural do modelo, conectando-o à discussão sobre **não-determinismo**. Essas mudanças, aliadas à atualização curricular e institucional, transformam a Tarefa01 em uma atividade **mais formal, mais exigente e plenamente compatível com a avaliação por competências**.
 
@@ -123,61 +126,51 @@ Ao concluir a tarefa, o estudante deverá ser capaz de:
 
 ## 6. Competências da TASK25.01 (com Ativações OntoKSD)
 
-As competências a seguir constituem o **perfil de desempenho esperado** para a TASK25.01. Cada competência é especificada não apenas por seu conteúdo, mas também por **como, por que e em que grau** ela é mobilizada na tarefa.
+As competências a seguir constituem o perfil de desempenho esperado para a **TASK25.01 — Máquina de Vender Refrigerantes e Salgados**. Cada competência é explicitada em termos de papel de ativação, modo de ativação e condição de ativação, de forma alinhada ao catálogo atual da OntoKSD e às exigências conceituais e evidenciais da tarefa. O conjunto foi ajustado para preservar coerência com o catálogo consolidado, evitando o reuso de competências cujo escopo semântico passou a ser específico de outras tarefas.
 
 
-### **C20 — Modelar e analisar sistemas do mundo real como linguagens formais**
-**Tipo:** Competência composta (nível de tarefa)
 
-**ActivationRole:** `core`  
-**ActivationMode:** `integrative`  
-**ActivationConstraint:** `mandatory`
-
-**Particularização na TASK25.01:**  
-Integra a abstração do domínio da máquina de venda, a construção do autômato, a análise da linguagem reconhecida e a produção de justificativas formais, constituindo o **resultado cognitivo global da tarefa**.
-
-
-### **C18 — Modelar problemas do mundo real como linguagens formais**
+### C18 — Model real-world problems using formal language concepts
 
 **ActivationRole:** `core`  
 **ActivationMode:** `constructive`  
 **ActivationConstraint:** `mandatory`
 
 **Particularização na TASK25.01:**  
-Mapear moedas, produtos, saldo, troco e bônus em **símbolos, cadeias e linguagens**, definindo o **modelo formal base** do sistema.
+Mapear moedas, notas, produtos, saldo, troco e bônus em símbolos, cadeias e linguagens, definindo o modelo formal base da máquina de venda automática. Essa competência sustenta a abstração do domínio e a construção da representação simbólica do sistema.
 
 
 
-### **C17 — Aplicar operações sobre linguagens formais**
+### C17 — Apply operations on formal languages
 
 **ActivationRole:** `core`  
 **ActivationMode:** `analytical`  
 **ActivationConstraint:** `mandatory`
 
 **Particularização na TASK25.01:**  
-Operar cadeias por **concatenação, prefixos e sequências parciais** para caracterizar **cadeias válidas e inválidas** de uso da máquina. Não envolve propriedades de fechamento ou álgebra de classes.
+Operar cadeias por concatenação, prefixos e sequências parciais para caracterizar cadeias válidas e inválidas de uso da máquina. Nesta tarefa, C17 é mobilizada no nível necessário para a análise estrutural da linguagem reconhecida, sem tomar propriedades de fechamento como foco principal.
 
 
 
-### **C13′ — Interpretar e aplicar notação algébrica de strings e linguagens**
+### C23 — Interpret and apply algebraic notation for strings and languages
 
-**ActivationRole:** `transversal`  
-**ActivationMode:** `analytical`  
-**ActivationConstraint:** `mandatory`
+ActivationRole: transversal
+ActivationMode: analytical
+ActivationConstraint: mandatory
 
-**Particularização na TASK25.01:**  
-Usar ε, concatenação, Σ\* e notação de linguagens para **especificar cadeias, estados e condições de aceitação**.
+Particularização na TASK25.01:
+Usar ε, concatenação, Σ*, notação de cadeias e notação de linguagens para especificar cadeias, estados, condições de aceitação e descrições formais do comportamento da máquina. Essa competência substitui o uso anterior de C13.01, por tratar especificamente de notação algébrica de strings e linguagens, e não de regras gramaticais formais. O report da tarefa exige explicitamente uma definição simbólica do alfabeto e das cadeias válidas, o que justifica essa ativação transversal.
 
 
 
-### **C05′ — Produzir respostas matematicamente rigorosas**
+### C05.01 — Write mathematically rigorous answers
 
 **ActivationRole:** `transversal`  
 **ActivationMode:** `justificatory`  
 **ActivationConstraint:** `mandatory`
 
 **Particularização na TASK25.01:**  
-Justificar **correção do autômato, validade das cadeias, não-determinismo e limites de expressões regulares** usando definições, exemplos e contraexemplos.
+Justificar a correção do autômato, a validade das cadeias, o papel do não-determinismo e os limites da descrição por expressões regulares, usando definições, exemplos e contraexemplos. A tarefa exige não apenas um relatório técnico, mas também justificativas formais sobre o comportamento do modelo.
 
 
 
@@ -199,7 +192,7 @@ Justificar formalmente que o comportamento da máquina de venda automática pode
 **ActivationConstraint:** `conditional`
 
 **Particularização na TASK25.01:**  
-Usar o **JFLAP** para validar empiricamente o comportamento do autômato frente a **sequências reais de moedas e produtos**.
+Usar o JFLAP para validar empiricamente o comportamento do autômato frente a sequências de moedas, notas e seleção de produtos. A competência é condicional porque a simulação constitui evidência importante da correção operacional, mas sua ativação depende da efetiva exploração do simulador como instrumento de validação.
 
 
 
@@ -210,7 +203,7 @@ Usar o **JFLAP** para validar empiricamente o comportamento do autômato frente 
 **ActivationConstraint:** `conditional`
 
 **Particularização na TASK25.01:**  
-Tentar obter uma **ER equivalente ao autômato** ou **justificar formalmente** por que isso não é possível.
+Analisar se a linguagem reconhecida pelo autômato pode ser descrita por uma expressão regular, e, quando possível, apresentar um exemplo de ER correspondente a um trecho do modelo; caso contrário, justificar formalmente a impossibilidade ou a limitação dessa descrição. Trata-se de uma competência de extensão, pois a regularidade e sua descrição por ER enriquecem a análise formal da tarefa, mas não estruturam todas as respostas.
 
 
 
@@ -222,55 +215,46 @@ e de apoio mobilizadas na TASK25.01.
 
 ````
 TASK25.01
-└── targetsCompetence
-└── C20 — Modelar e analisar sistemas do mundo real como linguagens formais
-│
 ├── coreCompetence
-│  ├── C18 — Modelar problemas do mundo real como linguagens formais
-│  └── C17 — Aplicar operações sobre linguagens formais
+│   ├── C18 — Model real-world problems using formal language concepts
+│   └── C17 — Apply operations on formal languages
 │
 ├── transversalCompetence
-│  ├── C13′ — Interpretar e aplicar notação algébrica de strings e linguagens
-│  └── C05′ — Produzir respostas matematicamente rigorosas
+│   ├── C23 — Interpret and apply algebraic notation for strings and languages
+│   └── C05.01 — Write mathematically rigorous answers
 │
 ├── supportingCompetence
-│  ├── C02 — Justificar o uso de Autômatos Finitos (DFA/NFA)
-│  └── C03 — Testar autômatos por meio de simuladores
+│   ├── C02 — Justify the use of Deterministic Finite Automata (DFAs)
+│   └── C03 — Test automata using simulators
 │
 └── extensionCompetence
-└── C04 — Definir linguagens por meio de expressões regulares
+    └── C04 — Define Regular Expressions for Finite Automata
 ````
 
 
-**Observações ontológicas**
+### Observações ontológicas
 
-- **C20** atua como **competência composta de nível de tarefa**, integrando todas as demais.
-- **C18** e **C17** constituem o **núcleo cognitivo construtivo** da modelagem formal.
-- **C13′** e **C05′** atravessam toda a atividade, garantindo **precisão simbólica e rigor epistêmico**.
-- **C02** e **C03** fornecem **suporte formal e empírico** à validade do modelo.
-- **C04** aparece como **extensão condicional**, acionada quando a regularidade da linguagem é analisada.
+- C18 e C17 formam o núcleo cognitivo da abstração e da análise estrutural da máquina.
+- C23 e C05.01 atravessam toda a tarefa, garantindo precisão notacional e rigor justificativo.
+- C02 e C03 fornecem suporte à validação formal e empírica do modelo.
+- C04 permanece como extensão condicional voltada à análise de regularidade e descrição por expressões regulares.
 
-Essa estrutura permite rastrear, de forma explícita, **como cada competência contribui para o desempenho global** esperado na TASK25.01.
+Diferentemente da versão anterior, esta organização não reutiliza C20, já que no catálogo atual C20 passou a designar a competência específica da Task25.00 — musical collections. A tarefa continua coerente sem uma competência composta própria, podendo futuramente receber uma competência de nível de tarefa específica caso você queira manter esse padrão para todas as tasks.
 
 
 ## Mapeamento entre Objetivos de Aprendizagem (LOs) e Competências — TASK25.01
 
 | **LO** | **Descrição do Objetivo de Aprendizagem** | **Competências Mobilizadas** |
 |------|------------------------------------------|------------------------------|
-| **LO1** | Abstrair o domínio da máquina em símbolos formais (produtos, moedas, bônus, ações) | **C18**, C13′ |
-| **LO2** | Representar sequências válidas e inválidas como cadeias sobre o alfabeto | **C17**, C13′ |
-| **LO3** | Construir um autômato finito que reconheça as sequências válidas | **C18**, **C02**, C13′ |
-| **LO4** | Simular o comportamento do autômato para validação | **C03**, C02 |
-| **LO5** | Justificar formalmente correção, reconhecimento, limites expressivos e não-determinismo | **C05′**, **C02**, **C04** |
-| **LO6** | Documentar o raciocínio de forma clara, estruturada e rigorosa | **C05′**, C13′ |
-|    —    | Integrar modelagem, análise, validação e justificação no problema completo | **C20** |
+| **LO1** | Abstrair o domínio da máquina em símbolos formais (produtos, moedas, bônus, ações) | C18, C23 |
+| **LO2** | Representar sequências válidas e inválidas como cadeias sobre o alfabeto | C17, C23 |
+| **LO3** | Construir um autômato finito que reconheça as sequências válidas | C18, C02, C23 |
+| **LO4** | Simular o comportamento do autômato para validação | C0*, C02 |
+| **LO5** | Justificar formalmente correção, reconhecimento, limites expressivos e não-determinismo | C05.01, C02, C04 |
+| **LO6** | Documentar o raciocínio de forma clara, estruturada e rigorosa | C05.01, C23 |
 
 
 
 ## 7. Conclusão
 
-O **CSP-Report da TASK25.01** consolida um **reuso controlado, explícito e semanticamente fundamentado** das competências originalmente mobilizadas na Tarefa01, incorporando **C02 (Justificação de Autômatos Finitos)** e **C03 (Simulação em JFLAP)** como **competências de apoio**, sem comprometer nem inflar o **núcleo conceitual** da atividade.
-
-A tarefa é estruturada em torno de uma **competência composta de nível de tarefa (C20)**, que integra de forma coerente a **abstração do domínio**, a **construção do modelo formal**, a **análise das cadeias reconhecidas** e a **justificação matemática de sua correção e limites**. Essa agregação é sustentada por competências nucleares (C18, C17), transversais (C13′, C05′) e de apoio (C02, C03), com a extensão condicional de **C04** quando a análise de regularidade é pertinente.
-
-Como resultado, a TASK25.01 alcança um **alto grau de rastreabilidade, precisão ontológica e alinhamento curricular** com o **CS2023** e com a **OntoKSD**, permitindo que o desempenho do estudante seja avaliado não apenas pelo artefato produzido, mas pelo **conjunto integrado de competências efetivamente mobilizadas** durante a resolução do problema.
+O CSP-Report da TASK25.01, ajustado ao catálogo atual da OntoKSD, mantém um conjunto de competências semântica e pedagogicamente coerente para a modelagem formal de uma máquina de venda automática por meio de Linguagens Formais, Autômatos Finitos e Expressões Regulares. O núcleo da tarefa continua sustentado pela abstração do domínio e pela análise estrutural da linguagem (C18, C17), complementado por competências transversais de notação algébrica e rigor justificativo (C23, C05.01), além de competências de apoio voltadas à justificativa do modelo e à simulação (C02, C03) e da extensão condicional por ER (C04).

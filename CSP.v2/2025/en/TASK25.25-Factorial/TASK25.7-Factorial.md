@@ -1,5 +1,7 @@
 TASK25.7 : Cálculo de Fatoriais com Funções e Estruturas de Repetição
 
+### Professor: Marco Bião
+
 ## 1. Problema
 
 Na disciplina de **Introdução a Programação** os alunos foram desafiados a desenvolver um módulo que calcule o **fatorial de uma série de valores** informados pelo usuário. 

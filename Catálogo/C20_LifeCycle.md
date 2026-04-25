@@ -220,7 +220,7 @@ A partir da revisão, recomendou-se que a competência C20:
 
 ### Limite de Decisão
 
-📌 **Resultado do CSRP (Ciclo 1):**  
+**Resultado do CSRP (Ciclo 1):**  
 **Aprovada com Clarificação do Papel Integrador**
 
 
@@ -298,34 +298,9 @@ A competência C20 é composta pela integração das seguintes competências:
 - **Analytical and Critical Thinking (FPK)**
 - **Technical Written Communication (FPK)**
 
+The knowledge areas listed for C20 do not introduce new isolated content. Rather, they summarize the main knowledge domains jointly mobilized through the integrated activation of the aggregated competencies.
 
 
-### Disposition Specification (Final)
-
-- Epistemic Rigor  
-- Intellectual Responsibility  
-- Reflectiveness  
-- Persistence  
-
-
-
-## 5. Knowledge–Skill Pairing (Final)
-
-- **Language Theory — Understand**
-- **Formal Languages — Apply**
-- **Regular Expressions — Apply**
-- **Homomorphisms and Codifications — Apply**
-- **Analytical and Critical Thinking (FPK) — Analyze**
-- **Technical Written Communication (FPK) — Create**
-
-
-
-### Bloom’s Taxonomy Alignment (Final)
-
-- **Understand** → interpretação conceitual  
-- **Apply** → modelagem, especificação e aplicação formal  
-- **Analyze** → integração e justificação  
-- **Create** → produção de artefato textual rigoroso  
 
 
 
@@ -336,9 +311,9 @@ A competência C20 é composta pela integração das seguintes competências:
 | **C18** | Model real-world problems using formal language concepts | Atômica | core | constructive | mandatory | Responsável pela abstração inicial do domínio musical e pela definição formal de alfabetos, cadeias e linguagens que estruturam o problema. |
 | **C17** | Apply operations on formal languages | Atômica | core | analytical | mandatory | Sustenta a aplicação e análise de operações formais sobre linguagens, permitindo a caracterização estrutural das coleções musicais modeladas. |
 | **C19** | Apply homomorphisms in formal languages | Atômica | supporting | interpretative | mandatory | Apoia a análise de codificações e transformações formais entre diferentes representações simbólicas, esclarecendo limites de equivalência. |
-| **C04** | Define Regular Expressions for Finite Automata | Reutilizada | core | artifact-oriented | mandatory | Permite a especificação algébrica das coleções musicais por meio de expressões regulares, complementando a análise formal. |
-| **C13′** | Interpret and apply algebraic notation for strings and languages | Reutilizada | transversal | analytical | mandatory | Fornece a base notacional e algébrica necessária para expressar linguagens, operações e propriedades de forma rigorosa. |
-| **C05′** | Write mathematically rigorous answers | Reutilizada | transversal | justificatory | mandatory | Garante a produção de evidências textuais rigorosas, com definições, exemplos, contraexemplos e justificações formais integradas. |
+| **C04** | Define Regular Expressions for Finite Automata | Atômica | core | artifact-oriented | mandatory | Permite a especificação algébrica das coleções musicais por meio de expressões regulares, complementando a análise formal. |
+| **C13′** | Interpret and apply algebraic notation for strings and languages | Atômica | transversal | analytical | mandatory | Fornece a base notacional e algébrica necessária para expressar linguagens, operações e propriedades de forma rigorosa. |
+| **C05′** | Write mathematically rigorous answers | Atômica | transversal | justificatory | mandatory | Garante a produção de evidências textuais rigorosas, com definições, exemplos, contraexemplos e justificações formais integradas. |
 
 
 

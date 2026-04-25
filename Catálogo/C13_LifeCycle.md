@@ -61,7 +61,6 @@ The following knowledge areas are essential for mastering this competency:
 
 The development of formal, rule-based models requires the following behavioral dispositions:
 
-* Inventive – Propose creative grammar constructs to capture complex behaviors.
 
 * Collaborative – Co-develop and review rule-based models with peers.
 
@@ -69,7 +68,7 @@ The development of formal, rule-based models requires the following behavioral d
 
 * Proactive – Anticipate rule interactions and model ambiguities.
 
-* Creative – Explore multiple grammar structures to represent the same behavior elegantly.
+
 
 #### Knowledge-Skill Pairing
 
@@ -100,7 +99,7 @@ Interpret, Apply, Recognize, Analyze
 
 | **Competency**                | **Dispositions**                                               | **Knowledge**                          | **Skill**                  |
 | ----------------------------- | -------------------------------------------------------------- | -------------------------------------- | -------------------------- |
-| Interpret rule-based notation | Inventive, Collaborative, Responsible, Proactive, Creative | Finite Automata                      | **Understand**             |
+| Interpret rule-based notation |  Collaborative, Responsible, Proactive| Finite Automata                      | **Understand**             |
 |                               |                                                                | Regular Languages                      | **Apply (Utilize, Solve)** |
 |                               |                                                                | Analytical and Critical Thinking  | **Apply**                  |
 
@@ -219,7 +218,7 @@ To demonstrate this competency, learners must be able to:
 
 | **Competency**                | **Dispositions**                                           | **Knowledge**                         | **Skill (Bloom-aligned)**                          |
 | ----------------------------- | ---------------------------------------------------------- | ------------------------------------- | -------------------------------------------------- |
-| Interpret rule-based notation | Inventive, Collaborative, Responsible, Proactive, Creative | Rule-Based Formalisms                 | **Understand** (*Interpret, Explain*)              |
+| Interpret rule-based notation |  Collaborative, Responsible, Proactive | Rule-Based Formalisms                 | **Understand** (*Interpret, Explain*)              |
 |                               |                                                            | Formal Grammars and Language Models   | **Understand** (*Relate, Compare*)                 |
 |                               |                                                            | Analytical and Critical Reasoning     | **Analyze** (*Analyze, Evaluate, Validate*)        |
 

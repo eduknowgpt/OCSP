@@ -187,7 +187,7 @@ Os especialistas recomendaram que a competência C17:
 
 ### Limite de Decisão
 
-📌 **Resultado do CSRP (Ciclo 1):**  
+**Resultado do CSRP (Ciclo 1):**  
 **Aprovada com Refinamento de Escopo e Clarificação Semântica**
 
 

@@ -1,106 +1,224 @@
-### C21.1 Título da Competência
-
-    Analisar a Complexidade Computacional e as Implicações da NP-Dificuldade
+# **Competence Lifecycle — C21 – Analyze Computational Complexity and the Implications of NP-Hardness**
 
 
-### C21.2 Descrição Textual
+## **1. Original Definition — CSP Report (Cycle 1)**
 
-Esta competência refere-se à capacidade de **analisar a complexidade computacional**
-e **interpretar as implicações da NP-dificuldade** no comportamento e na viabilidade
-de soluções algorítmicas.
+### **Initial Intent**
 
-Os aprendizes devem ser capazes de compreender como **o tamanho da entrada, a estratégia
-algorítmica e a classe de complexidade do problema** influenciam o custo computacional,
-a escalabilidade e a possibilidade prática de execução de algoritmos sob **restrições
-de tempo e recursos**.
+Competence **C21** emerged from the need to help learners **analyze computational complexity** and **interpret the implications of NP-hardness** for the behavior, scalability, and practical feasibility of algorithmic solutions.
 
-A competência enfatiza a habilidade de **justificar limites de desempenho e viabilidade**
-a partir da articulação entre **resultados teóricos da complexidade computacional** e
-**restrições práticas de execução**, distinguindo limitações decorrentes de
-**ineficiência algorítmica** daquelas associadas à **dificuldade computacional inerente
-ao problema**.
+From the outset, the competence aimed to support learners in reasoning about how:
+
+* **input size** influences computational cost;
+* **algorithmic strategy** affects performance and scalability;
+* **complexity class** constrains the practical viability of solving a problem under finite time and resource conditions.
+
+This original intent positioned C21 as a competence concerned not with algorithm implementation itself, but with the **interpretation and justification of performance limits and feasibility conditions** in light of both **complexity-theoretic results** and **practical execution constraints**.
 
 
 
-### C21.3 Especificação de Conhecimentos
 
-Os seguintes conhecimentos são essenciais para o desenvolvimento desta competência:
+### **Initial Characteristics Identified**
 
-* **Complexidade Computacional**
+During the first cycle, the following characteristics of C21 were identified:
 
-  * Fundamenta a análise do custo algorítmico em termos de tempo e escalabilidade.
-  * Permite raciocinar sobre limites de desempenho sob recursos computacionais finitos.
+* emphasis on **conceptual and analytical interpretation** of computational complexity;
+* explicit concern with distinguishing limits caused by **algorithmic inefficiency** from those caused by **inherent computational difficulty**;
+* need to relate **theoretical complexity notions** to **practical observations of execution cost and scalability**;
+* partial tension in the original formulation between **analysis-oriented verbs** and Bloom levels that still assigned some components to **Understand** or **Apply**.
 
-* **Problemas P, NP e NP-Difíceis / NP-Completos**
-
-  * Estabelecem a base teórica para compreender dificuldades computacionais inerentes.
-  * Sustentam a justificativa de inviabilidade de soluções eficientes em certos problemas.
-
-* **Escalabilidade Algorítmica (nível conceitual)**
-
-  * Relaciona o crescimento do tamanho da entrada ao comportamento do tempo de execução.
-  * Apoia a interpretação de limites práticos de execução.
-
-* **Pensamento Analítico e Crítico (FPK)**
-
-  * Necessário para avaliar desempenho e construir justificativas coerentes.
-  * Sustenta a articulação entre teoria da complexidade e observações empíricas.
+These observations motivated later refinements intended to improve internal cognitive alignment and semantic precision.
 
 
-### C21.4 Especificação de Disposições
-
-**Colaboração**
-
-* A competência pode ser desenvolvida em contextos colaborativos que favoreçam a
-  comparação de interpretações sobre viabilidade e desempenho algorítmico.
-
-**Responsabilidade**
-
-* Os estudantes devem zelar pela **correção conceitual** e pela **coerência teórica**
-  de suas análises, evitando generalizações indevidas.
-
-**Proatividade**
-
-* Os aprendizes buscam ativamente compreender implicações da complexidade computacional
-  em diferentes cenários de aplicação.
-
-**Criatividade**
-
-* A criatividade apoia o uso de **exemplos, analogias e abstrações** para explicar
-  fenômenos relacionados à complexidade.
 
 
-### C21.5 Pareamento Conhecimento–Habilidade
-
-#### C21.5.1 Mapeamento de Conhecimentos para Habilidades
-
-* **Analisar** a **complexidade computacional** para interpretar limites de desempenho.
-* **Compreender** a **NP-dificuldade** para justificar inviabilidade prática.
-* **Compreender** efeitos de **escalabilidade** na execução de algoritmos.
-* **Aplicar** pensamento analítico e crítico para estruturar justificativas.
 
 
-#### C21.5.2 Alinhamento com a Taxonomia de Bloom
+## **2. Expert Review — CSRP Report (Cycle 1)**
 
-* **Complexidade Computacional – Analisar**
-* **NP-Dificuldade – Compreender**
-* **Escalabilidade – Compreender**
-* **Pensamento Analítico e Crítico – Aplicar**
+### **Main Review Findings**
+
+During the expert review phase, the competence was considered **pedagogically relevant and theoretically appropriate**, but a number of refinements were identified as desirable:
+
+* **Need for stronger cognitive alignment**
+  Reviewers noted that the title and description foregrounded **analysis**, **interpretation**, and **justification**, while some knowledge–skill mappings still leaned too heavily toward lower or less aligned cognitive levels.
+
+* **Need for clearer distinction among knowledge components**
+  The original structure separated **computational complexity**, **NP-hardness**, and **algorithmic scalability**, but the relationship between these elements was not fully clarified, creating a risk of conceptual overlap.
+
+* **Importance of preserving the interpretive nature of the competence**
+  The competence was seen as one of **complexity interpretation and justified reasoning**, rather than algorithm design, proof construction, or implementation.
 
 
-#### C21.5.3 Anotação de Verbos
-
-* **Analisar** → Complexidade Computacional → *Decompor, Relacionar, Interpretar*
-* **Compreender** → NP-Dificuldade → *Explicar, Justificar, Distinguir*
-* **Compreender** → Escalabilidade → *Relacionar, Interpretar, Explicar*
-* **Aplicar** → Pensamento Analítico e Crítico → *Avaliar, Estruturar, Argumentar*
 
 
-### C21.6 Tabela-Resumo da Competência C21
 
-| **Competência**                                             | **Disposições**                                       | **Conhecimentos**                 | **Habilidade**                                   |
-| ------------------------------------------------------------ | ---------------------------------------------------- | --------------------------------- | ------------------------------------------------ |
-| Analisar a Complexidade Computacional e as Implicações da NP-Dificuldade | Colaboração, Responsabilidade, Proatividade, Criatividade | Complexidade Computacional         | **Analisar (Decompor, Relacionar, Interpretar)** |
-|                                                              |                                                      | P, NP, NP-Difíceis / NP-Completos | **Compreender (Explicar, Justificar, Distinguir)** |
-|                                                              |                                                      | Escalabilidade Algorítmica        | **Compreender (Relacionar, Interpretar, Explicar)** |
-|                                                              |                                                      | Pensamento Analítico e Crítico    | **Aplicar (Avaliar, Estruturar, Argumentar)**    |
+### **Expert Recommendations**
+
+The review therefore suggested that C21 should:
+
+* preserve its focus on **analysis of complexity and feasibility**;
+* better align its Bloom structure with the competence’s clearly analytical title and description;
+* avoid unnecessary fragmentation between **computational complexity** and **algorithmic scalability** unless that distinction serves a clear pedagogical purpose;
+* articulate more clearly the role of **NP-hardness and complexity classes** as explanatory constructs for reasoning about infeasibility.
+
+
+
+
+### **Decision Outcome**
+
+**Approved with conceptual and cognitive refinement**
+
+
+
+
+
+
+## **3. Implemented Adjustments — CSP Adjustments**
+
+Based on the expert recommendations, the following refinements were implemented:
+
+* **Cognitive realignment**
+
+  * The competence was consolidated more clearly around **Analyze** as its dominant cognitive orientation.
+  * **Analytical and Critical Thinking (FPK)** was repositioned from **Apply** to **Analyze**, in order to better reflect its role in structuring comparisons, evaluating implications, and justifying conclusions.
+
+* **Knowledge refinement**
+
+  * **Computational Complexity** was retained as the central theoretical domain.
+  * **Complexity Classes and Intractability (P, NP, NP-hard, NP-complete)** was adopted as a cleaner and more explicit knowledge category than the previous mixed formulation.
+  * **Algorithmic Scalability** was retained as a **conceptual dimension** of complexity analysis, rather than treated as an unrelated or fully independent domain.
+
+* **Textual clarification**
+
+  * The competence description was strengthened to emphasize the distinction between limits arising from **poor algorithmic design** and limits arising from **intrinsic problem difficulty**.
+  * The competence was more clearly positioned as one of **justified complexity analysis**, not of proof-based complexity theory or algorithm construction.
+
+These refinements reinforced the coherence between the competence’s purpose, its knowledge structure, and its expected evidence.
+
+
+
+
+
+
+
+## **4. Final Stabilized Version — Cycle 2**
+
+### **Competence Title**
+
+**Analyze Computational Complexity and the Implications of NP-Hardness**
+
+### **Textual Description**
+
+This competence refers to the ability to **analyze computational complexity** and **interpret the implications of NP-hardness** for the performance, scalability, and practical feasibility of algorithmic solutions.
+
+Learners are expected to understand how **input size**, **algorithmic strategy**, and **complexity class** influence computational cost, scalability, and the practical possibility of executing algorithms under **time and resource constraints**.
+
+The competence emphasizes the ability to **justify performance limits and feasibility conditions** by articulating **theoretical results from computational complexity** with **practical execution constraints**, while distinguishing limitations caused by **algorithmic inefficiency** from those associated with the **inherent computational difficulty of the problem**.
+
+This competence is interpretive and analytical rather than constructive: its purpose is not to design algorithms or prove formal reductions, but to support well-grounded reasoning about **why certain solutions scale, fail to scale, or become impractical**.
+
+
+
+## **5. Knowledge Specification**
+
+The following knowledge areas are essential for the development of this competence:
+
+* **Computational Complexity**
+
+  * Provides the basis for analyzing algorithmic cost in terms of time growth, asymptotic behavior, and performance limits under finite computational resources.
+  * Supports reasoning about how complexity constrains scalability and practical execution.
+
+* **Complexity Classes and Intractability (P, NP, NP-hard, NP-complete)**
+
+  * Establishes the theoretical basis for understanding different categories of computational difficulty.
+  * Supports justified reasoning about why some problems admit efficient solutions while others are unlikely to do so.
+
+* **Algorithmic Scalability (Conceptual Perspective)**
+
+  * Relates growth in input size to changes in computational cost and practical feasibility.
+  * Supports interpretation of how complexity manifests under realistic execution conditions.
+
+* **Analytical and Critical Thinking (FPK)**
+
+  * Supports the structured comparison of performance limits, feasibility conditions, and explanatory interpretations of complexity-theoretic results.
+  * Sustains the articulation between formal complexity knowledge and evidence-based reasoning about practical implications.
+
+
+
+## **6. Disposition Specification**
+
+The following dispositions support the development of this competence:
+
+* **Collaborative**
+
+  * Supports the comparison and discussion of alternative interpretations regarding performance, feasibility, and complexity.
+
+* **Responsible**
+
+  * Ensures conceptual accuracy and theoretical coherence in the interpretation of complexity-related claims.
+
+* **Proactive**
+
+  * Encourages learners to actively investigate how computational complexity affects algorithmic behavior across different contexts.
+
+* **Creative**
+
+  * Supports the use of examples, abstractions, and analogies to explain complexity-related phenomena clearly and rigorously.
+
+
+
+
+## **7. Knowledge–Skill Pairing (Final)**
+
+### **Mapping Knowledge to Skills**
+
+To demonstrate this competence, learners must be able to:
+
+* **Analyze** **Computational Complexity** in order to interpret performance limits, relate asymptotic cost to execution feasibility, and explain how algorithmic behavior changes with input growth.
+
+* **Understand** **Complexity Classes and Intractability (P, NP, NP-hard, NP-complete)** in order to explain inherent computational difficulty, distinguish among major complexity categories, and justify why some problems resist efficient exact solutions.
+
+* **Understand** **Algorithmic Scalability (Conceptual Perspective)** in order to relate input growth to practical execution limits and interpret when a theoretically defined cost becomes operationally significant.
+
+* **Analyze** **Analytical and Critical Thinking (FPK)** in order to structure coherent arguments, evaluate competing explanations of infeasibility, and justify conclusions about performance, tractability, and practical viability.
+
+
+
+
+
+## **8. Bloom’s Taxonomy Alignment (Final)**
+
+The competence engages the following cognitive levels:
+
+* **Computational Complexity — Analyze**
+* **Complexity Classes and Intractability — Understand**
+* **Algorithmic Scalability — Understand**
+* **Analytical and Critical Thinking (FPK) — Analyze**
+
+This alignment reflects the fact that the competence is fundamentally about **analysis and justified interpretation**, with conceptual understanding supporting, rather than replacing, the analytical core.
+
+
+
+
+## **9. Verb Annotation (Bloom-Aligned)**
+
+* **Analyze** → *Computational Complexity* → **Decompose, Relate, Interpret**
+* **Understand** → *Complexity Classes and Intractability* → **Explain, Distinguish, Justify**
+* **Understand** → *Algorithmic Scalability* → **Relate, Interpret, Explain**
+* **Analyze** → *Analytical and Critical Thinking (FPK)* → **Evaluate, Structure, Argue**
+
+
+
+## **10. Summary Table — Competence C21**
+
+| **Competence**                                                           | **Dispositions**                                | **Knowledge**                                                       | **Skill (Bloom-aligned)**                        |
+| ------------------------------------------------------------------------ | ----------------------------------------------- | ------------------------------------------------------------------- | ------------------------------------------------ |
+| **Analyze Computational Complexity and the Implications of NP-Hardness** | Collaborative, Responsible, Proactive, Creative | Computational Complexity                                            | **Analyze** (*Decompose, Relate, Interpret*)     |
+|                                                                          |                                                 | Complexity Classes and Intractability (P, NP, NP-hard, NP-complete) | **Understand** (*Explain, Distinguish, Justify*) |
+|                                                                          |                                                 | Algorithmic Scalability (Conceptual Perspective)                    | **Understand** (*Relate, Interpret, Explain*)    |
+|                                                                          |                                                 | Analytical and Critical Thinking (FPK)                              | **Analyze** (*Evaluate, Structure, Argue*)       |
+
+
+
+

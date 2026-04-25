@@ -173,8 +173,10 @@ Interpretar problemas introdutórios de programação, identificando entradas, r
 - **K06 — Estrutura sequencial e E/S básica:** sustenta a organização do encadeamento entre entrada, processamento e saída; é diretamente evidenciado na estrutura geral da solução.
 - **K02 — Fundamentos práticos da linguagem C (C11) para programação introdutória:** oferece suporte para expressar a modelagem algorítmica no padrão operacional da disciplina.
 
+==============================================================
 **Alinhamento com a Taxonomia de Bloom (revisada)**  
 **Analisar / Aplicar**
+===============================================================
 
 **Pareamento Conhecimento–Habilidade**
 

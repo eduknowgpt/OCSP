@@ -1,5 +1,7 @@
 # **TASK25.8: Classificação e Cálculo de Áreas de Polígonos Regulares**
 
+Professor: Marco Bião
+
 ## **1. Problema**
 
 Os aprendizes devem desenvolver um **programa** que, a partir de duas entradas do usuário:

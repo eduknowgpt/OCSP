@@ -71,6 +71,9 @@ To clarify expected learning outcomes, the following action verbs define key stu
 
 
 
+
+
+
 ## 2. Revisões — *CSRP-Report (Ciclo 1 – Revisão por Especialistas)*
 
 ### Síntese das críticas relevantes à C05
@@ -89,7 +92,7 @@ A revisão não identificou erros conceituais, mas apontou **ajustes de escopo e
 
    * Recomendada maior ênfase em **ações observáveis**, como estruturar, argumentar e reportar resultados.
 
-📌 **Resultado do CSRP (Ciclo 1):**
+**Resultado do CSRP (Ciclo 1):**
 **C05 → Needs Refinement (scope clarification)**
 
 
@@ -144,7 +147,7 @@ No segundo ciclo de revisão:
 * O caráter **transversal** foi considerado adequado e desejável.
 * Recomendou-se apenas manter **consistência estrutural** com as demais competências do CSP.
 
-📌 **Status:** *Approved*
+**Status:** *Approved*
 
 
 
@@ -188,3 +191,9 @@ Learners demonstrate this competency by:
 | **ID** | **Competency**               | **Dispositions**                                    | **Knowledge**                          | **Skill (Bloom)**               |
 | ------ | ---------------------------- | --------------------------------------------------- | -------------------------------------- | ------------------------------- |
 | (C05) | **Write a technical report** | Collaborative, Meticulous, Responsible | Written Communication (FPK) | **Apply (Document, Present, Write, Revise)** |
+
+
+
+
+
+OBS: A especialização C05.01 surgiu para responder a uma necessidade específica da Task25.00: não bastava “escrever um relatório técnico”; era necessário justificar formalmente respostas matemáticas, com definições, exemplos mínimos, demonstrações conceituais e contraexemplos.

@@ -11,7 +11,7 @@ A ideia é criar um **programa interativo** que auxilie os alunos a explorar a r
 
 A fórmula de referência deve ser investigada pelos alunos, assim como o cálculo de uma das variáveis pode ser feita sabendo-se as outras duas. Como isso é possível matematicamente?
 
----
+
 
 #### 2. Objetivo da Tarefa
 
@@ -21,7 +21,7 @@ Desenvolver um programa que permita ao estudante **fornecer dois dos três valor
 * a ideia de **rearranjo de fórmulas** (isolar uma variável);
 * o uso de **condicionais** e **laços de repetição** na programação.
 
----
+
 
 #### 3. Descrição do Problema
 
@@ -30,7 +30,7 @@ Você aceitou a parceria com a seguinte condição:
 > *O programa deve permitir que o aluno informe apenas dois dos três valores (velocidade média, distância ou tempo), e o sistema deve calcular de forma correta o valor que ficou em branco.*
 
 
----
+
 
 #### 4. Requisitos da Atividade
 
@@ -47,7 +47,7 @@ Antes de implementar o programa, o(a) estudante deve:
 
 Esses rearranjos devem ser documentados (por escrito ou em comentários no código).
 
----
+
 
 **4.2. Requisitos Funcionais do Programa**
 
@@ -71,7 +71,7 @@ O programa deve:
    * o valor numérico calculado;
    * as unidades utilizadas (por exemplo: km/h, m/s, km, h, etc.) — podem ser assumidas unidades simples e fixas (ex.: km e h).
 
----
+
 
 **4.3. Validação e Tratamento de Erros**
 
@@ -89,7 +89,7 @@ o programa deve **exibir uma mensagem de erro ou orientação**, solicitando que
 
 Você pode (opcionalmente) incluir mensagens educativas, explicando por que determinada combinação é inválida do ponto de vista físico (por exemplo, “tempo não pode ser zero”).
 
----
+
 
 **4.4. Repetição da Tarefa**
 
@@ -106,7 +106,7 @@ O programa deve permitir que o aluno realize **vários experimentos** sem precis
 
    * Ao detectar essa condição, o programa deve exibir uma mensagem de despedida e encerrar a execução.
 
----
+
 
 #### 5. Entregáveis Esperados
 

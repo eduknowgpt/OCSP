@@ -241,3 +241,5 @@ The following action verbs clarify the expected performance:
 | --------- | -------------------------------------------- | ----------------------------------------------- | ----------------------------------------- | -------------------------------------- |
 | **(C10)** | **Testing Turing Machines Using Simulators** | Collaborative, Responsible, Proactive, Creative | Turing Machines                           | **Apply (Simulate, Evaluate, Verify)** |
 |           |                                              |                                                 | Problem Solving and Troubleshooting (FPK) | **Apply (Diagnose, Debug, Refine)**    |
+|         |                                 | Modeling and Simulation | **Apply** |
+

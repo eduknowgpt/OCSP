@@ -1,0 +1,101 @@
+
+# CSP-Report — TASK25.0x - * ...*
+
+## 1. Introdução
+
+Este relatório aplica o **Competency Specification Process (CSP)** à **TASK25.0x — ...
+
+
+
+
+
+## 2. Análise da Entidade Instrucional
+
+### 2.1 Identificação
+
+- **Título:** 
+- **Tipo:** 
+- **Domínio:** 
+
+### 2.2 Descrição Sintética
+
+A tarefa requer que os estudantes ...
+
+
+
+## 3. Resultados Esperados
+
+Ao final da tarefa, espera-se que os estudantes produzam ...
+
+
+
+
+## 4. Enumeração de Conhecimentos
+
+A realização adequada da TASK25.0x requer a mobilização integrada de conhecimentos disciplinares em Teoria da Computação e de conhecimentos profissionais fundamentais, conforme os referenciais do **CS2023** e do **CC2020**.
+
+### 4.1 Conhecimentos de Computação (CS2023)
+
+
+
+
+
+### 4.2 Conhecimentos Profissionais Fundamentais (FPK — CC2020)
+
+- **Pensamento analítico e crítico**  
+  Capacidade de decompor o comportamento do sistema, avaliar a correção do modelo e justificar formalmente as decisões de projeto.
+
+- **Comunicação técnica escrita**  
+  Capacidade de produzir um **relatório claro, estruturado e matematicamente preciso**, expressando definições, argumentos e conclusões de forma coerente.
+
+
+
+## 5. Objetivos de Aprendizagem
+
+### Objetivo Geral
+
+Capacitar o estudante a ..
+
+### Objetivos Específicos
+
+Ao concluir a tarefa, o estudante deverá ser capaz de:
+
+- **LO1 — ... **
+
+- **LO2 — ... **  
+
+
+
+
+
+
+## 6. Competências da TASK25.01 (com Ativações OntoKSD)
+
+As competências a seguir constituem o **perfil de desempenho esperado** para a TASK25.02. Cada competência é especificada não apenas por seu conteúdo, mas também por **como, por que e em que grau** ela é mobilizada na tarefa.
+
+
+### **Competência**
+**Tipo:** 
+
+**ActivationRole:** 
+**ActivationMode:** 
+**ActivationConstraint:** 
+
+**Particularização na TASK25.02:**  
+
+
+
+
+
+
+
+## Mapeamento entre Objetivos de Aprendizagem (LOs) e Competências — TASK25.01
+
+| **LO** | **Descrição do Objetivo de Aprendizagem** | **Competências Mobilizadas** |
+|------|------------------------------------------|------------------------------|
+
+
+
+
+## 7. Conclusão
+

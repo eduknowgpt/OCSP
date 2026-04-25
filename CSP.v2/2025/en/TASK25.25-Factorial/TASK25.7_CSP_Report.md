@@ -1,399 +1,405 @@
-# **Competency Specification Report: Task25.7 – Cálculo de Fatoriais com Funções e Estruturas de Repetição**
+# TASK25.7 – CSP-Report
 
-## **Introdução**
+## Introduction
 
-Este relatório apresenta a aplicação da **fase de Autoria de Competências** do **Competency Specification Process (CSP)** à *Task25.7 – Cálculo de Fatoriais com Funções e Estruturas de Repetição*, uma atividade típica da disciplina **Introdução à Programação**, cujo foco é a implementação de funções, o uso de laços de repetição e a construção de soluções modulares.
+This CSP-Report documents the competency specification of **TASK25.7 – Factorial Computation Using Functions and Iteration Structures**, an instructional task in an introductory programming context.
 
-A tarefa solicita que os aprendizes desenvolvam um programa capaz de receber uma quantidade *n* de valores, ler cada um deles individualmente e calcular o seu fatorial por meio de uma **função implementada pelos próprios estudantes**. O exercício envolve, portanto, conhecimentos fundamentais da Computação, incluindo definição de variáveis, controle de fluxo, repetição, modularização e validação de dados.
+The task requires learners to develop a program that:
 
-A seguir, apresenta-se o relatório estruturado conforme as fases do CSP.
+- reads a number of inputs;
+- processes multiple integer values;
+- computes the factorial of each value using a dedicated function;
+- validates input values;
+- and displays formatted results.
 
----
+From the perspective of OntoKSD, the task is particularly relevant because it supports reusable competencies in:
 
-# **1. Análise de Entidades Instrucionais**
+- modularization through functions,
+- iterative processing,
+- input validation,
+- control flow,
+- and computational reasoning.
 
-### **1.1 Título da Tarefa**
+The mathematical concept of factorial is considered **supporting knowledge**, while the focus of competency specification is on **computational structure and implementation**. 
 
-Cálculo de Fatoriais com Funções e Estruturas de Repetição.
 
-### **1.2 Descrição da Tarefa**
 
-Os aprendizes devem implementar um programa que:
+## 1. Instructional Entity Analysis
 
-1. Leia um número inteiro *n*, indicando a quantidade de valores a serem processados.
-2. Leia *n* valores inteiros (um por vez).
-3. Para cada valor, calcule o fatorial utilizando uma função previamente implementada.
-4. Valide entradas negativas, solicitando nova entrada sempre que necessário.
-5. Exiba o resultado no formato "x! = resultado".
+### Title
 
-A solução deve obrigatoriamente empregar uma **função** para o cálculo de fatorial, reforçando o princípio de modularização.
+    Factorial Computation Using Functions and Iteration Structures
 
-### **1.3 Processo de Desenvolvimento Esperado**
+### Description
 
-O aprendiz deve ser capaz de:
+Learners develop a program that computes the factorial of multiple integer values provided by the user. The factorial calculation must be implemented as a **separate function**, ensuring modularity and reuse.
 
-* **Analisar as restrições do problema**: quantidade de números, domínio válido, necessidade de função.
-* **Identificar entradas e saídas**: valores inteiros e resultados fatoriais.
-* **Selecionar variáveis adequadas** e estruturar o fluxo do programa.
-* **Aplicar estruturas de repetição** para percorrer os valores a serem processados.
-* **Implementar a função de fatorial**, garantindo correção lógica.
-* **Validar entradas negativas**, garantindo robustez do programa.
-* **Testar, simular e depurar** a solução.
+The program:
 
-### **1.4 Resultados Esperados**
+- reads an integer `n`;
+- reads `n` integer values;
+- computes the factorial of each value using a function;
+- validates input (rejecting negative values);
+- prints results in formatted output. 
 
-Os estudantes devem ser capazes de:
+### Development Process
 
-* Produzir um código limpo, modular, correto e legível.
-* Modelar soluções simples com uso adequado de funções e laços.
-* Testar entradas variadas e interpretar resultados.
-* Corrigir erros decorrentes de validação ou lógica de repetição.
+Learners are expected to:
 
-### **1.5 Contexto de Aquisição**
+1. interpret the problem requirements;
+2. define program inputs and outputs;
+3. implement a factorial function;
+4. implement iteration over multiple inputs;
+5. validate inputs using conditional logic;
+6. call the function for each input;
+7. format and display results;
+8. test and refine the solution.
 
-* **Disciplina**: Introdução à Programação.
-* **Tipo de atividade**: Avaliação ou exercício estruturado.
-* **Ambiente**: Laboratório de programação com feedback imediato.
 
-### **1.6 Perfil do Público-Alvo**
+### Expected Evidence
 
-* **Nível**: Estudantes do 1º semestre da graduação em Ciência da Computação.
-* **Experiência prévia**: Noções iniciais de algoritmos, controle de fluxo e operações matemáticas simples.
-* **Funções esperadas**: Projetar pequenas soluções computacionais que combinem repetição, seleção e modularização.
+The task produces three main types of evidence:
 
-### **1.7 Escala de Proficiência**
+1. **Source code**, including function definition and control structures;
+2. **Execution results**, demonstrating correct factorial computation;
+3. **Test cases**, including valid and invalid inputs.
 
-Escala numérica de **0 a 100**, compatível com o sistema avaliativo da disciplina (por exemplo, nota 8,5 → 85).
 
----
 
-# **2. Enumeração de Conhecimento**
+### Acquisition Context
 
-A identificação do conhecimento necessário utiliza a **BNCC – Computação na Educação Básica** como vocabulário controlado, complementada pelos conhecimentos estruturantes da programação.
+The task is situated in an **introductory programming course** within an Integrated Technical Program in Informatics.
 
-### **2.1 Conhecimento de Computação (BNCC)**
+It is typically used after initial exposure to:
 
-* **Reconhecimento e formulação de problemas**
-  – analisar o problema e propor solução computacional;
-  – identificar dados de entrada e saída.
+- variables,
+- conditionals,
+- loops,
+- and functions.
 
-* **Representação e manipulação de dados**
-  – definir variáveis adequadas;
-  – trabalhar com tipos inteiros e operações aritméticas.
 
-* **Controle de Fluxo**
-  – aplicar estruturas condicionais;
-  – utilizar estruturas de repetição (laço contado).
 
-* **Abstração e Modularização**
-  – funções;
-  – decomposição de problemas.
+## 2. Knowledge Enumeration
 
-### **2.2 Conhecimento Profissional (FPK – CC2020)**
+### 2.1 Fundamental Programming Structures
 
-* **Pensamento Analítico e Crítico**
-  – decompor problemas;
-  – avaliar resultados e tomar decisões fundamentadas.
+- **K1 – Variables and data types**
+- **K2 – Input/output operations**
+- **K3 – Integer processing**
 
-Essa enumeração garante rastreabilidade semântica para a definição posterior da(s) competência(s).
+### 2.2 Iteration and Control Flow
 
----
+- **K4 – Loop structures**
+- **K5 – Iterative processing of collections**
+- **K6 – Execution control**
 
-# **3. Identificação dos Objetivos de Aprendizagem**
+### 2.3 Functions and Modularization
 
-Os Objetivos de Aprendizagem foram derivados dos conhecimentos identificados e do comportamento esperado do aluno.
+- **K7 – Function definition**
+- **K8 – Parameters and return values**
+- **K9 – Separation of concerns**
 
-### **Objetivo Geral**
+### 2.4 Conditional Logic and Validation
 
-Desenvolver uma solução computacional modular que receba múltiplos valores e compute o fatorial de cada um utilizando uma função.
+- **K10 – Conditional statements**
+- **K11 – Input validation**
+- **K12 – Error handling**
 
-### **Objetivos Específicos**
+### 2.5 Computational Reasoning
 
-1. Analisar o problema, identificando suas restrições e requisitos.
-2. Identificar corretamente entradas e saídas.
-3. Declarar variáveis necessárias à solução.
-4. Utilizar estruturas condicionais para validação de dados.
-5. Aplicar estruturas de repetição para processamento dos valores.
-6. Implementar funções para modularizar a solução.
-7. Descrever e automatizar a solução em uma linguagem de programação.
+- **K13 – Step-by-step computation**
+- **K14 – Repeated multiplication logic**
+- **K15 – Case handling (valid vs invalid input)**
 
-Esses objetivos guiam a especificação das competências na seção seguinte.
 
----
 
+### Mathematical Prerequisites
 
-## **4. Competency Definition**
+- Concept of factorial (n!)
+- Multiplicative sequences
+- Basic arithmetic operations
 
-## **General Competency (BNCC – Computing in Basic Education)**
+These are treated as **prerequisites**, not as target competencies.
 
-* **Understand, design, and implement modular computational solutions** for mathematical problems, mobilizing concepts of data representation, control structures, and functions in an ethical, rigorous, and reflective manner.
 
-Nesta tarefa, isso se concretiza na capacidade de projetar e implementar um programa que calcula o **fatorial de múltiplos valores**, utilizando **funções** e **estruturas de repetição**, com validação de entradas e atenção à clareza do código.
 
----
+## 3. Learning Objectives
 
-### **Competency CT25.7.1 Specification**
+By the end of TASK25.7, the learner should be able to:
 
-### **Competency Title**
+1. **Implement** a function to compute factorial values.
+2. **Apply** iteration to process multiple inputs.
+3. **Use** conditional logic to validate input data.
+4. **Organize** code using modular structure.
+5. **Execute** function calls within iterative structures.
+6. **Test** the program using multiple scenarios.
+7. **Explain** the logic of the implementation.
 
-> Analyze the factorial problem and specify inputs, outputs, and constraints for the solution.
 
-### **Textual Description**
 
-This competency involves the ability to **analyze the concrete computational problem of calculating factorials for multiple values** in order to identify, interpret, and specify its **inputs, outputs, and operational constraints** before implementation.
+# 4. Competency Definition
 
-The learner must understand the mathematical definition of the factorial function, recognize which data will be provided by the user (e.g., the number of values *n* and each individual integer), and determine the expected outputs (e.g., `x! = result`).
+## General Competency
 
-The process includes **interpreting the constraints** (e.g., non-negative integers only), **structuring the problem** as a relation between input and output, and **documenting** these requirements in a way that guides the subsequent design of loops and functions.
+**Implement, organize, validate, and test modular computational solutions using functions, iteration, and conditional logic.**
 
-### **Knowledge Specification**
 
-The following knowledge areas are critical for this competency:
 
----
+## Competency CT25.7.1 Specification
 
-* **Analytical Thinking (FPK)**
+### Competency Title
 
-  * The learner must be able to **apply analytical thinking** to decompose the factorial problem into its fundamental components: identify the mathematical rule (n!), domain restrictions (n ≥ 0), and the need to process *n* different input values. This supports a clear understanding of what the program must do before any code is written.
+    Implement mathematical procedures as reusable functions.
 
-  * **Bloom’s Taxonomy Alignment:** Apply
+### Textual Description
 
-  * **Knowledge-Skill Pairing:** Analytical Thinking / Apply
+This competency involves implementing a computational procedure as a reusable function with defined inputs and outputs.
 
-  * **Verb Annotation:** Analyze, Distinguish, Interpret, Organize
+In TASK25.7, learners implement a factorial function that receives a value and returns the computed result.
 
----
+### Knowledge–Skill Pairing
 
-* **Problem Analysis and Requirement Identification (BNCC – EF06CO05, EF06CO06)**
+| Knowledge | Bloom Level | Verbs |
+|---|---|---|
+| Functions | Apply | Implement, define, use |
+| Parameters and Return | Apply | Pass, return, structure |
+| Modularization | Analyze | Separate, organize, reuse |
 
-  * The learner must be able to **identify inputs and outputs** and **formulate the problem** as a computational task. This includes clarifying that the program must receive a quantity *n*, then *n* integers, and produce the factorial of each, respecting validity constraints (non-negative numbers).
+### Dispositions
 
-  * **Bloom’s Taxonomy Alignment:** Understand → Apply
+- **Systematic**
+- **Meticulous**
 
-  * **Knowledge-Skill Pairing:** Problem Analysis / Apply
 
-  * **Verb Annotation:** Identify, Determine, Specify, Describe
 
----
 
-* **Mathematical Concept of Factorial**
 
-  * The learner must understand the **mathematical definition of factorial** (n!) and its iterative nature (1 × 2 × … × n). This understanding is essential to map the abstract concept into a correct computational process.
+## Competency CT25.7.2 Specification
 
-  * **Bloom’s Taxonomy Alignment:** Understand
+### Competency Title
 
-  * **Knowledge-Skill Pairing:** Mathematical Foundations / Understand
+    Process multiple inputs using iterative control structures.
 
-  * **Verb Annotation:** Explain, Interpret, Relate
+### Textual Description
 
----
+This competency involves processing collections of input values using loop structures.
 
-### **Disposition Specification**
+In TASK25.7, learners iterate over `n` inputs and apply the factorial function to each.
 
-* **Meticulous** — pays attention to details when defining the domain of input values, constraints (non-negative integers), and expected outputs, avoiding ambiguous or incomplete specifications.
-* **Responsible** — assumes responsibility for clearly stating what the program must do, understanding that imprecise requirements lead to incorrect implementations.
+### Knowledge–Skill Pairing
 
----
+| Knowledge | Bloom Level | Verbs |
+|---|---|---|
+| Loops | Apply | Iterate, repeat, process |
+| Sequential Execution | Apply | Execute, traverse, control |
+| Input Processing | Apply | Read, handle, manage |
 
-### **BNCC-Aligned Competencies**
+### Dispositions
 
-> **General Competency 1 – Computing (High School)**
-> “Understand the possibilities and limits of Computing to solve problems (...), proposing and analyzing computational solutions for various domains of knowledge.”
-> Here, the student analyzes a **mathematical problem (factorial)** and specifies how it will be treated computationally.
+- **Persistent**
 
-> **Specific Competencies (examples):**
-> **EF06CO05, EF06CO06** – Identify inputs and outputs, and formulate generalized solutions for classes de problemas.
 
----
 
-### **Summary Table for Competency CT25.7.1**
 
-| **Code** | **Competency**                                                                                   | **Dispositions**        | **Knowledge**                          | **Skill**                                             |
-| -------- | ------------------------------------------------------------------------------------------------ | ----------------------- | -------------------------------------- | ----------------------------------------------------- |
-| CT25.7.1 | **Analyze the factorial problem and specify inputs, outputs, and constraints for the solution.** | Meticulous, Responsible | Analytical Thinking (FPK)              | **Apply (Analyze, Distinguish, Interpret, Organize)** |
-|          |                                                                                                  |                         | Problem Analysis & Requirements (BNCC) | **Apply (Identify, Determine, Specify, Describe)**    |
-|          |                                                                                                  |                         | Mathematical Concept of Factorial      | **Understand (Explain, Interpret, Relate)**           |
 
----
+## Competency CT25.7.3 Specification
 
-### **Competency CT25.7.2 Specification**
+### Competency Title
 
-### **Competency Title**
+    Validate input data using conditional logic.
 
-> Apply loops and conditional validation to process multiple numeric inputs for factorial computation.
+### Textual Description
 
-### **Textual Description**
+This competency involves verifying that input values satisfy constraints and handling invalid inputs appropriately.
 
-This competency involves the ability to **control the program flow** that processes *n* input values and computes the factorial of each, combining **repetition** and **decision structures**.
+In TASK25.7, learners ensure that factorial is only computed for non-negative integers.
 
-The learner must be able to **use loops** (e.g., `for`, `while`) to read multiple numeric inputs and iteratively compute the factorial, while simultaneously **applying conditional structures** to validate the values (e.g., rejecting negative numbers and requesting new input).
+### Knowledge–Skill Pairing
 
-This includes composing **Boolean expressions** to check validity, ensuring that the program behaves reliably even when faced with incorrect or unexpected input.
+| Knowledge | Bloom Level | Verbs |
+|---|---|---|
+| Conditionals | Apply | Check, evaluate, decide |
+| Input Validation | Apply | Validate, reject, enforce |
+| Error Handling | Analyze | Detect, diagnose, respond |
 
-Precise use of control flow and validation is essential to guarantee robustness, correctness, and user-friendly behavior.
+### Dispositions
 
-### **Knowledge Specification**
+- **Responsible**
+- **Meticulous**
 
-The following knowledge areas are critical for this competency:
 
----
 
-* **Repetition Structures (Loops)**
+## Competency CT25.7.4 Specification
 
-  * The learner must be able to **apply loops** to:
+### Competency Title
 
-    * iterate over the *n* inputs;
-    * perform the iterative multiplication that defines the factorial (1, 2, …, n).
+    Integrate functions and control flow in a complete program.
 
-  * **Bloom’s Taxonomy Alignment:** Apply
+### Textual Description
 
-  * **Knowledge-Skill Pairing:** Repetition Structures / Apply
+This competency involves coordinating multiple program components — input, processing, function calls, and output — into a coherent solution.
 
-  * **Verb Annotation:** Execute, Iterate, Repeat, Cycle, Maintain
+### Knowledge–Skill Pairing
 
----
+| Knowledge | Bloom Level | Verbs |
+|---|---|---|
+| Program Structure | Apply | Organize, integrate, coordinate |
+| Function Calls | Apply | Invoke, execute, manage |
+| Control Flow | Analyze | Control, sequence, structure |
 
-* **Conditional Structures and Data Validation**
+### Dispositions
 
-  * The learner must be able to **use conditional structures** to validate inputs and handle exceptional cases (e.g., negative numbers). This includes deciding whether to accept a value, request another, or show an error message, ensuring that only valid numbers are processed.
+- **Meticulous**
 
-  * **Bloom’s Taxonomy Alignment:** Apply
 
-  * **Knowledge-Skill Pairing:** Conditional Structures & Validation / Apply
 
-  * **Verb Annotation:** Use, Implement, Determine, Check, Validate
 
----
 
-* **Relational and Logical Operators**
+## Competency CT25.7.5 Specification
 
-  * The learner must apply **relational and logical operators** (`<`, `>=`, `==`, `&&`, etc.) to express validation conditions (e.g., “x ≥ 0”), constructing accurate Boolean expressions that guide decision-making.
+### Competency Title
 
-  * **Bloom’s Taxonomy Alignment:** Apply
+    Test and verify program correctness across input scenarios.
 
-  * **Knowledge-Skill Pairing:** Logical Reasoning / Apply
+### Textual Description
 
-  * **Verb Annotation:** Compare, Test, Validate, Combine, Construct (conditions)
+This competency involves executing the program with different inputs and verifying correctness.
 
----
+### Knowledge–Skill Pairing
 
-### **Disposition Specification**
+| Knowledge | Bloom Level | Verbs |
+|---|---|---|
+| Testing | Apply | Test, run, verify |
+| Case Analysis | Analyze | Compare, inspect, evaluate |
+| Output Validation | Apply | Check, confirm, validate |
 
-* **Meticulous** — keeps careful attention to correctness in conditional and loop conditions, avoiding off-by-one errors, infinite loops, or missing validations.
-* **Resilient** — perseveres through debugging typical control-flow errors (e.g., wrong loop limits, invalid conditions) until the program behaves correctly.
-* **Responsible** — recognizes the importance of validating user input to ensure safe and reliable program execution.
+### Dispositions
 
----
+- **Meticulous**
 
-### **BNCC-Aligned Competencies**
 
-> **General Competency 1 – Computing**
-> Application of algorithms and control structures to concrete problems, ensuring correct and safe behavior.
 
-**Specific Competencies (examples):**
 
-* **EF15CO02** – Develop algorithms involving sequences, selections, and repetitions.
-* **EF06CO02** – Elaborate algorithms using repetition and selection.
-* **EF69CO02** – Create algorithms using selection and repetition in different programming environments.
 
----
+## Competency CT25.7.6 Specification
 
-### **Summary Table for Competency CT25.7.2**
+### Competency Title
 
-| **Code** | **Competency**                                                                                           | **Dispositions**                   | **Knowledge**                       | **Skill**                                               |
-| -------- | -------------------------------------------------------------------------------------------------------- | ---------------------------------- | ----------------------------------- | ------------------------------------------------------- |
-| CT25.7.2 | **Apply loops and conditional validation to process multiple numeric inputs for factorial computation.** | Meticulous, Resilient, Responsible | Repetition Structures               | **Apply (Execute, Iterate, Repeat, Cycle, Maintain)**   |
-|          |                                                                                                          |                                    | Conditional Structures & Validation | **Apply (Use, Implement, Determine, Check, Validate)**  |
-|          |                                                                                                          |                                    | Relational/Logical Operators        | **Apply (Compare, Test, Validate, Combine, Construct)** |
+    Explain computational logic and program structure.
 
----
+### Textual Description
 
-### **Competency CT25.7.3 Specification**
+This competency involves explaining how the program works, including function behavior and execution flow.
 
-### **Competency Title**
+### Knowledge–Skill Pairing
 
-> Design, implement, and test a modular factorial function to be reused in the program.
+| Knowledge | Bloom Level | Verbs |
+|---|---|---|
+| Algorithm Explanation | Understand | Explain, describe, justify |
+| Program Structure | Apply | Describe, outline, present |
+| Logical Reasoning | Apply | Justify, support, demonstrate |
 
-### **Textual Description**
+### Dispositions
 
-This competency involves the ability to **structure the solution in a modular way**, encapsulating the factorial computation inside a **reusable function** that receives a parameter and returns the computed result.
+- **Communicative**
+- **Reflective**
 
-The learner must be able to **design the function interface** (parameter type, return type), implement its internal logic (iterative or recursive), and **integrate** the function into the main program, calling it for each valid input.
 
-Additionally, the learner is expected to **test and debug** the factorial function with different values (e.g., 0, 1, n > 1, bigger numbers), ensuring that the result is correct, that corner cases are handled, and that the function can be reused safely in other contexts.
 
-### **Knowledge Specification**
 
-The following knowledge areas are critical for this competency:
 
----
+## 5. Evidence and Assessment Interpretation
 
-* **Functions, Parameters, and Return Values**
+### Artifact-Level Evidence
 
-  * The learner must be able to **design and implement functions** that encapsulate the factorial logic, carefully choosing parameters (e.g., integer *x*) and return types (e.g., integer or long). This includes understanding how data flows into and out of the function.
+- source code;
+- function implementation;
+- execution outputs.
 
-  * **Bloom’s Taxonomy Alignment:** Create
+### Performance-Level Evidence
 
-  * **Knowledge-Skill Pairing:** Function Design / Create
+- correct iteration;
+- correct factorial computation;
+- correct validation behavior.
 
-  * **Verb Annotation:** Create, Construct, Design, Develop, Compose
+### Learner-Level Evidence
 
----
+- explanation of logic;
+- justification of function design;
+- understanding of modularization.
 
-* **Decomposition and Modularization**
 
-  * The learner must be able to **decompose the problem** by separating the concerns: the main program is responsible for reading inputs and controlling the loop, while the factorial function is responsible only for the mathematical computation. This modularization favors reusability and clarity.
 
-  * **Bloom’s Taxonomy Alignment:** Analyze → Create
 
-  * **Knowledge-Skill Pairing:** Modularization / Create
+## 6. Final Summary Table
 
-  * **Verb Annotation:** Decompose, Structure, Organize, Integrate
+| Code | Competency Title | Main Role | Activation Mode |
+|---|---|---|---|
+| CT25.7.1 | Implement mathematical procedures as reusable functions | Core | Constructive |
+| CT25.7.2 | Process multiple inputs using iterative control structures | Core | Constructive |
+| CT25.7.3 | Validate input data using conditional logic | Core | Analytical |
+| CT25.7.4 | Integrate functions and control flow in a complete program | Core | Constructive-Analytical |
+| CT25.7.5 | Test and verify program correctness across input scenarios | Core | Analytical |
+| CT25.7.6 | Explain computational logic and program structure | Supporting | Justificatory |
 
----
 
-* **Testing and Debugging**
 
-  * The learner must be able to **test the factorial function** with different inputs and debug potential errors (off-by-one errors, incorrect initialization, etc.), verifying correctness and stability.
+## Competency Summary Tables
 
-  * **Bloom’s Taxonomy Alignment:** Apply
+### CT25.7.1 — Implement mathematical procedures as reusable functions
 
-  * **Knowledge-Skill Pairing:** Testing & Debugging / Apply
+| Code | Competency | Dispositions | Knowledge | Skill |
+|---|---|---|---|---|
+| CT25.7.1 | Implement mathematical procedures as reusable functions. | Meticulous | Functions | Apply |
+| || | Parameters and Return | Apply |
+| || | Modularization | Analyze |
 
-  * **Verb Annotation:** Test, Verify, Correct, Refine
+ 
 
----
+### CT25.7.2 — Process multiple inputs using iterative control structures
 
-### **Disposition Specification**
+| Code | Competency | Dispositions | Knowledge | Skill |
+|---|---|---|---|---|
+| CT25.7.2 | Process multiple inputs using iterative control structures. | Persistent | Loops | Apply |
+| || | Sequential Execution | Apply |
+| || | Input Processing | Apply |
 
-* **Meticulous** — carefully defines parameters, return types, and internal logic of the function, avoiding ambiguous behavior.
-* **Persistent** — persists through debugging and refinement cycles until the function behaves correctly for all relevant test cases.
-* **Collaborative** (if in pairs/groups) — discusses modularization choices and test cases with peers, integrating feedback to improve design.
+ 
 
----
+### CT25.7.3 — Validate input data using conditional logic
 
-### **BNCC-Aligned Competencies**
+| Code | Competency | Dispositions | Knowledge | Skill |
+|---|---|---|---|---|
+| CT25.7.3 | Validate input data using conditional logic. | Responsible, Meticulous | Conditionals | Apply |
+| || | Input Validation | Apply |
+| || | Error Handling | Analyze |
 
-> **General Competency 4 – Computing (High School)**
-> Building computational artifacts using appropriate techniques and technologies — here, the factorial function is a modular artifact.
+ 
 
-> **General Competency 5 – Computing (High School)**
-> Develop computational projects for real-world problems — modularization is essential to scalable and maintainable projects.
+### CT25.7.4 — Integrate functions and control flow in a complete program
 
-**Specific Competencies (examples):**
+| Code | Competency | Dispositions | Knowledge | Skill |
+|---|---|---|---|---|
+| CT25.7.4 | Integrate functions and control flow in a complete program. | Meticulous | Program Structure | Apply |
+| || | Function Calls | Apply |
+| || | Control Flow | Analyze |
 
-* **EF06CO02, EF06CO03** – Elaborate and describe algorithms and programs that implement solutions using selection and repetition.
-* **EF06CO04** – Build solutions using decomposition and automate them via programming.
-* **EM13CO02** – Refine computational solutions at multiple abstraction levels, including how to decompose into functions.
+ 
 
----
+### CT25.7.5 — Test and verify program correctness across input scenarios
 
-### **Summary Table for Competency CT25.7.3**
+| Code | Competency | Dispositions | Knowledge | Skill |
+|---|---|---|---|---|
+| CT25.7.5 | Test and verify program correctness across input scenarios. | Meticulous | Testing | Apply |
+| || | Case Analysis | Analyze |
+| || | Output Validation | Apply |
 
-| **Code** | **Competency**                                                                            | **Dispositions**                      | **Knowledge**                        | **Skill**                                                |
-| -------- | ----------------------------------------------------------------------------------------- | ------------------------------------- | ------------------------------------ | -------------------------------------------------------- |
-| CT25.7.3 | **Design, implement, and test a modular factorial function to be reused in the program.** | Meticulous, Persistent, Collaborative | Functions, Parameters, Return Values | **Create (Create, Construct, Design, Develop, Compose)** |
-|          |                                                                                           |                                       | Decomposition & Modularization       | **Create (Decompose, Structure, Organize, Integrate)**   |
-|          |                                                                                           |                                       | Testing & Debugging                  | **Apply (Test, Verify, Correct, Refine)**                |
+ 
 
+### CT25.7.6 — Explain computational logic and program structure
 
+| Code | Competency | Dispositions | Knowledge | Skill |
+|---|---|---|---|---|
+| CT25.7.6 | Explain computational logic and program structure. | Communicative, Reflective | Algorithm Explanation | Understand |
+| || | Program Structure | Apply |
+| || | Logical Reasoning | Apply |

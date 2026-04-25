@@ -1,25 +1,10 @@
-# Competency Specification Report: Cryptarithms – A Playful Approach to Teaching Basic Cryptography Concepts in K–12 Education
-
+# TASK25.21 – CSP-Report
 
 ## Introduction
 
-Building upon the principles and procedures of the **Competency Specification Process (CSP)**, this report presents the results of the **Competency Authoring phase** applied to the instructional activity *“Cryptarithms: A Playful Approach to Teaching Basic Cryptography Concepts in K–12 Education.”*
+This CSP-Report documents the competency specification of **TASK25.21 – Cryptarithms: A Playful Approach to Teaching Basic Cryptography Concepts in K–12 Education**. The task introduces basic cryptography and computational thinking through cryptarithmic puzzles, in which symbols or letters replace digits in valid arithmetic operations. Learners solve given puzzles, justify their reasoning, and may also create original cryptarithmic challenges. 
 
-The proposed task explores **cryptarithms** as a didactic and cognitively accessible instructional entity for introducing **basic cryptographic concepts**, **computational thinking**, and **logical–mathematical reasoning** in **Basic Education**. By transforming abstract notions—such as symbolic substitution, encoding, and algorithmic reasoning—into concrete and manipulable puzzles, the activity lowers the entry barrier to cryptography while preserving its core intellectual challenges.
-
-Designed for **upper elementary (6th–9th grade) and high school students**, the task promotes active learning through a cycle of **problem solving, strategy articulation, and challenge creation**. Learners are not only required to solve given cryptarithmic puzzles, but also to **design and exchange their own challenges**, fostering authorship, creativity, and reflective thinking about problem structure and solution strategies.
-
-From a computational perspective, cryptarithms naturally elicit key cognitive processes such as **abstraction**, **decomposition**, **pattern recognition**, and **algorithmic reasoning**. Students must systematically test hypotheses, manage constraints (e.g., digit uniqueness and positional validity), and justify each inference step—activities that align closely with foundational notions of algorithm design and computational problem solving.
-
-In alignment with the **BNCC Computing competencies** and the **Computing in Basic Education Supplement**, this instructional entity supports the development of competencies related to **problem decomposition**, **precise description of solutions**, and **information encoding**. Additionally, the collaborative and exploratory nature of the task encourages the cultivation of **dispositions** such as persistence, autonomy, creativity, and responsibility in reasoning.
-
-Within the **OntoKSD** framework, *cryptarithms* are treated as the **Instructional Entity** that grounds the competency modeling process. From this entity, we systematically derive:
-- the **knowledge elements** mobilized by learners,
-- the **cognitive skills** required to act upon that knowledge,
-- the **dispositions** that characterize effective engagement with the task, and
-- the resulting **competency specifications** that can be reused, adapted, or aligned with external curricular frameworks (e.g., BNCC).
-
-The subsequent sections present a structured **Instructional Entity Analysis**, followed by the explicit identification of **knowledge components**, **learning objectives**, and **competency specifications**, all articulated according to the CSP methodology and formally aligned with the OntoKSD model.
+From the perspective of **OntoKSD**, TASK25.21 is relevant because it supports the specification of reusable competencies involving symbolic representation, constraint-based reasoning, algorithmic strategy, validation, cryptographic awareness, and communication of reasoning. The task is adaptable to upper elementary and high school contexts and may be used in regular classes, workshops, or interdisciplinary Mathematics–Computing activities. 
 
 
 
@@ -27,558 +12,488 @@ The subsequent sections present a structured **Instructional Entity Analysis**, 
 
 ### Title
 
-*Cryptarithms: A Playful Approach to Teaching Basic Cryptography Concepts in K–12 Education*
+    Cryptarithms: A Playful Approach to Teaching Basic Cryptography Concepts in K–12 Education
 
-### **Description**
+### Description
 
-This instructional entity engages learners in the **systematic solving and creation of cryptarithmic puzzles** as a concrete pathway to exploring **foundational cryptography concepts** within a developmentally appropriate and playful context.
+Learners engage with cryptarithmic puzzles in which digits are replaced by symbols or letters. They must infer consistent symbol–digit mappings that satisfy arithmetic correctness and additional constraints, such as digit uniqueness, positional validity, and non-leading-zero rules. The activity introduces symbolic substitution as a concrete and accessible entry point to basic cryptographic concepts.
 
-Learners work with arithmetic expressions in which **digits are replaced by symbols or letters**, and must identify consistent substitutions that satisfy both **mathematical correctness** and **symbolic constraints** (e.g., uniqueness of digits, positional validity, and non-leading zeros). Through this process, students actively experience how **information can be encoded symbolically**, a core principle underlying cryptographic systems.
-
-From a cognitive standpoint, the activity requires learners to:
-- **Decompose** complex puzzles into manageable subproblems (e.g., analyzing individual columns of an operation),
-- **Recognize patterns and constraints** that govern valid substitutions,
-- **Formulate and test hypotheses** in a systematic manner, and
-- **Justify logical inferences** based on arithmetic and positional reasoning.
-
-Beyond problem solving, the instructional entity explicitly incorporates **challenge creation**, in which learners design their own cryptarithms and exchange them with peers. This authoring phase deepens conceptual understanding by requiring learners to reflect on **problem structure, constraint design, and solution uniqueness**, reinforcing metacognitive awareness and creativity.
+The task also includes a creative component: learners design original cryptarithmic challenges and exchange them with peers, requiring them to reason not only as solvers but also as authors of structured symbolic problems.
 
 
+### Expected Evidence
 
-### Solution Development Process
+The task produces four main types of evidence:
 
-The expected learner approach to solving and creating cryptarithmic puzzles follows a **structured and iterative reasoning process**, combining analytical rigor with creative exploration. Throughout this process, learners progressively refine hypotheses, manage constraints, and articulate justifications, mirroring fundamental practices of computational problem solving.
-
-* **Analyze** the overall structure of the cryptarithmic puzzle, identifying the underlying arithmetic operation and the associated constraints, such as **distinct digit requirements**, **carry propagation**, **positional alignment**, and the **validity of arithmetic outcomes**.
-
-* **Decompose** the problem into smaller, manageable logical steps—typically by examining individual columns or sub-expressions—allowing learners to isolate constraints, recognize patterns, and systematically reduce the solution space.
-
-* **Explore** solution hypotheses by assigning tentative digit values to symbols, iteratively testing these assignments against the puzzle’s rules and refining them based on detected inconsistencies.
-
-* **Validate** candidate solutions through **systematic verification**, ensuring that all arithmetic operations are correct, symbol–digit mappings are consistent, and no constraints are violated.
-
-* **Create** an original cryptarithmic challenge by intentionally designing a mathematically coherent puzzle. This includes selecting symbols, defining valid substitutions, ensuring solution uniqueness or plausibility, and explicitly documenting the reasoning that guarantees the puzzle’s correctness.
-
-* **Communicate** solutions, strategies, and design choices clearly—both orally and in written form—providing **step-by-step justifications** that demonstrate logical coherence, mastery of substitution-based reasoning, and an emerging understanding of how cryptographic encoding operates through symbolic transformation.
-
-This solution development process reinforces core elements of **computational thinking**, including decomposition, abstraction, hypothesis testing, and validation, while also fostering dispositions such as **persistence, precision, and reflective reasoning**.
+1. **Solved cryptarithmic puzzles**, showing valid symbol–digit mappings and correct arithmetic.
+2. **Annotated solution steps**, showing decomposition, hypothesis testing, inference, and validation.
+3. **Original cryptarithmic challenges**, when the creative stage is included.
+4. **Oral or written explanations**, demonstrating reasoning, authorship, and conceptual understanding. 
 
 
 
+### OntoKSD Analytical Note
 
-### Expected Outcomes
+TASK25.21 should be modeled as a `LearningTask`. Its evidence structure is especially useful because it combines:
 
-Upon completion of the instructional activity, learners are expected to demonstrate both **conceptual understanding** and **procedural competence** through the production of the following outcomes:
+- learner reasoning traces;
+- symbolic artifacts;
+- created challenges;
+- collaborative discussion;
+- and individual or group explanation.
 
-* **Correctly solved cryptarithmic puzzles**, exhibiting logical coherence, respect for all constraints, and **valid symbol–digit mappings** that satisfy the given arithmetic operations.
+This supports OntoKSD distinctions between **instructional task**, **artifact-level evidence**, **reasoning-process evidence**, and **learner-level evidencing of competence**.
 
-* **An original, self-created cryptarithmic challenge** that adheres to defined arithmetical and structural constraints, including consistency of substitutions, positional validity, and mathematical correctness.
-
-* **Clear written or oral explanations** that explicitly describe the reasoning process employed, including problem decomposition, hypothesis testing, and systematic validation strategies.
-
-* **Evidence of collaborative reasoning** (when performed in group settings), such as peer discussion, shared formulation and evaluation of hypotheses, and collective refinement of proposed solutions.
-
-* **Demonstrations of introductory cryptographic awareness**, particularly in relation to **symbol substitution**, **information encoding**, and the notion of **reversible transformations** between symbolic and numeric representations.
-
-* **Concrete learning artifacts**—such as worksheets, annotated solution steps, and designed puzzles—that document both the learner’s **analytical reasoning** and **creative problem construction** throughout the activity.
-
-Together, these outcomes provide observable evidence of learners’ development in **computational thinking**, **logical reasoning**, and foundational **cryptographic concepts**, supporting formative assessment and competency-based evaluation within the CSP framework.
-
-
-
-### **Acquisition Context**
-
-This learning task is situated within **K–12 Computing and Mathematics education**, explicitly aligned with the **BNCC Computing competencies** and the **Computing in Basic Education Supplement (SBC, 2023)**. It is designed to be flexibly implemented across multiple instructional settings, including **regular classroom instruction**, **computational thinking workshops**, **project-based learning (PBL) sessions**, and **enrichment or extension activities** that integrate mathematical reasoning with introductory cryptographic concepts.
-
-The acquisition context emphasizes **hands-on manipulation of symbolic representations**, encouraging learners to actively engage with puzzles through written artifacts, group discussion, and iterative reasoning. Collaborative exploration plays a central role, as students articulate hypotheses, test solutions collectively, and reflect on alternative strategies. At the same time, the creative dimension of **designing original cryptarithmic challenges** supports learner autonomy and ownership of the learning process.
-
-This playful yet cognitively demanding setting enables students to meaningfully engage with **abstraction**, **symbolic reasoning**, and **logical inference**, fostering a positive learning experience that balances rigor and motivation.
-
-
-
-### Target Audience Profile
-
-* **Educational Level:**  
-  Upper Elementary and High School students (Grades 6–12).
-
-* **Prior Knowledge:**  
-  Basic arithmetic operations (addition, subtraction, multiplication), familiarity with number representation, and initial exposure to mathematical problem-solving practices.
-
-* **Programming / Cryptography Experience:**  
-  No formal programming or cryptography background is required. An introductory understanding of **patterns, logical reasoning, or symbolic encoding** is sufficient to engage productively with the task.
-
-* **Learning Needs:**  
-  Access to **concrete and visually structured examples**, guided reasoning prompts, scaffolded problem decomposition, and opportunities for both **individual exploration** and **collaborative problem solving**.
-
-* **Expected Dispositions:**  
-  Curiosity, persistence in the face of challenge, creative engagement, collaborative interaction, attention to detail, and a willingness to **revise strategies based on feedback and validation**.
-
-This profile ensures that the instructional entity remains inclusive, adaptable, and well-suited to a wide range of learners within the scope of Basic Education.
-
-
-
-### Proficiency Scale
-
-Scores range from **0.0 to 10.0**, in increments of **0.1**, based on:
-
-* **Accuracy** of solving cryptarithmic puzzles and validity of created challenges.
-* **Logical consistency** of the reasoning and explanation.
-* **Creativity** in the construction of new puzzles.
-* **Use of computational thinking skills** (decomposition, pattern recognition, abstraction).
-* **Clarity** of oral or written communication.
-* **Collaboration and engagement** during the activity.
-* **Ethical behavior**, such as academic honesty and respect for peers.
 
 
 
 ## 2. Knowledge Enumeration
 
-The successful execution of the instructional activity *Cryptarithms – A Playful Approach to Teaching Basic Cryptography Concepts in K–12 Education* requires the mobilization of a set of interrelated knowledge elements. These elements span mathematical foundations, computational reasoning, and professional dispositions, and together support both problem solving and challenge creation.
+### 2.1 Symbolic and Cryptographic Representation
 
-* **K1 – Symbolic substitution and encoding**  
-  Understanding how symbols or letters can systematically represent digits, and how such substitutions function as a basic form of information encoding, analogous to elementary cryptographic mechanisms.
+- **Symbolic substitution**
+- **Symbol–digit mappings**
+- **Information encoding and decoding**
+- **Introductory cryptographic principles**
+- **Substitution-based encoding mechanisms**
 
-* **K2 – Arithmetic operations with multi-digit numbers**  
-  Knowledge of addition, subtraction, and multiplication involving multi-digit numbers, including carry and borrow operations, positional value, and numerical consistency.
+### 2.2 Mathematical and Logical Reasoning
 
-* **K3 – Logical inference and constraint propagation**  
-  Ability to derive new conclusions from known constraints, propagate restrictions across symbols and positions, and eliminate invalid hypotheses through logical reasoning.
+- **Arithmetic operations with multi-digit numbers**
+- **Place value and positional notation**
+- **Carry and borrow reasoning**
+- **Logical inference**
+- **Constraint propagation**
 
-* **K4 – Pattern recognition in symbolic and numeric sequences**  
-  Recognition of regularities and structural patterns in sequences of symbols and numbers that can guide hypothesis generation and solution refinement.
+### 2.3 Computational Thinking
 
-* **K5 – Problem decomposition strategies**  
-  Knowledge of techniques for breaking complex cryptarithmic puzzles into smaller, manageable subproblems (e.g., column-wise analysis or stepwise reasoning).
+- **Problem decomposition**
+- **Pattern recognition**
+- **Hypothesis generation and testing**
+- **Algorithmic strategy**
+- **Systematic search**
 
-* **K6 – Representation of information (symbols, digits, mappings)**  
-  Understanding different representational forms and the relationships between symbols, digits, and their mappings within structured mathematical expressions.
+### 2.4 Validation and Challenge Design
 
-* **K7 – Verification and validation of solutions**  
-  Knowledge of systematic methods for checking arithmetic correctness, consistency of substitutions, and compliance with all stated constraints.
+- **Solution verification**
+- **Consistency checking**
+- **Puzzle design**
+- **Constraint design**
+- **Solvability and ambiguity analysis**
 
-* **K8 – Creativity in designing structured mathematical challenges**  
-  Awareness of how to intentionally design puzzles with coherent structure, meaningful constraints, and solvable or uniquely solvable configurations.
+### 2.5 Communication and Authorship
 
-* **K9 – Collaboration and communication in problem-solving environments**  
-  Understanding the role of dialogue, shared reasoning, and explanation in collective problem solving, including the articulation and critique of solution strategies.
-
-* **K10 – Ethical conduct and respect for intellectual authorship**  
-  Awareness of ethical principles related to authorship, attribution, and responsible collaboration when creating, sharing, and solving cryptarithmic challenges.
-
-Together, these knowledge elements provide a comprehensive foundation for the development of competencies associated with computational thinking, introductory cryptography, and collaborative mathematical reasoning within the CSP and OntoKSD frameworks.
-
-
-
-
-
-## 3. Learning Objectives Identification
-
-By the end of the instructional task, learners are expected to demonstrate the following learning objectives, articulated through **observable, Bloom-aligned action verbs** and grounded in the knowledge elements previously identified:
-
-1. **LO1 – Analyze** the structure, rules, and constraints of cryptarithmic puzzles in order to identify consistent and valid **symbol–digit relationships**.
-
-2. **LO2 – Apply** problem decomposition and **pattern recognition strategies** to systematically reduce the solution search space and guide hypothesis generation.
-
-3. **LO3 – Solve** cryptarithmic problems by integrating **logical inference**, arithmetic reasoning, and constraint propagation to reach mathematically valid solutions.
-
-4. **LO4 – Validate** proposed solutions through **systematic checking**, ensuring full compliance with arithmetic correctness and all symbolic constraints.
-
-5. **LO5 – Create** original cryptarithmic challenges that demonstrate **mathematical correctness**, symbolic coherence, and intentionally designed constraints.
-
-6. **LO6 – Explain** the reasoning processes used to solve or construct puzzles, clearly articulating steps, assumptions, and justifications in **oral or written form**.
-
-7. **LO7 – Collaborate** with peers to compare solution strategies, negotiate interpretations of constraints, and **refine solutions** through shared reasoning.
-
-8. **LO8 – Reflect** on the underlying **cryptographic principles** involved—such as substitution, encoding, and pattern stabilization—and relate them to **practical or everyday contexts** involving information representation and security.
-
-Collectively, these learning objectives operationalize the instructional intent of the task and provide a clear basis for **competency specification, assessment, and alignment** within the CSP and OntoKSD frameworks.
+- **Mathematical and computational vocabulary**
+- **Step-by-step explanation**
+- **Collaborative reasoning**
+- **Ethical authorship**
 
 
 
 
-## **4. Competency Definition**
+## 3. Learning Objectives
 
-### **General Competency (BNCC – Computing in Basic Education)**
+By the end of TASK25.21, the learner should be able to:
 
-The instructional activity *Cryptarithms – A Playful Approach to Teaching Basic Cryptography Concepts in K–12 Education* mobilizes the following **general competencies of Computing in Basic Education**, as defined by the BNCC:
-
-* **Understand the possibilities and limits of Computing in problem solving**, by proposing, analyzing, and reasoning about computational solutions across different domains.
-
-* **Build knowledge through computational techniques and representations**, producing solutions and artifacts in a creative manner while respecting **ethical and legal principles**.
-
-* **Express, communicate, and share information and computational solutions** clearly and meaningfully, adopting a critical and reflective stance.
-
-Within the cryptarithm activity, these general competencies are operationalized through the analysis and construction of **symbolic problems**, the exploration of **information encoding mechanisms**, and the introduction of **basic cryptographic concepts**. Learners engage in structured reasoning about constraints and representations, create original problem artifacts, and communicate their solution strategies, thereby integrating conceptual understanding, practical reasoning, and ethical awareness in a coherent computational learning experience.
-
+1. **Interpret** symbolic substitutions as mappings between symbols and digits.
+2. **Analyze** constraints in cryptarithmic puzzles.
+3. **Decompose** cryptarithmic problems into smaller reasoning steps.
+4. **Formulate and test** solution hypotheses systematically.
+5. **Validate** candidate solutions against arithmetic and symbolic constraints.
+6. **Explain** the reasoning process used to solve a puzzle.
+7. **Create** original cryptarithmic challenges with coherent constraints.
+8. **Relate** symbolic substitution to introductory cryptographic concepts.  
 
 
 
-## CT25.3.1 — Solve Symbolic Constraint-Based Problems Using Logical Reasoning and Decomposition
+# 4. Competency Definition
+
+## General Competency
+
+**Analyze, solve, validate, create, and explain symbolic constraint-based problems using computational thinking, arithmetic reasoning, and introductory cryptographic concepts.**
+
+### General BNCC Alignment
+
+This general competency is supported by BNCC Computing references related to problem decomposition, precise solution description, information encoding, cryptographic techniques, and computational problem solving. The original task explicitly identifies **EF69CO04**, **EF69CO03**, and **EF09CO05** as relevant BNCC skills. 
+
+
+
+
+## Competency CT25.21.1 Specification
 
 ### Competency Title
 
-    Solve symbolic constraint-based problems using logical reasoning and problem decomposition.
-
-
+    Interpret symbolic representations as information mappings.
 
 ### Textual Description
 
-This competency involves the ability to **solve symbolic problems governed by explicit constraints**, in which abstract symbols represent unknown values within formally defined rules or operations.
+This competency involves understanding that symbols, letters, or other signs can represent values according to explicit mapping rules. In TASK25.21, learners interpret cryptarithmic notation as a structured mapping between symbols and digits, recognizing that meaning depends on the consistency of the substitution rule.
 
-The learner **analyzes problem constraints**, **decomposes the problem into smaller logical components**, and **formulates, tests, and refines hypotheses** in order to identify consistent solutions. This process requires managing dependencies between variables, propagating constraints, and revising assumptions when inconsistencies are detected.
+This competency is foundational for both solving cryptarithms and understanding basic encoding mechanisms in cryptography.
 
-The competency emphasizes **structured reasoning**, **systematic exploration of the solution space**, and **explicit validation of results**. It may be exercised individually or collaboratively, and supports the clear communication and justification of problem-solving strategies.
+### Knowledge–Skill Pairing
 
+| Knowledge | Bloom Level | Verbs |
+|---|---|---|
+| Symbolic Representation | Understand | Interpret, recognize, describe, associate |
+| Information Encoding | Understand | Explain, identify, clarify, relate |
+| Symbol–Digit Mapping | Apply | Map, assign, use, instantiate |
 
+### Dispositions
 
-### Knowledge Specification
+- **Curious**
+- **Meticulous**
 
-- **Symbolic Representation and Constraint Management**
-
-  Understanding how abstract symbols can represent unknown values and how constraints restrict valid assignments within a formal system.
-
-  * **Bloom’s Alignment:** Understand / Apply  
-  * **Knowledge–Skill Pairing:** Symbolic Representation / Apply  
-  * **Verb Annotation:** Represent, Associate, Constrain, Assign
-
-- **Logical Inference and Hypothesis Testing**
-
-  Ability to infer consequences from known constraints, generate hypotheses, and eliminate inconsistent possibilities through reasoning.
-
-  * **Bloom’s Alignment:** Analyze  
-  * **Knowledge–Skill Pairing:** Logical Inference / Analyze  
-  * **Verb Annotation:** Infer, Deduce, Eliminate, Justify
-
-- **Problem Decomposition Strategies**
-
-  Knowledge of techniques for breaking complex symbolic problems into smaller, tractable subproblems.
-
-  * **Bloom’s Alignment:** Apply  
-  * **Knowledge–Skill Pairing:** Problem Decomposition / Apply  
-  * **Verb Annotation:** Decompose, Organize, Sequence, Recompose
-
-- **Solution Verification and Consistency Checking**
-
-  Understanding how to validate partial and complete solutions against all constraints and governing rules.
-
-  * **Bloom’s Alignment:** Apply / Analyze  
-  * **Knowledge–Skill Pairing:** Verification / Analyze  
-  * **Verb Annotation:** Verify, Check, Confirm, Reassess
-
-
-
-### Disposition Specification
-
-* **Persistent** — sustains effort across iterative cycles of hypothesis testing and revision.  
-* **Meticulous** — attends carefully to constraints, dependencies, and validation steps.  
-* **Collaborative** — engages constructively in shared reasoning, critique, and consensus building.
-
-
-
-### BNCC-Aligned Competencies
-
-#### General Computing Competencies
-
-* **Solve problems by proposing and analyzing computational solutions**, through systematic reasoning and constraint-based analysis.
-* **Build knowledge using computational techniques in creative and ethical ways**, respecting intellectual authorship and collaborative practices.
-
-#### Specific Competencies
-
-* **EF15CO05** — Encode and manipulate information using symbolic representations.  
-* **EF09CO05** — Analyze basic symbolic or cryptographic encoding techniques.  
-* **EM13CO01** — Construct solutions by reusing reasoning structures and partial solutions.
-
-
-
-### Activation Specification (CSP / OntoKSD)
+### Activation
 
 | Dimension | Value |
-|---------|-------|
-| **ActivationConstraint** | **mandatory** |
-| **ActivationMode** | **analytical**, **justificatory** |
-| **ActivationRole** | **core** |
+|---|---|
+| ActivationConstraint | mandatory |
+| ActivationMode | interpretative |
+| ActivationRole | core |
+
+### BNCC Alignment
+
+| BNCC Reference | Alignment Type | Justification |
+|---|---|---|
+| EF15CO05 | `CloseAlignment` | The competence directly addresses encoding information in different forms for manipulation and representation. |
+| EF09CO05 | `PartialAlignment` | The competence supports cryptographic encoding awareness, but does not yet require analysis of full cryptographic techniques. |
+| General BNCC Computing Competencies | `GeneralFrameworkAlignment` | It supports broader computational understanding of representation and information transformation. |
+
+### Summary Table
+
+| Code | Competency | Dispositions | Knowledge | Skill |
+|---|---|---|---|---|
+| CT25.21.1 | Interpret symbolic representations as information mappings. | Curious, Meticulous | Symbolic Representation | Understand |
+|  |  |  | Information Encoding | Understand |
+|  |  |  | Symbol–Digit Mapping | Apply |
+
+
+
+
+
+
+## Competency CT25.21.2 Specification
+
+### Competency Title
+
+    Analyze symbolic constraints in cryptarithmic problems.
+
+### Textual Description
+
+This competency involves identifying and analyzing the constraints that govern a symbolic problem. In TASK25.21, learners examine restrictions such as digit uniqueness, valid arithmetic operations, positional value, carry propagation, and non-leading-zero constraints.
+
+This competency is more specific than general problem solving: it focuses on recognizing the formal conditions that restrict possible symbol–digit assignments.
+
+### Knowledge–Skill Pairing
+
+| Knowledge | Bloom Level | Verbs |
+|---|---|---|
+| Constraint Management | Analyze | Identify, distinguish, constrain, relate |
+| Positional Arithmetic | Analyze | Analyze, compare, infer, locate |
+| Logical Inference | Analyze | Infer, deduce, eliminate, justify |
+
+### Dispositions
+
+- **Meticulous**
+- **Investigative**
+
+### Activation
+
+| Dimension | Value |
+|---|---|
+| ActivationConstraint | mandatory |
+| ActivationMode | analytical |
+| ActivationRole | core |
+
+### BNCC Alignment
+
+| BNCC Reference | Alignment Type | Justification |
+|---|---|---|
+| EF69CO04 | `CloseAlignment` | Constraint analysis often requires decomposing the problem into manageable subproblems. |
+| EF69CO03 | `PartialAlignment` | Precise description of the problem supports constraint analysis, but does not fully cover it. |
+| EF09CO05 | `PartialAlignment` | The competence contributes to analysis of symbolic encoding, but remains focused on puzzle constraints. |
 
 
 
 ### Summary Table
 
-| **Code** | **Competency** | **Dispositions** | **Knowledge** | **Skill (Bloom)** |
-|--------|----------------|------------------|---------------|-------------------|
-| CT25.3.1 | **Solve symbolic constraint-based problems using logical reasoning and decomposition.** | Persistent, Meticulous, Collaborative | Symbolic Representation | Apply |
-| | | | Logical Inference *(Infer, Deduce, Eliminate, Justify)*| Analyze |
-| | | | Problem Decomposition *(Decompose, Organize, Sequence, Recompose)* | Apply |
-| | | | Solution Verification *(Verify, Check, Confirm, Reassess)* | Analyze |
+| Code | Competency | Dispositions | Knowledge | Skill |
+|---|---|---|---|---|
+| CT25.21.2 | Analyze symbolic constraints in cryptarithmic problems. | Meticulous, Investigative | Constraint Management | Analyze |
+|  | |  | Positional Arithmetic | Analyze |
+|  |  |  | Logical Inference | Analyze |
 
 
 
 
 
-## CT25.3.2 — Encode and Decode Information Using Symbolic Representations
+
+## Competency CT25.21.3 Specification
 
 ### Competency Title
 
-    Encode and decode information using symbolic representations.
-
-
+    Decompose cryptarithmic problems into tractable reasoning steps.
 
 ### Textual Description
 
-This competency involves the ability to **understand, apply, and reason about symbolic encoding and decoding processes**, in which information is represented, concealed, or transformed through systematic symbol–value mappings.
+This competency involves breaking a complex cryptarithmic problem into smaller reasoning units. In TASK25.21, learners may analyze one column at a time, separate known and unknown values, isolate carry conditions, and organize reasoning sequences that progressively reduce the solution space.
 
-The learner recognizes that **numbers, letters, and symbols can function as representational codes**, and that meaning emerges from the consistency of the encoding rules rather than from the symbols themselves. By manipulating and analyzing such representations, the learner encodes information, decodes hidden values, and evaluates whether a given mapping preserves correctness and coherence.
+This competency is reusable in other symbolic, mathematical, and computational problem-solving contexts.
 
-At an introductory level, this competency supports the conceptual understanding of **substitution-based encoding mechanisms**, enabling learners to relate symbolic representations to foundational ideas in **cryptography and information security**. The learner reflects on how encoding rules influence readability, reversibility, and secrecy, and articulates these ideas using concrete examples.
+### Knowledge–Skill Pairing
 
+| Knowledge | Bloom Level | Verbs |
+|---|---|---|
+| Problem Decomposition | Apply | Decompose, separate, organize, sequence |
+| Column-wise Arithmetic Reasoning | Apply | Isolate, compare, calculate, relate |
+| Solution-Space Reduction | Analyze | Reduce, eliminate, prioritize, narrow |
 
+### Dispositions
 
-### Knowledge Specification
+- **Systematic**
+- **Persistent**
 
-- **Information Encoding and Decoding**
-
-  Understanding that information must be encoded into symbolic forms in order to be represented, manipulated, stored, or transmitted, and that decoding depends on knowledge of the encoding rule.
-
-  * **Bloom’s Alignment:** Understand  
-  * **Knowledge–Skill Pairing:** Information Encoding / Understand  
-  * **Verb Annotation:** Explain, Interpret, Describe, Recognize, Clarify
-
-- **Fundamental Principles of Cryptography**
-
-  Understanding, at an introductory level, the purpose of cryptography as a means of protecting information through controlled encoding, and recognizing substitution as a basic cryptographic mechanism.
-
-  * **Bloom’s Alignment:** Understand  
-  * **Knowledge–Skill Pairing:** Cryptographic Principles / Understand  
-  * **Verb Annotation:** Explain, Summarize, Identify, Distinguish, Comprehend
-
-- **Symbolic Representation and Mapping**
-
-  Applying symbolic representations by consistently associating symbols with values, manipulating these mappings, and verifying whether they preserve correctness and meaning within a given system.
-
-  * **Bloom’s Alignment:** Apply  
-  * **Knowledge–Skill Pairing:** Symbolic Representation / Apply  
-  * **Verb Annotation:** Use, Manipulate, Test, Validate
-
-
-
-### Disposition Specification
-
-* **Curious** — demonstrates interest in uncovering how information can be hidden, represented, and revealed through symbols.
-* **Critical** — reflects on the robustness and limitations of simple encoding schemes, relating them to real-world information security.
-* **Responsible** — recognizes that encoding and cryptography should be applied ethically, respecting privacy, authorship, and data protection.
-
-
-
-### BNCC-Aligned Competencies
-
-#### General Computing Competencies
-
-* **Critically analyze computational artifacts**, identifying how information is represented, encoded, and protected.
-* **Build knowledge using computational techniques** related to information representation and symbolic manipulation, in creative and ethical ways.
-
-#### Specific Competencies
-
-* **EF15CO05** — Encode information in different ways for storage, manipulation, and transmission.
-* **EF09CO05** — Analyze basic cryptographic techniques used to store and transmit data.
-
-
-
-### Activation Specification (CSP / OntoKSD)
+### Activation
 
 | Dimension | Value |
-|---------|-------|
-| **ActivationConstraint** | **mandatory** |
-| **ActivationMode** | **interpretative**, **analytical** |
-| **ActivationRole** | **core** |
+|---|---|
+| ActivationConstraint | mandatory |
+| ActivationMode | analytical |
+| ActivationRole | core |
+
+### BNCC Alignment
+
+| BNCC Reference | Alignment Type | Justification |
+|---|---|---|
+| EF69CO04 | `CloseAlignment` | The competence directly realizes decomposition as a strategy for solving complex problems. |
+| EF15CO04 | `CurricularContinuityAlignment` | It continues earlier curricular work on decomposing complex problems into smaller parts. |
+| EM13CO02 | `NarrowerThanExternalAlignment` | It addresses one specific part of refinement from informal problem understanding to structured solution. |
 
 
 
 ### Summary Table
 
-| **Code** | **Competency** | **Dispositions** | **Knowledge** | **Skill (Bloom)** |
-|--------|----------------|------------------|---------------|-------------------|
-| CT25.3.2 | **Encode and decode information using symbolic representations.** | Curious, Critical, Responsible | Information Encoding | Understand *(Explain, Interpret, Describe, Recognize, Clarify)* |
-| | | | Cryptographic Principles | Understand *(Explain, Summarize, Identify, Distinguish, Comprehend)* |
-| | | | Symbolic Representation *(Use, Manipulate, Test, Validate)* | Apply |
+| Code | Competency | Dispositions | Knowledge | Skill |
+|---|---|---|---|---|
+| CT25.21.3 | Decompose cryptarithmic problems into tractable reasoning steps. | Systematic, Persistent | Problem Decomposition | Apply |
+| |  |  | Column-wise Arithmetic Reasoning | Apply |
+|  |  |  | Solution-Space Reduction | Analyze |
 
 
 
 
 
 
-## CT25.3.3 — Formulate and Test Algorithmic Strategies for Symbolic Problem Solving
 
-### Competency Title
-
-    Formulate and test algorithmic strategies for systematic symbolic problem solving.
-
-    
-### Textual Description
-
-This competency involves the ability to **design, articulate, and evaluate step-by-step strategies** for solving symbolic problems governed by explicit rules and constraints.
-
-The learner formulates **algorithmic procedures**—expressed in natural language, structured descriptions, or pictographic representations—that define how to explore possible solutions, make decisions, verify conditions, and revise steps when contradictions arise. Rather than relying on random trial-and-error, the learner adopts a **systematic and rule-based approach** to problem solving.
-
-By explicitly describing decision points (e.g., conditional choices, repetition of steps, backtracking strategies), the learner develops **algorithmic thinking** and recognizes that such strategies can be generalized to other contexts, including computational models, pseudocode, and future programming activities.
-
-
-### Knowledge Specification
-
-- **Algorithmic Thinking**
-
-  Understanding how to organize reasoning into a finite, ordered sequence of steps with clear decision criteria, enabling systematic exploration of solution spaces.
-
-  * **Bloom’s Alignment:** Apply  
-  * **Knowledge–Skill Pairing:** Algorithmic Thinking / Apply  
-  * **Verb Annotation:** Organize, Sequence, Execute, Implement
-
-- **Algorithm Design and Representation**
-
-  Ability to create algorithm descriptions—oral, written, or pictographic—that precisely specify procedures, decision points, repetitions, and termination conditions.
-
-  * **Bloom’s Alignment:** Create  
-  * **Knowledge–Skill Pairing:** Algorithm Design / Create  
-  * **Verb Annotation:** Construct, Design, Compose, Formulate
-
-- **Logical Operators and Conditional Reasoning**
-
-  Applying logical and relational operators to express conditions, constraints, and dependencies that govern algorithmic decisions.
-
-  * **Bloom’s Alignment:** Apply  
-  * **Knowledge–Skill Pairing:** Logical Reasoning / Apply  
-  * **Verb Annotation:** Evaluate, Compare, Test, Combine
-
-
-
-### Disposition Specification
-
-* **Systematic** — structures reasoning into explicit and ordered steps, avoiding unsystematic guessing.
-* **Reflective** — revisits strategies, identifies inefficiencies or flaws, and refines procedures accordingly.
-* **Collaborative** — co-constructs algorithms with peers, compares alternative strategies, and consolidates shared solutions.
-
-
-
-### BNCC-Aligned Competencies
-
-#### General Computing Competencies
-
-* **Solve problems by proposing and analyzing computational strategies**, emphasizing structured and efficient procedures.
-* **Develop solutions collaboratively**, integrating computational concepts, reasoning, and communication.
-
-#### Specific Competencies
-
-* **EF04CO03** — Create and simulate algorithms using sequences and repetitions.
-* **EM13CO02** — Refine solutions across levels of abstraction, from informal description to structured representation.
-
-
-
-### Activation Specification (CSP / OntoKSD)
-
-| Dimension | Value |
-|---------|-------|
-| **ActivationConstraint** | **mandatory** |
-| **ActivationMode** | **constructive**, **analytical** |
-| **ActivationRole** | **supporting** |
-
-
-
-### Summary Table
-
-| **Code** | **Competency** | **Dispositions** | **Knowledge** | **Skill (Bloom)** |
-|--------|----------------|------------------|---------------|-------------------|
-| CT25.3.3 | **Formulate and test algorithmic strategies for systematic symbolic problem solving.** | Systematic, Reflective, Collaborative | Algorithmic Thinking | Apply *(Organize, Sequence, Execute, Implement)*|
-| | | | Algorithm Design *(Construct, Design, Compose, Formulate)*| Create |
-| | | | Logical Reasoning | Apply *(Evaluate, Compare, Test, Combine)*|
-
-
-
-
-## CT25.3.4 — Create, Validate, and Communicate Symbolic Encoding Challenges
+## Competency CT25.21.4 Specification
 
 ### Competency Title
 
-    Create, validate, and communicate symbolic encoding challenges.
-
-
+    Validate symbolic solutions against arithmetic and representational constraints.
 
 ### Textual Description
 
-This competency involves the ability to **author original symbolic challenges** that rely on explicit encoding rules and formal constraints, transitioning the learner from a problem solver to a **producer of structured computational artifacts**.
+This competency involves verifying whether a proposed solution satisfies all required conditions. In TASK25.21, learners check arithmetic correctness, consistency of symbol–digit mappings, uniqueness constraints, positional validity, and absence of contradictions.
 
-The learner **designs symbolic encoding challenges**, defines governing rules and constraints, and **validates the artifact** by analyzing its internal consistency, solvability, and clarity. This includes verifying that the challenge admits a coherent and well-defined solution and revising its structure when ambiguities or inconsistencies are identified.
+This competency is distinct from solving: a learner may generate a candidate solution but still need to validate its correctness systematically.
 
-In addition, the learner **communicates the challenge and its solution process clearly**, using appropriate mathematical and computational language. They are also able to **contextualize the artifact** by relating symbolic encoding mechanisms to everyday or introductory **information security contexts** (e.g., secret codes, passwords, protected messages), demonstrating awareness of ethical authorship and responsible knowledge sharing.
+### Knowledge–Skill Pairing
 
+| Knowledge | Bloom Level | Verbs |
+|---|---|---|
+| Solution Verification | Apply | Verify, check, confirm |
+| Constraint Consistency | Analyze | Inspect, diagnose, evaluate |
+| Arithmetic Correctness | Apply | Calculate, validate, compare |
 
+### Dispositions
 
-### Knowledge Specification
+- **Meticulous**
+- **Responsible**
 
-- **Symbolic Challenge Design**
-
-  Understanding how to construct symbolic encoding problems by defining representations, constraints, and solution structures, often through reverse planning from an intended outcome.
-
-  * **Bloom’s Alignment:** Create  
-  * **Knowledge–Skill Pairing:** Symbolic Challenge Design / Create  
-  * **Verb Annotation:** Design, Construct, Compose, Generate
-
-- **Validation and Consistency Analysis**
-
-  Ability to analyze whether a symbolic artifact is well-defined, internally consistent, and solvable, identifying ambiguities, contradictions, or unintended multiple solutions.
-
-  * **Bloom’s Alignment:** Analyze  
-  * **Knowledge–Skill Pairing:** Validation / Analyze  
-  * **Verb Annotation:** Analyze, Evaluate, Inspect, Verify, Diagnose
-
-- **Communication of Computational Artifacts**
-
-  Applying oral or written communication skills to clearly present the challenge, explain its rules, and justify the solution strategy using appropriate terminology.
-
-  * **Bloom’s Alignment:** Apply  
-  * **Knowledge–Skill Pairing:** Communication / Apply  
-  * **Verb Annotation:** Present, Explain, Articulate, Communicate, Respond
-
-
-
-### Disposition Specification
-
-* **Creative** — explores alternative representations, narratives, and formats when designing symbolic challenges.
-* **Ethical** — respects intellectual authorship, acknowledges sources of inspiration, and avoids plagiarism.
-* **Communicative** — expresses ideas clearly and adapts explanations to facilitate understanding by others.
-
-
-
-### BNCC-Aligned Competencies
-
-#### General Computing Competencies
-
-* **Produce computational artifacts creatively and responsibly**, respecting ethical and legal considerations.
-* **Express and share information and computational solutions** using appropriate languages and representations.
-* **Act with autonomy and responsibility**, applying computing knowledge in socially conscious ways.
-
-#### Specific Competencies
-
-* **EF09CO05** — Analyze symbolic or cryptographic techniques related to information protection.
-* **EF09CO09** — Create and share digital content while respecting ethical principles of authorship.
-* **EM13CO01** — Construct new solutions by reusing and adapting elements from existing artifacts.
-
-
-
-### Activation Specification (CSP / OntoKSD)
+### Activation
 
 | Dimension | Value |
-|---------|-------|
-| **ActivationConstraint** | **optional** |
-| **ActivationMode** | **constructive**, **artifact-oriented**, **justificatory** |
-| **ActivationRole** | **extension** |
+|---|---|
+| ActivationConstraint | mandatory |
+| ActivationMode | analytical |
+| ActivationRole | core |
 
+### BNCC Alignment
 
+| BNCC Reference | Alignment Type | Justification |
+|---|---|---|
+| EF09CO05 | `PartialAlignment` | Supports analysis of symbolic or cryptographic techniques but does not fully specify validation. |
+| EM13CO02 | `NarrowerThanExternalAlignment` | Validation is a specific refinement practice within the broader process of constructing solutions. |
+| High School Computing Competency 1 | `GeneralFrameworkAlignment` | Supports analysis of computational solutions. |
 
 ### Summary Table
 
-| **Code** | **Competency** | **Dispositions** | **Knowledge** | **Skill (Bloom)** |
-|--------|----------------|------------------|---------------|-------------------|
-| CT25.3.4 | **Create, validate, and communicate symbolic encoding challenges.** | Creative, Ethical, Communicative | Symbolic Challenge Design | **Create** *(Design, Construct, Compose, Generate)* |
-| | | | Validation | **Analyze** *(Analyze, Evaluate, Inspect, Verify, Diagnose)* |
-| | | | Communication | **Apply** *(Present, Explain, Articulate, Communicate, Respond)* |
+| Code | Competency | Dispositions | Knowledge | Skill |
+|---|---|---|---|---|
+| CT25.21.4 | Validate symbolic solutions against arithmetic and representational constraints. | Meticulous, Responsible | Solution Verification | Apply |
+|  |  | | Constraint Consistency | Analyze |
+|  |  |  | Arithmetic Correctness | Apply |
 
 
+
+
+
+
+## Competency CT25.21.5 Specification
+
+### Competency Title
+
+    Create cryptarithmic challenges with coherent symbolic constraints.
+
+### Textual Description
+
+This competency involves designing original cryptarithmic puzzles that are mathematically coherent, symbolically meaningful, and solvable. In TASK25.21, learners create challenges by defining symbols, choosing arithmetic structures, establishing constraints, and ensuring that the puzzle admits a valid solution.
+
+This competency focuses on **symbolic artifact creation**, not on communication or presentation.
+
+### Knowledge–Skill Pairing
+
+| Knowledge | Bloom Level | Verbs |
+|---|---|---|
+| Symbolic Challenge Design | Create | Design, construct, generate |
+| Constraint Design | Create | Define, compose, configure |
+| Arithmetic Structure | Apply | Organize, calculate, adapt |
+
+### Dispositions
+
+- **Creative**
+- **Meticulous**
+- **Ethical**
+
+### Activation
+
+| Dimension | Value |
+|---|---|
+| ActivationConstraint | mandatory |
+| ActivationMode | constructive |
+| ActivationRole | core |
+
+### BNCC Alignment
+
+| BNCC Reference | Alignment Type | Justification |
+|---|---|---|
+| High School Computing Competency 4 | `GeneralFrameworkAlignment` | Supports creative production of computational artifacts. |
+| EM13CO01 | `PartialAlignment` | Creation may reuse or adapt existing puzzle structures, but this is not always central. |
+| EF09CO09 | `CurricularContinuityAlignment` | Supports ethical authorship in creating and sharing content. |
+
+### Summary Table
+
+| Code | Competency | Dispositions | Knowledge | Skill |
+|---|---|---|---|---|
+| CT25.21.5 | Create cryptarithmic challenges with coherent symbolic constraints. | Creative, Meticulous, Ethical | Symbolic Challenge Design | Create |
+| |  |  | Constraint Design | Create |
+| |  |  | Arithmetic Structure | Apply |
+
+
+
+## Competency CT25.21.6 Specification
+
+### Competency Title
+
+    Explain and justify symbolic reasoning and challenge design.
+
+### Textual Description
+
+This competency involves clearly explaining the reasoning process used to solve or create cryptarithmic challenges. Learners must justify symbol–digit mappings, describe inference steps, explain discarded hypotheses, and communicate why a proposed solution or created challenge is valid.
+
+This competency is particularly important when the task is collaborative, because it supports learner-specific evidence of understanding and authorship.
+
+### Knowledge–Skill Pairing
+
+| Knowledge | Bloom Level | Verbs |
+|---|---|---|
+| Explanation of Reasoning | Understand | Explain, describe, clarify |
+| Logical Justification | Apply | Justify, support, demonstrate |
+| Communication | Apply | Present, articulate, respond |
+| Ethical Authorship | Apply | Acknowledge, account for, represent |
+
+### Dispositions
+
+- **Communicative**
+- **Responsible**
+- **Ethical**
+
+### Activation
+
+| Dimension | Value |
+|---|---|
+| ActivationConstraint | mandatory |
+| ActivationMode | justificatory |
+| ActivationRole | supporting |
+
+### BNCC Alignment
+
+| BNCC Reference | Alignment Type | Justification |
+|---|---|---|
+| High School Computing Competency 6 | `GeneralFrameworkAlignment` | Supports communication and sharing of computational ideas. |
+| High School Computing Competency 7 | `GeneralFrameworkAlignment` | Supports responsible and ethical action. |
+| EM13CO19 | `CloseAlignment` | Directly supports exposition and argumentation about an artifact or solution. |
+| EM13CO21 | `PartialAlignment` | Supports clear communication of complex ideas, although the task does not necessarily require digital representational objects. |
+
+### Summary Table
+
+| Code | Competency | Dispositions | Knowledge | Skill |
+|---|---|---|---|---|
+| CT25.21.6 | Explain and justify symbolic reasoning and challenge design. | Communicative, Responsible, Ethical | Explanation of Reasoning | Understand |
+|  |  |  | Logical Justification | Apply |
+| |  | | Communication | Apply |
+||  |  | Ethical Authorship | Apply |
+
+
+
+## 5. External Alignment Modeling Note
+
+BNCC correspondences in this task should be represented as **qualified alignments**, not as undifferentiated equivalences. The following `AlignmentType` instances are especially relevant:
+
+| Alignment Type | Meaning |
+|---|---|
+| `CloseAlignment` | Strong semantic correspondence without strict equivalence. |
+| `PartialAlignment` | Partial overlap between OntoKSD and BNCC competence. |
+| `NarrowerThanExternalAlignment` | OntoKSD competence is more specific than the BNCC reference. |
+| `CurricularContinuityAlignment` | BNCC reference acts as prior-stage curricular foundation. |
+| `GeneralFrameworkAlignment` | BNCC reference provides broad curricular support. |
+
+
+
+
+
+
+## 6. Evidence and Assessment Interpretation
+
+TASK25.21 supports three evidential layers:
+
+### 6.1 Artifact-Level Evidence
+
+Created cryptarithmic challenges and completed worksheets are produced artifacts.
+
+### 6.2 Performance-Level Evidence
+
+Solved puzzles and validation steps demonstrate reasoning performance.
+
+### 6.3 Learner-Level Evidence
+
+Oral or written explanation enables learner-specific interpretation of understanding, authorship, and justification.
+
+This distinction is important because the task may involve group work, but competence attribution depends on observable individual reasoning and explanation.
+
+---
+
+
+## 7. Final Summary Table
+
+| Code | Competency Title | Main Role | Activation Mode | Main BNCC Alignment Type |
+|---|---|---|---|---|
+| CT25.21.1 | Interpret symbolic encodings as structured information mappings | Core | Interpretative | Close / CurricularContinuity |
+| CT25.21.2 | Analyze symbolic constraint systems using logical inference | Core | Analytical | NarrowerThanExternal / CurricularContinuity |
+| CT25.21.3 | Solve cryptarithmic problems through decomposition and hypothesis testing | Core | Analytical-Constructive | Close / NarrowerThanExternal |
+| CT25.21.4 | Validate symbolic solutions against arithmetic and representational constraints | Core | Analytical | Partial / NarrowerThanExternal |
+| CT25.21.5 | Create cryptarithmic challenges with coherent symbolic constraints | Core | Constructive | GeneralFramework / Partial |
+| CT25.21.6 | Explain and justify symbolic reasoning and challenge design | Supporting | Justificatory | Close / Partial / GeneralFramework |
 
 

@@ -30,27 +30,10 @@ In Task202, C13 was activated **exclusively in the context of formal language th
 
 
 
-## 2. Adjustment Options Considered
-
-Based on expert feedback and CSP principles, three adjustment options were evaluated:
-
-### Option A — No Adjustment (Status Quo)
-Maintain C13 unchanged and rely solely on contextual interpretation.
-
-*Assessment:*  
-Rejected. This option preserves ambiguity and weakens transparency during expert review and future reuse.
+## 2. Adjustment 
 
 
-
-### Option B — Rename or Narrow C13
-Rename C13 to explicitly reference formal grammars (e.g., *Interpret Formal Grammar Rules*).
-
-*Assessment:*  
-Partially viable, but rejected at this stage. Renaming would introduce backward compatibility issues and may prematurely narrow a competency intended for broader reuse.
-
-
-
-### Option C — Controlled Specialization via Derived Competency (**Selected**)
+### Controlled Specialization via Derived Competency 
 Introduce a **derived competency** that explicitly captures the formal-grammar-specific interpretation required in Task202, while preserving C13 as a general competency.
 
 *Assessment:*  

@@ -1,91 +1,127 @@
-# CSP-Report — TASK25.05  - Juízes Online na Logistic Solutions
-
+# CSP-Report — TASK25.05 — *Juízes Online na Logistic Solutions* (versão corrigida)
 
 ## 1. Introdução
 
-Este relatório apresenta a aplicação do **Competency Specification Process (CSP)** à *TASK25.05 — Juízes Online na Logistic Solutions*, uma tarefa baseada em Aprendizagem Baseada em Problemas (PBL) que investiga os limites teóricos e práticos de sistemas automatizados de avaliação, conhecidos como Online Judges (OJ).
+Este relatório aplica o **Competency Specification Process (CSP)** à **TASK25.05 — Juízes Online na Logistic Solutions**, uma tarefa cujo objetivo é **modelar, analisar e justificar teoricamente o comportamento de sistemas de avaliação automática de programas** (*Online Judges*), articulando conceitos de **Máquinas de Estados Finitos**, **complexidade computacional**, **computabilidade** e **limitações fundamentais da análise automática de programas**.
 
-A TASK25.05 representa uma evolução direta da TASK204, mantendo seu núcleo conceitual — a articulação entre Teoria da Computação, modelos formais e avaliação automática de programas — e ampliando o escopo analítico por meio da inclusão de problemas computacionalmente difíceis (como TSP e PT) e do aprofundamento da discussão sobre complexidade computacional, ocorrências de TLE e limitações fundamentais de sistemas automáticos.
+A tarefa parte de um cenário em que estudantes e profissionais investigam por que implementações para o **Problema do Caixeiro Viajante (TSP)** e para o **Problema de Alocação de Horários (PT – Timetabling)** continuam produzindo **TLE (Time Limit Exceeded)** em um OJ, mesmo após a correção de erros de compilação, execução e resposta. Além disso, a tarefa exige que os estudantes analisem até que ponto um OJ pode avaliar diferentes tipos de problemas e **diagnosticar razões para TLE**, tanto em códigos de programadores experientes quanto iniciantes. 
 
-Do ponto de vista metodológico, a tarefa foi concebida como um caso de reuso controlado de competências, fundamentado nos resultados consolidados do **ciclo CSP–CSRP–Adjustments da TASK204**. As competências previamente especificadas e avaliadas por especialistas mostraram-se suficientes, semanticamente estáveis e adequadas para sustentar a evolução da tarefa, dispensando a introdução de novas competências.
+Em relação à **Task204**, a **Task25.05** preserva o núcleo relativo à modelagem do OJ por meio de uma **Máquina de Estados Finitos (MEF)** e à análise de suas limitações teóricas, mas introduz uma mudança importante de escopo. Enquanto Task204 concentrava-se mais diretamente no **TSP** e na impossibilidade de detectar **laços infinitos** como desdobramento do **Problema da Parada**, a Task25.05 amplia a discussão para:
+
+- múltiplos problemas difíceis (**TSP** e **PT**);
+- relações entre **TLE**, **complexidade temporal** e **estratégias algorítmicas**;
+- limites do OJ para explicar ou prever completamente certas causas de comportamento;
+- distinção entre **limitações práticas** e **limitações teóricas** dos sistemas automáticos de avaliação. 
+
+
+Assim, a versão 25.05 desloca o centro da tarefa para uma integração entre:
+
+- **análise de complexidade e NP-completude**;
+- **modelagem formal do fluxo do OJ por FSM**;
+- **discussão de computabilidade e indecidibilidade**;
+- **comunicação técnica rigorosa**.
+
+Essa mudança justifica uma atualização do perfil de competências em relação à Task204, preservando competências estáveis quando seu escopo permanece adequado e introduzindo nova centralidade para a competência de **complexidade computacional**.
+
+
+
+
 
 
 ## 2. Análise da Entidade Instrucional
 
 ### 2.1 Identificação
 
-- **Título:** *Juízes Online na Logistic Solutions*  
-- **Tipo de Entidade Instrucional:** Tarefa baseada em **Aprendizagem Baseada em Problemas (Problem-Based Learning – PBL)**  
-- **Domínio de Conhecimento:** **Teoria da Computação**, com foco em modelos formais, complexidade computacional e sistemas automáticos de avaliação  
-
+- **Título:** Juízes Online na Logistic Solutions 2025 
+- **Tipo:** Caso PBL com ênfase em modelagem formal, análise de complexidade e limitações computacionais  
+- **Domínio:** Teoria da Computação — Autômatos Finitos, Computabilidade e Complexidade Computacional. 
 
 ### 2.2 Descrição Sintética
 
-Os estudantes devem analisar o funcionamento de um **Juiz Online (OJ)** a partir da
-avaliação automática de submissões para problemas **computacionalmente difíceis**,
-como o **Problema do Caixeiro Viajante (TSP)** e o **Problema de Alocação de Horários (PT)**.
+A tarefa requer que os estudantes analisem o funcionamento de um **Online Judge (OJ)**, expliquem por que instâncias de **TSP** e **PT** tendem a gerar **TLE**, investiguem as capacidades e limitações desses sistemas para avaliar programas e diagnosticar seus comportamentos, e construam uma **Máquina de Estados Finitos (MEF)** que represente o fluxo geral de avaliação do OJ.
 
-A tarefa requer a articulação entre **evidências empíricas de execução** (como resultados
-**TLE**) e **fundamentação teórica**, promovendo a compreensão tanto de **limitações
-práticas** quanto de **restrições teóricas** inerentes a sistemas automáticos de avaliação.
+Os estudantes devem articular:
 
-Em particular, a atividade envolve:
+- o comportamento observável do OJ (AC, WA, CE, RE, TLE);
+- a dificuldade prática de resolver problemas como **TSP** e **PT** dentro de limites de tempo;
+- a base teórica que explica por que certos aspectos da análise automática de programas são intrinsecamente limitados;
+- a comunicação dessas conclusões em um **artigo técnico no formato SBC**. 
 
-- a análise e interpretação de resultados **Time Limit Exceeded (TLE)**;
-- o estudo da **complexidade computacional** associada a problemas de alta dificuldade;
-- a discussão de **limitações teóricas fundamentais**, com ênfase no **Problema da Parada**;
-- a **modelagem formal** do OJ por meio de uma **Máquina de Estados Finitos (MEF)**;
-- a construção de **argumentação formal** sobre o que um OJ pode ou não detectar ou diagnosticar.
+
+
+
+### 2.3 Mudanças principais em relação à Task204
+
+A Task25.05 altera a Task204 em quatro aspectos principais:
+
+1. **Ampliação do conjunto de problemas analisados**: além do **TSP**, a nova versão inclui explicitamente o **PT (Timetabling)**, reforçando a discussão sobre problemas difíceis e estratégias para evitar TLE. 
+
+2. **Ampliação da análise do OJ**: a questão deixa de ser apenas se o OJ detecta laços infinitos e passa a incluir se ele consegue **avaliar diferentes classes de problemas** e **identificar razões para TLE**.
+  
+3. **Maior centralidade da complexidade computacional**: a nova formulação enfatiza explicitamente **P, NP, NP-completude, complexidade temporal** e estratégias algorítmicas. 
+
+4. **Preservação, mas recontextualização, da discussão teórica sobre limites**: o **Problema da Parada** permanece relevante, mas agora integrado a uma análise mais ampla das limitações dos OJs. 
+
+
+
+
+
+
 
 ## 3. Resultados Esperados
 
-Ao final da tarefa, os aprendizes devem produzir:
+Ao final da tarefa, espera-se que os estudantes produzam:
 
-- uma **análise fundamentada** do comportamento de **TSP** e **PT** em Juízes Online;
-- **justificativas teóricas consistentes** para a ocorrência de resultados **TLE**;
-- uma **MEF** que represente o comportamento geral de um OJ;
-- **simulações da MEF** utilizando ferramentas apropriadas (por exemplo, **JFLAP**);
-- **respostas conceituais estruturadas** para gestores não técnicos;
-- um **artigo técnico no formato da SBC**, com clareza, rigor científico e adequada fundamentação teórica.
+- um **artigo técnico em formato SBC** contendo a análise do **TSP** e do **PT** no contexto de OJs;
+- respostas fundamentadas às perguntas dos gestores sobre as **capacidades e limitações** dos OJs;
+- uma **Máquina de Estados Finitos (MEF)** representando o comportamento geral do OJ, com estados como **AC, WA, CE, RE e TLE**;
+- exemplos e argumentos que expliquem por que determinados problemas tendem a gerar **TLE**;
+- justificativas teóricas que distingam entre **limitações práticas** de desempenho e **limitações teóricas** de análise automática. 
+
+
+Como evidência adicional, pode haver **simulação da MEF em JFLAP**, quando essa exploração fizer parte da solução proposta. 
 
 
 
 
 ## 4. Enumeração de Conhecimentos
 
-### 4.1 Conhecimentos de Computação (CS2023)
+A realização adequada da **TASK25.05 — Juízes Online na Logistic Solutions** requer a mobilização integrada de conhecimentos disciplinares em **Teoria da Computação** e de conhecimentos profissionais fundamentais, conforme os referenciais do **CS2023** e do **CC2020**.
 
-- **Máquinas de Estados Finitos**  
-  Modelos formais utilizados para representar o fluxo operacional de Juízes Online.
+### 4.1 Conhecimentos de Computação
 
-- **Máquinas de Turing (nível conceitual)**  
-  Modelo de referência para fundamentar a expressividade computacional e os limites da análise automática de programas.
+- **Máquinas de Estados Finitos**
+  - estados e transições;
+  - modelagem de fluxos de avaliação;
+  - representação de comportamentos observáveis de sistemas automáticos.
 
-- **Problema da Parada**  
-  Resultado central da Teoria da Computação que fundamenta a impossibilidade de detecção geral de loops infinitos.
+- **Complexidade Computacional**
+  - classes **P**, **NP** e **NP-complete**;
+  - relação entre dificuldade computacional e crescimento do tempo de execução;
+  - implicações práticas da NP-hardness para problemas como **TSP** e **PT**.
 
-- **Linguagens Recursivamente Enumeráveis (nível conceitual)**  
-  Utilizadas para discutir problemas semi-decidíveis e limites de reconhecimento algorítmico.
+- **Computabilidade**
+  - problema da parada;
+  - limites da análise automática de programas;
+  - distinção entre o que pode ser automatizado em geral e o que não pode.
 
-- **Problemas P, NP e NP-Completos**  
-  Base teórica para analisar a dificuldade computacional de problemas como TSP e PT e justificar ocorrências de TLE.
+- **Máquinas de Turing e Linguagens Recursivamente Enumeráveis**
+  - uso conceitual como modelo de referência para discutir computação geral;
+  - relação com capacidades e limites de sistemas automáticos de avaliação.
 
-- **Hierarquia de Chomsky**  
-  Estrutura de classificação utilizada para contextualizar o poder expressivo de diferentes modelos formais.
+- **Avaliação Automática de Programas**
+  - interpretação de resultados como **AC, WA, CE, RE e TLE**;
+  - relação entre características do algoritmo e respostas do OJ. 
 
-- **Complexidade Computacional**  
-  Conceitos relacionados a custo temporal, escalabilidade e viabilidade prática de soluções algorítmicas.
 
-- **Modelagem e Simulação de Autômatos**  
-  Técnicas para construção, validação e análise de modelos formais, incluindo o uso de ferramentas como JFLAP.
+  
+### 4.2 Conhecimentos Profissionais Fundamentais (FPK — CC2020)
 
-### 4.2 Conhecimentos Profissionais (FPK — CC2020)
+- **Pensamento Analítico e Crítico**  
+  Capacidade de relacionar observações empíricas (como TLE) a explicações teóricas rigorosas, distinguindo causas algorítmicas, limitações práticas e limitações fundamentais.
 
-- **Pensamento analítico e crítico**  
-  Necessário para interpretar resultados, estabelecer relações teóricas e construir justificativas consistentes.
-
-- **Comunicação técnica escrita**  
-  Competência essencial para a produção de um artigo técnico no formato da SBC, com clareza e rigor científico.
+- **Comunicação Técnica Escrita**  
+  Capacidade de produzir um **relatório claro, estruturado e teoricamente fundamentado**, articulando modelagem, explicações conceituais e exemplos. 
 
 
 
@@ -94,273 +130,230 @@ Ao final da tarefa, os aprendizes devem produzir:
 
 ### Objetivo Geral
 
-Aplicar conceitos da **Teoria da Computação** para **modelar, analisar e justificar**
-o funcionamento e as limitações de **Juízes Online (OJ)**, relacionando problemas
-reais de alta complexidade a fundamentos teóricos da computação.
+Aplicar conceitos fundamentais da **Teoria da Computação** para modelar, analisar e explicar problemas práticos relacionados a **Juízes Online (OJ)**, articulando **modelagem por FSM**, **complexidade computacional**, **problemas NP-completos** e **limitações teóricas da análise automática de programas**. 
+
 
 ### Objetivos Específicos
 
-- **LO1:** analisar os problemas **TSP** e **PT** sob a perspectiva da **complexidade computacional**;
-- **LO2:** explicar a ocorrência de resultados **Time Limit Exceeded (TLE)** em Juízes Online;
-- **LO3:** compreender e **utilizar o Problema da Parada como base conceitual**
-  para justificar limitações de análise automática de programas;
-- **LO4:** modelar o comportamento de um Juiz Online por meio de uma
-  **Máquina de Estados Finitos (MEF)**;
-- **LO5:** justificar **limites teóricos fundamentais** de sistemas automáticos de avaliação;
-- **LO6:** comunicar resultados e justificativas de forma clara a **públicos técnicos
-  e não técnicos**, por meio de documentação formal.
+Ao concluir a tarefa, o estudante deverá ser capaz de:
 
+- **LO1 — Explicar o fluxo de avaliação de um OJ por meio de FSMs**  
+  Representar estados e transições associados a resultados como AC, WA, CE, RE e TLE.
 
+- **LO2 — Analisar por que TSP e PT tendem a produzir TLE**  
+  Relacionar o comportamento observado às características de complexidade computacional dos problemas.
 
+- **LO3 — Discutir estratégias para alcançar AC em problemas difíceis**  
+  Identificar implicações práticas da escolha algorítmica frente aos limites do OJ.
 
-## 6. Competências Reutilizadas
+- **LO4 — Explicar limitações teóricas do OJ**  
+  Justificar por que certos comportamentos de programas não podem ser analisados ou previstos completamente em geral.
 
-Com base no ciclo **CSP–CSRP–Adjustments** da **TASK204**, as competências abaixo são
-reutilizadas na **TASK25.05**, pois permanecem alinhadas aos objetivos de:
-(i) **modelagem formal do comportamento do OJ (MEF)**, (ii) **análise de limites teóricos
-de automação**, e (iii) **produção de evidência técnico-científica**.
+- **LO5 — Interpretar o papel de Máquinas de Turing e computabilidade**  
+  Relacionar modelos gerais de computação às capacidades e limites dos OJs.
 
-Entretanto, como a TASK25.05 intensifica explicitamente a análise de **TSP** e **PT**
-sob a ótica da **complexidade computacional** e a justificativa de **TLE**, torna-se
-necessário complementar o conjunto com **uma competência adicional** voltada a
-complexidade/NP e estratégias algorítmicas, de forma a evitar que esse eixo central
-da tarefa permaneça apenas como “conhecimento” sem correspondente competência avaliável.
+- **LO6 — Comunicar tecnicamente as análises e conclusões**  
+  Elaborar um artigo técnico rigoroso com exemplos, explicações e justificativas teóricas.
 
-### 6.1 Competências reutilizadas (mantidas)
+- **LO7 — Simular e validar a MEF do OJ, quando aplicável**  
+  Utilizar ferramentas como o JFLAP para testar e ilustrar o modelo proposto. 
 
-- **C15 — Understand the Halting Problem and its Implications**  
-  Fundamenta a justificativa de que sistemas automáticos (como OJs) não podem, em geral,
-  detectar não-terminação ou diagnosticar completamente suas causas.
-  - **ActivationConstraint:** `mandatory`
-  - **ActivationMode:** `analytical`, `justificatory`
-  - **ActivationRole:** `core`
 
-- **C06 — Develop Problem-Solving Solutions Using Finite State Machines**  
-  Sustenta a construção do modelo formal (MEF) que representa o fluxo operacional do OJ.
-  - **ActivationConstraint:** `mandatory`
-  - **ActivationMode:** `constructive`
-  - **ActivationRole:** `supporting`
 
-- **C03 — Test Automata Using Simulators**  
-  Viabiliza validação/ilustração do modelo por simulação (ex.: JFLAP), quando requerido.
-  - **ActivationConstraint:** `conditional`
-  - **ActivationMode:** `artifact-oriented`
-  - **ActivationRole:** `supporting`
 
-- **C05 — Write a Technical Report**  
-  Competência transversal associada ao principal artefato de evidência (artigo SBC).
-  - **ActivationConstraint:** `mandatory`
-  - **ActivationMode:** `artifact-oriented`
-  - **ActivationRole:** `transversal`
 
-- **C02 — Justify the Use of Deterministic Finite Automata (DFAs)**  
-  Enriquecimento teórico para discutir adequação e limites do uso de modelos finitos na
-  representação do OJ.
-  - **ActivationConstraint:** `optional`
-  - **ActivationMode:** `justificatory`
-  - **ActivationRole:** `extension`
+## 6. Competências da TASK25.05 (com Ativações OntoKSD) 
 
-- **C14 — Differentiate Classifications of Formal Grammars**  
-  Competência de extensão para contextualização na Hierarquia de Chomsky, sem impacto
-  direto na conclusão da tarefa.
-  - **ActivationConstraint:** `optional`
-  - **ActivationMode:** `analytical`
-  - **ActivationRole:** `extension`
+As competências a seguir constituem o **perfil de desempenho esperado** para a **TASK25.05 — Juízes Online na Logistic Solutions**. O conjunto foi definido com base no **catálogo atual**, preservando competências já estabilizadas em **Task204** quando seu escopo continua adequado, mas documentando as mudanças exigidas pela nova versão da tarefa.
 
-- **C16 — Interpret Turing Machine Concepts to Analyze Computational System Capabilities**  
-  Permanece teoricamente relevante, mas, como na TASK204, tende a apresentar sobreposição
-  evidencial com C15 se não houver artefato específico para avaliá-la isoladamente.
-  Mantém-se como competência de apoio/enriquecimento.
-  - **ActivationConstraint:** `optional` ou `conditional`
-  - **ActivationMode:** `interpretative`
-  - **ActivationRole:** `supporting` ou `extension`
 
+### 6.1 Competências centrais
 
+#### **C21 — Analyze Computational Complexity and the Implications of NP-Hardness**
 
-### 6.2 Competência adicional requerida pela evolução da TASK25.05 (nova)
+**Tipo:** Competência atômica
 
-### C21.1 Título da Competência
+**ActivationRole:** `core`  
+**ActivationMode:** `analytical`  
+**ActivationConstraint:** `mandatory`
 
-    Analisar a Complexidade Computacional e as Implicações da NP-Dificuldade
+**Particularização na TASK25.05:**  
+Analisar por que instâncias de **TSP** e **PT** tendem a gerar **TLE**, relacionando esse comportamento à **complexidade computacional**, à dificuldade de obtenção de soluções exatas eficientes e às implicações práticas da **NP-hardness** em ambientes de avaliação automática.
 
+**Mudança em relação à Task204:**  
+Na Task204, o foco estava mais concentrado no **TSP** e na explicação de limitações do OJ com base no **Halting Problem**. Na Task25.05, a inclusão explícita de **TSP + PT**, bem como a exigência de discutir estratégias para alcançar **AC**, torna a análise de **complexidade e NP-completude** uma competência central da tarefa.
 
-### C21.2 Descrição Textual
 
-Esta competência refere-se à capacidade de **analisar a complexidade computacional**
-e **interpretar as implicações da NP-dificuldade** no comportamento e na viabilidade
-de soluções algorítmicas.
 
-Os aprendizes devem ser capazes de compreender como **o tamanho da entrada, a estratégia
-algorítmica e a classe de complexidade do problema** influenciam o custo computacional,
-a escalabilidade e a possibilidade prática de execução de algoritmos sob **restrições
-de tempo e recursos**.
 
-A competência enfatiza a habilidade de **justificar limites de desempenho e viabilidade**
-a partir da articulação entre **resultados teóricos da complexidade computacional** e
-**restrições práticas de execução**, distinguindo limitações decorrentes de
-**ineficiência algorítmica** daquelas associadas à **dificuldade computacional inerente
-ao problema**.
+#### **C15 — Understand the Halting Problem and its Implications**
 
+**Tipo:** Competência atômica
 
+**ActivationRole:** `core`  
+**ActivationMode:** `analytical`, `justificatory`  
+**ActivationConstraint:** `mandatory`
 
-### C21.3 Especificação de Conhecimentos
+**Particularização na TASK25.05:**  
+Explicar por que existem limites fundamentais para a análise automática de programas em OJs, especialmente quando se pergunta se o sistema consegue **diagnosticar integralmente causas de TLE** ou prever certos comportamentos de execução. A competência continua relevante porque a Task25.05 mantém a discussão sobre limites teóricos da avaliação automática, ainda que de forma mais ampla que em Task204.
 
-Os seguintes conhecimentos são essenciais para o desenvolvimento desta competência:
 
-* **Complexidade Computacional**
+**Mudança em relação à Task204:**  
+Na Task204, C15 era a **principal nova competência nuclear** porque a questão sobre **laços infinitos** estava no centro da tarefa. Na Task25.05, C15 permanece central, mas divide protagonismo com **C21**, já que a análise do OJ passou a envolver também uma forte dimensão de **complexidade computacional**.
 
-  * Fundamenta a análise do custo algorítmico em termos de tempo e escalabilidade.
-  * Permite raciocinar sobre limites de desempenho sob recursos computacionais finitos.
 
-* **Problemas P, NP e NP-Difíceis / NP-Completos**
 
-  * Estabelecem a base teórica para compreender dificuldades computacionais inerentes.
-  * Sustentam a justificativa de inviabilidade de soluções eficientes em certos problemas.
+### 6.2 Competências de apoio
 
-* **Escalabilidade Algorítmica (nível conceitual)**
+#### **C06 — Develop Problem-Solving Solutions Using Finite State Machines**
 
-  * Relaciona o crescimento do tamanho da entrada ao comportamento do tempo de execução.
-  * Apoia a interpretação de limites práticos de execução.
+**Tipo:** Competência atômica
 
-* **Pensamento Analítico e Crítico (FPK)**
+**ActivationRole:** `supporting`  
+**ActivationMode:** `constructive`  
+**ActivationConstraint:** `mandatory`
 
-  * Necessário para avaliar desempenho e construir justificativas coerentes.
-  * Sustenta a articulação entre teoria da complexidade e observações empíricas.
+**Particularização na TASK25.05:**  
+Construir uma **MEF** que represente o comportamento do OJ, incluindo estados como **AC, WA, CE, RE e TLE**, bem como transições coerentes com o fluxo geral de avaliação.
 
+**Mudança em relação à Task204:**  
+Mantém o mesmo papel de **apoio construtivo** já consolidado nos ajustes da Task204: a FSM não é o núcleo cognitivo da tarefa, mas um **mecanismo de externalização do raciocínio** sobre o OJ.
 
-### C21.4 Especificação de Disposições
 
-**Colaboração**
 
-* A competência pode ser desenvolvida em contextos colaborativos que favoreçam a
-  comparação de interpretações sobre viabilidade e desempenho algorítmico.
 
-**Responsabilidade**
+#### **C16 — Interpret Turing Machine Concepts to Analyze Computational System Capabilities**
 
-* Os estudantes devem zelar pela **correção conceitual** e pela **coerência teórica**
-  de suas análises, evitando generalizações indevidas.
+**Tipo:** Competência atômica
 
-**Proatividade**
+**ActivationRole:** `supporting`  
+**ActivationMode:** `interpretative`  
+**ActivationConstraint:** `conditional`
 
-* Os aprendizes buscam ativamente compreender implicações da complexidade computacional
-  em diferentes cenários de aplicação.
+**Particularização na TASK25.05:**  
+Interpretar conceitos de **Máquinas de Turing**, **Máquina de Turing Universal** e **computabilidade** para analisar as capacidades e limitações dos OJs como sistemas automáticos de avaliação.
 
-**Criatividade**
+**Mudança em relação à Task204:**  
+Preserva o papel interpretativo definido em Task204, mas agora aparece com utilidade um pouco mais clara, já que a Task25.05 menciona explicitamente **Máquina de Turing Universal**, **linguagens recursivamente enumeráveis** e análise de limites do OJ diante de problemas mais amplos.
 
-* A criatividade apoia o uso de **exemplos, analogias e abstrações** para explicar
-  fenômenos relacionados à complexidade.
 
 
-### C21.5 Pareamento Conhecimento–Habilidade
 
-#### C21.5.1 Mapeamento de Conhecimentos para Habilidades
+#### **C03 — Test Automata Using Simulators**
 
-* **Analisar** a **complexidade computacional** para interpretar limites de desempenho.
-* **Compreender** a **NP-dificuldade** para justificar inviabilidade prática.
-* **Compreender** efeitos de **escalabilidade** na execução de algoritmos.
-* **Aplicar** pensamento analítico e crítico para estruturar justificativas.
+**Tipo:** Competência atômica
 
+**ActivationRole:** `supporting`  
+**ActivationMode:** `artifact-oriented`  
+**ActivationConstraint:** `conditional`
 
-#### C21.5.2 Alinhamento com a Taxonomia de Bloom
+**Particularização na TASK25.05:**  
+Utilizar o **JFLAP** para testar e ilustrar a **MEF do OJ**, quando essa simulação fizer parte efetiva da solução apresentada.
 
-* **Complexidade Computacional – Analisar**
-* **NP-Dificuldade – Compreender**
-* **Escalabilidade – Compreender**
-* **Pensamento Analítico e Crítico – Aplicar**
+**Mudança em relação à Task204:**  
+Mantém o mesmo estatuto de competência **condicional**, pois a profundidade da simulação pode variar sem alterar o núcleo teórico da tarefa.
 
 
-#### C21.5.3 Anotação de Verbos
 
-* **Analisar** → Complexidade Computacional → *Decompor, Relacionar, Interpretar*
-* **Compreender** → NP-Dificuldade → *Explicar, Justificar, Distinguir*
-* **Compreender** → Escalabilidade → *Relacionar, Interpretar, Explicar*
-* **Aplicar** → Pensamento Analítico e Crítico → *Avaliar, Estruturar, Argumentar*
+### 6.3 Competências de extensão
 
+#### **C02 — Justify the use of Deterministic Finite Automata (DFAs)**
 
-### C21.6 Tabela-Resumo da Competência C21
+**Tipo:** Competência atômica
 
-| **Competência**                                             | **Disposições**                                       | **Conhecimentos**                 | **Habilidade**                                   |
-| ------------------------------------------------------------ | ---------------------------------------------------- | --------------------------------- | ------------------------------------------------ |
-| Analisar a Complexidade Computacional e as Implicações da NP-Dificuldade | Colaboração, Responsabilidade, Proatividade, Criatividade | Complexidade Computacional         | **Analisar (Decompor, Relacionar, Interpretar)** |
-|                                                              |                                                      | P, NP, NP-Difíceis / NP-Completos | **Compreender (Explicar, Justificar, Distinguir)** |
-|                                                              |                                                      | Escalabilidade Algorítmica        | **Compreender (Relacionar, Interpretar, Explicar)** |
-|                                                              |                                                      | Pensamento Analítico e Crítico    | **Aplicar (Avaliar, Estruturar, Argumentar)**    |
+**ActivationRole:** `extension`  
+**ActivationMode:** `justificatory`  
+**ActivationConstraint:** `optional`
 
+**Particularização na TASK25.05:**  
+Pode ser mobilizada quando a equipe quiser justificar mais explicitamente por que uma **FSM/MEF** é um modelo adequado para representar o fluxo observável do OJ. Não constitui objetivo central nem gera evidência independente obrigatória.
 
+**Mudança em relação à Task204:**  
+Permanece como extensão opcional, em linha com os ajustes já consolidados.
 
-### 6.3 Configuração Consolidada de Ativações (TASK25.05)
 
-| Competência | Constraint | Mode | Role |
-|---|---|---|---|
-| **C15 — Understand the Halting Problem and its Implications** | mandatory | analytical, justificatory | core |
-| **C21 — Analyze Computational Complexity and NP-Difficulty Implications** | mandatory | analytical, justificatory | core |
-| **C06 — Develop Problem-Solving Solutions Using Finite State Machines** | mandatory | constructive | supporting |
-| **C03 — Test Automata Using Simulators** | conditional | artifact-oriented | supporting |
-| **C16 — Interpret Turing Machine Concepts** | optional / conditional | interpretative | supporting / extension |
-| **C02 — Justify the Use of Deterministic Finite Automata (DFAs)** | optional | justificatory | extension |
-| **C14 — Differentiate Classifications of Formal Grammars** | optional | analytical | extension |
-| **C05 — Write a Technical Report** | mandatory | artifact-oriented | transversal |
 
 
+#### **C14 — Differentiate classifications of formal grammars**
 
+**Tipo:** Competência atômica
 
+**ActivationRole:** `extension`  
+**ActivationMode:** `analytical`  
+**ActivationConstraint:** `optional`
 
-## 7. Avaliação sobre Novas Competências
+**Particularização na TASK25.05:**  
+Pode enriquecer a discussão quando os estudantes articularem a capacidade do OJ para avaliar problemas de diferentes naturezas com referências mais amplas à hierarquia de linguagens e modelos.
 
-A ampliação do escopo da TASK25.05 — com a inclusão explícita de problemas
-computacionalmente difíceis e o aprofundamento da análise de **complexidade
-computacional e escalabilidade** — **motivou a introdução de uma nova competência
-nuclear**, a **C21**.
+**Mudança em relação à Task204:**  
+Mantém função de extensão, sem centralidade.
 
-A competência **C21** não representa inflacionamento do conjunto competencial,
-mas sim o **desacoplamento e a explicitação de um eixo cognitivo** que, na TASK204,
-estava presente apenas de forma implícita no nível de conhecimento.
 
-Com a introdução da C21, a TASK25.05:
 
-- preserva o **reuso integral** das competências previamente especificadas;
-- explicita o eixo de **análise de complexidade e viabilidade algorítmica**;
-- eleva o nível cognitivo da tarefa sem comprometer a modularidade do modelo;
-- mantém plena aderência aos princípios de **reusabilidade, coerência e rastreabilidade**
-  que orientam o CSP e a OntoKSD.
+### 6.4 Competência transversal
 
-Portanto, a evolução da tarefa é acompanhada por uma **extensão mínima e
-metodologicamente justificada** do conjunto de competências, mantendo a
-consistência do modelo e a clareza avaliativa.
+#### **C05 — Write a Technical Report**
 
+**Tipo:** Competência transversal
 
+**ActivationRole:** `transversal`  
+**ActivationMode:** `artifact-oriented`  
+**ActivationConstraint:** `mandatory`
 
+**Particularização na TASK25.05:**  
+Produzir o artigo técnico em formato **SBC**, conectando a modelagem por FSM, a análise de **TSP** e **PT**, as limitações do OJ e as justificativas teóricas de forma clara, organizada e verificável.
 
-## 8. Estrutura Semântica Resultante
+**Mudança em relação à Task204:**  
+Mantém exatamente o papel transversal e evidencial já definido nos ajustes da Task204.
 
-````
+
+
+
+## 7. Estrutura OntoKSD implícita (TASK25.05)
+
+```text
 TASK25.05
-├── C15 (Problema da Parada)
-├── C21 (Complexidade Computacional e NP-Dificuldade)
-├── C06 (Modelagem por MEF)
-├── C03 (Simulação de Autômatos)
-├── C16 (Conceitos de Máquinas de Turing)
-├── C02 (Justificação de DFA)
-├── C14 (Hierarquia de Chomsky)
-└── C05 (Comunicação Técnica)
-````
+├── coreCompetence
+│   ├── C21 — Analyze Computational Complexity and the Implications of NP-Hardness
+│   └── C15 — Understand the Halting Problem and its Implications
+│
+├── supportingCompetence
+│   ├── C06 — Develop Problem-Solving Solutions Using Finite State Machines
+│   ├── C16 — Interpret Turing Machine Concepts to Analyze Computational System Capabilities
+│   └── C03 — Test Automata Using Simulators (conditional)
+│
+├── extensionCompetence
+│   ├── C02 — Justify the use of Deterministic Finite Automata (optional)
+│   └── C14 — Differentiate classifications of formal grammars (optional)
+│
+└── transversalCompetence
+    └── C05 — Write a Technical Report
+
+```
+
+
+
+
+## 8. Mapeamento entre Objetivos de Aprendizagem (LOs) e Competências — TASK25.05
+
+O mapeamento a seguir explicita a **rastreabilidade pedagógica** entre os objetivos da tarefa e as competências mobilizadas, evidenciando como a **Task25.05** reorganiza o foco da antiga **Task204** ao tornar mais central a análise de **complexidade computacional**, sem abandonar a discussão sobre **limites teóricos da análise automática de programas**.
+
+| **LO** | **Descrição do Objetivo de Aprendizagem** | **Competências Mobilizadas** |
+|---|---|---|
+| **LO1** | Explicar o fluxo de avaliação de um OJ por meio de FSMs | **C06**, **C02** |
+| **LO2** | Analisar por que TSP e PT tendem a produzir TLE | **C21** |
+| **LO3** | Discutir estratégias para alcançar AC em problemas difíceis | **C21**, **C05** |
+| **LO4** | Explicar limitações teóricas do OJ | **C15**, **C16** |
+| **LO5** | Interpretar o papel de Máquinas de Turing e computabilidade | **C16**, **C15** |
+| **LO6** | Comunicar tecnicamente as análises e conclusões | **C05** |
+| **LO7** | Simular e validar a MEF do OJ, quando aplicável | **C03**, **C06** |
+| **LO8** | Relacionar a análise do OJ à complexidade e a problemas NP-completos | **C21**, **C14** |
+
+Esse mapeamento mostra que a **Task25.05** desloca o centro da antiga **Task204**: a modelagem do OJ por **FSM/MEF** continua relevante, mas a nova versão torna explicitamente centrais a **análise de complexidade**, as implicações da **NP-hardness** e a distinção entre **limitações práticas** e **limitações teóricas** dos sistemas automáticos de avaliação.
+
+
+
 
 ## 9. Conclusão
 
-A TASK25.05 representa uma **evolução conceitual consistente e controlada** da TASK204,
-ampliando o domínio do problema e aprofundando a análise teórica por meio da
-integração explícita de **complexidade computacional**, **escalabilidade** e
-**viabilidade algorítmica**, sem descaracterizar o núcleo conceitual da tarefa original.
-
-Essa evolução foi sustentada, em grande medida, pelo **reuso sistemático das
-competências previamente especificadas**, cuja adequação e estabilidade semântica
-foram confirmadas no ciclo **CSP–CSRP–Adjustments** da TASK204. A introdução da
-competência **C21** constitui uma **extensão mínima, necessária e metodologicamente
-justificada**, permitindo explicitar um eixo cognitivo que, na tarefa original,
-estava presente apenas de forma implícita no nível de conhecimento.
-
-O resultado é um conjunto competencial **coeso, não inflacionado e plenamente
-rastreável**, que evidencia a **robustez do modelo CSP**, sua capacidade de apoiar
-a evolução de tarefas instrucionais e sua aderência aos princípios de
-**modularidade, coerência semântica e reusabilidade** que orientam a ontologia
-**OntoKSD**.
+A **TASK25.05** deve ser entendida como uma **evolução da Task204**, e não apenas como uma reformulação textual. A nova versão amplia o problema original ao incorporar explicitamente o **Problema de Alocação de Horários (PT)**, reforçar a discussão sobre **complexidade computacional** e ampliar o escopo da análise dos **Juízes Online** para além da questão da simples detecção de laços infinitos.

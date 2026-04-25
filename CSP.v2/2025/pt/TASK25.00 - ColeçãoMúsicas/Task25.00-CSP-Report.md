@@ -1,994 +1,537 @@
-# Competency Specification Report: Task25.00 - Coleção de Músicas
+# CSP-Report — TASK25.00 — *Coleção de Músicas*
 
+## 1. Introduction
 
-## Introdução
+This report applies the **Competency Specification Process (CSP)** to **TASK25.00 — Coleção de Músicas**, an instructional task in the course **MATC94 – Introdução às Linguagens Formais e Teoria da Computação**, whose central goal is to evaluate the learner’s ability to **abstract a real-world domain and model it rigorously as a formal system**. In this task, the musical domain is reinterpreted through the concepts of **alphabets, strings, languages, formal operations, regular expressions, and symbolic codifications**, all mobilized at a **conceptual and justificatory level** rather than through implementation or simulation.
 
-Este relatório aplica a metodologia do **Competency Specification Process (CSP)** à *Task25.00 – Coleção de Músicas*, uma atividade da disciplina *MATC94 – Introdução às Linguagens Formais e Teoria da Computação*, cujo objetivo central é avaliar a capacidade do estudante de abstrair um domínio do mundo real e modelá-lo rigorosamente como um sistema formal.
+The problem statement requires students to answer a set of questions about musical scores, excerpts, concatenation, reversal, set-theoretic operations over collections of songs, and the possible formal equivalence between different symbolic representations such as scores and recordings. 
 
-Na tarefa, o domínio musical é utilizado como domínio de referência, no qual:
+Crucially, all answers must be **mathematically justified**, which shifts the center of the task from intuitive interpretation toward **formal reasoning, symbolic precision, and explicit argumentative rigor**. 
 
-- notas musicais são abstraídas como símbolos de um alfabeto;
+Unlike some earlier CSP cycles in which refinement was documented through distinct review artifacts, the specification of TASK25.00 was consolidated through an **interactive process of iterative discussion and revision between two authors/reviewers**, progressively stabilizing the competency set, semantic scopes, and activation decisions within the CSP-Report itself. For this reason, the present document should be understood as the **consolidated competency specification** for the task.
 
-- músicas são modeladas como cadeias finitas;
+From a competency perspective, TASK25.00 requires learners not only to model musical artifacts formally, but also to **operate on strings and languages**, **use algebraic notation correctly**, **reason about codification and equivalence**, **characterize regularity and expressiveness**, and **produce mathematically rigorous written answers**. The task therefore integrates **constructive, analytical, interpretative, and justificatory dimensions of competence activation**, reinforcing formal abstraction and explicit justification as central features of competency-based learning in Computation Theory. 
 
-- coleções de músicas são tratadas como linguagens formais.
 
-Essa modelagem permite a aplicação sistemática de operações clássicas sobre linguagens, tais como concatenação, fecho de Kleene, reversão, união, interseção e complemento, bem como a análise de propriedades estruturais, incluindo pertencimento, finitude, infinitude e fechamento.
 
-O enunciado da Task25.00 exige explicitamente que todas as respostas sejam formalmente justificadas, o que desloca o foco da atividade de interpretações intuitivas para o uso criterioso de:
 
-- definições matemáticas precisas;
+## 2. Instructional Entity Analysis
 
-- exemplos mínimos e construções formais;
+### 2.1 Identification
 
-- propriedades teóricas e argumentos lógicos;
+- **Title:** Coleção de Músicas  
+- **Type:** Theoretical-conceptual task with emphasis on formal modeling and mathematical justification  
+- **Domain:** Formal Languages and Computation Theory.
 
-- contraexemplos, quando aplicável.
 
 
 
-## 1. Instructional Entity Analysis
+### 2.2 Description
 
-### Title
+The task requires learners to **abstract and model musical scores as formal objects**, establishing an explicit correspondence between the musical domain and the core concepts of Formal Language Theory. In this model:
 
-* **Coleção de Músicas**
+- **musical notes** are treated as **symbols of an alphabet**;
+- **songs** are represented as **finite strings**;
+- **collections of songs** are formalized as **languages**.
 
+Based on this representation, learners must analyze structural properties and apply classical operations over strings and languages, such as concatenation, reversal, union, intersection, complement, and Kleene closure. The task strongly emphasizes **mathematically justified answers**, requiring explicit use of formal definitions, theoretical properties, and logical arguments. Informal or intuitive explanations are not considered sufficient.  
 
-### Description
 
-Nesta tarefa, os aprendizes devem **abstrair e modelar partituras musicais como objetos formais**, estabelecendo uma correspondência explícita entre o domínio musical e os conceitos fundamentais da Teoria das Linguagens Formais. Nesse modelo:
 
-* **notas musicais** são tratadas como **símbolos de um alfabeto**;
-* **músicas** são representadas como **cadeias (strings) finitas**;
-* **coleções de músicas** são formalizadas como **linguagens** (subconjuntos de Σ*).
 
-A partir dessa modelagem, os estudantes devem **analisar propriedades estruturais** e **aplicar operações clássicas sobre linguagens formais**, tais como concatenação, fecho de Kleene, reversão, união, interseção e complemento.
+### 2.3 Expected Learner Approach
 
-A tarefa enfatiza fortemente a produção de **respostas matematicamente justificadas**, exigindo o uso explícito de definições formais, propriedades teóricas e argumentos lógicos. Interpretações intuitivas, analogias informais ou justificativas não formalizadas **não são consideradas suficientes**, reforçando o compromisso com o rigor epistêmico característico da Teoria da Computação.
+To solve the task appropriately, learners are expected to:
 
+- analyze the domain restrictions carefully, recognizing that scores may involve simple or compound symbols and that songs are finite strings of arbitrary length;
+- define explicitly the formal representation, including the chosen alphabet, the notion of song as string, and the characterization of collections as languages;
+- establish a clear boundary between **structural validity** and **semantic interpretation**;
+- apply operations over strings and languages with correct formal notation;
+- justify each conclusion through formal definitions, minimal examples, conceptual demonstrations, and counterexamples when necessary;
+- use automata or regular expressions only at a **conceptual level**, when they help support an argument;
+- discuss codifications between symbolic representations, including the preservation or loss of structural properties;
+- document all reasoning with precise terminology and consistent mathematical notation. 
 
-### Solution Development Process
 
-**Abordagem esperada do aprendiz:**
 
-* **Analisar cuidadosamente as restrições e premissas do problema**, reconhecendo que:
 
-  * partituras podem envolver **um ou múltiplos instrumentos**, o que implica símbolos simples (uma nota) ou **símbolos compostos** (conjuntos finitos de notas simultâneas);
-  * cada música é modelada como uma **cadeia finita de comprimento arbitrário** (não limitada a um tamanho fixo);
-  * coleções musicais podem ser definidas:
+### 2.4 Expected Outcomes
 
-    * de forma **extensional**, como conjuntos finitos explicitamente listados; ou
-    * de forma **intensional**, por meio de **propriedades formais** (por exemplo, padrões estruturais, restrições de forma ou critérios textuais como a ocorrência de uma palavra).
+By the end of the task, learners should be able to:
 
-* **Estabelecer explicitamente a fronteira entre estrutura e significado**, assumindo que:
+- define and use correctly the concepts of **alphabet, string, language, empty string, and language closure**;
+- apply and interpret operations over strings and languages, including concatenation, union, intersection, complement, reversal, and Kleene closure;
+- analyze and justify structural properties of languages, such as membership, finiteness, or infinitude;
+- identify structural patterns in symbolic sequences and relate them to formal properties;
+- abstract real-world musical artifacts as formal symbolic representations;
+- analyze, at a conceptual level, the role of finite automata and regular expressions in justifying language properties;
+- evaluate symbolic codifications and homomorphisms between different representations;
+- produce mathematically rigorous answers and reports with clear definitions, examples, arguments, and conclusions.  
 
-  * a correção das respostas depende da **estrutura formal** (símbolos, cadeias, linguagens e operações);
-  * interpretações musicais ou semânticas (por exemplo, “soar bem”, “ser reconhecida como música”) **não substituem** justificativas matemáticas.
 
-* **Definir formalmente o modelo de representação**, explicitando:
 
-  * o **alfabeto (Σ)** de símbolos musicais adotado (incluindo, quando necessário, a noção de símbolo composto);
-  * a noção de **música como cadeia** sobre Σ;
-  * a caracterização de **coleções de músicas como linguagens** (L ⊆ Σ*);
-  * o **universo de referência** quando necessário (por exemplo, para discutir complemento, definir claramente o conjunto em relação ao qual o complemento é tomado).
 
-* **Aplicar operações formais sobre cadeias e linguagens**, incluindo:
+### 2.5 Acquisition Context
 
-  * concatenação de cadeias para representar composição de músicas;
-  * identificação de prefixos, sufixos e subcadeias (trechos iniciais, finais e internos);
-  * reversão de cadeias (música “ao contrário” no sentido formal);
-  * união, interseção, diferença e complemento de linguagens (coleções);
-  * fecho de Kleene e o papel da **cadeia vazia (ε)** e da **linguagem vazia (∅)**, distinguindo claramente esses dois conceitos.
+- Theoretical course in Computation Theory  
+- Evaluative task focused on **formal argumentation and abstract modeling**. 
 
-* **Justificar cada conclusão com argumentação formal**, sustentando as respostas por meio de:
 
-  * definições formais precisas (por exemplo, o que conta como cadeia, linguagem, trecho/prefixo, reverso, etc.);
-  * exemplos mínimos cuidadosamente escolhidos para ilustrar propriedades;
-  * demonstrações conceituais e raciocínios estruturados (incluindo raciocínio indutivo, quando apropriado);
-  * **contraexemplos** para refutar generalizações indevidas ou afirmações falsas.
 
-* **Recorrer a modelos reconhecedores apenas quando pertinente e no nível conceitual**, isto é:
 
-  * usar autômatos, expressões regulares ou equivalências teóricas como **instrumentos de justificativa** (quando ajudarem a sustentar uma afirmação);
-  * **sem exigir** construção operacional detalhada, implementação ou simulação, a menos que isso seja explicitamente necessário para fundamentar a resposta.
 
-* **Explorar equivalências e codificações formais**, discutindo:
+## 3. Knowledge Enumeration
 
-  * homomorfismos ou mapeamentos entre representações simbólicas (por exemplo, partitura ↔ gravação);
-  * quais propriedades estruturais são preservadas ou perdidas na codificação;
-  * os **limites formais da intercambialidade**, distinguindo “correspondência estrutural” de “equivalência semântica”.
+To support a systematic and semantically coherent competency specification, the knowledge mobilized in TASK25.00 is organized below according to the formal demands of the task.
 
-* **Documentar rigorosamente** todas as escolhas de modelagem, raciocínios e conclusões, empregando:
 
-  * notação matemática adequada e consistente;
-  * terminologia precisa da Teoria das Linguagens Formais;
-  * uma estrutura textual clara que diferencie explicitamente **definições**, **exemplos**, **argumentos/provas** e **conclusões**.
 
 
+### 3.1 Computing Knowledge
 
+#### Formal Languages
 
+- alphabets, strings, and languages;
+- empty string and empty language;
+- finite and infinite languages;
+- prefixes, suffixes, and substrings.
 
 
 
+#### Operations on Languages
 
+- union, intersection, difference, and complement;
+- concatenation of strings and languages;
+- Kleene closure;
+- reversal of strings and languages;
+- closure properties of language classes, at a conceptual level.
 
 
+#### Regular Languages
 
+- regular expressions as algebraic notation for describing languages;
+- regularity as an expressive class, without requiring operational construction.
 
-### Expected Outcomes
 
-Ao final desta atividade, os estudantes deverão ser capazes de:
+#### Finite Automata (Conceptual Level)
 
-> Definir formalmente e empregar corretamente os conceitos de **alfabeto, cadeia, linguagem, linguagem vazia e fecho de linguagens**, utilizando notação matemática adequada e consistente.
+- finite automata as abstract recognizers;
+- the theoretical relation between automata, regular expressions, and regular languages;
+- expressive limits of finite automata as support for formal argumentation.
 
-> Aplicar e interpretar **operações algébricas sobre cadeias e linguagens**, incluindo concatenação, união, interseção, complemento, reversão e fecho de Kleene, analisando seus efeitos estruturais em contextos concretos.
 
-> Analisar e **justificar propriedades estruturais de linguagens**, tais como pertencimento, finitude ou infinitude, recorrendo a definições formais, argumentos lógicos e contraexemplos quando apropriado.
+#### Homomorphisms and Codifications
 
-> Identificar **padrões estruturais em sequências simbólicas** (prefixos, subcadeias, repetições) e argumentar sobre propriedades de linguagens induzidas por restrições formais derivadas de domínios do mundo real.
+- homomorphisms over strings and languages;
+- mappings between different symbolic representations;
+- preserved and non-preserved structural properties under codification;
+- formal limits of representational equivalence.
 
-> Abstrair artefatos musicais do mundo real (partituras, gravações, gêneros) como **representações formais**, modelando-os como símbolos, cadeias e linguagens, e justificando explicitamente as escolhas de modelagem.
 
-> Analisar, em nível conceitual, o uso de **autômatos finitos e expressões regulares** como instrumentos teóricos para justificar propriedades de linguagens, sem exigir construção ou simulação operacional detalhada.
+#### Formal Reasoning
 
-> Avaliar **codificações simbólicas e homomorfismos** entre diferentes representações, distinguindo claramente **correspondência estrutural** de **interpretação semântica**, e identificando limites formais de equivalência.
+- formal definitions as grounds for validity;
+- minimal examples as explanatory tools;
+- counterexamples as instruments of refutation;
+- logical justification of structural language properties. 
 
-> Produzir respostas e relatórios tecnicamente rigorosos, apresentando **definições formais, exemplos mínimos, argumentos estruturados e conclusões coerentes**, com clareza, precisão terminológica e consistência lógica.
 
 
 
-### Acquisition Context
 
-- Disciplina teórica de Teoria da Computação
+### 3.2 Foundational and Professional Knowledge (FPK)
 
-- Tarefa avaliativa com foco em **argumentação formal e modelagem abstrata**
+- **Analytical and Critical Thinking**  
+  Abstraction of real-world domains into formal models and rigorous assessment of claims in light of definitions and theoretical properties.
 
+- **Written Communication**  
+  Production of clear, well-structured, mathematically rigorous texts with precise terminology and consistent notation.
 
+- **Epistemic Rigor**  
+  Explicit commitment to formal justification rather than informal intuition, and the ability to distinguish definitions, examples, arguments, and conclusions. 
 
-### Target Audience Profile
 
-- **Nível acadêmico:** 2º–3º ano da graduação em Computação  
-- **Experiência prévia:** fundamentos de estruturas de dados e introdução a autômatos  
-- **Papéis esperados:** modelar linguagens formais; analisar propriedades; justificar formalmente decisões conceituais
 
 
 
-### Proficiency Scale
 
-- Escala com notas entre 0 e 100 (representando notas como 8.5 no modelo de avaliação da disciplina, por exemplo, que corresponde a 85 na escala).
+## 4. Learning Objectives
 
+### 4.1 General Learning Objective
 
+The general objective of TASK25.00 is to enable the learner to **abstract and model a real-world domain**—songs and musical collections—as **formal languages**, using fundamental concepts of language theory, regular expressions, and recognizer models at a conceptual level, while also **analyzing and justifying structural properties** through formal definitions, operations over languages, and mathematically rigorous reasoning. :contentReference[oaicite:12]{index=12}
 
-## 2. Knowledge Enumeration
-
-Para assegurar uma modelagem sistemática, precisa e semanticamente consistente dos conhecimentos mobilizados na **Task25.00 – Coleção de Músicas**, esta enumeração adota o **ACM CS2023** como vocabulário controlado para o conhecimento computacional disciplinar e o **ACM Computing Curricula 2020 (CC2020)** como referência para o **Conhecimento Profissional Fundamental (FPK)**.
-
-Esses elementos constituem a **dimensão Conhecimento (K)** do modelo **OntoKSD**, refletindo exclusivamente os conhecimentos **conceituais e teóricos** efetivamente requeridos pela tarefa, sem pressupor construção, simulação ou implementação de artefatos computacionais.
-
-A identificação dos componentes a seguir baseia-se nas exigências de **modelagem formal**, **análise estrutural de linguagens** e **argumentação matemática rigorosa** explicitadas no enunciado da atividade.
-
-
-
-### Conhecimento em Computação  
-*(Alinhado ao CS2023 — TC.FLR: Formal Languages and Recognizers)*
-
-- **Linguagens Formais**
-  - Conceitos de **alfabeto, cadeia, linguagem, cadeia vazia (ε) e linguagem vazia (∅)**.
-  - Distinção entre **linguagens finitas e infinitas**.
-  - Noções estruturais de **prefixos, sufixos e subcadeias**.
-
-- **Operações sobre Linguagens**
-  - Operações algébricas: **união, interseção, diferença e complemento** (com universo explicitamente definido).
-  - **Concatenação de cadeias e linguagens**.
-  - **Fecho de Kleene** e suas implicações estruturais.
-  - **Reversão** de cadeias e linguagens.
-  - Propriedades de **fechamento de classes de linguagens**, em nível conceitual.
-
-- **Linguagens Regulares**
-  - **Expressões regulares** como notação algébrica para especificação de linguagens.
-  - Noção de **regularidade** como classe expressiva, sem exigir construção operacional.
-
-- **Autômatos Finitos (nível conceitual)**
-  - Autômatos finitos como **modelos reconhecedores abstratos**.
-  - Relação teórica entre **autômatos finitos, expressões regulares e linguagens regulares**.
-  - Limites expressivos dos autômatos finitos, usados como suporte argumentativo.
-
-- **Homomorfismos e Codificações**
-  - Definição formal de **homomorfismos de cadeias e linguagens**.
-  - Mapeamentos entre representações simbólicas distintas.
-  - Análise de **propriedades preservadas e não preservadas** sob codificação.
-  - Limites formais da equivalência representacional (por exemplo, partitura ↔ gravação).
-
-- **Raciocínio Formal e Conhecimento sobre Prova**
-  - Papel das **definições formais** como base de validade.
-  - Uso de **exemplos mínimos** como instrumentos explicativos.
-  - Construção e interpretação de **contraexemplos**.
-  - Justificação lógica de propriedades estruturais de linguagens.
-
-
-
-### Conhecimento Profissional Fundamental  
-*(FPK — CC2020)*
-
-- **Pensamento Analítico e Crítico**
-  - Abstração de domínios do mundo real em **modelos formais precisos**.
-  - Avaliação rigorosa da validade de afirmações à luz de definições e propriedades teóricas.
-
-- **Comunicação Escrita Técnica**
-  - Produção de textos matematicamente rigorosos, claros e bem estruturados.
-  - Uso consistente de **notação formal**, terminologia técnica e encadeamento lógico.
-
-- **Rigor Epistêmico**
-  - Compromisso explícito com **justificativas formais** em detrimento de intuições informais.
-  - Capacidade de distinguir claramente entre **definições**, **exemplos**, **argumentos** e **conclusões**.
-
-
-
-
-
-
-## 3. Learning Objectives Identification
-
-Com base no enunciado da tarefa **Coleção de Músicas**, os objetivos de aprendizagem foram definidos para refletir com precisão as **exigências conceituais**, o **nível de rigor matemático** e o **tipo de competência teórica e analítica esperada** na disciplina **MATC94 – Introdução às Linguagens Formais e Teoria da Computação**.
-
-
-
-### 3.1 General Learning Objective
-
-O objetivo geral desta tarefa é capacitar o estudante a **abstrair e modelar um domínio do mundo real** (músicas e coleções musicais) como **linguagens formais**, empregando conceitos fundamentais de linguagens, expressões regulares e modelos reconhecedores **em nível conceitual**, bem como a **analisar e justificar propriedades estruturais** por meio de definições formais, operações sobre linguagens e argumentação matemática rigorosa, **sem recorrer a intuições informais ou implementações algorítmicas ad hoc**.
-
-
-
-### 3.2 Specific Learning Objectives 
+### 4.2 Specific Learning Objectives
 
 #### LO1 — Formal Abstraction of the Domain
-1.1 Definir formalmente um **alfabeto (Σ)** a partir do conjunto de símbolos musicais relevantes.  
-1.2 Modelar uma **música como uma cadeia (string) sobre Σ**.  
-1.3 Modelar uma **coleção de músicas como uma linguagem (L ⊆ Σ\*)**.  
+- define formally an **alphabet (Σ)** from the relevant musical symbols;
+- model a **song as a string** over Σ;
+- model a **collection of songs as a language**.
 
 #### LO2 — Structural Analysis of Strings
-2.1 Identificar e definir formalmente **prefixos, sufixos e subcadeias** de uma música.  
-2.2 Determinar se um trecho de música pode ser formalmente considerado uma música válida.  
-2.3 Justificar a validade (ou não) de trechos posicionados no início, meio ou fim de uma música, com base exclusivamente em critérios estruturais.
+- identify and define formally **prefixes, suffixes, and substrings** of a song;
+- determine whether a song excerpt can be formally considered a valid song;
+- justify the validity or invalidity of excerpts from the beginning, middle, or end of a song.
 
 #### LO3 — Operations over Languages
-3.1 Aplicar a **concatenação** de cadeias para modelar a composição de músicas.  
-3.2 Analisar se o resultado da concatenação pertence à mesma linguagem original.  
-3.3 Aplicar **união, interseção e diferença** para combinar coleções musicais.  
-3.4 Avaliar o **complemento** de uma linguagem em relação a um universo explicitamente definido.  
+- apply **concatenation** of strings to model song composition;
+- analyze whether the result of concatenation belongs to the original language;
+- apply **union, intersection, and difference** to combine collections;
+- evaluate the **complement** of a language with respect to an explicitly defined universe.
 
 #### LO4 — Kleene Closure and Language Cardinality
-4.1 Aplicar o **fecho de Kleene (L\*)** a uma linguagem musical.  
-4.2 Interpretar o papel da **cadeia vazia (ε)** e da **linguagem vazia (∅)** em coleções musicais.  
-4.3 Classificar linguagens como **finitas ou infinitas**, justificando formalmente.
+- apply **Kleene closure** to a musical language;
+- interpret the role of the **empty string** and the **empty language**;
+- classify languages as **finite or infinite**, with formal justification.
 
 #### LO5 — Reversal and String Transformations
-5.1 Definir formalmente a **reversão de cadeias**.  
-5.2 Aplicar a operação de reversão a uma música e analisar sua validade estrutural.  
-5.3 Distinguir explicitamente **validade estrutural** de **interpretação semântica** no contexto da reversão.
+- define formally the **reversal of strings**;
+- apply reversal to a song and analyze its structural validity;
+- distinguish explicitly **structural validity** from **semantic interpretation** in reversal contexts.
 
 #### LO6 — Regular Languages and Formal Expressiveness
-6.1 Reconhecer quando uma coleção de músicas pode ser descrita por uma **linguagem regular**.  
-6.2 Especificar linguagens musicais por meio de **expressões regulares**.  
-6.3 Diferenciar, em nível **conceitual**, linguagens regulares e linguagens livres de contexto, indicando limites expressivos, **sem exigir construção formal de gramáticas**.
+- recognize when a collection of songs can be described by a **regular language**;
+- specify musical languages through **regular expressions**;
+- distinguish, at a conceptual level, **regular** and **context-free** languages, indicating expressive limits without requiring grammar construction.
 
 #### LO7 — Automata and Model Equivalence (Conceptual Level)
-7.1 Explicar a equivalência teórica entre **autômatos finitos, expressões regulares e gramáticas regulares**.  
-7.2 Relacionar padrões estruturais de músicas a **estados e transições conceituais** de um autômato, **como instrumento teórico de justificação**.
+- explain the theoretical equivalence between **finite automata, regular expressions, and regular grammars**;
+- relate structural song patterns to **conceptual states and transitions** of an automaton as a justificatory instrument.
 
 #### LO8 — Homomorphisms and Codifications
-8.1 Definir formalmente **homomorfismos de cadeias**.  
-8.2 Analisar se duas representações (partitura e gravação) podem ser vistas como **codificações estruturalmente equivalentes**.  
-8.3 Justificar limites formais da intercambialidade entre representações simbólicas.
+- define formally **string homomorphisms**;
+- analyze whether score and recording can be treated as **structurally equivalent codifications**;
+- justify the formal limits of interchangeability between symbolic representations.
 
 #### LO9 — Formal Reasoning and Proof
-9.1 Utilizar **definições formais** como base de validade de respostas conceituais.  
-9.2 Construir **exemplos mínimos** para ilustrar propriedades de linguagens.  
-9.3 Empregar **contraexemplos** para refutar afirmações incorretas.  
-9.4 Aplicar **raciocínio indutivo** quando apropriado (por exemplo, em propriedades de fechamento).
+- use **formal definitions** as the basis for the validity of answers;
+- construct **minimal examples** to illustrate language properties;
+- employ **counterexamples** to refute incorrect claims;
+- apply **inductive reasoning** when appropriate.
 
 #### LO10 — Technical and Epistemic Communication
-10.1 Elaborar um **relatório técnico** com estrutura lógica, clareza argumentativa e terminologia adequada.  
-10.2 Apresentar justificativas matematicamente rigorosas, coerentes e bem fundamentadas.  
-10.3 Distinguir explicitamente entre **intuição informal**, **exemplo ilustrativo** e **prova ou argumento formal**.
+- elaborate a **technical report** with logical structure, argumentative clarity, and appropriate terminology;
+- present mathematically rigorous justifications;
+- distinguish explicitly between **informal intuition**, **illustrative example**, and **formal proof or argument**. :contentReference[oaicite:13]{index=13}
 
 
 
-### 3.3 Importance of These Objectives
 
-Esses objetivos estabelecem um percurso estruturado de desenvolvimento de competências conceituais, analíticas e epistemológicas, assegurando que o estudante:
 
-- construa uma base teórica sólida em Linguagens Formais e Teoria da Computação, fundamentada em definições precisas e modelos formais;
-- desenvolva a capacidade de abstrair e formalizar domínios do mundo real em representações matemáticas rigorosas;
-- compreenda e analise propriedades estruturais, relações de equivalência e limites expressivos das linguagens formais;
-- exercite pensamento analítico, argumentação lógica e rigor epistêmico, essenciais para a validação de afirmações em contextos teóricos;
-- consolide habilidades de comunicação técnica, expressando raciocínios, modelos e justificativas com clareza formal, precisão terminológica e consistência lógica.
 
-Ao atingir esses objetivos, o estudante estará apto a articular teoria e prática de maneira crítica e consciente, utilizando conceitos de Linguagens Formais, Expressões Regulares e Autômatos Finitos **como instrumentos teóricos** para analisar, justificar e resolver problemas conceituais complexos, com rigor matemático e solidez argumentativa.
 
+## 5. Competency Set for TASK25.00
 
+Based on the analysis of the task requirements and the consolidated competency catalog, the following competencies were selected as directly aligned with TASK25.00.
 
+### 5.1 Reused Competencies
 
+#### **C04 — Define Regular Expressions for Finite Automata**
 
-## 4. Competency Definition  
-### Competências Reutilizadas e Especializadas do Conjunto de Referência
+**Justification for Reuse:**  
+Regular expressions constitute a relevant formal mechanism for the intentional specification of collections of songs in this task, especially when learners must characterize sets such as repeated songs, empty-song collections, or property-based subsets. In TASK25.00, this competency is activated at a **conceptual and algebraic level**, without requiring the operational construction of automata. It supports the learner’s ability to define regular languages formally and to relate them to structural descriptions of musical collections.
 
-As competências a seguir foram reutilizadas por apresentarem **aderência direta às exigências conceituais, epistêmicas e avaliativas da Task25.00 – Coleção de Músicas**.  
-Para cada competência reutilizada, são explicitados o **papel de ativação (ActivationRole)**, o **modo de ativação (ActivationMode)** e a **condição de ativação (ActivationConstraint)**, conforme o modelo de ativação adotado no **CSP/OntoKSD**.  
-Essa explicitação visa assegurar transparência metodológica, alinhamento com os objetivos de aprendizagem e coerência entre competência, evidência e avaliação.
+**ActivationRole:** `core`  
+**ActivationMode:** `artifact-oriented`  
+**ActivationConstraint:** `mandatory`
 
 
 
-### **C04 — Define Regular Expressions for Finite Automata**
+#### **C14 — Differentiate classifications of formal grammars**
 
-- **Relevância**  
-  Permite a **especificação formal de conjuntos de músicas** por meio de expressões regulares, contemplando casos como:
-  - músicas que satisfazem uma propriedade textual (por exemplo, contêm uma palavra específica);
-  - a música vazia;
-  - a repetição indefinida de músicas (fecho de Kleene).
+**Justification for Reuse:**  
+This competency supports conceptual distinctions between **regular languages** and more expressive classes. In TASK25.00, it is useful when learners discuss expressive limits, delimit the scope of formal constructions, or justify why certain collections may or may not fall within the regular class. Since such reasoning enriches but does not structure every answer, the competency is activated as an **extension**.
 
-- **Learning Objectives atendidos**  
-  LO6.1, LO6.2, LO7.1
+**ActivationRole:** `extension`  
+**ActivationMode:** `analytical`  
+**ActivationConstraint:** `optional`
 
-- **ActivationRole**: `core`  
-  A competência é **nuclear**, pois viabiliza a definição formal de linguagens musicais exigida pela tarefa.
 
-- **ActivationMode**: `artifact-oriented`  
-  O desempenho esperado consiste na **produção de artefatos formais**, especificamente expressões regulares que caracterizam linguagens.
 
-- **ActivationConstraint**: `mandatory`  
-  A tarefa não pode ser resolvida de forma adequada sem o domínio dessa competência.
+#### **C18 — Model real-world problems using formal language concepts**
 
+**Justification for Reuse:**  
+TASK25.00 fundamentally requires learners to abstract musical artifacts as symbols, strings, and languages. This competency directly supports the formal modeling of the domain, including the explicit definition of alphabets, strings, collections, and representation constraints. It is one of the central competencies of the task.
 
+**ActivationRole:** `core`  
+**ActivationMode:** `constructive`  
+**ActivationConstraint:** `mandatory`
 
-### **C14 — Differentiate classifications of formal grammars**
 
-- **Relevância**  
-  Possibilita a **diferenciação conceitual** entre linguagens regulares e linguagens de maior poder expressivo, permitindo:
-  - delimitar o escopo das construções formais utilizadas;
-  - justificar limites expressivos, sem exigir construção de gramáticas.
 
-- **Learning Objectives atendidos**  
-  LO6.1, LO6.3
+#### **C19 — Apply homomorphisms in formal languages**
 
-- **ActivationRole**: `extension`  
-  A competência atua como **ampliação conceitual**, enriquecendo a análise sem ser central para todas as respostas.
+**Justification for Reuse:**  
+The task explicitly asks whether a musical score and its corresponding recording may be treated as codifications of one another. This requires reasoning about homomorphisms, symbolic mappings, and representational equivalence. C19 therefore supports the analysis of preserved structure and the formal limits of interchangeability between representations.
 
-- **ActivationMode**: `analytical`  
-  O foco está na **análise comparativa e conceitual** de classes de linguagens.
+**ActivationRole:** `supporting`  
+**ActivationMode:** `interpretative`  
+**ActivationConstraint:** `mandatory`
 
-- **ActivationConstraint**: `optional`  
-  É mobilizada quando o estudante discute limites expressivos ou generalizações conceituais.
 
 
 
-### **C13′ — Interpret and apply algebraic notation for strings and languages**
 
-- **Especialização de**: C13 — *Interpret rule-based notation*
 
-- **Descrição**  
-  Interpretar, aplicar e justificar o uso de **notações algébricas formais** de:
-  - **cadeias** (ε, Σ, |x|, concatenação, potência, reversão, subcadeias);
-  - **linguagens** (∪, ∩, complemento, concatenação, Lⁿ, L\*, prefixos/sufixos, homomorfismos).
 
-- **Verbos observáveis**  
-  explain, apply, compute, derive, justify
+### 5.2 New Competencies Introduced in TASK25.00
 
-- **Disposições**  
-  meticulous, responsible
+#### **C05.01 — Write mathematically rigorous answers**
+**Specialization of:** C05 — *Write a Technical Report*
 
-- **Learning Objectives atendidos**  
-  LO1.1, LO1.2, LO1.3,  
-  LO2.1, LO2.2,  
-  LO3.1, LO3.3,  
-  LO4.2,  
-  LO5.1,  
-  LO6.2,  
-  LO8.1
+**Justification for Introduction:**  
+The main evidence required in TASK25.00 is not merely a technical report, but a set of **mathematically rigorous written answers**. The task demands explicit definitions, precise notation, structured arguments, minimal examples, and counterexamples where appropriate. Since the generic writing competency C05 does not fully capture this justificatory and epistemic requirement, a new specialized competency is introduced.
 
-- **ActivationRole**: `core`  
-  Trata-se da **competência estrutural central** da tarefa, sustentando praticamente todas as respostas.
+##### Competency Title
+**Write mathematically rigorous answers**
 
-- **ActivationMode**: `analytical`  
-  O desempenho envolve **manipulação simbólica, análise algébrica e justificação formal**.
+##### Textual Description
+This competency involves the ability to produce **mathematically rigorous written answers** that clearly justify conclusions through explicit definitions, precise notation, structured arguments, and appropriate supporting examples.
 
-- **ActivationConstraint**: `mandatory`  
-  Sem essa competência, não é possível atender às exigências formais da tarefa.
+Learners demonstrate this competency by:
 
+- stating relevant formal definitions clearly;
+- organizing answers so that claims, justifications, and conclusions are explicitly connected;
+- using examples or counterexamples when they help clarify or validate the reasoning;
+- applying appropriate technical and mathematical notation consistently;
+- presenting arguments with sufficient rigor to support the correctness of the conclusion.
 
+This competency specializes technical report writing toward tasks in which the main evidence lies not only in presenting a result, but in **formally justifying why the result is valid**.
 
-### **C05′ — Write mathematically rigorous answers**
+##### Knowledge Specification
+- **Written Communication (FPK)**
+- **Analytical and Critical Thinking (FPK)**
 
-- **Especialização de**: C05 — *Write a technical report*
+##### Disposition Specification
+- **Meticulous**
+- **Responsible**
 
-- **Descrição**  
-  Produzir respostas matematicamente rigorosas, empregando:
-  - definições formais explícitas;
-  - exemplos mínimos;
-  - demonstrações conceituais;
-  - uso consciente de propriedades teóricas (por exemplo, propriedades de fechamento);
-  - contraexemplos, quando apropriado.
+##### Knowledge–Skill Pairing
+- **Written Communication (FPK) — Apply**  
+  → write, structure, document, clarify formal reasoning.
+- **Analytical and Critical Thinking (FPK) — Analyze / Evaluate**  
+  → distinguish assumptions, assess validity, support conclusions, identify inconsistencies.
 
-- **Verbos observáveis**  
-  define, justify, prove, exemplify, refute
+##### ActivationRole
+`transversal`
 
-- **Disposições**  
-  meticulous, responsible
+##### ActivationMode
+`justificatory`
 
-- **Learning Objectives atendidos**  
-  LO2.3,  
-  LO5.2, LO5.3,  
-  LO8.3,  
-  LO9.1, LO9.2, LO9.3, LO9.4,  
-  LO10.2, LO10.3
+##### ActivationConstraint
+`mandatory`
 
-- **ActivationRole**: `transversal`  
-  A competência é **transversal**, permeando todas as respostas e conteúdos da tarefa.
 
-- **ActivationMode**: `justificatory`  
-  O foco está na **sustentação formal das conclusões**, e não apenas na apresentação de resultados.
 
-- **ActivationConstraint**: `mandatory`  
-  Todas as respostas exigem rigor matemático explícito, tornando essa competência indispensável.
 
 
+#### **C17 — Apply operations on formal languages**
 
+**Justification for Introduction:**  
+TASK25.00 requires sustained application and analysis of operations over strings and languages, including concatenation, union, intersection, complement, Kleene closure, and reversal. Although some of these actions might partially overlap with other competencies, the task demands a sufficiently central and explicit competency focused on formal operations and their structural consequences.
 
-## Novas Competências da TASK25.00
+##### Competency Title
+**Apply operations on formal languages**
 
-### Competency C17 Specification
+##### Textual Description
+This competency involves the ability to **apply, analyze, and justify formal operations over languages**, such as concatenation, union, intersection, complement, Kleene closure, and reversal, with explicit attention to their **structural effects** and **theoretical properties**.
 
-### Competency Title
-  Apply operations on formal languages
+Learners demonstrate this competency by:
 
+- evaluating the structural pertinence of resulting languages;
+- determining whether resulting languages preserve relevant properties, such as class membership, finiteness, or infinitude;
+- justifying conclusions through definitions, examples, counterexamples, and known theoretical properties.
 
-### Textual Description  
+This competency is exercised **exclusively at a conceptual and algebraic level**, without requiring automaton construction, simulation, or implementation.
 
-Esta competência envolve a capacidade do aprendiz de **aplicar, analisar e justificar operações formais sobre linguagens**, tais como **concatenação, união, interseção, complemento, fecho de Kleene e reversão**, com foco explícito nos **efeitos estruturais** dessas operações e em suas **propriedades teóricas**.
+##### ActivationRole
+`core`
 
-Os aprendizes devem demonstrar a capacidade de:
-- avaliar a **pertinência estrutural** dos resultados obtidos;
-- determinar se as linguagens resultantes **preservam propriedades relevantes** (por exemplo, pertencimento a uma classe, finitude ou infinitude);
-- **justificar formalmente** suas conclusões por meio de definições precisas, exemplos mínimos, contraexemplos e propriedades conhecidas (como propriedades de fechamento).
+##### ActivationMode
+`analytical`
 
-Esta competência é exercida **exclusivamente em nível conceitual e algébrico**, **não envolvendo construção, simulação ou implementação de autômatos**.
+##### ActivationConstraint
+`mandatory`
 
-- **Alinhamento CS2023**:  
-  TC.FLR — Formal Languages and Recognizers
 
-- **Learning Objectives atendidos**:  
-  LO2.1, LO2.2,  
-  LO3.1, LO3.2, LO3.3, LO3.4,  
-  LO4.1, LO4.2, LO4.3,  
-  LO5.1, LO5.2,  
-  LO9.4
 
+#### **C20 — Model and analyze musical collections as formal languages**
 
+**Justification for Introduction:**  
+TASK25.00 requires an integrated performance that cannot be reduced to any single atomic competency. Learners must model the domain, apply formal operations, reason about codifications, specify some collections through regular expressions, and justify all conclusions rigorously. A task-level composite competency is therefore introduced to represent this integrative performance.
 
-### Activation
+##### Competency Title
+**Model and analyze musical collections as formal languages**
 
-- **ActivationRole**: `core`  
-  A competência é **nuclear** para a tarefa, pois sustenta a análise estrutural das coleções musicais modeladas como linguagens.
+##### Textual Description
+This task-level competency involves the ability to **integrate concepts, operations, and representations from Formal Language Theory** in order to **model musical collections as formal languages** and **analyze rigorously their structural properties**.
 
-- **ActivationMode**: `analytical`  
-  O desempenho esperado envolve **análise formal**, comparação de resultados e justificação conceitual das operações aplicadas.
+Learners demonstrate this competency by:
 
-- **ActivationConstraint**: `mandatory`  
-  A Task25.00 não pode ser resolvida adequadamente sem o domínio desta competência.
+- abstracting musical artifacts as symbols, strings, and languages;
+- applying algebraic operations and regular expressions to characterize musical collections;
+- analyzing formal codifications and transformations between representations;
+- justifying structural properties, limitations, and implications through explicit definitions, minimal examples, counterexamples, and logical argumentation.
 
+This competency synthesizes previously defined atomic competencies into a **coherent formal analysis of a real-world problem**, without requiring implementation or operational recognizer construction.
 
+##### Competency Composition
+C20 is composed of:
+- **C18** — Model real-world problems using formal language concepts
+- **C17** — Apply operations on formal languages
+- **C19** — Apply homomorphisms in formal languages
+- **C04** — Define Regular Expressions for Finite Automata
+- **C23** — Interpret and apply algebraic notation for strings and languages
+- **C05.01** — Write mathematically rigorous answers
 
-### Knowledge Specification
+##### ActivationRole
+`core`
 
-Os seguintes componentes de conhecimento são essenciais para a demonstração desta competência:
+##### ActivationMode
+`integrative`
 
-#### Computing Knowledge (CS2023)
+##### ActivationConstraint
+`mandatory`
 
+
+
+#### **C23 — Interpret and apply algebraic notation for strings and languages**
+
+**Justification for Introduction:**  
+TASK25.00 requires a transversal competence in the interpretation and use of **algebraic notation for strings and languages**, including symbols such as ε, Σ, concatenation, exponentiation, reversal, substructures, set-theoretic language operations, and closure notation. This need is distinct from the interpretation of **rule-based notation** or **grammar-based rules**, and therefore should not be treated as a specialization of C13 or C13.01. A new independent competency is introduced to preserve semantic clarity in the catalog.
+
+##### Competency Title
+**Interpret and apply algebraic notation for strings and languages**
+
+##### Textual Description
+This competency involves the ability to **interpret, use, and justify formal algebraic notation for strings and languages** in order to represent, analyze, and communicate structural properties of symbolic systems.
+
+Learners demonstrate this competency by:
+
+- interpreting standard notation for **strings**, such as ε, Σ, |x|, concatenation, exponentiation, reversal, prefixes, suffixes, and substrings;
+- interpreting and applying standard notation for **languages**, such as union, intersection, complement, concatenation, \(L^n\), and \(L^*\);
+- using algebraic notation consistently to express structural properties, operations, and relations over strings and languages;
+- connecting formal notation to conceptual reasoning about symbolic structures and language behavior;
+- justifying the meaning and use of notation in formally rigorous answers.
+
+This competency supports instructional contexts in which learners must **reason explicitly through symbolic notation**, not merely recognize concepts informally.
+
+##### Knowledge Specification
 - **Language Theory**
-  - Alfabetos, cadeias e linguagens.
-  - Linguagens finitas e infinitas.
-  - Fundamentos conceituais dos modelos formais de linguagem.
-
-- **Operations on Formal Languages**
-  - União, interseção, diferença e complemento (com universo explicitamente definido).
-  - Concatenação de cadeias e linguagens.
-  - Fecho de Kleene.
-  - Reversão de cadeias e linguagens.
-  - Propriedades de fechamento de classes de linguagens, em nível conceitual.
-
-- **Regular Expressions**
-  - Expressões regulares como notação algébrica para descrever linguagens.
-  - Relação conceitual entre expressões regulares e operações sobre linguagens.
-
-#### Professional Knowledge (FPK — CC2020)
-
-- **Analytical and Critical Thinking**
-  - Decomposição de problemas formais.
-  - Avaliação das consequências estruturais de construções formais.
-  - Justificação de afirmações com base em raciocínio matemático preciso.
-
-
-
-### Disposition Specification
-
-As seguintes disposições apoiam a demonstração efetiva desta competência:
-
-- **Epistemic Rigor**
-  - Compromisso com justificativas formais em detrimento de intuições informais.
-  - Distinção clara entre definições, exemplos e propriedades gerais.
-
-- **Intellectual Responsibility**
-  - Precisão na aplicação de definições e operações.
-  - Coerência e consistência nos argumentos formais.
-
-- **Persistence**
-  - Disposição para revisar definições e raciocínios diante de inconsistências ou ambiguidades.
-
-
-
-### Knowledge–Skill Pairing and Bloom’s Taxonomy Alignment
-
-- **Language Theory** → **Understand**  
-  *(interpretar e explicar definições formais e propriedades fundamentais das linguagens)*
-
-- **Operations on Formal Languages** → **Apply / Analyze**  
-  *(aplicar operações formais e analisar seus efeitos estruturais e consequências teóricas)*
-
-- **Regular Expressions** → **Apply**  
-  *(utilizar notação algébrica para descrever e relacionar linguagens)*
-
-- **Analytical and Critical Thinking (FPK)** → **Analyze**  
-  *(examinar argumentos formais, identificar inconsistências e avaliar a validade de conclusões)*
-
-
-
-### Verb Annotation (Bloom-Aligned)
-
-- **Understand** → *interpret, explain, identify, describe*  
-- **Apply** → *apply, compute, derive, determine*  
-- **Analyze** → *analyze, justify, differentiate, evaluate*
-
-
-
-### Summary Table for Competency C17
-
-| **Competency** | **Dispositions** | **Knowledge** | **Skill (Bloom + Verb Annotation)** |
-|---------------|-----------------|---------------|-------------------------------------|
-| **Apply operations on formal languages** | Epistemic rigor; Intellectual responsibility; Persistence | Language Theory | **Understand** *(interpret, explain, identify, describe)* |
-|  |  | Operations on Formal Languages | **Apply / Analyze** *(apply, compute, derive, analyze)* |
-|  |  | Regular Expressions | **Apply** *(use, specify, relate)* |
-|  |  | Analytical and Critical Thinking (FPK) | **Analyze** *(analyze, justify, differentiate, evaluate)* |
-
-
-
-
-
-
-
-
-
-## Competency C18 Specification
-
-### Competency Title
-
-  Model real-world problems using formal language concepts
-
-
-### Textual Description
-
-Esta competência envolve a capacidade do aprendiz de **abstrair elementos de um domínio do mundo real** e **modelá-los como representações formais baseadas em linguagens**, por meio da definição explícita de **alfabetos, cadeias e linguagens** que capturem **aspectos estruturais relevantes** do problema.
-
-Os aprendizes devem demonstrar a capacidade de:
-- estabelecer **mapeamentos explícitos** entre entidades concretas e símbolos formais;
-- **justificar decisões de modelagem**, incluindo escolhas e exclusões;
-- analisar a **adequação estrutural** do modelo proposto;
-- reconhecer e explicitar **limitações formais** da representação adotada.
-
-Essa competência exige a **distinção clara entre propriedades estruturais e interpretações semânticas**, assumindo que a validade do modelo decorre de sua coerência formal, e não de sua correspondência intuitiva com o domínio original.
-
-> Esta competência concentra-se na **fase de abstração e modelagem**, não envolvendo ainda a aplicação de operações formais (C17) nem a transformação entre representações por homomorfismos (C19).
-
-- **Alinhamento CS2023**:  
-  TC.FLR — Formal Languages and Recognizers
-
-- **Learning Objectives atendidos**:  
-  LO1.1, LO1.2, LO1.3,  
-  LO5.3,  
-  LO8.2
-
-
-
-### Activation
-
-- **ActivationRole**: `core`  
-  A competência é **nuclear**, pois fundamenta toda a formalização do problema e antecede a aplicação de operações e análises estruturais.
-
-- **ActivationMode**: `constructive`  
-  O desempenho esperado envolve a **construção consciente de um modelo formal**, a partir de escolhas de abstração explicitamente justificadas.
-
-- **ActivationConstraint**: `mandatory`  
-  A Task25.00 não pode ser resolvida sem a modelagem formal inicial do domínio musical.
-
-
-
-### Knowledge Specification
-
-Os seguintes componentes de conhecimento são essenciais para a demonstração desta competência:
-
-#### Computing Knowledge (CS2023)
-
-- **Language Theory**
-  - Alfabetos, cadeias e linguagens.
-  - Fundamentos conceituais da abstração formal de domínios do mundo real.
-
 - **Formal Languages**
-  - Modelagem de coleções como conjuntos de cadeias.
-  - Propriedades estruturais de linguagens independentes de semântica.
+- **Written Communication (FPK)**
+- **Analytical and Critical Thinking (FPK)**
 
-- **Homomorphisms and Codifications (nível conceitual)**
-  - Noção de mapeamentos formais entre representações simbólicas.
-  - Preservação e perda de informação sob codificação, como limite da modelagem.
+##### Disposition Specification
+- **Meticulous**
+- **Responsible**
 
-#### Professional Knowledge (FPK — CC2020)
+##### Knowledge–Skill Pairing
+- **Language Theory — Understand**  
+  → interpret, explain, identify formal notation for strings and symbolic structures.
+- **Formal Languages — Apply**  
+  → use, express, derive, manipulate notation for operations over languages.
+- **Written Communication (FPK) — Apply**  
+  → write, structure, clarify formal symbolic expressions in technically correct form.
+- **Analytical and Critical Thinking (FPK) — Analyze**  
+  → justify, distinguish, relate, validate symbolic interpretations.
 
-- **Analytical and Critical Thinking**
-  - Identificação de características relevantes do domínio.
-  - Avaliação crítica de escolhas de modelagem e de suas consequências formais.
+##### ActivationRole
+`transversal`
 
+##### ActivationMode
+`analytical`
 
+##### ActivationConstraint
+`mandatory`
 
-### Disposition Specification
 
-As seguintes disposições apoiam a demonstração efetiva desta competência:
 
-- **Epistemic Rigor**
-  - Compromisso com definições precisas e pressupostos explícitos.
-  - Evitação de representações informais ou ambíguas.
 
-- **Intellectual Responsibility**
-  - Justificação consciente das decisões de abstração.
-  - Reconhecimento do escopo e das limitações do modelo formal adotado.
 
-- **Reflectiveness**
-  - Capacidade de distinguir correção estrutural de adequação semântica.
-  - Consciência de que todo modelo é uma aproximação formal do domínio.
 
 
+## 6. Competency Activation Summary
 
-### Knowledge–Skill Pairing and Bloom’s Taxonomy Alignment
+| **Competency** | **ActivationRole** | **ActivationMode** | **ActivationConstraint** |
+|---|---|---|---|
+| C17 | core | analytical | mandatory |
+| C18 | core | constructive | mandatory |
+| C19 | supporting | interpretative | mandatory |
+| C04 | core | artifact-oriented | mandatory |
+| C23 | transversal | analytical | mandatory |
+| C05.01 | transversal | justificatory | mandatory |
+| C14 | extension | analytical | optional |
+| C20 | core | integrative | mandatory |
 
-- **Language Theory** → **Understand**  
-  *(interpretar e explicar a relação entre domínios reais e representações formais)*
 
-- **Formal Languages** → **Apply**  
-  *(modelar domínios por meio de alfabetos, cadeias e linguagens)*
 
-- **Homomorphisms and Codifications** → **Apply**  
-  *(mapear entidades do domínio para símbolos formais, em nível conceitual)*
+## 7. LO × Competency Mapping
 
-- **Analytical and Critical Thinking (FPK)** → **Analyze**  
-  *(avaliar adequação, identificar limitações e justificar escolhas de modelagem)*
-
-
-
-### Verb Annotation (Bloom-Aligned)
-
-- **Understand** → *interpret, explain, identify, describe*  
-- **Apply** → *model, represent, encode, construct*  
-- **Analyze** → *analyze, justify, differentiate, evaluate*
-
-
-
-### Summary Table for Competency C18
-
-| **Competency** | **Dispositions** | **Knowledge** | **Skill (Bloom + Verb Annotation)** |
-|---------------|-----------------|---------------|-------------------------------------|
-| **Model real-world problems using formal language concepts** | Epistemic rigor; Intellectual responsibility; Reflectiveness | Language Theory | **Understand** *(interpret, explain, identify, describe)* |
-|  |  | Formal Languages | **Apply** *(model, represent, construct)* |
-|  |  | Homomorphisms and Codifications | **Apply** *(map, encode, represent)* |
-|  |  | Analytical and Critical Thinking (FPK) | **Analyze** *(analyze, justify, differentiate, evaluate)* |
-
-
-## Competency C19 Specification
-
-### Competency Title  
-  Apply homomorphisms in formal languages
-
-
-
-### Textual Description
-
-Esta competência envolve a capacidade do aprendiz de **definir e aplicar homomorfismos sobre símbolos, cadeias e linguagens**, utilizando **codificações formais** para relacionar diferentes representações simbólicas de um mesmo domínio ou de domínios distintos.
-
-Os aprendizes devem demonstrar a capacidade de:
-- aplicar homomorfismos de forma consistente a alfabetos, cadeias e linguagens;
-- **analisar quais propriedades estruturais são preservadas, modificadas ou perdidas** sob tais transformações;
-- **justificar formalmente os limites da equivalência** entre representações, distinguindo claramente **correspondência estrutural** de **equivalência semântica**.
-
-Essa competência opera em **nível conceitual**, sem exigir implementação computacional de funções de codificação, e assume os homomorfismos como **instrumentos teóricos de análise e justificação**, não como mecanismos operacionais.
-
-- **Alinhamento CS2023**:  
-  TC.FLR — Formal Languages and Recognizers
-
-- **Learning Objectives atendidos**:  
-  LO8.1, LO8.2, LO8.3
-
-
-
-### Activation
-
-- **ActivationRole**: `supporting`  
-  A competência tem papel **de apoio**, sendo mobilizada para sustentar análises de equivalência e limites de codificação dentro da tarefa.
-
-- **ActivationMode**: `interpretative`  
-  O desempenho esperado envolve **interpretação e análise conceitual** das transformações formais e de seus efeitos estruturais.
-
-- **ActivationConstraint**: `mandatory`  
-  A competência é necessária sempre que a tarefa exige justificar relações entre diferentes representações simbólicas.
-
-
-
-### Knowledge Specification
-
-Os seguintes componentes de conhecimento são essenciais para a demonstração desta competência:
-
-#### Computing Knowledge (CS2023)
-
-- **Formal Languages**
-  - Alfabetos, cadeias e linguagens.
-  - Propriedades estruturais de linguagens independentes de semântica.
-
-- **Homomorphisms**
-  - Definição formal de homomorfismos sobre alfabetos e cadeias.
-  - Extensão de homomorfismos para linguagens.
-  - Preservação e transformação de propriedades linguísticas sob homomorfismos.
-
-- **Codifications**
-  - Codificações formais entre representações simbólicas.
-  - Condições formais de equivalência e não equivalência entre representações.
-
-#### Professional Knowledge (FPK — CC2020)
-
-- **Analytical and Critical Thinking**
-  - Avaliação das consequências estruturais de mapeamentos formais.
-  - Identificação de propriedades preservadas e não preservadas.
-  - Justificação rigorosa de afirmações sobre equivalência.
-
-
-
-### Disposition Specification
-
-As seguintes disposições apoiam a demonstração efetiva desta competência:
-
-- **Epistemic Rigor**
-  - Compromisso com definições precisas de mapeamentos e funções.
-  - Rejeição de noções intuitivas ou informais de equivalência.
-
-- **Intellectual Responsibility**
-  - Justificação cuidadosa de afirmações sobre preservação e transformação.
-  - Consciência explícita dos limites formais das codificações.
-
-- **Reflectiveness**
-  - Capacidade de distinguir correspondência estrutural de significado semântico.
-  - Reconhecimento de que equivalência formal não implica equivalência interpretativa.
-
-
-
-### Knowledge–Skill Pairing and Bloom’s Taxonomy Alignment
-
-- **Formal Languages** → **Understand**  
-  *(interpretar a estrutura de linguagens e suas propriedades relevantes)*
-
-- **Homomorphisms** → **Apply**  
-  *(definir e aplicar homomorfismos a símbolos, cadeias e linguagens)*
-
-- **Codifications** → **Apply**  
-  *(mapear e traduzir representações por meio de transformações formais)*
-
-- **Analytical and Critical Thinking (FPK)** → **Analyze**  
-  *(analisar propriedades preservadas, justificar limites e avaliar equivalência formal)*
-
-
-
-### Verb Annotation (Bloom-Aligned)
-
-- **Understand** → *interpret, explain, identify, describe*  
-- **Apply** → *define, apply, map, transform*  
-- **Analyze** → *analyze, justify, differentiate, evaluate*
-
-
-
-### Summary Table for Competency C19
-
-| **Competency** | **Dispositions** | **Knowledge** | **Skill (Bloom + Verb Annotation)** |
-|---------------|-----------------|---------------|-------------------------------------|
-| **Apply homomorphisms in formal languages** | Epistemic rigor; Intellectual responsibility; Reflectiveness | Formal Languages | **Understand** *(interpret, explain, identify, describe)* |
-|  |  | Homomorphisms | **Apply** *(define, apply, map, transform)* |
-|  |  | Codifications | **Apply** *(encode, translate, represent)* |
-|  |  | Analytical and Critical Thinking (FPK) | **Analyze** *(analyze, justify, differentiate, evaluate)* |
-
-
-
-## Competency C20 Specification
-
-### Competency Title
-    Model and analyze musical collections as formal languages
-
-
-
-### Textual Description
-
-Esta competência de nível de tarefa envolve a capacidade do aprendiz de **integrar conceitos, operações e representações da Teoria das Linguagens Formais** para **modelar coleções musicais como linguagens formais** e **analisar rigorosamente suas propriedades estruturais**.
-
-Os aprendizes devem demonstrar a capacidade de:
-- abstrair artefatos musicais em **símbolos, cadeias e linguagens**;
-- aplicar **operações algébricas** e **expressões regulares** para caracterizar coleções musicais;
-- analisar **transformações formais e codificações** entre diferentes representações;
-- justificar **propriedades, limites e consequências estruturais** por meio de definições precisas, exemplos mínimos, contraexemplos e argumentação lógica.
-
-Esta competência **sintetiza competências atômicas previamente definidas** em uma **análise formal coerente de um problema do mundo real**, sem exigir implementação algorítmica ou construção operacional de modelos reconhecedores.
-
-
-
-### Competency Composition
-
-Competência **composta**, formada pela integração das seguintes competências:
-
-- **C18** — Model real-world problems using formal language concepts  
-- **C17** — Apply operations on formal languages  
-- **C19** — Apply homomorphisms in formal languages  
-- **C04** — Define Regular Expressions for Finite Automata  
-- **C13′** — Interpret and apply algebraic notation for strings and languages  
-- **C05′** — Write mathematically rigorous answers  
-
-
-
-### Curricular Alignment
-
-- **CS2023 Knowledge Area:**  
-  TC.FLR — Formal Languages and Recognizers
-
-- **Task Association:**  
-  Task25.00 — *Coleção de Músicas*
-
-
-
-### Activation
-
-- **ActivationRole**: `core`  
-  Trata-se da **competência central da tarefa**, responsável por integrar e dar sentido global às competências atômicas mobilizadas.
-
-- **ActivationMode**: `integrative`  
-  O desempenho esperado envolve **síntese, articulação e integração** de múltiplos conhecimentos e habilidades formais.
-
-- **ActivationConstraint**: `mandatory`  
-  Esta competência representa o **resultado esperado da tarefa** e é necessariamente ativada.
-
-
-
-### Knowledge Specification
-
-#### Computing Knowledge (CS2023)
-
-- **Language Theory**
-  - Fundamentos da modelagem formal por meio de linguagens.
-
-- **Formal Languages**
-  - Alfabetos, cadeias e linguagens.
-  - Operações sobre linguagens e propriedades de fechamento.
-
-- **Regular Expressions**
-  - Especificação algébrica de linguagens regulares.
-
-- **Homomorphisms and Codifications**
-  - Mapeamentos formais entre representações simbólicas.
-  - Limites estruturais da equivalência formal.
-
-#### Professional Knowledge (FPK — CC2020)
-
-- **Analytical and Critical Thinking**
-  - Integração e avaliação de modelos formais.
-  - Justificação de propriedades e decisões de modelagem.
-
-- **Technical Written Communication**
-  - Documentação rigorosa de definições, raciocínios e conclusões.
-
-
-
-### Disposition Specification
-
-- **Epistemic Rigor**
-  - Compromisso com definições formais e argumentação lógica.
-
-- **Intellectual Responsibility**
-  - Coerência e precisão na integração de modelos e argumentos.
-
-- **Reflectiveness**
-  - Consciência explícita das suposições e limitações do modelo adotado.
-
-- **Persistence**
-  - Disposição para revisar modelos e argumentos diante de inconsistências.
-
-
-
-### Knowledge–Skill Pairing and Bloom’s Taxonomy Alignment
-
-- **Language Theory** → **Understand**  
-  *(interpretar conceitos fundamentais de modelagem formal)*
-
-- **Formal Languages** → **Apply**  
-  *(modelar coleções musicais e aplicar operações)*
-
-- **Regular Expressions** → **Apply**  
-  *(especificar linguagens de forma algébrica)*
-
-- **Homomorphisms and Codifications** → **Apply**  
-  *(relacionar representações simbólicas distintas)*
-
-- **Analytical and Critical Thinking (FPK)** → **Analyze**  
-  *(integrar, avaliar e justificar modelos formais)*
-
-- **Technical Written Communication (FPK)** → **Create**  
-  *(produzir documentação técnica rigorosa e coerente)*
-
-
-
-### Verb Annotation (Bloom-Aligned)
-
-- **Understand** → *interpret, explain, identify*  
-- **Apply** → *model, apply, specify, encode*  
-- **Analyze** → *analyze, integrate, justify, evaluate*  
-- **Create** → *document, articulate, synthesize, present*
-
-
-
-### Tabela — Estrutura de Agregação da Competência C20
-
-| **Competência Agregada** | **Título** | **Tipo** | **ActivationRole** | **ActivationMode** | **ActivationConstraint** | **Contribuição para C20** |
-|-------------------------|-----------|----------|---------------------|---------------------|---------------------------|---------------------------|
-| **C18** | Model real-world problems using formal language concepts | Atômica | core | constructive | mandatory | Responsável pela abstração inicial do domínio musical e pela definição formal de alfabetos, cadeias e linguagens que estruturam o problema. |
-| **C17** | Apply operations on formal languages | Atômica | core | analytical | mandatory | Sustenta a aplicação e análise de operações formais sobre linguagens, permitindo a caracterização estrutural das coleções musicais modeladas. |
-| **C19** | Apply homomorphisms in formal languages | Atômica | supporting | interpretative | mandatory | Apoia a análise de codificações e transformações formais entre diferentes representações simbólicas, esclarecendo limites de equivalência. |
-| **C04** | Define Regular Expressions for Finite Automata | Reutilizada | core | artifact-oriented | mandatory | Permite a especificação algébrica das coleções musicais por meio de expressões regulares, complementando a análise formal. |
-| **C13′** | Interpret and apply algebraic notation for strings and languages | Reutilizada | transversal | analytical | mandatory | Fornece a base notacional e algébrica necessária para expressar linguagens, operações e propriedades de forma rigorosa. |
-| **C05′** | Write mathematically rigorous answers | Reutilizada | transversal | justificatory | mandatory | Garante a produção de evidências textuais rigorosas, com definições, exemplos, contraexemplos e justificações formais integradas. |
-
-
-
-
-
-
-### Mapeamento LO × Competências (versão corrigida)
-
-| LO | Competências atendidas |
-|----|------------------------|
-| LO1.1 | C18, C13′ |
-| LO1.2 | C18, C13′ |
-| LO1.3 | C18, C13′ |
-| LO2.1 | C13′, C17 |
-| LO2.2 | C13′, C17 |
-| LO2.3 | C05′, C13′ |
-| LO3.1 | C17, C13′ |
+| **LO** | **Competencies Mobilized** |
+|---|---|
+| LO1.1 | C18, C23 |
+| LO1.2 | C18, C23 |
+| LO1.3 | C18, C23 |
+| LO2.1 | C23, C17 |
+| LO2.2 | C23, C17 |
+| LO2.3 | C05.01, C23 |
+| LO3.1 | C17, C23 |
 | LO3.2 | C17 |
-| LO3.3 | C17, C13′ |
+| LO3.3 | C17, C23 |
 | LO3.4 | C17 |
 | LO4.1 | C17 |
-| LO4.2 | C13′, C17 |
+| LO4.2 | C23, C17 |
 | LO4.3 | C17 |
-| LO5.1 | C13′, C17 |
-| LO5.2 | C17, C05′ |
-| LO5.3 | C05′, C18 |
+| LO5.1 | C23, C17 |
+| LO5.2 | C17, C05.01 |
+| LO5.3 | C05.01, C18 |
 | LO6.1 | C04, C14 |
-| LO6.2 | C04, C13′ |
+| LO6.2 | C04, C23 |
 | LO6.3 | C14 |
 | LO7.1 | C04 |
-| LO8.1 | C19, C13′ |
+| LO7.2 | C04 |
+| LO8.1 | C19, C23 |
 | LO8.2 | C19, C18 |
-| LO8.3 | C19, C05′ |
-| LO9.1 | C05′ |
-| LO9.2 | C05′ |
-| LO9.3 | C05′ |
-| LO9.4 | C05′, C17 |
-| LO10.1 | C05 |
-| LO10.2 | C05′ |
-| LO10.3 | C05′ |
+| LO8.3 | C19, C05.01 |
+| LO9.1 | C05.01 |
+| LO9.2 | C05.01 |
+| LO9.3 | C05.01 |
+| LO9.4 | C05.01, C17 |
+| LO10.1 | C05.01 |
+| LO10.2 | C05.01 |
+| LO10.3 | C05.01 |
+
+
+
+## 8. Ontological Reading of the Competency Set
+
+The competency structure of TASK25.00 can be interpreted ontologically as follows:
+
+- **C18** provides the foundational abstraction of the real-world domain into symbols, strings, and languages.
+- **C17** supports the formal treatment of operations and their structural consequences.
+- **C19** addresses codifications and equivalence between symbolic representations.
+- **C04** contributes regular-expression-based intentional specification of languages.
+- **C23** functions as a transversal notational competency, enabling learners to reason explicitly through the algebraic language of strings and languages.
+- **C05.01** functions as a transversal justificatory competency, ensuring that answers are formally explicit and epistemically rigorous.
+- **C20** integrates all of the above into the task-level performance expected in the formal analysis of musical collections.
+
+This organization distinguishes clearly between:
+- **domain abstraction**,
+- **formal operations**,
+- **representational transformation**,
+- **algebraic notation**,
+- **mathematical justification**, and
+- **integrated task performance**.
+
+
+
+## 9. Conclusion
+
+The consolidated **CSP-Report of TASK25.00 — Coleção de Músicas** establishes a clear, traceable, and ontologically coherent competency structure for a task centered on the **formal modeling and analysis of symbolic collections** in a real-world-inspired domain. The task requires not only the construction of formal representations, but also the explicit justification of conclusions through algebraic notation, operations over languages, codification analysis, and mathematically rigorous written reasoning. 
+
+
+
+The resulting competency set combines reused competencies whose semantic scopes remain stable across contexts (**C04, C14, C18, C19**) with new competencies introduced to address task-specific needs (**C05.01, C17, C20, and C23**). In particular, the introduction of **C23 — Interpret and apply algebraic notation for strings and languages** resolves the semantic mismatch that would arise from overextending grammar-based competencies to a distinctly algebraic-notational context. Likewise, **C05.01** captures the task’s requirement that evidence take the form of **mathematically rigorous answers**, not merely conventional technical documentation.
+
+As a result, TASK25.00 is positioned not merely as an exercise in language manipulation, but as a task of **competency-based formal reasoning in Computation Theory**, in which learner performance can be assessed through explicit, structured, and semantically grounded evidence. This strengthens the alignment between the task demands, the competency catalog, and the OntoKSD model itself.
