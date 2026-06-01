@@ -1,85 +1,83 @@
-## CSP Phase 3 – Semantic Structuring Guide: Enhancing Reusability and Coherence in Competency Models
+## CSP Phase 3 — Semantic Structuring
 
+CSP Phase 3 organizes reviewed competence specifications into a coherent semantic structure supported by OntoKSD. While earlier phases focus on instructional entity analysis and task-level competence specification, this phase treats competences as a repository, enabling reuse, specialization, aggregation, and external alignment.
 
-### Purpose and Motivation
+The goal is not to proliferate competences, but to control their evolution. New competences should only be created when existing ones cannot adequately represent the intended meaning. Otherwise, competences should be reused, specialized, or linked to new instructional contexts through explicit OntoKSD constructs.
 
-**CSP Phase 3 – Semantic Structuring** aims to establish high-level semantic relationships among competency specifications to promote their **reuse**, **modularization**, and **contextual adaptability**. This phase emphasizes the creation of **hierarchies**, **semantic links**, and **conceptual mappings** that enable competencies to be meaningfully interpreted and applied across diverse instructional contexts.
-
-By analyzing the entire repository of defined competencies—supported by their formal representation in the **OntoKSD ontology**—this phase seeks to identify **generalizations, specializations**, and **structural patterns** that span multiple tasks. The resulting semantic network enhances **coherence across the curriculum**, fosters **interoperability**, and enables **automated reasoning** for tasks such as recommendation, validation, and learning pathway design.
+Semantic structuring enhances curriculum coherence by making relationships among competences explicit. It supports the distinction between atomic and composite competences, controlled specialization, reuse across tasks, and alignment with external frameworks such as CC2020, CS2023, and BNCC Computing.
 
 
 
 ### Semantic Structuring Guidelines
 
-1. **Identify similar competencies for reuse or alignment**
-   Review the repository of defined competencies to detect overlaps, redundancies, or near-duplicates. Recognizing these similarities enables **reuse of existing competencies** and **alignment of new ones**, promoting consistency across the framework.
+1. **Check for reusable competences**
+   Review the repository before creating new competences. Prefer reuse when the same competence can be activated in a new context without semantic change.
 
-2. **Generalize overly specific competencies**
-   Analyze narrowly defined competencies and reformulate them at a more abstract level. Generalized competencies preserve core meanings while broadening their applicability across **multiple contexts**, enhancing reusability and modular design.
+2. **Identify overlaps and redundancies**
+   Detect near-duplicates or terminological inconsistencies. Merge, rename, or relate equivalent competences as needed.
 
-3. **Specialize broad competencies for specific contexts**
-   Deconstruct broad or generic competencies into more **detailed, context-sensitive formulations**. Specialization ensures that generalized statements are **tailored to particular learning environments**, instructional goals, or professional profiles.
+3. **Generalize when reuse is too narrow**
+   If a competence is overly tied to a specific task or artifact, abstract its core meaning to increase applicability.
 
-4. **Aggregate complementary competencies**
-   Identify competencies that are conceptually related or frequently co-occurring and **combine them into composite structures**. This aggregation captures **higher-level capabilities** and simplifies curricular modeling by bundling related skill sets under unified statements.
+4. **Specialize when context requires precision**
+   When a competence is too broad, create a controlled specialization that preserves its conceptual base while adding contextual constraints.
 
-5. **Propose semantic relations between competencies**
-   Explicitly define semantic relationships such as `generalizes`, `specializes`, `composes`, or `equivalentTo` to express **hierarchical, compositional, or equivalence relations** among competencies. For instance:
+5. **Aggregate into composite competences**
+   Group complementary competences when meaning depends on their coordinated mobilization.
 
-   * A general competency may *generalize* a more specific one.
-   * Several focused competencies may be *composed* into a broader one.
+6. **Separate activation from competence identity**
+   Do not create new competences solely due to contextual variation. Represent usage through activation (e.g., target, required, assessed).
 
-6. **Document and encode relations in RDF/OWL**
-   Translate identified relationships into **formal ontological representations** using RDF triples or OWL axioms. Ensure that:
+7. **Document external alignment explicitly**
+   Link competences to frameworks (e.g., CC2020, CS2023, BNCC) without replacing internal OntoKSD definitions.
 
-   * All semantic links are machine-readable.
-   * Human-readable documentation is maintained to explain the rationale behind each relation and any modifications made to competency definitions during this phase.
+8. **Record modeling rationale**
+   Document the reasoning behind reuse, specialization, aggregation, or creation decisions.
+
+9. **Encode relations in OntoKSD**
+   Represent validated relations in RDF/OWL while preserving human-readable documentation.
 
 
 
 ### Inputs
 
-The inputs for this phase include:
+* Reviewed competence specifications from prior CSP phases
+* Instructional entity analysis reports
+* Reviewer feedback and implemented revisions
+* Existing OntoKSD competence repository
+* Controlled vocabularies (knowledge, skills, Bloom levels, dispositions)
+* External curricular frameworks (when applicable)
 
-* A curated set of **reviewed competencies** produced in earlier phases of the CSP process.
-* **Reference models and vocabularies** from competency ontologies (e.g., *OntoKSD*) or standardized repositories.
-
-These elements provide the semantic content to be analyzed as well as the conceptual benchmarks for comparison and alignment during the structuring process.
 
 
 ### Outputs
 
-This phase produces the following deliverables:
+* **Semantically organized competence set**
+  (reuse, specialization, aggregation, or creation)
 
-* **Refined competency set**, featuring competencies that have been:
+* **Explicit competence relations**
+  (e.g., specialization, aggregation, equivalence, dependency, alignment)
 
-  * **Generalized**, to support broader applicability;
-  * **Specialized**, to align with specific contexts;
-  * **Aggregated**, to express composite skill sets.
-    These refinements enhance modularity and reusability within the competency framework.
+* **Activation-aware mappings**
+  (distinguishing competence identity from contextual use)
 
-* **Formalized semantic relationships**, represented through:
+* **External alignment records**
+  (links to CC2020, CS2023, BNCC, etc.)
 
-  * **RDF triples** or **OWL axioms**, indicating structured links such as:
+* **Rationale documentation**
+  (supporting traceability and future reuse)
 
-    * `generalizes`
-    * `specializes`
-    * `composes`
-    * `equivalentTo`
+* **RDF/OWL-ready representations**
+  (for ontology instantiation and querying)
 
-* **Supporting documentation**, which includes:
-
-  * Explanations of the rationale behind each semantic link.
-  * Justifications for transformations or structural refinements.
-  * Guidance for future updates, validation, and stakeholder communication.
-
-This documentation ensures transparency, maintainability, and shared understanding of the semantic structure of the competency model.
 
 
 ### Conclusion
 
-The Semantic Structuring phase represents a critical step in evolving the competency specification process from isolated task-level definitions to an integrated, modular, and conceptually coherent framework. By identifying generalizations, specializations, and structural relationships among competencies, this phase enhances both the reusability and pedagogical alignment of the competency repository.
+Semantic structuring transforms isolated competence specifications into a coherent and reusable repository. By enabling controlled reuse, specialization, aggregation, and contextual activation, this phase strengthens both consistency and maintainability.
 
-Through the use of formal representations in RDF/OWL and grounded in the OntoKSD ontology, the relationships established during this phase not only promote human-readable transparency but also enable machine-readable inferences for educational tools and systems.
+A key principle in OntoKSD is the separation between competence identity and instructional activation. This allows the same competence to be reused across contexts, activated differently, linked to diverse evidence, and aligned with external frameworks—without semantic drift.
 
-As a result, the competency model becomes more scalable, maintainable, and interoperable—facilitating adaptive curriculum design, learning pathway generation, and evidence-based validation. Future iterations of the CSP should continue to refine these relationships, incorporating additional domain expertise and empirical feedback from instructional deployments.
+The resulting structure supports both human interpretation and machine-processable representation, enabling ontology instantiation, querying, validation, and curriculum analysis in competency-oriented Computing Education.
+
+

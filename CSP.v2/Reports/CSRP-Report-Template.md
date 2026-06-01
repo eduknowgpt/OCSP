@@ -1,37 +1,59 @@
 # CSP Phase 2 - Expert Review Template Report
 
-## 1. Introduction
+### Purpose
 
-As part of the CSP, a series of **guided interviews** were conducted with expert reviewers to evaluate the accuracy, clarity, and alignment of competency specifications within the PBL cases.
+This section documents the review of CSP artifacts by collaborators with domain or pedagogical expertise. The review focuses on the quality of the produced artifacts, especially the clarity, consistency, and alignment of the instructional entity analysis and the resulting competence specifications.
 
-The primary goal of these interviews was to **identify inconsistencies, ambiguities, and areas for improvement** in the definition of competencies, ensuring that they align with **learning objectives, knowledge elements, and skill applications**. The discussions were structured around key aspects of the competency specification process, including:  
-
-- **Knowledge Granularity** → Assessing whether the level of detail in knowledge classifications was appropriate.  
-- **Controlled Vocabulary** → Ensuring consistency in terminology and competency descriptions.  
-- **Bloom’s Taxonomy Verbs** → Evaluating the effectiveness of action verbs in describing expected learning outcomes.  
-- **Textual Clarity in Competency Descriptions** → Identifying ambiguities and improving the precision of competency titles and descriptions.  
-- **Knowledge Relevance and Appropriateness** → Determining whether the listed knowledge elements were **relevant, applicable, and correctly mapped** to the task requirements.  
-
-The feedback gathered from these interviews was **instrumental in refining the competency specification process**, leading to **modifications in knowledge categorization, vocabulary standardization, competency restructuring, and textual improvements**. The following transcription presents **key excerpts from the reviewers' feedback**, categorized according to the main themes discussed during the evaluation.  
-
-This structured review ensures that competency descriptions are **accurate, pedagogically sound, and aligned with educational objectives**, ultimately contributing to a **more effective competency-based learning model**.  
-
-## 2. Summary of Recommendations
-
-Summarize the major changes to be made based on the review, such as:
-- Additions/removals in knowledge components
-- Revised learning objectives
-- Merged or renamed competencies
-- Adjusted Bloom-level alignments
+This activity does not aim to collect personal, sensitive, or behavioral data from reviewers. Collaborators act as artifact reviewers by providing technical and pedagogical feedback on documents, models, and specifications produced within the CSP. Therefore, the review is treated as an expert-based artifact evaluation procedure, not as an intervention or data collection process involving human participants as research subjects.
 
 
 
-## 3. Conclusion and Next Steps
+### 1. Review Scope
 
-Reflect on:
-- The impact of the review on the clarity, pedagogical strength, and alignment of the competency set.
-- How the findings will inform future iterations of the CSP or similar tasks.
-- Recommended actions for finalizing the task-competency package.
+> **[Identify the artifact or set of artifacts reviewed]**
 
+**Guidance:** Indicate whether the review concerns an instructional entity analysis report, competence specification, knowledge–skill pairing, disposition selection, Bloom-level alignment, evidence mapping, or task–competence package.
+
+
+
+### 2. Review Criteria
+
+The artifact review is guided by the following criteria:
+
+* **Knowledge granularity:** whether the selected knowledge components are described at an appropriate level of detail.
+* **Terminological consistency:** whether controlled vocabulary is used consistently across competence titles, descriptions, knowledge elements, skills, and dispositions.
+* **Bloom-level alignment:** whether the selected action verbs and cognitive levels adequately express the expected learner performance.
+* **Textual clarity:** whether competence titles, descriptions, and supporting explanations are clear, precise, and free of ambiguity.
+* **Knowledge relevance:** whether the listed knowledge elements are relevant, applicable, and correctly related to the task requirements.
+* **Instructional alignment:** whether the competence specifications are coherent with the learning objectives, expected outputs, evidence, and assessment conditions of the instructional entity.
+
+
+
+### 3. Summary of Recommendations
+
+Summarize the changes recommended after the review, such as:
+
+* adding, removing, or refining knowledge components;
+* revising competence titles or descriptions;
+* merging, splitting, or renaming competences;
+* adjusting Bloom-level alignments;
+* replacing ambiguous verbs with controlled vocabulary terms;
+* refining dispositions associated with the task;
+* improving evidence descriptions or assessment alignment;
+* clarifying prerequisite and target competences.
+
+
+
+### 4. Implemented Revisions
+
+> **[Describe which recommendations were incorporated]**
+
+**Guidance:** Record the changes actually made to the artifact after the review. When a recommendation is not incorporated, briefly justify the decision.
+
+
+
+### 5. Conclusion
+
+The reviewer-based artifact review contributes to the refinement of CSP outputs by improving conceptual clarity, pedagogical coherence, terminological consistency, and alignment between instructional entities and competence specifications. The resulting revisions provide a more reliable basis for subsequent ontology instantiation, validation, and reuse.
 
 

@@ -1,8 +1,8 @@
-# TASK25.5 – CSP-Report
+# TASK25.23 – CSP-Report
 
 ## Introduction
 
-This CSP-Report documents the competency specification of **TASK25.5 – Interactive Quiz: Fundamental Concepts of Hardware and Software**, an instructional task conducted with 1st-year students of the Integrated Technical Program in Informatics at IFBA.
+This CSP-Report documents the competency specification of **TASK25.23 – Interactive Quiz: Fundamental Concepts of Hardware and Software**, an instructional task conducted with 1st-year students of the Integrated Technical Program in Informatics at IFBA.
 
 The task uses a 15-question interactive quiz on Kahoot to review and consolidate concepts from a theoretical block on computer architecture, including hardware components, software categories, basic system organization, and relationships between hardware, software, and performance. 
 
