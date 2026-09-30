@@ -46,19 +46,6 @@ These artifacts feed directly into **OntoKSD**, enabling reasoning, validation, 
 
 ```markdown
 /
-├── 📂 CSP.v1/                             # First version of the Competency Specification Process
-│   ├── 📁 2021/
-│   │   ├── 🌐 en/                          # English task analyses
-│   │   │   └── 📄 TaskXX/                  # Problem + CSP report + refinements
-│   │   └── 🇧🇷 pt/                          # Portuguese task analyses
-│   │       └── 📄 TarefaXX/
-│   ├── 📁 2022/
-│   │   ├── 🌐 en/
-│   │   └── 🇧🇷 pt/
-│   ├── 📝 Forms/                           # Instructional Entity Analysis templates
-│   ├── 📘 Reports/                         # CSP templates, review protocol, post-analysis docs
-│   └── 📄 Syllabus_Theory_Computation.md   # Reference syllabus for competency mapping
-│
 ├── 📂 CSP.v2/                              # Refined and expanded version of the CSP
 │   ├── 📁 2021/
 │   │   ├── 🌐 en/                          # Revised CSP analyses (+ refinement cycles)
