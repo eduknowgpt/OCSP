@@ -26,25 +26,25 @@ The expected deliverables include:
 To effectively address the problem proposed in this task, students are expected to mobilize the following theoretical and practical knowledge areas, each supporting specific aspects of modeling, justification, or validation:
 
 - Turing Machines  
-  Knowledge of the structure and operation of Turing Machines is required to model systems that depend on multiple interacting memory structures, such as counters for availability and denied requests across distinct user categories.
+  - Knowledge of the structure and operation of Turing Machines is required to model systems that depend on multiple interacting memory structures, such as counters for availability and denied requests across distinct user categories.
 
 - Variants of Turing Machines  
-  Understanding common variants (e.g., multi-tape Turing Machines) supports clearer organization and modularization of control mechanisms, enabling more structured representations of complex system behavior without increasing computational power.
+  - Understanding common variants (e.g., multi-tape Turing Machines) supports clearer organization and modularization of control mechanisms, enabling more structured representations of complex system behavior without increasing computational power.
 
 - Church–Turing Thesis  
-  Familiarity with the Church–Turing Thesis provides the theoretical foundation for arguing that the selected model captures the class of effectively computable behaviors required by the problem.
+  - Familiarity with the Church–Turing Thesis provides the theoretical foundation for arguing that the selected model captures the class of effectively computable behaviors required by the problem.
 
 - Chomsky Hierarchy  
-  Knowledge of the Chomsky Hierarchy allows students to situate the problem within the landscape of formal languages and automata, supporting comparison of model capabilities under the assumptions of the parking representation.
+  - Knowledge of the Chomsky Hierarchy allows students to situate the problem within the landscape of formal languages and automata, supporting comparison of model capabilities under the assumptions of the parking representation.
 
 - Modeling and Simulation  
-  Competence in modeling and simulation tools—particularly JFLAP—is required to implement, execute, and validate the proposed machine model under representative input scenarios.
+  - Competence in modeling and simulation tools—particularly JFLAP—is required to implement, execute, and validate the proposed machine model under representative input scenarios.
 
 - Analytical and Critical Thinking  
-  Analytical reasoning supports the justification of modeling choices and the evaluation of alternative representations.
+  - Analytical reasoning supports the justification of modeling choices and the evaluation of alternative representations.
 
 - Written Communication  
-  The ability to produce clear and structured technical documentation is required to communicate design decisions, theoretical justification, and validation results in the final report following SBC standards.
+  - The ability to produce clear and structured technical documentation is required to communicate design decisions, theoretical justification, and validation results in the final report following SBC standards.
 
 ## 3. Learning Objectives and Expected Outcomes
 

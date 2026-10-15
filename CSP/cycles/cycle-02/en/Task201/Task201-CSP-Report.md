@@ -74,14 +74,14 @@ The levels below describe the quality of performance against the task objectives
 
 The proficiency scale reflects increasing levels of competency enactment in terms of modeling completeness, correctness, and conceptual justification. Progression across levels corresponds to observable differences in the learner’s ability to construct, validate, and justify formal computational models.
 
-* Novice:  
-  Produces a partial FSM that captures only a subset of the required surveillance events. The model exhibits limited state coverage, incomplete transition handling, or inconsistent responses to edge cases. Demonstrates emerging understanding of state-based modeling but requires guidance to ensure completeness and correctness.
+*  **Novice** *(0.0 ≤ grade ≤ 5.0)*
+  - Produces a partial FSM that captures only a subset of the required surveillance events. The model exhibits limited state coverage, incomplete transition handling, or inconsistent responses to edge cases. Demonstrates emerging understanding of state-based modeling but requires guidance to ensure completeness and correctness.
 
-* Competent:  
-  Develops a complete and coherent FSM that represents all specified environmental events and system reactions. Correctly defines states and transitions, and successfully simulates and validates system behavior across representative scenarios. Demonstrates the ability to apply FSM concepts consistently to satisfy task requirements.
+* **Competent** *(5.0 < grade ≤ 9.0)*  
+  - Develops a complete and coherent FSM that represents all specified environmental events and system reactions. Correctly defines states and transitions, and successfully simulates and validates system behavior across representative scenarios. Demonstrates the ability to apply FSM concepts consistently to satisfy task requirements.
 
-* Advanced:  
-  Produces an optimized FSM supported by explicit justification of modeling decisions, including state or transition minimization and abstraction strategies. Demonstrates analytical reasoning about model structure (e.g., generalizing rules for estimating FSM size based on monitored events) and communicates design decisions through clear, structured technical justification.
+* **Advanced** *(9.0 < grade ≤ 10.0)*  
+  - Produces an optimized FSM supported by explicit justification of modeling decisions, including state or transition minimization and abstraction strategies. Demonstrates analytical reasoning about model structure (e.g., generalizing rules for estimating FSM size based on monitored events) and communicates design decisions through clear, structured technical justification.
 
 ## 2. Knowledge Enumeration
 
@@ -90,13 +90,13 @@ To address the task effectively, students are expected to mobilize a set of task
 The following knowledge areas are therefore considered essential for task execution:
 
 * Finite State Machines (FSMs):  
-  Understanding states, transitions, determinism, and behavioral abstraction, as well as the use of simulation tools such as JFLAP to validate state-based models. This knowledge supports the construction, simulation, and justification of formal behavioral models.
+  - Understanding states, transitions, determinism, and behavioral abstraction, as well as the use of simulation tools such as JFLAP to validate state-based models. This knowledge supports the construction, simulation, and justification of formal behavioral models.
 
 * Regular Languages:  
-  Understanding the class of languages recognizable by FSMs and their role in characterizing admissible sequences of events and system behaviors. This knowledge enables learners to reason about the expressive limits and correctness of the proposed model.
+  - Understanding the class of languages recognizable by FSMs and their role in characterizing admissible sequences of events and system behaviors. This knowledge enables learners to reason about the expressive limits and correctness of the proposed model.
 
 * Regular Expressions:  
-  Employing symbolic representations to describe event patterns and transition conditions that can be mapped to FSM structures, supporting abstraction and systematic model construction.
+  - Employing symbolic representations to describe event patterns and transition conditions that can be mapped to FSM structures, supporting abstraction and systematic model construction.
 
 These knowledge components are mobilized to formally model surveillance behavior, validate system logic through simulation, and reason about structural properties of the FSM, including the estimation and justification of the number of states and transitions required as a function of monitored events.
 

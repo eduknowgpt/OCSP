@@ -149,10 +149,10 @@ Creativity
 
 | Competency                                      | Dispositions                                       | Knowledge                    | Skill                                     |
 | --------------------------------------------------- | ------------------------------------------------------ | -------------------------------- | --------------------------------------------- |
-| Understand the Halting Problem and its Implications | Collaboration, Responsibility, Proactivity, Creativity | Halting Problem                  | Understand (Describe, Explain, Justify)   |
-|                                                     |                                                        | Computability                    | Understand (Classify, Recognize, Explain) |
-|                                                     |                                                        | Turing Machines                  | Understand (Explain, Relate)              |
-|                                                     |                                                        | Analytical and Critical Thinking | Apply (Evaluate, Structure, Argue)        |
+| Understand the Halting Problem and its Implications | Collaboration, Responsibility, Proactivity, Creativity | Halting Problem | Understand (Describe, Explain, Justify) |
+|  |  | Computability | Understand (Classify, Recognize, Explain) |
+|  |  | Turing Machines | Understand (Explain, Relate) |
+|  |  | Analytical and Critical Thinking | Apply (Evaluate, Structure, Argue) |
 
 ### 3.2 *C16 — Interpret Turing Machine Concepts to Analyze Computational System Capabilities*
 
@@ -280,8 +280,8 @@ Creativity
 | Competency | Dispositions | Knowledge | Skill |
 |---|---|---|---|
 | Interpret Turing Machine Concepts to Analyze Computational System Capabilities | Collaboration, Responsibility, Proactivity, Creativity | Turing Machines | Understand (Explain, Relate, Interpret) |
-| | | Computability | Understand (Classify, Distinguish, Explain) |
-| | | Analytical and Critical Thinking | Apply (Analyze, Structure, Justify) |
+|  |  | Computability | Understand (Classify, Distinguish, Explain) |
+|  |  | Analytical and Critical Thinking | Apply (Analyze, Structure, Justify) |
 
 ## 4. Adjustments to Reused Competencies
 
@@ -396,3 +396,7 @@ Collectively, these adjustments preserve the seven selected competency identifie
 These CSP-Adjustments formalize the transition from expert judgment (CSRP) to authoritative competency specification (CSP).
 
 TASK204 documents the introduction of C15 and C16 and the subsequent differentiation of core, supporting, extension, and transversal roles. The reports support tracing these specification decisions. They do not, by themselves, establish measured learning outcomes or verification of an implemented ontology.
+
+## Post-cycle reference alignment — RF-01-03
+
+On 2 October 2026, repeated component tables were aligned with the documented reference specifications for C16. This maintenance preserves competency identities, origins and existing task activation labels. The earlier file is retained in the refinement archive. The decisions and their scope are recorded in the [post-cycle refinement report](<../../../CSP-Post-Cycle-Refinement-Report.md>).

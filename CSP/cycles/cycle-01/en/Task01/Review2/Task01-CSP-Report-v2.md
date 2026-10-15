@@ -44,9 +44,11 @@ The revised association improves alignment among:
 | ID | Competency | Dispositions | Knowledge | Skill |
 | --- | --- | --- | --- | --- |
 | C01 | Develop problem solutions using Automata | Collaborative, Responsible, Proactive, Creative | Finite State Machines | Create (Construct, Develop, Design) |
-| C06 | Develop problem solutions using Finite State Machines *(additive refinement)* | Collaborative, Responsible, Proactive, Creative | Finite State Machines | Create (Construct, Develop, Design) |
 |  |  |  | Requirements Engineering | Apply (Interpret, Implement, Organize) |
 |  |  |  | Analytical and Critical Thinking (FPK) | Apply |
+| C06 | Develop problem solutions using Finite State Machines (additive refinement) | Inventive, Collaborative, Responsible, Proactive, Creative | Finite State Machines | Create (Design, Develop, Construct) |
+|  |  |  | Requirements Engineering | Apply (Interpret, Specify, Translate) |
+|  |  |  | Analytical and Critical Thinking (FPK) | Apply (Analyze, Justify, Evaluate) |
 | C02 | Justify the use of Deterministic Finite Automata (DFAs) | Investigative, Collaborative, Responsible, Proactive, Creative | Deterministic Finite Automata (DFAs) | Understand (Interpret, Explain) |
 |  |  |  | Requirements Engineering | Apply |
 |  |  |  | Analytical and Critical Thinking (FPK) | Apply |
@@ -61,3 +63,7 @@ The revised association improves alignment among:
 ## Conclusion
 
 The second CSP iteration improves the precision of the Task01 competency set by adding an existing finite-state-specific competency. C01 remains unchanged, while C06 makes the finite-state scope explicit. This additive decision preserves backward compatibility, historical traceability, and the possibility of reusing both the broader and the more specific competencies in appropriate contexts.
+
+## Post-cycle reference alignment — RF-01-03
+
+On 2 October 2026, repeated component tables were aligned with the documented reference specifications for C01, C02, C03, C04, C05, C06. This maintenance preserves competency identities, origins and existing task activation labels. The earlier file is retained in the refinement archive. The decisions and their scope are recorded in the [post-cycle refinement report](<../../../../CSP-Post-Cycle-Refinement-Report.md>).

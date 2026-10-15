@@ -151,17 +151,17 @@ Students must demonstrate the ability to:
 | ID  | Competency | Dispositions | Knowledge | Skill |
 |---------|--------|-----------|-----------|-------------------|
 | (C01) | Develop problem solutions using Automata | Collaborative, Responsible, Proactive, Creative | Finite State Machines | Create (Construct, Develop, Design) |
-|         |                                   |                                 | Requirements Engineering | Apply (Interpret, Implement, Organize) |
-|         |                                   |                                 | Analytical and Critical Thinking (FPK) | Apply |
+|  |  |  | Requirements Engineering | Apply (Interpret, Implement, Organize) |
+|  |  |  | Analytical and Critical Thinking (FPK) | Apply |
 | (C02) | Justify the use of Deterministic Finite Automata (DFAs) | Investigative, Collaborative, Responsible, Proactive, Creative | Deterministic Finite Automata (DFAs) | Understand (Interpret, Explain) |
-|         |                                   |                                 | Requirements Engineering | Apply |
-|         |                                   |                                 | Analytical and Critical Thinking (FPK) | Apply |
+|  |  |  | Requirements Engineering | Apply |
+|  |  |  | Analytical and Critical Thinking (FPK) | Apply |
 | (C03) | Test automata using simulators | Collaborative, Responsible, Proactive, Creative | Finite State Machines | Apply (Experiment, Relate, Simulate) |
-|         |                                   |                                 | Problem Solving and Troubleshooting (FPK) | Apply |
-|         |                                   |                                 | Modeling and Simulation | Apply |
+|  |  |  | Problem Solving and Troubleshooting (FPK) | Apply |
+|  |  |  | Modeling and Simulation | Apply |
 | (C04) | Define Regular Expressions for Finite Automata | Investigative, Collaborative, Responsible, Proactive, Creative | Finite State Machines | Understand |
-|         |                                   |                                 | Regular Expressions | Apply |
-|         |                                   |                                 | Analytical and Critical Thinking (FPK) | Apply |
+|  |  |  | Regular Expressions | Apply |
+|  |  |  | Analytical and Critical Thinking (FPK) | Apply |
 | (C05) | Write a technical report | Collaborative, Meticulous, Responsible | Written Communication (FPK) | Apply (Write, Structure, Revise, Refine) |
 
 ## Conclusion
@@ -170,3 +170,7 @@ The implemented adjustments increase the specificity of the knowledge components
 
 The planned vocabulary-mapping mechanism remains separate from these implemented adjustments. The validated Task01 specification provides input for the semantic structuring conducted in CSP Phase 3.
 
+
+## Post-cycle reference alignment — RF-01-03
+
+On 2 October 2026, repeated component tables were aligned with the documented reference specifications for C01, C02, C03, C04, C05. This maintenance preserves competency identities, origins and existing task activation labels. The earlier file is retained in the refinement archive. The decisions and their scope are recorded in the [post-cycle refinement report](<../../../CSP-Post-Cycle-Refinement-Report.md>).

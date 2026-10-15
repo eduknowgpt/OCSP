@@ -116,9 +116,9 @@ The disposition labels Responsibility, Reflective, and Collaborative below abbre
 
 | Competency                      | Dispositions                                               | Knowledge                                   | Skill (Bloom-aligned) |
 |------------------------------------|----------------------------------------------------------------|-------------------------------------------------|---------------------------|
-| Interpret formal grammar-based rules | Analytical Rigor, Responsibility, Reflective, Collaborative    | Context-Free Grammars                           | Understand            |
-|                                    |                                                                | Pushdown Automata                               | Analyze               |
-|                                    |                                                                | Formal Reasoning in Computation Theory          | Analyze               |
+| Interpret formal grammar-based rules | Analytical Rigor, Responsibility, Reflective, Collaborative | Context-Free Grammars | Understand |
+|  |  | Pushdown Automata | Analyze |
+|  |  | Formal Reasoning in Computation Theory | Analyze |
 
 #### Subsumption Note
 
@@ -144,7 +144,7 @@ The CSP is adjusted with the following procedural rule:
 
 This distinction must be documented in the Competency Specification and, when applicable, reviewed in the corresponding CSRP-Report.
 
-## 4. Ontological Impact (OntoKSD)
+## 4. Ontological Impact
 
 From an ontological perspective, this adjustment:
 
@@ -199,3 +199,7 @@ This table records the adjusted association of C13.01 with Task202. C13 remains 
 | Cognitive level clarification | The adjusted C13.01 specification retains interpretative and analytical scope | Interpretation ≠ construction | Specification of Bloom levels (Understand / Analyze) in the adjustment | Prevents cognitive misalignment in assessment |
 | Expert review impact | CSRP captured expert concerns and recommendations | Feedback affected competency structure, not task design | Consolidation of CSRP-Report as decision artifact | Confirms CSP as evidence-driven lifecycle |
 | Controlled evolution of competency set | Adjustments applied only where justified | Not all tensions require new competencies | Establishment of criteria for specialization vs. adjustment | Improves governance of competency evolution |
+
+## Post-cycle reference alignment — RF-01-03
+
+On 2 October 2026, repeated component tables were aligned with the documented reference specifications for C13.01. This maintenance preserves competency identities, origins and existing task activation labels. The earlier file is retained in the refinement archive. The decisions and their scope are recorded in the [post-cycle refinement report](<../../../CSP-Post-Cycle-Refinement-Report.md>).

@@ -27,35 +27,35 @@ To fulfill the task objectives, students are expected to mobilize the following 
 The decision version of TSP is NP-complete; the optimization version is NP-hard. This classification does not by itself explain an individual TLE result, which depends on the algorithm, input, implementation, and time limit. A timeout establishes that the limit was exceeded, not that execution would continue forever. Undecidability concerns a general termination procedure for arbitrary programs and inputs; it does not exclude conclusions about particular programs. These distinctions follow the standard treatments of [computability](https://www.cs.cornell.edu/courses/cs4820/2019sp/handouts/computability.pdf) and [TSP complexity](https://www.cs.cornell.edu/courses/cs6820/2020fa/handouts/Kozen_21-24.pdf).
 
 - Halting Problem  
-  Understanding the undecidability of program termination and its implications for automated evaluation systems.
+  - Understanding the undecidability of program termination and its implications for automated evaluation systems.
 
 - Computational Complexity (P, NP, NP-Complete Problems)  
-  Understanding the decision and optimization formulations of TSP and examining complexity alongside input size, implementation, and execution limits when explaining TLE.
+  - Understanding the decision and optimization formulations of TSP and examining complexity alongside input size, implementation, and execution limits when explaining TLE.
 
 ### Supporting Formal Knowledge
 
 - Finite State Machines (FSM)  
-  Modeling observable system behavior and representing evaluation outcomes through formal state transitions.
+  - Modeling observable system behavior and representing evaluation outcomes through formal state transitions.
 
 - Chomsky Hierarchy  
-  Positioning computational models within a broader theoretical framework to support reasoning about expressive limitations.
+  - Positioning computational models within a broader theoretical framework to support reasoning about expressive limitations.
 
 - Turing Machines and Universal Turing Machines  
-  Understanding Turing Machines as reference models for computability, supporting conceptual reasoning about undecidability rather than requiring construction or simulation.
+  - Understanding Turing Machines as reference models for computability, supporting conceptual reasoning about undecidability rather than requiring construction or simulation.
 
 - Recursively Enumerable Languages  
-  Interpreting acceptance and semi-decidability in relation to program execution and termination behavior.
+  - Interpreting acceptance and semi-decidability in relation to program execution and termination behavior.
 
 ### Supporting Technical and Transversal Knowledge
 
 - Formal Modeling and Simulation (JFLAP)  
-  Implementing and validating FSM representations of system behavior.
+  - Implementing and validating FSM representations of system behavior.
 
 - Written Technical Communication  
-  Producing structured documentation that explains modeling decisions, theoretical justification, and system limitations.
+  - Producing structured documentation that explains modeling decisions, theoretical justification, and system limitations.
 
 - Analytical and Critical Thinking  
-  Supporting reasoning about computational limits, model adequacy, and interpretation of system behavior.
+  - Supporting reasoning about computational limits, model adequacy, and interpretation of system behavior.
 
 ## 3. Learning Objectives and Expected Outcomes
 

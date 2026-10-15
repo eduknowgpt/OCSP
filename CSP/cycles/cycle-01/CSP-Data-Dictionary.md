@@ -231,3 +231,9 @@ For a competency, use the first lifecycle event with event_type reused, ordered 
 10. Historical rows are excluded from current results.
 11. File paths identify the artifact supporting the relationship or event.
 12. Mapping titles match the canonical registry title unless the lifecycle explicitly records a rename.
+
+## Post-cycle refinement metadata — RF-01-03
+
+Refinement date: 2 October 2026. The original application year is unchanged. `include_in_pre_refinement_analysis` preserves membership in the pre-refinement current set; `include_in_current_analysis` selects the maintained set. `post_cycle_refinement_id` and `refinement_date` identify updated mappings. `reference_refinement_id` identifies reconciled definition references in the registry. Lifecycle events use `reference_alignment` or `association_added`, `specification_stage=post_cycle_refinement`, an explicit date and `refinement_id=RF-01-03`. Earlier events retain their previous dates and point to archived evidence where the source was updated. No review or approval is inferred. See the [refinement report](../CSP-Post-Cycle-Refinement-Report.md).
+
+Task–competency membership and quantitative totals for this cycle are unchanged.

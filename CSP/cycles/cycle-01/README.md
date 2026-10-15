@@ -164,3 +164,9 @@ When a competency or task relationship changes:
 4. update aggregate counts in `CSP-Competency-Registry.csv`;
 5. regenerate `CSP-Competency-Task-Matrix.md`;
 6. verify that identifiers, origins, titles, and counts remain consistent.
+
+## Post-cycle refinement metadata — RF-01-03
+
+Refinement date: 2 October 2026. The original application year is unchanged. `include_in_pre_refinement_analysis` preserves membership in the pre-refinement current set; `include_in_current_analysis` selects the maintained set. `post_cycle_refinement_id` and `refinement_date` identify updated mappings. `reference_refinement_id` identifies reconciled definition references in the registry. Lifecycle events use `reference_alignment` or `association_added`, `specification_stage=post_cycle_refinement`, an explicit date and `refinement_id=RF-01-03`. Earlier events retain their previous dates and point to archived evidence where the source was updated. No review or approval is inferred. See the [refinement report](../CSP-Post-Cycle-Refinement-Report.md).
+
+Task–competency membership and quantitative totals for this cycle are unchanged.

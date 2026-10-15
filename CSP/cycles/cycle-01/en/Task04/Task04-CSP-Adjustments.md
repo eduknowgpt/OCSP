@@ -21,7 +21,7 @@ The revisions preserve the instructional task and its expected outcomes. They al
 
 Pushdown Automata replaced Finite Automata wherever the knowledge element represents the model used to solve the return-navigation problem. The revised specification now refers explicitly to states, transitions, stack operations, route recording, and return-path behavior.
 
-Finite Automata remain only in the comparison between regular and context-free formalisms in C14.
+Finite Automata remain in the comparison between regular and context-free formalisms in C14 and in the preserved reference knowledge of reused C03. The task activates C03 with a PDA as the simulation target; this contextual use does not replace its FSM knowledge pairing.
 
 ### 2.2 Formal languages and grammars
 
@@ -138,8 +138,8 @@ Differentiate regular and context-free grammars and relate each class to its cor
 | C12 | Develop Problem-Solving Solutions Using Pushdown Automata | Revised | Inventive, Collaborative, Responsible, Proactive, Creative | Pushdown Automata — Create; Requirements Engineering — Apply; Analytical and Critical Thinking (FPK) — Apply |
 | C13 | Interpret Rule-Based Notation | Revised | Inventive, Collaborative, Responsible, Proactive, Creative | Context-Free Grammars — Understand; Pushdown Automata — Understand; Analytical and Critical Thinking (FPK) — Apply |
 | C14 | Differentiate Classifications of Formal Grammars | Revised | Inventive, Collaborative, Responsible, Proactive | Regular Languages — Understand; Context-Free Languages — Understand; Analytical and Critical Thinking (FPK) — Apply |
-| C03 | Testing Automata Using Simulators | Reused | Investigative, Collaborative, Responsible, Proactive, Creative | Finite State Machines — Apply; Problem Solving and Troubleshooting (FPK) — Apply; Modeling and Simulation — Apply |
-| C05 | Collaborative Technical Report Writing | Reused | Collaborative, Meticulous, Responsible | Written Communication (FPK) — Apply |
+| C03 | Testing Automata Using Simulators | Reused | Collaborative, Responsible, Proactive, Creative | Finite State Machines — Apply (Experiment, Relate, Simulate); Problem Solving and Troubleshooting (FPK) — Apply; Modeling and Simulation — Apply |
+| C05 | Collaborative Technical Report Writing | Reused | Collaborative, Meticulous, Responsible | Written Communication (FPK) — Apply (Write, Structure, Revise, Refine) |
 
 ## 5. Traceability of Review Recommendations
 
@@ -156,6 +156,10 @@ Differentiate regular and context-free grammars and relate each class to its cor
 
 ## 6. Conclusion
 
-The implemented revisions align the Task04 competency set with the computational demands of the return-navigation problem. Pushdown Automata are now the principal model for the solution, Context-Free Grammars support rule-based notation, and regular formalisms appear only in the comparison required by C14.
+The implemented revisions align the Task04 competency set with the computational demands of the return-navigation problem. Pushdown Automata are now the principal model for the solution, Context-Free Grammars support rule-based notation, and regular formalisms support C14, while the reusable C03 table preserves its reference knowledge.
 
 The report also consolidates Bloom levels and observable actions, documents the reuse of C03 and C05, and records how each expert recommendation was incorporated. These changes provide a consistent basis for subsequent semantic structuring.
+
+## Post-cycle reference alignment — RF-01-03
+
+On 2 October 2026, repeated component tables were aligned with the documented reference specifications for C03, C05, C14. This maintenance preserves competency identities, origins and existing task activation labels. The earlier file is retained in the refinement archive. The decisions and their scope are recorded in the [post-cycle refinement report](<../../../CSP-Post-Cycle-Refinement-Report.md>).

@@ -102,11 +102,11 @@ Analyze the structure and behavior of Finite State Machines to identify recurrin
 
 | ID | Competency | Status | Dispositions | Knowledge–skill pairing |
 | --- | --- | --- | --- | --- |
-| C06 | Develop Problem-Solving Solutions Using Finite State Machines | Revised | Inventive, Collaborative, Responsible, Proactive, Creative | Finite State Machines — Create; Requirements Engineering — Apply; Analytical and Critical Thinking (FPK) — Apply |
+| C06 | Develop Problem-Solving Solutions Using Finite State Machines | Revised | Inventive, Collaborative, Responsible, Proactive, Creative | Finite State Machines — Create (Design, Develop, Construct); Requirements Engineering — Apply (Interpret, Specify, Translate); Analytical and Critical Thinking (FPK) — Apply (Analyze, Justify, Evaluate) |
 | C11 | Identify Patterns in Finite State Machines | Revised | Inventive, Creative, Meticulous | Finite State Machines — Analyze; Analytical and Critical Thinking (FPK) — Apply |
-| C03 | Testing Automata Using Simulators | Reused | Investigative, Collaborative, Responsible, Proactive, Creative | Finite State Machines — Apply; Problem Solving and Troubleshooting (FPK) — Apply; Modeling and Simulation — Apply |
+| C03 | Testing Automata Using Simulators | Reused | Collaborative, Responsible, Proactive, Creative | Finite State Machines — Apply (Experiment, Relate, Simulate); Problem Solving and Troubleshooting (FPK) — Apply; Modeling and Simulation — Apply |
 | C04 | Define Regular Expressions for Finite Automata | Reused | Investigative, Collaborative, Responsible, Proactive, Creative | Finite State Machines — Understand; Regular Expressions — Apply; Analytical and Critical Thinking (FPK) — Apply |
-| C05 | Write a Technical Report | Reused | Collaborative, Meticulous, Responsible | Written Communication (FPK) — Apply |
+| C05 | Write a Technical Report | Reused | Collaborative, Meticulous, Responsible | Written Communication (FPK) — Apply (Write, Structure, Revise, Refine) |
 
 The competency *Differentiate the Classifications of Formal Grammars* is excluded from the revised set.
 
@@ -134,3 +134,7 @@ Bloom’s Revised Taxonomy was applied to individual knowledge–skill pairings.
 
 The implemented adjustments align the Task03 competency set more closely with the instructional task and its expected outputs. They remove knowledge and competencies that are not exercised, clarify the two revised competencies, and document the reuse of three existing competencies. This report records the changes resulting from the expert review and preserves their traceability within the CSP.
 
+
+## Post-cycle reference alignment — RF-01-03
+
+On 2 October 2026, repeated component tables were aligned with the documented reference specifications for C03, C04, C05, C06. This maintenance preserves competency identities, origins and existing task activation labels. The earlier file is retained in the refinement archive. The decisions and their scope are recorded in the [post-cycle refinement report](<../../../CSP-Post-Cycle-Refinement-Report.md>).
