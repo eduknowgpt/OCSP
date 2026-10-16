@@ -1,1 +1,0 @@
-Faça um algoritmo que verifique se uma matriz de ordem 3 é simétrica.

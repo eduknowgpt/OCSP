@@ -187,6 +187,8 @@ BNCC General Competency 2 (GC2) supports problem solving. Computing-Specific Com
 
 The competency has a **NarrowerThanExternalAlignment** with EM13CO02: translating constraints into executable checks contributes to refinement from specification to implementation but does not cover the complete process.
 
+
+
 ### CM07 - Organize a solution into functions
 
 **Definition:** organize a computational solution into functions with clear responsibilities and appropriate data exchange.
