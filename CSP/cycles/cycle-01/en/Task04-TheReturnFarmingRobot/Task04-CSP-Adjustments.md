@@ -160,6 +160,3 @@ The implemented revisions align the Task04 competency set with the computational
 
 The report also consolidates Bloom levels and observable actions, documents the reuse of C03 and C05, and records how each expert recommendation was incorporated. These changes provide a consistent basis for subsequent semantic structuring.
 
-## Post-cycle reference alignment — RF-01-03
-
-On 2 October 2026, repeated component tables were aligned with the documented reference specifications for C03, C05, C14. This maintenance preserves competency identities, origins and existing task activation labels. The earlier file is retained in the refinement archive. The decisions and their scope are recorded in the [post-cycle refinement report](<../../../CSP-Post-Cycle-Refinement-Report.md>).

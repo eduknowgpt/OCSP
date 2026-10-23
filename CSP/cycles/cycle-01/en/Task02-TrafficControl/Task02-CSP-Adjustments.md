@@ -85,6 +85,4 @@ This competency is reused from Task01. It concerns applying written communicatio
 
 The implemented adjustments remove knowledge not operationalized by the task, refine the terminology and granularity of the remaining knowledge components, and clarify the boundaries among the Turing Machine competencies. The validated Task02 specification provides the input for semantic structuring and later controlled reuse or specialization.
 
-## Post-cycle reference alignment — RF-01-03
 
-On 2 October 2026, repeated component tables were aligned with the documented reference specifications for C05, C07, C09, C10. This maintenance preserves competency identities, origins and existing task activation labels. The earlier file is retained in the refinement archive. The decisions and their scope are recorded in the [post-cycle refinement report](<../../../CSP-Post-Cycle-Refinement-Report.md>).

@@ -191,6 +191,7 @@ The general objective of TASK301 is to enable the learner to abstract and model 
 
 Based on the analysis of the task requirements, the following competencies were selected as directly aligned with TASK301.
 
+
 ### 5.1 Reused Competencies
 
 Reuse refers to the existing competency identity and specification. The descriptions below justify its association with TASK301; they preserve the existing specification. The activation labels describe their use in this task.
@@ -198,7 +199,7 @@ Reuse refers to the existing competency identity and specification. The descript
 #### C04 — Define Regular Expressions for Finite Automata
 
 Justification for Reuse:  
-Regular expressions constitute a relevant formal mechanism for the intensional specification of collections of songs in this task, especially when learners must characterize sets such as repeated songs, empty-song collections, or property-based subsets. In TASK301, this competency is activated at a conceptual and algebraic level, without requiring the operational construction of automata. It supports the learner’s ability to define regular languages formally and to relate them to structural descriptions of musical collections.
+- Regular expressions constitute a relevant formal mechanism for the intensional specification of collections of songs in this task, especially when learners must characterize sets such as repeated songs, empty-song collections, or property-based subsets. In TASK301, this competency is activated at a conceptual and algebraic level, without requiring the operational construction of automata. It supports the learner’s ability to define regular languages formally and to relate them to structural descriptions of musical collections.
 
 ActivationRole: `core`  
 ActivationMode: `artifact-oriented`  
@@ -206,9 +207,18 @@ ActivationConstraint: `mandatory`
 
 ##### Specification and Scope
 
-Knowledge–skill pairings: Finite State Machines — Understand; Regular Expressions — Apply; Analytical and Critical Thinking (FPK) — Apply. Dispositions: Investigative, Collaborative, Responsible, Proactive, Creative.
+- Knowledge–skill pairings: 
+  - Finite State Machines — Understand; 
+  - Regular Expressions — Apply; 
+  - Analytical and Critical Thinking (FPK) — Apply. 
 
-C04 retains the correspondence between finite automata and regular expressions, including reasoning about equivalence. TASK301 activates that correspondence conceptually; the association does not introduce an automaton-construction or simulation deliverable. It also does not redefine C04 as unrestricted notation use, which is addressed by C23.
+- Dispositions: 
+  - Investigative, Collaborative, Responsible, Proactive, Creative.
+
+C04 retains the correspondence between finite automata and regular expressions, including reasoning about equivalence. 
+
+TASK301 activates that correspondence conceptually; the association does not introduce an automaton-construction or simulation deliverable. 
+
 
 ##### Summary Table for Competency C04
 
@@ -218,10 +228,12 @@ C04 retains the correspondence between finite automata and regular expressions, 
 |  |  | Regular Expressions | Apply |
 |  |  | Analytical and Critical Thinking (FPK) | Apply |
 
+
+
 #### C14 — Differentiate classifications of formal grammars
 
 Justification for Reuse:  
-This competency supports conceptual distinctions between regular languages and more expressive classes. In TASK301, it is useful when learners discuss expressive limits, delimit the scope of formal constructions, or justify why certain collections may or may not fall within the regular class. Since such reasoning enriches but does not structure every answer, the competency is activated as an extension.
+- This competency supports conceptual distinctions between regular languages and more expressive classes. In TASK301, it is useful when learners discuss expressive limits, delimit the scope of formal constructions, or justify why certain collections may or may not fall within the regular class. Since such reasoning enriches but does not structure every answer, the competency is activated as an extension.
 
 ActivationRole: `extension`  
 ActivationMode: `analytical`  
@@ -231,7 +243,15 @@ ActivationConstraint: `optional`
 
 C14 distinguishes regular and context-free grammars and languages through their structural properties, expressiveness, and associated recognizers. It excludes operational model construction and interpretation of particular rule sets from this classificatory scope.
 
-Knowledge–skill pairings: Regular Languages — Understand; Context-Free Languages — Understand; Analytical and Critical Thinking — Apply. Dispositions: Inventive, Collaborative, Responsible, Proactive. The analytical activation mode does not replace these component-level Bloom mappings.
+- Knowledge–skill pairings: 
+  - Regular Languages — Understand; 
+  - Context-Free Languages — Understand; 
+  - Analytical and Critical Thinking — Apply. 
+
+- Dispositions:
+  - Inventive, Collaborative, Responsible, Proactive. 
+  
+The analytical activation mode does not replace these component-level Bloom mappings.
 
 ##### Summary Table for Competency C14
 
@@ -241,6 +261,9 @@ Knowledge–skill pairings: Regular Languages — Understand; Context-Free Langu
 |  |  | Context-Free Languages | Understand |
 |  |  | Analytical and Critical Thinking (FPK) | Apply |
 
+
+
+
 ### 5.2 New Competencies Introduced in TASK301
 
 Six competency identifiers originate in TASK301: C17, C18, C19, and C23 are independent specifications; C05.01 specializes C05; and C20 is a composite competency.
@@ -249,10 +272,10 @@ Six competency identifiers originate in TASK301: C17, C18, C19, and C23 are inde
 Specialization of: C05 — *Write a Technical Report*
 
 Justification for Introduction:  
-The main evidence required in TASK301 is not merely a technical report, but a set of mathematically rigorous written answers. The task demands explicit definitions, precise notation, structured arguments, minimal examples, and counterexamples where appropriate. Since the generic writing competency C05 does not fully capture this justificatory and epistemic requirement, a new specialized competency is introduced.
+- The main evidence required in TASK301 is not merely a technical report, but a set of mathematically rigorous written answers. The task demands explicit definitions, precise notation, structured arguments, minimal examples, and counterexamples where appropriate. Since the generic writing competency C05 does not fully capture this justificatory and epistemic requirement, a new specialized competency is introduced.
 
 ##### Competency Title
-Write mathematically rigorous answers
+> Write mathematically rigorous answers
 
 ##### Textual Description
 This competency involves the ability to produce mathematically rigorous written answers that clearly justify conclusions through explicit definitions, precise notation, structured arguments, and appropriate supporting examples.
@@ -297,6 +320,9 @@ This competency specializes technical report writing toward tasks in which the m
 | Write mathematically rigorous answers | Meticulous; Responsible | Written Communication (FPK) | Apply |
 |  |  | Analytical and Critical Thinking (FPK) | Analyze / Evaluate |
 
+
+
+
 #### C17 — Apply operations on formal languages
 
 Origin: TASK301 — CSP Cycle 3.
@@ -307,7 +333,7 @@ TASK301 requires sustained application and analysis of operations over strings a
 
 ##### Competency Title
 
-Apply operations on formal languages
+> Apply operations on formal languages
 
 ##### Textual Description
 
@@ -580,7 +606,7 @@ Dispositions: Epistemic Rigor, Intellectual Responsibility, Reflectiveness, Pers
 #### C23 — Interpret and apply algebraic notation for strings and languages
 
 Justification for Introduction:  
-TASK301 requires a transversal competence in the interpretation and use of algebraic notation for strings and languages, including symbols such as ε, Σ, concatenation, exponentiation, reversal, substructures, set-theoretic language operations, and closure notation. This need is distinct from the interpretation of rule-based notation or grammar-based rules, and therefore should not be treated as a specialization of C13 or C13.01. A new independent competency is introduced to preserve the distinction between algebraic notation and grammar-rule interpretation.
+- TASK301 requires a transversal competence in the interpretation and use of algebraic notation for strings and languages, including symbols such as ε, Σ, concatenation, exponentiation, reversal, substructures, set-theoretic language operations, and closure notation. This need is distinct from the interpretation of rule-based notation or grammar-based rules, and therefore should not be treated as a specialization of C13 or C13.01. A new independent competency is introduced to preserve the distinction between algebraic notation and grammar-rule interpretation.
 
 ##### Competency Title
 Interpret and apply algebraic notation for strings and languages
@@ -797,6 +823,4 @@ The resulting specification illustrates the cycle's intended approach: design an
 
 This report consolidates the specification and interactive review of TASK301 in one document. It preserves the distinction between language operations, formal abstraction, representational transformations, notation, justification, and integrated performance. The specification identifies expected performance and evidence without asserting a separate review event or observed learning outcomes.
 
-## Post-cycle reference alignment — RF-01-03
 
-On 2 October 2026, repeated component tables were aligned with the documented reference specifications for C04, C14. This maintenance preserves competency identities, origins and existing task activation labels. The earlier file is retained in the refinement archive. The decisions and their scope are recorded in the [post-cycle refinement report](<../../../CSP-Post-Cycle-Refinement-Report.md>).

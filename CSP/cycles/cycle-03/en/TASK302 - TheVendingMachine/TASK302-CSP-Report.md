@@ -201,7 +201,7 @@ Interpret, apply, and justify algebraic notation for strings and languages.
 
 #### Contextual Application and Scope
 
-Use ε, concatenation, Σ*, and string and language notation to express sequences, acceptance conditions, and the formal account of machine behavior. C23 replaces the earlier C13.01 association because this use concerns algebraic notation rather than grammar-rule interpretation.
+Use ε, concatenation, Σ*, and string and language notation to express sequences, acceptance conditions, and the formal account of machine behavior. 
 
 #### Knowledge–Skill Pairing
 
@@ -384,7 +384,9 @@ Investigative, Collaborative, Responsible, Proactive, Creative.
 | C03 | supporting | artifact-oriented | conditional |
 | C04 | extension | analytical | conditional |
 
-These are associations between TASK302 and eight competencies. They do not constitute a composite competency. C20 remains specific to the musical-collection task and is not reused here. No new composite identifier is assigned. C05 is the base of C05.01; C13.01 is the superseded notation association, not an additional current target.
+These are associations between TASK302 and eight competencies. They do not constitute a composite competency. 
+
+
 
 ## 8. Learning Objective–Competency Mapping
 
@@ -444,10 +446,4 @@ TASK302 illustrates reuse across contrasting instructional contexts: competencie
 
 The report integrates specification and the available decision rationale in one document. It retains the seven previously specified competencies and adds C06 to make recognizer-construction coverage explicit. Their definitions and the conditional activation of C03 and C04 are preserved. This consolidation does not establish independent ontology validation, formal approval, or observed learner outcomes.
 
-## Post-cycle reference alignment — RF-01-03
 
-On 2 October 2026, repeated component tables were aligned with the documented reference specifications for C02, C03, C04, C06. This maintenance preserves competency identities, origins and existing task activation labels. The earlier file is retained in the refinement archive. The decisions and their scope are recorded in the [post-cycle refinement report](<../../../CSP-Post-Cycle-Refinement-Report.md>).
-
-### Evidence conditions retained in RF-01-03
-
-C03 contributes simulator-based evidence through the executions required by the task; the conditional label concerns the sufficiency of that evidence for the competency, not permission to omit testing. C04 contributes when regular-expression construction or analysis is demonstrated; the task’s investigation remains required.

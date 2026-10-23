@@ -134,6 +134,3 @@ The final Task05 set contains three additive specializations and two competencie
 | C10 | Reused | Test Turing Machines Using Simulators | Collaborative, Responsible, Proactive, Creative | Turing Machines — Apply (Simulate, Evaluate, Verify); Problem Solving and Troubleshooting (FPK) — Apply (Diagnose, Debug, Refine); Modeling and Simulation — Apply |
 | C05 | Reused | Write a Technical Report | Collaborative, Meticulous, Responsible | Written Communication (FPK) — Apply (Write, Structure, Revise, Refine) |
 
-## Post-cycle reference alignment — RF-01-03
-
-On 2 October 2026, repeated component tables were aligned with the documented reference specifications for C05, C10. This maintenance preserves competency identities, origins and existing task activation labels. The earlier file is retained in the refinement archive. The decisions and their scope are recorded in the [post-cycle refinement report](<../../../CSP-Post-Cycle-Refinement-Report.md>).

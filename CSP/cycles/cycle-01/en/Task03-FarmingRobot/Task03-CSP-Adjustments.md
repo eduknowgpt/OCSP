@@ -135,6 +135,3 @@ Bloom’s Revised Taxonomy was applied to individual knowledge–skill pairings.
 The implemented adjustments align the Task03 competency set more closely with the instructional task and its expected outputs. They remove knowledge and competencies that are not exercised, clarify the two revised competencies, and document the reuse of three existing competencies. This report records the changes resulting from the expert review and preserves their traceability within the CSP.
 
 
-## Post-cycle reference alignment — RF-01-03
-
-On 2 October 2026, repeated component tables were aligned with the documented reference specifications for C03, C04, C05, C06. This maintenance preserves competency identities, origins and existing task activation labels. The earlier file is retained in the refinement archive. The decisions and their scope are recorded in the [post-cycle refinement report](<../../../CSP-Post-Cycle-Refinement-Report.md>).

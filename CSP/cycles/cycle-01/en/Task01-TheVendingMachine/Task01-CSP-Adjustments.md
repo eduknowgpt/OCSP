@@ -171,6 +171,3 @@ The implemented adjustments increase the specificity of the knowledge components
 The planned vocabulary-mapping mechanism remains separate from these implemented adjustments. The validated Task01 specification provides input for the semantic structuring conducted in CSP Phase 3.
 
 
-## Post-cycle reference alignment — RF-01-03
-
-On 2 October 2026, repeated component tables were aligned with the documented reference specifications for C01, C02, C03, C04, C05. This maintenance preserves competency identities, origins and existing task activation labels. The earlier file is retained in the refinement archive. The decisions and their scope are recorded in the [post-cycle refinement report](<../../../CSP-Post-Cycle-Refinement-Report.md>).
