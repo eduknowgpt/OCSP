@@ -1,202 +1,91 @@
 # Introduction to Formal Languages and Theory of Computation
+## Competency-Oriented Teaching Plan — Consolidated Proposal
 
-## Course Overview
+### Context and Purpose
 
-Institute of Computing – UFBA  
+Institute of Computing — UFBA  
 Bachelor’s Degree in Computer Science  
-4th semester – 2nd year  
+Fourth semester
 
-The course **Introduction to Formal Languages and Theory of Computation** develops students’ ability to formally model, analyze, validate, and communicate computational problems using the foundations of Formal Languages and Theory of Computation.
+This proposal organizes instructional planning around competencies in Formal Languages and Theory of Computation. It provides a basis for selecting and designing tasks, identifying the knowledge, skills, and dispositions they mobilize, and specifying the work through which their contributions can be examined.
 
-The course adopts a **Problem-Based Learning (PBL)** approach. Each learning unit is organized around problem situations that require students to mobilize formal concepts, construct computational models, test them with appropriate tools, and justify their adequacy. In this sense, the course is not organized only as a sequence of theoretical topics, but as a progression of competencies related to symbolic representation, formal modeling, automata, grammars, computability, and computational complexity.
+The plan was developed alongside the Cycle 3 task-design process. This consolidated version incorporates both competencies inherited from earlier CSP cycles and specifications introduced during Cycle 3. It should therefore be distinguished from the initial planning proposal and from evidence of classroom implementation.
 
+### General Learning Aim
 
+Students are expected to model computational problems, analyze formal representations, examine their adequacy, and communicate justified conclusions about computational capabilities, limitations, and resource requirements.
 
-## Course Description
+### Instructional Content
 
-This course introduces the theoretical foundations of formal languages and computation through the development of competencies associated with modeling, analysis, validation, and communication of formal computational solutions.
+The course addresses alphabets, strings, languages, language operations, and symbolic encodings; regular expressions and finite automata; context-free grammars and pushdown automata; Turing Machines and their variants; decidability and undecidability; and computational complexity.
 
-Students begin by studying alphabets, words, languages, language operations, and symbolic representations. They then construct and analyze regular languages using regular expressions and finite automata, including deterministic and nondeterministic models. The course also addresses context-free languages, grammars, derivation processes, parse trees, ambiguity, and pushdown automata.
+Formal abstraction, mathematical justification, and technical communication connect these topics. Construction and simulation are required where appropriate to the activity; conceptual tasks may instead require formal definitions, operations, examples, counterexamples, and reasoned conclusions.
 
-In the second part of the course, students study Turing Machines as formal models of computation, including variants, simulations, decidability, undecidability, recursively enumerable languages, recursive languages, the Halting Problem, and Church’s Thesis. The course concludes with an introduction to computational complexity, emphasizing feasibility, efficiency, and the distinction between computable and practically tractable problems, including P, NP, NP-complete, and NP-hard problems.
+### Competency Alignment
 
-Throughout the course, students are expected to produce formal models, test them using simulators, compare alternative formalisms, justify their design decisions, and communicate results through structured technical documentation.
+The following organization groups competencies by their instructional contribution. These groupings do not alter catalog definitions or establish that every competency must be associated with every task in a unit.
 
-## General Competency
-
-By the end of the course, students should be able to **model, analyze, validate, and communicate formal computational solutions**, using languages, automata, grammars, Turing Machines, and complexity concepts to reason about the expressive power, limitations, and feasibility of computational models.
-
-## Specific Competencies
-
-Students are expected to demonstrate the ability to:
-
-1. Recognize and manipulate alphabets, words, formal languages, and operations on languages.
-2. Model real-world and abstract problems using formal-language concepts.
-3. Construct, justify, and test finite automata and regular expressions.
-4. Interpret and use rule-based notations, including grammars and transition systems.
-5. Construct and analyze pushdown automata and context-free grammars.
-6. Classify grammars according to the Chomsky hierarchy and relate grammar classes to computational models.
-7. Construct, compare, and apply Turing Machine models and variants.
-8. Use simulators to validate automata and Turing Machines against formal specifications.
-9. Explain decidability, undecidability, the Halting Problem, and Church’s Thesis.
-10. Analyze computational complexity and distinguish computability from feasibility.
-11. Communicate formal solutions through technical reports, simulations, and evidence-based argumentation.
-
-## Course Competence Structure
-
-The course competencies are organized into three categories: **nuclear competencies**, **transversal competencies**, and **specialized/contextual competencies**.
-
-### Nuclear Competencies
-
-These competencies represent the central learning outcomes of the course.
-
-#### Formal Languages and Symbolic Representation
-
-- **C17 – Apply operations on formal languages**
-- **C18 – Model real-world problems using formal language concepts**
-- **C19 – Apply homomorphisms in formal languages**
-
-These competencies support the initial construction of formal reasoning, including alphabet, word, language, Kleene closure, concatenation, union, intersection, complement, and symbolic transformation.
-
-#### Regular Languages, Automata, and Regular Expressions
-
-- **C01 – Develop Problem Solutions Using Finite Automata**
-- **C02 – Justify the use of Deterministic Finite Automata**
-- **C03 – Test Automata Using Simulators**
-- **C04 – Define Regular Expressions for Finite Automata**
-
-These competencies address the construction, justification, simulation, and analysis of regular-language models.
-
-#### Context-Free Languages, Grammars, and Pushdown Automata
-
-- **C12 – Develop Problem-Solving Solutions Using Pushdown Automata**
-- **C13.01 – Interpret Formal Grammar-Based Rules**
-- **C14 – Differentiate Classifications of Formal Grammars**
-
-These competencies support the study of grammars, derivations, parse trees, ambiguity, context-free languages, and recognizers with memory.
-
-#### Turing Machines, Computability, and Limits of Computation
-
-- **C07 – Develop Problem-Solving Solutions Using Turing Machines**
-- **C08 – Identify Turing Machine Variants**
-- **C09 – Apply Turing Machine Variants**
-- **C10 – Test Turing Machines Using Simulators**
-- **C15 – Understand the Halting Problem and its Implications**
-- **C16 – Interpret Turing Machine Concepts to Analyze Computational System Capabilities**
-
-These competencies address formal computation, simulation, decidability, undecidability, semi-decidability, and the theoretical limits of computational systems.
-
-#### Computational Complexity and Feasibility
-
-- **C21 – Analyze Computational Complexity and the Implications of NP-Hardness**
-
-This competency extends the course from computability to feasibility, supporting the analysis of P, NP, NP-complete, and NP-hard problems.
-
-### Transversal Competencies
-
-These competencies are mobilized throughout the course.
-
-- **C05 – Write a Technical Report**
-- **C11 – Identify Patterns in Finite State Machines**
-
-C05 is used to document specifications, design decisions, tests, results, and formal justification. C11 supports the analysis of behavioral patterns in automata and state-based models.
-
-### Specialized or Contextual Competencies
-
-These competencies may be mobilized in selected tasks, projects, or PBL scenarios, but they should not be treated as mandatory outcomes for the entire course.
-
-- **C06 – Develop Problem-Solving Solutions Using Finite State Machines**
-- **C07.01 – Develop Integrated Multi-Agent Solutions Using Turing Machines**
-- **C08.01 – Identify Task-Oriented Turing Machine Variants**
-- **C09.01 – Apply Task-Oriented Turing Machine Variants**
-- **C20 – Model and Analyze Musical Collections as Formal Languages**
-
-These competencies are useful for contextualized or interdisciplinary tasks, but they should appear as extensions of the core course path rather than as central requirements.
-
-## Course Units and Competence Alignment
-
-| Unit | Main Topics | Target Competencies |
+| Instructional focus | Relevant competencies | Expected contribution |
 |---|---|---|
-| Unit 1 | Formal languages, alphabets, words, language operations, symbolic representation | C17, C18, C19 |
-| Unit 2 | Regular languages, regular expressions, DFA, NFA, λ-transitions | C01, C02, C03, C04 |
-| Unit 3 | FSMs, lexical analysis, behavioral patterns | C06, C11 |
-| Unit 4 | Context-free grammars, derivations, parse trees, ambiguity, Chomsky hierarchy | C13.01, C14 |
-| Unit 5 | Pushdown automata and context-free recognition | C12 |
-| Unit 6 | Turing Machines, variants, simulation, recursive and recursively enumerable languages | C07, C08, C09, C10 |
-| Unit 7 | Decidability, undecidability, Halting Problem, Church’s Thesis | C15, C16 |
-| Unit 8 | Complexity, P, NP, NP-complete, NP-hard, feasibility | C21 |
-| Transversal | Technical documentation, formal justification, evidence-based communication | C05 |
+| Formal abstraction, language operations, and notation | C18, C17, C23 | Define symbolic representations, apply operations, and express their meaning precisely |
+| Transformations and encodings | C19 | Examine mappings between representations and justify which properties are preserved |
+| Finite-state modeling and regular expressions | C06, C02, C04 | Construct models, justify their suitability, and relate them to regular-expression descriptions |
+| Testing and behavioral patterns | C03, C11 | Examine model behavior through selected tests and identify relevant patterns |
+| Grammar interpretation, construction, and classification | C13.01, C22, C14 | Distinguish interpreting rules, constructing grammars, and comparing formal-language classes |
+| Pushdown-automaton construction | C12 | Construct models for tasks requiring the selected stack-based representation |
+| Turing-machine construction, variants, and testing | C07, C08, C09, C10 | Construct and test models, compare variants, and apply them where required |
+| Computability and theoretical limits | C15, C16 | Explain general termination limits and interpret computational capabilities |
+| Computational complexity | C21 | Relate problem formulation, algorithmic choices, input size, and computational resources |
+| Written communication and mathematical justification | C05, C05.01 | Produce structured technical accounts and formally justified answers, according to task demands |
 
-## Teaching and Learning Methodology
+Task-specific compositions and specializations are selected when their scope fits the proposed work. For example, C20 expresses the integrated contribution required by Music Collection; it is not a general requirement for all course tasks.
 
-The course follows a **competence-based PBL methodology**. Each learning unit is structured around one or more problem situations that require students to mobilize formal knowledge, construct models, test solutions, and justify results.
+### Task Design
 
-Activities include:
+Teachers use the competency catalog and the course objectives together when preparing instructional tasks. Each task should identify:
 
-- dialogued lectures;
-- guided problem-solving sessions;
-- simulator-based activities;
-- formal modeling exercises;
-- individual and group problem analysis;
-- asynchronous discussions in the Virtual Learning Environment;
-- technical reports;
-- peer review and self-assessment.
+- the problem and intended learning objectives;
+- the relevant competency specifications;
+- the actions and deliverables through which those competencies are expected to manifest;
+- the criteria for examining the resulting work;
+- any need for contextual adjustment, revision, specialization, composition, or a new specification.
 
-The methodology emphasizes the production of evidence. Students are not assessed only by their ability to reproduce definitions, but by their capacity to apply formal concepts to construct, validate, explain, and compare computational models.
+Existing competencies are selected on the basis of their scope and components. When a proposed task introduces demands that the catalog does not adequately address, the reason for an addition or revision is documented.
 
-## Learning Evidence
+The Cycle 3 tasks illustrate this planning approach:
 
-Student performance should be assessed through evidence such as:
-
-| Evidence | Competencies Mobilized |
+| Task | Instructional focus |
 |---|---|
-| Formal-language exercises | C17, C18, C19 |
-| Finite automata and regular expressions | C01, C02, C04 |
-| Simulator-based automata validation | C03 |
-| FSM analysis and pattern identification | C06, C11 |
-| Grammar interpretation and classification | C13.01, C14 |
-| Pushdown automata models | C12 |
-| Turing Machine models and variants | C07, C08, C09 |
-| Turing Machine simulation | C10 |
-| Written explanation of decidability and the Halting Problem | C15, C16 |
-| Complexity analysis of computational problems | C21 |
-| Technical reports | C05 |
+| TASK301 — Music Collection | Formal abstraction, language operations, encodings, and mathematical justification in a musical context |
+| TASK302 — Vending Machine | Symbolic abstraction, automaton construction, testing, and justification |
+| TASK303 — Minotaur’s Labyrinth | Relationships among symbolic modeling, grammar interpretation and construction, and pushdown-automaton construction |
+| TASK304 — Traffic Control | Turing-machine construction and testing, with variant application where appropriate |
+| TASK305 — Online Judges | Evaluation workflows, computational complexity, and the limits of general program analysis |
 
-## Learning Assessment
+These tasks provide contexts for mobilizing competencies. Their ordering does not, by itself, establish increasing difficulty or demonstrated learner progression.
 
-Assessment should be organized around demonstrated competence. The final grade may consider:
+### Teaching and Learning Activities
 
-- construction of formal models;
-- correctness and completeness of automata, grammars, regular expressions, PDAs, and Turing Machines;
-- simulator-based validation;
-- quality of formal justification;
-- ability to compare alternative models;
-- analysis of expressive power and computational limits;
-- complexity analysis;
-- technical reports;
-- participation in PBL activities;
-- individual self-assessment and peer evaluation.
+The proposed approach combines problem-based learning with guided explanations, formal exercises, collaborative analysis, simulator activities, and written argumentation. Instructional support is selected according to the demands of each task.
 
-The assessment scale ranges from 0 to 10.
+Teachers make explicit the distinction between understanding a representation, constructing it, testing selected behavior, and justifying broader claims about it. Opportunities for feedback and revision accompany the production of models and written responses.
 
-## References
+### Evidence and Assessment Criteria
 
-### Basic References
+Assessment relates the submitted work to the competencies and contextual criteria specified for each task.
 
-SIPSER, Michael. *Introduction to the Theory of Computation*. 2nd edition. Thomson.
+| Evidence | Principal criteria |
+|---|---|
+| Formal representations and notation | Explicit assumptions, consistent symbols, and correspondence with the modeled domain |
+| Operations and transformations | Correct application, interpretation of results, and justified claims about preserved properties |
+| Automata, grammars, and machine models | Alignment with requirements, coherent construction, and explanation of modeling choices |
+| Simulation records | Purposeful test selection, comparison of expected and observed behavior, and analysis of discrepancies |
+| Mathematical arguments | Clear definitions, explicit assumptions, valid reasoning, and appropriate examples or counterexamples |
+| Complexity and computability analyses | Distinction between problem properties, algorithmic behavior, execution observations, and general theoretical limits |
+| Technical reports | Organization, precision, traceability of claims, and integration of models and reasoning |
 
-RAMOS, Marcus Vinícius Midena; NETO, João José; VEGA, Ítalo Santiago. *Linguagens Formais: Teoria, Modelagem e Implementação*. Bookman, 2009.
+Simulation supports conclusions about the cases examined; general claims require appropriate arguments. A single artifact may support several competencies, provided that the contribution of each is identifiable. For a composite competency, assessment also examines coherence across the integrated response.
 
-LOUDEN, Kenneth C. *Compiladores: princípios e práticas*. São Paulo: Thomson Pioneira, 2004.
+Where dispositions are assessed, the plan must specify relevant observable conduct and the records used to examine it. Group submissions should be complemented by identifiable individual contributions when individual attainment is reported.
 
-### Additional References
-
-HOPCROFT, John E.; ULLMAN, Jeffrey D.; MOTWANI, Rajeev. *Introduction to Automata Theory, Languages, and Computation*. 2nd edition. Campus, 2003.
-
-MENEZES, Paulo Blauth. *Linguagens Formais e Autômatos*. Série Livros Didáticos, Instituto de Informática da UFRGS.
-
-LEWIS, Harry R.; PAPADIMITRIOU, Christos H. *Elements of the Theory of Computation*. Bookman.
-
-DENNING, Peter J.; DENNIS, Jack B.; QUALITZ, Joseph E. *Machines, Languages and Computation*. Prentice-Hall, 1978.
-
-AHO, Alfred V.; LAM, Monica S.; SETHI, Ravi; ULLMAN, Jeffrey D. *Compilers: Principles, Techniques, and Tools*. 2nd edition. Addison Wesley, 2008.
+The proposed grading scale is 0–10. Weights, achievement thresholds, and feedback arrangements must be specified before classroom implementation; no numerical distribution is established by this proposal.

@@ -89,7 +89,6 @@ Learners analyze functional requirements, construct models through well-defined 
 
 Construct the vending-machine automaton required by LO3, specifying states, transitions, and acceptance conditions for the chosen transaction representation. Relate these elements to payment, product selection, change, and the bonus challenge when addressed. The expected evidence is the submitted automaton together with the explanation of its construction in the technical report; no additional deliverable is introduced.
 
-C06 directly represents recognizer construction. C18 supplies domain abstraction, C02 supports justification of the model, and C23 supports formal notation. Their scopes remain distinct. The reference definition pairs Finite State Machines with Create and its supporting knowledge with Apply. The constructive activation records the task-specific use of that definition.
 
 #### Knowledge–Skill Pairing
 
@@ -191,9 +190,11 @@ Epistemic Rigor; Intellectual Responsibility; Reflectiveness.
 |  |  | Homomorphisms and Codifications (conceptual) | Apply |
 |  |  | Analytical and Critical Thinking (FPK) | Analyze |
 
+
+
 ### C23 — Interpret and apply algebraic notation for strings and languages
 
-Origin: TASK25.00 — Cycle 3. Usage in TASK302: reused.
+Origin: TASK301 — Cycle 3. Usage in TASK302: reused.
 
 #### Competency Description
 
@@ -411,7 +412,7 @@ LO3 is directly represented by C06, supported by C18 for abstraction, C02 for mo
 | --- | --- | --- |
 | Explicit coverage of recognizer construction | Reuse C06 as core, constructive, and mandatory; retain C18, C02, and C23 as supporting associations for LO3 | Existing construction performance is made explicit without redefining C18 or adding a deliverable |
 | Reuse of formal abstraction and operations | Reuse C18 and C17 with task-specific scope | Domain modeling and structural sequence analysis |
-| Algebraic notation versus grammar rules | Replace the earlier C13.01 association with C23 | Independent notation identity retained |
+| Algebraic notation versus grammar rules | Reuse C23, introduced in TASK301, to express symbolic sequences and language properties | Independent notation identity retained |
 | Rigorous written justification | Reuse C05.01 | Mathematical arguments within the technical report |
 | Suitability and testing of the model | Retain C02 and C03 with their distinct roles | Mandatory justification; conditional simulator-based competence evidence |
 | Regular-expression analysis | Retain C04 as a conditional extension | Investigation and the original deliverable alternatives preserved |
@@ -445,5 +446,3 @@ The specified set contains eight reused identifiers and no newly created identif
 TASK302 illustrates reuse across contrasting instructional contexts: competencies introduced for conceptual analysis of musical collections support a task that also requires construction and testing of a machine model. The distinction between identity and contextual use is preserved, as are specialization provenance and the boundary around the task-specific composite C20.
 
 The report integrates specification and the available decision rationale in one document. It retains the seven previously specified competencies and adds C06 to make recognizer-construction coverage explicit. Their definitions and the conditional activation of C03 and C04 are preserved. This consolidation does not establish independent ontology validation, formal approval, or observed learner outcomes.
-
-

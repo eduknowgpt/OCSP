@@ -1,4 +1,3 @@
-
 # **Introduction to Formal Languages and Theory of Computation**
 
 ## Course Overview
