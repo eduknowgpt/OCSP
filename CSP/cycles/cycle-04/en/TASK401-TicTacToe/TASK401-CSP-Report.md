@@ -58,7 +58,10 @@ The technical and explanatory objectives are specified through the competencies 
 
 CM01-CM10 are anchored in the curricular areas in section 2. Each definition combines an action, an object and a quality condition. The task-specific manifestation and assessment evidence are separate from identity. Dispositions are expected orientations, not inferred personality traits. Knowledge-Bloom pairings express the operation to be assessed in this task, not a permanent level attached to a knowledge object.
 
+
 ### CM01 - Analyze computational requirements
+    > ID: CM01
+    > Title: Analyze computational requirements
 
 **Definition:** analyze a problem's rules, inputs and constraints to identify the behavior required of a computational solution.
 
@@ -77,6 +80,8 @@ CM01-CM10 are anchored in the curricular areas in section 2. Each definition com
 BNCC General Competency 2 (GC2) supports problem formulation and analysis. Computing-Specific Competency 1 for High School (CE1) supports proposing and analyzing computational solutions. These are broad contributions rather than equivalences.
 
 The competency has a **NarrowerThanExternalAlignment** with EM13CO02: requirements analysis contributes to refinement from specification to implementation but does not cover the complete process.
+
+
 
 ### CM02 - Maintain program data and state
 
@@ -101,6 +106,8 @@ BNCC General Competency 5 (GC5) supports using and creating digital technologies
 
 The competency has a **NarrowerThanExternalAlignment** with EM13CO02: representing and manipulating program data contributes to refinement from specification to implementation but does not cover the complete process.
 
+
+
 ### CM03 - Implement decisions with Boolean conditions
 
 **Definition:** implement Boolean conditions and conditional branches that select actions according to specified rules.
@@ -121,6 +128,9 @@ The competency has a **NarrowerThanExternalAlignment** with EM13CO02: representi
 BNCC General Competency 2 (GC2) supports problem solving through analysis and the construction of solutions. Computing-Specific Competency 1 for High School (CE1) supports proposing and constructing computational solutions. These are broad contributions rather than equivalences.
 
 The competency has a **NarrowerThanExternalAlignment** with EM13CO02: translating specified rules into Boolean conditions and conditional branches contributes to refinement from specification to implementation but does not cover the complete process.
+
+
+
 
 ### CM04 - Implement repetition with a stopping condition
 

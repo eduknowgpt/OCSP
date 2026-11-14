@@ -1,5 +1,7 @@
 # Competency Specification Process (CSP)
 
+![Logo do CSP](./CSP/images/csp-logo.png)
+
 The **Competency Specification Process (CSP)** is a structured, process-driven methodology designed to **derive, model, refine, and validate educational competencies** from authentic instructional tasks.
 Developed within the doctoral research project *OntoKSD: A Process-Driven Ontology for Competency Specification in Computing Education*, CSP provides a bottom-up and evidence-based approach to competency engineering aligned with:
 
@@ -10,7 +12,7 @@ Developed within the doctoral research project *OntoKSD: A Process-Driven Ontolo
 
 This repository contains the **full documentation**, **examples**, **artifacts**, and **templates** associated with the CSP, serving as an open, reproducible resource for educators and researchers working with competency-based education in Computing.
 
----
+
 
 ## 🚀 Objectives
 
@@ -23,7 +25,7 @@ The CSP aims to:
 * Facilitate **expert review and validation** using clear procedural checkpoints.
 * Strengthen the connection between **task-level evidence** (e.g., PBL activities) and **competency models** adopted in Computing Education.
 
----
+
 
 ## 📘 What the CSP Produces
 
@@ -40,7 +42,7 @@ The process generates several formalized artifacts:
 
 These artifacts feed directly into **OntoKSD**, enabling reasoning, validation, and semantic search.
 
----
+
 
 ## 📁 Repository Structure (Summary)
 
@@ -70,7 +72,7 @@ These artifacts feed directly into **OntoKSD**, enabling reasoning, validation, 
 └── 🗂️ OCSP.vpp                             # Visual modeling project (with backups)
 ```
 
----
+
 
 ## 🧩 The CSP in a Nutshell
 
@@ -98,7 +100,7 @@ The CSP follows a **block-structured, multi-phase workflow**, ensuring rigor and
 
 This ensures that every competency is **grounded in authentic evidence**, **semantically interoperable**, and **pedagogically sound**.
 
----
+
 
 ## 🌐 GitHub Pages Documentation
 
@@ -120,7 +122,7 @@ The site provides:
 
 If you want, I can generate a complete **documentation landing page (`index.md`)** for GitHub Pages as well.
 
----
+
 
 ## 🤝 Contributing
 
@@ -134,7 +136,7 @@ Researchers, educators, and curriculum designers are invited to:
 
 Contributions follow standard GitHub pull request workflow.
 
----
+
 
 ## 📄 License
 
@@ -158,7 +160,7 @@ If this repository or the CSP is used in academic work:
 
 
 
----
+
 
 ### 🚧 Project Under Development
 
