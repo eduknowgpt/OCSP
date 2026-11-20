@@ -79,3 +79,7 @@ The CSVs contain no claim that competencies were independently demonstrated by l
 Refinement date: 2 October 2026. The original application year is unchanged. `include_in_pre_refinement_analysis` preserves membership in the pre-refinement current set; `include_in_current_analysis` selects the maintained set. `post_cycle_refinement_id` and `refinement_date` identify updated mappings. `reference_refinement_id` identifies reconciled definition references in the registry. Lifecycle events use `reference_alignment` or `association_added`, `specification_stage=post_cycle_refinement`, an explicit date and `refinement_id=RF-01-03`. Earlier events retain their previous dates and point to archived evidence where the source was updated. No review or approval is inferred. See the [refinement report](../CSP-Post-Cycle-Refinement-Report.md).
 
 Task–competency membership and quantitative totals for this cycle are unchanged.
+
+## Assessment and FR11 evidence
+
+The [assessment supplement](assessment-traceability/README.md) documents the Process and Product scoring scheme, the sources for all four problems, historical questionnaire traceability in Task202, and a supplementary controlled retrieval check.

@@ -131,3 +131,7 @@ This competency supports the ability to analyze the limitations of computational
 The reuse of this competency reinforces theoretical rigor by grounding modeling decisions in formally established classifications of computational expressiveness. Its activation occurs primarily in an analytical and justificatory mode, supporting informed and defensible choices of computational models and complementing the constructive and interpretative competencies mobilized throughout the task.
 
 Together, these competencies form a coherent and complementary set that supports Task202’s emphasis on formal limitation analysis, model adequacy, memory-based computation, simulation-based validation, and rigorous technical communication.
+
+## Retrospective assessment source note
+
+The [Cycle 2 assessment supplement](../../assessment-traceability/README.md) documents the scoring scheme and the PBL 02 sources. Tutor observations, questionnaire responses and official grades provide different evidence for the historical application of the assessment.

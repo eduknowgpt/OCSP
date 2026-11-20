@@ -1,8 +1,8 @@
 ﻿# **Problem 4 (Task): The farmer robot returns**
  
- Authors: Luiz Gavaza &nbsp; Lais Salvador &nbsp; Roberta Oliveira &nbsp; Jessica Santana &nbsp; Otávio Neto
+ Authors: Luiz Gavaza &nbsp; Lais Salvador &nbsp; Roberta Oliveira  &nbsp; Otávio Neto
  
- Contributors: Edeyson Gomes
+ Contributors: Edeyson Gomes &nbsp; Jessica Santana
  
 ## **Task: The Return of the Farmer Robot**
 

@@ -1,0 +1,157 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:fpk="https://www.semanticweb.org/cc2020/fpk#"
+    xmlns:cc2012="http://www.acm.org/about/class/2012#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+    xmlns:lomc="http://eduknow.org/Competencias#"
+    xmlns:lom="http://ltsc.ieee.org/rdf/lomv1p0/lom#">
+  <lom:learningObject rdf:about="https://eduknow.org/MAQ.md">
+    <dc:rights>http://creativecommons.org/licenses/by-nc-nd/3.0/</dc:rights>
+    <lom:keyword>Sistema Autômato</lom:keyword>
+    <dc:creator rdf:parseType="Resource">
+      <vcard:EMAIL>edeysongomes@ufba.br</vcard:EMAIL>
+      <vcard:ORG>http://www.ufba.br</vcard:ORG>
+      <vcard:FN>Edeyson Gomes</vcard:FN>
+    </dc:creator>
+    <dc:title>Problema : A máquina de vender refrigerantes e salgados.</dc:title>
+    <dc:creator rdf:parseType="Resource">
+      <vcard:EMAIL>laisns@ufba.br</vcard:EMAIL>
+      <vcard:ORG>http://www.ufba.br</vcard:ORG>
+      <vcard:FN>Laís Salvador</vcard:FN>
+    </dc:creator>
+    <lom:keyword>Algotirmo</lom:keyword>
+    <dc:language>pt</dc:language>
+    <lomc:educationalCompetency>
+      <lomc:AtomicCompetence rdf:about="https://eduknow.org/MAQ.md#C1">
+        <lomc:knowledgeSkill>
+          <rdf:Description rdf:about="https://eduknow.org/MAQ.md#C1KS03">
+            <lomc:skill rdf:resource="http://eduknow.org/Competencias#Applying"/>
+            <lomc:knowledge rdf:resource="https://www.semanticweb.org/cc2020/fpk#Pensamento_analítico_e_crítico_(FPK)"/>
+          </rdf:Description>
+        </lomc:knowledgeSkill>
+        <lomc:knowledgeSkill>
+          <rdf:Description rdf:about="https://eduknow.org/MAQ.md#C1KS02">
+            <lomc:skill rdf:resource="http://eduknow.org/Competencias#Understanding"/>
+            <lomc:knowledge rdf:resource="http://www.acm.org/about/class/2013#Engenharia_de_Requisitos"/>
+          </rdf:Description>
+        </lomc:knowledgeSkill>
+        <lomc:knowledgeSkill>
+          <rdf:Description rdf:about="https://eduknow.org/MAQ.md#C1KS01">
+            <lomc:skill rdf:resource="http://eduknow.org/Competencias#Applying"/>
+            <lomc:knowledge rdf:resource="http://www.acm.org/about/class/2013#Máquinas_de_estado_finito"/>
+          </rdf:Description>
+        </lomc:knowledgeSkill>
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Criativo"/>
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Proativo"/>
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Responsável"/>
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Colaborativo"/>
+        <lomc:competenceStatement xml:lang="pt">Desenvolver soluções de problemas usando Autômatos.</lomc:competenceStatement>
+      </lomc:AtomicCompetence>
+    </lomc:educationalCompetency>
+    <lom:otherPlatformRequirements>Editor de texto</lom:otherPlatformRequirements>
+    <lom:keyword>Programação</lom:keyword>
+    <dc:contributor>Luiz Gavaza</dc:contributor>
+    <lomc:educationalCompetency>
+      <lomc:AtomicCompetence rdf:about="https://eduknow.org/MAQ.md#C2">
+        <lomc:knowledgeSkill>
+          <rdf:Description rdf:about="https://eduknow.org/MAQ.md#C2KS03">
+            <lomc:skill rdf:resource="http://eduknow.org/Competencias#Applying"/>
+            <lomc:knowledge rdf:resource="https://www.semanticweb.org/cc2020/fpk#Pensamento_analítico_e_crítico"/>
+          </rdf:Description>
+        </lomc:knowledgeSkill>
+        <lomc:knowledgeSkill>
+          <rdf:Description rdf:about="https://eduknow.org/MAQ.md#C2KS02">
+            <lomc:skill rdf:resource="http://eduknow.org/Competencias#Applying"/>
+            <lomc:knowledge rdf:resource="https://www.semanticweb.org/cc2020/fpk#Engenharia_de_Requisitos_"/>
+          </rdf:Description>
+        </lomc:knowledgeSkill>
+        <lomc:knowledgeSkill>
+          <rdf:Description rdf:about="https://eduknow.org/MAQ.md#C2KS01">
+            <lomc:skill rdf:resource="http://eduknow.org/Competencias#Understanding"/>
+            <lomc:knowledge rdf:resource="http://www.acm.org/about/class/2013#Autômatos_finitos_determinísticos_(AFDs)"/>
+          </rdf:Description>
+        </lomc:knowledgeSkill>
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Proativo"/>
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Responsável"/>
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Colaborativo"/>
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Investigativo"/>
+        <lomc:competenceStatement xml:lang="pt">Justificar o uso de Autômatos Finitos Determinísticos (AFDs)</lomc:competenceStatement>
+      </lomc:AtomicCompetence>
+    </lomc:educationalCompetency>
+    <lom:learningResourceType>problem statement</lom:learningResourceType>
+    <lom:educationalDescription>Competency Description</lom:educationalDescription>
+    <dc:date>2022/09/21</dc:date>
+    <lom:aggregationLevel rdf:resource="http://ltsc.ieee.org/rdf/lomv1p0/vocabulary#AggregationLeve-l"/>
+    <lom:structure rdf:resource="http://ltsc.ieee.org/rdf/lomv1p0/vocabulary#Structure-atomic"/>
+    <lomc:educationalCompetency>
+      <lomc:AtomicCompetence rdf:about="https://eduknow.org/MAQ.md#C3">
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Responsável"/>
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Investigativo"/>
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Colaborativo"/>
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Proativo"/>
+        <lomc:knowledgeSkill>
+          <rdf:Description rdf:about="https://eduknow.org/MAQ.md#C3KS03">
+            <lomc:skill rdf:resource="http://eduknow.org/Competencias#Applying"/>
+            <lomc:knowledge rdf:resource="http://www.acm.org/about/class/2013#Modelagem_e_Simulação"/>
+          </rdf:Description>
+        </lomc:knowledgeSkill>
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Criativo"/>
+        <lomc:competenceStatement xml:lang="pt">Testar autômatos usando simuladores.</lomc:competenceStatement>
+        <lomc:knowledgeSkill>
+          <rdf:Description rdf:about="https://eduknow.org/MAQ.md#C3KS01">
+            <lomc:skill rdf:resource="http://eduknow.org/Competencias#Applying"/>
+            <lomc:knowledge rdf:resource="http://www.acm.org/about/class/2013#Máquinas_de_estado_finito"/>
+          </rdf:Description>
+        </lomc:knowledgeSkill>
+        <lomc:knowledgeSkill>
+          <rdf:Description rdf:about="https://eduknow.org/MAQ.md#C3KS02">
+            <lomc:skill rdf:resource="http://eduknow.org/Competencias#Applying"/>
+            <lomc:knowledge rdf:resource="https://www.semanticweb.org/cc2020/fpk#Resolução_de_problemas_e_solução_de_problemas"/>
+          </rdf:Description>
+        </lomc:knowledgeSkill>
+      </lomc:AtomicCompetence>
+    </lomc:educationalCompetency>
+    <lom:copyrightAndOtherRestrictions>Editor de texto</lom:copyrightAndOtherRestrictions>
+    <lom:metaMetadataLanguage>pt</lom:metaMetadataLanguage>
+    <lom:educationalContext>higher education</lom:educationalContext>
+    <lomc:educationalCompetency>
+      <lomc:AtomicCompetence rdf:about="https://eduknow.org/MAQ.md#C4">
+        <lomc:competenceStatement xml:lang="pt">Determinar Expressões Regulares que representam Autômatos.</lomc:competenceStatement>
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Investigativo"/>
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Meticuloso"/>
+        <lomc:knowledgeSkill>
+          <rdf:Description rdf:about="https://eduknow.org/MAQ.md#C4KS02">
+            <lomc:skill rdf:resource="http://eduknow.org/Competencias#Applying"/>
+            <lomc:knowledge rdf:resource="http://www.acm.org/about/class/2013#Expressões_regulares"/>
+          </rdf:Description>
+        </lomc:knowledgeSkill>
+        <lomc:competenceStatement xml:lang="pt">Escrever um relatório técnico.</lomc:competenceStatement>
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Criativo"/>
+        <lomc:knowledgeSkill>
+          <rdf:Description rdf:about="https://eduknow.org/MAQ.md#C4KS03">
+            <lomc:skill rdf:resource="http://eduknow.org/Competencias#Applying"/>
+            <lomc:knowledge rdf:resource="http://www.acm.org/about/class/2013#Pensamento_Analítico_e_Crítico"/>
+          </rdf:Description>
+        </lomc:knowledgeSkill>
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Proativo"/>
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Colaborativo"/>
+        <lomc:knowledgeSkill>
+          <rdf:Description rdf:about="https://eduknow.org/MAQ.md#C4KS01">
+            <lomc:skill rdf:resource="http://eduknow.org/Competencias#Applying"/>
+            <lomc:knowledge rdf:resource="https://www.semanticweb.org/cc2020/fpk#Comunicação_Escrita"/>
+            <lomc:skill rdf:resource="http://eduknow.org/Competencias#Understanding"/>
+            <lomc:knowledge rdf:resource="http://www.acm.org/about/class/2013#Máquinas_de_estado_finito"/>
+          </rdf:Description>
+        </lomc:knowledgeSkill>
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Responsável"/>
+      </lomc:AtomicCompetence>
+    </lomc:educationalCompetency>
+    <lom:cost>no</lom:cost>
+    <dc:creator rdf:parseType="Resource">
+      <vcard:EMAIL>jessicasantana@ufba.br</vcard:EMAIL>
+      <vcard:ORG>http://www.ufba.br</vcard:ORG>
+      <vcard:FN>Jéssica Santana</vcard:FN>
+    </dc:creator>
+  </lom:learningObject>
+</rdf:RDF>

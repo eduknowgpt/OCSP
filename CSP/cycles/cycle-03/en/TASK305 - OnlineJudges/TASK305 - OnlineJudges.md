@@ -1,6 +1,6 @@
 # TASK305: Online Judges at Logistic Solutions
 
-Authors: Laís Salvador, Edeyson A. Gomes, and Luiz Gavaza
+Authors: Laís Salvador and Luiz Gavaza
 
 Year: 2025
 

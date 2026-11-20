@@ -1,0 +1,21 @@
+PREFIX k: <http://purl.org/ontoksd#>
+PREFIX dct: <http://purl.org/dc/terms/>
+SELECT DISTINCT ?judgment ?learner ?target ?participation ?occasion ?date ?evidence ?document ?criterion ?item
+WHERE {
+  ?judgment a k:EvidencedCompetence ;
+      k:refersToCompetence ?target ;
+      k:isEvidencedCompetenceOf/k:isProfileOf ?learner ;
+      k:derivedFromParticipation ?participation ;
+      k:supportedByEvidence ?evidence ;
+      k:evidencedAt ?date ;
+      dct:references ?criterion .
+  ?participation k:hasLearner ?learner ; k:occursInAssessmentOccurrence ?occasion .
+  ?occasion k:realizes/dct:references ?criterion .
+  ?criterion a k:Document ; dct:description ?item .
+  ?evidence k:evidenceBasedOn ?occasion ; k:hasSupportDocument ?document .
+  FILTER NOT EXISTS {
+    ?judgment k:supportedByEvidence/k:evidenceBasedOn ?otherOccasion .
+    FILTER (?otherOccasion != ?occasion)
+  }
+}
+ORDER BY ?date

@@ -24,3 +24,9 @@ question.
 The public identifier refers to this documentary case. Access to
 the original report and its correspondence with the case identifier
 is managed through the restricted source inventory.
+
+## Additional Product assessment records
+
+The [assessment supplement](../../assessment-traceability/README.md) identifies the general Product criteria and Block weights. The task statement supplies the task-specific two-example criterion. The tutor report and official workbook preserve their respective scores. The official result per criterion remains unverified.
+
+The [FR11 source fiche](TASK202-FR11-Assessment-Source-Description.md#contemporaneous-assessment-of-the-group-01-report) documents a separate Group 01 case. The tutors applied report criteria and recorded findings under “2. Produto” (PBL 02 - Grupos.txt, lines 23–45), with the final-product review documented separately in lines 47–53.

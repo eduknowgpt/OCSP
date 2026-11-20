@@ -1,8 +1,8 @@
 # **Problem 5 (Task): The Farmer Robot and the Feeder Robot**
  
-Authors: Luiz Gavaza &nbsp; Lais Salvador &nbsp; Roberta Oliveira &nbsp; Jessica Santana &nbsp; Otávio Neto
+Authors: Luiz Gavaza &nbsp; Lais Salvador &nbsp; Roberta Oliveira &nbsp; Otávio Neto
 
-Contributor: Edeyson Gomes
+Contributor: Edeyson Gomes &nbsp; Jessica Santana 
  
 ## Task: The Farmer Robot and the Feeder Robot
 

@@ -1,0 +1,168 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:fpk="https://www.semanticweb.org/cc2020/fpk#"
+    xmlns:cc2012="http://www.acm.org/about/class/2012#"
+    xmlns:lomc="http://eduknow.org/Competencias#"
+    xmlns:lom="http://ltsc.ieee.org/rdf/lomv1p0/lom#">
+
+  <lom:learningObject rdf:about="https://eduknow.org/ROBO_FAZENDEIRO.md">
+    <dc:title>Problema : O robo fazendeiro</dc:title>
+    <dc:language>pt</dc:language>
+    <dc:date>2022/09/21</dc:date>
+    <dc:rights>http://creativecommons.org/licenses/by-nc-nd/3.0/</dc:rights>
+    
+    <lom:keyword>Robo Fazendeiro</lom:keyword>
+    <lom:keyword>Maquina de Estados</lom:keyword>
+    <lom:keyword>Automato</lom:keyword>
+    
+    <lom:learningResourceType>problem statement</lom:learningResourceType>
+    <lom:educationalContext>higher education</lom:educationalContext>
+    
+    <!-- Competencia C12 -->
+    <lomc:educationalCompetency>
+      <lomc:AtomicCompetence rdf:about="https://eduknow.org/ROBO_FAZENDEIRO.md#C12">
+        <lomc:competenceStatement xml:lang="pt">Desenvolver solucoes de problemas usando Maquina de Estados Finito.</lomc:competenceStatement>
+        
+        <lomc:knowledgeSkill>
+          <rdf:Description rdf:about="https://eduknow.org/ROBO_FAZENDEIRO.md#C12KS01">
+            <lomc:skill rdf:resource="http://eduknow.org/Competencias#Applying"/>
+            <lomc:knowledge rdf:resource="http://www.acm.org/about/class/2013#Maquinas_de_estado_finito"/>
+          </rdf:Description>
+        </lomc:knowledgeSkill>
+        
+        <lomc:knowledgeSkill>
+          <rdf:Description rdf:about="https://eduknow.org/ROBO_FAZENDEIRO.md#C12KS02">
+            <lomc:skill rdf:resource="http://eduknow.org/Competencias#Understanding"/>
+            <lomc:knowledge rdf:resource="http://www.acm.org/about/class/2013#Engenharia_de_Requisitos"/>
+          </rdf:Description>
+        </lomc:knowledgeSkill>
+        
+        <lomc:knowledgeSkill>
+          <rdf:Description rdf:about="https://eduknow.org/ROBO_FAZENDEIRO.md#C12KS03">
+            <lomc:skill rdf:resource="http://eduknow.org/Competencias#Applying"/>
+            <lomc:knowledge rdf:resource="https://www.semanticweb.org/cc2020/fpk#Pensamento_analitico_e_critico"/>
+          </rdf:Description>
+        </lomc:knowledgeSkill>
+        
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Investigativo"/>
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Colaborativo"/>
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Responsavel"/>
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Proativo"/>
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Criativo"/>
+      </lomc:AtomicCompetence>
+    </lomc:educationalCompetency>
+
+    <!-- Competencia C08 -->
+    <lomc:educationalCompetency>
+      <lomc:AtomicCompetence rdf:about="https://eduknow.org/ROBO_FAZENDEIRO.md#C08">
+        <lomc:competenceStatement xml:lang="pt">Definir Expressoes Regulares para Automatos Finitos.</lomc:competenceStatement>
+        
+        <lomc:knowledgeSkill>
+          <rdf:Description rdf:about="https://eduknow.org/ROBO_FAZENDEIRO.md#C08KS01">
+            <lomc:skill rdf:resource="http://eduknow.org/Competencias#Understanding"/>
+            <lomc:knowledge rdf:resource="http://www.acm.org/about/class/2013#Maquinas_de_estado_finito"/>
+          </rdf:Description>
+        </lomc:knowledgeSkill>
+        
+        <lomc:knowledgeSkill>
+          <rdf:Description rdf:about="https://eduknow.org/ROBO_FAZENDEIRO.md#C08KS02">
+            <lomc:skill rdf:resource="http://eduknow.org/Competencias#Applying"/>
+            <lomc:knowledge rdf:resource="http://www.acm.org/about/class/2013#Expressoes_regulares"/>
+          </rdf:Description>
+        </lomc:knowledgeSkill>
+        
+        <lomc:knowledgeSkill>
+          <rdf:Description rdf:about="https://eduknow.org/ROBO_FAZENDEIRO.md#C08KS03">
+            <lomc:skill rdf:resource="http://eduknow.org/Competencias#Applying"/>
+            <lomc:knowledge rdf:resource="https://www.semanticweb.org/cc2020/fpk#Pensamento_analitico_e_critico"/>
+          </rdf:Description>
+        </lomc:knowledgeSkill>
+        
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Investigativo"/>
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Colaborativo"/>
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Responsavel"/>
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Proativo"/>
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Criativo"/>
+      </lomc:AtomicCompetence>
+    </lomc:educationalCompetency>
+
+    <!-- Competencia C07 -->
+    <lomc:educationalCompetency>
+      <lomc:AtomicCompetence rdf:about="https://eduknow.org/ROBO_FAZENDEIRO.md#C07">
+        <lomc:competenceStatement xml:lang="pt">Testar automatos usando simuladores.</lomc:competenceStatement>
+        
+        <lomc:knowledgeSkill>
+          <rdf:Description rdf:about="https://eduknow.org/ROBO_FAZENDEIRO.md#C07KS01">
+            <lomc:skill rdf:resource="http://eduknow.org/Competencias#Applying"/>
+            <lomc:knowledge rdf:resource="http://www.acm.org/about/class/2013#Maquinas_de_estado_finito"/>
+          </rdf:Description>
+        </lomc:knowledgeSkill>
+        
+        <lomc:knowledgeSkill>
+          <rdf:Description rdf:about="https://eduknow.org/ROBO_FAZENDEIRO.md#C07KS02">
+            <lomc:skill rdf:resource="http://eduknow.org/Competencias#Applying"/>
+            <lomc:knowledge rdf:resource="https://www.semanticweb.org/cc2020/fpk#Resolucao_de_problemas_e_solucao_de_problemas"/>
+          </rdf:Description>
+        </lomc:knowledgeSkill>
+        
+        <lomc:knowledgeSkill>
+          <rdf:Description rdf:about="https://eduknow.org/ROBO_FAZENDEIRO.md#C07KS03">
+            <lomc:skill rdf:resource="http://eduknow.org/Competencias#Applying"/>
+            <lomc:knowledge rdf:resource="http://www.acm.org/about/class/2013#Modelagem_e_Simulacao"/>
+          </rdf:Description>
+        </lomc:knowledgeSkill>
+        
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Investigativo"/>
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Colaborativo"/>
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Responsavel"/>
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Proativo"/>
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Criativo"/>
+      </lomc:AtomicCompetence>
+    </lomc:educationalCompetency>
+
+    <!-- Competencia C13 -->
+    <lomc:educationalCompetency>
+      <lomc:AtomicCompetence rdf:about="https://eduknow.org/ROBO_FAZENDEIRO.md#C13">
+        <lomc:competenceStatement xml:lang="pt">Identificar padroes em maquinas de estados.</lomc:competenceStatement>
+        
+        <lomc:knowledgeSkill>
+          <rdf:Description rdf:about="https://eduknow.org/ROBO_FAZENDEIRO.md#C13KS01">
+            <lomc:skill rdf:resource="http://eduknow.org/Competencias#Analyzing"/>
+            <lomc:knowledge rdf:resource="http://www.acm.org/about/class/2013#Maquinas_de_estado_finito"/>
+          </rdf:Description>
+        </lomc:knowledgeSkill>
+        
+        <lomc:knowledgeSkill>
+          <rdf:Description rdf:about="https://eduknow.org/ROBO_FAZENDEIRO.md#C13KS02">
+            <lomc:skill rdf:resource="http://eduknow.org/Competencias#Applying"/>
+            <lomc:knowledge rdf:resource="https://www.semanticweb.org/cc2020/fpk#Pensamento_analitico_e_critico"/>
+          </rdf:Description>
+        </lomc:knowledgeSkill>
+        
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Investigativo"/>
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Criativo"/>
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Meticuloso"/>
+      </lomc:AtomicCompetence>
+    </lomc:educationalCompetency>
+
+    <!-- Competencia C04 -->
+    <lomc:educationalCompetency>
+      <lomc:AtomicCompetence rdf:about="https://eduknow.org/ROBO_FAZENDEIRO.md#C04">
+        <lomc:competenceStatement xml:lang="pt">Escrever um relatorio tecnico.</lomc:competenceStatement>
+        
+        <lomc:knowledgeSkill>
+          <rdf:Description rdf:about="https://eduknow.org/ROBO_FAZENDEIRO.md#C04KS01">
+            <lomc:skill rdf:resource="http://eduknow.org/Competencias#Applying"/>
+            <lomc:knowledge rdf:resource="https://www.semanticweb.org/cc2020/fpk#Comunicacao_Escrita"/>
+          </rdf:Description>
+        </lomc:knowledgeSkill>
+        
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Colaborativo"/>
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Meticuloso"/>
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Responsavel"/>
+      </lomc:AtomicCompetence>
+    </lomc:educationalCompetency>
+
+  </lom:learningObject>
+</rdf:RDF>

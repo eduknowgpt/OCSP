@@ -315,3 +315,7 @@ The table summarizes the pairing structure. The complete specification also incl
 | Apply Turing Machine Concepts to Analyze Computational System Capabilities | Analytical Rigor, Responsibility, Collaboration    | Turing Machines                  | Apply / Analyze (Use, Interpret, Explain)   |
 |                                                                            |                                                    | Computability                    | Understand (Classify, Distinguish, Describe) |
 |                                                                            |                                                    | Analytical and Critical Thinking | Apply (Analyze, Structure, Justify)          |
+
+## Retrospective assessment source note
+
+The [Cycle 2 assessment supplement](../../assessment-traceability/README.md) documents the scoring scheme and the PBL 04 sources. Tutor observations, questionnaire responses and official grades provide different evidence for the historical application of the assessment.

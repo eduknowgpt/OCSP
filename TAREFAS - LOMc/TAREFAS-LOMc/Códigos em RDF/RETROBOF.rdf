@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:fpk="https://www.semanticweb.org/cc2020/fpk#"
+    xmlns:cc2012="http://www.acm.org/about/class/2012#"
+    xmlns:lomc="http://eduknow.org/Competencias#"
+    xmlns:lom="http://ltsc.ieee.org/rdf/lomv1p0/lom#">
+
+  <lom:learningObject rdf:about="https://eduknow.org/RETORNO_ROBO_FAZENDEIRO_PDA">
+    <dc:title>Retorno do Robô Fazendeiro usando Autômatos de Pilha</dc:title>
+    <dc:language>pt</dc:language>
+    <dc:date>2023-10-15</dc:date>
+    <lom:educationalContext>higher education</lom:educationalContext>
+    <lom:learningResourceType>problem statement</lom:learningResourceType>
+    
+    <!-- Competência C14 -->
+    <lomc:educationalCompetency>
+      <lomc:AtomicCompetence rdf:about="https://eduknow.org/RETORNO_ROBO_FAZENDEIRO_PDA#C14">
+        <lomc:competenceStatement xml:lang="pt">Desenvolver soluções de problemas usando Autômato de Pilha.</lomc:competenceStatement>
+        
+        <lomc:knowledgeSkill>
+          <rdf:Description rdf:about="https://eduknow.org/RETORNO_ROBO_FAZENDEIRO_PDA#C14KS01">
+            <lomc:skill rdf:resource="http://eduknow.org/Competencias#Applying"/>
+            <lomc:knowledge rdf:resource="http://www.acm.org/about/class/2012#Autômatos_push-down"/>
+          </rdf:Description>
+        </lomc:knowledgeSkill>
+        
+        <lomc:knowledgeSkill>
+          <rdf:Description rdf:about="https://eduknow.org/RETORNO_ROBO_FAZENDEIRO_PDA#C14KS02">
+            <lomc:skill rdf:resource="http://eduknow.org/Competencias#Understanding"/>
+            <lomc:knowledge rdf:resource="http://www.acm.org/about/class/2012#Engenharia_de_Requisitos"/>
+          </rdf:Description>
+        </lomc:knowledgeSkill>
+        
+        <lomc:knowledgeSkill>
+          <rdf:Description rdf:about="https://eduknow.org/RETORNO_ROBO_FAZENDEIRO_PDA#C14KS03">
+            <lomc:skill rdf:resource="http://eduknow.org/Competencias#Applying"/>
+            <lomc:knowledge rdf:resource="https://www.semanticweb.org/cc2020/fpk#Pensamento_analítico_e_crítico"/>
+          </rdf:Description>
+        </lomc:knowledgeSkill>
+        
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Investigativo"/>
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Colaborativo"/>
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Responsável"/>
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Proativo"/>
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Criativo"/>
+      </lomc:AtomicCompetence>
+    </lomc:educationalCompetency>
+    
+    <!-- Competência C15 -->
+    <lomc:educationalCompetency>
+      <lomc:AtomicCompetence rdf:about="https://eduknow.org/RETORNO_ROBO_FAZENDEIRO_PDA#C15">
+        <lomc:competenceStatement xml:lang="pt">Interpretar notação baseada em regras.</lomc:competenceStatement>
+        
+        <lomc:knowledgeSkill>
+          <rdf:Description rdf:about="https://eduknow.org/RETORNO_ROBO_FAZENDEIRO_PDA#C15KS01">
+            <lomc:skill rdf:resource="http://eduknow.org/Competencias#Understanding"/>
+            <lomc:knowledge rdf:resource="http://www.acm.org/about/class/2012#Autômatos_push-down"/>
+          </rdf:Description>
+        </lomc:knowledgeSkill>
+        
+        <lomc:knowledgeSkill>
+          <rdf:Description rdf:about="https://eduknow.org/RETORNO_ROBO_FAZENDEIRO_PDA#C15KS02">
+            <lomc:skill rdf:resource="http://eduknow.org/Competencias#Understanding"/>
+            <lomc:knowledge rdf:resource="http://www.acm.org/about/class/2012#Gramáticas_livres_de_contexto"/>
+          </rdf:Description>
+        </lomc:knowledgeSkill>
+        
+        <lomc:knowledgeSkill>
+          <rdf:Description rdf:about="https://eduknow.org/RETORNO_ROBO_FAZENDEIRO_PDA#C15KS03">
+            <lomc:skill rdf:resource="http://eduknow.org/Competencias#Understanding"/>
+            <lomc:knowledge rdf:resource="http://www.acm.org/about/class/2012#Linguagens_livres_de_contexto"/>
+          </rdf:Description>
+        </lomc:knowledgeSkill>
+        
+        <lomc:knowledgeSkill>
+          <rdf:Description rdf:about="https://eduknow.org/RETORNO_ROBO_FAZENDEIRO_PDA#C15KS04">
+            <lomc:skill rdf:resource="http://eduknow.org/Competencias#Applying"/>
+            <lomc:knowledge rdf:resource="https://www.semanticweb.org/cc2020/fpk#Pensamento_analítico_e_crítico"/>
+          </rdf:Description>
+        </lomc:knowledgeSkill>
+        
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Investigativo"/>
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Colaborativo"/>
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Responsável"/>
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Proativo"/>
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Criativo"/>
+      </lomc:AtomicCompetence>
+    </lomc:educationalCompetency>
+    
+    <!-- Competência C07 -->
+    <lomc:educationalCompetency>
+      <lomc:AtomicCompetence rdf:about="https://eduknow.org/RETORNO_ROBO_FAZENDEIRO_PDA#C07">
+        <lomc:competenceStatement xml:lang="pt">Testar autômatos usando Simulador.</lomc:competenceStatement>
+        
+        <lomc:knowledgeSkill>
+          <rdf:Description rdf:about="https://eduknow.org/RETORNO_ROBO_FAZENDEIRO_PDA#C07KS01">
+            <lomc:skill rdf:resource="http://eduknow.org/Competencias#Applying"/>
+            <lomc:knowledge rdf:resource="http://www.acm.org/about/class/2012#Autômatos_push-down"/>
+          </rdf:Description>
+        </lomc:knowledgeSkill>
+        
+        <lomc:knowledgeSkill>
+          <rdf:Description rdf:about="https://eduknow.org/RETORNO_ROBO_FAZENDEIRO_PDA#C07KS02">
+            <lomc:skill rdf:resource="http://eduknow.org/Competencias#Applying"/>
+            <lomc:knowledge rdf:resource="https://www.semanticweb.org/cc2020/fpk#Resolução_de_problemas_e_solução_de_problemas"/>
+          </rdf:Description>
+        </lomc:knowledgeSkill>
+        
+        <lomc:knowledgeSkill>
+          <rdf:Description rdf:about="https://eduknow.org/RETORNO_ROBO_FAZENDEIRO_PDA#C07KS03">
+            <lomc:skill rdf:resource="http://eduknow.org/Competencias#Applying"/>
+            <lomc:knowledge rdf:resource="http://www.acm.org/about/class/2012#Modelagem_e_Simulação"/>
+          </rdf:Description>
+        </lomc:knowledgeSkill>
+        
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Investigativo"/>
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Colaborativo"/>
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Responsável"/>
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Proativo"/>
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Criativo"/>
+      </lomc:AtomicCompetence>
+    </lomc:educationalCompetency>
+    
+    <!-- Competência C16 -->
+    <lomc:educationalCompetency>
+      <lomc:AtomicCompetence rdf:about="https://eduknow.org/RETORNO_ROBO_FAZENDEIRO_PDA#C16">
+        <lomc:competenceStatement xml:lang="pt">Diferenciar as classificações das gramáticas formais.</lomc:competenceStatement>
+        
+        <lomc:knowledgeSkill>
+          <rdf:Description rdf:about="https://eduknow.org/RETORNO_ROBO_FAZENDEIRO_PDA#C16KS01">
+            <lomc:skill rdf:resource="http://eduknow.org/Competencias#Understanding"/>
+            <lomc:knowledge rdf:resource="http://www.acm.org/about/class/2012#Linguagens_livres_de_contexto"/>
+          </rdf:Description>
+        </lomc:knowledgeSkill>
+        
+        <lomc:knowledgeSkill>
+          <rdf:Description rdf:about="https://eduknow.org/RETORNO_ROBO_FAZENDEIRO_PDA#C16KS02">
+            <lomc:skill rdf:resource="http://eduknow.org/Competencias#Understanding"/>
+            <lomc:knowledge rdf:resource="http://www.acm.org/about/class/2012#Linguagens_Regulares"/>
+          </rdf:Description>
+        </lomc:knowledgeSkill>
+        
+        <lomc:knowledgeSkill>
+          <rdf:Description rdf:about="https://eduknow.org/RETORNO_ROBO_FAZENDEIRO_PDA#C16KS03">
+            <lomc:skill rdf:resource="http://eduknow.org/Competencias#Applying"/>
+            <lomc:knowledge rdf:resource="https://www.semanticweb.org/cc2020/fpk#Pensamento_analítico_e_crítico"/>
+          </rdf:Description>
+        </lomc:knowledgeSkill>
+        
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Investigativo"/>
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Colaborativo"/>
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Responsável"/>
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Proativo"/>
+      </lomc:AtomicCompetence>
+    </lomc:educationalCompetency>
+    
+    <!-- Competência C04 -->
+    <lomc:educationalCompetency>
+      <lomc:AtomicCompetence rdf:about="https://eduknow.org/RETORNO_ROBO_FAZENDEIRO_PDA#C04">
+        <lomc:competenceStatement xml:lang="pt">Escrever um relatório técnico.</lomc:competenceStatement>
+        
+        <lomc:knowledgeSkill>
+          <rdf:Description rdf:about="https://eduknow.org/RETORNO_ROBO_FAZENDEIRO_PDA#C04KS01">
+            <lomc:skill rdf:resource="http://eduknow.org/Competencias#Applying"/>
+            <lomc:knowledge rdf:resource="https://www.semanticweb.org/cc2020/fpk#Comunicação_Escrita"/>
+          </rdf:Description>
+        </lomc:knowledgeSkill>
+        
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Colaborativo"/>
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Meticuloso"/>
+        <lomc:disposition rdf:resource="http://eduknow.org/Competencias#Responsável"/>
+      </lomc:AtomicCompetence>
+    </lomc:educationalCompetency>
+  </lom:learningObject>
+</rdf:RDF>

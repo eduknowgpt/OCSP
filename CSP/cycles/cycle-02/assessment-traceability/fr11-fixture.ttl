@@ -1,0 +1,28 @@
+@prefix : <urn:csp:cycle2:fr11:> .
+@prefix k: <http://purl.org/ontoksd#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:learner a k:Learner .
+:profile a k:Profile ; k:isProfileOf :learner .
+:target a k:Competence .
+:assessment a k:Assessment ; dct:references :criterion .
+:criterion a k:Document ; dct:description "Explain two tests and justify their results."@en .
+:otherAssessment a k:Assessment ; dct:references :otherCriterion .
+:otherCriterion a k:Document ; dct:description "Criterion for another assessment."@en .
+:o1 a k:AssessmentOccurrence ; k:realizes :assessment .
+:o2 a k:AssessmentOccurrence ; k:realizes :assessment .
+:p1 a k:AssessmentParticipation ; k:hasLearner :learner ; k:occursInAssessmentOccurrence :o1 .
+:p2 a k:AssessmentParticipation ; k:hasLearner :learner ; k:occursInAssessmentOccurrence :o2 .
+:report1 a k:Document .
+:report2 a k:Document .
+:e1 a k:Evidence ; k:evidenceBasedOn :o1 ; k:hasSupportDocument :report1 .
+:e2 a k:Evidence ; k:evidenceBasedOn :o2 ; k:hasSupportDocument :report2 .
+:j1 a k:EvidencedCompetence ; k:refersToCompetence :target ;
+  k:isEvidencedCompetenceOf :profile ; k:derivedFromParticipation :p1 ;
+  k:supportedByEvidence :e1 ; dct:references :criterion ;
+  k:evidencedAt "2026-01-10T14:00:00Z"^^xsd:dateTime .
+:j2 a k:EvidencedCompetence ; k:refersToCompetence :target ;
+  k:isEvidencedCompetenceOf :profile ; k:derivedFromParticipation :p2 ;
+  k:supportedByEvidence :e2 ; dct:references :criterion ;
+  k:evidencedAt "2026-01-17T14:00:00Z"^^xsd:dateTime .

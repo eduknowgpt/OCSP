@@ -159,3 +159,7 @@ The distinction concerns the form of evidence: the absence of a separate regular
 *Justification:* Estimating the number of states and transitions required by the surveillance module demands the identification of structural regularities in FSM design. This competency supports abstraction and generalization from specific models to broader design principles, enabling learners to reason about scalability and structural optimization. Its activation occurs primarily in an analytical mode, supporting higher-level reasoning about model structure.
 
 From a methodological perspective, this competency configuration illustrates the maturation of the CSP toward a reuse-oriented specification strategy, in which competencies are not recreated for each task but systematically activated under different instructional conditions. From an ontological perspective, this distinction reinforces the OntoKSD principle that competencies remain stable entities, while their contextual enactment—including activation mode, instructional role, constraints, and evidence—is modeled at the relational level between competence and instructional entity.
+
+## Retrospective assessment source note
+
+The [Cycle 2 assessment supplement](../../assessment-traceability/README.md) documents the scoring scheme and the PBL 01 sources. Tutor observations, questionnaire responses and official grades provide different evidence for the historical application of the assessment.
