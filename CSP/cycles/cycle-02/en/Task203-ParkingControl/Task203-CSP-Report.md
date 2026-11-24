@@ -103,6 +103,3 @@ The selected competencies collectively ensure coverage of the conceptual, constr
 
 Within the CSP lifecycle, Task203 represents the consolidation stage of the computational expressiveness progression introduced in previous tasks (FSM → PDA → TM). While Task202 exposed the need for refinement in competency scope under increased theoretical demands, Task203 operates over an already stabilized competency set, providing a consistent instructional context for examining competency reuse under higher expressive requirements without requiring structural changes to competency definitions.
 
-## Retrospective assessment source note
-
-The [Cycle 2 assessment supplement](../../assessment-traceability/README.md) documents the scoring scheme and the PBL 03 sources. Tutor observations, questionnaire responses and official grades provide different evidence for the historical application of the assessment.
