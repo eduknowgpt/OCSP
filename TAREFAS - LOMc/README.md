@@ -4,9 +4,6 @@ Este diretório reúne tarefas, especificações de competências, anotações, 
 
 A expressão “primeira versão do CSP” identifica o acervo retrospectivamente. Os documentos preservam nomenclaturas, códigos e estados próprios; não devem ser interpretados como uma aplicação integral do processo de referência consolidado posteriormente na tese de doutorado. A pasta também contém materiais com referências a um segundo ciclo e versões de trabalho, não apenas um conjunto fechado de documentos iniciais.
 
-Inventário verificado em **24 de novembro de 2026**: **81 arquivos preexistentes**, sendo **67 DOCX, 8 PDF e 6 RDF**, distribuídos em seis pastas principais e dois documentos na raiz. Este README não integra essa contagem.
-
-> **Situação de compartilhamento:** a anonimização dos revisores ainda está incompleta. Há nomes em documentos de revisão e em cópias históricas, inclusive uma associação explícita entre códigos e nomes. O uso de “Revisor 1” e “Revisor 2” em parte dos textos não torna o conjunto anônimo. Prepare uma cópia revisada para divulgação e preserve os originais em acesso restrito.
 
 ## Organização e função dos materiais
 
@@ -205,6 +202,3 @@ TAREFAS - LOMc/
 └── Tabela com Todas as Competências_.docx
 ```
 
-## Uso e atribuição
-
-Ao utilizar os materiais, identifique sua relação com o trabalho colaborativo e com a dissertação de Jéssica Santana, além da versão documental efetivamente consultada. A existência deste README não concede nova licença nem substitui condições de uso e atribuição presentes nos recursos originais.
