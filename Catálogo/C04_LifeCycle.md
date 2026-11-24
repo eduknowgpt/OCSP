@@ -10,15 +10,15 @@ This lifecycle distinguishes CSP application cycles from specification iteration
 
 | Cycle | Task | Event | Decision | Source |
 | --- | --- | --- | --- | --- |
-| cycle-01 | task-01 | created | Created | [record](<../CSP/cycles/cycle-01/en/Task01/Task01-CSP-Report.md>) |
-| cycle-01 | task-01 | revised | Approved with Revisions | [record](<../CSP/cycles/cycle-01/en/Task01/Task01-CSP-Adjustments.md>) |
-| cycle-01 | task-03 | revised | Approved with Revisions | [record](<../CSP/cycles/cycle-01/en/Task03/Task03-CSP-Adjustments.md>) |
-| cycle-01 | task-03 | reused | Approved with Revisions | [record](<../CSP/cycles/cycle-01/en/Task03/Task03-CSP-Adjustments.md>) |
-| cycle-02 | task-201 | reused | Existing competency selected | [record](<../CSP/cycles/cycle-02/en/Task201/Task201-CSP-Report.md>) |
-| cycle-02 | task-201 | reviewed | Partial alignment; Moderate | [record](<../CSP/cycles/cycle-02/en/Task201/TASK201-CSP-Review-Report.md>) |
-| cycle-02 | task-201 | activation_clarified | Contextual role documented; identity retained | [record](<../CSP/cycles/cycle-02/en/Task201/TASK201-CSP-Adjustment.md>) |
-| cycle-03 | task-25.00 | reused | Reuse existing competency with documented task activation | [record](<../CSP/cycles/cycle-03/en/TASK25.00 - MusicCollection/Task25.00-CSP-Report.md>) |
-| cycle-03 | task-25.01 | reused | Reuse existing competency with documented task activation | [record](<../CSP/cycles/cycle-03/en/TASK25.01 - TheVendingMachine/TASK25.01-CSP-Report.md>) |
+| cycle-01 | task-01 | created | Created | [record](<../CSP/cycles/cycle-01/en/Task01-TheVendingMachine/Task01-CSP-Report.md>) |
+| cycle-01 | task-01 | revised | Approved with Revisions | [record](<../CSP/cycles/cycle-01/en/Task01-TheVendingMachine/Task01-CSP-Adjustments.md>) |
+| cycle-01 | task-03 | revised | Approved with Revisions | [record](<../CSP/cycles/cycle-01/en/Task03-FarmingRobot/Task03-CSP-Adjustments.md>) |
+| cycle-01 | task-03 | reused | Approved with Revisions | [record](<../CSP/cycles/cycle-01/en/Task03-FarmingRobot/Task03-CSP-Adjustments.md>) |
+| cycle-02 | task-201 | reused | Existing competency selected | [record](<../CSP/cycles/cycle-02/en/Task201-DroneMonitoring/Task201-CSP-Report.md>) |
+| cycle-02 | task-201 | reviewed | Partial alignment; Moderate | [record](<../CSP/cycles/cycle-02/en/Task201-DroneMonitoring/TASK201-CSP-Review-Report.md>) |
+| cycle-02 | task-201 | activation_clarified | Contextual role documented; identity retained | [record](<../CSP/cycles/cycle-02/en/Task201-DroneMonitoring/TASK201-CSP-Adjustment.md>) |
+| cycle-03 | task-25.00 | reused | Reuse existing competency with documented task activation | [record](<../CSP/cycles/cycle-03/en/TASK301%20-%20MusicCollection/TASK301-CSP-Report.md>) |
+| cycle-03 | task-25.01 | reused | Reuse existing competency with documented task activation | [record](<../CSP/cycles/cycle-03/en/TASK302%20-%20TheVendingMachine/TASK302-CSP-Report.md>) |
 
 ## Current reference
 

@@ -56,10 +56,10 @@ The 20 adjusted reuse associations use identities originating in Cycle 1. Cycle 
 
 | Task | Specification | Review | Adjustments |
 | --- | --- | --- | --- |
-| Task201 | [Report](en/Task201/Task201-CSP-Report.md) | [Review](en/Task201/TASK201-CSP-Review-Report.md) | [Adjustments](en/Task201/TASK201-CSP-Adjustment.md) |
-| Task202 | [Report](en/Task202/Task202-CSP-Report.md) | [Review](en/Task202/TASK202-CSP-Review-Report.md) | [Adjustments](en/Task202/TASK202-CSP-Adustments.md) |
-| Task203 | [Report](en/Task203/Task203-CSP-Report.md) | [Review](en/Task203/TASK203-CSP-Review-Report.md) | [Adjustments](en/Task203/TASK203-CSP-Adjustments.md) |
-| Task204 | [Report](en/Task204/Task204-CSP-Report.md) | [Review](en/Task204/TASK204-CSRP-Report.md) | [Adjustments](en/Task204/TASK204-CSP-Adjustments.md) |
+| Task201 | [Report](en/Task201-DroneMonitoring/Task201-CSP-Report.md) | [Review](en/Task201-DroneMonitoring/TASK201-CSP-Review-Report.md) | [Adjustments](en/Task201-DroneMonitoring/TASK201-CSP-Adjustment.md) |
+| Task202 | [Report](en/Task202-TeamControl/Task202-CSP-Report.md) | [Review](en/Task202-TeamControl/TASK202-CSP-Review-Report.md) | [Adjustments](en/Task202-TeamControl/TASK202-CSP-Adustments.md) |
+| Task203 | [Report](en/Task203-ParkingControl/Task203-CSP-Report.md) | [Review](en/Task203-ParkingControl/TASK203-CSP-Review-Report.md) | [Adjustments](en/Task203-ParkingControl/TASK203-CSP-Adjustments.md) |
+| Task204 | [Report](en/Task204-OnlineJudges/Task204-CSP-Report.md) | [Review](en/Task204-OnlineJudges/TASK204-CSRP-Report.md) | [Adjustments](en/Task204-OnlineJudges/TASK204-CSP-Adjustments.md) |
 
 Historical filenames are preserved, including `TASK202-CSP-Adustments.md` and `TASK204-CSRP-Report.md`. CSV source paths are relative to the CSP directory: `cycles/cycle-02/...`. References to inherited definitions point to Cycle 1.
 
@@ -83,3 +83,7 @@ Task–competency membership and quantitative totals for this cycle are unchange
 ## Assessment and FR11 evidence
 
 The [assessment supplement](assessment-traceability/README.md) documents the Process and Product scoring scheme, the sources for all four problems, historical questionnaire traceability in Task202, and a supplementary controlled retrieval check.
+
+## Navigation
+
+[Task-package index](en/README.md) · [Teaching plans](syllabus/README.md) · [All cycles](../README.md)

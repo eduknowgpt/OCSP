@@ -10,9 +10,9 @@ This lifecycle distinguishes CSP application cycles from specification iteration
 
 | Cycle | Task | Event | Decision | Source |
 | --- | --- | --- | --- | --- |
-| cycle-01 | task-01 | created | Created | [record](<../CSP/cycles/cycle-01/en/Task01/Task01-CSP-Report.md>) |
-| cycle-01 | task-01 | revised | Approved with Revisions | [record](<../CSP/cycles/cycle-01/en/Task01/Task01-CSP-Adjustments.md>) |
-| cycle-01 | task-01 | retained_after_addition | Approved | [record](<../CSP/cycles/cycle-01/en/Task01/Review2/Task01-CSP-Report-v2.md>) |
+| cycle-01 | task-01 | created | Created | [record](<../CSP/cycles/cycle-01/en/Task01-TheVendingMachine/Task01-CSP-Report.md>) |
+| cycle-01 | task-01 | revised | Approved with Revisions | [record](<../CSP/cycles/cycle-01/en/Task01-TheVendingMachine/Task01-CSP-Adjustments.md>) |
+| cycle-01 | task-01 | retained_after_addition | Approved | [record](<../CSP/cycles/cycle-01/en/Task01-TheVendingMachine/Review2/Task01-CSP-Report-v2.md>) |
 
 C01 remains defined and associated with Task01. C06 originated in Task03 and was added to Task01 during its second iteration. This is additive reuse; C01 was not discontinued, and no formal C06 specialization relation is inferred.
 

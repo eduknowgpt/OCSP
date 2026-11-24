@@ -1,6 +1,6 @@
 # CSP Task–Competency Relations Across Cycles 1–3
 
-Current view after [RF-01-03](CSP-Post-Cycle-Refinement-Report.md), dated 2 October 2026. The 2021, 2022 and 2025 applications retain their original years. The earlier corpus and views are preserved in the [archive](refinements/RF-01-03-2026-10-02/README.md).
+Current view after [RF-01-03](CSP-Post-Cycle-Refinement-Report.md), dated 2 October 2026. The 2021, 2022 and 2025 applications retain their original years. The earlier corpus and views are preserved in the [archive in Git history](https://github.com/eduknowgpt/OCSP/blob/2cf2d968456720db3967c7b0061d1e353a45667a/CSP/cycles/refinements/RF-01-03-2026-10-02/README.md).
 
 ## All tasks
 

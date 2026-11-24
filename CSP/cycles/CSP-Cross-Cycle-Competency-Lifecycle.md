@@ -4,7 +4,7 @@
 
 This view incorporates the [post-cycle refinement](CSP-Post-Cycle-Refinement-Report.md) dated 2 October 2026. The 14 tasks retain 28 competency identities. Current associations total 91: 28 creations and 63 reuses. The pre-refinement baseline totals 90 associations. C12 in TASK25.02 is the sole added association.
 
-The previous comparison and its 13 points are preserved in the [archive](refinements/RF-01-03-2026-10-02/README.md). Reference components are reconciled with task-level definitions; contextual use remains distinct from claims of full attainment. The [task matrix](CSP-Cross-Cycle-Task-Competency-Matrix.md) provides both quantitative views.
+The previous comparison and its 13 points are preserved in the [archive in Git history](https://github.com/eduknowgpt/OCSP/blob/2cf2d968456720db3967c7b0061d1e353a45667a/CSP/cycles/refinements/RF-01-03-2026-10-02/README.md). Reference components are reconciled with task-level definitions; contextual use remains distinct from claims of full attainment. The [task matrix](CSP-Cross-Cycle-Task-Competency-Matrix.md) provides both quantitative views.
 
 ## Supported relations
 
@@ -61,11 +61,11 @@ Documented development: Task01 adjustment refines knowledge and terminology. Its
 
 | Task / cycle | Association | How used | Role / mode / constraint | Evidence |
 | --- | --- | --- | --- | --- |
-| Task01 / cycle-01 | created | General automata-based solution development | not specified / not specified / not specified | [report](<cycle-01/en/Task01/Task01-CSP-Adjustments.md>) |
+| Task01 / cycle-01 | created | General automata-based solution development | not specified / not specified / not specified | [report](<cycle-01/en/Task01-TheVendingMachine/Task01-CSP-Adjustments.md>) |
 
 ### Maintained reference components
 
-Source: [definition](<cycle-01/en/Task01/Task01-CSP-Adjustments.md>).
+Source: [definition](<cycle-01/en/Task01-TheVendingMachine/Task01-CSP-Adjustments.md>).
 
 | Dispositions | Knowledge | Skill |
 | --- | --- | --- |
@@ -89,16 +89,16 @@ Documented development: Task01 narrows the original DFA/NFA choice proposal to D
 
 | Task / cycle | Association | How used | Role / mode / constraint | Evidence |
 | --- | --- | --- | --- | --- |
-| Task01 / cycle-01 | created | Justification of the deterministic finite-state model | not specified / not specified / not specified | [report](<cycle-01/en/Task01/Task01-CSP-Adjustments.md>) |
-| Task201 / cycle-02 | reused | Model justification | not_specified / justificatory;analytical / not_specified | [report](<cycle-02/en/Task201/TASK201-CSP-Adjustment.md>) |
-| Task204 / cycle-02 | reused | Model justification | extension / justificatory / optional | [report](<cycle-02/en/Task204/TASK204-CSP-Adjustments.md>) |
-| TASK25.01 / cycle-03 | reused | Justify the deterministic finite-state representation against the task requirements. | supporting / justificatory / mandatory | [report](<cycle-03/en/TASK25.01 - TheVendingMachine/TASK25.01-CSP-Report.md>) |
-| TASK25.02 / cycle-03 | reused | Support analysis of finite-state suitability and insufficiency; positive DFA-use scope remains a boundary. | supporting / justificatory / mandatory | [report](<cycle-03/en/TASK25.02 - TheMinotaursLabyrinth/TASK25.02-CSP-Report.md>) |
-| TASK25.05 / cycle-03 | reused | Optionally justify the deterministic finite-state workflow abstraction. | extension / justificatory / optional | [report](<cycle-03/en/TASK25.05 - OnlineJudges/TASK25.05-CSP-Report.md>) |
+| Task01 / cycle-01 | created | Justification of the deterministic finite-state model | not specified / not specified / not specified | [report](<cycle-01/en/Task01-TheVendingMachine/Task01-CSP-Adjustments.md>) |
+| Task201 / cycle-02 | reused | Model justification | not_specified / justificatory;analytical / not_specified | [report](<cycle-02/en/Task201-DroneMonitoring/TASK201-CSP-Adjustment.md>) |
+| Task204 / cycle-02 | reused | Model justification | extension / justificatory / optional | [report](<cycle-02/en/Task204-OnlineJudges/TASK204-CSP-Adjustments.md>) |
+| TASK25.01 / cycle-03 | reused | Justify the deterministic finite-state representation against the task requirements. | supporting / justificatory / mandatory | [report](<cycle-03/en/TASK302%20-%20TheVendingMachine/TASK302-CSP-Report.md>) |
+| TASK25.02 / cycle-03 | reused | Support analysis of finite-state suitability and insufficiency; positive DFA-use scope remains a boundary. | supporting / justificatory / mandatory | [report](<cycle-03/en/TASK303%20-%20TheMinotaursLabyrinth/TASK303-CSP-Report.md>) |
+| TASK25.05 / cycle-03 | reused | Optionally justify the deterministic finite-state workflow abstraction. | extension / justificatory / optional | [report](<cycle-03/en/TASK305%20-%20OnlineJudges/TASK305-CSP-Report.md>) |
 
 ### Maintained reference components
 
-Source: [definition](<cycle-01/en/Task01/Task01-CSP-Adjustments.md>).
+Source: [definition](<cycle-01/en/Task01-TheVendingMachine/Task01-CSP-Adjustments.md>).
 
 | Dispositions | Knowledge | Skill |
 | --- | --- | --- |
@@ -122,19 +122,19 @@ Documented development: Task01 replaces Automata over Infinite Objects with Fini
 
 | Task / cycle | Association | How used | Role / mode / constraint | Evidence |
 | --- | --- | --- | --- | --- |
-| Task01 / cycle-01 | created | Simulation and validation of the vending-machine automaton | not specified / not specified / not specified | [report](<cycle-01/en/Task01/Task01-CSP-Adjustments.md>) |
-| Task03 / cycle-01 | reused | Simulation and validation of the Farmer Robot finite-state model | not specified / not specified / not specified | [report](<cycle-01/en/Task03/Task03-CSP-Adjustments.md>) |
-| Task04 / cycle-01 | reused | Simulation and validation of a pushdown-automaton model | not specified / not specified / not specified | [report](<cycle-01/en/Task04/Task04-CSP-Adjustments.md>) |
-| Task201 / cycle-02 | reused | Simulation and validation | not_specified / artifact-oriented / not_specified | [report](<cycle-02/en/Task201/TASK201-CSP-Adjustment.md>) |
-| Task202 / cycle-02 | reused | PDA simulation | not_specified / artifact-oriented / not_specified | [report](<cycle-02/en/Task202/TASK202-CSP-Adustments.md>) |
-| Task204 / cycle-02 | reused | FSM simulation | supporting / artifact-oriented / conditional | [report](<cycle-02/en/Task204/TASK204-CSP-Adjustments.md>) |
-| TASK25.01 / cycle-03 | reused | Use simulation evidence to investigate payment/selection behavior; conditional label preserves task simulator requirements. | supporting / artifact-oriented / conditional | [report](<cycle-03/en/TASK25.01 - TheVendingMachine/TASK25.01-CSP-Report.md>) |
-| TASK25.02 / cycle-03 | reused | Test the PDA/grammar behavior in JFLAP; retained FSM knowledge scope requires clarification. | supporting / artifact-oriented / mandatory | [report](<cycle-03/en/TASK25.02 - TheMinotaursLabyrinth/TASK25.02-CSP-Report.md>) |
-| TASK25.05 / cycle-03 | reused | Simulate and test the workflow FSM under the recorded conditional association. | supporting / artifact-oriented / conditional | [report](<cycle-03/en/TASK25.05 - OnlineJudges/TASK25.05-CSP-Report.md>) |
+| Task01 / cycle-01 | created | Simulation and validation of the vending-machine automaton | not specified / not specified / not specified | [report](<cycle-01/en/Task01-TheVendingMachine/Task01-CSP-Adjustments.md>) |
+| Task03 / cycle-01 | reused | Simulation and validation of the Farmer Robot finite-state model | not specified / not specified / not specified | [report](<cycle-01/en/Task03-FarmingRobot/Task03-CSP-Adjustments.md>) |
+| Task04 / cycle-01 | reused | Simulation and validation of a pushdown-automaton model | not specified / not specified / not specified | [report](<cycle-01/en/Task04-TheReturnFarmingRobot/Task04-CSP-Adjustments.md>) |
+| Task201 / cycle-02 | reused | Simulation and validation | not_specified / artifact-oriented / not_specified | [report](<cycle-02/en/Task201-DroneMonitoring/TASK201-CSP-Adjustment.md>) |
+| Task202 / cycle-02 | reused | PDA simulation | not_specified / artifact-oriented / not_specified | [report](<cycle-02/en/Task202-TeamControl/TASK202-CSP-Adustments.md>) |
+| Task204 / cycle-02 | reused | FSM simulation | supporting / artifact-oriented / conditional | [report](<cycle-02/en/Task204-OnlineJudges/TASK204-CSP-Adjustments.md>) |
+| TASK25.01 / cycle-03 | reused | Use simulation evidence to investigate payment/selection behavior; conditional label preserves task simulator requirements. | supporting / artifact-oriented / conditional | [report](<cycle-03/en/TASK302%20-%20TheVendingMachine/TASK302-CSP-Report.md>) |
+| TASK25.02 / cycle-03 | reused | Test the PDA/grammar behavior in JFLAP; retained FSM knowledge scope requires clarification. | supporting / artifact-oriented / mandatory | [report](<cycle-03/en/TASK303%20-%20TheMinotaursLabyrinth/TASK303-CSP-Report.md>) |
+| TASK25.05 / cycle-03 | reused | Simulate and test the workflow FSM under the recorded conditional association. | supporting / artifact-oriented / conditional | [report](<cycle-03/en/TASK305%20-%20OnlineJudges/TASK305-CSP-Report.md>) |
 
 ### Maintained reference components
 
-Source: [definition](<cycle-01/en/Task01/Task01-CSP-Adjustments.md>).
+Source: [definition](<cycle-01/en/Task01-TheVendingMachine/Task01-CSP-Adjustments.md>).
 
 | Dispositions | Knowledge | Skill |
 | --- | --- | --- |
@@ -160,15 +160,15 @@ Documented development: Task01 merges two regular-expression proposals. Task03 r
 
 | Task / cycle | Association | How used | Role / mode / constraint | Evidence |
 | --- | --- | --- | --- | --- |
-| Task01 / cycle-01 | created | Representation of finite-automaton behavior with regular expressions | not specified / not specified / not specified | [report](<cycle-01/en/Task01/Task01-CSP-Adjustments.md>) |
-| Task03 / cycle-01 | reused | Definition of regular expressions corresponding to the finite-state model | not specified / not specified / not specified | [report](<cycle-01/en/Task03/Task03-CSP-Adjustments.md>) |
-| Task201 / cycle-02 | reused | Symbolic reasoning supporting FSM modeling | supporting / analytical;conceptual / not_specified | [report](<cycle-02/en/Task201/TASK201-CSP-Adjustment.md>) |
-| TASK25.00 / cycle-03 | reused | Describe song collections through regular expressions and conceptual representation correspondence. | core / artifact-oriented / mandatory | [report](<cycle-03/en/TASK25.00 - MusicCollection/Task25.00-CSP-Report.md>) |
-| TASK25.01 / cycle-03 | reused | Investigate regular-expression correspondence as a conditional extension. | extension / analytical / conditional | [report](<cycle-03/en/TASK25.01 - TheVendingMachine/TASK25.01-CSP-Report.md>) |
+| Task01 / cycle-01 | created | Representation of finite-automaton behavior with regular expressions | not specified / not specified / not specified | [report](<cycle-01/en/Task01-TheVendingMachine/Task01-CSP-Adjustments.md>) |
+| Task03 / cycle-01 | reused | Definition of regular expressions corresponding to the finite-state model | not specified / not specified / not specified | [report](<cycle-01/en/Task03-FarmingRobot/Task03-CSP-Adjustments.md>) |
+| Task201 / cycle-02 | reused | Symbolic reasoning supporting FSM modeling | supporting / analytical;conceptual / not_specified | [report](<cycle-02/en/Task201-DroneMonitoring/TASK201-CSP-Adjustment.md>) |
+| TASK25.00 / cycle-03 | reused | Describe song collections through regular expressions and conceptual representation correspondence. | core / artifact-oriented / mandatory | [report](<cycle-03/en/TASK301%20-%20MusicCollection/TASK301-CSP-Report.md>) |
+| TASK25.01 / cycle-03 | reused | Investigate regular-expression correspondence as a conditional extension. | extension / analytical / conditional | [report](<cycle-03/en/TASK302%20-%20TheVendingMachine/TASK302-CSP-Report.md>) |
 
 ### Maintained reference components
 
-Source: [definition](<cycle-01/en/Task03/Task03-CSP-Adjustments.md>).
+Source: [definition](<cycle-01/en/Task03-FarmingRobot/Task03-CSP-Adjustments.md>).
 
 | Dispositions | Knowledge | Skill |
 | --- | --- | --- |
@@ -192,20 +192,20 @@ Documented development: Task01 refines the title from Collaborative Technical Re
 
 | Task / cycle | Association | How used | Role / mode / constraint | Evidence |
 | --- | --- | --- | --- | --- |
-| Task01 / cycle-01 | created | Documentation of the solution and results | not specified / not specified / not specified | [report](<cycle-01/en/Task01/Task01-CSP-Adjustments.md>) |
-| Task02 / cycle-01 | reused | Documentation of the traffic-control solution | not specified / not specified / not specified | [report](<cycle-01/en/Task02/Task02-CSP-Adjustments.md>) |
-| Task03 / cycle-01 | reused | Documentation of the Farmer Robot solution | not specified / not specified / not specified | [report](<cycle-01/en/Task03/Task03-CSP-Adjustments.md>) |
-| Task04 / cycle-01 | reused | Documentation of the return-navigation solution | not specified / not specified / not specified | [report](<cycle-01/en/Task04/Task04-CSP-Adjustments.md>) |
-| Task05 / cycle-01 | reused | Documentation of the robot modules and examples | not specified / not specified / not specified | [report](<cycle-01/en/Task05/TASK05-CSP-Adjustments.md>) |
-| Task201 / cycle-02 | reused | Technical reporting | transversal / artifact-oriented;justificatory / not_specified | [report](<cycle-02/en/Task201/TASK201-CSP-Adjustment.md>) |
-| Task202 / cycle-02 | reused | Technical reporting | transversal / not_specified / not_specified | [report](<cycle-02/en/Task202/TASK202-CSP-Adustments.md>) |
-| Task203 / cycle-02 | reused | Technical reporting | transversal / artifact-oriented / not_specified | [report](<cycle-02/en/Task203/TASK203-CSP-Adjustments.md>) |
-| Task204 / cycle-02 | reused | Technical reporting as evidence vehicle | transversal / artifact-oriented / mandatory | [report](<cycle-02/en/Task204/TASK204-CSP-Adjustments.md>) |
-| TASK25.05 / cycle-03 | reused | Communicate the model, computational analysis and conclusions in the SBC article. | transversal / artifact-oriented / mandatory | [report](<cycle-03/en/TASK25.05 - OnlineJudges/TASK25.05-CSP-Report.md>) |
+| Task01 / cycle-01 | created | Documentation of the solution and results | not specified / not specified / not specified | [report](<cycle-01/en/Task01-TheVendingMachine/Task01-CSP-Adjustments.md>) |
+| Task02 / cycle-01 | reused | Documentation of the traffic-control solution | not specified / not specified / not specified | [report](<cycle-01/en/Task02-TrafficControl/Task02-CSP-Adjustments.md>) |
+| Task03 / cycle-01 | reused | Documentation of the Farmer Robot solution | not specified / not specified / not specified | [report](<cycle-01/en/Task03-FarmingRobot/Task03-CSP-Adjustments.md>) |
+| Task04 / cycle-01 | reused | Documentation of the return-navigation solution | not specified / not specified / not specified | [report](<cycle-01/en/Task04-TheReturnFarmingRobot/Task04-CSP-Adjustments.md>) |
+| Task05 / cycle-01 | reused | Documentation of the robot modules and examples | not specified / not specified / not specified | [report](<cycle-01/en/Task05-TheFarmingRobotAndFeedingRobot/TASK05-CSP-Adjustments.md>) |
+| Task201 / cycle-02 | reused | Technical reporting | transversal / artifact-oriented;justificatory / not_specified | [report](<cycle-02/en/Task201-DroneMonitoring/TASK201-CSP-Adjustment.md>) |
+| Task202 / cycle-02 | reused | Technical reporting | transversal / not_specified / not_specified | [report](<cycle-02/en/Task202-TeamControl/TASK202-CSP-Adustments.md>) |
+| Task203 / cycle-02 | reused | Technical reporting | transversal / artifact-oriented / not_specified | [report](<cycle-02/en/Task203-ParkingControl/TASK203-CSP-Adjustments.md>) |
+| Task204 / cycle-02 | reused | Technical reporting as evidence vehicle | transversal / artifact-oriented / mandatory | [report](<cycle-02/en/Task204-OnlineJudges/TASK204-CSP-Adjustments.md>) |
+| TASK25.05 / cycle-03 | reused | Communicate the model, computational analysis and conclusions in the SBC article. | transversal / artifact-oriented / mandatory | [report](<cycle-03/en/TASK305%20-%20OnlineJudges/TASK305-CSP-Report.md>) |
 
 ### Maintained reference components
 
-Source: [definition](<cycle-01/en/Task01/Task01-CSP-Adjustments.md>).
+Source: [definition](<cycle-01/en/Task01-TheVendingMachine/Task01-CSP-Adjustments.md>).
 
 | Dispositions | Knowledge | Skill |
 | --- | --- | --- |
@@ -229,14 +229,14 @@ Specialization base: [C05](CSP-Cross-Cycle-Competency-Lifecycle.md#c05).
 
 | Task / cycle | Association | How used | Role / mode / constraint | Evidence |
 | --- | --- | --- | --- | --- |
-| TASK25.00 / cycle-03 | created | Justify answers through definitions, formal arguments, examples and counterexamples. | transversal / justificatory / mandatory | [report](<cycle-03/en/TASK25.00 - MusicCollection/Task25.00-CSP-Report.md>) |
-| TASK25.01 / cycle-03 | reused | Justify correctness, recognition and model limitations in the technical report. | transversal / justificatory / mandatory | [report](<cycle-03/en/TASK25.01 - TheVendingMachine/TASK25.01-CSP-Report.md>) |
-| TASK25.02 / cycle-03 | reused | Justify correctness, equivalence claims and model limitations in the report. | transversal / justificatory / mandatory | [report](<cycle-03/en/TASK25.02 - TheMinotaursLabyrinth/TASK25.02-CSP-Report.md>) |
-| TASK25.03 / cycle-03 | reused | Produce rigorous correctness, modeling and computational-limit arguments. | transversal / justificatory / mandatory | [report](<cycle-03/en/TASK25.03 - TrafficControl/TASK25.03-CSP-Report.md>) |
+| TASK25.00 / cycle-03 | created | Justify answers through definitions, formal arguments, examples and counterexamples. | transversal / justificatory / mandatory | [report](<cycle-03/en/TASK301%20-%20MusicCollection/TASK301-CSP-Report.md>) |
+| TASK25.01 / cycle-03 | reused | Justify correctness, recognition and model limitations in the technical report. | transversal / justificatory / mandatory | [report](<cycle-03/en/TASK302%20-%20TheVendingMachine/TASK302-CSP-Report.md>) |
+| TASK25.02 / cycle-03 | reused | Justify correctness, equivalence claims and model limitations in the report. | transversal / justificatory / mandatory | [report](<cycle-03/en/TASK303%20-%20TheMinotaursLabyrinth/TASK303-CSP-Report.md>) |
+| TASK25.03 / cycle-03 | reused | Produce rigorous correctness, modeling and computational-limit arguments. | transversal / justificatory / mandatory | [report](<cycle-03/en/TASK304%20-%20TrafficControl/TASK304-CSP-Report.md>) |
 
 ### Maintained reference components
 
-Source: [definition](<cycle-03/en/TASK25.00 - MusicCollection/Task25.00-CSP-Report.md>).
+Source: [definition](<cycle-03/en/TASK301%20-%20MusicCollection/TASK301-CSP-Report.md>).
 
 | Dispositions | Knowledge | Skill |
 | --- | --- | --- |
@@ -259,16 +259,16 @@ Documented development: Created in Task03, then associated additively with Task0
 
 | Task / cycle | Association | How used | Role / mode / constraint | Evidence |
 | --- | --- | --- | --- | --- |
-| Task01 / cycle-01 | reused | Finite-state modeling of the vending-machine solution | not specified / not specified / not specified | [report](<cycle-01/en/Task01/Review2/Task01-CSP-Report-v2.md>) |
-| Task03 / cycle-01 | created | Construction of the Farmer Robot finite-state solution | not specified / not specified / not specified | [report](<cycle-01/en/Task03/Task03-CSP-Adjustments.md>) |
-| Task201 / cycle-02 | reused | FSM modeling | core / constructive;analytical / not_specified | [report](<cycle-02/en/Task201/TASK201-CSP-Adjustment.md>) |
-| Task204 / cycle-02 | reused | FSM representation of OJ outcomes | supporting / constructive / mandatory | [report](<cycle-02/en/Task204/TASK204-CSP-Adjustments.md>) |
-| TASK25.01 / cycle-03 | reused | Construct the vending-machine recognizer for LO3; added while retaining the original supporting associations. | core / constructive / mandatory | [report](<cycle-03/en/TASK25.01 - TheVendingMachine/TASK25.01-CSP-Report.md>) |
-| TASK25.05 / cycle-03 | reused | Construct the finite-state representation of the Online Judge workflow. | supporting / constructive / mandatory | [report](<cycle-03/en/TASK25.05 - OnlineJudges/TASK25.05-CSP-Report.md>) |
+| Task01 / cycle-01 | reused | Finite-state modeling of the vending-machine solution | not specified / not specified / not specified | [report](<cycle-01/en/Task01-TheVendingMachine/Review2/Task01-CSP-Report-v2.md>) |
+| Task03 / cycle-01 | created | Construction of the Farmer Robot finite-state solution | not specified / not specified / not specified | [report](<cycle-01/en/Task03-FarmingRobot/Task03-CSP-Adjustments.md>) |
+| Task201 / cycle-02 | reused | FSM modeling | core / constructive;analytical / not_specified | [report](<cycle-02/en/Task201-DroneMonitoring/TASK201-CSP-Adjustment.md>) |
+| Task204 / cycle-02 | reused | FSM representation of OJ outcomes | supporting / constructive / mandatory | [report](<cycle-02/en/Task204-OnlineJudges/TASK204-CSP-Adjustments.md>) |
+| TASK25.01 / cycle-03 | reused | Construct the vending-machine recognizer for LO3; added while retaining the original supporting associations. | core / constructive / mandatory | [report](<cycle-03/en/TASK302%20-%20TheVendingMachine/TASK302-CSP-Report.md>) |
+| TASK25.05 / cycle-03 | reused | Construct the finite-state representation of the Online Judge workflow. | supporting / constructive / mandatory | [report](<cycle-03/en/TASK305%20-%20OnlineJudges/TASK305-CSP-Report.md>) |
 
 ### Maintained reference components
 
-Source: [definition](<cycle-01/en/Task03/Task03-CSP-Adjustments.md>).
+Source: [definition](<cycle-01/en/Task03-FarmingRobot/Task03-CSP-Adjustments.md>).
 
 | Dispositions | Knowledge | Skill |
 | --- | --- | --- |
@@ -292,14 +292,14 @@ Documented development: Task02 clarifies foundational construction scope and exc
 
 | Task / cycle | Association | How used | Role / mode / constraint | Evidence |
 | --- | --- | --- | --- | --- |
-| Task02 / cycle-01 | created | Construction of a Turing-machine solution for traffic control | not specified / not specified / not specified | [report](<cycle-01/en/Task02/Task02-CSP-Adjustments.md>) |
-| Task05 / cycle-01 | historical; excluded | Task05 formalized C07.01 as an additive specialization of C07. | not specified / not specified / not specified | [report](<cycle-01/en/Task05/TASK05-CSP-Adjustments.md>) |
-| Task203 / cycle-02 | reused | TM-based parking control | core / constructive / not_specified | [report](<cycle-02/en/Task203/TASK203-CSP-Adjustments.md>) |
-| TASK25.03 / cycle-03 | reused | Construct the traffic-counting/classification Turing Machine with the required outputs. | core / constructive / mandatory | [report](<cycle-03/en/TASK25.03 - TrafficControl/TASK25.03-CSP-Report.md>) |
+| Task02 / cycle-01 | created | Construction of a Turing-machine solution for traffic control | not specified / not specified / not specified | [report](<cycle-01/en/Task02-TrafficControl/Task02-CSP-Adjustments.md>) |
+| Task05 / cycle-01 | historical; excluded | Task05 formalized C07.01 as an additive specialization of C07. | not specified / not specified / not specified | [report](<cycle-01/en/Task05-TheFarmingRobotAndFeedingRobot/TASK05-CSP-Adjustments.md>) |
+| Task203 / cycle-02 | reused | TM-based parking control | core / constructive / not_specified | [report](<cycle-02/en/Task203-ParkingControl/TASK203-CSP-Adjustments.md>) |
+| TASK25.03 / cycle-03 | reused | Construct the traffic-counting/classification Turing Machine with the required outputs. | core / constructive / mandatory | [report](<cycle-03/en/TASK304%20-%20TrafficControl/TASK304-CSP-Report.md>) |
 
 ### Maintained reference components
 
-Source: [definition](<cycle-01/en/Task02/Task02-CSP-Adjustments.md>).
+Source: [definition](<cycle-01/en/Task02-TrafficControl/Task02-CSP-Adjustments.md>).
 
 | Dispositions | Knowledge | Skill |
 | --- | --- | --- |
@@ -325,11 +325,11 @@ Specialization base: [C07](CSP-Cross-Cycle-Competency-Lifecycle.md#c07).
 
 | Task / cycle | Association | How used | Role / mode / constraint | Evidence |
 | --- | --- | --- | --- | --- |
-| Task05 / cycle-01 | created | Integrated construction of a multi-agent computational system | not specified / not specified / not specified | [report](<cycle-01/en/Task05/TASK05-CSP-Adjustments.md>) |
+| Task05 / cycle-01 | created | Integrated construction of a multi-agent computational system | not specified / not specified / not specified | [report](<cycle-01/en/Task05-TheFarmingRobotAndFeedingRobot/TASK05-CSP-Adjustments.md>) |
 
 ### Maintained reference components
 
-Source: [definition](<cycle-01/en/Task05/TASK05-CSP-Adjustments.md>).
+Source: [definition](<cycle-01/en/Task05-TheFarmingRobotAndFeedingRobot/TASK05-CSP-Adjustments.md>).
 
 | Dispositions | Knowledge | Skill |
 | --- | --- | --- |
@@ -353,13 +353,13 @@ Documented development: Task02 separates identification from application. Task05
 
 | Task / cycle | Association | How used | Role / mode / constraint | Evidence |
 | --- | --- | --- | --- | --- |
-| Task02 / cycle-01 | created | Identification and explanation of Turing-machine variants | not specified / not specified / not specified | [report](<cycle-01/en/Task02/Task02-CSP-Adjustments.md>) |
-| Task05 / cycle-01 | historical; excluded | Task05 formalized C08.01 as an additive specialization of C08. | not specified / not specified / not specified | [report](<cycle-01/en/Task05/TASK05-CSP-Adjustments.md>) |
-| Task203 / cycle-02 | reused | Comparison and justification of TM variants | not_specified / analytical;justificatory / not_specified | [report](<cycle-02/en/Task203/TASK203-CSP-Adjustments.md>) |
+| Task02 / cycle-01 | created | Identification and explanation of Turing-machine variants | not specified / not specified / not specified | [report](<cycle-01/en/Task02-TrafficControl/Task02-CSP-Adjustments.md>) |
+| Task05 / cycle-01 | historical; excluded | Task05 formalized C08.01 as an additive specialization of C08. | not specified / not specified / not specified | [report](<cycle-01/en/Task05-TheFarmingRobotAndFeedingRobot/TASK05-CSP-Adjustments.md>) |
+| Task203 / cycle-02 | reused | Comparison and justification of TM variants | not_specified / analytical;justificatory / not_specified | [report](<cycle-02/en/Task203-ParkingControl/TASK203-CSP-Adjustments.md>) |
 
 ### Maintained reference components
 
-Source: [definition](<cycle-01/en/Task02/Task02-CSP-Adjustments.md>).
+Source: [definition](<cycle-01/en/Task02-TrafficControl/Task02-CSP-Adjustments.md>).
 
 | Dispositions | Knowledge | Skill |
 | --- | --- | --- |
@@ -384,11 +384,11 @@ Specialization base: [C08](CSP-Cross-Cycle-Competency-Lifecycle.md#c08).
 
 | Task / cycle | Association | How used | Role / mode / constraint | Evidence |
 | --- | --- | --- | --- | --- |
-| Task05 / cycle-01 | created | System-level analysis supporting design decisions | not specified / not specified / not specified | [report](<cycle-01/en/Task05/TASK05-CSP-Adjustments.md>) |
+| Task05 / cycle-01 | created | System-level analysis supporting design decisions | not specified / not specified / not specified | [report](<cycle-01/en/Task05-TheFarmingRobotAndFeedingRobot/TASK05-CSP-Adjustments.md>) |
 
 ### Maintained reference components
 
-Source: [definition](<cycle-01/en/Task05/TASK05-CSP-Adjustments.md>).
+Source: [definition](<cycle-01/en/Task05-TheFarmingRobotAndFeedingRobot/TASK05-CSP-Adjustments.md>).
 
 | Dispositions | Knowledge | Skill |
 | --- | --- | --- |
@@ -411,14 +411,14 @@ Documented development: Task05 creates C09.01 while preserving C09. Task203 reta
 
 | Task / cycle | Association | How used | Role / mode / constraint | Evidence |
 | --- | --- | --- | --- | --- |
-| Task02 / cycle-01 | created | Application of a suitable Turing-machine variant | not specified / not specified / not specified | [report](<cycle-01/en/Task02/Task02-CSP-Adjustments.md>) |
-| Task05 / cycle-01 | historical; excluded | Task05 formalized C09.01 as an additive specialization of C09. | not specified / not specified / not specified | [report](<cycle-01/en/Task05/TASK05-CSP-Adjustments.md>) |
-| Task203 / cycle-02 | reused | Optional variant use; analytical by default and constructive when implemented | extension / analytical|constructive / optional | [report](<cycle-02/en/Task203/TASK203-CSP-Adjustments.md>) |
-| TASK25.03 / cycle-03 | reused | Evaluate variants; application evidence depends on actually adopting and using a variant. | extension / analytical / conditional | [report](<cycle-03/en/TASK25.03 - TrafficControl/TASK25.03-CSP-Report.md>) |
+| Task02 / cycle-01 | created | Application of a suitable Turing-machine variant | not specified / not specified / not specified | [report](<cycle-01/en/Task02-TrafficControl/Task02-CSP-Adjustments.md>) |
+| Task05 / cycle-01 | historical; excluded | Task05 formalized C09.01 as an additive specialization of C09. | not specified / not specified / not specified | [report](<cycle-01/en/Task05-TheFarmingRobotAndFeedingRobot/TASK05-CSP-Adjustments.md>) |
+| Task203 / cycle-02 | reused | Optional variant use; analytical by default and constructive when implemented | extension / analytical|constructive / optional | [report](<cycle-02/en/Task203-ParkingControl/TASK203-CSP-Adjustments.md>) |
+| TASK25.03 / cycle-03 | reused | Evaluate variants; application evidence depends on actually adopting and using a variant. | extension / analytical / conditional | [report](<cycle-03/en/TASK304%20-%20TrafficControl/TASK304-CSP-Report.md>) |
 
 ### Maintained reference components
 
-Source: [definition](<cycle-01/en/Task02/Task02-CSP-Adjustments.md>).
+Source: [definition](<cycle-01/en/Task02-TrafficControl/Task02-CSP-Adjustments.md>).
 
 | Dispositions | Knowledge | Skill |
 | --- | --- | --- |
@@ -443,11 +443,11 @@ Specialization base: [C09](CSP-Cross-Cycle-Competency-Lifecycle.md#c09).
 
 | Task / cycle | Association | How used | Role / mode / constraint | Evidence |
 | --- | --- | --- | --- | --- |
-| Task05 / cycle-01 | created | Coordination and application of variants in an integrated architecture | not specified / not specified / not specified | [report](<cycle-01/en/Task05/TASK05-CSP-Adjustments.md>) |
+| Task05 / cycle-01 | created | Coordination and application of variants in an integrated architecture | not specified / not specified / not specified | [report](<cycle-01/en/Task05-TheFarmingRobotAndFeedingRobot/TASK05-CSP-Adjustments.md>) |
 
 ### Maintained reference components
 
-Source: [definition](<cycle-01/en/Task05/TASK05-CSP-Adjustments.md>).
+Source: [definition](<cycle-01/en/Task05-TheFarmingRobotAndFeedingRobot/TASK05-CSP-Adjustments.md>).
 
 | Dispositions | Knowledge | Skill |
 | --- | --- | --- |
@@ -471,14 +471,14 @@ Documented development: Task02 refines simulation knowledge. Task05 reuses it ac
 
 | Task / cycle | Association | How used | Role / mode / constraint | Evidence |
 | --- | --- | --- | --- | --- |
-| Task02 / cycle-01 | created | Simulation and validation of Turing machines in JFLAP | not specified / not specified / not specified | [report](<cycle-01/en/Task02/Task02-CSP-Adjustments.md>) |
-| Task05 / cycle-01 | reused | Simulation and validation of the robot modules in JFLAP | not specified / not specified / not specified | [report](<cycle-01/en/Task05/TASK05-CSP-Adjustments.md>) |
-| Task203 / cycle-02 | reused | Simulation and testing | transversal / artifact-oriented / not_specified | [report](<cycle-02/en/Task203/TASK203-CSP-Adjustments.md>) |
-| TASK25.03 / cycle-03 | reused | Simulate and examine TM execution, outputs and edge cases. | supporting / artifact-oriented / mandatory | [report](<cycle-03/en/TASK25.03 - TrafficControl/TASK25.03-CSP-Report.md>) |
+| Task02 / cycle-01 | created | Simulation and validation of Turing machines in JFLAP | not specified / not specified / not specified | [report](<cycle-01/en/Task02-TrafficControl/Task02-CSP-Adjustments.md>) |
+| Task05 / cycle-01 | reused | Simulation and validation of the robot modules in JFLAP | not specified / not specified / not specified | [report](<cycle-01/en/Task05-TheFarmingRobotAndFeedingRobot/TASK05-CSP-Adjustments.md>) |
+| Task203 / cycle-02 | reused | Simulation and testing | transversal / artifact-oriented / not_specified | [report](<cycle-02/en/Task203-ParkingControl/TASK203-CSP-Adjustments.md>) |
+| TASK25.03 / cycle-03 | reused | Simulate and examine TM execution, outputs and edge cases. | supporting / artifact-oriented / mandatory | [report](<cycle-03/en/TASK304%20-%20TrafficControl/TASK304-CSP-Report.md>) |
 
 ### Maintained reference components
 
-Source: [definition](<cycle-01/en/Task02/Task02-CSP-Adjustments.md>).
+Source: [definition](<cycle-01/en/Task02-TrafficControl/Task02-CSP-Adjustments.md>).
 
 | Dispositions | Knowledge | Skill |
 | --- | --- | --- |
@@ -502,12 +502,12 @@ Documented development: Task03 renames Infer and Identify Patterns to Identify P
 
 | Task / cycle | Association | How used | Role / mode / constraint | Evidence |
 | --- | --- | --- | --- | --- |
-| Task03 / cycle-01 | created | Analysis of patterns in states and transitions | not specified / not specified / not specified | [report](<cycle-01/en/Task03/Task03-CSP-Adjustments.md>) |
-| Task201 / cycle-02 | reused | Structural pattern analysis | not_specified / analytical / not_specified | [report](<cycle-02/en/Task201/TASK201-CSP-Adjustment.md>) |
+| Task03 / cycle-01 | created | Analysis of patterns in states and transitions | not specified / not specified / not specified | [report](<cycle-01/en/Task03-FarmingRobot/Task03-CSP-Adjustments.md>) |
+| Task201 / cycle-02 | reused | Structural pattern analysis | not_specified / analytical / not_specified | [report](<cycle-02/en/Task201-DroneMonitoring/TASK201-CSP-Adjustment.md>) |
 
 ### Maintained reference components
 
-Source: [definition](<cycle-01/en/Task03/Task03-CSP-Adjustments.md>).
+Source: [definition](<cycle-01/en/Task03-FarmingRobot/Task03-CSP-Adjustments.md>).
 
 | Dispositions | Knowledge | Skill |
 | --- | --- | --- |
@@ -530,13 +530,13 @@ Documented development: Created in Task04 and reused in Task202. RF-01-03 adds C
 
 | Task / cycle | Association | How used | Role / mode / constraint | Evidence |
 | --- | --- | --- | --- | --- |
-| Task04 / cycle-01 | created | Construction of the stack-based return-navigation model | not specified / not specified / not specified | [report](<cycle-01/en/Task04/Task04-CSP-Adjustments.md>) |
-| Task202 / cycle-02 | reused | PDA modeling | core / constructive / not_specified | [report](<cycle-02/en/Task202/TASK202-CSP-Adustments.md>) |
-| TASK25.02 / cycle-03 | reused; added by RF-01-03 | Construct the PDA required by LO4; added by RF-01-03 on 2026-10-02. | core / constructive / mandatory | [report](<cycle-03/en/TASK25.02 - TheMinotaursLabyrinth/TASK25.02-CSP-Report.md>) |
+| Task04 / cycle-01 | created | Construction of the stack-based return-navigation model | not specified / not specified / not specified | [report](<cycle-01/en/Task04-TheReturnFarmingRobot/Task04-CSP-Adjustments.md>) |
+| Task202 / cycle-02 | reused | PDA modeling | core / constructive / not_specified | [report](<cycle-02/en/Task202-TeamControl/TASK202-CSP-Adustments.md>) |
+| TASK25.02 / cycle-03 | reused; added by RF-01-03 | Construct the PDA required by LO4; added by RF-01-03 on 2026-10-02. | core / constructive / mandatory | [report](<cycle-03/en/TASK303%20-%20TheMinotaursLabyrinth/TASK303-CSP-Report.md>) |
 
 ### Maintained reference components
 
-Source: [definition](<cycle-01/en/Task04/Task04-CSP-Adjustments.md>).
+Source: [definition](<cycle-01/en/Task04-TheReturnFarmingRobot/Task04-CSP-Adjustments.md>).
 
 | Dispositions | Knowledge | Skill |
 | --- | --- | --- |
@@ -560,12 +560,12 @@ Documented development: Task04 records CFG/PDA components. Task202 initially reu
 
 | Task / cycle | Association | How used | Role / mode / constraint | Evidence |
 | --- | --- | --- | --- | --- |
-| Task04 / cycle-01 | created | Interpretation of context-free notation for navigation sequences | not specified / not specified / not specified | [report](<cycle-01/en/Task04/Task04-CSP-Adjustments.md>) |
-| Task202 / cycle-02 | historical; excluded | Base preserved. Initial association is traced through C13.01 in the adjusted set; this is not deletion of C13. | not_specified / interpretative;analytical / not_specified | [report](<cycle-02/en/Task202/TASK202-CSP-Review-Report.md>) |
+| Task04 / cycle-01 | created | Interpretation of context-free notation for navigation sequences | not specified / not specified / not specified | [report](<cycle-01/en/Task04-TheReturnFarmingRobot/Task04-CSP-Adjustments.md>) |
+| Task202 / cycle-02 | historical; excluded | Base preserved. Initial association is traced through C13.01 in the adjusted set; this is not deletion of C13. | not_specified / interpretative;analytical / not_specified | [report](<cycle-02/en/Task202-TeamControl/TASK202-CSP-Review-Report.md>) |
 
 ### Maintained reference components
 
-Source: [definition](<cycle-01/en/Task04/Task04-CSP-Adjustments.md>).
+Source: [definition](<cycle-01/en/Task04-TheReturnFarmingRobot/Task04-CSP-Adjustments.md>).
 
 | Dispositions | Knowledge | Skill |
 | --- | --- | --- |
@@ -591,14 +591,14 @@ Specialization base: [C13](CSP-Cross-Cycle-Competency-Lifecycle.md#c13).
 
 | Task / cycle | Association | How used | Role / mode / constraint | Evidence |
 | --- | --- | --- | --- | --- |
-| Task202 / cycle-02 | created | Interpretation of formal grammar-based rules | not_specified / interpretative;analytical / not_specified | [report](<cycle-02/en/Task202/TASK202-CSP-Adustments.md>) |
-| TASK25.01 / cycle-03 | historical; excluded | Earlier grammar-rule association replaced by C23 for algebraic notation; C13.01 remains defined and is currently reused in TASK25.02. | not_specified / not_specified / not_specified | [report](<cycle-03/en/TASK25.01 - TheVendingMachine/TASK25.01-CSP-Report.md>) |
-| TASK25.02 / cycle-03 | reused | Interpret productions, derivations and their relation to the PDA; distinguish grammar rules from general notation. | transversal / analytical / mandatory | [report](<cycle-03/en/TASK25.02 - TheMinotaursLabyrinth/TASK25.02-CSP-Report.md>) |
-| TASK25.03 / cycle-03 | historical; excluded | Earlier grammar-rule association replaced by C23 for algebraic notation; C13.01 remains defined and is currently reused in TASK25.02. | not_specified / not_specified / not_specified | [report](<cycle-03/en/TASK25.03 - TrafficControl/TASK25.03-CSP-Report.md>) |
+| Task202 / cycle-02 | created | Interpretation of formal grammar-based rules | not_specified / interpretative;analytical / not_specified | [report](<cycle-02/en/Task202-TeamControl/TASK202-CSP-Adustments.md>) |
+| TASK25.01 / cycle-03 | historical; excluded | Earlier grammar-rule association replaced by C23 for algebraic notation; C13.01 remains defined and is currently reused in TASK25.02. | not_specified / not_specified / not_specified | [report](<cycle-03/en/TASK302%20-%20TheVendingMachine/TASK302-CSP-Report.md>) |
+| TASK25.02 / cycle-03 | reused | Interpret productions, derivations and their relation to the PDA; distinguish grammar rules from general notation. | transversal / analytical / mandatory | [report](<cycle-03/en/TASK303%20-%20TheMinotaursLabyrinth/TASK303-CSP-Report.md>) |
+| TASK25.03 / cycle-03 | historical; excluded | Earlier grammar-rule association replaced by C23 for algebraic notation; C13.01 remains defined and is currently reused in TASK25.02. | not_specified / not_specified / not_specified | [report](<cycle-03/en/TASK304%20-%20TrafficControl/TASK304-CSP-Report.md>) |
 
 ### Maintained reference components
 
-Source: [definition](<cycle-02/en/Task202/TASK202-CSP-Adustments.md>).
+Source: [definition](<cycle-02/en/Task202-TeamControl/TASK202-CSP-Adustments.md>).
 
 | Dispositions | Knowledge | Skill |
 | --- | --- | --- |
@@ -622,16 +622,16 @@ Documented development: A similarly titled proposal occurs in preliminary Task03
 
 | Task / cycle | Association | How used | Role / mode / constraint | Evidence |
 | --- | --- | --- | --- | --- |
-| Task04 / cycle-01 | created | Comparison of regular and context-free formalisms | not specified / not specified / not specified | [report](<cycle-01/en/Task04/Task04-CSP-Adjustments.md>) |
-| Task202 / cycle-02 | reused | Formal model justification | not_specified / analytical;justificatory / not_specified | [report](<cycle-02/en/Task202/TASK202-CSP-Adustments.md>) |
-| Task204 / cycle-02 | reused | Formal grammar classification | extension / analytical / optional | [report](<cycle-02/en/Task204/TASK204-CSP-Adjustments.md>) |
-| TASK25.00 / cycle-03 | reused | Compare regular and context-free classifications in the optional extension. | extension / analytical / optional | [report](<cycle-03/en/TASK25.00 - MusicCollection/Task25.00-CSP-Report.md>) |
-| TASK25.02 / cycle-03 | reused | Compare language classes and justify expressive-power distinctions. | supporting / analytical / mandatory | [report](<cycle-03/en/TASK25.02 - TheMinotaursLabyrinth/TASK25.02-CSP-Report.md>) |
-| TASK25.05 / cycle-03 | reused | Optionally connect formal language classes to the analysis; C21 carries complexity classification. | extension / analytical / optional | [report](<cycle-03/en/TASK25.05 - OnlineJudges/TASK25.05-CSP-Report.md>) |
+| Task04 / cycle-01 | created | Comparison of regular and context-free formalisms | not specified / not specified / not specified | [report](<cycle-01/en/Task04-TheReturnFarmingRobot/Task04-CSP-Adjustments.md>) |
+| Task202 / cycle-02 | reused | Formal model justification | not_specified / analytical;justificatory / not_specified | [report](<cycle-02/en/Task202-TeamControl/TASK202-CSP-Adustments.md>) |
+| Task204 / cycle-02 | reused | Formal grammar classification | extension / analytical / optional | [report](<cycle-02/en/Task204-OnlineJudges/TASK204-CSP-Adjustments.md>) |
+| TASK25.00 / cycle-03 | reused | Compare regular and context-free classifications in the optional extension. | extension / analytical / optional | [report](<cycle-03/en/TASK301%20-%20MusicCollection/TASK301-CSP-Report.md>) |
+| TASK25.02 / cycle-03 | reused | Compare language classes and justify expressive-power distinctions. | supporting / analytical / mandatory | [report](<cycle-03/en/TASK303%20-%20TheMinotaursLabyrinth/TASK303-CSP-Report.md>) |
+| TASK25.05 / cycle-03 | reused | Optionally connect formal language classes to the analysis; C21 carries complexity classification. | extension / analytical / optional | [report](<cycle-03/en/TASK305%20-%20OnlineJudges/TASK305-CSP-Report.md>) |
 
 ### Maintained reference components
 
-Source: [definition](<cycle-01/en/Task04/Task04-CSP-Adjustments.md>).
+Source: [definition](<cycle-01/en/Task04-TheReturnFarmingRobot/Task04-CSP-Adjustments.md>).
 
 | Dispositions | Knowledge | Skill |
 | --- | --- | --- |
@@ -655,12 +655,12 @@ Documented development: Introduced in Task204 report, then reviewed and refined 
 
 | Task / cycle | Association | How used | Role / mode / constraint | Evidence |
 | --- | --- | --- | --- | --- |
-| Task204 / cycle-02 | created | Explanation of the Halting Problem | core / analytical;justificatory / mandatory | [report](<cycle-02/en/Task204/TASK204-CSP-Adjustments.md>) |
-| TASK25.05 / cycle-03 | reused | Explain the Halting Problem and limits of general termination analysis. | core / analytical;justificatory / mandatory | [report](<cycle-03/en/TASK25.05 - OnlineJudges/TASK25.05-CSP-Report.md>) |
+| Task204 / cycle-02 | created | Explanation of the Halting Problem | core / analytical;justificatory / mandatory | [report](<cycle-02/en/Task204-OnlineJudges/TASK204-CSP-Adjustments.md>) |
+| TASK25.05 / cycle-03 | reused | Explain the Halting Problem and limits of general termination analysis. | core / analytical;justificatory / mandatory | [report](<cycle-03/en/TASK305%20-%20OnlineJudges/TASK305-CSP-Report.md>) |
 
 ### Maintained reference components
 
-Source: [definition](<cycle-02/en/Task204/TASK204-CSP-Adjustments.md>).
+Source: [definition](<cycle-02/en/Task204-OnlineJudges/TASK204-CSP-Adjustments.md>).
 
 | Dispositions | Knowledge | Skill |
 | --- | --- | --- |
@@ -685,13 +685,13 @@ Documented development: Introduced in Task204 with Apply in its title; adjustmen
 
 | Task / cycle | Association | How used | Role / mode / constraint | Evidence |
 | --- | --- | --- | --- | --- |
-| Task204 / cycle-02 | created | Interpretative support; no independent minimum-task evidence | supporting|extension / interpretative / optional|conditional | [report](<cycle-02/en/Task204/TASK204-CSP-Adjustments.md>) |
-| TASK25.03 / cycle-03 | reused | Interpret computability and TM capabilities to support model-suitability arguments. | supporting / analytical / mandatory | [report](<cycle-03/en/TASK25.03 - TrafficControl/TASK25.03-CSP-Report.md>) |
-| TASK25.05 / cycle-03 | reused | Use TM and computability concepts to interpret system capabilities when activated. | supporting / interpretative / conditional | [report](<cycle-03/en/TASK25.05 - OnlineJudges/TASK25.05-CSP-Report.md>) |
+| Task204 / cycle-02 | created | Interpretative support; no independent minimum-task evidence | supporting|extension / interpretative / optional|conditional | [report](<cycle-02/en/Task204-OnlineJudges/TASK204-CSP-Adjustments.md>) |
+| TASK25.03 / cycle-03 | reused | Interpret computability and TM capabilities to support model-suitability arguments. | supporting / analytical / mandatory | [report](<cycle-03/en/TASK304%20-%20TrafficControl/TASK304-CSP-Report.md>) |
+| TASK25.05 / cycle-03 | reused | Use TM and computability concepts to interpret system capabilities when activated. | supporting / interpretative / conditional | [report](<cycle-03/en/TASK305%20-%20OnlineJudges/TASK305-CSP-Report.md>) |
 
 ### Maintained reference components
 
-Source: [definition](<cycle-02/en/Task204/TASK204-CSP-Adjustments.md>).
+Source: [definition](<cycle-02/en/Task204-OnlineJudges/TASK204-CSP-Adjustments.md>).
 
 | Dispositions | Knowledge | Skill |
 | --- | --- | --- |
@@ -715,14 +715,14 @@ Documented development: Created in TASK25.00 with conceptual/algebraic scope; re
 
 | Task / cycle | Association | How used | Role / mode / constraint | Evidence |
 | --- | --- | --- | --- | --- |
-| TASK25.00 / cycle-03 | created | Apply concatenation, closure, reversal and other language operations to musical collections. | core / analytical / mandatory | [report](<cycle-03/en/TASK25.00 - MusicCollection/Task25.00-CSP-Report.md>) |
-| TASK25.01 / cycle-03 | reused | Analyze valid and invalid payment and product-selection sequences using language operations. | core / analytical / mandatory | [report](<cycle-03/en/TASK25.01 - TheVendingMachine/TASK25.01-CSP-Report.md>) |
-| TASK25.02 / cycle-03 | reused | Characterize valid and invalid outward-and-return route languages. | core / analytical / mandatory | [report](<cycle-03/en/TASK25.02 - TheMinotaursLabyrinth/TASK25.02-CSP-Report.md>) |
-| TASK25.03 / cycle-03 | reused | Support formal sequence analysis; tape manipulation alone does not establish language-operation performance. | core / analytical / mandatory | [report](<cycle-03/en/TASK25.03 - TrafficControl/TASK25.03-CSP-Report.md>) |
+| TASK25.00 / cycle-03 | created | Apply concatenation, closure, reversal and other language operations to musical collections. | core / analytical / mandatory | [report](<cycle-03/en/TASK301%20-%20MusicCollection/TASK301-CSP-Report.md>) |
+| TASK25.01 / cycle-03 | reused | Analyze valid and invalid payment and product-selection sequences using language operations. | core / analytical / mandatory | [report](<cycle-03/en/TASK302%20-%20TheVendingMachine/TASK302-CSP-Report.md>) |
+| TASK25.02 / cycle-03 | reused | Characterize valid and invalid outward-and-return route languages. | core / analytical / mandatory | [report](<cycle-03/en/TASK303%20-%20TheMinotaursLabyrinth/TASK303-CSP-Report.md>) |
+| TASK25.03 / cycle-03 | reused | Support formal sequence analysis; tape manipulation alone does not establish language-operation performance. | core / analytical / mandatory | [report](<cycle-03/en/TASK304%20-%20TrafficControl/TASK304-CSP-Report.md>) |
 
 ### Maintained reference components
 
-Source: [definition](<cycle-03/en/TASK25.00 - MusicCollection/Task25.00-CSP-Report.md>).
+Source: [definition](<cycle-03/en/TASK301%20-%20MusicCollection/TASK301-CSP-Report.md>).
 
 | Dispositions | Knowledge | Skill |
 | --- | --- | --- |
@@ -747,14 +747,14 @@ Documented development: Created in TASK25.00, not inherited from an earlier task
 
 | Task / cycle | Association | How used | Role / mode / constraint | Evidence |
 | --- | --- | --- | --- | --- |
-| TASK25.00 / cycle-03 | created | Abstract songs and collections as alphabets, strings and languages. | core / constructive / mandatory | [report](<cycle-03/en/TASK25.00 - MusicCollection/Task25.00-CSP-Report.md>) |
-| TASK25.01 / cycle-03 | reused | Abstract products, payments and interactions into symbols and languages. | core / constructive / mandatory | [report](<cycle-03/en/TASK25.01 - TheVendingMachine/TASK25.01-CSP-Report.md>) |
-| TASK25.02 / cycle-03 | reused | Abstract positions, movements and routes as formal symbols and languages. | core / constructive / mandatory | [report](<cycle-03/en/TASK25.02 - TheMinotaursLabyrinth/TASK25.02-CSP-Report.md>) |
-| TASK25.03 / cycle-03 | reused | Abstract sensor readings and vehicle categories as symbols and formal inputs. | core / constructive / mandatory | [report](<cycle-03/en/TASK25.03 - TrafficControl/TASK25.03-CSP-Report.md>) |
+| TASK25.00 / cycle-03 | created | Abstract songs and collections as alphabets, strings and languages. | core / constructive / mandatory | [report](<cycle-03/en/TASK301%20-%20MusicCollection/TASK301-CSP-Report.md>) |
+| TASK25.01 / cycle-03 | reused | Abstract products, payments and interactions into symbols and languages. | core / constructive / mandatory | [report](<cycle-03/en/TASK302%20-%20TheVendingMachine/TASK302-CSP-Report.md>) |
+| TASK25.02 / cycle-03 | reused | Abstract positions, movements and routes as formal symbols and languages. | core / constructive / mandatory | [report](<cycle-03/en/TASK303%20-%20TheMinotaursLabyrinth/TASK303-CSP-Report.md>) |
+| TASK25.03 / cycle-03 | reused | Abstract sensor readings and vehicle categories as symbols and formal inputs. | core / constructive / mandatory | [report](<cycle-03/en/TASK304%20-%20TrafficControl/TASK304-CSP-Report.md>) |
 
 ### Maintained reference components
 
-Source: [definition](<cycle-03/en/TASK25.00 - MusicCollection/Task25.00-CSP-Report.md>).
+Source: [definition](<cycle-03/en/TASK301%20-%20MusicCollection/TASK301-CSP-Report.md>).
 
 | Dispositions | Knowledge | Skill |
 | --- | --- | --- |
@@ -779,12 +779,12 @@ Documented development: Created in TASK25.00. TASK25.02 retains conditional reus
 
 | Task / cycle | Association | How used | Role / mode / constraint | Evidence |
 | --- | --- | --- | --- | --- |
-| TASK25.00 / cycle-03 | created | Analyze score/recording codifications, homomorphisms and limits of equivalence. | supporting / interpretative / mandatory | [report](<cycle-03/en/TASK25.00 - MusicCollection/Task25.00-CSP-Report.md>) |
-| TASK25.02 / cycle-03 | reused | Analyze explicit homomorphisms or representation transformations when the solution uses them. | supporting / analytical / conditional | [report](<cycle-03/en/TASK25.02 - TheMinotaursLabyrinth/TASK25.02-CSP-Report.md>) |
+| TASK25.00 / cycle-03 | created | Analyze score/recording codifications, homomorphisms and limits of equivalence. | supporting / interpretative / mandatory | [report](<cycle-03/en/TASK301%20-%20MusicCollection/TASK301-CSP-Report.md>) |
+| TASK25.02 / cycle-03 | reused | Analyze explicit homomorphisms or representation transformations when the solution uses them. | supporting / analytical / conditional | [report](<cycle-03/en/TASK303%20-%20TheMinotaursLabyrinth/TASK303-CSP-Report.md>) |
 
 ### Maintained reference components
 
-Source: [definition](<cycle-03/en/TASK25.00 - MusicCollection/Task25.00-CSP-Report.md>).
+Source: [definition](<cycle-03/en/TASK301%20-%20MusicCollection/TASK301-CSP-Report.md>).
 
 | Dispositions | Knowledge | Skill |
 | --- | --- | --- |
@@ -811,11 +811,11 @@ Components: [C18](CSP-Cross-Cycle-Competency-Lifecycle.md#c18), [C17](CSP-Cross-
 
 | Task / cycle | Association | How used | Role / mode / constraint | Evidence |
 | --- | --- | --- | --- | --- |
-| TASK25.00 / cycle-03 | created | Integrate modeling, operations, transformations, notation and justification across the full music response. | core / integrative / mandatory | [report](<cycle-03/en/TASK25.00 - MusicCollection/Task25.00-CSP-Report.md>) |
+| TASK25.00 / cycle-03 | created | Integrate modeling, operations, transformations, notation and justification across the full music response. | core / integrative / mandatory | [report](<cycle-03/en/TASK301%20-%20MusicCollection/TASK301-CSP-Report.md>) |
 
 ### Maintained reference components
 
-Source: [definition](<cycle-03/en/TASK25.00 - MusicCollection/Task25.00-CSP-Report.md>).
+Source: [definition](<cycle-03/en/TASK301%20-%20MusicCollection/TASK301-CSP-Report.md>).
 
 | Dispositions | Knowledge | Skill |
 | --- | --- | --- |
@@ -842,11 +842,11 @@ Documented development: Created in TASK25.05 in 2025. The current report and Cyc
 
 | Task / cycle | Association | How used | Role / mode / constraint | Evidence |
 | --- | --- | --- | --- | --- |
-| TASK25.05 / cycle-03 | created | Analyze TSP/timetabling complexity, scalability and execution limits when explaining TLE. | core / analytical / mandatory | [report](<cycle-03/en/TASK25.05 - OnlineJudges/TASK25.05-CSP-Report.md>) |
+| TASK25.05 / cycle-03 | created | Analyze TSP/timetabling complexity, scalability and execution limits when explaining TLE. | core / analytical / mandatory | [report](<cycle-03/en/TASK305%20-%20OnlineJudges/TASK305-CSP-Report.md>) |
 
 ### Maintained reference components
 
-Source: [definition](<cycle-03/en/TASK25.05 - OnlineJudges/TASK25.05-CSP-Report.md>).
+Source: [definition](<cycle-03/en/TASK305%20-%20OnlineJudges/TASK305-CSP-Report.md>).
 
 | Dispositions | Knowledge | Skill |
 | --- | --- | --- |
@@ -871,11 +871,11 @@ Documented development: Created in TASK25.02 as an independent competency for PD
 
 | Task / cycle | Association | How used | Role / mode / constraint | Evidence |
 | --- | --- | --- | --- | --- |
-| TASK25.02 / cycle-03 | created | Construct a CFG corresponding to the PDA and explain their relationship. | supporting / constructive / mandatory | [report](<cycle-03/en/TASK25.02 - TheMinotaursLabyrinth/TASK25.02-CSP-Report.md>) |
+| TASK25.02 / cycle-03 | created | Construct a CFG corresponding to the PDA and explain their relationship. | supporting / constructive / mandatory | [report](<cycle-03/en/TASK303%20-%20TheMinotaursLabyrinth/TASK303-CSP-Report.md>) |
 
 ### Maintained reference components
 
-Source: [definition](<cycle-03/en/TASK25.02 - TheMinotaursLabyrinth/TASK25.02-CSP-Report.md>).
+Source: [definition](<cycle-03/en/TASK303%20-%20TheMinotaursLabyrinth/TASK303-CSP-Report.md>).
 
 | Dispositions | Knowledge | Skill |
 | --- | --- | --- |
@@ -899,13 +899,13 @@ Documented development: Created in TASK25.00 independently of C13/C13.01. It rep
 
 | Task / cycle | Association | How used | Role / mode / constraint | Evidence |
 | --- | --- | --- | --- | --- |
-| TASK25.00 / cycle-03 | created | Interpret and apply algebraic notation consistently in formal answers. | transversal / analytical / mandatory | [report](<cycle-03/en/TASK25.00 - MusicCollection/Task25.00-CSP-Report.md>) |
-| TASK25.01 / cycle-03 | reused | Express strings, sequence sets and algebraic relationships precisely. | transversal / analytical / mandatory | [report](<cycle-03/en/TASK25.01 - TheVendingMachine/TASK25.01-CSP-Report.md>) |
-| TASK25.03 / cycle-03 | reused | Use algebraic notation for inputs and sequences, distinct from grammar-rule interpretation. | transversal / analytical / mandatory | [report](<cycle-03/en/TASK25.03 - TrafficControl/TASK25.03-CSP-Report.md>) |
+| TASK25.00 / cycle-03 | created | Interpret and apply algebraic notation consistently in formal answers. | transversal / analytical / mandatory | [report](<cycle-03/en/TASK301%20-%20MusicCollection/TASK301-CSP-Report.md>) |
+| TASK25.01 / cycle-03 | reused | Express strings, sequence sets and algebraic relationships precisely. | transversal / analytical / mandatory | [report](<cycle-03/en/TASK302%20-%20TheVendingMachine/TASK302-CSP-Report.md>) |
+| TASK25.03 / cycle-03 | reused | Use algebraic notation for inputs and sequences, distinct from grammar-rule interpretation. | transversal / analytical / mandatory | [report](<cycle-03/en/TASK304%20-%20TrafficControl/TASK304-CSP-Report.md>) |
 
 ### Maintained reference components
 
-Source: [definition](<cycle-03/en/TASK25.00 - MusicCollection/Task25.00-CSP-Report.md>).
+Source: [definition](<cycle-03/en/TASK301%20-%20MusicCollection/TASK301-CSP-Report.md>).
 
 | Dispositions | Knowledge | Skill |
 | --- | --- | --- |

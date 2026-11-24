@@ -10,13 +10,13 @@ This lifecycle distinguishes CSP application cycles from specification iteration
 
 | Cycle | Task | Event | Decision | Source |
 | --- | --- | --- | --- | --- |
-| cycle-01 | task-02 | created | Created | [record](<../CSP/cycles/cycle-01/en/Task02/Task02-CSP-Report.md>) |
-| cycle-01 | task-02 | revised | Approved with Revisions | [record](<../CSP/cycles/cycle-01/en/Task02/Task02-CSP-Adjustments.md>) |
-| cycle-01 | task-05 | reused | Approved with Required Revisions; adjustments implemented | [record](<../CSP/cycles/cycle-01/en/Task05/TASK05-CSP-Adjustments.md>) |
-| cycle-02 | task-203 | reused | Existing competency selected | [record](<../CSP/cycles/cycle-02/en/Task203/Task203-CSP-Report.md>) |
-| cycle-02 | task-203 | reviewed | Activation clarification required; no specialization | [record](<../CSP/cycles/cycle-02/en/Task203/TASK203-CSP-Review-Report.md>) |
-| cycle-02 | task-203 | activation_clarified | Contextual role documented; identity retained | [record](<../CSP/cycles/cycle-02/en/Task203/TASK203-CSP-Adjustments.md>) |
-| cycle-03 | task-25.03 | reused | Reuse existing competency with documented task activation | [record](<../CSP/cycles/cycle-03/en/TASK25.03 - TrafficControl/TASK25.03-CSP-Report.md>) |
+| cycle-01 | task-02 | created | Created | [record](<../CSP/cycles/cycle-01/en/Task02-TrafficControl/Task02-CSP-Report.md>) |
+| cycle-01 | task-02 | revised | Approved with Revisions | [record](<../CSP/cycles/cycle-01/en/Task02-TrafficControl/Task02-CSP-Adjustments.md>) |
+| cycle-01 | task-05 | reused | Approved with Required Revisions; adjustments implemented | [record](<../CSP/cycles/cycle-01/en/Task05-TheFarmingRobotAndFeedingRobot/TASK05-CSP-Adjustments.md>) |
+| cycle-02 | task-203 | reused | Existing competency selected | [record](<../CSP/cycles/cycle-02/en/Task203-ParkingControl/Task203-CSP-Report.md>) |
+| cycle-02 | task-203 | reviewed | Activation clarification required; no specialization | [record](<../CSP/cycles/cycle-02/en/Task203-ParkingControl/TASK203-CSP-Review-Report.md>) |
+| cycle-02 | task-203 | activation_clarified | Contextual role documented; identity retained | [record](<../CSP/cycles/cycle-02/en/Task203-ParkingControl/TASK203-CSP-Adjustments.md>) |
+| cycle-03 | task-25.03 | reused | Reuse existing competency with documented task activation | [record](<../CSP/cycles/cycle-03/en/TASK304%20-%20TrafficControl/TASK304-CSP-Report.md>) |
 
 ## Current reference
 

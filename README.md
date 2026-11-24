@@ -10,12 +10,14 @@ The repository contains task descriptions, specifications, review and adjustment
 
 ## Start here
 
-- **Apply the process:** use the [reporting instruments](CSP/reports/).
-- **Examine the applications:** start with the README and data dictionary of the relevant [cycle](CSP/cycles/).
-- **Consult the Theory of Computation catalog:** see [Catálogo](Cat%C3%A1logo/) and the cycle-specific registries.
+- **Apply the process:** use the [reporting instruments](CSP/reports/README.md).
+- **Examine the applications:** start with the README and data dictionary of the relevant [cycle](CSP/cycles/README.md).
+- **Consult the Theory of Computation catalog:** see [Catálogo](Cat%C3%A1logo/README.md) and the cycle-specific registries.
 - **Compare maintained definitions and uses:** consult the [cross-cycle matrix](CSP/cycles/CSP-Cross-Cycle-Task-Competency-Matrix.md), [lifecycle account](CSP/cycles/CSP-Cross-Cycle-Competency-Lifecycle.md), and [post-cycle refinement report](CSP/cycles/CSP-Post-Cycle-Refinement-Report.md).
 - **Inspect the earlier collaborative materials:** see [TAREFAS - LOMc](TAREFAS%20-%20LOMc/README.md), subject to the sharing precautions below.
 - **Explore formal representation:** consult the separate [OntoKSD repository](https://github.com/eduknowgpt/OntoKSD).
+
+See the [CSP documentation guide](CSP/README.md) for navigation between instruments, cycles, and catalogs.
 
 ## What the CSP helps decide
 

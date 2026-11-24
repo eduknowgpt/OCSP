@@ -10,7 +10,7 @@ This lifecycle distinguishes CSP application cycles from specification iteration
 
 | Cycle | Task | Event | Decision | Source |
 | --- | --- | --- | --- | --- |
-| cycle-03 | task-25.05 | created | Create independent competency | [record](<../CSP/cycles/cycle-03/en/TASK25.05 - OnlineJudges/TASK25.05-CSP-Report.md>) |
+| cycle-03 | task-25.05 | created | Create independent competency | [record](<../CSP/cycles/cycle-03/en/TASK305%20-%20OnlineJudges/TASK305-CSP-Report.md>) |
 
 The originating task belongs to Cycle 3 (2025). Its report integrates specification and discussion. No separate Cycle 1 expert review, Cycle 2 stabilization or unrecorded formal approval is assigned to this identity.
 

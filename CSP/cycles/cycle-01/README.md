@@ -55,11 +55,11 @@ cycle-01/
 ├── CSP-Competency-Task-Matrix.md
 ├── CSP-Data-Dictionary.md
 └── en/
-    ├── Task01/
-    ├── Task02/
-    ├── Task03/
-    ├── Task04/
-    └── Task05/
+    ├── Task01-TheVendingMachine/
+    ├── Task02-TrafficControl/
+    ├── Task03-FarmingRobot/
+    ├── Task04-TheReturnFarmingRobot/
+    └── Task05-TheFarmingRobotAndFeedingRobot/
 ```
 
 Each task directory contains the instructional task and its CSP artifacts. Depending on the task, these include:
@@ -151,7 +151,7 @@ The current Task05 set therefore contains C07.01, C08.01, C09.01, reused C10, an
 
 - The reports do not provide reliable dates for every competency event. Lifecycle dates are therefore left blank.
 - Review decisions describe the reviewed artifact at that point in the process. An adjustments report may record changes made after a decision such as `Needs Revision`.
-- The repository records C01 as active even though it has no current task association.
+- C01 remains active and associated with Task01 in the current account. The later C06 association is additive; it does not withdraw C01.
 - The cycle-level datasets describe the final audited interpretation of the five task packages. They do not reproduce every discarded draft element.
 
 ## Maintenance
@@ -170,3 +170,7 @@ When a competency or task relationship changes:
 Refinement date: 2 October 2026. The original application year is unchanged. `include_in_pre_refinement_analysis` preserves membership in the pre-refinement current set; `include_in_current_analysis` selects the maintained set. `post_cycle_refinement_id` and `refinement_date` identify updated mappings. `reference_refinement_id` identifies reconciled definition references in the registry. Lifecycle events use `reference_alignment` or `association_added`, `specification_stage=post_cycle_refinement`, an explicit date and `refinement_id=RF-01-03`. Earlier events retain their previous dates and point to archived evidence where the source was updated. No review or approval is inferred. See the [refinement report](../CSP-Post-Cycle-Refinement-Report.md).
 
 Task–competency membership and quantitative totals for this cycle are unchanged.
+
+## Navigation
+
+[Task-package index](en/README.md) · [Teaching plans](syllabus/README.md) · [All cycles](../README.md)

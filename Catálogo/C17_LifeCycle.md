@@ -10,10 +10,10 @@ This lifecycle distinguishes CSP application cycles from specification iteration
 
 | Cycle | Task | Event | Decision | Source |
 | --- | --- | --- | --- | --- |
-| cycle-03 | task-25.00 | created | Create independent competency | [record](<../CSP/cycles/cycle-03/en/TASK25.00 - MusicCollection/Task25.00-CSP-Report.md>) |
-| cycle-03 | task-25.01 | reused | Reuse existing competency with documented task activation | [record](<../CSP/cycles/cycle-03/en/TASK25.01 - TheVendingMachine/TASK25.01-CSP-Report.md>) |
-| cycle-03 | task-25.02 | reused | Reuse existing competency with documented task activation | [record](<../CSP/cycles/cycle-03/en/TASK25.02 - TheMinotaursLabyrinth/TASK25.02-CSP-Report.md>) |
-| cycle-03 | task-25.03 | reused | Reuse existing competency with documented task activation | [record](<../CSP/cycles/cycle-03/en/TASK25.03 - TrafficControl/TASK25.03-CSP-Report.md>) |
+| cycle-03 | task-25.00 | created | Create independent competency | [record](<../CSP/cycles/cycle-03/en/TASK301%20-%20MusicCollection/TASK301-CSP-Report.md>) |
+| cycle-03 | task-25.01 | reused | Reuse existing competency with documented task activation | [record](<../CSP/cycles/cycle-03/en/TASK302%20-%20TheVendingMachine/TASK302-CSP-Report.md>) |
+| cycle-03 | task-25.02 | reused | Reuse existing competency with documented task activation | [record](<../CSP/cycles/cycle-03/en/TASK303%20-%20TheMinotaursLabyrinth/TASK303-CSP-Report.md>) |
+| cycle-03 | task-25.03 | reused | Reuse existing competency with documented task activation | [record](<../CSP/cycles/cycle-03/en/TASK304%20-%20TrafficControl/TASK304-CSP-Report.md>) |
 
 The originating task belongs to Cycle 3 (2025). Its report integrates specification and discussion. No separate Cycle 1 expert review, Cycle 2 stabilization or unrecorded formal approval is assigned to this identity.
 

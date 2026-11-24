@@ -10,25 +10,25 @@ This lifecycle distinguishes CSP application cycles from specification iteration
 
 | Cycle | Task | Event | Decision | Source |
 | --- | --- | --- | --- | --- |
-| cycle-01 | task-01 | created | Created | [record](<../CSP/cycles/cycle-01/en/Task01/Task01-CSP-Report.md>) |
-| cycle-01 | task-01 | revised | Approved with Revisions | [record](<../CSP/cycles/cycle-01/en/Task01/Task01-CSP-Adjustments.md>) |
-| cycle-01 | task-02 | reused | Approved with Revisions | [record](<../CSP/cycles/cycle-01/en/Task02/Task02-CSP-Adjustments.md>) |
-| cycle-01 | task-03 | reused | Approved with Revisions | [record](<../CSP/cycles/cycle-01/en/Task03/Task03-CSP-Adjustments.md>) |
-| cycle-01 | task-04 | reused | Needs Revision; adjustments implemented | [record](<../CSP/cycles/cycle-01/en/Task04/Task04-CSP-Adjustments.md>) |
-| cycle-01 | task-05 | reused | Approved with Required Revisions; adjustments implemented | [record](<../CSP/cycles/cycle-01/en/Task05/TASK05-CSP-Adjustments.md>) |
-| cycle-02 | task-201 | reused | Existing competency selected | [record](<../CSP/cycles/cycle-02/en/Task201/Task201-CSP-Report.md>) |
-| cycle-02 | task-201 | reviewed | Strong alignment; None | [record](<../CSP/cycles/cycle-02/en/Task201/TASK201-CSP-Review-Report.md>) |
-| cycle-02 | task-201 | activation_clarified | Contextual role documented; identity retained | [record](<../CSP/cycles/cycle-02/en/Task201/TASK201-CSP-Adjustment.md>) |
-| cycle-02 | task-202 | reused | Existing competency selected | [record](<../CSP/cycles/cycle-02/en/Task202/Task202-CSP-Report.md>) |
-| cycle-02 | task-202 | reviewed | Strong alignment; None | [record](<../CSP/cycles/cycle-02/en/Task202/TASK202-CSP-Review-Report.md>) |
-| cycle-02 | task-202 | activation_clarified | Association retained in adjusted set | [record](<../CSP/cycles/cycle-02/en/Task202/TASK202-CSP-Adustments.md>) |
-| cycle-02 | task-203 | reused | Existing competency selected | [record](<../CSP/cycles/cycle-02/en/Task203/Task203-CSP-Report.md>) |
-| cycle-02 | task-203 | reviewed | Stable reuse; no tension identified | [record](<../CSP/cycles/cycle-02/en/Task203/TASK203-CSP-Review-Report.md>) |
-| cycle-02 | task-203 | activation_clarified | Contextual role documented; identity retained | [record](<../CSP/cycles/cycle-02/en/Task203/TASK203-CSP-Adjustments.md>) |
-| cycle-02 | task-204 | reused | Existing competency selected | [record](<../CSP/cycles/cycle-02/en/Task204/Task204-CSP-Report.md>) |
-| cycle-02 | task-204 | reviewed | Mandatory transversal | [record](<../CSP/cycles/cycle-02/en/Task204/TASK204-CSRP-Report.md>) |
-| cycle-02 | task-204 | activation_clarified | Contextual role documented; identity retained | [record](<../CSP/cycles/cycle-02/en/Task204/TASK204-CSP-Adjustments.md>) |
-| cycle-03 | task-25.05 | reused | Reuse existing competency with documented task activation | [record](<../CSP/cycles/cycle-03/en/TASK25.05 - OnlineJudges/TASK25.05-CSP-Report.md>) |
+| cycle-01 | task-01 | created | Created | [record](<../CSP/cycles/cycle-01/en/Task01-TheVendingMachine/Task01-CSP-Report.md>) |
+| cycle-01 | task-01 | revised | Approved with Revisions | [record](<../CSP/cycles/cycle-01/en/Task01-TheVendingMachine/Task01-CSP-Adjustments.md>) |
+| cycle-01 | task-02 | reused | Approved with Revisions | [record](<../CSP/cycles/cycle-01/en/Task02-TrafficControl/Task02-CSP-Adjustments.md>) |
+| cycle-01 | task-03 | reused | Approved with Revisions | [record](<../CSP/cycles/cycle-01/en/Task03-FarmingRobot/Task03-CSP-Adjustments.md>) |
+| cycle-01 | task-04 | reused | Needs Revision; adjustments implemented | [record](<../CSP/cycles/cycle-01/en/Task04-TheReturnFarmingRobot/Task04-CSP-Adjustments.md>) |
+| cycle-01 | task-05 | reused | Approved with Required Revisions; adjustments implemented | [record](<../CSP/cycles/cycle-01/en/Task05-TheFarmingRobotAndFeedingRobot/TASK05-CSP-Adjustments.md>) |
+| cycle-02 | task-201 | reused | Existing competency selected | [record](<../CSP/cycles/cycle-02/en/Task201-DroneMonitoring/Task201-CSP-Report.md>) |
+| cycle-02 | task-201 | reviewed | Strong alignment; None | [record](<../CSP/cycles/cycle-02/en/Task201-DroneMonitoring/TASK201-CSP-Review-Report.md>) |
+| cycle-02 | task-201 | activation_clarified | Contextual role documented; identity retained | [record](<../CSP/cycles/cycle-02/en/Task201-DroneMonitoring/TASK201-CSP-Adjustment.md>) |
+| cycle-02 | task-202 | reused | Existing competency selected | [record](<../CSP/cycles/cycle-02/en/Task202-TeamControl/Task202-CSP-Report.md>) |
+| cycle-02 | task-202 | reviewed | Strong alignment; None | [record](<../CSP/cycles/cycle-02/en/Task202-TeamControl/TASK202-CSP-Review-Report.md>) |
+| cycle-02 | task-202 | activation_clarified | Association retained in adjusted set | [record](<../CSP/cycles/cycle-02/en/Task202-TeamControl/TASK202-CSP-Adustments.md>) |
+| cycle-02 | task-203 | reused | Existing competency selected | [record](<../CSP/cycles/cycle-02/en/Task203-ParkingControl/Task203-CSP-Report.md>) |
+| cycle-02 | task-203 | reviewed | Stable reuse; no tension identified | [record](<../CSP/cycles/cycle-02/en/Task203-ParkingControl/TASK203-CSP-Review-Report.md>) |
+| cycle-02 | task-203 | activation_clarified | Contextual role documented; identity retained | [record](<../CSP/cycles/cycle-02/en/Task203-ParkingControl/TASK203-CSP-Adjustments.md>) |
+| cycle-02 | task-204 | reused | Existing competency selected | [record](<../CSP/cycles/cycle-02/en/Task204-OnlineJudges/Task204-CSP-Report.md>) |
+| cycle-02 | task-204 | reviewed | Mandatory transversal | [record](<../CSP/cycles/cycle-02/en/Task204-OnlineJudges/TASK204-CSRP-Report.md>) |
+| cycle-02 | task-204 | activation_clarified | Contextual role documented; identity retained | [record](<../CSP/cycles/cycle-02/en/Task204-OnlineJudges/TASK204-CSP-Adjustments.md>) |
+| cycle-03 | task-25.05 | reused | Reuse existing competency with documented task activation | [record](<../CSP/cycles/cycle-03/en/TASK305%20-%20OnlineJudges/TASK305-CSP-Report.md>) |
 
 ## Current reference
 

@@ -10,17 +10,17 @@ This lifecycle distinguishes CSP application cycles from specification iteration
 
 | Cycle | Task | Event | Decision | Source |
 | --- | --- | --- | --- | --- |
-| cycle-01 | task-03 | created | Created | [record](<../CSP/cycles/cycle-01/en/Task03/Task03-CSP-Report.md>) |
-| cycle-01 | task-03 | revised | Approved with Revisions | [record](<../CSP/cycles/cycle-01/en/Task03/Task03-CSP-Adjustments.md>) |
-| cycle-01 | task-01 | reused | Approved | [record](<../CSP/cycles/cycle-01/en/Task01/Review2/Task01-CSP-Report-v2.md>) |
-| cycle-02 | task-201 | reused | Existing competency selected | [record](<../CSP/cycles/cycle-02/en/Task201/Task201-CSP-Report.md>) |
-| cycle-02 | task-201 | reviewed | Strong alignment; None significant | [record](<../CSP/cycles/cycle-02/en/Task201/TASK201-CSP-Review-Report.md>) |
-| cycle-02 | task-201 | activation_clarified | Contextual role documented; identity retained | [record](<../CSP/cycles/cycle-02/en/Task201/TASK201-CSP-Adjustment.md>) |
-| cycle-02 | task-204 | reused | Existing competency selected | [record](<../CSP/cycles/cycle-02/en/Task204/Task204-CSP-Report.md>) |
-| cycle-02 | task-204 | reviewed | Mandatory supporting | [record](<../CSP/cycles/cycle-02/en/Task204/TASK204-CSRP-Report.md>) |
-| cycle-02 | task-204 | activation_clarified | Contextual role documented; identity retained | [record](<../CSP/cycles/cycle-02/en/Task204/TASK204-CSP-Adjustments.md>) |
-| cycle-03 | task-25.01 | association_added | Add C06 to LO3 while retaining supporting associations | [record](<../CSP/cycles/cycle-03/en/TASK25.01 - TheVendingMachine/TASK25.01-CSP-Report.md>) |
-| cycle-03 | task-25.05 | reused | Reuse existing competency with documented task activation | [record](<../CSP/cycles/cycle-03/en/TASK25.05 - OnlineJudges/TASK25.05-CSP-Report.md>) |
+| cycle-01 | task-03 | created | Created | [record](<../CSP/cycles/cycle-01/en/Task03-FarmingRobot/Task03-CSP-Report.md>) |
+| cycle-01 | task-03 | revised | Approved with Revisions | [record](<../CSP/cycles/cycle-01/en/Task03-FarmingRobot/Task03-CSP-Adjustments.md>) |
+| cycle-01 | task-01 | reused | Approved | [record](<../CSP/cycles/cycle-01/en/Task01-TheVendingMachine/Review2/Task01-CSP-Report-v2.md>) |
+| cycle-02 | task-201 | reused | Existing competency selected | [record](<../CSP/cycles/cycle-02/en/Task201-DroneMonitoring/Task201-CSP-Report.md>) |
+| cycle-02 | task-201 | reviewed | Strong alignment; None significant | [record](<../CSP/cycles/cycle-02/en/Task201-DroneMonitoring/TASK201-CSP-Review-Report.md>) |
+| cycle-02 | task-201 | activation_clarified | Contextual role documented; identity retained | [record](<../CSP/cycles/cycle-02/en/Task201-DroneMonitoring/TASK201-CSP-Adjustment.md>) |
+| cycle-02 | task-204 | reused | Existing competency selected | [record](<../CSP/cycles/cycle-02/en/Task204-OnlineJudges/Task204-CSP-Report.md>) |
+| cycle-02 | task-204 | reviewed | Mandatory supporting | [record](<../CSP/cycles/cycle-02/en/Task204-OnlineJudges/TASK204-CSRP-Report.md>) |
+| cycle-02 | task-204 | activation_clarified | Contextual role documented; identity retained | [record](<../CSP/cycles/cycle-02/en/Task204-OnlineJudges/TASK204-CSP-Adjustments.md>) |
+| cycle-03 | task-25.01 | association_added | Add C06 to LO3 while retaining supporting associations | [record](<../CSP/cycles/cycle-03/en/TASK302%20-%20TheVendingMachine/TASK302-CSP-Report.md>) |
+| cycle-03 | task-25.05 | reused | Reuse existing competency with documented task activation | [record](<../CSP/cycles/cycle-03/en/TASK305%20-%20OnlineJudges/TASK305-CSP-Report.md>) |
 
 ## Current reference
 

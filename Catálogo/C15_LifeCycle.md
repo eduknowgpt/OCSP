@@ -10,10 +10,10 @@ This lifecycle distinguishes CSP application cycles from specification iteration
 
 | Cycle | Task | Event | Decision | Source |
 | --- | --- | --- | --- | --- |
-| cycle-02 | task-204 | created | New competency proposed | [record](<../CSP/cycles/cycle-02/en/Task204/Task204-CSP-Report.md>) |
-| cycle-02 | task-204 | reviewed | Validated as core; conceptual scope | [record](<../CSP/cycles/cycle-02/en/Task204/TASK204-CSRP-Report.md>) |
-| cycle-02 | task-204 | revised | Components refined; identity retained | [record](<../CSP/cycles/cycle-02/en/Task204/TASK204-CSP-Adjustments.md>) |
-| cycle-03 | task-25.05 | reused | Reuse existing competency with documented task activation | [record](<../CSP/cycles/cycle-03/en/TASK25.05 - OnlineJudges/TASK25.05-CSP-Report.md>) |
+| cycle-02 | task-204 | created | New competency proposed | [record](<../CSP/cycles/cycle-02/en/Task204-OnlineJudges/Task204-CSP-Report.md>) |
+| cycle-02 | task-204 | reviewed | Validated as core; conceptual scope | [record](<../CSP/cycles/cycle-02/en/Task204-OnlineJudges/TASK204-CSRP-Report.md>) |
+| cycle-02 | task-204 | revised | Components refined; identity retained | [record](<../CSP/cycles/cycle-02/en/Task204-OnlineJudges/TASK204-CSP-Adjustments.md>) |
+| cycle-03 | task-25.05 | reused | Reuse existing competency with documented task activation | [record](<../CSP/cycles/cycle-03/en/TASK305%20-%20OnlineJudges/TASK305-CSP-Report.md>) |
 
 ## Current reference
 

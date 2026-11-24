@@ -12,8 +12,8 @@ Consolidation of the current local TASK401–TASK411 reports for introductory pr
 - [Lifecycle](CSP-Competency-Lifecycle.csv): source-supported creation, reuse and selected revision events.
 - [Composition](CSP-Competency-Composition.csv): seven required parent–atom links, separate from task counts.
 - [Data dictionary](CSP-Data-Dictionary.md): schemas, counting rules and source precedence.
-- [Validation summary](validation-summary.json): reproducible totals and integrity-check result.
-- `evidence/`: byte-preserved report snapshots and an explicitly labeled conversation decision note.
+- [Task-package index](en/README.md): instructional statements, reports, and the separate TASK401 review/adjustment records.
+- [Teaching-plan guide](syllabus/README.md): available curricular context.
 
 ## Current totals
 
@@ -46,10 +46,12 @@ CM13, CM16 and CM17 are active component-only entries. CM14 and CM15 originated 
 
 ## Compatibility and provenance
 
-The principal Cycle 3 CSV columns are retained, with Cycle 4 additions for definitions and full KS arrays. Cycle 3 refinement fields are not populated with invented Cycle 4 events. The six user-named Cycle 3 files were inspected read-only; their task identifiers and prior-cycle identities were not copied into this dataset. Original reports and files in the synced project sources directory were not edited.
+The principal Cycle 3 CSV columns are retained, with Cycle 4 additions for definitions and full KS arrays. Cycle 3 refinement fields do not establish Cycle 4 events. The introductory-programming identities belong to this cycle's separate CM catalog.
 
-Generated locally under outputs/Cycle04-Consolidation/deliverables. Nothing has been published to or overwritten in I:/Meu Drive/OCSP/CSP/cycles/. To rebuild, run the sibling build.py from the original workspace; evidence is refreshed from the current reports. Existing source hashes are the content version markers; exact historical event dates remain blank.
+The consolidated CSV files and task packages are stored in this repository. The generation workspace mentioned in earlier documentation is not part of this directory. Source hashes are content version markers; exact historical event dates remain blank where unavailable.
 
 ## Validation
 
-All integrity checks passed. The build checks 60 unique current associations against independent per-task totals, identifier resolution, complete acyclic compositions, current-source hashes, authoritative activation overrides and exclusion of withdrawn knowledge from active specifications. Read the dictionary before aggregating CSV rows. Historical and component-only entries must not inflate direct current totals.
+The counts above are the documented consolidation totals. This directory does not include the previously referenced `validation-summary.json`, `evidence/` snapshots, or a `build.py` generator, so this checkout alone does not reproduce that validation procedure. Restore and document the corresponding generation and validation artifacts before claiming a reproducible rebuild. Read the dictionary before aggregating rows: historical and component-only entries must not inflate direct current totals.
+
+[All cycles](../README.md)

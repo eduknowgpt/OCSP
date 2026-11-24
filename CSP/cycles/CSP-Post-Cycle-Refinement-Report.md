@@ -115,7 +115,7 @@ The resulting corpus supports claims about documented origins and maintained spe
 
 ## 7. Preservation and validation
 
-Previous versions of every changed existing file are retained in the [refinement archive](refinements/RF-01-03-2026-10-02/README.md). A file manifest identifies the former and current content hashes and the decisions applied. Initial proposals and expert-review reports are preserved. Historical lifecycle source links identify the corresponding archived report where necessary.
+Previous versions of every changed existing file are retained in the [refinement archive in Git history](https://github.com/eduknowgpt/OCSP/blob/2cf2d968456720db3967c7b0061d1e353a45667a/CSP/cycles/refinements/RF-01-03-2026-10-02/README.md). A file manifest identifies the former and current content hashes and the decisions applied. Initial proposals and expert-review reports are preserved. Historical lifecycle source links identify the corresponding archived report where necessary.
 
 Validation checks reconcile origins, current and baseline association totals, reference-table components, unchanged activation labels, C12 coverage in LO4, foreign-key relations, source paths and file hashes. No new approval category or undocumented event date is inferred.
 

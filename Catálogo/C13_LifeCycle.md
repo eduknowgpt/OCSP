@@ -10,11 +10,11 @@ This lifecycle distinguishes CSP application cycles from specification iteration
 
 | Cycle | Task | Event | Decision | Source |
 | --- | --- | --- | --- | --- |
-| cycle-01 | task-04 | created | Created | [record](<../CSP/cycles/cycle-01/en/Task04/Task04-CSP-Report.md>) |
-| cycle-01 | task-04 | revised | Needs Revision; adjustments implemented | [record](<../CSP/cycles/cycle-01/en/Task04/Task04-CSP-Adjustments.md>) |
-| cycle-02 | task-202 | reused | Existing competency selected | [record](<../CSP/cycles/cycle-02/en/Task202/Task202-CSP-Report.md>) |
-| cycle-02 | task-202 | reviewed | Partial alignment; Moderate | [record](<../CSP/cycles/cycle-02/en/Task202/TASK202-CSP-Review-Report.md>) |
-| cycle-02 | task-202 | specialized_in_task | Base retained; adjusted task association uses C13.01 | [record](<../CSP/cycles/cycle-02/en/Task202/TASK202-CSP-Adustments.md>) |
+| cycle-01 | task-04 | created | Created | [record](<../CSP/cycles/cycle-01/en/Task04-TheReturnFarmingRobot/Task04-CSP-Report.md>) |
+| cycle-01 | task-04 | revised | Needs Revision; adjustments implemented | [record](<../CSP/cycles/cycle-01/en/Task04-TheReturnFarmingRobot/Task04-CSP-Adjustments.md>) |
+| cycle-02 | task-202 | reused | Existing competency selected | [record](<../CSP/cycles/cycle-02/en/Task202-TeamControl/Task202-CSP-Report.md>) |
+| cycle-02 | task-202 | reviewed | Partial alignment; Moderate | [record](<../CSP/cycles/cycle-02/en/Task202-TeamControl/TASK202-CSP-Review-Report.md>) |
+| cycle-02 | task-202 | specialized_in_task | Base retained; adjusted task association uses C13.01 | [record](<../CSP/cycles/cycle-02/en/Task202-TeamControl/TASK202-CSP-Adustments.md>) |
 
 ## Current reference
 
